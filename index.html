@@ -10,52 +10,23 @@
   <div class="app">
     <header class="app-header">
       <h1>ぷにスケジュール</h1>
-      <p class="tagline">余裕があるうちは丸くぷにぷに、予定が詰まるほど四角くカチコチに。</p>
+      <p class="tagline">
+        今日から1年間、12週間+1週間（お休み週）のサイクルを繰り返す年間ビュー。
+        余裕があるうちは丸くぷにぷに、予定が詰まるほど四角くカチコチに。
+      </p>
     </header>
 
-    <section class="capacity-panel">
+    <section class="global-settings">
       <label class="capacity-field">
-        今日の使える時間
+        1日の使える時間
         <div class="capacity-input-row">
-          <input type="number" id="capacityInput" min="60" max="1440" step="30" value="480" />
+          <input type="number" id="dailyCapacityInput" min="60" max="1440" step="30" />
           <span>分</span>
         </div>
       </label>
-
-      <div class="meter" id="meter">
-        <div class="meter-fill" id="meterFill"></div>
-        <div class="meter-label" id="meterLabel">0 / 480 分</div>
-      </div>
     </section>
 
-    <section class="add-panel">
-      <input type="text" id="titleInput" placeholder="予定のタイトル（例：ミーティング）" maxlength="40" />
-      <div class="duration-row">
-        <div class="preset-buttons" id="presetButtons">
-          <button type="button" data-min="15">15分</button>
-          <button type="button" data-min="30">30分</button>
-          <button type="button" data-min="60">1時間</button>
-          <button type="button" data-min="90">1.5時間</button>
-          <button type="button" data-min="120">2時間</button>
-        </div>
-        <div class="custom-duration">
-          <input type="number" id="durationInput" min="5" max="480" step="5" value="30" />
-          <span>分</span>
-        </div>
-      </div>
-      <button type="button" id="addButton" class="add-button">予定を入れる</button>
-      <p class="hint" id="hint">クリックした予定は削除できます</p>
-    </section>
-
-    <section class="jar-wrap">
-      <div class="jar" id="jar">
-        <p class="empty-msg" id="emptyMsg">まだ予定はありません。丸くて自由な一日です。</p>
-      </div>
-    </section>
-
-    <footer class="app-footer">
-      <button type="button" id="resetButton" class="reset-button">1日をリセット</button>
-    </footer>
+    <main id="viewRoot"></main>
   </div>
 
   <script src="app.js"></script>
