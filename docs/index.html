@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分岐点ニュース</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #666666;
+    --border: #e0e0e0;
+    --accent-fact: #1d6fd6;
+    --accent-opinion: #c2691d;
+    --card-bg: #f7f7f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12141a;
+      --fg: #eaeaea;
+      --muted: #9a9a9a;
+      --border: #2a2d36;
+      --accent-fact: #6ea8ff;
+      --accent-opinion: #f0a35e;
+      --card-bg: #1a1d26;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 1rem 3rem;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.6;
+  }
+  header {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 2.5rem 0 1rem;
+  }
+  h1 {
+    margin: 0 0 0.25rem;
+    font-size: 1.75rem;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+  }
+  .category h2 {
+    font-size: 1.1rem;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.75rem;
+  }
+  .category-fact h2 { color: var(--accent-fact); border-color: var(--accent-fact); }
+  .category-opinion h2 { color: var(--accent-opinion); border-color: var(--accent-opinion); }
+  .article-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.6rem;
+  }
+  .article {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+  }
+  .article-title {
+    color: var(--fg);
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+  }
+  .article-title:hover { text-decoration: underline; }
+  .article-meta {
+    color: var(--muted);
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+  }
+  .empty { color: var(--muted); list-style: none; }
+  .errors {
+    max-width: 760px;
+    margin: 2rem auto 0;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+  footer {
+    max-width: 760px;
+    margin: 2rem auto 0;
+    color: var(--muted);
+    font-size: 0.75rem;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>分岐点ニュース</h1>
+    <p class="subtitle">最終更新: 2026年07月29日 07:39 JST ・ 直近ニュースを事実/意見に分けて自動更新</p>
+  </header>
+  <main>
+    <section class="category category-fact">
+      <h2>事実</h2>
+      <ul class="article-list"><li class="empty">現在取得できる記事がありません。</li>
+      </ul>
+    </section>
+    <section class="category category-opinion">
+      <h2>意見</h2>
+      <ul class="article-list"><li class="empty">現在取得できる記事がありません。</li>
+      </ul>
+    </section>
+  </main>
+  
+    <details class="errors">
+      <summary>取得できなかったフィード (5)</summary>
+      <ul><li>NHKニュース(主要): &lt;urlopen error Tunnel connection failed: 403 Forbidden&gt;</li><li>NHKニュース(社会): &lt;urlopen error Tunnel connection failed: 403 Forbidden&gt;</li><li>47NEWS(共同通信): &lt;urlopen error Tunnel connection failed: 403 Forbidden&gt;</li><li>東洋経済オンライン: &lt;urlopen error Tunnel connection failed: 403 Forbidden&gt;</li><li>ダイヤモンド・オンライン: &lt;urlopen error Tunnel connection failed: 403 Forbidden&gt;</li></ul>
+    </details>
+  <footer>
+    <p>本サイトはRSSフィード由来の情報を自動集約したものです。分類はフィード単位の簡易的な分類であり、完全な事実/意見の判定を保証するものではありません。</p>
+  </footer>
+</body>
+</html>
