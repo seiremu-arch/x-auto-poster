@@ -146,24 +146,42 @@ def render_html(by_category, errors):
 <style>
   :root {{
     color-scheme: light dark;
-    --bg: #ffffff;
-    --fg: #1a1a1a;
-    --muted: #666666;
-    --border: #e0e0e0;
+    --bg: #f8f9fb;
+    --fg: #1a1d24;
+    --muted: #6b7280;
+    --border: #e2e5ea;
     --accent-fact: #1d6fd6;
-    --accent-opinion: #c2691d;
-    --card-bg: #f7f7f8;
+    --accent-opinion: #b45f18;
+    --card-bg: #f1f3f6;
   }}
   @media (prefers-color-scheme: dark) {{
     :root {{
-      --bg: #12141a;
-      --fg: #eaeaea;
-      --muted: #9a9a9a;
-      --border: #2a2d36;
+      --bg: #10121a;
+      --fg: #e8eaef;
+      --muted: #9096a3;
+      --border: #262b36;
       --accent-fact: #6ea8ff;
       --accent-opinion: #f0a35e;
-      --card-bg: #1a1d26;
+      --card-bg: #181b24;
     }}
+  }}
+  :root[data-theme="dark"] {{
+    --bg: #10121a;
+    --fg: #e8eaef;
+    --muted: #9096a3;
+    --border: #262b36;
+    --accent-fact: #6ea8ff;
+    --accent-opinion: #f0a35e;
+    --card-bg: #181b24;
+  }}
+  :root[data-theme="light"] {{
+    --bg: #f8f9fb;
+    --fg: #1a1d24;
+    --muted: #6b7280;
+    --border: #e2e5ea;
+    --accent-fact: #1d6fd6;
+    --accent-opinion: #b45f18;
+    --card-bg: #f1f3f6;
   }}
   * {{ box-sizing: border-box; }}
   body {{
@@ -226,6 +244,7 @@ def render_html(by_category, errors):
     color: var(--muted);
     font-size: 0.8rem;
     margin-top: 0.3rem;
+    font-variant-numeric: tabular-nums;
   }}
   .empty {{ color: var(--muted); list-style: none; }}
   .errors {{
