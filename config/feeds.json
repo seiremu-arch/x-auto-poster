@@ -1,0 +1,30 @@
+{
+  "_comment": "各フィードは category を 'fact'(事実の速報ニュース) か 'opinion'(コラム・分析・論評) のどちらかに分類します。分類はフィード単位の簡易的なヒューリスティックです。フィードが配信終了・URL変更した場合はこのファイルを編集してください。",
+  "feeds": [
+    {
+      "name": "NHKニュース(主要)",
+      "url": "https://www3.nhk.or.jp/rss/news/cat0.xml",
+      "category": "fact"
+    },
+    {
+      "name": "NHKニュース(社会)",
+      "url": "https://www3.nhk.or.jp/rss/news/cat1.xml",
+      "category": "fact"
+    },
+    {
+      "name": "47NEWS(共同通信)",
+      "url": "https://www.47news.jp/rss/47news.rdf",
+      "category": "fact"
+    },
+    {
+      "name": "東洋経済オンライン",
+      "url": "https://toyokeizai.net/list/feed/rss",
+      "category": "opinion"
+    },
+    {
+      "name": "ダイヤモンド・オンライン",
+      "url": "https://diamond.jp/list/feed/rss/dol",
+      "category": "opinion"
+    }
+  ]
+}
