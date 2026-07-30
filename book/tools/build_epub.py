@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""連作短編集『夢編集局』のKindle用EPUB3を組み立てる。
+"""連作短編集のKindle用EPUB3を組み立てる。
 
 使い方:
-    python3 book/tools/build_epub.py
+    python3 book/tools/build_epub.py vol1
+    python3 book/tools/build_epub.py vol2
+    python3 book/tools/build_epub.py          # 全巻をまとめて出力
 
-book/stories/ の中の NN_*.txt を番号順に読み、縦書きのEPUB3として
+book/volN/stories/ の中の NN_*.txt を番号順に読み、縦書きのEPUB3として
 book/dist/ に出力する。各テキストは一行目を題、以降を本文とし、
 「一」「二」などの数字だけの行を節の区切りとして扱う。
 
@@ -13,18 +15,28 @@ book/dist/ に出力する。各テキストは一行目を題、以降を本文
 
 import html
 import re
+import sys
 import unicodedata
 import zipfile
 from pathlib import Path
 
-BOOK_TITLE = "夢編集局"
-BOOK_SUBTITLE = "十二の夜と、ひとつの選択"
 AUTHOR = "著者名未設定"
 LANG = "ja"
-UUID = "urn:uuid:8f2c1a64-3d5e-4b90-a7c1-yumehenshukyoku"
+
+VOLUMES = {
+    "vol1": {
+        "title": "夢編集局",
+        "subtitle": "十二の夜",
+        "uuid": "urn:uuid:8f2c1a64-3d5e-4b90-a7c1-000000000001",
+    },
+    "vol2": {
+        "title": "均し",
+        "subtitle": "夢編集局 第二集",
+        "uuid": "urn:uuid:8f2c1a64-3d5e-4b90-a7c1-000000000002",
+    },
+}
 
 ROOT = Path(__file__).resolve().parent.parent
-STORIES = ROOT / "stories"
 DIST = ROOT / "dist"
 
 SECTION_RE = re.compile(r"^[一二三四五六七八九十]+$")
@@ -111,20 +123,20 @@ def story_xhtml(story: dict) -> str:
     return "\n".join(parts)
 
 
-def front_xhtml(stories: list) -> str:
+def front_xhtml(stories: list, meta: dict) -> str:
     total = sum(s["chars"] for s in stories)
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<html xmlns="http://www.w3.org/1999/xhtml" '
         f'xml:lang="{LANG}" lang="{LANG}">',
         "<head>",
-        f"<title>{html.escape(BOOK_TITLE)}</title>",
+        f"<title>{html.escape(meta['title'])}</title>",
         '<meta charset="UTF-8"/>',
         '<link rel="stylesheet" type="text/css" href="style.css"/>',
         "</head>",
         '<body class="front">',
-        f"<h1>{html.escape(BOOK_TITLE)}</h1>",
-        f"<p>{html.escape(BOOK_SUBTITLE)}</p>",
+        f"<h1>{html.escape(meta['title'])}</h1>",
+        f"<p>{html.escape(meta['subtitle'])}</p>",
         f"<p>{html.escape(AUTHOR)}</p>",
         f"<p>全{len(stories)}話　約{total:,}字</p>",
         "</body>",
@@ -158,7 +170,7 @@ def nav_xhtml(stories: list) -> str:
 </html>'''
 
 
-def opf(stories: list) -> str:
+def opf(stories: list, meta: dict) -> str:
     manifest = [
         '<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" '
         'properties="nav"/>',
@@ -178,8 +190,8 @@ def opf(stories: list) -> str:
          unique-identifier="bookid" xml:lang="{LANG}"
          prefix="rendition: http://www.idpf.org/vocab/rendition/#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:identifier id="bookid">{UUID}</dc:identifier>
-    <dc:title>{html.escape(BOOK_TITLE)}</dc:title>
+    <dc:identifier id="bookid">{meta['uuid']}</dc:identifier>
+    <dc:title>{html.escape(meta['title'])}</dc:title>
     <dc:creator>{html.escape(AUTHOR)}</dc:creator>
     <dc:language>{LANG}</dc:language>
     <meta property="rendition:layout">reflowable</meta>
@@ -205,14 +217,17 @@ CONTAINER = '''<?xml version="1.0" encoding="UTF-8"?>
 </container>'''
 
 
-def main() -> None:
-    paths = sorted(STORIES.glob("[0-9][0-9]_*.txt"))
+def build(vol: str) -> None:
+    meta = VOLUMES[vol]
+    stories_dir = ROOT / vol / "stories"
+    paths = sorted(stories_dir.glob("[0-9][0-9]_*.txt"))
     if not paths:
-        raise SystemExit(f"本文が見つかりません: {STORIES}")
+        print(f"[{vol}] 本文がまだありません: {stories_dir}")
+        return
 
     stories = [parse_story(p) for p in paths]
     DIST.mkdir(parents=True, exist_ok=True)
-    out = DIST / f"{BOOK_TITLE}.epub"
+    out = DIST / f"{meta['title']}.epub"
 
     with zipfile.ZipFile(out, "w") as z:
         # mimetypeは非圧縮で先頭に置くことがEPUBの規格上の要件
@@ -223,19 +238,21 @@ def main() -> None:
         )
         z.writestr("META-INF/container.xml", CONTAINER, zipfile.ZIP_DEFLATED)
         z.writestr("OEBPS/style.css", STYLE, zipfile.ZIP_DEFLATED)
-        z.writestr("OEBPS/content.opf", opf(stories), zipfile.ZIP_DEFLATED)
+        z.writestr("OEBPS/content.opf", opf(stories, meta), zipfile.ZIP_DEFLATED)
         z.writestr("OEBPS/nav.xhtml", nav_xhtml(stories), zipfile.ZIP_DEFLATED)
-        z.writestr("OEBPS/front.xhtml", front_xhtml(stories), zipfile.ZIP_DEFLATED)
+        z.writestr(
+            "OEBPS/front.xhtml", front_xhtml(stories, meta), zipfile.ZIP_DEFLATED
+        )
         for i, s in enumerate(stories, start=1):
             z.writestr(
                 f"OEBPS/p{i:02d}.xhtml", story_xhtml(s), zipfile.ZIP_DEFLATED
             )
 
     total = sum(s["chars"] for s in stories)
-    print(f"出力: {out}")
-    print(f"収録: {len(stories)}話　合計 {total:,}字")
+    print(f"[{vol}] 『{meta['title']}』 → {out}")
+    print(f"  収録 {len(stories)}話　合計 {total:,}字　（目標 12話）")
     for i, s in enumerate(stories, start=1):
-        print(f"  {i:2d}. {s['title']}　{s['chars']:,}字")
+        print(f"   {i:2d}. {s['title']}　{s['chars']:,}字")
 
     # 縦書きで倒れる半角文字の混入を検出する
     warned = False
@@ -245,9 +262,18 @@ def main() -> None:
                       and not c.isspace()})
         if bad:
             warned = True
-            print(f"  警告 [{s['title']}] 半角文字: {''.join(bad)}")
+            print(f"   警告 [{s['title']}] 半角文字: {''.join(bad)}")
     if not warned:
-        print("半角文字の混入なし")
+        print("  半角文字の混入なし")
+
+
+def main() -> None:
+    args = sys.argv[1:]
+    targets = args or list(VOLUMES)
+    for vol in targets:
+        if vol not in VOLUMES:
+            raise SystemExit(f"不明な巻: {vol}（指定できるのは {', '.join(VOLUMES)}）")
+        build(vol)
 
 
 if __name__ == "__main__":
