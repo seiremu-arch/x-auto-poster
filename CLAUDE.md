@@ -31,6 +31,8 @@ KDP出版・SNS運用のサブエージェントチーム（定義は `.claude/a
 何を入力に動かすかの計画を出力）、メインセッションが「手足」（Taskツールで各ロールを順次起動）、
 受け渡しはすべてファイルベース。
 
+起動は `/run-project <依頼内容>`（定義は `.claude/commands/run-project.md`）。
+
 ワークスペース: `.claude/documents/projects/{yyyy-mm-dd}_{slug}/`
 
 | ファイル                   | 担当              |
