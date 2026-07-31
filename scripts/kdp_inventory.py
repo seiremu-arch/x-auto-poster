@@ -26,8 +26,9 @@ COLUMNS = [
     "format",
     "asin",
     "status",
-    "publish_date",
+    "submit_date",
     "price",
+    "currency",
     "kdp_select",
     "notes",
 ]
@@ -69,26 +70,36 @@ def volume_key(row: dict[str, str]) -> tuple[int, str]:
 
 def find_issues(rows: list[dict[str, str]]) -> list[str]:
     issues: list[str] = []
-    seen: dict[tuple[str, str, str, str], str] = {}
+    seen_asin: dict[str, str] = {}
+    seen_slot: dict[tuple[str, str, str, str], str] = {}
     volumes: dict[tuple[str, str, str], set[int]] = defaultdict(set)
 
     for row in rows:
-        key = (row["series"], row["volume"], row["language"], row["format"])
-        if key in seen:
-            issues.append(
-                f"重複: {row['series']} 第{row['volume']}巻 / {row['language']} / "
-                f"{row['format']}（{seen[key]}行目と{row['_line']}行目）"
-            )
-        else:
-            seen[key] = row["_line"]
+        # ASINはKDPが1タイトル1形態ごとに振る一意キー。重複＝転記ミス。
+        asin = row["asin"]
+        if asin:
+            if asin in seen_asin:
+                issues.append(
+                    f"ASIN重複: {asin}（{seen_asin[asin]}行目と{row['_line']}行目）"
+                )
+            else:
+                seen_asin[asin] = row["_line"]
 
-        if row["status"] == "live" and not row["publish_date"]:
-            issues.append(
-                f"公開中なのにリリース日が空: {row['title']}（{row['_line']}行目）"
-            )
+        # シリーズ・巻が未記入の行は同じキーに潰れてしまうため、両方揃った行だけ照合する。
+        if row["series"] and row["volume"]:
+            key = (row["series"], row["volume"], row["language"], row["format"])
+            if key in seen_slot:
+                issues.append(
+                    f"重複: {row['series']} 第{row['volume']}巻 / {row['language']} / "
+                    f"{row['format']}（{seen_slot[key]}行目と{row['_line']}行目）"
+                )
+            else:
+                seen_slot[key] = row["_line"]
+
+        if row["status"] == "live" and not row["submit_date"]:
+            issues.append(f"販売中なのに提出日が空: {row['title']}（{row['_line']}行目）")
         if row["status"] == "live" and not row["asin"]:
-            issues.append(f"公開中なのにASINが空: {row['title']}（{row['_line']}行目）")
-
+            issues.append(f"販売中なのにASINが空: {row['title']}（{row['_line']}行目）")
         try:
             volumes[(row["series"], row["language"], row["format"])].add(
                 int(row["volume"])
@@ -96,8 +107,16 @@ def find_issues(rows: list[dict[str, str]]) -> list[str]:
         except ValueError:
             pass
 
+    unfilled = [r for r in rows if not r["series"] or not r["volume"]]
+    if unfilled:
+        issues.append(
+            f"シリーズ／巻数が未記入: {len(unfilled)}件"
+            f"（{'、'.join(r['_line'] for r in unfilled)}行目）。"
+            "埋めると巻数の抜けを検出できるようになります"
+        )
+
     for (series, language, fmt), nums in sorted(volumes.items()):
-        if not nums:
+        if not nums or not series:
             continue
         gaps = sorted(set(range(1, max(nums) + 1)) - nums)
         if gaps:
@@ -126,9 +145,11 @@ def render(rows: list[dict[str, str]]) -> str:
 
     by_status: dict[str, int] = defaultdict(int)
     by_language: dict[str, int] = defaultdict(int)
+    by_format: dict[str, int] = defaultdict(int)
     for row in rows:
         by_status[row["status"] or "(未設定)"] += 1
         by_language[row["language"] or "(未設定)"] += 1
+        by_format[row["format"] or "(未設定)"] += 1
 
     lines += ["| ステータス | 件数 |", "| --- | --- |"]
     for status, count in sorted(by_status.items(), key=lambda x: -x[1]):
@@ -138,6 +159,11 @@ def render(rows: list[dict[str, str]]) -> str:
     lines += ["| 言語 | 件数 |", "| --- | --- |"]
     for language, count in sorted(by_language.items(), key=lambda x: -x[1]):
         lines.append(f"| {language} | {count} |")
+    lines.append("")
+
+    lines += ["| 形態 | 件数 |", "| --- | --- |"]
+    for fmt, count in sorted(by_format.items(), key=lambda x: -x[1]):
+        lines.append(f"| {fmt} | {count} |")
     lines.append("")
 
     lines += ["## シリーズ別", ""]
@@ -154,19 +180,21 @@ def render(rows: list[dict[str, str]]) -> str:
             "",
             f"{len(entries)}件　/　言語: {'、'.join(languages) or '未設定'}",
             "",
-            "| 巻 | タイトル | 言語 | 形態 | ASIN | ステータス | リリース日 |",
-            "| --- | --- | --- | --- | --- | --- | --- |",
+            "| 巻 | タイトル | 言語 | 形態 | ASIN | ステータス | 提出日 | 価格 |",
+            "| --- | --- | --- | --- | --- | --- | --- | --- |",
         ]
         for row in entries:
+            price = " ".join(p for p in (row["price"], row["currency"]) if p) or "-"
             lines.append(
-                "| {volume} | {title} | {language} | {format} | {asin} | {status} | {date} |".format(
+                "| {volume} | {title} | {language} | {format} | {asin} | {status} | {date} | {price} |".format(
                     volume=row["volume"] or "-",
                     title=row["title"],
                     language=row["language"] or "-",
                     format=row["format"] or "-",
                     asin=row["asin"] or "-",
                     status=STATUS_LABELS.get(row["status"], row["status"] or "-"),
-                    date=row["publish_date"] or "-",
+                    date=row["submit_date"] or "-",
+                    price=price,
                 )
             )
         lines.append("")

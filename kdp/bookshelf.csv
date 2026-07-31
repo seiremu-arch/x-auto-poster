@@ -1,2 +1,18 @@
-series,volume,title,subtitle,language,format,asin,status,publish_date,price,kdp_select,notes
-EXAMPLE_行ごと削除してください,1,サンプルタイトル,サンプルサブタイトル,ja,kindle,B0XXXXXXXX,live,2025-04-01,500,yes,この行は記入例
+series,volume,title,subtitle,language,format,asin,status,submit_date,price,currency,kdp_select,notes
+,,【エラーは、怖くない】VSCode×Claude Code、8章で覚え…,,ja,kindle,B0GX36XKL4,live,2026-07-27,500,JPY,,要確認:タイトル末尾が管理画面で省略
+,,はじめてのAI開発,プログラミング未経験から、Cursor・Clau…,ja,kindle,B0HBKWHXV9,live,2026-07-25,500,JPY,,要確認:サブタイトル末尾が管理画面で省略
+,,O leiloeiro morre duas vezes,Um mi…,pt-BR,kindle,B0HBKY317B,live,2026-07-25,16.50,BRL,,要確認:サブタイトル末尾が管理画面で省略
+,,A Stitch in Memory,,en,kindle,B0GSJQCWLR,live,2026-03-14,3.00,USD,,
+,,A Stitch in Memory,,en,paperback,B0HBKWPFX4,live,2026-07-25,9.20,USD,,
+,,El Misterio de la Exposición Felina…,,es,kindle,B0H2F5RQNT,live,2026-05-20,3.20,EUR,,要確認:タイトル末尾が管理画面で省略
+,,El Misterio de la Exposición Felina…,,es,paperback,B0HBL78WKS,live,2026-07-25,6.80,EUR,,要確認:タイトル末尾が管理画面で省略
+,,De veilingmeester sterft tweemaal,,nl,kindle,B0HB4C8T1F,live,2026-07-25,2.80,EUR,,要確認:サブタイトルが管理画面で省略
+,,De veilingmeester sterft tweemaal,,nl,paperback,B0HBL2DR65,live,2026-07-25,6.80,EUR,,要確認:サブタイトルが管理画面で省略
+,,El Secreto de la Tintorera,Lea Mar…,es,kindle,B0H2F5DWDH,live,2026-05-20,3.20,EUR,,要確認:サブタイトル末尾が管理画面で省略
+,,El Secreto de la Tintorera,Lea Mar…,es,paperback,B0HBL2F6BS,live,2026-07-25,6.80,EUR,,要確認:サブタイトル末尾が管理画面で省略
+,,Il banditore muore due volte,Un gi…,it,kindle,B0GZ7JT36R,live,2026-07-25,2.80,EUR,,要確認:サブタイトル末尾が管理画面で省略
+,,Il banditore muore due volte,Un gi…,it,paperback,B0HBKXXMP4,live,2026-07-25,6.60,EUR,,要確認:サブタイトル末尾が管理画面で省略
+,,Le commissaire-priseur meurt deux f…,,fr,kindle,B0H9G8Z3H8,live,2026-07-18,2.80,EUR,,要確認:タイトル末尾が管理画面で省略
+,,Le commissaire-priseur meurt deux f…,,fr,paperback,B0H9G9MF5Z,live,2026-07-18,6.60,EUR,,要確認:タイトル末尾が管理画面で省略
+,,Wo das Licht verweilt,,de,kindle,B0GZLX68ZW,live,2026-05-06,3.00,EUR,,
+,,Wo das Licht verweilt,,de,paperback,B0H9FHT4RL,live,2026-07-18,6.60,EUR,,
