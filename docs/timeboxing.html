@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>タイムボクシング | ラウンドタイマー</title>
+<meta name="description" content="プロボクシングのラウンド構成に沿ったラウンドタイマー。3分ラウンド／1分インターバル、開始と終了のゴング、ボクシングのシルエット表示。">
+<meta name="theme-color" content="#0c0e13">
+<style>
+  :root{
+    --bg:#0c0e13;
+    --panel:#151922;
+    --panel-2:#1c2230;
+    --line:#2a3242;
+    --text:#eef2f8;
+    --muted:#9aa6ba;
+    --round:#e5352b;
+    --round-dim:#7e1f1a;
+    --rest:#31a8ff;
+    --rest-dim:#17527f;
+    --done:#f0b429;
+    --accent:var(--round);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:
+      radial-gradient(120% 80% at 50% -10%, #1b2130 0%, var(--bg) 60%) fixed,
+      var(--bg);
+    color:var(--text);
+    font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",system-ui,-apple-system,"Segoe UI",sans-serif;
+    -webkit-font-smoothing:antialiased;
+    min-height:100vh;
+    padding:16px 14px 40px;
+    display:flex;flex-direction:column;align-items:center;gap:18px;
+  }
+  header{width:100%;max-width:760px;display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  h1{font-size:20px;margin:0;letter-spacing:.14em}
+  h1 span{color:var(--accent)}
+  header .sub{font-size:12px;color:var(--muted);letter-spacing:.06em}
+
+  main{width:100%;max-width:760px;display:flex;flex-direction:column;gap:16px}
+
+  /* ---- リング + シルエット ---- */
+  .stage{
+    position:relative;
+    background:linear-gradient(180deg,var(--panel) 0%,#10141c 100%);
+    border:1px solid var(--line);
+    border-radius:20px;
+    padding:18px 16px 22px;
+    overflow:hidden;
+    transition:border-color .4s ease, box-shadow .4s ease;
+  }
+  .stage::before{ /* リングのロープ風ライン */
+    content:"";position:absolute;inset:0;pointer-events:none;
+    background:repeating-linear-gradient(180deg,transparent 0 58px,rgba(255,255,255,.028) 58px 60px);
+  }
+  body[data-phase="round"] .stage{border-color:var(--round-dim);box-shadow:0 0 0 1px rgba(229,53,43,.18),0 18px 60px -30px rgba(229,53,43,.7)}
+  body[data-phase="interval"] .stage{border-color:var(--rest-dim);box-shadow:0 0 0 1px rgba(49,168,255,.16),0 18px 60px -30px rgba(49,168,255,.6)}
+  body[data-phase="finished"] .stage{border-color:#7a5c14;box-shadow:0 0 0 1px rgba(240,180,41,.18),0 18px 60px -30px rgba(240,180,41,.6)}
+
+  .phase-line{display:flex;align-items:center;justify-content:space-between;gap:10px;position:relative;z-index:1}
+  .badge{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:13px;letter-spacing:.18em;font-weight:700;
+    padding:6px 12px;border-radius:999px;
+    background:rgba(255,255,255,.05);border:1px solid var(--line);color:var(--muted);
+  }
+  .badge .dot{width:8px;height:8px;border-radius:50%;background:currentColor}
+  body[data-phase="round"] .badge{color:var(--round);border-color:var(--round-dim);background:rgba(229,53,43,.10)}
+  body[data-phase="interval"] .badge{color:var(--rest);border-color:var(--rest-dim);background:rgba(49,168,255,.10)}
+  body[data-phase="finished"] .badge{color:var(--done);border-color:#7a5c14;background:rgba(240,180,41,.10)}
+  body[data-phase="round"][data-running="true"] .badge .dot{animation:pulse 1s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+
+  .round-count{font-size:13px;color:var(--muted);letter-spacing:.12em;font-variant-numeric:tabular-nums}
+  .round-count b{color:var(--text);font-size:17px}
+
+  .dial{position:relative;width:min(340px,86vw);margin:6px auto 0;aspect-ratio:1/1}
+  .dial svg.ring{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+  .ring .track{fill:none;stroke:rgba(255,255,255,.07);stroke-width:6}
+  .ring .bar{fill:none;stroke:var(--accent);stroke-width:6;stroke-linecap:round;transition:stroke .4s ease}
+  body[data-phase="interval"]{--accent:var(--rest)}
+  body[data-phase="finished"]{--accent:var(--done)}
+
+  .boxer{position:absolute;left:50%;top:47%;transform:translate(-50%,-50%);height:60%;opacity:.92}
+  .boxer path,.boxer circle,.boxer ellipse,.boxer polyline{
+    fill:var(--accent);stroke:var(--accent);
+    transition:fill .4s ease,stroke .4s ease;
+  }
+  .boxer .limb{fill:none;stroke-linecap:round;stroke-linejoin:round}
+  #boxerBody{transform-origin:100px 260px}
+  body[data-phase="round"][data-running="true"] #boxerBody{animation:bob .78s ease-in-out infinite}
+  body[data-phase="interval"][data-running="true"] #boxerBody{animation:breathe 2.6s ease-in-out infinite}
+  body[data-phase="round"][data-running="true"] #jabArm{animation:jab 2.4s cubic-bezier(.2,.8,.3,1) infinite}
+  body[data-phase="interval"] #jabArm,body[data-phase="finished"] #jabArm{transform:none}
+  body[data-phase="finished"] #boxerBody{animation:victory 1.6s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translate(0,0) rotate(0deg)}25%{transform:translate(-4px,-6px) rotate(-1.6deg)}50%{transform:translate(0,-2px)}75%{transform:translate(4px,-6px) rotate(1.6deg)}}
+  @keyframes breathe{0%,100%{transform:translate(0,0)}50%{transform:translate(0,-4px)}}
+  @keyframes jab{0%,62%,100%{transform:translate(0,0)}70%{transform:translate(-30px,-5px)}82%{transform:translate(-6px,-2px)}}
+  @keyframes victory{0%,100%{transform:translate(0,0) rotate(-2deg)}50%{transform:translate(0,-8px) rotate(2deg)}}
+
+  .time{
+    position:absolute;left:50%;bottom:6%;transform:translateX(-50%);
+    font-size:clamp(44px,13vw,64px);font-weight:800;letter-spacing:.04em;
+    font-variant-numeric:tabular-nums;
+    font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace;
+    text-shadow:0 6px 26px rgba(0,0,0,.65);
+  }
+  body[data-warning="true"] .time{color:var(--round);animation:blink .5s steps(1,end) infinite}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.45}}
+
+  .pips{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-top:14px;position:relative;z-index:1}
+  .pip{width:26px;height:5px;border-radius:3px;background:rgba(255,255,255,.13)}
+  .pip.done{background:var(--done)}
+  .pip.now{background:var(--accent);box-shadow:0 0 12px var(--accent)}
+
+  /* ---- 操作 ---- */
+  .controls{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  button{
+    font:inherit;color:var(--text);cursor:pointer;
+    background:var(--panel-2);border:1px solid var(--line);
+    border-radius:12px;padding:13px 22px;font-weight:700;letter-spacing:.08em;
+    transition:transform .08s ease,background .2s ease,border-color .2s ease;
+  }
+  button:hover{background:#232b3b}
+  button:active{transform:translateY(1px)}
+  button:disabled{opacity:.4;cursor:not-allowed}
+  button.primary{background:var(--round);border-color:var(--round);color:#fff;min-width:170px}
+  button.primary:hover{background:#f2483e}
+  body[data-running="true"] button.primary{background:var(--panel-2);border-color:var(--line);color:var(--text)}
+
+  /* ---- 設定 ---- */
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px}
+  .panel h2{margin:0 0 12px;font-size:13px;letter-spacing:.18em;color:var(--muted);font-weight:700}
+  .presets{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+  .preset{
+    text-align:left;padding:12px 14px;border-radius:12px;line-height:1.5;
+    background:var(--panel-2);border:1px solid var(--line);
+  }
+  .preset .t{display:block;font-size:15px;font-weight:800;letter-spacing:.06em}
+  .preset .d{display:block;font-size:12px;color:var(--muted);font-weight:400;letter-spacing:.04em}
+  .preset[aria-pressed="true"]{border-color:var(--round);background:rgba(229,53,43,.12)}
+  .preset[aria-pressed="true"] .t{color:var(--round)}
+
+  .fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:14px}
+  label.field{display:flex;flex-direction:column;gap:6px;font-size:12px;color:var(--muted);letter-spacing:.08em}
+  select,input[type=range]{
+    font:inherit;color:var(--text);background:var(--panel-2);
+    border:1px solid var(--line);border-radius:10px;padding:10px;width:100%;
+  }
+  input[type=range]{padding:0;height:34px;accent-color:var(--round)}
+  .toggles{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--muted)}
+  .toggles label{display:flex;align-items:center;gap:8px;cursor:pointer}
+  input[type=checkbox]{width:18px;height:18px;accent-color:var(--round)}
+  .panel[data-locked="true"]{opacity:.5;pointer-events:none}
+  .hint{font-size:12px;color:var(--muted);margin:12px 0 0;line-height:1.7}
+
+  details.ref{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+  details.ref summary{cursor:pointer;font-size:13px;letter-spacing:.14em;color:var(--muted);font-weight:700}
+  details.ref table{width:100%;border-collapse:collapse;margin-top:12px;font-size:13px}
+  details.ref th,details.ref td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line)}
+  details.ref th{color:var(--muted);font-weight:600;white-space:nowrap}
+  details.ref p{font-size:12px;color:var(--muted);line-height:1.8;margin:12px 0 0}
+
+  footer{font-size:11px;color:var(--muted);letter-spacing:.06em}
+  @media (max-width:420px){
+    button{padding:12px 16px}
+    button.primary{min-width:140px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    #boxerBody,#jabArm,.badge .dot,.time{animation:none !important}
+  }
+</style>
+</head>
+<body data-phase="idle" data-running="false" data-warning="false">
+
+<header>
+  <h1>タイム<span>ボクシング</span></h1>
+  <div class="sub">ROUND TIMER</div>
+</header>
+
+<main>
+  <section class="stage">
+    <div class="phase-line">
+      <span class="badge"><span class="dot"></span><span id="phaseLabel">READY</span></span>
+      <span class="round-count">ROUND <b id="roundNow">1</b> / <span id="roundTotal">3</span></span>
+    </div>
+
+    <div class="dial">
+      <svg class="ring" viewBox="0 0 200 200" aria-hidden="true">
+        <circle class="track" cx="100" cy="100" r="92"></circle>
+        <circle class="bar" id="progressBar" cx="100" cy="100" r="92"
+                stroke-dasharray="578.05" stroke-dashoffset="0"></circle>
+      </svg>
+
+      <!-- ボクシングのシルエット -->
+      <svg class="boxer" viewBox="0 0 200 280" role="img" aria-label="ガードを構えたボクサーのシルエット">
+        <g id="boxerBody">
+          <!-- 脚（左が前足のオーソドックス・スタンス） -->
+          <polyline class="limb" points="86,166 68,206 58,242" stroke-width="23"/>
+          <polyline class="limb" points="114,166 136,204 150,238" stroke-width="23"/>
+          <ellipse cx="54" cy="246" rx="18" ry="7"/>
+          <ellipse cx="155" cy="242" rx="18" ry="7"/>
+          <!-- 首・胴 -->
+          <path d="M88,68 L112,68 L112,96 L88,96 Z"/>
+          <path d="M66,96 C70,84 130,84 134,96 L138,150 C138,176 62,176 62,150 Z"/>
+          <!-- 頭 -->
+          <circle cx="100" cy="52" r="24"/>
+          <!-- 後ろ手（ガード） -->
+          <polyline class="limb" points="130,106 150,128 142,98" stroke-width="20"/>
+          <circle cx="142" cy="92" r="18"/>
+          <!-- 前手（ジャブ） -->
+          <g id="jabArm">
+            <polyline class="limb" points="70,106 50,128 58,98" stroke-width="20"/>
+            <circle cx="58" cy="92" r="18"/>
+          </g>
+        </g>
+      </svg>
+
+      <div class="time" id="timeText">03:00</div>
+    </div>
+
+    <div class="pips" id="pips" aria-hidden="true"></div>
+  </section>
+
+  <div class="controls">
+    <button class="primary" id="startBtn">開始</button>
+    <button id="resetBtn">リセット</button>
+    <button id="testBtn" title="ゴングの音量を確認します">音テスト</button>
+  </div>
+
+  <section class="panel" id="settings">
+    <h2>コース設定</h2>
+    <div class="presets">
+      <button class="preset" data-preset="beginner" aria-pressed="true">
+        <span class="t">入門者</span><span class="d">3分 × 3ラウンド / 休憩1分</span>
+      </button>
+      <button class="preset" data-preset="rookie" aria-pressed="false">
+        <span class="t">新人</span><span class="d">3分 × 4ラウンド / 休憩1分</span>
+      </button>
+      <button class="preset" data-preset="custom" aria-pressed="false">
+        <span class="t">自由設定</span><span class="d">ラウンド数・時間を自分で指定</span>
+      </button>
+    </div>
+
+    <div class="fields">
+      <label class="field">ラウンド数
+        <select id="roundsSel">
+          <option value="3">3ラウンド（入門者）</option>
+          <option value="4">4ラウンド（新人・下位カード）</option>
+          <option value="6">6ラウンド</option>
+          <option value="8">8ラウンド</option>
+          <option value="10">10ラウンド（日本タイトル）</option>
+          <option value="12">12ラウンド（世界タイトル）</option>
+        </select>
+      </label>
+      <label class="field">1ラウンドの時間
+        <select id="roundSecSel">
+          <option value="180">3分（男子プロ）</option>
+          <option value="120">2分</option>
+          <option value="60">1分（練習用）</option>
+        </select>
+      </label>
+      <label class="field">インターバル
+        <select id="intervalSecSel">
+          <option value="60">1分</option>
+          <option value="30">30秒</option>
+          <option value="90">1分30秒</option>
+        </select>
+      </label>
+      <label class="field">音量 <span id="volLabel">80%</span>
+        <input type="range" id="volRange" min="0" max="100" value="80">
+      </label>
+    </div>
+
+    <div class="toggles">
+      <label><input type="checkbox" id="warnChk" checked>残り10秒に拍子木の合図</label>
+      <label><input type="checkbox" id="wakeChk" checked>計測中は画面を消灯させない</label>
+    </div>
+
+    <p class="hint">
+      開始で「カン」とゴングが鳴り、3分後に再びゴング。インターバルを挟んで次のラウンドへ進み、最終ラウンド終了時はゴングが3回鳴ります。<br>
+      キーボード: <b>スペース</b>で開始／一時停止、<b>R</b>でリセット。
+    </p>
+  </section>
+
+  <details class="ref">
+    <summary>プロボクシングのラウンド構成（男子）</summary>
+    <table>
+      <tr><th>1ラウンド</th><td>3分（インターバル1分）</td></tr>
+      <tr><th>新人・下位カード</th><td>主に4ラウンド</td></tr>
+      <tr><th>経験を積むにつれ</th><td>6・8・10ラウンド</td></tr>
+      <tr><th>日本タイトルマッチ</th><td>10ラウンド</td></tr>
+      <tr><th>世界タイトルマッチ</th><td>12ラウンド（WBA・WBC・IBF・WBO など／最大）</td></tr>
+    </table>
+    <p>ラウンド数は選手の経験や試合の重要度で変わります。本アプリの「入門者（3分3ラウンド）」「新人（3分4ラウンド）」はこの構成に合わせた練習用のプリセットです。</p>
+  </details>
+
+  <footer>音声はブラウザ内で合成しています。最初の操作（開始ボタンなど）の後に鳴ります。</footer>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  var CIRC = 2 * Math.PI * 92; // 進捗リングの周長
+
+  var cfg = { rounds: 3, roundSec: 180, intervalSec: 60, warn: true, wake: true, vol: 0.8 };
+
+  var phases = [];      // [{type:'round'|'interval', n, sec}]
+  var idx = 0;          // 現在のフェーズ
+  var remainMs = 0;     // 残りミリ秒
+  var deadline = 0;     // 実行中の終了時刻(ms)
+  var running = false;
+  var started = false;  // 第1ラウンド開始のゴングを鳴らしたか
+  var finished = false;
+  var warned = false;   // 現ラウンドで10秒前合図を鳴らしたか
+  var ticker = null;
+  var wakeSentinel = null;
+
+  var el = {
+    body: document.body,
+    phaseLabel: document.getElementById("phaseLabel"),
+    roundNow: document.getElementById("roundNow"),
+    roundTotal: document.getElementById("roundTotal"),
+    time: document.getElementById("timeText"),
+    bar: document.getElementById("progressBar"),
+    pips: document.getElementById("pips"),
+    start: document.getElementById("startBtn"),
+    reset: document.getElementById("resetBtn"),
+    test: document.getElementById("testBtn"),
+    settings: document.getElementById("settings"),
+    rounds: document.getElementById("roundsSel"),
+    roundSec: document.getElementById("roundSecSel"),
+    intervalSec: document.getElementById("intervalSecSel"),
+    warn: document.getElementById("warnChk"),
+    wake: document.getElementById("wakeChk"),
+    vol: document.getElementById("volRange"),
+    volLabel: document.getElementById("volLabel"),
+    presets: Array.prototype.slice.call(document.querySelectorAll(".preset"))
+  };
+
+  /* ---------------- 音（Web Audio で合成） ---------------- */
+  var actx = null, noise = null;
+
+  function audio() {
+    if (!actx) {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return null;
+      actx = new AC();
+    }
+    if (actx.state === "suspended") actx.resume();
+    return actx;
+  }
+
+  function noiseBuffer(c) {
+    if (noise) return noise;
+    var len = Math.floor(c.sampleRate * 0.6);
+    noise = c.createBuffer(1, len, c.sampleRate);
+    var d = noise.getChannelData(0);
+    for (var i = 0; i < len; i++) d[i] = Math.random() * 2 - 1;
+    return noise;
+  }
+
+  // 「カン」というゴング
+  function gong(delay, level) {
+    var c = audio(); if (!c || cfg.vol <= 0) return;
+    var t = c.currentTime + (delay || 0);
+    var master = c.createGain();
+    master.gain.value = cfg.vol * (level || 1);
+    master.connect(c.destination);
+
+    var base = 196, dur = 3.4;
+    var partials = [1, 2.32, 3.5, 4.25, 5.43, 6.79, 8.1];
+    partials.forEach(function (p, i) {
+      var o = c.createOscillator();
+      o.type = "sine";
+      o.frequency.value = base * p * (1 + (i % 2 ? 0.004 : -0.003));
+      var g = c.createGain();
+      var amp = 0.75 / (1 + i * 1.15);
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.linearRampToValueAtTime(amp, t + 0.005);
+      g.gain.exponentialRampToValueAtTime(0.0008, t + dur * (1 - i * 0.09));
+      o.connect(g); g.connect(master);
+      o.start(t); o.stop(t + dur + 0.1);
+    });
+
+    // 打面の当たり（金属的なアタック）
+    var src = c.createBufferSource();
+    src.buffer = noiseBuffer(c);
+    var bp = c.createBiquadFilter();
+    bp.type = "bandpass"; bp.frequency.value = 2600; bp.Q.value = 0.7;
+    var ng = c.createGain();
+    ng.gain.setValueAtTime(0.5, t);
+    ng.gain.exponentialRampToValueAtTime(0.001, t + 0.35);
+    src.connect(bp); bp.connect(ng); ng.connect(master);
+    src.start(t); src.stop(t + 0.4);
+  }
+
+  // 残り10秒の拍子木
+  function clack(delay) {
+    var c = audio(); if (!c || cfg.vol <= 0) return;
+    var t = c.currentTime + (delay || 0);
+    var master = c.createGain();
+    master.gain.value = cfg.vol * 0.65;
+    master.connect(c.destination);
+
+    var src = c.createBufferSource();
+    src.buffer = noiseBuffer(c);
+    var bp = c.createBiquadFilter();
+    bp.type = "bandpass"; bp.frequency.value = 1900; bp.Q.value = 3;
+    var g = c.createGain();
+    g.gain.setValueAtTime(0.9, t);
+    g.gain.exponentialRampToValueAtTime(0.001, t + 0.09);
+    src.connect(bp); bp.connect(g); g.connect(master);
+    src.start(t); src.stop(t + 0.12);
+
+    var o = c.createOscillator();
+    o.type = "triangle";
+    o.frequency.setValueAtTime(1250, t);
+    var og = c.createGain();
+    og.gain.setValueAtTime(0.3, t);
+    og.gain.exponentialRampToValueAtTime(0.001, t + 0.08);
+    o.connect(og); og.connect(master);
+    o.start(t); o.stop(t + 0.1);
+  }
+
+  /* ---------------- 画面のスリープ防止 ---------------- */
+  function requestWake() {
+    if (!cfg.wake || !navigator.wakeLock || wakeSentinel) return;
+    navigator.wakeLock.request("screen").then(function (s) {
+      wakeSentinel = s;
+      s.addEventListener("release", function () { wakeSentinel = null; });
+    }).catch(function () { /* 非対応・不許可なら何もしない */ });
+  }
+  function releaseWake() {
+    if (wakeSentinel) { try { wakeSentinel.release(); } catch (e) {} wakeSentinel = null; }
+  }
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState === "visible" && running) requestWake();
+  });
+
+  /* ---------------- タイマー本体 ---------------- */
+  function buildPhases() {
+    phases = [];
+    for (var i = 1; i <= cfg.rounds; i++) {
+      phases.push({ type: "round", n: i, sec: cfg.roundSec });
+      if (i < cfg.rounds) phases.push({ type: "interval", n: i, sec: cfg.intervalSec });
+    }
+  }
+
+  function reset() {
+    stopTicker();
+    releaseWake();
+    buildPhases();
+    idx = 0;
+    remainMs = phases[0].sec * 1000;
+    running = false; started = false; finished = false; warned = false;
+    el.body.dataset.phase = "idle";
+    el.body.dataset.running = "false";
+    el.body.dataset.warning = "false";
+    el.settings.dataset.locked = "false";
+    el.start.textContent = "開始";
+    render();
+  }
+
+  function start() {
+    if (finished) { reset(); }
+    audio(); // ユーザー操作の中で AudioContext を起こす
+    if (!started) { started = true; gong(0); }
+    deadline = Date.now() + remainMs;
+    running = true;
+    el.body.dataset.running = "true";
+    el.settings.dataset.locked = "true";
+    el.start.textContent = "一時停止";
+    requestWake();
+    startTicker();
+    render();
+  }
+
+  function pause() {
+    remainMs = Math.max(0, deadline - Date.now());
+    running = false;
+    stopTicker();
+    releaseWake();
+    el.body.dataset.running = "false";
+    el.body.dataset.warning = "false";
+    el.start.textContent = "再開";
+    render();
+  }
+
+  function toggle() { running ? pause() : start(); }
+
+  function startTicker() { stopTicker(); ticker = setInterval(tick, 100); }
+  function stopTicker() { if (ticker) { clearInterval(ticker); ticker = null; } }
+
+  function tick() {
+    remainMs = deadline - Date.now();
+
+    var cur = phases[idx];
+    if (cur.type === "round" && cfg.warn && !warned && remainMs <= 10400 && remainMs > 0) {
+      warned = true;
+      clack(0); clack(0.19); clack(0.38);
+    }
+    if (cur.type === "round") {
+      el.body.dataset.warning = (remainMs <= 10400 && remainMs > 0) ? "true" : "false";
+    }
+
+    if (remainMs <= 0) { advance(); return; }
+    render();
+  }
+
+  function advance() {
+    el.body.dataset.warning = "false";
+    warned = false;
+
+    if (idx >= phases.length - 1) {   // 最終ラウンド終了
+      stopTicker();
+      releaseWake();
+      running = false; finished = true; remainMs = 0;
+      el.body.dataset.phase = "finished";
+      el.body.dataset.running = "false";
+      el.settings.dataset.locked = "false";
+      el.start.textContent = "もう一度";
+      gong(0); gong(0.85); gong(1.7);   // 試合終了のゴング
+      render();
+      return;
+    }
+
+    gong(0); // ラウンド終了 / 次ラウンド開始のゴング
+    var over = -remainMs;              // タブ非表示などで進みすぎた分を繰り越す
+    idx++;
+    remainMs = Math.max(0, phases[idx].sec * 1000 - over);
+    deadline = Date.now() + remainMs;
+    render();
+  }
+
+  /* ---------------- 表示 ---------------- */
+  function fmt(ms) {
+    var s = Math.max(0, Math.ceil(ms / 1000));
+    var m = Math.floor(s / 60);
+    var r = s % 60;
+    return (m < 10 ? "0" : "") + m + ":" + (r < 10 ? "0" : "") + r;
+  }
+
+  function buildPips() {
+    el.pips.innerHTML = "";
+    for (var i = 0; i < cfg.rounds; i++) {
+      var d = document.createElement("span");
+      d.className = "pip";
+      el.pips.appendChild(d);
+    }
+  }
+
+  function render() {
+    var cur = phases[idx];
+    var isRound = cur.type === "round";
+
+    if (!finished) {
+      el.body.dataset.phase = started ? (isRound ? "round" : "interval") : "idle";
+    }
+
+    if (finished) {
+      el.phaseLabel.textContent = "FINISHED";
+    } else if (!started) {
+      el.phaseLabel.textContent = "READY";
+    } else {
+      el.phaseLabel.textContent = isRound ? "ROUND" : "INTERVAL";
+    }
+
+    el.roundNow.textContent = isRound ? cur.n : cur.n + 1; // 休憩中は次のラウンドを表示
+    el.roundTotal.textContent = cfg.rounds;
+    el.time.textContent = fmt(remainMs);
+
+    var total = cur.sec * 1000;
+    var ratio = finished ? 0 : Math.min(1, Math.max(0, remainMs / total));
+    el.bar.style.strokeDasharray = CIRC.toFixed(2);
+    el.bar.style.strokeDashoffset = (CIRC * (1 - ratio)).toFixed(2);
+
+    var pips = el.pips.children;
+    for (var i = 0; i < pips.length; i++) {
+      var n = i + 1;
+      var done = finished || n < (isRound ? cur.n : cur.n + 1);
+      pips[i].className = "pip" + (done ? " done" : (n === (isRound ? cur.n : cur.n + 1) && started ? " now" : ""));
+    }
+
+    document.title = (started && !finished ? fmt(remainMs) + " " + (isRound ? "R" + cur.n : "休憩") + " | " : "")
+                   + "タイムボクシング";
+  }
+
+  /* ---------------- 設定 ---------------- */
+  var PRESETS = {
+    beginner: { rounds: 3, roundSec: 180, intervalSec: 60 },
+    rookie:   { rounds: 4, roundSec: 180, intervalSec: 60 }
+  };
+
+  function markPreset(name) {
+    el.presets.forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.dataset.preset === name));
+    });
+  }
+
+  function syncPresetFromFields() {
+    var name = "custom";
+    Object.keys(PRESETS).forEach(function (k) {
+      var p = PRESETS[k];
+      if (p.rounds === cfg.rounds && p.roundSec === cfg.roundSec && p.intervalSec === cfg.intervalSec) name = k;
+    });
+    markPreset(name);
+  }
+
+  function applyFields() {
+    cfg.rounds = parseInt(el.rounds.value, 10);
+    cfg.roundSec = parseInt(el.roundSec.value, 10);
+    cfg.intervalSec = parseInt(el.intervalSec.value, 10);
+    buildPips();
+    syncPresetFromFields();
+    reset();
+  }
+
+  el.presets.forEach(function (b) {
+    b.addEventListener("click", function () {
+      var p = PRESETS[b.dataset.preset];
+      if (!p) { markPreset("custom"); return; }   // 自由設定は下の項目で調整
+      el.rounds.value = String(p.rounds);
+      el.roundSec.value = String(p.roundSec);
+      el.intervalSec.value = String(p.intervalSec);
+      applyFields();
+    });
+  });
+
+  [el.rounds, el.roundSec, el.intervalSec].forEach(function (s) {
+    s.addEventListener("change", applyFields);
+  });
+
+  el.warn.addEventListener("change", function () { cfg.warn = el.warn.checked; });
+  el.wake.addEventListener("change", function () {
+    cfg.wake = el.wake.checked;
+    if (cfg.wake && running) requestWake(); else releaseWake();
+  });
+  el.vol.addEventListener("input", function () {
+    cfg.vol = parseInt(el.vol.value, 10) / 100;
+    el.volLabel.textContent = el.vol.value + "%";
+  });
+
+  el.start.addEventListener("click", toggle);
+  el.reset.addEventListener("click", reset);
+  el.test.addEventListener("click", function () { audio(); gong(0); });
+
+  document.addEventListener("keydown", function (e) {
+    if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
+    if (e.code === "Space") { e.preventDefault(); toggle(); }
+    else if (e.key === "r" || e.key === "R") { reset(); }
+  });
+
+  // 初期化
+  el.rounds.value = "3";
+  el.roundSec.value = "180";
+  el.intervalSec.value = "60";
+  cfg.warn = el.warn.checked;
+  cfg.wake = el.wake.checked;
+  cfg.vol = parseInt(el.vol.value, 10) / 100;
+  el.volLabel.textContent = el.vol.value + "%";
+  buildPips();
+  markPreset("beginner");
+  reset();
+})();
+</script>
+</body>
+</html>
