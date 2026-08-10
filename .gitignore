@@ -1,2 +1,9 @@
 __pycache__/
 *.pyc
+
+# Obsidian: 端末ごとに変わる状態はコミットしない(設定本体は共有する)
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+vault/.obsidian/cache
+vault/.obsidian/plugins/*/data.json
+vault/.trash/

@@ -1,0 +1,9 @@
+{
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "添付",
+  "showUnsupportedFiles": false,
+  "defaultViewMode": "preview",
+  "livePreview": true
+}
