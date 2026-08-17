@@ -1,0 +1,106 @@
+plugins {
+    id 'com.android.application'
+}
+
+// ---- 署名設定 ----------------------------------------------------------
+// keystore.properties(gitignore 済み)か環境変数から読む。どちらも無い場合は
+// 未署名の AAB を出力する(あとから jarsigner / apksigner で署名できる)。
+def keystorePropsFile = rootProject.file('keystore.properties')
+def keystoreProps = new Properties()
+if (keystorePropsFile.exists()) {
+    keystorePropsFile.withInputStream { keystoreProps.load(it) }
+}
+
+def storeFilePath = keystoreProps['storeFile'] ?: System.getenv('ANDROID_KEYSTORE_FILE')
+def storePasswordValue = keystoreProps['storePassword'] ?: System.getenv('ANDROID_KEYSTORE_PASSWORD')
+def keyAliasValue = keystoreProps['keyAlias'] ?: System.getenv('ANDROID_KEY_ALIAS')
+def keyPasswordValue = keystoreProps['keyPassword'] ?: System.getenv('ANDROID_KEY_PASSWORD')
+
+def keystoreFile = null
+if (storeFilePath) {
+    def f = new File(storeFilePath)
+    keystoreFile = f.isAbsolute() ? f : rootProject.file(storeFilePath)
+}
+def hasSigningConfig = keystoreFile != null && keystoreFile.exists() &&
+        storePasswordValue && keyAliasValue && keyPasswordValue
+
+// ---- docs/timeboxing.html を assets に取り込む --------------------------
+// Web 版と同じ 1 ファイルをそのまま同梱する(コピーを二重管理しない)
+def webAppSource = rootProject.file('../docs/timeboxing.html')
+def webAssetsDir = layout.buildDirectory.dir('generated/webAssets').get().asFile
+
+def copyWebApp = tasks.register('copyWebApp', Copy) {
+    doFirst {
+        if (!webAppSource.exists()) {
+            throw new GradleException("同梱するWebアプリが見つかりません: ${webAppSource}")
+        }
+    }
+    from webAppSource
+    into webAssetsDir
+}
+
+tasks.named('preBuild').configure { dependsOn(copyWebApp) }
+
+android {
+    namespace 'com.seiremu.timeboxing'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.seiremu.timeboxing'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+
+    sourceSets {
+        main {
+            assets.srcDirs += webAssetsDir
+        }
+    }
+
+    if (hasSigningConfig) {
+        signingConfigs {
+            release {
+                storeFile keystoreFile
+                storePassword storePasswordValue
+                keyAlias keyAliasValue
+                keyPassword keyPasswordValue
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            if (hasSigningConfig) {
+                signingConfig signingConfigs.release
+            }
+        }
+        debug {
+            applicationIdSuffix '.debug'
+            versionNameSuffix '-debug'
+        }
+    }
+
+    bundle {
+        // アプリ本体は HTML 1 枚。分割しても意味がないので言語/密度分割は無効化する
+        language { enableSplit = false }
+        density { enableSplit = false }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+tasks.register('printSigningStatus') {
+    doLast {
+        println hasSigningConfig
+                ? "release 署名: 有効 (keystore=${keystoreFile})"
+                : 'release 署名: 無効 — 未署名の AAB を出力します'
+    }
+}

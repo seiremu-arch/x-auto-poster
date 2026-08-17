@@ -24,6 +24,65 @@ GitHub Pages の公開設定は git push だけでは有効化されないため
 
 > 補足: GitHub の `schedule` トリガーは既定ブランチ(通常 `main`)にマージされたワークフローのみ実行されます。このブランチが `main` にマージされるまで、自動実行はされません(`workflow_dispatch` による手動実行は可能)。
 
+## タイムボクシング(ラウンドタイマー)
+
+`docs/timeboxing.html` は同じ GitHub Pages で配信される単独のラウンドタイマーです。公開URLは `https://<owner>.github.io/x-auto-poster/timeboxing.html`(ローカルではファイルを直接ブラウザで開くだけで動きます)。
+
+- プリセット: **入門者** = 3分 × 3ラウンド、**新人** = 3分 × 4ラウンド(いずれもインターバル1分)
+- 自由設定: ラウンド数 3/4/6/8/10/12、1ラウンド 3分・2分・1分、インターバル 30秒・1分・1分30秒
+- 開始で「カン」とゴング、3分後に再びゴング、インターバルを挟んで次のラウンドへ。最終ラウンド終了時はゴングが3回
+- ラウンド残り10秒に拍子木の合図(オン/オフ可)、画面にはボクシングのシルエットと進捗リング
+- スペースキーで開始/一時停止、`R` でリセット。計測中は画面のスリープを抑止(Screen Wake Lock 対応ブラウザのみ)
+
+音源ファイルは持たず、ゴングと拍子木は Web Audio API でブラウザ内で合成しています。自動再生制限のため、最初にボタンを押してから音が鳴ります。ニュース生成スクリプトは `docs/index.html` しか書き換えないため、このページは日次更新の影響を受けません。
+
+### Android アプリ(App Bundle / AAB)
+
+`android/` に Android 版のプロジェクトがあります。`docs/timeboxing.html` をそのまま assets に取り込んで WebView で表示する構成なので、**Web版とアプリ版でファイルは1つだけ**です(ビルド時に自動コピー)。ネットワークを使わないため、パーミッションは1つも宣言していません。
+
+| 項目 | 値 |
+| --- | --- |
+| applicationId | `com.seiremu.timeboxing` |
+| 対応OS | Android 8.0 (API 26) 以上 / targetSdk 35 |
+| ビルド | AGP 8.7.3 / Gradle 8.11.1 / JDK 17以上 |
+
+#### GitHub Actions でビルドする(Android SDK 不要)
+
+`.github/workflows/android-build.yml` が `android/**` または `docs/timeboxing.html` の変更で自動実行されます(Actions タブから手動実行も可)。完了後、実行ページ下部の Artifacts から取得できます。
+
+- `timeboxing-aab` … `app-release.aab`(Google Play アップロード用)
+- `timeboxing-debug-apk` … `app-debug.apk`(端末にそのまま入れて動作確認する用)
+
+#### 手元でビルドする
+
+```bash
+cd android
+./gradlew bundleRelease   # → app/build/outputs/bundle/release/app-release.aab
+./gradlew assembleDebug   # → app/build/outputs/apk/debug/app-debug.apk
+```
+
+Android SDK(platform 35 / build-tools 35.0.0)が必要です。Android Studio で `android/` フォルダを開いても構いません。
+
+#### 署名(Play にアップロードする場合)
+
+アップロード鍵を作ると、リリースビルドが署名されます。付属のスクリプトを使うのが簡単です。
+
+```bash
+cd android
+./make-upload-key.sh   # 鍵と keystore.properties を作り、CI 用の登録手順も表示します
+```
+
+手動で作る場合は `keystore.properties.example` をコピーして `keystore.properties` を書き、鍵は次のコマンドで作ります。
+
+```bash
+keytool -genkeypair -v -keystore upload-keystore.jks \
+        -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+```
+
+鍵ファイルは必ずバックアップしてください。Play にアップロードした後に紛失すると、同じアプリの更新を出せなくなります。
+
+CI で署名する場合は、リポジトリの Secrets に `ANDROID_KEYSTORE_BASE64`(`base64 -w0 upload-keystore.jks` の出力)、`ANDROID_KEYSTORE_PASSWORD`、`ANDROID_KEY_ALIAS`、`ANDROID_KEY_PASSWORD` を登録してください。未設定でもビルドは通りますが、AAB は未署名になります。鍵ファイルと `keystore.properties` は `.gitignore` 済みで、リポジトリには含めません。
+
 ## フィードの追加・変更
 
 `config/feeds.json` を編集してください。
