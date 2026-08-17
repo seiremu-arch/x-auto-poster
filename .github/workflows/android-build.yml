@@ -64,6 +64,20 @@ jobs:
           ls -lh android/app/build/outputs/bundle/release/
           ls -lh android/app/build/outputs/apk/debug/
 
+      - name: 中身を検証(タイマー本体が同梱されているか)
+        run: |
+          set -eu
+          AAB=android/app/build/outputs/bundle/release/app-release.aab
+          APK=android/app/build/outputs/apk/debug/app-debug.apk
+          unzip -l "$AAB"
+          unzip -l "$AAB" | grep -q 'base/assets/timeboxing.html' \
+            || { echo "::error::AAB に timeboxing.html が含まれていません"; exit 1; }
+          unzip -l "$AAB" | grep -q 'base/manifest/AndroidManifest.xml' \
+            || { echo "::error::AAB に AndroidManifest.xml が含まれていません"; exit 1; }
+          unzip -l "$APK" | grep -q 'assets/timeboxing.html' \
+            || { echo "::error::APK に timeboxing.html が含まれていません"; exit 1; }
+          echo "OK: タイマー本体(timeboxing.html)が AAB / APK に同梱されています"
+
       - name: AAB を保存
         uses: actions/upload-artifact@v4
         with:
