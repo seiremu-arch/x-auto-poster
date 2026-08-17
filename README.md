@@ -65,12 +65,21 @@ Android SDK(platform 35 / build-tools 35.0.0)が必要です。Android Studio �
 
 #### 署名(Play にアップロードする場合)
 
-アップロード鍵を作り、`android/keystore.properties`(`keystore.properties.example` をコピー)に指定するとリリースビルドが署名されます。
+アップロード鍵を作ると、リリースビルドが署名されます。付属のスクリプトを使うのが簡単です。
+
+```bash
+cd android
+./make-upload-key.sh   # 鍵と keystore.properties を作り、CI 用の登録手順も表示します
+```
+
+手動で作る場合は `keystore.properties.example` をコピーして `keystore.properties` を書き、鍵は次のコマンドで作ります。
 
 ```bash
 keytool -genkeypair -v -keystore upload-keystore.jks \
         -keyalg RSA -keysize 2048 -validity 10000 -alias upload
 ```
+
+鍵ファイルは必ずバックアップしてください。Play にアップロードした後に紛失すると、同じアプリの更新を出せなくなります。
 
 CI で署名する場合は、リポジトリの Secrets に `ANDROID_KEYSTORE_BASE64`(`base64 -w0 upload-keystore.jks` の出力)、`ANDROID_KEYSTORE_PASSWORD`、`ANDROID_KEY_ALIAS`、`ANDROID_KEY_PASSWORD` を登録してください。未設定でもビルドは通りますが、AAB は未署名になります。鍵ファイルと `keystore.properties` は `.gitignore` 済みで、リポジトリには含めません。
 
