@@ -427,14 +427,26 @@
   }
 
   /* ---------------- 画面のスリープ防止 ---------------- */
+  // Androidアプリ版(WebView)では navigator.wakeLock が使えないため、
+  // ネイティブ側のブリッジがあればそちらに画面点灯フラグを委ねる。
+  function hostKeepScreenOn(on) {
+    try {
+      if (window.AndroidHost && typeof window.AndroidHost.setKeepScreenOn === "function") {
+        window.AndroidHost.setKeepScreenOn(on);
+      }
+    } catch (e) { /* ブリッジが無い環境では何もしない */ }
+  }
   function requestWake() {
-    if (!cfg.wake || !navigator.wakeLock || wakeSentinel) return;
+    if (!cfg.wake) return;
+    hostKeepScreenOn(true);
+    if (!navigator.wakeLock || wakeSentinel) return;
     navigator.wakeLock.request("screen").then(function (s) {
       wakeSentinel = s;
       s.addEventListener("release", function () { wakeSentinel = null; });
     }).catch(function () { /* 非対応・不許可なら何もしない */ });
   }
   function releaseWake() {
+    hostKeepScreenOn(false);
     if (wakeSentinel) { try { wakeSentinel.release(); } catch (e) {} wakeSentinel = null; }
   }
   document.addEventListener("visibilitychange", function () {
@@ -515,6 +527,11 @@
     el.body.dataset.warning = "false";
     warned = false;
 
+    // タブ非表示・アプリのバックグラウンド復帰などで大きく遅れて処理された場合は、
+    // 過ぎてしまった合図を鳴らさない(ゴングが連続して鳴るのを防ぐ)
+    var over = -remainMs;
+    var stale = over > 5000;
+
     if (idx >= phases.length - 1) {   // 最終ラウンド終了
       stopTicker();
       releaseWake();
@@ -523,13 +540,12 @@
       el.body.dataset.running = "false";
       el.settings.dataset.locked = "false";
       el.start.textContent = "もう一度";
-      gong(0); gong(0.85); gong(1.7);   // 試合終了のゴング
+      if (!stale) { gong(0); gong(0.85); gong(1.7); }   // 試合終了のゴング
       render();
       return;
     }
 
-    gong(0); // ラウンド終了 / 次ラウンド開始のゴング
-    var over = -remainMs;              // タブ非表示などで進みすぎた分を繰り越す
+    if (!stale) gong(0); // ラウンド終了 / 次ラウンド開始のゴング
     idx++;
     remainMs = Math.max(0, phases[idx].sec * 1000 - over);
     deadline = Date.now() + remainMs;
