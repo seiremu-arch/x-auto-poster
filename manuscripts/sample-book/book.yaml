@@ -1,0 +1,77 @@
+# ------------------------------------------------------------------
+# 1冊分の設定。ここを書き換えて manuscript/ に原稿を置けば入稿ファイルが出る。
+#   python scripts/build_book.py manuscripts/sample-book
+# ------------------------------------------------------------------
+
+# 出力ファイル名に使うスラッグ(省略するとディレクトリ名から作られる)
+slug: kdp-pipeline-guide
+
+title: 原稿からKDPまで、全部スクリプトにする
+subtitle: Markdownで書いてdocxとEPUBを自動生成する制作工程
+author: 分岐点ニュース編集部
+publisher: 個人出版
+language: ja
+published: 2026-08-25
+copyright_year: 2026
+
+# KDPの無料ISBNを使う場合は空のままでよい
+isbn: ""
+
+description: |
+  Markdownで原稿を書き、コマンド一発でKDPに入稿できるdocxとEPUBを生成する
+  制作工程をまとめた実践ガイド。目次の自動生成、電子書籍版とペーパーバック版の
+  作り分け、入稿前チェック(プリフライト)、GitHub Actionsでの自動ビルドまでを、
+  実際に動くスクリプトとあわせて解説する。
+
+keywords:
+  - Kindle出版
+  - KDP
+  - 個人出版
+  - 電子書籍
+  - Python
+  - 自動化
+  - Markdown
+
+categories:
+  - コンピュータ・IT
+  - 参考図書
+
+# 表紙画像(1600×2560px以上のJPEG推奨)。KDPの登録画面で別途アップロードする場合は空でよい
+cover: ""
+
+# 原稿ファイル。glob指定はファイル名順に並ぶので 01- 02- の接頭辞で章順を決める
+manuscript:
+  - manuscript/*.md
+
+frontmatter:
+  title_page: true      # 扉ページ
+  copyright_page: false # 前付の権利表記(日本語書籍は奥付に集約するのが一般的)
+  colophon: true        # 巻末の奥付
+  colophon_note: 本書の内容は執筆時点の情報にもとづきます。
+
+# 電子書籍(Kindle)向け設定
+ebook:
+  base_font_pt: 11
+  line_spacing: 1.8
+  toc:
+    title: 目次
+    depth: 2      # ## までを目次に載せる
+    style: link   # リンク付き目次(Kindleの目次ジャンプ用)
+
+# ペーパーバック向け設定
+print:
+  trim: 6x9       # 5x8 / 5.5x8.5 / 6x9 / a5 / b6 / shiroku など
+  base_font_pt: 10.5
+  line_spacing: 1.7
+  margins:        # mm。inside はノド側、outside は小口側
+    top: 20
+    bottom: 20
+    inside: 19
+    outside: 13
+    gutter: 0
+  mirror_margins: true  # 見開きで内外の余白を入れ替える
+  page_numbers: true    # フッターにノンブルを入れる
+  toc:
+    title: 目次
+    depth: 2
+    style: field  # Wordの目次フィールド(F9でページ番号付きに更新)

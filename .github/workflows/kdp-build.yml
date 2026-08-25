@@ -1,0 +1,90 @@
+name: KDP Build
+
+on:
+  push:
+    paths:
+      - "manuscripts/**"
+      - "scripts/kdp/**"
+      - "scripts/build_book.py"
+      - "tests/**"
+      - ".github/workflows/kdp-build.yml"
+  pull_request:
+    paths:
+      - "manuscripts/**"
+      - "scripts/kdp/**"
+      - "scripts/build_book.py"
+      - "tests/**"
+  workflow_dispatch:
+    inputs:
+      book:
+        description: "ビルドする本のディレクトリ(例: manuscripts/sample-book)"
+        required: false
+        default: ""
+      strict:
+        description: "警告もエラー扱いにする"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kdp-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build books
+        id: build
+        run: |
+          set -euo pipefail
+          STRICT=""
+          if [ "${{ inputs.strict }}" = "true" ]; then
+            STRICT="--strict"
+          fi
+          if [ -n "${{ inputs.book }}" ]; then
+            python scripts/build_book.py "${{ inputs.book }}" $STRICT
+          else
+            # manuscripts/ 配下の本をすべてビルドする
+            found=0
+            for f in manuscripts/*/book.yaml manuscripts/*/book.yml; do
+              [ -e "$f" ] || continue
+              found=1
+              echo "::group::$(dirname "$f")"
+              python scripts/build_book.py "$(dirname "$f")" $STRICT
+              echo "::endgroup::"
+            done
+            if [ "$found" = "0" ]; then
+              echo "manuscripts/ に book.yaml がありません。" >&2
+              exit 1
+            fi
+          fi
+
+      - name: Upload manuscripts
+        uses: actions/upload-artifact@v4
+        with:
+          name: kdp-manuscripts
+          path: |
+            build/**/*.docx
+            build/**/*.epub
+            build/**/*.md
+            build/**/build-manifest.json
+          if-no-files-found: error
+          retention-days: 30

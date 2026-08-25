@@ -1,4 +1,15 @@
-# x-auto-poster / 分岐点ニュース
+# x-auto-poster
+
+このリポジトリには、独立した2つの自動化があります。
+
+| | 内容 | 詳細 |
+| --- | --- | --- |
+| **分岐点ニュース** | RSSから毎朝ニュースを集めて静的サイトを自動更新する | この下 |
+| **KDP制作パイプライン** | Markdown原稿からKDP入稿用の docx / EPUB を生成する | [`scripts/kdp/README.md`](scripts/kdp/README.md) |
+
+---
+
+# 分岐点ニュース
 
 RSSフィードから直近のニュースを集め、「事実」と「意見」に分けて毎朝自動更新する静的サイトです。GitHub Actions が毎日決まった時刻にニュースを取得し、`docs/index.html` を再生成して GitHub Pages で公開します。
 
@@ -49,3 +60,44 @@ python scripts/generate_site.py
 ```
 
 `docs/index.html` が生成されます。
+
+---
+
+# KDP制作パイプライン
+
+Markdownで書いた原稿と `book.yaml` から、KDP(Kindle Direct Publishing)にそのまま入稿できる
+docx(電子書籍用・ペーパーバック用)と EPUB3 を生成します。目次の自動生成、改ページ、奥付、
+入稿前チェックまでをスクリプトが受け持つので、原稿を直したらビルドし直すだけで入稿ファイルが揃います。
+
+```bash
+pip install -r requirements.txt
+
+# 生成(docx 2種 + EPUB + KDP登録用メタデータ)
+python scripts/build_book.py manuscripts/sample-book
+
+# 入稿前チェックだけ
+python scripts/build_book.py manuscripts/sample-book --check-only --strict
+```
+
+出力は `build/<slug>/` に入ります。
+
+| ファイル | 用途 |
+| --- | --- |
+| `<slug>-ebook.docx` | 電子書籍用(リンク付き目次) |
+| `<slug>-print.docx` | ペーパーバック用(判型・見開き余白・ノンブル・目次フィールド) |
+| `<slug>.epub` | KDP推奨形式のEPUB3 |
+| `<slug>-kdp-metadata.md` | KDPの登録画面にコピペするメタデータ |
+| `build-manifest.json` | ビルド結果のサマリ(統計・概算ページ数・警告) |
+
+原稿は `manuscripts/<本の名前>/` に置きます。サンプルとして
+[`manuscripts/sample-book/`](manuscripts/sample-book/) が入っており、これ自体が
+パイプラインの使い方を説明した1冊の本になっています。
+
+設定項目・原稿の記法・目次の仕組み・入稿手順は
+**[`scripts/kdp/README.md`](scripts/kdp/README.md)** にまとめています。
+
+## テスト
+
+```bash
+python -m unittest discover -s tests -v
+```
