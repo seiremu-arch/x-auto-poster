@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Product Extractor</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #16181d;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #ff9900;
+      --accent-dark: #e67e00;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      width: 360px;
+      margin: 0;
+      padding: 12px;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Segoe UI", sans-serif;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    header img { width: 20px; height: 20px; }
+    header h1 { margin: 0; font-size: 13px; font-weight: 600; }
+
+    #message {
+      margin: 16px 0;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    #message.error { color: #b42318; }
+
+    #result { margin-top: 10px; }
+    #result[hidden] { display: none; }
+
+    .product-head {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+
+    .product-head img {
+      width: 64px;
+      height: 64px;
+      object-fit: contain;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      flex: none;
+      background: #fff;
+    }
+
+    .product-title {
+      font-weight: 600;
+      /* 長い商品名は3行までにとどめる */
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    dl {
+      display: grid;
+      grid-template-columns: 5.5em 1fr;
+      gap: 4px 8px;
+      margin: 0;
+    }
+
+    dt { color: var(--muted); }
+    dd { margin: 0; overflow-wrap: anywhere; }
+    dd.missing { color: #b9bcc2; }
+
+    .price { color: #b12704; font-weight: 600; font-size: 15px; }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+    }
+
+    button {
+      flex: 1 1 auto;
+      min-width: 84px;
+      padding: 7px 8px;
+      font: inherit;
+      font-size: 12px;
+      color: var(--fg);
+      background: #f8f9fa;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover { background: #f1f2f4; }
+    button:active { background: #e9eaec; }
+
+    button.primary {
+      color: #fff;
+      background: var(--accent);
+      border-color: var(--accent-dark);
+    }
+
+    button.primary:hover { background: var(--accent-dark); }
+
+    #status {
+      min-height: 1.5em;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="icons/icon48.png" alt="">
+    <h1>Amazon Product Extractor</h1>
+  </header>
+
+  <p id="message">商品情報を取得しています…</p>
+
+  <section id="result" hidden>
+    <div class="product-head">
+      <img id="image" alt="" hidden>
+      <div id="title" class="product-title"></div>
+    </div>
+
+    <dl>
+      <dt>価格</dt><dd id="price" class="price"></dd>
+      <dt>ASIN</dt><dd id="asin"></dd>
+      <dt>ブランド</dt><dd id="brand"></dd>
+      <dt>評価</dt><dd id="rating"></dd>
+      <dt>レビュー</dt><dd id="reviewCount"></dd>
+      <dt>在庫</dt><dd id="availability"></dd>
+    </dl>
+
+    <div class="actions">
+      <button id="copyText" class="primary" type="button">テキストをコピー</button>
+      <button id="copyJson" type="button">JSON</button>
+      <button id="copyCsv" type="button">CSV</button>
+      <button id="reload" type="button">再取得</button>
+    </div>
+  </section>
+
+  <p id="status" role="status" aria-live="polite"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
