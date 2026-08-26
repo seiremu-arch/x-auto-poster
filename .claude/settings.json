@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/scripts/jsonl_to_markdown.py\"",
+            "timeout": 30,
+            "statusMessage": "セッションログをMarkdownへ変換中"
+          }
+        ]
+      }
+    ]
+  }
+}
