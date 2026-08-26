@@ -11,7 +11,7 @@ Amazonの商品ページを開いた状態でツールバーのアイコンを�
 | 価格 | `price` | `.a-price .a-offscreen` ほか |
 | 評価 | `rating` | `#acrPopover .a-icon-alt` |
 | レビュー数 | `reviewCount` | `#acrCustomerReviewText` |
-| ブランド | `brand` | `#bylineInfo` |
+| ブランド | `brand` | `#bylineInfo`(「ブランド: Anker」「Ankerのストアを表示」などの装飾を除いてブランド名だけにする) |
 | 画像URL | `image` | `#landingImage` |
 | 在庫状況 | `availability` | `#availability` |
 | ページURL | `url` | `location.href` |

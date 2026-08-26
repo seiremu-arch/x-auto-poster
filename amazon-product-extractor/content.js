@@ -1,4 +1,23 @@
 // content.js
+
+// 「ブランド: Anker」「Ankerのストアを表示」「Visit the Anker Store」のような
+// 表記からブランド名だけを取り出す
+function normalizeBrand(text) {
+  if (!text) return null;
+
+  const brand = text
+    .replace(/\s+/g, ' ')
+    .trim()
+    // 先頭の「ブランド:」「メーカー:」「Brand:」「Visit the」を落とす
+    .replace(/^(?:ブランド|メーカー|販売元|Brand|Visit the)\s*[:：]?\s*/i, '')
+    // 末尾の「のストアを表示」「のストア」「Store」を落とす
+    .replace(/(?:のストアを表示|のストア|ブランドストアを表示)$/, '')
+    .replace(/\s+Store$/i, '')
+    .trim();
+
+  return brand || null;
+}
+
 function extractProductInfo() {
   // ASINをURLから取得（最も確実）
   const asinMatch = window.location.href.match(/\/(?:dp|gp\/product|product)\/([A-Z0-9]{10})/i);
@@ -28,10 +47,13 @@ function extractProductInfo() {
                       document.querySelector('[data-hook="total-review-count"]')?.textContent?.trim() ||
                       null;
 
-  // ブランド
-  const brand = document.querySelector('#bylineInfo')?.textContent?.trim() ||
-                document.querySelector('a#bylineInfo')?.textContent?.trim() ||
-                null;
+  // ブランド（#bylineInfoは「ブランド: Anker」「Ankerのストアを表示」
+  // 「Visit the Anker Store」などの形なので、ブランド名だけを取り出す）
+  const brand = normalizeBrand(
+    document.querySelector('#bylineInfo')?.textContent ||
+    document.querySelector('a#bylineInfo')?.textContent ||
+    null
+  );
 
   // メイン画像
   const image = document.querySelector('#landingImage')?.src ||
