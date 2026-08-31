@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>消えた作家の部屋</title>
+<style>
+:root{
+  --ink:#0e1116;
+  --ink2:#161b23;
+  --ink3:#1e242e;
+  --line:#2c3542;
+  --paper:#e8e2d6;
+  --paper-dim:#a9a396;
+  --accent:#c8503c;
+  --accent2:#d8b26a;
+  --ok:#6f9a7a;
+  --serif:"Hiragino Mincho ProN","Yu Mincho",YuMincho,"Noto Serif JP",serif;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;background:var(--ink);color:var(--paper);
+  font-family:var(--serif);font-size:15px;line-height:1.9;
+  -webkit-text-size-adjust:100%;
+}
+button{font-family:inherit;font-size:inherit;color:inherit}
+.hide{display:none !important}
+
+/* ---------- title ---------- */
+#title{
+  position:fixed;inset:0;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:1.2rem;padding:2rem;
+  background:
+    radial-gradient(120% 90% at 50% 0%,#232a35 0%,#0e1116 62%),
+    var(--ink);
+  text-align:center;z-index:50;
+}
+#title .frame{
+  border:1px solid var(--line);padding:2.4rem 2rem;max-width:560px;width:100%;
+  background:rgba(14,17,22,.6);position:relative;
+}
+#title .frame::before{
+  content:"";position:absolute;inset:6px;border:1px solid rgba(200,80,60,.28);pointer-events:none;
+}
+#title h1{
+  margin:0 0 .4rem;font-size:clamp(28px,7vw,44px);letter-spacing:.22em;
+  text-indent:.22em;font-weight:500;
+}
+#title .sub{color:var(--paper-dim);font-size:13px;letter-spacing:.3em;margin-bottom:1.6rem}
+#title p.lead{color:var(--paper-dim);font-size:13.5px;text-align:left;margin:0 0 1.6rem}
+.btn{
+  background:transparent;border:1px solid var(--line);color:var(--paper);
+  padding:.7rem 1.4rem;cursor:pointer;letter-spacing:.16em;transition:.18s;
+}
+.btn:hover{border-color:var(--accent);background:rgba(200,80,60,.10)}
+.btn:disabled{opacity:.35;cursor:default}
+.btn.primary{border-color:var(--accent);color:#f0d9d3}
+.btn.small{padding:.35rem .7rem;font-size:12.5px;letter-spacing:.08em}
+
+/* ---------- layout ---------- */
+#app{display:flex;flex-direction:column;height:100%}
+header{
+  display:flex;align-items:center;gap:.8rem;padding:.55rem .9rem;
+  border-bottom:1px solid var(--line);background:var(--ink2);flex-wrap:wrap;
+}
+header .ttl{letter-spacing:.2em;font-size:14px;white-space:nowrap}
+header .day{color:var(--paper-dim);font-size:12px;letter-spacing:.1em}
+header .spacer{flex:1}
+header .count{font-size:12px;color:var(--paper-dim);letter-spacing:.08em}
+main{flex:1;display:grid;grid-template-columns:190px 1fr 240px;min-height:0}
+aside{background:var(--ink2);overflow-y:auto;padding:.7rem}
+aside.left{border-right:1px solid var(--line)}
+aside.right{border-left:1px solid var(--line)}
+.panel-h{
+  font-size:11.5px;letter-spacing:.24em;color:var(--paper-dim);
+  border-bottom:1px solid var(--line);padding-bottom:.35rem;margin-bottom:.55rem;
+}
+.item{
+  display:block;width:100%;text-align:left;background:transparent;border:0;
+  border-left:2px solid transparent;padding:.34rem .5rem;cursor:pointer;
+  font-size:13px;color:var(--paper);line-height:1.6;
+}
+.item:hover{background:var(--ink3)}
+.item.active{border-left-color:var(--accent);color:#f2ded8;background:var(--ink3)}
+.item.locked{color:#5b6472;cursor:default}
+.item.locked:hover{background:transparent}
+.item .who{display:block;font-size:11px;color:var(--accent2);letter-spacing:.06em}
+.ev{
+  display:block;width:100%;text-align:left;background:transparent;
+  border:1px solid var(--line);padding:.32rem .5rem;margin-bottom:.35rem;
+  font-size:12.5px;cursor:pointer;color:var(--paper);line-height:1.5;
+}
+.ev:hover{border-color:var(--accent2)}
+.ev .id{color:var(--paper-dim);font-size:10.5px;letter-spacing:.1em;margin-right:.35rem}
+.ev.new{border-color:var(--accent)}
+.ev-empty{color:#5b6472;font-size:12px}
+
+/* ---------- center ---------- */
+#center{display:flex;flex-direction:column;min-width:0;min-height:0}
+#scene{
+  height:120px;flex:none;border-bottom:1px solid var(--line);position:relative;
+  display:flex;align-items:flex-end;padding:.6rem .9rem;overflow:hidden;
+}
+#scene .name{
+  position:relative;z-index:2;letter-spacing:.24em;font-size:15px;
+  text-shadow:0 2px 10px rgba(0,0,0,.8);
+}
+#scene .art{position:absolute;inset:0;z-index:1}
+#log{
+  flex:1;overflow-y:auto;padding:1.1rem 1.1rem 1.4rem;min-height:0;
+  background:linear-gradient(180deg,rgba(255,255,255,.015),transparent 120px);
+}
+#log .l{margin:0 0 .85rem;max-width:62ch}
+#log .l.narr{color:#cfc9bc}
+#log .l.say{color:var(--paper)}
+#log .l.say b{color:var(--accent2);font-weight:500;display:block;font-size:13px;letter-spacing:.1em}
+#log .l.sys{color:var(--ok);font-size:13px;border-left:2px solid var(--ok);padding-left:.7rem}
+#log .l.q{color:#f0d9d3;border-left:2px solid var(--accent);padding-left:.7rem}
+#log .sep{border:0;border-top:1px solid var(--line);margin:1.2rem 0}
+#choices{
+  flex:none;border-top:1px solid var(--line);background:var(--ink2);
+  padding:.6rem .9rem;display:flex;flex-wrap:wrap;gap:.45rem;max-height:40vh;overflow-y:auto;
+}
+.choice{
+  background:var(--ink3);border:1px solid var(--line);padding:.42rem .8rem;
+  cursor:pointer;font-size:13px;transition:.15s;text-align:left;
+}
+.choice:hover{border-color:var(--accent);background:rgba(200,80,60,.10)}
+.choice.done{color:#6d7684}
+.choice.key{border-color:var(--accent2)}
+
+/* ---------- modal ---------- */
+#modal{
+  position:fixed;inset:0;background:rgba(6,8,11,.82);z-index:60;
+  display:flex;align-items:center;justify-content:center;padding:1.2rem;
+}
+#modal .box{
+  background:var(--ink2);border:1px solid var(--line);max-width:520px;width:100%;
+  padding:1.4rem;max-height:82vh;overflow-y:auto;
+}
+#modal h3{margin:0 0 .2rem;font-size:16px;letter-spacing:.1em}
+#modal .tag{color:var(--paper-dim);font-size:11px;letter-spacing:.16em;margin-bottom:.9rem}
+#modal p{margin:0 0 1rem;font-size:14px;color:#d9d3c6}
+#modal .acts{display:flex;gap:.5rem;flex-wrap:wrap;justify-content:flex-end}
+
+/* ---------- ending ---------- */
+#ending{
+  position:fixed;inset:0;z-index:70;overflow-y:auto;padding:3rem 1.2rem;
+  background:radial-gradient(120% 80% at 50% 0%,#232a35 0%,#0b0d11 65%);
+}
+#ending .wrap{max-width:620px;margin:0 auto}
+#ending .kind{letter-spacing:.34em;font-size:11.5px;color:var(--paper-dim)}
+#ending h2{font-size:clamp(24px,6vw,34px);letter-spacing:.18em;margin:.3rem 0 1.6rem;font-weight:500}
+#ending .body p{margin:0 0 1.1rem;color:#d5cfc2;font-size:14.5px}
+#ending .verdict{border:1px solid var(--line);padding:1rem;margin:1.6rem 0;font-size:13px}
+#ending .verdict div{display:flex;gap:.6rem;padding:.2rem 0;color:var(--paper-dim)}
+#ending .verdict b{color:var(--paper);font-weight:500}
+#ending .verdict .x{color:var(--accent)}
+#ending .verdict .o{color:var(--ok)}
+
+@media (max-width:860px){
+  main{grid-template-columns:1fr;grid-template-rows:auto 1fr;overflow-y:auto}
+  aside{display:none;max-height:44vh}
+  aside.open{display:block}
+  aside.left{border-right:0;border-bottom:1px solid var(--line)}
+  aside.right{border-left:0;border-top:1px solid var(--line)}
+  #scene{height:96px}
+  #center{min-height:62vh}
+  #choices{max-height:none}
+}
+.tabs{display:none;gap:.4rem}
+@media (max-width:860px){ .tabs{display:flex} }
+</style>
+</head>
+<body>
+
+<div id="title">
+  <div class="frame">
+    <h1>消えた作家の部屋</h1>
+    <div class="sub">THE VANISHED AUTHOR'S ROOM</div>
+    <p class="lead">
+      十二月二十四日の夜、作家・霧島遼は書斎「白の間」から消えた。<br>
+      扉は内側から施錠されていた。床には血。遺体はない。<br>
+      最新作の原稿から、最終章だけが抜け落ちていた。<br><br>
+      あなたは彼の担当編集者。二十四時間で、<br>
+      「誰が」「どうやって」「なぜ」を確かめなければならない。
+    </p>
+    <div style="display:flex;gap:.6rem;flex-wrap:wrap;justify-content:center">
+      <button class="btn primary" id="btn-start">はじめから</button>
+      <button class="btn" id="btn-continue">つづきから</button>
+    </div>
+  </div>
+</div>
+
+<div id="app" class="hide">
+  <header>
+    <span class="ttl">消えた作家の部屋</span>
+    <span class="day">十二月二十五日</span>
+    <span class="spacer"></span>
+    <span class="count" id="count">証拠 0 / 15</span>
+    <span class="tabs">
+      <button class="btn small" id="tab-left">場所</button>
+      <button class="btn small" id="tab-right">証拠</button>
+    </span>
+    <button class="btn small" id="btn-deduce">推理する</button>
+    <button class="btn small" id="btn-title">中断</button>
+  </header>
+  <main>
+    <aside class="left" id="pane-left">
+      <div class="panel-h">白鷺館</div>
+      <div id="places"></div>
+    </aside>
+    <section id="center">
+      <div id="scene"><div class="art" id="art"></div><div class="name" id="scene-name"></div></div>
+      <div id="log"></div>
+      <div id="choices"></div>
+    </section>
+    <aside class="right" id="pane-right">
+      <div class="panel-h">証拠</div>
+      <div id="evidence"></div>
+    </aside>
+  </main>
+</div>
+
+<div id="modal" class="hide"><div class="box">
+  <h3 id="m-title"></h3>
+  <div class="tag" id="m-tag"></div>
+  <p id="m-body"></p>
+  <div class="acts" id="m-acts"></div>
+</div></div>
+
+<div id="ending" class="hide"><div class="wrap">
+  <div class="kind" id="e-kind"></div>
+  <h2 id="e-title"></h2>
+  <div class="body" id="e-body"></div>
+  <div class="verdict" id="e-verdict"></div>
+  <div style="display:flex;gap:.6rem;flex-wrap:wrap">
+    <button class="btn primary" id="e-retry">もう一度、あの部屋へ</button>
+    <button class="btn" id="e-title-btn">タイトルへ</button>
+  </div>
+  <p style="color:#5b6472;font-size:12px;margin-top:2.4rem">
+    『消えた作家の部屋』／ 原作・脚本・ゲームデザイン
+  </p>
+</div></div>
+
+<script>
+"use strict";
+
+/* =========================================================
+   『消えた作家の部屋』 data
+   ========================================================= */
+
+const EV = {
+  E01:{n:"血の引きずり跡", w:"書斎", d:"床の血は扉ではなく、造り付けの書棚のほうへ細く伸びて消えている。何かを引きずった跡だ。運び出されたのなら、出口は扉ではない。"},
+  E02:{n:"欠落した最終章", w:"書斎", d:"机上の原稿はノンブル231の次が245。最終章だけが抜けている。編集者の私にすら、まだ読ませてもらえていない章だ。"},
+  E03:{n:"サムターンの擦り傷", w:"書斎", d:"内鍵のつまみに新しい擦り傷。針金や糸を使った施錠トリックを思わせる——が、傷はつまみの根元にしかない。"},
+  E04:{n:"止まった掛け時計", w:"書斎", d:"落下して針が止まった掛け時計。二十一時十分。ガラスの割れ方からして、床に叩きつけられている。"},
+  E05:{n:"ICレコーダー", w:"書斎", d:"霧島が口述筆記に使っていた機械。最後の再生履歴は二十二時四十分。だが録音日時は前日になっている。音声の背後で、風鈴が鳴っている。"},
+  E06:{n:"黒いスパンコール", w:"廊下", d:"二重扉の内側に落ちていた黒い飾り。舞台衣装のような、安くはない仕立てのもの。"},
+  E07:{n:"減っていない常用薬", w:"寝室", d:"三日前に処方された心臓の薬。一錠も減っていない。自分の意思で家を出た人間が、これを置いていくとは思えない。"},
+  E08:{n:"新人賞の応募控え", w:"秘書室", d:"相馬千夏名義の、未発表原稿の応募控え。冒頭の三行を読んで、指が冷たくなった。この文体を、私は知っている。霧島遼の後期作品そのものだ。"},
+  E09:{n:"改修工事の見積書と図面", w:"秘書室", d:"三年前の改修工事の書類。図面には、書斎の壁を貫いて地下まで抜ける旧配膳リフトの縦坑が描かれている。処理印は——相馬千夏。"},
+  E10:{n:"霧島の日記", w:"図書室", d:"最後の頁。「次の一冊で終わりにする。彼女の“声”はもう要らない。私は私の声で死にたい」"},
+  E11:{n:"燃え残った契約書", w:"応接間", d:"暖炉の灰の中に、厚い紙の切れ端。「……秘密保持……本契約に基づく著作の一切の権利は甲に帰属し……」署名欄は焼け落ちている。"},
+  E12:{n:"配膳口の新しい木ネジ", w:"配膳室", d:"板で塞がれた古い配膳口。ネジだけが新しく、まだ光っている。ドライバーの噛み跡が、秘書室の工具箱のものと同じ形だ。"},
+  E13:{n:"地下の血痕と万年筆", w:"地下", d:"縦坑の真下、ボイラーの脇の床に黒く乾いた血だまり。その縁に、霧島が二十年使い続けた万年筆が落ちている。ここまでは、確かに彼が来た。"},
+  E14:{n:"漆喰のついたコート", w:"秘書室", d:"縦坑の壁の古い漆喰と、相馬千夏のコートの背中についた白い粉。同じものだ。背中——降りたのではない。背をつけて、壁を伝って降りたのだ。"},
+  E15:{n:"足跡のない雪", w:"中庭", d:"昨夜二十時から雪。館の周囲に、外へ向かう足跡はひとつもない。出ていった者も、入ってきた者もいない。"}
+};
+
+const PEOPLE = {
+  chinatsu:{name:"相馬 千夏", role:"専属秘書"},
+  sakaki:{name:"榊 京介", role:"編集長"},
+  mikoto:{name:"霧島 美琴", role:"義妹"},
+  tokura:{name:"戸倉 秀一", role:"管理人"},
+  rui:{name:"白瀬 累", role:"弟子"}
+};
+
+const PLACES = [
+ {id:"shosai", name:"書斎「白の間」", art:"repeating-linear-gradient(90deg,rgba(255,255,255,.05) 0 2px,transparent 2px 26px),linear-gradient(180deg,#2a3240,#12161d 70%)",
+  intro:[["narr","二重扉を抜けると、暖房の切れた部屋の匂いがした。紙とインクと、その下にうっすらと鉄の匂い。ここで、私の担当作家は消えた。"]],
+  spots:[
+   {id:"blood", label:"床の血痕を調べる", gives:"E01",
+    lines:[["narr","血は乾ききっている。広がりの中心から、細い筋が一本だけ、壁際の書棚へ向かって伸びていた。誰かが、何かを引きずったのだ。"]]},
+   {id:"genko", label:"机の上の原稿を読む", gives:"E02",
+    lines:[["narr","『白の間』最終稿。私は頁をめくり、そして手が止まった。231の次が245。十四枚——最終章がまるごとない。"],["narr","霧島は最後の章を、誰にも見せないまま消えたことになる。"]]},
+   {id:"lock", label:"扉の内鍵を確かめる", gives:"E03",
+    lines:[["narr","サムターンには新しい擦り傷。糸か針金で外から回した——推理小説なら、そう書くところだ。私は少しだけ安心し、その安心を疑った。"]]},
+   {id:"clock", label:"落ちた掛け時計を拾う", gives:"E04",
+    lines:[["narr","文字盤のガラスが砕け、針は二十一時十分で止まっている。壁から落ちたのではない。落とされたか、あるいは何かがぶつかったのだ。"]]},
+   {id:"rec", label:"棚のICレコーダーを操作する", gives:"E05",
+    lines:[["narr","霧島は口述で下書きをする癖があった。再生履歴の最後は昨夜二十二時四十分。"],["say:霧島 遼","——ここまでだ、千夏。もう休みなさい。"],["narr","録音日時の表示は、前日の午後。背後で、風鈴が鳴っている。昨夜は雪だった。風鈴は片づけられていたはずだ。"]]},
+   {id:"shelf", label:"書棚の裏を検める", need:["E09"], sets:["shaft"],
+    lines:[["narr","図面の通りだった。書棚をずらすと、壁に人ひとりぶんの四角い穴が口を開けている。旧館の配膳リフトの縦坑。塞がれるはずだった穴。"],["sys","書斎と地下は、扉を通らずに繋がっている。"]]}
+  ]},
+ {id:"rouka", name:"二重扉の廊下", art:"repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 1px,transparent 1px 18px),linear-gradient(180deg,#20262f,#0f1319 75%)",
+  intro:[["narr","書斎の前は、防音のための二重扉。外側の扉と内側の扉のあいだに、人が一人立てるだけの空間がある。"]],
+  spots:[
+   {id:"spangle", label:"扉のあいだの床を見る", gives:"E06",
+    lines:[["narr","黒い小さな飾りが落ちていた。スパンコール。館の誰かが、ここに立っていたということだ。"]]},
+   {id:"listen", label:"防音の具合を確かめる", 
+    lines:[["narr","内側の扉を閉めると、廊下の物音は完全に消えた。逆もまた同じだろう。ここで何が起きても、館の誰にも聞こえない。"]]}
+  ]},
+ {id:"shinshitsu", name:"霧島の寝室", art:"linear-gradient(180deg,#252a33,#101319 72%)",
+  intro:[["narr","ベッドは整えられたまま。昨夜、彼はここへ戻ってきていない。"]],
+  spots:[
+   {id:"med", label:"枕元の薬を見る", gives:"E07",
+    lines:[["narr","三日前に出たばかりの心臓の薬。一錠も減っていない。彼は毎晩これを飲まなければ眠れなかった。"]]},
+   {id:"closet", label:"衣装棚を開ける",
+    lines:[["narr","コートも鞄も靴も、欠けていない。旅立った人間の部屋ではない。"]]}
+  ]},
+ {id:"hishoshitsu", name:"秘書室", who:"chinatsu", art:"linear-gradient(90deg,rgba(216,178,106,.06),transparent 60%),linear-gradient(180deg,#2b2f39,#13161c 70%)",
+  intro:[["narr","相馬千夏の部屋は、事件の翌朝だというのに、いつも通り整っていた。書類は角を揃えて重ねられている。"]],
+  spots:[
+   {id:"oubo", label:"棚の私物の書類を見る", need:["ghost"], gives:"E08",
+    lines:[["narr","背表紙のない薄いファイル。相馬千夏名義の、応募控え。私は冒頭を読み、頁を閉じ、もう一度読んだ。"],["narr","この文体を、私は十年読み続けてきた。霧島遼の、後期の文体だ。"]]},
+   {id:"zumen", label:"経理ファイルを繰る", need:["structure"], gives:"E09",
+    lines:[["narr","三年前の改修工事の見積書。添付の図面に、書斎の壁を貫いて地下へ落ちる縦坑が描かれている。"],["narr","この書類を処理したのは、彼女だ。館の秘密を知る者は、管理人ひとりではなかった。"]]},
+   {id:"coat", label:"コート掛けを調べる", need:["plaster"], gives:"E14",
+    lines:[["narr","彼女のコートの背中に、白い粉が薄く残っていた。ブラシをかけても落ちきらなかったのだろう。"],["narr","縦坑の漆喰と同じものだ。背中で壁を押さえながら、あの穴を降りた人間の跡。"]]}
+  ]},
+ {id:"toshoshitsu", name:"図書室", who:"mikoto", art:"repeating-linear-gradient(90deg,rgba(255,255,255,.045) 0 3px,transparent 3px 14px),linear-gradient(180deg,#2a2b33,#111318 74%)",
+  intro:[["narr","天井まである書架。霧島遼の初版が並ぶ棚の前に、義妹の美琴が立っていた。"]],
+  spots:[
+   {id:"diary", label:"机の抽斗の手帳を開く", gives:"E10",
+    lines:[["narr","霧島の日記。最後の頁に、震えた字でこうあった。"],["narr","「次の一冊で終わりにする。彼女の“声”はもう要らない。私は私の声で死にたい」"]]}
+  ]},
+ {id:"ousetsu", name:"応接間", who:"sakaki", art:"radial-gradient(60% 80% at 20% 90%,rgba(200,80,60,.25),transparent 60%),linear-gradient(180deg,#332a2a,#12100f 72%)",
+  intro:[["narr","暖炉の火はまだ生きていた。榊編集長がその前の椅子に沈み込んでいる。"]],
+  spots:[
+   {id:"ash", label:"暖炉の灰をかき分ける", gives:"E11",
+    lines:[["narr","灰の中に、厚い紙の切れ端が残っていた。「秘密保持」「著作の一切の権利は甲に帰属し」——契約書だ。"],["narr","署名の部分だけが、きれいに焼け落ちている。"]]}
+  ]},
+ {id:"haizen", name:"厨房・配膳室", who:"tokura", art:"linear-gradient(180deg,#252c2b,#0f1314 74%)",
+  intro:[["narr","古い厨房。壁の一面に、使われなくなった配膳台が残っている。"]],
+  spots:[
+   {id:"neji", label:"塞がれた配膳口を見る", need:["shaft"], gives:"E12", sets:["basement"],
+    lines:[["narr","縦坑の下端は、板で塞がれていた。だがネジだけが新しく、頭の溝はまだ光っている。"],["narr","ドライバーの噛み跡。秘書室の工具箱にあった、あの一本の癖と同じだ。"],["sys","板を外すと、地下へ降りる梯子が見えた。地下ボイラー室へ行ける。"]]}
+  ]},
+ {id:"chika", name:"地下ボイラー室", need:["basement"], art:"radial-gradient(50% 60% at 70% 80%,rgba(200,80,60,.18),transparent 65%),linear-gradient(180deg,#1d2126,#07090b 76%)",
+  intro:[["narr","梯子を降りると、ボイラーの低い唸りが体を包んだ。ここは館でいちばん暖かく、いちばん暗い。"]],
+  spots:[
+   {id:"floor", label:"縦坑の真下を調べる", gives:"E13",
+    lines:[["narr","乾いて黒くなった血だまり。その縁に、見覚えのある万年筆が転がっていた。二十年、彼が使い続けたもの。"],["narr","ここまでは、確かに霧島遼が来ている。"]]},
+   {id:"shaft2", label:"縦坑の壁を照らす", sets:["plaster"],
+    lines:[["narr","壁は古い漆喰。人の背丈のあたりに、擦り取られたような跡が続いている。"],["narr","荷物を落としただけでは、こうはならない。人が背中を壁につけ、突っ張りながら降りた跡だ。"],["sys","この漆喰の粉がついた衣服を探せば、降りた人間がわかる。"]]},
+   {id:"boiler", label:"ボイラーの中を覗く",
+    lines:[["narr","焼却の跡はない。彼女は——犯人は、遺体を燃やしてはいない。燃やせば、それは「死体」になってしまうからだ。"],["narr","そこまで考えて、私は自分の言葉に立ち止まった。燃やせない理由が、あるということか。"]]}
+  ]},
+ {id:"nakaniwa", name:"中庭・雪の外周", art:"repeating-linear-gradient(115deg,rgba(255,255,255,.10) 0 1px,transparent 1px 9px),linear-gradient(180deg,#39404b,#161b22 72%)",
+  intro:[["narr","雪は昨夜八時から降り続き、明け方に止んだ。館は白い紙の上に置かれた黒い箱のようだった。"]],
+  spots:[
+   {id:"snow", label:"館の周囲を一周する", gives:"E15",
+    lines:[["narr","足跡はない。外へ出た跡も、入ってきた跡も、ひとつもない。"],["narr","つまり昨夜、この館にいた者だけで、すべてが起きた。"]]}
+  ]},
+ {id:"yaneura", name:"屋根裏", who:"rui", art:"linear-gradient(180deg,#2b2733,#0f0e14 74%)",
+  intro:[["narr","旧使用人部屋。膝を折らないと入れない低い天井の下で、白瀬累が膝を抱えていた。"]],
+  spots:[
+   {id:"window", label:"小窓から中庭を見下ろす",
+    lines:[["narr","この窓からは、中庭と書斎の窓が見える。昨夜ここにいた者は、館の夜をひととおり見ていたことになる。"]]}
+  ]}
+];
+
+const TALK = {
+ chinatsu:{
+  topics:[
+   {id:"c1", label:"昨夜のことを聞かせてください",
+    lines:[["say:相馬 千夏","二十時に夕食のトレイを書斎へ運びました。二十二時四十分に、先生が『もう休みなさい』と。それが最後です。"],
+           ["say:黒羽 ナオ","扉ごしに?"],
+           ["say:相馬 千夏","ええ。書斎に入るのは、呼ばれたときだけですから。"],
+           ["narr","彼女の言葉には、一度も言い淀みがなかった。十年ぶんの、整理された言葉だった。"]]},
+   {id:"c2", label:"霧島先生はどんな人でしたか",
+    lines:[["say:相馬 千夏","締切を守らない人でした。原稿は口述で、それを私が起こして、直して、また読ませて。"],
+           ["say:黒羽 ナオ","直して?"],
+           ["say:相馬 千夏","……体裁を、整える程度です。"],
+           ["narr","そこだけ、言葉が半歩遅れた。"]]},
+   {id:"c3", label:"最終章はどこにありますか",
+    lines:[["say:相馬 千夏","先生がお持ちなのでは。あの章だけは、誰にも触らせませんでしたから。"],
+           ["say:相馬 千夏","……誰にも、というのは、私にも、ということです。"]]},
+   {id:"c4", label:"あなたは、書いていますか", need:["E08"],
+    lines:[["say:黒羽 ナオ","この応募控え。あなたの名前で書かれた小説です。読みました。"],
+           ["say:相馬 千夏","趣味です。"],
+           ["say:黒羽 ナオ","十年、霧島遼を担当してきた人間に、同じ嘘を二度つかないでください。"],
+           ["narr","彼女は湯呑みを置いた。指はまっすぐで、震えてもいなかった。"],
+           ["say:相馬 千夏","……あの人の名前でなければ、一行も読まれないんです。私の文章は。"]]}
+  ],
+  show:{
+   E09:{sets:["c_zumen"], lines:[["say:黒羽 ナオ","三年前の改修の見積書です。処理印はあなただ。この図面には、書斎から地下へ落ちる縦坑が描かれている。"],
+        ["say:相馬 千夏","……書類は、年に何百枚も処理します。"],
+        ["say:黒羽 ナオ","では、図面を見た記憶はない?"],
+        ["narr","彼女は答えなかった。それは、この部屋に入って初めての沈黙だった。"]]},
+   E05:{lines:[["say:黒羽 ナオ","二十二時四十分の『声』は、このレコーダーの再生です。録音は前日。背後で風鈴が鳴っている。"],
+        ["say:相馬 千夏","私は、扉の外で聞いただけです。声が生きているかどうかまでは、わかりません。"],
+        ["narr","うまい返し方だった。うますぎた。"]]},
+   E04:{lines:[["say:黒羽 ナオ","時計は二十一時十分で止まっています。"],["say:相馬 千夏","古い時計ですから。"]]},
+   E13:{lines:[["say:黒羽 ナオ","地下に血がありました。先生の万年筆も。"],["narr","彼女はまばたきをひとつした。それだけだった。"]]},
+   E14:{sets:["c_broken"], lines:[
+        ["say:黒羽 ナオ","縦坑の壁の漆喰と、あなたのコートの背中についていた粉。同じものです。"],
+        ["say:黒羽 ナオ","背中で壁を押さえて、あなたはあの穴を降りた。先生を落としたあとに。"],
+        ["narr","彼女は長いあいだ動かなかった。やがて、いつもの手つきで書類の角を揃え、それをまっすぐ私のほうへ向けた。"],
+        ["say:相馬 千夏","……原稿は、明日も上がります。"],
+        ["sys","相馬千夏を追い詰めた。もう、推理を組み立てられる。"]]}
+  },
+  def:[["say:相馬 千夏","それが、何か?"],["narr","彼女はそれを一瞥し、私に返した。指紋がつかないように、端だけを持って。"]]
+ },
+ sakaki:{
+  topics:[
+   {id:"s1", label:"昨夜はどちらに",
+    lines:[["say:榊 京介","応接間で飲んでたよ。二十時から、ずっとな。……証人はいない。悪いね。"],
+           ["say:榊 京介","あいつが消えて、いちばん困るのは俺だ。前渡し金が三千万、宙に浮く。"]]},
+   {id:"s2", label:"後期の作品について、思うことは", sets:["ghost"],
+    lines:[["say:榊 京介","……編集長として言うことじゃないが。三作目あたりから、文体が変わった。"],
+           ["say:黒羽 ナオ","円熟した、と評されています。"],
+           ["say:榊 京介","円熟は、句読点の打ち方までは変えないんだよ。"],
+           ["say:榊 京介","調べるなら、あの人の周りだ。原稿に最初に触る人間の周り。"],
+           ["sys","秘書室で、相馬千夏の私物の書類を調べられるようになった。"]]},
+   {id:"s3", label:"契約書のことを聞かせてください", need:["E11"],
+    lines:[["say:黒羽 ナオ","暖炉で燃やされていました。秘密保持契約の断片です。"],
+           ["say:榊 京介","……うちが結んだものじゃない。霧島の個人契約だ。誰と結んだのかは、俺も知らん。"],
+           ["say:榊 京介","知らないことにしていた、が正しいかな。売れてたからな、あれは。"]]}
+  ],
+  show:{
+   E02:{lines:[["say:榊 京介","最終章がない? ……それは事件より重い話だぞ。あれで完結する予定だったんだ。"]]},
+   E08:{lines:[["say:榊 京介","（頁をめくる音）……ああ。これは、うちが出してる霧島遼だ。名前が違うだけで。"]]},
+   E10:{lines:[["say:榊 京介","『彼女の声はもう要らない』……あいつ、切る気だったのか。今さら。"]]}
+  },
+  def:[["say:榊 京介","俺に見せてどうする。俺は本を作る人間で、事件を作る人間じゃない。"]]
+ },
+ mikoto:{
+  topics:[
+   {id:"m1", label:"あなたは、なぜこの館に",
+    lines:[["say:霧島 美琴","義理でも兄妹ですから。……お金の話をしに来たんです。隠しても、どうせ出てくるでしょう。"],
+           ["say:霧島 美琴","館も蔵書も、兄が死ねば私のものです。失踪だと、七年待たされますけど。"],
+           ["narr","損得を先に喋る人間は、たいてい、それ以外を隠している。"]]},
+   {id:"m2", label:"昨夜、書斎へ行きましたか",
+    lines:[["say:霧島 美琴","行っていません。"],["narr","即答だった。速すぎる即答は、用意されている。"]]}
+  ],
+  show:{
+   E06:{sets:["voice"], lines:[
+        ["say:黒羽 ナオ","二重扉のあいだに落ちていました。昨夜の衣装のものですね。"],
+        ["say:霧島 美琴","……行きました。二十二時四十分ごろ。でも、扉は開けていない。"],
+        ["say:霧島 美琴","中から兄の声がしたんです。『ここまでだ、千夏。もう休みなさい』って。それで、引き返した。"],
+        ["say:黒羽 ナオ","千夏さんの名前を、呼んでいた?"],
+        ["say:霧島 美琴","ええ。だから、あの人が中にいるんだと思って。"],
+        ["sys","二十二時四十分、書斎の中に千夏はいなかった。声だけがいた。"]]},
+   E10:{lines:[["say:霧島 美琴","兄の字ですね。……『私は私の声で死にたい』。気持ち悪い人。最後まで、自分の話しかしない。"]]},
+   E15:{lines:[["say:霧島 美琴","外から誰も来ていない? ……つまり、この中の誰か。私を疑うには、ちょうどいい話ですね。"]]}
+  },
+  def:[["say:霧島 美琴","わかりません。私、そういうのは向いてないんです。"]]
+ },
+ tokura:{
+  topics:[
+   {id:"t1", label:"この館の造りについて", sets:["structure"],
+    lines:[["say:戸倉 秀一","古い館です。もとは旅館の別邸でしてね、厨房から二階へ料理を上げる小さなリフトがあった。"],
+           ["say:黒羽 ナオ","そのリフトは、今は?"],
+           ["say:戸倉 秀一","三年前の改修で撤去しました。……縦の穴は、そのままです。塞ぐ予算が下りなかった。"],
+           ["say:戸倉 秀一","知っているのは私だけですよ。図面なんぞ、誰も読みませんから。"],
+           ["sys","秘書室の経理ファイルを調べられるようになった。"]]},
+   {id:"t2", label:"昨夜の見回りは",
+    lines:[["say:戸倉 秀一","二十一時に一階を回りました。廊下で物音がしましたが、先生はよく物を落とす方でしたから。"],
+           ["say:黒羽 ナオ","二十一時。"],
+           ["say:戸倉 秀一","ええ。だいたい、その時分です。"]]},
+   {id:"t3", label:"内鍵に傷がありました", need:["E03"],
+    lines:[["say:戸倉 秀一","ああ、あれは私です。半年前、つまみが空回りしましてね、外して直したんです。"],
+           ["say:戸倉 秀一","傷は根元だけでしょう。糸で回したなら、頭にも跡が残りますよ。舞台の仕掛けと同じです。"],
+           ["narr","ひとつ、都合のいい可能性が消えた。密室は、本物だ。"]]}
+  ],
+  show:{
+   E12:{lines:[["say:戸倉 秀一","……このネジは私じゃない。私の工具は、こんな新しいものは使いません。"],
+        ["say:戸倉 秀一","誰かが、あとから塞いだんです。使ったあとに。"]]},
+   E09:{lines:[["say:戸倉 秀一","この図面……経理に回した控えですな。ということは、私のほかにも読んだ人間がいたわけだ。"]]}
+  },
+  def:[["say:戸倉 秀一","私は建物のことしかわかりません。人のことは、どうも。"]]
+ },
+ rui:{
+  topics:[
+   {id:"r1", label:"霧島先生のことを",
+    lines:[["say:白瀬 累","先生の小説で、僕は死ななくて済んだんです。……こんな言い方、気持ち悪いですか。"],
+           ["say:黒羽 ナオ","いいえ。私も、それで編集者になりました。"]]},
+   {id:"r2", label:"昨夜、屋根裏から何か見ましたか", sets:["ruiTime"],
+    lines:[["say:白瀬 累","二十一時すぎ、下で大きな音がしました。何かが倒れるような。"],
+           ["say:白瀬 累","でも、二十二時四十分に先生の声が聞こえたので、僕は安心して寝たんです。"],
+           ["say:黒羽 ナオ","声のあいだ、廊下には誰かいましたか。"],
+           ["say:白瀬 累","……美琴さんが。あと、階段のほうから、誰かが上がってくる足音が。地下のほうから。"],
+           ["sys","二十一時に物音、二十二時四十分に「声」。順番が逆だ。"]]}
+  ],
+  show:{
+   E04:{lines:[["say:白瀬 累","二十一時十分。……そうだ、その音です。僕が聞いたのは。"]]},
+   E05:{lines:[["say:白瀬 累","じゃあ、あの声は録音だったんですか。……僕は、死んだ人の声で安心して眠ったのか。"]]},
+   E02:{lines:[["say:白瀬 累","最終章、僕は少しだけ読ませてもらいました。作家が自分の名前を捨てる話でした。"]]}
+  },
+  def:[["say:白瀬 累","僕にはわかりません。……先生が生きているなら、それでいいんです。"]]
+ }
+};
+
+const DEDUCE = [
+ {q:"誰が、霧島遼を殺したのか。",
+  opts:[
+   {t:"相馬 千夏 — 専属秘書", ok:true},
+   {t:"榊 京介 — 編集長", ok:false},
+   {t:"霧島 美琴 — 義妹", ok:false},
+   {t:"戸倉 秀一 — 管理人", ok:false},
+   {t:"白瀬 累 — 弟子", ok:false}
+  ]},
+ {q:"施錠された書斎から、どうやって遺体は消えたのか。",
+  opts:[
+   {t:"合鍵で扉を開け、廊下から運び出した", ok:false},
+   {t:"書棚の裏に残された旧配膳リフトの縦坑から、地下へ落とした", ok:true},
+   {t:"窓から屋根伝いに運び、雪の中へ埋めた", ok:false},
+   {t:"遺体は最初から書斎になく、血だけが偽装だった", ok:false}
+  ]},
+ {q:"なぜ、遺体を消さなければならなかったのか。",
+  opts:[
+   {t:"遺産の相続を有利に運ぶため", ok:false},
+   {t:"借金の取り立てから逃れるため", ok:false},
+   {t:"作家を「失踪」にして、この先も自分の小説を霧島遼の名前で世に出し続けるため", ok:true},
+   {t:"殺害の方法を隠すため", ok:false}
+  ]}
+];
+
+const ENDINGS = {
+ A:{kind:"ENDING A", title:"真実の章",
+  body:[
+   "相馬千夏は、否定しなかった。ただ一度だけ、机の上の書類の角を揃えた。十年、彼女がそうしてきたように。",
+   "「あの人は、私の文章を自分の声で読み上げるのが好きでした」と彼女は言った。「最後の章で、それをやめると言ったんです。私の声はもう要らない、と」",
+   "殺したあとで、彼女は死体を消した。作家が死ねば、作品は終わる。失踪なら終わらない。彼女は霧島遼を殺したのではなく、霧島遼を永遠に生かそうとしたのだ。",
+   "地下から運び出された遺体のポケットに、最終章の十四枚が折り畳まれて入っていた。表題は『白の間』。冒頭の一行はこうだった。",
+   "——この小説を書いたのは、私ではない。",
+   "私はその十四枚を、彼女の名前で出す。それが、編集者としての私の最後の仕事になる。"
+  ]},
+ B:{kind:"ENDING B", title:"未完の章",
+  body:[
+   "犯人の名前は言い当てた。だが、どうやって、なぜ——そこが埋まらなかった。",
+   "密室は崩せず、動機は憶測のままだった。相馬千夏は三日で戻ってきて、また書類の角を揃えはじめた。",
+   "翌年の春、『霧島遼 未発表原稿』と帯のついた本が出た。売れた。その次の年も出た。文体は年々、なめらかになっていく。",
+   "彼女は毎年、私に献本を送ってくる。扉には決まって同じ一行が印刷されている。「著者は現在も消息不明である」",
+   "私はそれを、最後まで読めたことがない。"
+  ]},
+ C:{kind:"ENDING C", title:"白紙の章",
+  body:[
+   "私は間違えた人間を指し、指されなかった人間は、静かに荷物をまとめた。",
+   "事件は失踪として処理された。血は本人のものと判定され、けれど遺体は出ず、七年という数字だけが残った。",
+   "白鷺館の書斎には板が打たれた。二重扉の内側で、あの部屋は今も施錠されたままだ。",
+   "何年かして、私は自分の間違いに気づいた。気づいたときには、証拠はすべて片づけられたあとだった。あの人は、片づけるのがとても上手い人だった。"
+  ]}
+};
+
+/* =========================================================
+   engine
+   ========================================================= */
+const SAVE_KEY = "kieta-sakka-no-heya:v1";
+const $ = id => document.getElementById(id);
+const EV_IDS = Object.keys(EV);
+
+let S = null;      // state
+let mode = "explore";
+let answers = [];
+let qIndex = 0;
+
+function newState(){
+  return { place:"shosai", ev:[], flags:[], spots:[], topics:[], shown:[], visited:[] };
+}
+function save(){ try{ localStorage.setItem(SAVE_KEY, JSON.stringify(S)); }catch(e){} }
+function load(){ try{ return JSON.parse(localStorage.getItem(SAVE_KEY)||"null"); }catch(e){ return null; } }
+
+const hasEv = id => S.ev.indexOf(id) >= 0;
+const hasFlag = f => S.flags.indexOf(f) >= 0;
+function meets(need){
+  if(!need) return true;
+  return need.every(n => /^E\d\d$/.test(n) ? hasEv(n) : hasFlag(n));
+}
+function place(id){ return PLACES.filter(p => p.id === id)[0]; }
+
+/* ---------- log ---------- */
+function push(kind, text){
+  const p = document.createElement("p");
+  if(kind === "narr"){ p.className = "l narr"; p.textContent = text; }
+  else if(kind === "sys"){ p.className = "l sys"; p.textContent = text; }
+  else if(kind === "q"){ p.className = "l q"; p.textContent = text; }
+  else { // say:名前
+    p.className = "l say";
+    const b = document.createElement("b"); b.textContent = kind.slice(4);
+    p.appendChild(b);
+    p.appendChild(document.createTextNode("「" + text + "」"));
+  }
+  $("log").appendChild(p);
+  $("log").scrollTop = $("log").scrollHeight;
+}
+function playLines(lines){ lines.forEach(l => push(l[0], l[1])); }
+function sep(){ const h = document.createElement("hr"); h.className = "sep"; $("log").appendChild(h); }
+
+/* ---------- gain ---------- */
+function gainEv(id){
+  if(hasEv(id)) return;
+  S.ev.push(id);
+  push("sys", "証拠を入手：" + EV[id].n);
+  renderEvidence(); renderCount();
+}
+function setFlags(fs){ (fs||[]).forEach(f => { if(!hasFlag(f)) S.flags.push(f); }); }
+
+/* ---------- render ---------- */
+function renderCount(){
+  $("count").textContent = "証拠 " + S.ev.length + " / " + EV_IDS.length;
+  $("btn-deduce").disabled = S.ev.length < 10;
+  $("btn-deduce").title = S.ev.length < 10 ? "証拠が10点集まると推理できる" : "推理を組み立てる";
+}
+function renderPlaces(){
+  const box = $("places"); box.innerHTML = "";
+  PLACES.forEach(p => {
+    const b = document.createElement("button");
+    const open = meets(p.need);
+    b.className = "item" + (p.id === S.place ? " active" : "") + (open ? "" : " locked");
+    b.innerHTML = "";
+    b.appendChild(document.createTextNode(open ? p.name : "？？？"));
+    if(open && p.who){
+      const s = document.createElement("span"); s.className = "who";
+      s.textContent = PEOPLE[p.who].name; b.appendChild(s);
+    }
+    if(open) b.onclick = () => { go(p.id); closePanes(); };
+    box.appendChild(b);
+  });
+}
+function renderEvidence(){
+  const box = $("evidence"); box.innerHTML = "";
+  if(!S.ev.length){
+    const d = document.createElement("div");
+    d.className = "ev-empty"; d.textContent = "まだ何も掴んでいない。";
+    box.appendChild(d); return;
+  }
+  S.ev.slice().sort().forEach(id => {
+    const b = document.createElement("button"); b.className = "ev";
+    const s = document.createElement("span"); s.className = "id"; s.textContent = id;
+    b.appendChild(s); b.appendChild(document.createTextNode(EV[id].n));
+    b.onclick = () => openModal(EV[id].n, id + " ／ " + EV[id].w, EV[id].d);
+    box.appendChild(b);
+  });
+}
+function renderScene(){
+  const p = place(S.place);
+  $("scene-name").textContent = p.name;
+  $("art").style.background = p.art;
+}
+
+/* ---------- choices ---------- */
+function clearChoices(){ $("choices").innerHTML = ""; }
+function addChoice(label, fn, cls){
+  const b = document.createElement("button");
+  b.className = "choice" + (cls ? " " + cls : "");
+  b.textContent = label; b.onclick = fn;
+  $("choices").appendChild(b);
+  return b;
+}
+function renderChoices(){
+  clearChoices();
+  if(mode === "deduce") return;
+  const p = place(S.place);
+  (p.spots || []).forEach(sp => {
+    if(!meets(sp.need)) return;
+    const done = S.spots.indexOf(p.id + ":" + sp.id) >= 0;
+    addChoice((done ? "・" : "") + sp.label, () => doSpot(p, sp), done ? "done" : (sp.gives ? "key" : ""));
+  });
+  if(p.who) addChoice(PEOPLE[p.who].name + "と話す", () => enterTalk(p.who));
+}
+
+function doSpot(p, sp){
+  const key = p.id + ":" + sp.id;
+  const first = S.spots.indexOf(key) < 0;
+  if(first) S.spots.push(key);
+  playLines(sp.lines);
+  if(sp.gives) gainEv(sp.gives);
+  if(sp.sets){ setFlags(sp.sets); renderPlaces(); }
+  sep(); renderChoices(); save();
+}
+
+/* ---------- talk ---------- */
+let talker = null;
+function enterTalk(pid){
+  talker = pid; mode = "talk";
+  push("narr", PEOPLE[pid].name + "に向き直る。");
+  renderTalk();
+}
+function renderTalk(){
+  clearChoices();
+  const t = TALK[talker];
+  t.topics.forEach(tp => {
+    if(!meets(tp.need)) return;
+    const done = S.topics.indexOf(talker + ":" + tp.id) >= 0;
+    addChoice((done ? "・" : "") + tp.label, () => doTopic(tp), done ? "done" : "");
+  });
+  if(S.ev.length) addChoice("証拠を突きつける", showPicker, "key");
+  addChoice("話を切り上げる", () => { mode = "explore"; sep(); renderChoices(); });
+}
+function doTopic(tp){
+  const key = talker + ":" + tp.id;
+  if(S.topics.indexOf(key) < 0) S.topics.push(key);
+  playLines(tp.lines);
+  if(tp.gives) gainEv(tp.gives);
+  if(tp.sets){ setFlags(tp.sets); renderPlaces(); renderChoices(); }
+  renderTalk(); save();
+}
+function showPicker(){
+  clearChoices();
+  S.ev.forEach(id => {
+    const used = S.shown.indexOf(talker + ":" + id) >= 0;
+    addChoice((used ? "・" : "") + EV[id].n, () => doShow(id), used ? "done" : "");
+  });
+  addChoice("やめる", renderTalk);
+}
+function doShow(id){
+  const key = talker + ":" + id;
+  if(S.shown.indexOf(key) < 0) S.shown.push(key);
+  push("narr", EV[id].n + "を差し出した。");
+  const t = TALK[talker];
+  const r = t.show[id];
+  if(r){ playLines(r.lines); if(r.sets){ setFlags(r.sets); renderPlaces(); } }
+  else playLines(t.def);
+  renderTalk(); save();
+}
+
+/* ---------- move ---------- */
+function go(id){
+  const p = place(id);
+  if(!meets(p.need)) return;
+  S.place = id; mode = "explore"; talker = null;
+  $("log").innerHTML = "";
+  renderScene(); renderPlaces();
+  playLines(p.intro);
+  if(S.visited.indexOf(id) < 0) S.visited.push(id);
+  renderChoices(); save();
+}
+
+/* ---------- modal ---------- */
+function openModal(title, tag, body, acts){
+  $("m-title").textContent = title;
+  $("m-tag").textContent = tag || "";
+  $("m-body").textContent = body;
+  const box = $("m-acts"); box.innerHTML = "";
+  (acts || [{t:"閉じる", f:closeModal}]).forEach(a => {
+    const b = document.createElement("button");
+    b.className = "btn small" + (a.p ? " primary" : "");
+    b.textContent = a.t; b.onclick = a.f; box.appendChild(b);
+  });
+  $("modal").classList.remove("hide");
+}
+function closeModal(){ $("modal").classList.add("hide"); }
+
+/* ---------- deduction ---------- */
+function startDeduce(){
+  if(S.ev.length < 10) return;
+  openModal("推理を組み立てる", "ここから引き返せない",
+    "集めた証拠で、事件の像を組み立てる。三つの問いに答えたら、その答えのまま結末が決まる。",
+    [{t:"まだ調べる", f:closeModal}, {t:"組み立てる", p:true, f:() => { closeModal(); runDeduce(); }}]);
+}
+function runDeduce(){
+  mode = "deduce"; answers = []; qIndex = 0;
+  $("log").innerHTML = "";
+  $("scene-name").textContent = "推理";
+  $("art").style.background = "radial-gradient(60% 70% at 50% 100%,rgba(200,80,60,.30),transparent 60%),linear-gradient(180deg,#3a2a2a,#0c0e12 74%)";
+  push("narr", "私は書斎の椅子に座り、集めたものを机の上に並べた。ここから先は、証拠ではなく、私の言葉の順番の問題だ。");
+  askQ();
+}
+function askQ(){
+  const q = DEDUCE[qIndex];
+  sep(); push("q", "問" + (qIndex + 1) + "　" + q.q);
+  clearChoices();
+  q.opts.forEach((o, i) => addChoice(o.t, () => {
+    answers.push(i);
+    push("narr", "——" + o.t + "。");
+    qIndex++;
+    if(qIndex < DEDUCE.length) askQ(); else finish();
+  }));
+}
+function finish(){
+  const ok = DEDUCE.map((q, i) => q.opts[answers[i]].ok);
+  let key;
+  if(!ok[0]) key = "C";
+  else if(ok[1] && ok[2]) key = "A";
+  else key = "B";
+  showEnding(key, ok);
+  try{ localStorage.removeItem(SAVE_KEY); }catch(e){}
+}
+function showEnding(key, ok){
+  const e = ENDINGS[key];
+  $("e-kind").textContent = e.kind;
+  $("e-title").textContent = e.title;
+  const b = $("e-body"); b.innerHTML = "";
+  e.body.forEach(t => { const p = document.createElement("p"); p.textContent = t; b.appendChild(p); });
+  const v = $("e-verdict"); v.innerHTML = "";
+  ["犯人", "方法", "動機"].forEach((label, i) => {
+    const row = document.createElement("div");
+    const mark = document.createElement("span");
+    mark.className = ok[i] ? "o" : "x"; mark.textContent = ok[i] ? "○" : "×";
+    const name = document.createElement("b"); name.textContent = label;
+    const val = document.createElement("span"); val.textContent = DEDUCE[i].opts[answers[i]].t;
+    row.appendChild(mark); row.appendChild(name); row.appendChild(val);
+    v.appendChild(row);
+  });
+  const cnt = document.createElement("div");
+  cnt.appendChild(document.createTextNode("集めた証拠　" + S.ev.length + " / " + EV_IDS.length));
+  v.appendChild(cnt);
+  $("ending").classList.remove("hide");
+  $("ending").scrollTop = 0;
+}
+
+/* ---------- boot ---------- */
+function startGame(state){
+  S = state; mode = "explore";
+  $("title").classList.add("hide");
+  $("ending").classList.add("hide");
+  $("app").classList.remove("hide");
+  renderCount(); renderEvidence(); renderPlaces();
+  go(S.place);
+  if(S.ev.length === 0){
+    push("sys", "場所を選び、調べ、人に話しかけ、証拠を集める。証拠が10点そろえば「推理する」が開く。");
+  }
+}
+function toTitle(){
+  $("app").classList.add("hide");
+  $("ending").classList.add("hide");
+  $("title").classList.remove("hide");
+  $("btn-continue").disabled = !load();
+}
+function closePanes(){
+  $("pane-left").classList.remove("open");
+  $("pane-right").classList.remove("open");
+}
+
+$("btn-start").onclick = () => { try{ localStorage.removeItem(SAVE_KEY); }catch(e){} startGame(newState()); };
+$("btn-continue").onclick = () => { const s = load(); if(s) startGame(s); };
+$("btn-deduce").onclick = startDeduce;
+$("btn-title").onclick = () => { save(); toTitle(); };
+$("e-retry").onclick = () => startGame(newState());
+$("e-title-btn").onclick = toTitle;
+$("tab-left").onclick = () => { $("pane-right").classList.remove("open"); $("pane-left").classList.toggle("open"); };
+$("tab-right").onclick = () => { $("pane-left").classList.remove("open"); $("pane-right").classList.toggle("open"); };
+$("modal").onclick = e => { if(e.target.id === "modal") closeModal(); };
+
+toTitle();
+</script>
+</body>
+</html>
