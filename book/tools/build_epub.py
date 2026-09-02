@@ -20,7 +20,7 @@ import unicodedata
 import zipfile
 from pathlib import Path
 
-AUTHOR = "著者名未設定"
+AUTHOR = "Kazu A. Suzuki"
 LANG = "ja"
 
 VOLUMES = {

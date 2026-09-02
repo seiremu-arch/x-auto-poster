@@ -17,8 +17,9 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-# ここを書き換えれば著者名が変わる
-AUTHOR = "著者名未設定"
+# ここを書き換えれば著者名が変わる。
+# ラテン文字だけの名前は横組み、日本語を含む名前は縦組みで配置される。
+AUTHOR = "Kazu A. Suzuki"
 TITLE = "夢編集局"
 SUBTITLE = "十二の夜"
 
@@ -26,6 +27,8 @@ W, H = 1600, 2560
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "dist" / "cover.jpg"
 FONT = "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf"
+# IPAゴシックの欧文字形は字幅が広く間延びするため、ラテン文字には別を使う
+FONT_LATIN = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
 
 BG = (14, 15, 18)
 BAND_BASE = (58, 62, 70)
@@ -97,9 +100,15 @@ def main() -> None:
     sub_y = int(H * 0.135)
     draw_vertical(d, SUBTITLE, sub_x, sub_y, f_sub, INK_DIM, spacing=1.35)
 
-    # 著者名は左下に縦組み
-    draw_vertical(d, AUTHOR, int(W * 0.16), int(H * 0.735), f_author,
-                  INK_DIM, spacing=1.3)
+    # 著者名。ラテン文字を縦組みにすると字が寝てしまうので、横組みで置く
+    if AUTHOR.isascii():
+        f_author = ImageFont.truetype(FONT_LATIN, 52)
+        bbox = f_author.getbbox(AUTHOR)
+        d.text((int(W * 0.135) - bbox[0], int(H * 0.845)),
+               AUTHOR, font=f_author, fill=INK_DIM)
+    else:
+        draw_vertical(d, AUTHOR, int(W * 0.16), int(H * 0.735), f_author,
+                      INK_DIM, spacing=1.3)
 
     # 下部に細い罫を一本
     d.rectangle([int(W * 0.10), int(H * 0.955),
