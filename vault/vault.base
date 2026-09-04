@@ -1,0 +1,113 @@
+# Obsidianで `vault/` をVaultとして開いたときのビュー(Obsidian Bases)。
+# ここは「見え方」だけを決める。状態はあくまで各Markdownノートのfrontmatterにある。
+# 構文: https://help.obsidian.md/bases/syntax
+
+filters:
+  and:
+    - file.hasProperty("id")
+
+properties:
+  id:
+    displayName: ID
+  type:
+    displayName: 種別
+  title:
+    displayName: タイトル
+  status:
+    displayName: 状態
+  source:
+    displayName: 情報源
+  category:
+    displayName: 分類
+  url:
+    displayName: URL
+  published:
+    displayName: 公開日時
+  captured_at:
+    displayName: 取り込み
+  promoted_at:
+    displayName: 昇格
+  tags:
+    displayName: タグ
+  supports:
+    displayName: 補強する
+  contradicts:
+    displayName: 矛盾する
+  supersedes:
+    displayName: 置き換える
+  derived_from:
+    displayName: 出自
+
+views:
+  - type: table
+    name: "受信箱"
+    filters:
+      and:
+        - 'status == "inbox"'
+    groupBy:
+      property: source
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - published
+      - tags
+
+  - type: table
+    name: "主張"
+    filters:
+      and:
+        - 'type == "claim"'
+    order:
+      - file.name
+      - title
+      - tags
+      - supports
+      - contradicts
+      - supersedes
+      - derived_from
+
+  - type: table
+    name: "情報源"
+    filters:
+      and:
+        - 'type == "source"'
+    order:
+      - file.name
+      - title
+      - category
+      - url
+
+  - type: table
+    name: "成果物"
+    filters:
+      and:
+        - 'type == "artifact"'
+    order:
+      - file.name
+      - title
+      - status
+      - url
+
+  - type: table
+    name: "ラン"
+    limit: 30
+    filters:
+      and:
+        - 'type == "run"'
+    order:
+      - file.name
+      - title
+      - captured_at
+
+  - type: table
+    name: "畳んだもの"
+    filters:
+      and:
+        - 'status == "archived"'
+        - 'type != "run"'
+    order:
+      - file.name
+      - title
+      - source
+      - captured_at

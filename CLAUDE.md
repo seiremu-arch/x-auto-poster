@@ -5,8 +5,9 @@ RSSフィードから記事を集め、事実/意見に分けて `docs/index.htm
 Loop Engineering の構成になっている。
 
 - サイト生成: `scripts/generate_site.py`(`config/feeds.json` → `docs/index.html`)
-- Vaultのループ: `scripts/loop.py`(capture / context / promote / archive / review / status)
+- Vaultのループ: `scripts/loop.py`(capture / context / promote / archive / canvas / review / status)
 - Vaultの読み書き: `scripts/vault.py`
+- Obsidian層: `vault/graph.canvas`(`loop.py canvas` の生成物) / `vault/vault.base`
 - 設計: [`LOOP-ENGINEERING.md`](LOOP-ENGINEERING.md) / [`vault/README.md`](vault/README.md)
 
 ## Vaultを触るときの不変条件
@@ -25,6 +26,10 @@ Loop Engineering の構成になっている。
 ## 変更したら
 
 ```bash
+python scripts/loop.py canvas        # ノートを足したら graph.canvas を作り直す
 python scripts/loop.py review        # Vaultの検証(CIと同じ)
 python scripts/generate_site.py      # サイト生成(docs/index.html が変わる)
 ```
+
+`vault/` はObsidianのvaultルートとして開ける。`.canvas` / `.base` を手で書くときは
+外部スキル `kepano/obsidian-skills`(obsidian-markdown / obsidian-bases / json-canvas)に従う。

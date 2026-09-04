@@ -31,6 +31,10 @@ jobs:
       - name: Capture into vault
         run: python scripts/loop.py capture --limit 5
 
+      # ノートが増えたらObsidian用の図も作り直す(生成物なので毎回上書きしてよい)
+      - name: Rebuild vault canvas
+        run: python scripts/loop.py canvas
+
       - name: Review vault
         run: python scripts/loop.py review
 

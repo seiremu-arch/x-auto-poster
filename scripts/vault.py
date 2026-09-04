@@ -65,10 +65,14 @@ def iso(dt):
     return dt.astimezone(JST).replace(microsecond=0).isoformat()
 
 
-def make_id(*parts):
-    """安定ID。同じ入力からは常に同じIDが出るので、これが重複検知の鍵になる。"""
+def make_id(*parts, length=10):
+    """安定ID。同じ入力からは常に同じIDが出るので、これが重複検知の鍵になる。
+
+    `length` は生成先の都合で伸ばすためのもの(JSON CanvasのノードIDは16桁の16進数)。
+    ノート自身のIDは既定の10桁から変えない。
+    """
     raw = "\x00".join(p for p in parts if p)
-    return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:10]
+    return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:length]
 
 
 def parse_note(text):

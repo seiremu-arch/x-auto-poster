@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "83f77e1ea1b5a661",
+      "type": "group",
+      "x": -40,
+      "y": -40,
+      "width": 460,
+      "height": 380,
+      "label": "capture (2)",
+      "color": "2"
+    },
+    {
+      "id": "c49a4b7b4ac9178e",
+      "type": "group",
+      "x": 620,
+      "y": -40,
+      "width": 460,
+      "height": 560,
+      "label": "claim (3)",
+      "color": "4"
+    },
+    {
+      "id": "3041b51cb276863c",
+      "type": "group",
+      "x": 1280,
+      "y": -40,
+      "width": 460,
+      "height": 200,
+      "label": "artifact (1)",
+      "color": "3"
+    },
+    {
+      "id": "6130b5fb889b24cb",
+      "type": "file",
+      "file": "00-inbox/2026-09-05-note-184afc6510.md",
+      "x": 0,
+      "y": 0,
+      "width": 380,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "9e1a7e7f1cd852cf",
+      "type": "file",
+      "file": "00-inbox/2026-09-05-note-5e8ace5302.md",
+      "x": 0,
+      "y": 180,
+      "width": 380,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "3d4fd1e16a2373ee",
+      "type": "file",
+      "file": "10-notes/2026-09-04-claim-d1599ea3f5.md",
+      "x": 660,
+      "y": 0,
+      "width": 380,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "6ada89df7fd68371",
+      "type": "file",
+      "file": "10-notes/2026-09-05-claim-87803aefac.md",
+      "x": 660,
+      "y": 180,
+      "width": 380,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "14738374e0217574",
+      "type": "file",
+      "file": "10-notes/2026-09-05-claim-93c76df0c8.md",
+      "x": 660,
+      "y": 360,
+      "width": 380,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "2d2b3578451bed7d",
+      "type": "file",
+      "file": "30-artifacts/2026-09-04-artifact-3283e017a5.md",
+      "x": 1320,
+      "y": 0,
+      "width": 380,
+      "height": 120,
+      "color": "3"
+    }
+  ],
+  "edges": [
+    {
+      "id": "1c1af344dced46b1",
+      "fromNode": "6ada89df7fd68371",
+      "toNode": "6130b5fb889b24cb",
+      "toEnd": "arrow",
+      "label": "derived_from"
+    },
+    {
+      "id": "d8fbd3d2c54853f0",
+      "fromNode": "14738374e0217574",
+      "toNode": "3d4fd1e16a2373ee",
+      "toEnd": "arrow",
+      "label": "supports"
+    },
+    {
+      "id": "5673e4cc82b86281",
+      "fromNode": "14738374e0217574",
+      "toNode": "9e1a7e7f1cd852cf",
+      "toEnd": "arrow",
+      "label": "derived_from"
+    }
+  ]
+}
