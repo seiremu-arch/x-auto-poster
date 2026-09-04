@@ -19,6 +19,8 @@ tools: Bash, Read, Grep, Glob
 - 既存ノートの本文から行が消えていないか。消えていたら指摘する。
   更新は追記か、新ノート + `supersedes` であるべき
 - `loop.py` が管理する `MEMORY.md` の `<!-- loop:last-run -->` ブロックを手で触っていないか
+- 例外は `vault/graph.canvas`。これは生成物なので丸ごと変わってよい。代わりに
+  `python scripts/loop.py canvas --check` が通るか(ノートと食い違っていないか)を見る
 
 **1ノート1主張か**
 - 「主張」に2つ以上のことが書かれていないか

@@ -36,5 +36,9 @@ jobs:
       - name: Review vault
         run: python scripts/loop.py review
 
+      # 図はノートから作り直せる生成物。ノートと食い違ったまま入ってきたら落とす。
+      - name: Check vault canvas
+        run: python scripts/loop.py canvas --check
+
       - name: Vault status
         run: python scripts/loop.py status

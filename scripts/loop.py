@@ -10,12 +10,14 @@
     python scripts/loop.py context <id>          # 文脈バンドルを出力
     python scripts/loop.py promote <id>          # 10-notesに原子ノートを作る
     python scripts/loop.py archive               # 滞留したinboxノートを畳む
+    python scripts/loop.py canvas                # エッジから vault/graph.canvas を作る
     python scripts/loop.py review                # スキーマとエッジを検証
     python scripts/loop.py status                # Vaultの現在地
 """
 
 import argparse
 import html as html_lib
+import json
 import os
 import re
 import sys
@@ -31,6 +33,24 @@ import vault  # noqa: E402  (パス調整のあとに読む)
 STALE_INBOX_DAYS = 30
 CONTEXT_MAX_CHARS = 8000
 SUMMARY_MAX_CHARS = 600
+
+# JSON Canvas (https://jsoncanvas.org/spec/1.0/) の出力設定。
+# Obsidianで `vault/` を開いたときに、frontmatterのエッジをそのまま図として見るためのもの。
+CANVAS_PATH = vault.VAULT / "graph.canvas"
+CANVAS_COLUMN_ORDER = ("source", "capture", "claim", "entity", "artifact", "run")
+CANVAS_COLORS = {  # Obsidianのプリセット色(1=赤 2=橙 3=黄 4=緑 5=水 6=紫)
+    "source": "5",
+    "capture": "2",
+    "claim": "4",
+    "entity": "6",
+    "artifact": "3",
+    "run": "1",
+}
+CANVAS_NODE_WIDTH = 380
+CANVAS_NODE_HEIGHT = 120
+CANVAS_COLUMN_GAP = 280
+CANVAS_ROW_GAP = 60
+CANVAS_GROUP_PADDING = 40
 
 TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"[ \t　]+")
@@ -89,7 +109,11 @@ def resolve(ref):
 
 
 def rel(path):
-    return Path(path).relative_to(vault.ROOT).as_posix()
+    path = Path(path)
+    try:
+        return path.relative_to(vault.ROOT).as_posix()
+    except ValueError:  # リポジトリの外を指しているとき(canvas --output など)
+        return path.as_posix()
 
 
 # --------------------------------------------------------------------------- capture
@@ -433,7 +457,180 @@ def cmd_archive(args):
     return 0
 
 
+# --------------------------------------------------------------------------- canvas
+
+def canvas_selection(include_inbox=False, include_runs=False):
+    """キャンバスに載せるノートを選ぶ。
+
+    既定は知識グラフだけ: `10-notes` / `20-sources` / `30-artifacts` と、そこから
+    参照されているキャプチャ。`00-inbox` は毎朝増えるので、昇格して誰かに参照された
+    ものしか載らない(全部載せると図が読めなくなり、差分も毎日荒れる)。
+    """
+    notes = {}
+    for path, frontmatter, _ in vault.iter_notes():
+        note_id = str(frontmatter.get("id", ""))
+        if note_id:
+            notes.setdefault(note_id, (path, frontmatter))
+
+    selected = {}
+    for note_id, (path, frontmatter) in notes.items():
+        wanted = (
+            path.parent in (vault.NOTES, vault.SOURCES, vault.ARTIFACTS)
+            or (include_inbox and path.parent == vault.INBOX)
+            or (include_runs and path.parent == vault.RUNS)
+        )
+        if wanted:
+            selected[note_id] = (path, frontmatter)
+
+    # 主張や成果物が指している先は、inboxにあっても載せる(出自が見えないと図にならない)
+    for _, (_, frontmatter) in list(selected.items()):
+        for key in vault.EDGE_KEYS:
+            for edge_id in vault.edges(frontmatter, key):
+                if edge_id in notes and edge_id not in selected:
+                    selected[edge_id] = notes[edge_id]
+    return selected
+
+
+def canvas_node_id(note_id):
+    return vault.make_id("canvas-node", note_id, length=16)
+
+
+def compact(obj):
+    """値がNoneのキーを落とす。JSON Canvasの任意フィールドを空で書かないため。"""
+    return {key: value for key, value in obj.items() if value is not None}
+
+
+def build_canvas(selected):
+    """frontmatterのエッジをそのままJSON Canvasにする。type別に列を作って並べるだけ。"""
+    columns = {}
+    for note_id, (path, frontmatter) in selected.items():
+        columns.setdefault(frontmatter.get("type") or "capture", []).append((path, note_id))
+
+    ordered_types = [t for t in CANVAS_COLUMN_ORDER if t in columns]
+    ordered_types += sorted(t for t in columns if t not in CANVAS_COLUMN_ORDER)
+
+    groups, nodes = [], []
+    for column, note_type in enumerate(ordered_types):
+        entries = sorted(columns[note_type], key=lambda entry: entry[0].name)
+        x = column * (CANVAS_NODE_WIDTH + CANVAS_COLUMN_GAP)
+        height = len(entries) * (CANVAS_NODE_HEIGHT + CANVAS_ROW_GAP) - CANVAS_ROW_GAP
+        color = CANVAS_COLORS.get(note_type)
+        groups.append(compact({
+            "id": vault.make_id("canvas-group", note_type, length=16),
+            "type": "group",
+            "x": x - CANVAS_GROUP_PADDING,
+            "y": -CANVAS_GROUP_PADDING,
+            "width": CANVAS_NODE_WIDTH + CANVAS_GROUP_PADDING * 2,
+            "height": height + CANVAS_GROUP_PADDING * 2,
+            "label": f"{note_type} ({len(entries)})",
+            "color": color,
+        }))
+        for row, (path, note_id) in enumerate(entries):
+            nodes.append(compact({
+                "id": canvas_node_id(note_id),
+                "type": "file",
+                "file": path.relative_to(vault.VAULT).as_posix(),
+                "x": x,
+                "y": row * (CANVAS_NODE_HEIGHT + CANVAS_ROW_GAP),
+                "width": CANVAS_NODE_WIDTH,
+                "height": CANVAS_NODE_HEIGHT,
+                "color": color,
+            }))
+
+    edges = []
+    for note_id, (_, frontmatter) in sorted(selected.items()):
+        for key in vault.EDGE_KEYS:
+            for edge_id in vault.edges(frontmatter, key):
+                if edge_id not in selected:
+                    continue  # 載せていないノートへのエッジは描かない(リンク切れは review が見る)
+                edges.append({
+                    "id": vault.make_id("canvas-edge", note_id, key, edge_id, length=16),
+                    "fromNode": canvas_node_id(note_id),
+                    "toNode": canvas_node_id(edge_id),
+                    "toEnd": "arrow",
+                    "label": key,
+                })
+
+    # グループを先に置く(配列の順序がそのままz-index。先頭が一番下)
+    return {"nodes": groups + nodes, "edges": edges}
+
+
+def render_canvas(canvas):
+    return json.dumps(canvas, ensure_ascii=False, indent=2) + "\n"
+
+
+def cmd_canvas(args):
+    wider = args.include_inbox or args.all
+    if wider and not args.output:
+        # `vault/graph.canvas` は既定の選び方で固定する。ここが可変だと `--check` と
+        # `review` の陳腐化チェックが「どの選び方と比べるか」を決められなくなる。
+        raise SystemExit(
+            "--include-inbox / --all は使い捨ての図なので `--output` が要ります\n"
+            "例: python scripts/loop.py canvas --all --output /tmp/all.canvas"
+        )
+
+    selected = canvas_selection(include_inbox=wider, include_runs=args.all)
+    canvas = build_canvas(selected)
+    text = render_canvas(canvas)
+    path = Path(args.output) if args.output else CANVAS_PATH
+
+    if args.check:
+        current = path.read_text(encoding="utf-8") if path.exists() else None
+        if current == text:
+            print(f"最新です: {rel(path)}")
+            return 0
+        print(
+            f"{rel(path)} がノートと食い違っています。"
+            "`python scripts/loop.py canvas` で作り直してください",
+            file=sys.stderr,
+        )
+        return 1
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+    files = sum(1 for node in canvas["nodes"] if node.get("type") == "file")
+    print(f"canvas: {rel(path)} — ノート {files}件 / エッジ {len(canvas['edges'])}件")
+    return 0
+
+
 # --------------------------------------------------------------------------- review
+
+def review_canvases(errors):
+    """`.canvas` もグラフなので、frontmatterのエッジと同じ強さで検証する。"""
+    for path in sorted(vault.VAULT.rglob("*.canvas")):
+        where = rel(path)
+        try:
+            canvas = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            errors.append(f"{where}: JSONとして読めない ({exc})")
+            continue
+
+        node_ids = set()
+        for node in canvas.get("nodes") or []:
+            node_id = node.get("id")
+            if not node_id:
+                errors.append(f"{where}: `id` のないノードがある")
+                continue
+            if node_id in node_ids:
+                errors.append(f"{where}: ノードIDが重複: {node_id}")
+            node_ids.add(node_id)
+            if node.get("type") == "file" and not (vault.VAULT / node.get("file", "")).exists():
+                errors.append(f"{where}: 存在しないファイルを指すノード → {node.get('file')}")
+
+        for edge in canvas.get("edges") or []:
+            for key in ("fromNode", "toNode"):
+                if edge.get(key) not in node_ids:
+                    errors.append(f"{where}: エッジの `{key}` が解決できない → {edge.get(key)}")
+
+
+def review_bases(errors):
+    """`.base` はVaultの見え方を決めるので、YAMLとして壊れていたらエラーにする。"""
+    for path in sorted(vault.VAULT.rglob("*.base")):
+        try:
+            vault.yaml.safe_load(path.read_text(encoding="utf-8"))
+        except vault.yaml.YAMLError as exc:
+            errors.append(f"{rel(path)}: YAMLとして読めない ({exc})")
+
 
 def cmd_review(args):
     errors, warnings = [], []
@@ -483,6 +680,17 @@ def cmd_review(args):
 
     if not vault.MEMORY.exists():
         errors.append("vault/MEMORY.md がない")
+
+    review_canvases(errors)
+    review_bases(errors)
+
+    if CANVAS_PATH.exists():
+        expected = render_canvas(build_canvas(canvas_selection()))
+        if CANVAS_PATH.read_text(encoding="utf-8") != expected:
+            warnings.append(
+                f"{rel(CANVAS_PATH)}: ノートと食い違っている。"
+                "`python scripts/loop.py canvas` で作り直す"
+            )
 
     for line in errors:
         print(f"ERROR {line}")
@@ -564,6 +772,15 @@ def build_parser():
     p_archive.add_argument("--days", type=int, default=STALE_INBOX_DAYS)
     p_archive.add_argument("--dry-run", action="store_true")
     p_archive.set_defaults(func=cmd_archive)
+
+    p_canvas = sub.add_parser("canvas", help="エッジから vault/graph.canvas を生成する")
+    p_canvas.add_argument("--include-inbox", action="store_true",
+                          help="00-inboxのノートも全部載せる(--output が要る)")
+    p_canvas.add_argument("--all", action="store_true",
+                          help="ランも含めて全ノートを載せる(--output が要る)")
+    p_canvas.add_argument("--output", help="出力先(既定は vault/graph.canvas)")
+    p_canvas.add_argument("--check", action="store_true", help="書き込まず、最新かどうかだけ確認する")
+    p_canvas.set_defaults(func=cmd_canvas)
 
     p_review = sub.add_parser("review", help="スキーマとエッジを機械的に検証する")
     p_review.add_argument("--strict", action="store_true", help="警告もエラー扱いにする")

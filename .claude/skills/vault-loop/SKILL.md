@@ -66,11 +66,19 @@ python scripts/loop.py promote <id> --title "1文で言える主張" --tag ai
 
 ## 4. Review
 
-機械チェックを先に通す:
+ノートを足した/エッジを張ったら、まずObsidian用の図を作り直す:
+
+```bash
+python scripts/loop.py canvas
+```
+
+そのうえで機械チェックを通す:
 
 ```bash
 python scripts/loop.py review --strict
 ```
+
+`review` は `.canvas` と `.base` も見る。Canvasが古いままだと警告になり、`--strict` では落ちる。
 
 エラーが出たら直す。通ったら `vault-critic` サブエージェントに差分を渡して批評させる
 (Agentツール、`subagent_type: "vault-critic"`)。渡すのは `git diff` と、
@@ -85,7 +93,8 @@ git commit -m "notes: <何を足したか>"
 ```
 
 Vaultへの変更は**追加**か**追記**であること。既存ノートの行が消える差分になっていたら、
-それはこのループのやり方を間違えている。
+それはこのループのやり方を間違えている(`vault/graph.canvas` だけは生成物なので、
+まるごと作り直してよい)。
 
 最後に `vault/MEMORY.md` を更新する:
 
@@ -94,6 +103,20 @@ Vaultへの変更は**追加**か**追記**であること。既存ノートの�
 - 新しく決めた運用ルール → 「運用ルール」に1行
 
 `<!-- loop:last-run -->` ブロックは `loop.py` が管理しているので手で触らない。
+
+## Obsidian側を触るとき
+
+`vault/` はObsidianのvaultルートとして開ける。`.canvas` / `.base` / Obsidian固有のMarkdown記法を
+手で書くときは、外部スキル `kepano/obsidian-skills`(`obsidian-markdown` / `obsidian-bases` /
+`json-canvas`)に従う。構文をこのスキルに書き写さない(二重管理になる)。
+
+- `vault/graph.canvas` は手で編集しない。**`loop.py canvas` の生成物**で、直すならノート側を直す
+- ノートやエッジを足したcommitには、作り直した図を必ず含める(`Vault Review` ワークフローが
+  `loop.py canvas --check` を実行するので、古いままだとCIが落ちる)
+- 使い捨ての全体図が見たいときは `--include-inbox` / `--all` に `--output` を付ける。
+  この2つで `vault/graph.canvas` は上書きできない
+- `vault/vault.base` はビューの定義だけを持つ。ここに状態(判断・結論)を書かない
+- `obsidian-cli` と `defuddle` はこのリポジトリでは使わない(理由は `LOOP-ENGINEERING.md`)
 
 ## 掃除
 

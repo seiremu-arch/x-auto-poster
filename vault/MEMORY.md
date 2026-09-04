@@ -14,6 +14,11 @@
 - 取り込みは1日1回、`Daily News Update` ワークフローから自動で行う
 - `00-inbox/` に30日以上滞留したノートは、昇格するか `status: archived` にする
 - 既存ノートの本文は書き換えない。追記するか、新しいノートを作って `supersedes` で指す
+- ノートやエッジを足したら `python scripts/loop.py canvas` で `vault/graph.canvas` を作り直す
+  (図は生成物。手で編集しない)
+- Obsidianで開くときのvaultルートは `vault/`。見え方に状態を持たせない(→ `93c76df0c8`)
+- `.canvas` / `.base` の構文は外部スキル `kepano/obsidian-skills` に従い、
+  このリポジトリに写さない(→ `87803aefac`)。使うのは5つのうち3つだけ(→ `025bed47a9`)
 
 ## 未解決の問い
 
@@ -24,5 +29,5 @@
 ## 直近のラン
 
 <!-- loop:last-run -->
-まだ実行されていません。
+- 2026-09-05 04:39 `capture(manual)` — 新規 1 / 重複 0 / 失敗 0 (`vault/40-runs/2026-09-05-run-d1c57d6383.md`)
 <!-- /loop:last-run -->

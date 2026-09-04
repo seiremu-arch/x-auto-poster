@@ -53,11 +53,16 @@ python scripts/loop.py capture --note "..."  # 思いつきを vault/00-inbox �
 python scripts/loop.py context <id>          # リンク・タグ・近くのノートを集める
 python scripts/loop.py promote <id>          # vault/10-notes に原子ノートを作る
 python scripts/loop.py archive               # 30日以上滞留したinboxノートを畳む
+python scripts/loop.py canvas                # エッジから vault/graph.canvas を作り直す
 python scripts/loop.py review                # スキーマとエッジを検証(CIと同じ)
 python scripts/loop.py status                # Vaultの現在地
 ```
 
-`Daily News Update` ワークフローが毎朝 `capture` → `review` → サイト生成の順に実行し、
+`vault/` はそのまま Obsidian の vault として開けます(`vault/graph.canvas` がノートのつながり、
+`vault/vault.base` が受信箱・主張・情報源のビュー)。詳細は
+[`LOOP-ENGINEERING.md`](LOOP-ENGINEERING.md#obsidianで開く) を参照してください。
+
+`Daily News Update` ワークフローが毎朝 `capture` → `canvas` → `review` → サイト生成の順に実行し、
 `docs/index.html` と `vault/` の変更をまとめてコミットします。Vaultへの変更は
 `Vault Review` ワークフローが検証します(スキーマ違反とエッジのリンク切れはCIで落ちます)。
 

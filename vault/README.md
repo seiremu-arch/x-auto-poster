@@ -15,6 +15,8 @@
 | `30-artifacts/` | ループが外に出した成果物の記録(生成サイト、投稿文など) | Claude / 人 |
 | `40-runs/` | ラン(実行)のログ。いつ何件取り込み、何を昇格したか | `loop.py`(自動) |
 | `MEMORY.md` | ループをまたいで持ち越す短い状態。関心テーマ・運用ルール・未解決の問い | Claude / 人 |
+| `graph.canvas` | ノートのエッジを描いた図(生成物。状態ではない) | `loop.py canvas`(自動) |
+| `vault.base` | Obsidianで見るときのテーブルビュー定義 | 人 |
 
 `.claude/skills/vault-loop/` にループの回し方、`.claude/agents/vault-critic.md` に批評役の
 定義があります。
@@ -72,6 +74,31 @@ capture → context → agent/draft → review → commit
 4. **Review** — `python scripts/loop.py review --strict` がスキーマとエッジを機械的に検証し、
    `vault-critic` エージェントが差分を批評する。
 5. **Commit** — 追記(書き換えず、足すだけ)でVaultに戻す。
+
+## Obsidianで開く
+
+このディレクトリ(`vault/`)を **Obsidianのvaultルートとして開く**と、ノートがそのまま読めます。
+`graph.canvas` の `file` パスも `vault.base` のフォルダ名も、`vault/` を起点にしています。
+
+- `graph.canvas` — frontmatterの `supports` / `contradicts` / `supersedes` / `derived_from` を
+  そのまま矢印にした図。矢印は**そのキーを書いているノートから、指されているノートへ**向きます
+  (`loop.py context` の「出ていくエッジ」と同じ向き)。
+- `vault.base` — 受信箱 / 主張 / 情報源 / 成果物 / ラン / 畳んだもの のビュー。
+
+図はノートを足すたびに作り直します(状態はノート側にあるので、消しても `canvas` で戻ります)。
+
+```bash
+python scripts/loop.py canvas           # 作り直す
+python scripts/loop.py canvas --check   # 最新かどうかだけ見る(古ければ終了コード1。CIも同じ)
+python scripts/loop.py canvas --all --output /tmp/all.canvas   # 使い捨ての全体図
+```
+
+`graph.canvas` に載るのは `10-notes` / `20-sources` / `30-artifacts` と、そこから参照されている
+キャプチャだけです。`--include-inbox` / `--all` は `--output` が必須で、`vault/graph.canvas` を
+上書きできません(選び方が変わると `--check` が比較できなくなるため)。
+
+`.canvas` / `.base` の書き方は外部スキル `kepano/obsidian-skills` に任せています
+(導入は [`LOOP-ENGINEERING.md`](../LOOP-ENGINEERING.md#obsidianで開く))。
 
 掃除は `python scripts/loop.py archive`(30日以上昇格されなかったinboxノートを `archived` にする)。
 現在地は `python scripts/loop.py status`。
