@@ -66,6 +66,12 @@ python scripts/loop.py status                # Vaultの現在地
 `docs/index.html` と `vault/` の変更をまとめてコミットします。Vaultへの変更は
 `Vault Review` ワークフローが検証します(スキーマ違反とエッジのリンク切れはCIで落ちます)。
 
+## 執筆プロジェクト
+
+`writing/` にこのリポジトリで進めている書きもの(小説・シリーズ)の設計を置いています。
+
+- [`writing/last-ledger/`](writing/last-ledger/) — 金融ミステリー『最後の帳簿』全7作の設計
+
 ## ローカルでの実行
 
 ```bash
