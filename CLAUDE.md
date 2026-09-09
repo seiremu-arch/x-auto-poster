@@ -8,6 +8,7 @@ Loop Engineering の構成になっている。
 - Vaultのループ: `scripts/loop.py`(capture / context / promote / archive / canvas / review / status)
 - Vaultの読み書き: `scripts/vault.py`
 - Obsidian層: `vault/graph.canvas`(`loop.py canvas` の生成物) / `vault/vault.base`
+- KDP作品: `books/<slug>/`(原稿と体裁)/ `scripts/build_book.py`(字数・Markdown・EPUB)
 - 設計: [`LOOP-ENGINEERING.md`](LOOP-ENGINEERING.md) / [`vault/README.md`](vault/README.md)
 
 ## Vaultを触るときの不変条件

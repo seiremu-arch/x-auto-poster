@@ -4,14 +4,18 @@ on:
   push:
     paths:
       - "vault/**"
+      - "books/**"
       - "scripts/loop.py"
       - "scripts/vault.py"
+      - "scripts/build_book.py"
       - ".github/workflows/vault-review.yml"
   pull_request:
     paths:
       - "vault/**"
+      - "books/**"
       - "scripts/loop.py"
       - "scripts/vault.py"
+      - "scripts/build_book.py"
   workflow_dispatch: {}
 
 permissions:
@@ -42,3 +46,12 @@ jobs:
 
       - name: Vault status
         run: python scripts/loop.py status
+
+      # 作品の芯の一文が、PLAN・claimノート・MEMORY.md の3か所で一致しているか。
+      # 片方だけ動くと、判断の置き場所の分担(claim 3f64e5ecd8)が静かに破れる。
+      - name: Check books
+        run: |
+          for dir in books/*/; do
+            [ -f "$dir/book.json" ] || continue
+            python scripts/build_book.py "$(basename "$dir")" --check
+          done

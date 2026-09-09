@@ -66,6 +66,19 @@ python scripts/loop.py status                # Vaultの現在地
 `docs/index.html` と `vault/` の変更をまとめてコミットします。Vaultへの変更は
 `Vault Review` ワークフローが検証します(スキーマ違反とエッジのリンク切れはCIで落ちます)。
 
+## books(KDPに出す作品)
+
+`books/<slug>/` に原稿と体裁を置きます。Vaultが判断(なぜその本にしたか)を持ち、
+`books/` が原稿を持つという分担です(→ Vault `3f64e5ecd8`)。
+
+```bash
+python scripts/build_book.py inner-voice             # 章ごとの字数と進捗
+python scripts/build_book.py inner-voice --markdown  # 通しMarkdown
+python scripts/build_book.py inner-voice --epub      # KDPにアップロードするEPUB
+```
+
+生成物は `books/<slug>/build/`(gitignore)に出ます。詳細は [`books/README.md`](books/README.md)。
+
 ## ローカルでの実行
 
 ```bash

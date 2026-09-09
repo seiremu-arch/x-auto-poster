@@ -16,8 +16,8 @@
       "x": 620,
       "y": -40,
       "width": 460,
-      "height": 380,
-      "label": "capture (2)",
+      "height": 1100,
+      "label": "capture (6)",
       "color": "2"
     },
     {
@@ -26,8 +26,8 @@
       "x": 1280,
       "y": -40,
       "width": 460,
-      "height": 740,
-      "label": "claim (4)",
+      "height": 1460,
+      "label": "claim (8)",
       "color": "4"
     },
     {
@@ -101,6 +101,46 @@
       "color": "2"
     },
     {
+      "id": "3d9d97238d4556fc",
+      "type": "file",
+      "file": "00-inbox/2026-09-09-note-1977e106ba.md",
+      "x": 660,
+      "y": 360,
+      "width": 380,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "f944ccf9649501b0",
+      "type": "file",
+      "file": "00-inbox/2026-09-09-note-936152e37a.md",
+      "x": 660,
+      "y": 540,
+      "width": 380,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "e9a486517ff4cb85",
+      "type": "file",
+      "file": "00-inbox/2026-09-09-note-ac602da33d.md",
+      "x": 660,
+      "y": 720,
+      "width": 380,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "91f878d2a8f5914a",
+      "type": "file",
+      "file": "00-inbox/2026-09-09-note-e407fd5f4f.md",
+      "x": 660,
+      "y": 900,
+      "width": 380,
+      "height": 120,
+      "color": "2"
+    },
+    {
       "id": "3d4fd1e16a2373ee",
       "type": "file",
       "file": "10-notes/2026-09-04-claim-d1599ea3f5.md",
@@ -141,6 +181,46 @@
       "color": "4"
     },
     {
+      "id": "cbcf32d82ff0ddb6",
+      "type": "file",
+      "file": "10-notes/2026-09-09-claim-0adde001a2.md",
+      "x": 1320,
+      "y": 720,
+      "width": 380,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "85bd7f403d027b67",
+      "type": "file",
+      "file": "10-notes/2026-09-09-claim-100f1d5f68.md",
+      "x": 1320,
+      "y": 900,
+      "width": 380,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "f25e22f2f52d5c2a",
+      "type": "file",
+      "file": "10-notes/2026-09-09-claim-3f64e5ecd8.md",
+      "x": 1320,
+      "y": 1080,
+      "width": 380,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "999d3d1ea07fcb55",
+      "type": "file",
+      "file": "10-notes/2026-09-09-claim-6e9d28f8ea.md",
+      "x": 1320,
+      "y": 1260,
+      "width": 380,
+      "height": 120,
+      "color": "4"
+    },
+    {
       "id": "2d2b3578451bed7d",
       "type": "file",
       "file": "30-artifacts/2026-09-04-artifact-3283e017a5.md",
@@ -156,6 +236,62 @@
       "id": "e6e034783de0d4fb",
       "fromNode": "7f8afa40c65b5970",
       "toNode": "9e1a7e7f1cd852cf",
+      "toEnd": "arrow",
+      "label": "derived_from"
+    },
+    {
+      "id": "b49350bc89228fe8",
+      "fromNode": "cbcf32d82ff0ddb6",
+      "toNode": "f944ccf9649501b0",
+      "toEnd": "arrow",
+      "label": "derived_from"
+    },
+    {
+      "id": "d3a87edf10e6f653",
+      "fromNode": "85bd7f403d027b67",
+      "toNode": "cbcf32d82ff0ddb6",
+      "toEnd": "arrow",
+      "label": "supports"
+    },
+    {
+      "id": "5127919bf1d11671",
+      "fromNode": "85bd7f403d027b67",
+      "toNode": "e9a486517ff4cb85",
+      "toEnd": "arrow",
+      "label": "derived_from"
+    },
+    {
+      "id": "7db1219175ab0ba2",
+      "fromNode": "f25e22f2f52d5c2a",
+      "toNode": "3d4fd1e16a2373ee",
+      "toEnd": "arrow",
+      "label": "contradicts"
+    },
+    {
+      "id": "10a6869805a4b6dd",
+      "fromNode": "f25e22f2f52d5c2a",
+      "toNode": "91f878d2a8f5914a",
+      "toEnd": "arrow",
+      "label": "derived_from"
+    },
+    {
+      "id": "922d0b82055bba1f",
+      "fromNode": "f25e22f2f52d5c2a",
+      "toNode": "2d2b3578451bed7d",
+      "toEnd": "arrow",
+      "label": "derived_from"
+    },
+    {
+      "id": "2511c8959d3e35f9",
+      "fromNode": "999d3d1ea07fcb55",
+      "toNode": "cbcf32d82ff0ddb6",
+      "toEnd": "arrow",
+      "label": "supports"
+    },
+    {
+      "id": "c817dde6df859abf",
+      "fromNode": "999d3d1ea07fcb55",
+      "toNode": "3d9d97238d4556fc",
       "toEnd": "arrow",
       "label": "derived_from"
     },
