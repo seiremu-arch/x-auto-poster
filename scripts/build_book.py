@@ -18,6 +18,7 @@ import argparse
 import html
 import json
 import re
+import signal
 import sys
 import unicodedata
 import zipfile
@@ -360,4 +361,7 @@ def main(argv=None):
 
 
 if __name__ == "__main__":
+    # `| head` で閉じられたときに落ちないようにする
+    if hasattr(signal, "SIGPIPE"):
+        signal.signal(signal.SIGPIPE, signal.SIG_DFL)
     sys.exit(main())
