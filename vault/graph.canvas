@@ -16,8 +16,8 @@
       "x": 620,
       "y": -40,
       "width": 460,
-      "height": 1100,
-      "label": "capture (6)",
+      "height": 1280,
+      "label": "capture (7)",
       "color": "2"
     },
     {
@@ -26,8 +26,8 @@
       "x": 1280,
       "y": -40,
       "width": 460,
-      "height": 1460,
-      "label": "claim (8)",
+      "height": 1640,
+      "label": "claim (9)",
       "color": "4"
     },
     {
@@ -141,6 +141,16 @@
       "color": "2"
     },
     {
+      "id": "6a6a8432d0856f1f",
+      "type": "file",
+      "file": "00-inbox/2026-09-10-note-f659b5d4c7.md",
+      "x": 660,
+      "y": 1080,
+      "width": 380,
+      "height": 120,
+      "color": "2"
+    },
+    {
       "id": "3d4fd1e16a2373ee",
       "type": "file",
       "file": "10-notes/2026-09-04-claim-d1599ea3f5.md",
@@ -216,6 +226,16 @@
       "file": "10-notes/2026-09-09-claim-6e9d28f8ea.md",
       "x": 1320,
       "y": 1260,
+      "width": 380,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "8290c8d7c7e10d3b",
+      "type": "file",
+      "file": "10-notes/2026-09-10-claim-bdb7a50e65.md",
+      "x": 1320,
+      "y": 1440,
       "width": 380,
       "height": 120,
       "color": "4"
@@ -320,6 +340,20 @@
       "id": "5673e4cc82b86281",
       "fromNode": "14738374e0217574",
       "toNode": "9e1a7e7f1cd852cf",
+      "toEnd": "arrow",
+      "label": "derived_from"
+    },
+    {
+      "id": "971eefeb9e646b30",
+      "fromNode": "8290c8d7c7e10d3b",
+      "toNode": "cbcf32d82ff0ddb6",
+      "toEnd": "arrow",
+      "label": "supports"
+    },
+    {
+      "id": "645ed28955355cff",
+      "fromNode": "8290c8d7c7e10d3b",
+      "toNode": "6a6a8432d0856f1f",
       "toEnd": "arrow",
       "label": "derived_from"
     }
