@@ -9,11 +9,16 @@
 | [`01-mitsu-ni-wakerareta-isan.md`](01-mitsu-ni-wakerareta-isan.md) | 第1作『三つに分けられた遺産』の完全設計（登場人物／真相／犯人／どんでん返し／全27章／伏線表／埋め込み方） |
 | [`manuscript/`](manuscript/) | 第1作の本文原稿。書いた章から置いていく |
 
-設計の検証用に、冒頭・中盤の反転・犯人の告白の3章を先に書いた。
-残りの24章は、この3章のトーンと表記ルールに合わせて埋めていく。
+設計の検証用に3章（冒頭・中盤の反転・犯人の告白）を先に書き、続けて第五部を通しで書いた。
+残りは第1〜4部の20章（2〜10章、12〜22章）。既存の章のトーンと表記ルールに合わせて埋めていく。
 
 | 章 | ファイル | 状態 |
 | --- | --- | --- |
 | 第一章 誘導灯 | [`manuscript/ch01.md`](manuscript/ch01.md) | 初稿（約3,800字） |
 | 第十一章 三つの値段 | [`manuscript/ch11.md`](manuscript/ch11.md) | 初稿（約3,800字） |
 | 第二十三章 何もしなかった | [`manuscript/ch23.md`](manuscript/ch23.md) | 初稿（約4,000字） |
+| 第二十四章 2月10日 | [`manuscript/ch24.md`](manuscript/ch24.md) | 初稿（約3,600字） |
+| 第二十五章 連絡先 | [`manuscript/ch25.md`](manuscript/ch25.md) | 初稿（約2,800字） |
+| 第二十六章 四通目 | [`manuscript/ch26.md`](manuscript/ch26.md) | 初稿（約3,200字） |
+| 第二十七章 定期 | [`manuscript/ch27.md`](manuscript/ch27.md) | 初稿（約2,700字） |
+| エピローグ | [`manuscript/epilogue.md`](manuscript/epilogue.md) | 初稿（約1,500字） |
