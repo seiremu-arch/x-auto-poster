@@ -11,7 +11,7 @@
     python scripts/build_book.py inner-voice --check     # 芯の一文が3か所で一致しているか
 
 Markdownは原稿で使う範囲だけを解釈する(見出し3段 / 段落 / 箇条書き / 番号リスト /
-引用 / 水平線 / 強調 / コード)。表や画像は使わない前提なので、対応していない。
+引用 / 表 / 水平線 / 強調 / コード)。画像は使わない前提なので、対応していない。
 """
 
 import argparse
@@ -32,6 +32,8 @@ HEADING_RE = re.compile(r"^(#{1,3})\s+(.*)$")
 UL_RE = re.compile(r"^[-*]\s+(.*)$")
 OL_RE = re.compile(r"^\d+\.\s+(.*)$")
 QUOTE_RE = re.compile(r"^>\s?(.*)$")
+ROW_RE = re.compile(r"^\|(.*)\|\s*$")
+DIVIDER_RE = re.compile(r"^[\s:|-]+$")
 MARKUP_RE = re.compile(r"^(#{1,6}\s+|[-*]\s+|\d+\.\s+|>\s?)")
 INLINE_RE = re.compile(r"[*`|]")
 
@@ -95,6 +97,23 @@ def join_lines(lines):
     return joined
 
 
+def render_table(block):
+    """`| a | b |` の行を表にする。2行目が区切り行なら1行目を見出しとして扱う。"""
+    rows = [[cell.strip() for cell in ROW_RE.match(line).group(1).split("|")] for line in block]
+    head = None
+    if len(rows) >= 2 and DIVIDER_RE.match("|".join(rows[1])):
+        head, rows = rows[0], rows[2:]
+
+    out = ["<table>"]
+    if head:
+        out.append("<thead><tr>" + "".join(f"<th>{inline(cell)}</th>" for cell in head) + "</tr></thead>")
+    out.append("<tbody>")
+    for row in rows:
+        out.append("<tr>" + "".join(f"<td>{inline(cell)}</td>" for cell in row) + "</tr>")
+    out.append("</tbody></table>")
+    return "\n".join(out)
+
+
 def blocks(text):
     """空行で区切ってブロックに分ける。"""
     current = []
@@ -127,6 +146,10 @@ def render_blocks(text, level=0):
             inner = "\n".join(QUOTE_RE.match(line).group(1) for line in block)
             # 引用の中でも箇条書きや段落が使われるので、そのまま再帰させる
             parts.append("<blockquote>\n" + render_blocks(inner, level) + "\n</blockquote>")
+            continue
+
+        if len(block) >= 2 and all(ROW_RE.match(line) for line in block):
+            parts.append(render_table(block))
             continue
 
         if all(UL_RE.match(line) for line in block):
@@ -176,6 +199,9 @@ li { margin: 0 0 0.5em; }
 blockquote { margin: 1.5em 1em; padding-left: 0.8em; border-left: 2px solid #999; }
 blockquote p { text-indent: 0; }
 hr { border: 0; border-top: 1px solid #ccc; margin: 2em 4em; }
+table { border-collapse: collapse; margin: 1.5em 0; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 0.4em 0.6em; text-align: left; vertical-align: top; }
+th { font-weight: bold; }
 """
 
 
