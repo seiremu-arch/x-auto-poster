@@ -9,11 +9,18 @@
 | [`01-mitsu-ni-wakerareta-isan.md`](01-mitsu-ni-wakerareta-isan.md) | 第1作『三つに分けられた遺産』の完全設計（登場人物／真相／犯人／どんでん返し／全27章／伏線表／埋め込み方） |
 | [`manuscript/`](manuscript/) | 第1作の本文原稿。書いた章から置いていく |
 
-第1章 → 第五部 → 第二部 → 第三部 → 第四部の順に書いている。**残りは第2〜5章の4章のみ。**
+**初稿が揃った。** 全27章＋プロローグ＋エピローグ、76,155字。
+想定は11〜12万字なので、次は各章に場面を足す書き足しの作業になる
+（`01-...md` の末尾「初稿の現状と、次にやること」を参照）。
 
 | 章 | ファイル | 状態 |
 | --- | --- | --- |
+| プロローグ | [`manuscript/prologue.md`](manuscript/prologue.md) | 初稿（約1,500字） |
 | 第一章 誘導灯 | [`manuscript/ch01.md`](manuscript/ch01.md) | 初稿（約3,800字） |
+| 第二章 消印 | [`manuscript/ch02.md`](manuscript/ch02.md) | 初稿（約2,500字） |
+| 第三章 11日 | [`manuscript/ch03.md`](manuscript/ch03.md) | 初稿（約2,000字） |
+| 第四章 三つの籠 | [`manuscript/ch04.md`](manuscript/ch04.md) | 初稿（約2,000字） |
+| 第五章 1996年 | [`manuscript/ch05.md`](manuscript/ch05.md) | 初稿（約2,200字） |
 | 第六章 杭 | [`manuscript/ch06.md`](manuscript/ch06.md) | 初稿（約3,000字） |
 | 第七章 番頭 | [`manuscript/ch07.md`](manuscript/ch07.md) | 初稿（約2,700字） |
 | 第八章 差額 | [`manuscript/ch08.md`](manuscript/ch08.md) | 初稿（約2,700字） |
