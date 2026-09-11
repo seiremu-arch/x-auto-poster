@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+
+# 生成物（build_epub.py / to_kanji.py で作り直せる）
+writing/last-ledger/build/
