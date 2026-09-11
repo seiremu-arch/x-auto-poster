@@ -9,16 +9,17 @@
 | [`01-mitsu-ni-wakerareta-isan.md`](01-mitsu-ni-wakerareta-isan.md) | 第1作『三つに分けられた遺産』の完全設計（登場人物／真相／犯人／どんでん返し／全27章／伏線表／埋め込み方） |
 | [`manuscript/`](manuscript/) | 第1作の本文原稿。書いた章から置いていく |
 
-**初稿が揃った。** 全27章＋プロローグ＋エピローグ、76,155字。
-想定は11〜12万字なので、次は各章に場面を足す書き足しの作業になる
-（`01-...md` の末尾「初稿の現状と、次にやること」を参照）。
+**初稿が揃った。** 全27章＋プロローグ＋エピローグ、78,268字。
+
+設計書に書いてあった「11〜12万字」は根拠のない目標だったので取り下げた。
+分量は既刊の実数に合わせて決め直す。薄いと判断した3章（第3・21・22章）は改稿済み。
 
 | 章 | ファイル | 状態 |
 | --- | --- | --- |
 | プロローグ | [`manuscript/prologue.md`](manuscript/prologue.md) | 初稿（約1,500字） |
 | 第一章 誘導灯 | [`manuscript/ch01.md`](manuscript/ch01.md) | 初稿（約3,800字） |
 | 第二章 消印 | [`manuscript/ch02.md`](manuscript/ch02.md) | 初稿（約2,500字） |
-| 第三章 11日 | [`manuscript/ch03.md`](manuscript/ch03.md) | 初稿（約2,000字） |
+| 第三章 11日 | [`manuscript/ch03.md`](manuscript/ch03.md) | 改稿（約2,600字） |
 | 第四章 三つの籠 | [`manuscript/ch04.md`](manuscript/ch04.md) | 初稿（約2,000字） |
 | 第五章 1996年 | [`manuscript/ch05.md`](manuscript/ch05.md) | 初稿（約2,200字） |
 | 第六章 杭 | [`manuscript/ch06.md`](manuscript/ch06.md) | 初稿（約3,000字） |
@@ -36,8 +37,8 @@
 | 第十八章 一回だけ | [`manuscript/ch18.md`](manuscript/ch18.md) | 初稿（約2,400字） |
 | 第十九章 名簿 | [`manuscript/ch19.md`](manuscript/ch19.md) | 初稿（約2,400字） |
 | 第二十章 もういいんです | [`manuscript/ch20.md`](manuscript/ch20.md) | 初稿（約2,200字） |
-| 第二十一章 立てかけてあった | [`manuscript/ch21.md`](manuscript/ch21.md) | 初稿（約2,000字） |
-| 第二十二章 三つ | [`manuscript/ch22.md`](manuscript/ch22.md) | 初稿（約2,100字） |
+| 第二十一章 立てかけてあった | [`manuscript/ch21.md`](manuscript/ch21.md) | 改稿（約2,900字） |
+| 第二十二章 三つ | [`manuscript/ch22.md`](manuscript/ch22.md) | 改稿（約2,800字） |
 | 第二十三章 何もしなかった | [`manuscript/ch23.md`](manuscript/ch23.md) | 初稿（約4,000字） |
 | 第二十四章 2月10日 | [`manuscript/ch24.md`](manuscript/ch24.md) | 初稿（約3,600字） |
 | 第二十五章 連絡先 | [`manuscript/ch25.md`](manuscript/ch25.md) | 初稿（約2,800字） |
