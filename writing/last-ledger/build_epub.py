@@ -20,8 +20,8 @@ METADATA = {
     "title":     "最後の帳簿　三つに分けられた遺産",
     "series":    "最後の帳簿",
     "series_no": 1,
-    "author":    "著者名未設定",          # ← KDPのアカウント名に合わせて書き換える
-    "author_kana": "チョシャメイミセッテイ",
+    "author":    "Kazu A. Suzuki",
+    "author_file_as": "Suzuki, Kazu A.",   # EPUBの並べ替え用（姓, 名）
     "publisher": "",                     # 個人出版なら空でよい
     "language":  "ja",
     "uuid":      "urn:uuid:" + str(uuid.uuid5(uuid.NAMESPACE_URL,
@@ -79,6 +79,14 @@ p.blank { margin: 1em 0; }
 .tobira .series { font-size: 0.9em; margin: 0 3em 0 0; }
 .tobira .author { font-size: 1.0em; margin: 4em 0 0 0; }
 .colophon { font-size: 0.9em; line-height: 2.0; }
+.latin {
+  writing-mode: horizontal-tb;
+  -epub-writing-mode: horizontal-tb;
+  -webkit-writing-mode: horizontal-tb;
+  display: inline-block;
+  text-orientation: mixed;
+  font-family: "Times New Roman", serif;
+}
 nav ol { list-style: none; padding: 0; margin: 0; }
 nav li { margin: 0.5em 0; }
 """
@@ -142,12 +150,13 @@ def build():
 
     # --- 扉・奥付 ---
     tobira = xhtml_page(m["title"],
-        '<p class="series">%s　第%d巻</p>\n<h1>%s</h1>\n<p class="author">%s</p>'
+        '<p class="series">%s　第%d巻</p>\n<h1>%s</h1>\n'
+        '<p class="author"><span class="latin">%s</span></p>'
         % (esc(m["series"]), m["series_no"], esc(m["title"]), esc(m["author"])), "tobira")
     year = datetime.date.today().year
     colo = xhtml_page("奥付",
         '<h1>奥付</h1>\n<p>%s</p>\n<p>%s　第%d巻</p>\n<p>&#160;</p>\n'
-        '<p>著者　%s</p>\n<p>発行　%d年</p>\n<p>&#160;</p>\n'
+        '<p>著者　<span class="latin">%s</span></p>\n<p>発行　%d年</p>\n<p>&#160;</p>\n'
         '<p>本作品はフィクションです。実在の人物・団体・地名とは関係ありません。</p>\n'
         % (esc(m["title"]), esc(m["series"]), m["series_no"], esc(m["author"]), year), "colophon")
 
@@ -202,7 +211,7 @@ def build():
            '<meta name="book-type" content="comic"/>\n'
            '</metadata>\n<manifest>\n%s\n</manifest>\n'
            '<spine toc="ncx" page-progression-direction="%s">\n%s\n</spine>\n</package>\n'
-           % (m["uuid"], esc(m["title"]), esc(m["author"]), esc(m["author_kana"]),
+           % (m["uuid"], esc(m["title"]), esc(m["author"]), esc(m["author_file_as"]),
               m["language"], datetime.date.today().isoformat(),
               datetime.date.today().isoformat(),
               "vertical-rl" if VERTICAL else "horizontal-tb",
