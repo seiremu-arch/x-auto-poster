@@ -8,12 +8,18 @@
   2. 買いは決めた段数(既定5段)まで。それ以上は何があっても買わない
   3. 売りは平均建値からの上昇率で分割して落とす
 
+これに52週(252営業日)レンジの位置を重ねて、局面ごとに振る舞いを変えられる。
+25日乖離が「波のどこにいるか」だけを見るのに対し、52週レンジは「その波が
+年間のどのへんで起きているか」を見る。同じ乖離-5%でも、高値圏の押し目と
+安値更新中の崩落は別物で、それを区別するための2本目のものさし。
+
 依存は標準ライブラリのみ。取得(fetch)だけがネットワークを使う。
 
     python tools/uneri/uneri.py synth    --out /tmp/synth.csv --years 12
     python tools/uneri/uneri.py fetch    --ticker 1306.T --out data/1306.csv
     python tools/uneri/uneri.py backtest --csv data/1306.csv
     python tools/uneri/uneri.py sweep    --csv data/1306.csv
+    python tools/uneri/uneri.py compare  --csv data/1306.csv
     python tools/uneri/uneri.py signal   --csv data/1306.csv --units 2 --avg-cost 2810
 """
 
@@ -24,6 +30,7 @@ import json
 import math
 import random
 import sys
+from collections import deque
 from dataclasses import dataclass, field, replace
 from datetime import date as Date
 from datetime import timedelta
@@ -197,6 +204,41 @@ def deviation_pct(price, mean):
     return (price - mean) / mean * 100.0
 
 
+def rolling_extreme(values, window, kind="max"):
+    """窓内の最大(または最小)。窓が埋まるまではNone。
+
+    単調デックでO(n)。52週(252営業日)を毎回なめ直すと sweep が遅くなるため。
+    """
+    out = [None] * len(values)
+    queue = deque()
+    if kind == "max":
+        drop = lambda new, old: new >= old   # noqa: E731
+    else:
+        drop = lambda new, old: new <= old   # noqa: E731
+    for i, value in enumerate(values):
+        while queue and drop(value, values[queue[-1]]):
+            queue.pop()
+        queue.append(i)
+        if queue[0] <= i - window:
+            queue.popleft()
+        if i >= window - 1:
+            out[i] = values[queue[0]]
+    return out
+
+
+def range_position(price, high, low):
+    """52週レンジの中での位置(0%=安値、100%=高値)。
+
+    25日乖離が「波のどこか」なら、こちらは「その波が年間のどこで起きているか」。
+    """
+    if high is None or low is None:
+        return None
+    span = high - low
+    if span <= 0:
+        return 50.0
+    return (price - low) / span * 100.0
+
+
 # ------------------------------------------------------------ 戦略 --------
 
 
@@ -220,6 +262,14 @@ class Params:
     # 撤退。満玉のときだけ発動する。Noneで無効(古典的うねり取りは損切りしない)。
     stop_loss_pct: float = -18.0
     stop_loss_fraction: float = 0.5
+
+    # 52週(252営業日)レンジ。25日乖離とは別の時間軸で、局面を切り分けるために使う。
+    # どちらもNoneなら52週は一切使わず、素のうねり取りになる。
+    range_window: int = 252
+    low_gate: float = None        # レンジ内位置がこの%以下なら新しい段を建てない
+    block_after_new_low: int = 0  # 直近N営業日に52週安値を更新していたら建てない
+    high_trail: float = None      # レンジ内位置がこの%以上なら刻まずに引っ張る
+    trail_pct: float = 5.0        # 引っ張るときの、建玉後の高値からの許容下落幅
 
     lot_size: int = 10            # 売買単位(1306は10口、1321は1口)
     tax_rate: float = 0.20315     # 特定口座の申告分離課税
@@ -282,6 +332,9 @@ class Result:
     buyhold_final: float = 0.0
     buyhold_final_after_tax: float = 0.0
     skipped_units: int = 0
+    blocked_by_low_gate: int = 0   # 52週安値圏で見送った段
+    trail_engaged: int = 0         # 刻むのをやめて引っ張りに入ったサイクル数
+    trail_exits: int = 0           # 引っ張りの下落幅に触れて手仕舞った回数
 
 
 def _floor_lot(shares, lot):
@@ -303,12 +356,25 @@ class Backtest:
         self.ma_l = sma(closes, params.ma_long)
         self.dev = [deviation_pct(c, m) for c, m in zip(closes, self.ma_s)]
 
+        window = params.range_window
+        self.high52 = rolling_extreme(closes, window, "max")
+        self.low52 = rolling_extreme(closes, window, "min")
+        self.pos52 = [range_position(c, h, l)
+                      for c, h, l in zip(closes, self.high52, self.low52)]
+        # 窓が埋まるまで(最初の252本)は52週の判定ができない。そこでは素のうねり取り。
+        self.new_low = [l is not None and c <= l + 1e-9
+                        for c, l in zip(closes, self.low52)]
+        self.new_high = [h is not None and c >= h - 1e-9
+                         for c, h in zip(closes, self.high52)]
+
     # -- 建玉の状態 --------------------------------------------------------
     def _reset_cycle_state(self):
         self.units_built = 0
         self.tp_stage = 0
         self.stop_fired = False
         self.last_entry_i = None
+        self.peak_since_entry = 0.0   # トレーリングの基準
+        self.trail_seen = False       # このサイクルで引っ張りに入ったか
         self.cycle = None
 
     def run(self):
@@ -383,6 +449,8 @@ class Backtest:
                 )
                 if "撤退" in reason:
                     res.stop_count += 1
+                if "引っ張り" in reason:
+                    res.trail_exits += 1
                 if shares == 0 and self.cycle:
                     self.cycle.end = day
                     self.cycle.days = _daydiff(self.cycle.start, day)
@@ -390,6 +458,7 @@ class Backtest:
                     res.cycles.append(self.cycle)
                     self._reset_cycle_state()
 
+        self.res = res
         for i, bar in enumerate(bars):
             if pending is not None:
                 execute(pending[0], bar.open, bar.date, pending[1])
@@ -401,6 +470,7 @@ class Backtest:
             exposure_sum += position_value
             if shares:
                 res.days_in_market += 1
+                self.peak_since_entry = max(self.peak_since_entry, bar.close)
                 if self.cycle:
                     self.cycle.peak_exposure = max(
                         self.cycle.peak_exposure, position_value
@@ -442,9 +512,23 @@ class Backtest:
         if dev is None:
             return None
         close = self.bars[i].close
+        pos = self.pos52[i]
 
         if shares > 0 and avg:
             gain = (close - avg) / avg * 100.0
+
+            # 高値圏では刻まない。
+            # +3%で1/3ずつ落とすルールは、上げ相場で伸びを取り逃がす最大の原因。
+            # 52週高値圏に出たら、分割利食いをやめて建玉後の高値からの下落で手仕舞う。
+            if self._trailing(pos, gain):
+                if not self.trail_seen:
+                    self.trail_seen = True
+                    self.res.trail_engaged += 1
+                limit = self.peak_since_entry * (1.0 - p.trail_pct / 100.0)
+                if close <= limit:
+                    return ("SELL", shares, "引っ張り手仕舞い(高値から-%.1f%%)"
+                            % p.trail_pct)
+                return None   # 高値を更新している間は何もしない
 
             # 全部落とす: 乖離が伸びきった、または200日線を下から上抜いた
             if dev >= p.exit_deviation:
@@ -481,9 +565,50 @@ class Backtest:
                 return None
             level = p.buy_levels[self.units_built]
             if dev <= level:
-                return ("BUY", self._unit_shares(i), "買い%d段(乖離%.1f%%)"
-                        % (self.units_built + 1, dev))
+                blocked = self._low_gate_blocks(i, pos)
+                if blocked:
+                    self.res.blocked_by_low_gate += 1
+                    return None
+                return ("BUY", self._unit_shares(i), "買い%d段(乖離%.1f%%%s)"
+                        % (self.units_built + 1, dev,
+                           "" if pos is None else ", 52週%.0f%%" % pos))
         return None
+
+    def _trailing(self, pos, gain):
+        """刻まずに引っ張る局面かどうか。
+
+        入る条件は、利食いを始める水準まで含み益が乗っていて、かつ52週高値圏に
+        いること。含み損の場面では発動しないので、撤退ルールとは干渉しない。
+
+        一度入ったら、そのサイクルが終わるまで引っ張り続ける。押し目を付けた
+        瞬間にレンジ内位置は下がるので、都度判定にすると「引っ張ると決めた直後に
+        引っ張るのをやめる」という無意味な動きになる。乗ると決めたら降りるのは
+        高値からの下落幅だけ、にしてある。
+        """
+        p = self.p
+        if p.high_trail is None or not p.take_profit:
+            return False
+        if self.trail_seen:
+            return True
+        if pos is None:
+            return False
+        return pos >= p.high_trail and gain >= p.take_profit[0][0]
+
+    def _low_gate_blocks(self, i, pos):
+        """52週安値圏で買い下がりを止めるかどうか。
+
+        乖離はトレンド下落でも常にマイナスになるので、25日線だけを見ていると
+        崩落の途中で段が次々埋まる。52週の位置は、それが「波の底」なのか
+        「年間で最も安い場所を更新し続けている最中」なのかを切り分ける。
+        """
+        p = self.p
+        if p.low_gate is not None and pos is not None and pos <= p.low_gate:
+            return True
+        if p.block_after_new_low > 0:
+            start = max(0, i - p.block_after_new_low + 1)
+            if any(self.new_low[start:i + 1]):
+                return True
+        return False
 
     def _unit_shares(self, i):
         price = self.bars[i + 1].open if self.p.exec_at == "next_open" else self.bars[i].close
@@ -573,6 +698,19 @@ def format_report(res, show_trades=0):
     add("執行            : %s / 売買単位%d口 / 税率%.3f%%"
         % ("翌日始値" if p.exec_at == "next_open" else "当日終値",
            p.lot_size, p.tax_rate * 100))
+    uses52 = p.low_gate is not None or p.block_after_new_low or p.high_trail is not None
+    if uses52:
+        parts = []
+        if p.low_gate is not None:
+            parts.append("レンジ内位置%.0f%%以下では買わない" % p.low_gate)
+        if p.block_after_new_low:
+            parts.append("52週安値更新から%d営業日は買わない" % p.block_after_new_low)
+        if p.high_trail is not None:
+            parts.append("レンジ内位置%.0f%%以上では刻まず高値から-%.1f%%で手仕舞い"
+                         % (p.high_trail, p.trail_pct))
+        add("52週(%d日)      : %s" % (p.range_window, " / ".join(parts)))
+    else:
+        add("52週            : 使わない(素のうねり取り)")
     add("")
 
     profit = res.final_equity - p.capital
@@ -634,6 +772,16 @@ def format_report(res, show_trades=0):
             add("  ※ 最後の1回はデータ終端での強制決済(実運用では継続中の建玉)")
     if res.skipped_units:
         add("  ※ 資金不足で見送った段: %d回" % res.skipped_units)
+    if uses52:
+        add("")
+        add("【52週フィルタの効き方】")
+        add("  安値圏で見送った段 : %d回" % res.blocked_by_low_gate)
+        add("  引っ張りに入った   : %d回 / 全%d決済サイクル"
+            % (res.trail_engaged, len(closed)))
+        add("  引っ張りで手仕舞い : %d回 (残りは高値圏を外れて通常の利食いに戻った)"
+            % res.trail_exits)
+        if res.blocked_by_low_gate == 0 and res.trail_engaged == 0:
+            add("  → 一度も発動していない。閾値が厳しすぎる。")
 
     if show_trades:
         add("")
@@ -679,6 +827,16 @@ def _params_from_args(args):
         p = replace(p, exec_at=args.exec_at)
     if args.fee is not None:
         p = replace(p, fee_per_trade=float(args.fee))
+    if args.range_window is not None:
+        p = replace(p, range_window=int(args.range_window))
+    if args.low_gate is not None:
+        p = replace(p, low_gate=float(args.low_gate))
+    if args.block_after_new_low is not None:
+        p = replace(p, block_after_new_low=int(args.block_after_new_low))
+    if args.high_trail is not None:
+        p = replace(p, high_trail=float(args.high_trail))
+    if args.trail_pct is not None:
+        p = replace(p, trail_pct=float(args.trail_pct))
     return p
 
 
@@ -761,6 +919,61 @@ def cmd_sweep(args):
     return 0
 
 
+def cmd_compare(args):
+    """52週フィルタを入れた場合と入れない場合を並べる。
+
+    「効く/効かない」は相場付きに強く依存する。1本の系列で出た差を
+    そのまま信じないこと。上げ相場と横ばい相場の両方で見る。
+    """
+    bars = load_csv(args.csv, use_adjusted=not args.raw_close)
+    base = _params_from_args(args)
+    base = replace(base, low_gate=None, block_after_new_low=0, high_trail=None)
+
+    variants = [
+        ("素のうねり取り", {}),
+        ("安値圏で買わない", {"low_gate": args.low_gate_at}),
+        ("新安値後は買わない", {"block_after_new_low": args.block_days}),
+        ("高値圏で引っ張る", {"high_trail": args.high_trail_at,
+                              "trail_pct": args.trail}),
+        ("安値ゲート＋引っ張り", {"low_gate": args.low_gate_at,
+                                  "high_trail": args.high_trail_at,
+                                  "trail_pct": args.trail}),
+    ]
+
+    reference = None
+    rows = []
+    for label, overrides in variants:
+        params = replace(base, **overrides)
+        res = Backtest(bars, params).run()
+        dd, _ = max_drawdown(res.equity)
+        profit = res.final_equity - params.capital
+        if reference is None:
+            reference = profit
+        rows.append((label, profit, _cagr(res.final_equity, params.capital,
+                                          res.years) * 100, dd * 100,
+                     len(res.cycles), res.mean_exposure / params.capital * 100,
+                     res.blocked_by_low_gate, res.trail_engaged, profit - reference))
+
+    bh = Backtest(bars, base).run()
+    print("期間 %s 〜 %s (%.1f年)" % (bars[0].date, bars[-1].date, bh.years))
+    print("バイ&ホールド(税引後): %s / 年率 %.2f%%"
+          % (_yen(bh.buyhold_final_after_tax - base.capital),
+             _cagr(bh.buyhold_final_after_tax, base.capital, bh.years) * 100))
+    print()
+    print("%-22s %13s %7s %7s %6s %8s %6s %6s %12s"
+          % ("形", "税引後損益", "年率", "最大DD", "回数", "平均建玉率",
+             "見送り", "引張り", "素との差"))
+    print("-" * 100)
+    for label, profit, cagr, dd, cycles, exposure, blocked, trails, diff in rows:
+        print("%-22s %13s %6.2f%% %6.2f%% %6d %7.1f%% %6d %6d %12s"
+              % (label, _yen(profit), cagr, dd, cycles, exposure,
+                 blocked, trails, "—" if diff == 0 else _yen(diff)))
+    print()
+    print("※ 「見送り」は52週安値圏で建てなかった段の数、「引張り」は刻むのを")
+    print("   やめたサイクル数。どちらも0なら、そのフィルタは発動していない。")
+    return 0
+
+
 def cmd_signal(args):
     """今日どうするかを1画面で出す。毎晩これを見て玉帳に書く。"""
     bars = load_csv(args.csv, use_adjusted=not args.raw_close)
@@ -779,6 +992,17 @@ def cmd_signal(args):
         print("%d日線がまだ出ない(データ不足)" % params.ma_short)
         return 1
     print("  %d日線 %.1f / 乖離 %+.2f%%" % (params.ma_short, ma_s[i], dev))
+    high52 = rolling_extreme(closes, params.range_window, "max")[i]
+    low52 = rolling_extreme(closes, params.range_window, "min")[i]
+    pos = range_position(bar.close, high52, low52)
+    if pos is None:
+        print("  52週レンジ まだ出ない(%d本必要、現在%d本)"
+              % (params.range_window, len(bars)))
+    else:
+        print("  52週高値 %.1f / 安値 %.1f / レンジ内位置 %.0f%%%s"
+              % (high52, low52, pos,
+                 "  ★52週高値を更新中" if bar.close >= high52 - 1e-9 else
+                 "  ★52週安値を更新中" if bar.close <= low52 + 1e-9 else ""))
     if ma_l[i] is not None:
         side = "上" if bar.close >= ma_l[i] else "下"
         print("  %d日線 %.1f / 終値はその%s → 地合いは%s"
@@ -800,6 +1024,9 @@ def cmd_signal(args):
         print("  %s %d段目 乖離%.1f%%以下%s" % (mark, n, level, note))
     if args.units >= params.max_units:
         print("  満玉。これ以上は何があっても買わない。")
+    if pos is not None and params.low_gate is not None and pos <= params.low_gate:
+        print("  ✕ 52週安値圏(%.0f%% ≦ %.0f%%)のため、段の条件を満たしても買わない。"
+              % (pos, params.low_gate))
     print()
 
     if args.units > 0 and args.avg_cost:
@@ -810,6 +1037,11 @@ def cmd_signal(args):
             print("  %s 利食い%d段 +%.1f%%で建玉の%.0f%%%s"
                   % ("→" if hit else " ", n, threshold, fraction * 100,
                      "  ★条件を満たしている" if hit else ""))
+        if (params.high_trail is not None and pos is not None
+                and pos >= params.high_trail and gain >= params.take_profit[0][0]):
+            print("  ※ 52週高値圏(%.0f%% ≧ %.0f%%)なので刻まない。"
+                  % (pos, params.high_trail))
+            print("     建玉後の高値から-%.1f%%まで引っ張る。" % params.trail_pct)
         print("  %s 全利食い  乖離+%.1f%%以上"
               % ("→" if dev >= params.exit_deviation else " ", params.exit_deviation))
         if params.stop_loss_pct is not None and args.units >= params.max_units:
@@ -942,6 +1174,16 @@ def _add_strategy_args(parser):
     parser.add_argument("--exec-at", choices=("next_open", "close"),
                         help="執行価格(既定は翌日始値)")
     parser.add_argument("--fee", type=float, help="1回あたり手数料(円)")
+    parser.add_argument("--range-window", type=int,
+                        help="52週レンジの営業日数(既定252)")
+    parser.add_argument("--low-gate", type=float,
+                        help="レンジ内位置がこの%%以下なら買わない(例 20)")
+    parser.add_argument("--block-after-new-low", type=int,
+                        help="52週安値更新からこの営業日数は買わない(例 20)")
+    parser.add_argument("--high-trail", type=float,
+                        help="レンジ内位置がこの%%以上なら刻まず引っ張る(例 90)")
+    parser.add_argument("--trail-pct", type=float,
+                        help="引っ張るときの高値からの許容下落幅(既定5.0)")
     parser.add_argument("--raw-close", action="store_true",
                         help="調整後終値ではなく素の終値を使う")
 
@@ -971,6 +1213,19 @@ def main(argv=None):
     sw.add_argument("--top", type=int, default=15)
     _add_strategy_args(sw)
     sw.set_defaults(func=cmd_sweep)
+
+    cp = sub.add_parser("compare", help="52週フィルタの有無を並べて比べる")
+    cp.add_argument("--csv", required=True)
+    cp.add_argument("--low-gate-at", type=float, default=20.0,
+                    help="安値ゲートの閾値(既定20%%)")
+    cp.add_argument("--high-trail-at", type=float, default=90.0,
+                    help="引っ張りに切り替える閾値(既定90%%)")
+    cp.add_argument("--trail", type=float, default=5.0,
+                    help="引っ張るときの許容下落幅(既定5%%)")
+    cp.add_argument("--block-days", type=int, default=20,
+                    help="新安値更新後に買わない日数(既定20)")
+    _add_strategy_args(cp)
+    cp.set_defaults(func=cmd_compare)
 
     sg = sub.add_parser("signal", help="今日の位置とルールの判定")
     sg.add_argument("--csv", required=True)

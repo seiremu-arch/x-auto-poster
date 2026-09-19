@@ -7,6 +7,7 @@
 import contextlib
 import io
 import os
+import random
 import sys
 import tempfile
 import unittest
@@ -406,6 +407,176 @@ class TestMetrics(unittest.TestCase):
 
     def test_daydiff(self):
         self.assertEqual(uneri._daydiff("2026-01-01", "2026-12-31"), 364)
+
+
+class TestRollingExtreme(unittest.TestCase):
+    def test_max_and_min(self):
+        values = [3.0, 1.0, 4.0, 1.0, 5.0, 9.0, 2.0]
+        self.assertEqual(uneri.rolling_extreme(values, 3, "max"),
+                         [None, None, 4.0, 4.0, 5.0, 9.0, 9.0])
+        self.assertEqual(uneri.rolling_extreme(values, 3, "min"),
+                         [None, None, 1.0, 1.0, 1.0, 1.0, 2.0])
+
+    def test_matches_naive_on_random_data(self):
+        """単調デックの実装が素朴なmin/maxと一致すること。"""
+        rng = random.Random(1234)
+        values = [rng.uniform(1.0, 100.0) for _ in range(400)]
+        for window in (2, 7, 60, 252):
+            fast_max = uneri.rolling_extreme(values, window, "max")
+            fast_min = uneri.rolling_extreme(values, window, "min")
+            for i in range(len(values)):
+                if i < window - 1:
+                    self.assertIsNone(fast_max[i])
+                    self.assertIsNone(fast_min[i])
+                else:
+                    chunk = values[i - window + 1:i + 1]
+                    self.assertAlmostEqual(fast_max[i], max(chunk))
+                    self.assertAlmostEqual(fast_min[i], min(chunk))
+
+    def test_window_larger_than_data(self):
+        self.assertEqual(uneri.rolling_extreme([1.0, 2.0], 5, "max"), [None, None])
+
+
+class TestRangePosition(unittest.TestCase):
+    def test_endpoints_and_middle(self):
+        self.assertAlmostEqual(uneri.range_position(100.0, 100.0, 50.0), 100.0)
+        self.assertAlmostEqual(uneri.range_position(50.0, 100.0, 50.0), 0.0)
+        self.assertAlmostEqual(uneri.range_position(75.0, 100.0, 50.0), 50.0)
+
+    def test_flat_range_is_neutral(self):
+        self.assertAlmostEqual(uneri.range_position(10.0, 10.0, 10.0), 50.0)
+
+    def test_none_when_window_not_filled(self):
+        self.assertIsNone(uneri.range_position(10.0, None, 5.0))
+        self.assertIsNone(uneri.range_position(10.0, 15.0, None))
+
+
+class TestLowGate(unittest.TestCase):
+    """52週安値圏では買い下がりを止める。"""
+
+    def setUp(self):
+        self.p = replace(
+            uneri.Params(), ma_short=5, ma_long=5, range_window=20,
+            buy_levels=(-1.0, -2.0, -3.0), unit_yen=100_000.0, lot_size=1,
+            cooldown_days=3, exec_at="close", tax_rate=0.0,
+            exit_on_ma_long=False, stop_loss_pct=None, exit_deviation=100.0,
+        )
+
+    def _buys(self, params, closes):
+        res = uneri.Backtest(bars_from_closes(closes), params).run()
+        return [t for t in res.trades if t.side == "BUY"], res
+
+    def test_gate_blocks_buying_into_new_lows(self):
+        closes = sustained_decline(30, flat=30)
+        plain, _ = self._buys(self.p, closes)
+        gated, res = self._buys(replace(self.p, low_gate=20.0), closes)
+        self.assertGreater(len(plain), 0)
+        self.assertEqual(len(gated), 0, "安値更新中は1段も建てない")
+        self.assertGreater(res.blocked_by_low_gate, 0)
+
+    def test_gate_allows_buying_high_in_the_range(self):
+        # 高値圏まで上げたあとの押し目なら、レンジ内位置は高いので買える。
+        closes = [100.0] * 30 + [100.0 + i for i in range(30)] + [124.0] * 3
+        gated, _ = self._buys(replace(self.p, low_gate=20.0), closes)
+        self.assertGreater(len(gated), 0)
+
+    def test_block_after_new_low(self):
+        closes = sustained_decline(30, flat=30)
+        blocked, res = self._buys(replace(self.p, block_after_new_low=10), closes)
+        self.assertEqual(len(blocked), 0)
+        self.assertGreater(res.blocked_by_low_gate, 0)
+
+    def test_filters_are_inactive_during_warmup(self):
+        """52週の窓が埋まるまでは判定できないので、素のうねり取りとして動く。"""
+        p = replace(self.p, range_window=500, low_gate=20.0)
+        closes = sustained_decline(30, flat=30)
+        buys, res = self._buys(p, closes)
+        self.assertGreater(len(buys), 0)
+        self.assertEqual(res.blocked_by_low_gate, 0)
+
+    def test_gate_reduces_capital_deployed(self):
+        """ゲートは資金の遊びを増やす。これは相場付きによらない構造的なコスト。"""
+        closes = sustained_decline(30, flat=30) + [50.0] * 40
+        plain = uneri.Backtest(bars_from_closes(closes), self.p).run()
+        gated = uneri.Backtest(
+            bars_from_closes(closes), replace(self.p, low_gate=20.0)
+        ).run()
+        self.assertLess(gated.mean_exposure, plain.mean_exposure)
+
+
+class TestHighTrail(unittest.TestCase):
+    """52週高値圏では刻まずに引っ張る。"""
+
+    def setUp(self):
+        self.p = replace(
+            uneri.Params(), ma_short=5, ma_long=5, range_window=20,
+            buy_levels=(-3.0,), unit_yen=100_000.0, lot_size=1,
+            cooldown_days=3, exec_at="close", tax_rate=0.0,
+            exit_on_ma_long=False, stop_loss_pct=None, exit_deviation=4.0,
+            take_profit=((3.0, 1.0 / 3.0), (6.0, 0.5)),
+        )
+        # 30日フラット → 押し目で建玉 → 52週高値を更新しながら上昇
+        self.rally = [100.0] * 30 + [96.0] * 2 + [104.0, 112.0, 120.0, 128.0]
+
+    def test_trailing_suppresses_the_staged_take_profit(self):
+        plain = uneri.Backtest(bars_from_closes(self.rally), self.p).run()
+        trailed = uneri.Backtest(
+            bars_from_closes(self.rally), replace(self.p, high_trail=90.0)
+        ).run()
+        self.assertGreater(len([t for t in plain.trades if "利食い" in t.reason]), 0)
+        self.assertEqual(trailed.trail_engaged, 1)
+        self.assertEqual(
+            len([t for t in trailed.trades if "利食い" in t.reason]), 0,
+            "高値圏では刻まない",
+        )
+
+    def test_trailing_exits_on_the_pullback(self):
+        closes = self.rally + [128.0 * 0.90] * 3
+        res = uneri.Backtest(
+            bars_from_closes(closes), replace(self.p, high_trail=90.0, trail_pct=5.0)
+        ).run()
+        exits = [t for t in res.trades if "引っ張り" in t.reason]
+        self.assertEqual(len(exits), 1)
+        self.assertEqual(res.trail_exits, 1)
+        self.assertEqual(exits[0].shares,
+                         sum(t.shares for t in res.trades if t.side == "BUY"))
+
+    def test_trailing_needs_both_profit_and_high_range(self):
+        # 高値圏でも含み益が利食い水準に届かなければ引っ張りには入らない。
+        p = replace(self.p, high_trail=90.0, take_profit=((50.0, 1.0),))
+        res = uneri.Backtest(bars_from_closes(self.rally), p).run()
+        self.assertEqual(res.trail_engaged, 0)
+
+    def test_trailing_does_not_disable_the_stop(self):
+        """引っ張りは含み益のある場面だけ。撤退ルールとは干渉しない。"""
+        p = replace(
+            self.p, high_trail=90.0, buy_levels=(-1.0, -2.0, -3.0),
+            stop_loss_pct=-18.0, stop_loss_fraction=0.5, exit_deviation=100.0,
+        )
+        closes = sustained_decline(10, flat=30) + [55.0] * 40
+        res = uneri.Backtest(bars_from_closes(closes), p).run()
+        self.assertEqual(res.stop_count, 1)
+        self.assertEqual(res.trail_engaged, 0)
+
+
+class TestDefaultsUnchanged(unittest.TestCase):
+    def test_52week_features_are_off_by_default(self):
+        p = uneri.Params()
+        self.assertIsNone(p.low_gate)
+        self.assertIsNone(p.high_trail)
+        self.assertEqual(p.block_after_new_low, 0)
+
+    def test_default_run_ignores_the_range_entirely(self):
+        """既定値では52週は結果に一切影響しない(素のうねり取りと同一)。"""
+        closes = sustained_decline(40, flat=30) + [80.0] * 40
+        base = replace(uneri.Params(), ma_short=5, ma_long=5, lot_size=1,
+                       exec_at="close")
+        wide = uneri.Backtest(bars_from_closes(closes),
+                              replace(base, range_window=10)).run()
+        narrow = uneri.Backtest(bars_from_closes(closes),
+                                replace(base, range_window=999)).run()
+        self.assertAlmostEqual(wide.final_equity, narrow.final_equity, places=6)
+        self.assertEqual(len(wide.trades), len(narrow.trades))
 
 
 class TestEndToEnd(unittest.TestCase):
