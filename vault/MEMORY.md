@@ -29,5 +29,5 @@
 ## 直近のラン
 
 <!-- loop:last-run -->
-- 2026-09-21 07:47 `capture(feeds)` — 新規 10 / 重複 10 / 失敗 1 (`vault/40-runs/2026-09-21-run-f020000d97.md`)
+- 2026-09-22 08:44 `capture(feeds)` — 新規 10 / 重複 10 / 失敗 1 (`vault/40-runs/2026-09-22-run-883ee56bcf.md`)
 <!-- /loop:last-run -->
