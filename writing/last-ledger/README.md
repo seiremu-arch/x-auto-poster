@@ -8,11 +8,12 @@
 | [`00-series-bible.md`](00-series-bible.md) | シリーズ全体。縦軸の主人公、帳簿の設定、7作の対応表、情報開示の設計、書き方の方針 |
 | [`01-mitsu-ni-wakerareta-isan.md`](01-mitsu-ni-wakerareta-isan.md) | 第1作『三つに分けられた遺産』の完全設計（登場人物／真相／犯人／どんでん返し／全27章／伏線表／埋め込み方） |
 | [`manuscript/`](manuscript/) | 第1作の本文原稿（算用数字。編集はここだけ） |
-| [`book/`](book/) | **KDP入稿用の生成物。** EPUB（縦書き／横書き）、統合原稿、出版情報 |
+| [`manuscript-en/`](manuscript-en/) | 英語版の本文（*The Last Ledger: An Estate in Three Parts*）。方針と対訳表は [`TRANSLATION.md`](TRANSLATION.md) |
+| [`book/`](book/) | **KDP入稿用の生成物。** EPUB（縦書き／横書き／英語）、統合原稿、出版情報（日本語版・英語版） |
 | `to_kanji.py` | 算用数字 → 漢数字（縦書き用）。`build/vertical/` に出す |
-| `build_epub.py` | EPUB3を組む。既定は縦書き、`--horizontal` で横書き |
+| `build_epub.py` | EPUB3を組む。既定は縦書き、`--horizontal` で横書き、`--english` で英語版 |
 
-**KDP入稿できる状態。** 全27章＋プロローグ＋エピローグ、78,122字。
+**KDP入稿できる状態。** 全27章＋プロローグ＋エピローグ、78,270字。
 入稿手順と残作業は [`book/KDP-出版情報.md`](book/KDP-出版情報.md) にまとめてある
 （残るのは表紙と価格の2つ）。
 
@@ -20,7 +21,11 @@
 python3 writing/last-ledger/to_kanji.py                  # 漢数字に変換
 python3 writing/last-ledger/build_epub.py                # 縦書きEPUB（入稿用）
 python3 writing/last-ledger/build_epub.py --horizontal   # 横書きEPUB
+python3 writing/last-ledger/build_epub.py --english      # 英語版EPUB
 ```
+
+**英語版も入稿できる状態。** 全29単位、約37,700語。KDPの入力内容（英語の内容紹介・
+キーワード・カテゴリ・AI開示の注意）は [`book/KDP-English.md`](book/KDP-English.md)。
 
 
 設計書に書いてあった「11〜12万字」は根拠のない目標だったので取り下げた。

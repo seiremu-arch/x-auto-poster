@@ -7,6 +7,7 @@
 python3 ../to_kanji.py                 # manuscript/（算用数字）→ ../build/vertical/（漢数字）
 python3 ../build_epub.py               # 縦書きEPUB + 統合md
 python3 ../build_epub.py --horizontal  # 横書きEPUB + 統合md
+python3 ../build_epub.py --english     # 英語版EPUB + 統合md（../manuscript-en/）
 ```
 
 | ファイル | 中身 |
@@ -16,6 +17,9 @@ python3 ../build_epub.py --horizontal  # 横書きEPUB + 統合md
 | `最後の帳簿1_三つに分けられた遺産_横書き.epub` | 横書き・算用数字 |
 | `最後の帳簿1_三つに分けられた遺産.md` | 統合原稿（縦書き版） |
 | `最後の帳簿1_三つに分けられた遺産_横書き.md` | 統合原稿（横書き版） |
+| `KDP-English.md` | 英語版のKDP入力内容（英語の内容紹介・キーワード・カテゴリ・AI開示） |
+| `The_Last_Ledger_1_An_Estate_in_Three_Parts.epub` | **英語版のKDP入稿用**（横書き・左開き） |
+| `The_Last_Ledger_1_An_Estate_in_Three_Parts.md` | 英語版の統合原稿 |
 
 ## 数字の扱い
 
