@@ -1,0 +1,23 @@
+{
+  "slug": "inner-voice-en",
+  "title": "The Quietest Voice",
+  "subtitle": "Seven practices for telling your own voice from the noise in your head",
+  "author": "Kazu A. Suzuki",
+  "language": "en",
+  "identifier": "urn:uuid:3c6a5d18-2f47-4b90-9d61-7ae8c0b4f512",
+  "core_sentence": "Your quietest voice never gets louder. So the only way to hear it is to get quieter yourself",
+  "core_claim": "fcfb3b0ebf",
+  "target_words": 14500,
+  "chapters": [
+    "00-prologue.md",
+    "01-how-many-voices.md",
+    "02-speed.md",
+    "03-body.md",
+    "04-margin.md",
+    "05-questions.md",
+    "06-small-decisions.md",
+    "07-silent-days.md",
+    "08-epilogue.md",
+    "09-appendix.md"
+  ]
+}

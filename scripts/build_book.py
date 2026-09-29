@@ -64,13 +64,30 @@ def chapter_title(text, fallback):
     return fallback
 
 
-def count_chars(text):
-    """本文の字数。記法と空白を落として数える(KDPの分量感に近づけるため)。"""
+def strip_markup(text):
     body = []
     for line in text.splitlines():
-        line = MARKUP_RE.sub("", line)
-        body.append(INLINE_RE.sub("", line))
-    return len(re.sub(r"\s", "", "".join(body)))
+        body.append(INLINE_RE.sub("", MARKUP_RE.sub("", line)))
+    return "\n".join(body)
+
+
+def count_units(text, language):
+    """分量。日本語は字数(空白と記法を落として数える)、それ以外は語数で数える。
+
+    KDPの分量感は言語で単位が違う。日本語版と英語版を同じ数字で比べても意味がないので、
+    ここで単位を分ける(→ Vault `fcfb3b0ebf` の「章ごとの語数比」を見るため)。
+    """
+    body = strip_markup(text)
+    if language == "ja":
+        return len(re.sub(r"\s", "", body)), "字"
+    return len(body.split()), "words"
+
+
+def target_of(meta):
+    """目安と、その単位。`target_words` があればそちらを使う。"""
+    if meta.get("target_words"):
+        return meta["target_words"], "words"
+    return meta.get("target_chars"), "字"
 
 
 # --------------------------------------------------------------------------- Markdown → XHTML
@@ -329,22 +346,24 @@ def width(text):
 
 
 def report(meta, chapters, written):
+    language = meta.get("language", "ja")
     total = 0
+    unit = "字"
     print(f"{meta['title']} — {len(written)}/{len(meta.get('chapters', []))} 章")
     print()
     for name, _, text in chapters:
-        chars = count_chars(text)
-        total += chars
+        count, unit = count_units(text, language)
+        total += count
         title = chapter_title(text, name)
-        print(f"  {title}{' ' * max(1, 34 - width(title))}{chars:>6,} 字")
+        print(f"  {title}{' ' * max(1, 36 - width(title))}{count:>6,} {unit}")
     for name in meta.get("chapters", []):
         if name not in written:
-            print(f"  ({name}){' ' * max(1, 32 - width(name))}      未")
-    target = meta.get("target_chars")
+            print(f"  ({name}){' ' * max(1, 34 - width(name))}      未")
+    target, target_unit = target_of(meta)
     print()
-    print(f"  合計 {total:,} 字", end="")
-    if target:
-        print(f" / 目安 {target:,} 字 ({total / target * 100:.0f}%)")
+    print(f"  合計 {total:,} {unit}", end="")
+    if target and target_unit == unit:
+        print(f" / 目安 {target:,} {unit} ({total / target * 100:.0f}%)")
     else:
         print()
     return total
