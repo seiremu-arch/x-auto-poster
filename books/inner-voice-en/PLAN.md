@@ -38,7 +38,7 @@
 | 序章 | 眠れない夜に二十行書く | 同じ(文化に依存しない) |
 | 1 | 金曜の飲みの誘い「その仕事、辞めたら?」 | a friend at dinner: "You should just quit." |
 | 2 | 誘いに即答した三日後 | replying "Sure, I'm in" to a group text in three seconds |
-| 3 | 内見した部屋の玄関で肩が上がる | a job offer that looks perfect on paper |
+| 3 | 内見した部屋の玄関で肩が上がる | the third apartment viewing — perfect on paper, shoulders rise in the hallway |
 | 4 | レンジの二分・信号待ち | the microwave, the elevator, the checkout line |
 | 5 | 会議で部長に数字を指摘される | a manager flags a number in a meeting of seven |
 | 6 | 三年ぶりの分岐点は金曜の夜、誘いを断った | 同じ形(declining one invitation) |
@@ -56,8 +56,8 @@
 - [x] 企画・構成(日本語版からの対応表)
 - [x] 序章 The loudest voice is not always right
 - [x] 第1章 How many voices are talking
-- [ ] 第2章 Speed
-- [ ] 第3章 The body
+- [x] 第2章 Speed
+- [x] 第3章 The body
 - [ ] 第4章 Making room
 - [ ] 第5章 Writing to listen
 - [ ] 第6章 Deciding small
