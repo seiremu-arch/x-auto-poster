@@ -4,6 +4,7 @@
     python3 writing/last-ledger/build_epub.py               # 縦書き（KDP日本語版）
     python3 writing/last-ledger/build_epub.py --horizontal  # 横書き
     python3 writing/last-ledger/build_epub.py --english     # 英語版（manuscript-en/）
+    python3 writing/last-ledger/build_epub.py --german      # ドイツ語版（manuscript-de/）
 
 manuscript/*.md を読み、book/ に .epub と統合 .md を出力する。
 著者名などは METADATA を書き換える。
@@ -14,11 +15,15 @@ ROOT = pathlib.Path(__file__).parent
 OUT  = ROOT / "book"
 
 # 縦書き（漢数字）が既定。--horizontal で横書き（算用数字）版、
-# --english で英語版（横書き・左開き）を作る。
+# --english で英語版、--german でドイツ語版（どちらも横書き・左開き）を作る。
 ENGLISH  = "--english" in sys.argv
-VERTICAL = not ENGLISH and "--horizontal" not in sys.argv
+GERMAN   = "--german" in sys.argv
+LATIN    = ENGLISH or GERMAN          # 欧文の版（組み方・CSS・斜体の扱いが共通）
+VERTICAL = not LATIN and "--horizontal" not in sys.argv
 if ENGLISH:
     SRC = ROOT / "manuscript-en"
+elif GERMAN:
+    SRC = ROOT / "manuscript-de"
 elif VERTICAL:
     SRC = ROOT / "build" / "vertical"
 else:
@@ -50,11 +55,41 @@ if ENGLISH:
     })
     SUFFIX = ""
     BASENAME = "The_Last_Ledger_1_An_Estate_in_Three_Parts"
+elif GERMAN:
+    METADATA.update({
+        "title":     "Das letzte Kassenbuch: Ein Erbe in drei Teilen",
+        "subtitle":  "Ein Erbe in drei Teilen",
+        "series":    "Das letzte Kassenbuch",
+        "language":  "de",
+        "original":  "最後の帳簿　三つに分けられた遺産",
+        "uuid":      "urn:uuid:" + str(uuid.uuid5(uuid.NAMESPACE_URL,
+                      "last-ledger-vol1-ein-erbe-in-drei-teilen-de")),
+    })
+    SUFFIX = ""
+    BASENAME = "Das_letzte_Kassenbuch_1_Ein_Erbe_in_drei_Teilen"
 LANG = METADATA["language"]
 
-ORDER = [("prologue", "Prologue" if ENGLISH else "プロローグ")] + \
+# 欧文の版の見出し・扉まわりの文言
+LABELS = {
+    "en": {"prologue": "Prologue", "epilogue": "Epilogue", "toc": "Contents",
+           "book": "Book", "book_one": "Book One", "copyright": "Copyright",
+           "rights": "All rights reserved.",
+           "original": "Originally published in Japanese as",
+           "fiction": "This is a work of fiction. Names, characters, businesses, places and events "
+                      "are the products of the author&#8217;s imagination. Any resemblance to actual "
+                      "persons, living or dead, or to actual events is purely coincidental."},
+    "de": {"prologue": "Prolog", "epilogue": "Epilog", "toc": "Inhalt",
+           "book": "Band", "book_one": "Band 1", "copyright": "Impressum",
+           "rights": "Alle Rechte vorbehalten.",
+           "original": "Originaltitel:",
+           "fiction": "Dies ist ein Werk der Fiktion. Namen, Personen, Unternehmen, Orte und "
+                      "Ereignisse sind frei erfunden. Ähnlichkeiten mit lebenden oder verstorbenen "
+                      "Personen oder mit tatsächlichen Ereignissen sind rein zufällig."},
+}.get(LANG)
+
+ORDER = [("prologue", LABELS["prologue"] if LATIN else "プロローグ")] + \
         [("ch%02d" % i, None) for i in range(1, 28)] + \
-        [("epilogue", "Epilogue" if ENGLISH else "エピローグ")]
+        [("epilogue", LABELS["epilogue"] if LATIN else "エピローグ")]
 
 WMODE = """html {
   -epub-writing-mode: vertical-rl;
@@ -115,7 +150,7 @@ nav ol { list-style: none; padding: 0; margin: 0; }
 nav li { margin: 0.5em 0; }
 """
 
-if ENGLISH:
+if LATIN:
     CSS = """@charset "UTF-8";
 """ + WMODE + """
 body {
@@ -187,7 +222,7 @@ def md_to_xhtml_body(md):
         cls = "cite" if line.startswith("　　") else None
         body = esc(line)
         body = BOLD_RE.sub(lambda m: "<strong>%s</strong>" % m.group(1), body)
-        if ENGLISH:
+        if LATIN:
             body = ITAL_RE.sub(lambda m: "<em>%s</em>" % m.group(1), body)
             if cls is None and after_break:
                 cls = "first"
@@ -220,8 +255,9 @@ def build():
         combined.append(md.rstrip() + "\n")
 
     # --- 統合原稿（テキストで読み返す用） ---
-    if ENGLISH:
-        head = "# %s\n\n%s, Book %d\n\n%s\n\n" % (m["title"], m["series"], m["series_no"], m["author"])
+    if LATIN:
+        head = "# %s\n\n%s, %s %d\n\n%s\n\n" % (m["title"], m["series"], LABELS["book"],
+                                                  m["series_no"], m["author"])
     else:
         head = "# %s\n\n%s　第%d巻\n\n%s\n\n" % (m["title"], m["series"], m["series_no"], m["author"])
     (OUT / ("%s%s.md" % (BASENAME, SUFFIX))).write_text(
@@ -229,20 +265,19 @@ def build():
 
     # --- 扉・奥付 ---
     year = datetime.date.today().year
-    if ENGLISH:
+    if LATIN:
+        L = LABELS
         tobira = xhtml_page(m["title"],
-            '<h1>%s</h1>\n<p class="series">%s &#183; Book One</p>\n'
+            '<h1>%s</h1>\n<p class="series">%s &#183; %s</p>\n'
             '<p class="author">%s</p>'
-            % (esc(m["subtitle"]), esc(m["series"].upper()), esc(m["author"])), "tobira")
-        colo = xhtml_page("Copyright",
-            '<p><em>%s</em></p>\n<p>%s, Book %d</p>\n'
-            '<p>Copyright &#169; %d %s. All rights reserved.</p>\n'
-            '<p>Originally published in Japanese as <span lang="ja" xml:lang="ja">%s</span>.</p>\n'
-            '<p>This is a work of fiction. Names, characters, businesses, places and events '
-            'are the products of the author&#8217;s imagination. Any resemblance to actual '
-            'persons, living or dead, or to actual events is purely coincidental.</p>\n'
-            % (esc(m["title"]), esc(m["series"]), m["series_no"], year, esc(m["author"]),
-               esc(m["original"])), "colophon")
+            % (esc(m["subtitle"]), esc(m["series"].upper()), L["book_one"], esc(m["author"])), "tobira")
+        colo = xhtml_page(L["copyright"],
+            '<p><em>%s</em></p>\n<p>%s, %s %d</p>\n'
+            '<p>Copyright &#169; %d %s. %s</p>\n'
+            '<p>%s <span lang="ja" xml:lang="ja">%s</span>.</p>\n'
+            '<p>%s</p>\n'
+            % (esc(m["title"]), esc(m["series"]), L["book"], m["series_no"], year, esc(m["author"]),
+               L["rights"], L["original"], esc(m["original"]), L["fiction"]), "colophon")
     else:
         tobira = xhtml_page(m["title"],
             '<p class="series">%s　第%d巻</p>\n<h1>%s</h1>\n'
@@ -255,7 +290,7 @@ def build():
             % (esc(m["title"]), esc(m["series"]), m["series_no"], esc(m["author"]), year), "colophon")
 
     # --- 目次 ---
-    TOC = "Contents" if ENGLISH else "目次"
+    TOC = LABELS["toc"] if LATIN else "目次"
     items = "\n".join('<li><a href="%s.xhtml">%s</a></li>' % (s, esc(t))
                       for s, t, _ in chapters)
     nav = ('<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE html>\n'
@@ -334,10 +369,10 @@ def build():
         for s, _, page in chapters:
             z.writestr("OEBPS/%s.xhtml" % s, page, zipfile.ZIP_DEFLATED)
 
-    if ENGLISH:
+    if LATIN:
         words = sum(len((SRC / (s + ".md")).read_text(encoding="utf-8").split())
                     for s, _, _ in chapters)
-        print("Edition: English (horizontal, left-to-right)")
+        print("Edition:", "English" if ENGLISH else "Deutsch", "(horizontal, left-to-right)")
         print("EPUB:", epub.name, "(%.1f KB)" % (epub.stat().st_size / 1024))
         print("Units:", len(chapters), "/ about", format(words, ","), "words")
         return

@@ -1825,7 +1825,7 @@ Chizuru said it and reached for her teacup. Her hand stopped. The cup was empty.
 
 "Let me say one thing."
 
-It was the first time Kamiya had spoken. The three turned to him.
+This time Kamiya spoke to all three. They turned to him.
 
 "If the three of you write different things, all three baskets survive. No one loses anything. It only shrinks if two of you overlap."
 
@@ -3090,7 +3090,7 @@ For thirty years he had avoided this moment. He had avoided it, and sitting acro
 
 Misaki's finger stopped at the rim of her cup.
 
-"In June 1996, it was I who turned down this company's credit."
+"In May 1996, it was I who turned down this company's credit."
 
 　　　　　　　　　　　　　　　　※
 
@@ -3929,7 +3929,7 @@ He had done the same in 1996.
 
 The inventory in the trial balance did not add up. He found it and took it to the branch manager. He did not lie. He did not move a single figure. He did the right thing.
 
-Two months later, Yasuo Sagara was dead.
+The following month, Yasuo Sagara was dead.
 
 Thirty years on, he was doing the same thing again. Reporting what he saw, as he saw it. And each time, someone stepped off their own life.
 

@@ -8,6 +8,7 @@ python3 ../to_kanji.py                 # manuscript/（算用数字）→ ../bui
 python3 ../build_epub.py               # 縦書きEPUB + 統合md
 python3 ../build_epub.py --horizontal  # 横書きEPUB + 統合md
 python3 ../build_epub.py --english     # 英語版EPUB + 統合md（../manuscript-en/）
+python3 ../build_epub.py --german      # ドイツ語版EPUB + 統合md（../manuscript-de/）
 ```
 
 | ファイル | 中身 |
@@ -20,6 +21,9 @@ python3 ../build_epub.py --english     # 英語版EPUB + 統合md（../manuscrip
 | `KDP-English.md` | 英語版のKDP入力内容（英語の内容紹介・キーワード・カテゴリ・AI開示） |
 | `The_Last_Ledger_1_An_Estate_in_Three_Parts.epub` | **英語版のKDP入稿用**（横書き・左開き） |
 | `The_Last_Ledger_1_An_Estate_in_Three_Parts.md` | 英語版の統合原稿 |
+| `KDP-Deutsch.md` | ドイツ語版のKDP入力内容（内容紹介・キーワード・カテゴリ・AI開示・価格拘束の注意） |
+| `Das_letzte_Kassenbuch_1_Ein_Erbe_in_drei_Teilen.epub` | **ドイツ語版のKDP入稿用**（横書き・左開き） |
+| `Das_letzte_Kassenbuch_1_Ein_Erbe_in_drei_Teilen.md` | ドイツ語版の統合原稿 |
 
 ## 数字の扱い
 

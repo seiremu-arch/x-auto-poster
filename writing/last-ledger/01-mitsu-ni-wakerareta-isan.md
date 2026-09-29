@@ -1123,3 +1123,15 @@ KDPの入力内容は `book/KDP-English.md`。
 
 KDPの内容紹介の一行目「息子に渡されたのは、三つの鍵だけだった」は本文に対応するものが
 ないので、「三人の相続人が受け取れるのは、三つのうち一つだけ。」に差し替えた。
+
+## 追記 2026-09-29（ドイツ語版を仕上げた）
+
+ドイツ語版 *Das letzte Kassenbuch: Ein Erbe in drei Teilen* を全29単位訳した（約34,600語）。
+底本は日本語原文。英語版は固有名詞と言い回しをそろえる参照にだけ使った。
+`build_epub.py --german` で `book/Das_letzte_Kassenbuch_1_Ein_Erbe_in_drei_Teilen.epub` を組む。
+KDPの入力内容は `book/KDP-Deutsch.md`、方針と対訳表は `TRANSLATION-de.md`。
+
+訳しながら、原文にまだ4か所の傷が見つかった（第9・14・15・20章）。日本語原文と英語版の
+両方を直し、日本語版と英語版のEPUBも作り直した。一覧は `TRANSLATION-de.md` の末尾。
+いちばん大きいのは、稟議を否決した月が第5章（5月）と第15章（6月）で食い違っていたこと。
+5月にそろえた。
