@@ -14,7 +14,7 @@ Le vendredi, j'ai refermé le carnet, et je ne l'ai pas rouvert pendant deux moi
 
 Je crois que cela arrive à presque tous ceux qui lisent ce livre. **Cela ne prend pas la forme « continuez, et ça deviendra plus calme ».** Pour autant que je sache, cela ne la prend pas.
 
-## La voix n'est pas partie. C'est vous qui êtes allé plus vite
+## La voix n'est pas partie. C'est votre vitesse qui a changé
 
 Deux mois plus tard, j'ai rouvert le carnet, et voici la première chose que j'ai écrite.
 
@@ -160,7 +160,7 @@ Quand un exercice est récupéré par la voix du « il faut », ce livre se me
 
 Si cela arrive, **tout peut s'arrêter.** Il ne reste que l'exercice 7. Trente secondes, aucun jugement. Je ne connais qu'une personne revenue par ce chemin, mais j'en connais une.
 
-**Je suis revenu, et il n'y a rien.**
+**Je reviens, et il n'y a rien.**
 
 Le plus souvent, l'endroit où l'on revient est calme et rien n'arrive. Comme le disait le chapitre 4, chez moi c'est une ou deux fois sur dix.
 
@@ -180,7 +180,7 @@ S'il y a un jour où vous refermez ce livre pour aller voir un médecin, ce sera
 
 ## À la fin de ce chapitre
 
-La voix n'est pas partie. Vous êtes allé plus vite — et de l'intérieur, on ne peut pas le remarquer.
+La voix n'est pas partie. Votre vitesse a changé — et de l'intérieur, on ne peut pas le remarquer.
 
 Les jours sans son, on ne cherche donc pas. Trois lignes, et on est revenu au présent.
 

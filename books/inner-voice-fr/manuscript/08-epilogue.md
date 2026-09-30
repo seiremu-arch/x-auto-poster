@@ -82,7 +82,7 @@ Si vous n'en emportez qu'un, que ce soit **les trois lignes de l'exercice 7.**
 
 Une chose que vous voyez. Une que vous entendez. Une que votre corps touche.
 
-Trente secondes, aucun jugement, faisable dans l'épuisement. Dans les périodes où les six autres sont impossibles, c'est celui-là qui reste. Et un jour où vous serez revenu par ces trois lignes, les autres vous reviendront. Cet ordre-là me semble le plus naturel.
+Trente secondes, aucun jugement, faisable dans l'épuisement. Dans les périodes où les six autres sont impossibles, c'est celui-là qui reste. Et un jour où le retour sera passé par ces trois lignes, les autres vous reviendront. Cet ordre-là me semble le plus naturel.
 
 ## Pour finir
 

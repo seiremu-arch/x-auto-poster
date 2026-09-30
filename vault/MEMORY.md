@@ -17,7 +17,10 @@
   「Deine leiseste Stimme wird nicht lauter. Also bleibt nur, selbst leiser zu werden」(du で書く → `7586251f89`)。
   フランス語版 `La voix la plus basse` の芯は
   「Votre voix la plus basse ne parlera jamais plus fort. Il ne reste donc qu'à faire silence de votre côté」
-  (vous で書く → `e778004e3b`)
+  (vous で書く → `e778004e3b`)。
+  スペイン語版 `La voz más baja` の芯は
+  「Tu voz más baja nunca hablará más fuerte. Solo queda bajar tu propio volumen」
+  (中立スペイン語 → `cb294d65c0`。性の一致を決めない → `c36e89b074`)
 
 ## 運用ルール
 
@@ -41,5 +44,5 @@
 ## 直近のラン
 
 <!-- loop:last-run -->
-- 2026-09-30 18:11 `capture(manual)` — 新規 1 / 重複 0 / 失敗 0 (`vault/40-runs/2026-09-30-run-2d123512d1.md`)
+- 2026-09-30 20:03 `capture(manual)` — 新規 1 / 重複 0 / 失敗 0 (`vault/40-runs/2026-09-30-run-f127075783.md`)
 <!-- /loop:last-run -->

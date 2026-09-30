@@ -85,7 +85,7 @@ L'étape quatre est celle où il faut être strict. Si vous lisez d'abord, vous 
 - Si elle a changé, est-ce la conclusion qui a changé, ou la raison ?
 - Combien de fois y avez-vous pensé pendant ces vingt-quatre heures ?
 
-C'est la troisième qui fait le travail. **Ce à quoi vous avez pensé à répétition est généralement tenu par la voix anxieuse.** Si une réponse était là le lendemain sans que vous y soyez revenu une seule fois, c'est la voix lente.
+C'est la troisième qui fait le travail. **Ce à quoi vous avez pensé à répétition est généralement tenu par la voix anxieuse.** Si une réponse était là le lendemain sans que vous y ayez repensé une seule fois, c'est la voix lente.
 
 ### À quoi ressemblaient les notes
 

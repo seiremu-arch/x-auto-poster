@@ -78,7 +78,7 @@ Courte : en général une ligne. Elle ne s'explique pas. *C'est peut-être asse
 
 Et elle ne se répète pas. C'est la différence la plus nette avec la voix anxieuse. Elle ne cherche pas à vous convaincre. Si vous la manquez, elle ne reviendra pas aujourd'hui.
 
-Vous n'êtes pas obligé d'y voir la voix de votre âme. Pour moi, c'est simplement **mon jugement le plus discret.** On ne l'entend pas dans une pièce bruyante, mais il n'est pas parti.
+Rien ne vous oblige à y voir la voix de votre âme. Pour moi, c'est simplement **mon jugement le plus discret.** On ne l'entend pas dans une pièce bruyante, mais il n'est pas parti.
 
 ## C'est le comptage qui les sépare
 

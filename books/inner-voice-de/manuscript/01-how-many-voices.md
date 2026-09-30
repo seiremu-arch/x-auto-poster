@@ -54,7 +54,7 @@ Sie benutzt das Vokabular der Richtigkeit. *Normalerweise. Anständig. Vernünft
 
 Ihr Erkennungszeichen ist, dass sie **zu Schlüssen kommt, von denen niemand etwas hat.** Sie geht nicht in die Richtung, dass du es leichter hast, und nicht in die Richtung, dass die Menschen um dich es leichter haben. Sie zeigt nur auf die richtige Form.
 
-Ihr anderes Merkmal: man kann schwer mit ihr streiten. Sag etwas zurück, und du kommst dir wie der Schlechte vor. Also streitest du besser nicht mit dieser. Es bleibt beim Zählen.
+Ihr anderes Merkmal: man kann schwer mit ihr streiten. Sag etwas zurück, und schon stehst du im Unrecht da. Also streitest du besser nicht mit dieser. Es bleibt beim Zählen.
 
 ### Die geborgte Stimme
 

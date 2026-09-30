@@ -154,7 +154,7 @@ On peut arrêter s'il le faut. Mais avant, **un coup d'œil à l'heure** vaut la
 
 **Je m'endors.**
 
-Alors on dort. Si vous vous êtes endormi, ce n'est pas que le silence était inutile — c'est que le sommeil était nécessaire. Aucune réflexion ne l'emporte sur la fatigue.
+Alors on dort. Si le sommeil l'a emporté, ce n'est pas que le silence était inutile — c'est que le sommeil était nécessaire. Aucune réflexion ne l'emporte sur la fatigue.
 
 Si cela se répète, revoir l'heure du coucher vous mènera plus loin que cet exercice.
 
@@ -164,7 +164,7 @@ Tous les jours n'est pas nécessaire. **Deux fois par semaine suffisent.**
 
 J'ai échoué trois fois avec « tous les jours », et ça a tenu quand je suis passé à « mercredi et dimanche ». Fixer les jours enlève la culpabilité les autres jours. La culpabilité ajoute une voix ; autant ne pas l'installer.
 
-**Je ne suis jamais seul à la maison.**
+**Je n'ai jamais la maison pour moi.**
 
 Sept minutes seul, c'est difficile quand il y a du monde. On les place alors dehors : le trajet du retour, l'aller-retour à l'épicerie, la voiture sur le parking avant de rentrer.
 

@@ -122,7 +122,7 @@ Certains jours, aucun pas pour commencer ne vient. On regarde alors dans l'autre
 
 Ma propre première bifurcation en trois ans n'était pas un pas pour commencer. C'était **un refus** — un pas qui arrête.
 
-Les pas qui arrêtent ont un autre avantage. **Le corps répond juste après** (chapitre 3). Le refus vous a-t-il rendu plus léger ou plus lourd ? La réponse revient plus vite qu'avec un pas qui commence.
+Les pas qui arrêtent ont un autre avantage. **Le corps répond juste après** (chapitre 3). Après le refus, est-ce plus léger ou plus lourd ? La réponse revient plus vite qu'avec un pas qui commence.
 
 ### À quoi ressemblaient les notes
 
@@ -167,7 +167,7 @@ Vous avez choisi un pas réversible, alors on revient dessus. Et vous voilà au 
 
 L'échec compte moins que **le fait d'avoir pu essayer dans une zone réversible.** Faites la même chose avec une décision irréversible, et c'est une tout autre histoire.
 
-**J'ai fait un pas, puis je me suis arrêté.**
+**J'ai fait un pas, puis plus rien.**
 
 S'arrêter est permis. Le pas suivant peut attendre qu'il arrive.
 

@@ -56,7 +56,7 @@ Ich liste auf, was ich ausgelassen habe. Nicht, weil ich es vermieden hätte —
 
 **Von Talent** habe ich mich auch fern gehalten. Schreib es so, als könnten manche leiser werden und andere nicht, und die anderen haben etwas bekommen, womit sie sich Vorwürfe machen können. Soweit ich sehen kann, ist das keine Anlage. Es sind Wiederholungen.
 
-Manche Leser werden das Buch wegen des Fehlenden dünn finden. Das ist in Ordnung. **Nicht überprüfbare Dinge nicht als Tatsache hinzuschreiben war das eine Versprechen, das ich gehalten habe.**
+Manchen wird das Buch wegen des Fehlenden dünn vorkommen. Das ist in Ordnung. **Nicht überprüfbare Dinge nicht als Tatsache hinzuschreiben war das eine Versprechen, das ich gehalten habe.**
 
 ## Wie oft, in einem Jahr
 
