@@ -10,8 +10,11 @@
 - (ニュース側は未設定) `loop.py capture` を数日回してから、繰り返し出てくるテーマをここに書く
 - KDP出版 — 内省ワーク型の作品『いちばん小さい声』。芯は「内なる声は大きくならない。
   だから、こちらが静かになるしかない」(→ `0adde001a2`。基準は `6e9d28f8ea` / `100f1d5f68`)
-- KDP出版(英語版) — `The Quietest Voice`。翻訳ではなく書き直し(→ `fcfb3b0ebf`)。芯は
-  「Your quietest voice never gets louder. So the only way to hear it is to get quieter yourself」
+- KDP出版(他言語版) — 翻訳ではなく書き直し(→ `899744d0ff`。`fcfb3b0ebf` を一般化したもの)。
+  英語版 `The Quietest Voice` の芯は
+  「Your quietest voice never gets louder. So the only way to hear it is to get quieter yourself」。
+  ドイツ語版 `Die leiseste Stimme` の芯は
+  「Deine leiseste Stimme wird nicht lauter. Also bleibt nur, selbst leiser zu werden」(du で書く → `7586251f89`)
 
 ## 運用ルール
 
@@ -35,5 +38,5 @@
 ## 直近のラン
 
 <!-- loop:last-run -->
-- 2026-09-30 12:47 `capture(manual)` — 新規 1 / 重複 0 / 失敗 0 (`vault/40-runs/2026-09-30-run-13a20e900e.md`)
+- 2026-09-30 13:27 `capture(manual)` — 新規 1 / 重複 0 / 失敗 0 (`vault/40-runs/2026-09-30-run-fd9c13ae48.md`)
 <!-- /loop:last-run -->

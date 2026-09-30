@@ -1,0 +1,23 @@
+{
+  "slug": "inner-voice-de",
+  "title": "Die leiseste Stimme",
+  "subtitle": "Sieben Übungen, um die eigene Stimme vom Lärm im Kopf zu unterscheiden",
+  "author": "Kazu A. Suzuki",
+  "language": "de",
+  "identifier": "urn:uuid:8b1f6e24-9c05-4d73-a2fe-15d9c73b0a46",
+  "core_sentence": "Deine leiseste Stimme wird nicht lauter. Also bleibt nur, selbst leiser zu werden",
+  "core_claim": "899744d0ff",
+  "target_words": 14400,
+  "chapters": [
+    "00-prologue.md",
+    "01-how-many-voices.md",
+    "02-speed.md",
+    "03-body.md",
+    "04-margin.md",
+    "05-questions.md",
+    "06-small-decisions.md",
+    "07-silent-days.md",
+    "08-epilogue.md",
+    "09-appendix.md"
+  ]
+}

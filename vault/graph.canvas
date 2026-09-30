@@ -16,8 +16,8 @@
       "x": 620,
       "y": -40,
       "width": 460,
-      "height": 1460,
-      "label": "capture (8)",
+      "height": 1820,
+      "label": "capture (10)",
       "color": "2"
     },
     {
@@ -26,8 +26,8 @@
       "x": 1280,
       "y": -40,
       "width": 460,
-      "height": 1820,
-      "label": "claim (10)",
+      "height": 2180,
+      "label": "claim (12)",
       "color": "4"
     },
     {
@@ -151,11 +151,31 @@
       "color": "2"
     },
     {
+      "id": "a29ac5b1af1e9b6f",
+      "type": "file",
+      "file": "00-inbox/2026-09-30-note-754df3fc06.md",
+      "x": 660,
+      "y": 1260,
+      "width": 380,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "a440c0c1636036b8",
+      "type": "file",
+      "file": "00-inbox/2026-09-30-note-80ef28409c.md",
+      "x": 660,
+      "y": 1440,
+      "width": 380,
+      "height": 120,
+      "color": "2"
+    },
+    {
       "id": "c89539e219a818f4",
       "type": "file",
       "file": "00-inbox/2026-09-30-note-fb1fb865c0.md",
       "x": 660,
-      "y": 1260,
+      "y": 1620,
       "width": 380,
       "height": 120,
       "color": "2"
@@ -251,11 +271,31 @@
       "color": "4"
     },
     {
+      "id": "2f7e89cf80e9135c",
+      "type": "file",
+      "file": "10-notes/2026-09-30-claim-7586251f89.md",
+      "x": 1320,
+      "y": 1620,
+      "width": 380,
+      "height": 120,
+      "color": "4"
+    },
+    {
+      "id": "6afeaf0c2625803b",
+      "type": "file",
+      "file": "10-notes/2026-09-30-claim-899744d0ff.md",
+      "x": 1320,
+      "y": 1800,
+      "width": 380,
+      "height": 120,
+      "color": "4"
+    },
+    {
       "id": "1349689f6c6a550e",
       "type": "file",
       "file": "10-notes/2026-09-30-claim-fcfb3b0ebf.md",
       "x": 1320,
-      "y": 1620,
+      "y": 1980,
       "width": 380,
       "height": 120,
       "color": "4"
@@ -336,6 +376,20 @@
       "label": "derived_from"
     },
     {
+      "id": "0cc9d188ab967fe0",
+      "fromNode": "2f7e89cf80e9135c",
+      "toNode": "6afeaf0c2625803b",
+      "toEnd": "arrow",
+      "label": "supports"
+    },
+    {
+      "id": "a20d71356132f7be",
+      "fromNode": "2f7e89cf80e9135c",
+      "toNode": "a29ac5b1af1e9b6f",
+      "toEnd": "arrow",
+      "label": "derived_from"
+    },
+    {
       "id": "3e8fe06296b7eb56",
       "fromNode": "6ada89df7fd68371",
       "toNode": "3d4fd1e16a2373ee",
@@ -346,6 +400,27 @@
       "id": "1c1af344dced46b1",
       "fromNode": "6ada89df7fd68371",
       "toNode": "6130b5fb889b24cb",
+      "toEnd": "arrow",
+      "label": "derived_from"
+    },
+    {
+      "id": "31bb7eadc0c5a6db",
+      "fromNode": "6afeaf0c2625803b",
+      "toNode": "cbcf32d82ff0ddb6",
+      "toEnd": "arrow",
+      "label": "supports"
+    },
+    {
+      "id": "ec291f0b1f896448",
+      "fromNode": "6afeaf0c2625803b",
+      "toNode": "1349689f6c6a550e",
+      "toEnd": "arrow",
+      "label": "supersedes"
+    },
+    {
+      "id": "0627eae9152a7258",
+      "fromNode": "6afeaf0c2625803b",
+      "toNode": "a440c0c1636036b8",
       "toEnd": "arrow",
       "label": "derived_from"
     },

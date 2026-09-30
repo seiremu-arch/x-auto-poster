@@ -37,3 +37,4 @@ python scripts/build_book.py inner-voice --check    # 芯の一文が3か所で�
 
 - `inner-voice/` — 『いちばん小さい声』(内省ワーク型 / 4万字前後 / 執筆中)
 - `inner-voice-en/` — 『The Quietest Voice』(`inner-voice` の英語での書き直し / 執筆済み)
+- `inner-voice-de/` — 『Die leiseste Stimme』(`inner-voice` のドイツ語での書き直し / 執筆中)
