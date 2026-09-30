@@ -58,8 +58,8 @@
 - [x] 第1章 How many voices are talking
 - [x] 第2章 Speed
 - [x] 第3章 The body
-- [ ] 第4章 Making room
-- [ ] 第5章 Writing to listen
+- [x] 第4章 Making room
+- [x] 第5章 Writing to listen
 - [ ] 第6章 Deciding small
 - [ ] 第7章 The days you hear nothing
 - [ ] 終章 Quiet is not a destination
