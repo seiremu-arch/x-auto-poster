@@ -40,8 +40,9 @@ BANNED = re.compile(
 BANNED_ALLOWED = "no hay universo ni vibraciones"
 
 REGIONAL = re.compile(
-    r"\b(móvil|celular|coche|carro|ordenador|computadora|vale|ahorita|guay|chévere|chido|"
+    r"\b(móvil|celular|coche|carro|ordenador|computadora|ahorita|guay|chévere|chido|"
     r"coger|cogí|zumo|jugo|conducir|manejar|aparcar|estacionar|departamento)\b"
+    r"|\b[Vv]ale(?=[,.!])"                    # 相づちの「¡Vale!」だけ。「vale la pena」は中立
     r"|\b\w+(áis|éis)\b"                      # vosotros
     r"|\bvos\b|\b(sabés|tenés|podés|querés|sos)\b",  # voseo
     re.IGNORECASE,

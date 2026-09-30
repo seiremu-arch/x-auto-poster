@@ -67,6 +67,8 @@
 - [x] Capítulo 1 ¿Cuántas voces están hablando?
 - [x] Capítulo 2 Distinguir por la velocidad
 - [x] Capítulo 3 Distinguir en el cuerpo
-- [ ] Capítulos 4〜7
+- [x] Capítulo 4 Hacer espacio
+- [x] Capítulo 5 Escribir para escuchar
+- [ ] Capítulos 6〜7
 - [ ] Cierre / Apéndice
 - [ ] 通しの推敲 / EPUB / 表紙 / KDP登録(`LISTING.md`)
