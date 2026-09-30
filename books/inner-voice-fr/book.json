@@ -1,0 +1,23 @@
+{
+  "slug": "inner-voice-fr",
+  "title": "La voix la plus basse",
+  "subtitle": "Sept exercices pour distinguer votre propre voix du bruit dans votre tête",
+  "author": "Kazu A. Suzuki",
+  "language": "fr",
+  "identifier": "urn:uuid:c4e2a7d1-58b3-4f0e-9a26-3d7b81e5f9c2",
+  "core_sentence": "Votre voix la plus basse ne parlera jamais plus fort. Il ne reste donc qu'à faire silence de votre côté",
+  "core_claim": "899744d0ff",
+  "target_words": 15700,
+  "chapters": [
+    "00-prologue.md",
+    "01-how-many-voices.md",
+    "02-speed.md",
+    "03-body.md",
+    "04-margin.md",
+    "05-questions.md",
+    "06-small-decisions.md",
+    "07-silent-days.md",
+    "08-epilogue.md",
+    "09-appendix.md"
+  ]
+}

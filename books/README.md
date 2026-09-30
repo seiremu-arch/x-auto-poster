@@ -49,3 +49,4 @@ python books/inner-voice-de/check_style.py            # ドイツ語版の文体
 - `inner-voice/` — 『いちばん小さい声』(内省ワーク型 / 33,075字 / 原稿完成・表紙待ち)
 - `inner-voice-en/` — 『The Quietest Voice』(`inner-voice` の英語での書き直し / 執筆済み)
 - `inner-voice-de/` — 『Die leiseste Stimme』(`inner-voice` のドイツ語での書き直し / 執筆済み)
+- `inner-voice-fr/` — 『La voix la plus basse』(`inner-voice` のフランス語での書き直し / 執筆中)

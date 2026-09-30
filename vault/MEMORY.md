@@ -14,7 +14,10 @@
   英語版 `The Quietest Voice` の芯は
   「Your quietest voice never gets louder. So the only way to hear it is to get quieter yourself」。
   ドイツ語版 `Die leiseste Stimme` の芯は
-  「Deine leiseste Stimme wird nicht lauter. Also bleibt nur, selbst leiser zu werden」(du で書く → `7586251f89`)
+  「Deine leiseste Stimme wird nicht lauter. Also bleibt nur, selbst leiser zu werden」(du で書く → `7586251f89`)。
+  フランス語版 `La voix la plus basse` の芯は
+  「Votre voix la plus basse ne parlera jamais plus fort. Il ne reste donc qu'à faire silence de votre côté」
+  (vous で書く → `e778004e3b`)
 
 ## 運用ルール
 
@@ -38,5 +41,5 @@
 ## 直近のラン
 
 <!-- loop:last-run -->
-- 2026-09-30 13:45 `capture(manual)` — 新規 1 / 重複 0 / 失敗 0 (`vault/40-runs/2026-09-30-run-591eb05279.md`)
+- 2026-09-30 18:00 `capture(manual)` — 新規 1 / 重複 0 / 失敗 0 (`vault/40-runs/2026-09-30-run-4e86483aa4.md`)
 <!-- /loop:last-run -->

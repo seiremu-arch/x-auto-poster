@@ -80,7 +80,9 @@ def count_units(text, language):
     body = strip_markup(text)
     if language == "ja":
         return len(re.sub(r"\s", "", body)), "字"
-    return len(body.split()), "words"
+    # 記号だけのトークン(「 — 」やフランス語の不可分空白の後ろの「:」「?」)は語に数えない。
+    # 数えると言語ごとに水増しの幅が違い(英独 1.1% / 仏 2.7%)、言語間の比が歪む。
+    return sum(1 for token in body.split() if any(ch.isalnum() for ch in token)), "words"
 
 
 def target_of(meta):
