@@ -65,6 +65,8 @@
 - [x] 企画・構成(日本語版からの対応表)/ 読者との距離の判断
 - [x] Avant-propos
 - [x] Chapitre 1 Combien de voix parlent en ce moment
-- [ ] Chapitres 2〜7
+- [x] Chapitre 2 Distinguer par la vitesse
+- [x] Chapitre 3 Distinguer dans le corps
+- [ ] Chapitres 4〜7
 - [ ] Conclusion / Annexe
 - [ ] 通しの推敲 / EPUB / 表紙 / KDP登録(`LISTING.md`)
