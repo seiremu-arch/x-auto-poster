@@ -68,6 +68,10 @@
 - [x] 企画・構成(日本語版からの対応表)/ 読者との距離の判断
 - [x] Vorwort
 - [x] Kapitel 1 Wie viele Stimmen reden gerade
-- [ ] Kapitel 2〜7
+- [x] Kapitel 2 Nach der Geschwindigkeit unterscheiden
+- [x] Kapitel 3 Im Körper unterscheiden
+- [x] Kapitel 4 Raum schaffen
+- [x] Kapitel 5 Schreiben, um zu hören
+- [ ] Kapitel 6〜7
 - [ ] Schluss / Anhang
 - [ ] 通しの推敲 / EPUB / 表紙 / KDP登録(`LISTING.md`)
