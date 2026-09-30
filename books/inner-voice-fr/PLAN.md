@@ -67,6 +67,8 @@
 - [x] Chapitre 1 Combien de voix parlent en ce moment
 - [x] Chapitre 2 Distinguer par la vitesse
 - [x] Chapitre 3 Distinguer dans le corps
-- [ ] Chapitres 4〜7
+- [x] Chapitre 4 Faire de la place
+- [x] Chapitre 5 Écrire pour entendre
+- [ ] Chapitres 6〜7
 - [ ] Conclusion / Annexe
 - [ ] 通しの推敲 / EPUB / 表紙 / KDP登録(`LISTING.md`)
