@@ -148,6 +148,7 @@ IPAゴシックだと字幅が広く間延びするので、著者名にはDejaV
 
 - [x] 著者名を決めた（Kazu A. Suzuki）
 - [x] 表紙とEPUBの著者名を反映して再生成した
+- [ ] `python3 book/tools/check_overlap.py` が0件で通ることを確認した
 - [ ] Kindle Previewerで縦書き表示を三機種確認した
 - [ ] `vol1/stories/` に応募作『境界線、未編集』が混入していないことを目視確認した
 - [ ] 内容紹介を貼り付けた
