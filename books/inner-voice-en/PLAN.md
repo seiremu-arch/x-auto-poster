@@ -60,8 +60,11 @@
 - [x] 第3章 The body
 - [x] 第4章 Making room
 - [x] 第5章 Writing to listen
-- [ ] 第6章 Deciding small
-- [ ] 第7章 The days you hear nothing
-- [ ] 終章 Quiet is not a destination
-- [ ] 巻末(実践一覧・免責・あとがき)
-- [ ] 通しの推敲 / EPUB / 表紙 / KDP登録(`LISTING.md`)
+- [x] 第6章 Deciding small
+- [x] 第7章 The days you hear nothing
+- [x] 終章 Quiet is not a destination
+- [x] 巻末(実践一覧・免責・あとがき)
+- [x] 通しの推敲(禁止語・絶対表現・章ごとの語数比・40語超えの文)
+- [x] EPUB(`--epub`)/ KDP登録シート(`LISTING.md`)
+- [ ] 表紙(日本語版と同じ仕様で英文に)
+- [ ] タイトルの重複確認(Amazon.com)/ KDP登録
