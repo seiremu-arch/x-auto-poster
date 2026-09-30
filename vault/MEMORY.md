@@ -20,7 +20,7 @@
   (vous で書く → `e778004e3b`)。
   スペイン語版 `La voz más baja` の芯は
   「Tu voz más baja nunca hablará más fuerte. Solo queda bajar tu propio volumen」
-  (中立スペイン語 → `cb294d65c0`。性の一致を決めない → `c36e89b074`)
+  (中立スペイン語 → `cb294d65c0`。読者の性を決めない → `0045c354b1`、著者の性は著者が決める → `dba7c10f3f`)
 
 ## 運用ルール
 
@@ -44,5 +44,5 @@
 ## 直近のラン
 
 <!-- loop:last-run -->
-- 2026-09-30 20:16 `capture(manual)` — 新規 1 / 重複 0 / 失敗 0 (`vault/40-runs/2026-09-30-run-654f2241cb.md`)
+- 2026-09-30 20:21 `capture(manual)` — 新規 1 / 重複 0 / 失敗 0 (`vault/40-runs/2026-09-30-run-5802c88646.md`)
 <!-- /loop:last-run -->

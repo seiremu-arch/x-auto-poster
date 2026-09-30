@@ -153,7 +153,7 @@ La prueba del capítulo 2 vale aquí también.
 
 Hay además una señal más clara. **Si has repetido tres veces o más el mismo tamaño de paso, no estás avanzando.** Leer diez ofertas veinte veces no hace pasar de etapa. Dos veces, y si nada cambió, se sube un tamaño.
 
-## Donde uno se atasca
+## Donde es fácil atascarse
 
 **Es tan pequeño que parece absurdo.**
 

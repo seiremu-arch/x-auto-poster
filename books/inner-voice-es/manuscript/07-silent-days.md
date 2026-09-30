@@ -136,7 +136,7 @@ Al ponerlas en fila, noté que **no lo usaba para oír nada.** Cada vez era para
 
 Creo que así está bien. Estas tres líneas no son una herramienta para llamar a una voz. Son **una herramienta para bajar la propia velocidad.** Si después llega algo, eso se le puede dejar al día.
 
-## Donde uno se atasca
+## Donde es fácil atascarse
 
 **Hay meses en que no oigo absolutamente nada.**
 

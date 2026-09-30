@@ -138,7 +138,7 @@ No hay nada que responder. Se miran los números y se para ahí.
 
 En este punto, la voz más baja todavía está mezclada en el montón de los **?**. Sacarla de ahí es trabajo de los capítulos 2 y 3; hoy se queda mezclada.
 
-## Donde uno se atasca
+## Donde es fácil atascarse
 
 **Todo parece la voz ansiosa.**
 

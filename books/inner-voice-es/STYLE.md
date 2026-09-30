@@ -35,6 +35,9 @@ No «Usa el cuerpo solo para…», sino «El cuerpo solo sirve para…».
 | no estás obligado | nada te obliga |
 | me sentí pesado | todo se volvió pesado |
 
+El título de las secciones de dudas es «Donde es fácil atascarse», no «Donde uno se atasca»:
+`uno` es un masculino genérico en el mismo lugar donde el francés tiene «Là où l'on bute».
+
 `check_style.py` busca `estoy / estaba / me sentí / estás / te sientes …` seguidos de
 un adjetivo o participio con género. Los personajes (la amiga del capítulo 1) sí tienen género.
 

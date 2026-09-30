@@ -145,7 +145,7 @@ Solo el esqueleto de las tres partes. Funciona peor, pero **es mejor que un día
 
 Esta la hago casi siempre antes de dormir. Hecho a medias tres veces por semana, un cuaderno crece más rápido que hecho a la perfección una vez al mes.
 
-## Donde uno se atasca
+## Donde es fácil atascarse
 
 **No tengo nada que escribir.**
 

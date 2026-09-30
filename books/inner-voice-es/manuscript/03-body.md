@@ -130,7 +130,7 @@ El tercero muestra la otra señal de este ejercicio: **las ganas de repetirlo.**
 
 El miedo, y aquello que da miedo pero hacia lo que uno va, tensan el cuerpo por igual. Para separarlos uso esto. Si, después de la tensión, **tienes ganas de volver a decir la frase en voz alta**, esa es la dirección hacia la que vas. Si no quieres volver a pronunciarla nunca, es la que estás evitando.
 
-## Donde uno se atasca
+## Donde es fácil atascarse
 
 **No siento nada.**
 

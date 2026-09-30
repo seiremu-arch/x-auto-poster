@@ -9,6 +9,10 @@
 
     python books/inner-voice-fr/check_style.py          # 検査(見つかったら終了コード1)
     python books/inner-voice-fr/check_style.py --fix    # ; : ! ? の前と « » の内側を U+00A0 にする
+
+性の一致(Vault `0045c354b1` / `dba7c10f3f`):
+- 読者に向けた一致(vous êtes allé など)は失敗として数える
+- 著者の一人称の一致(j'ai été surpris など)は、著者の答え待ちなので件数だけ出し、失敗にしない
 """
 
 import argparse
@@ -32,6 +36,15 @@ BANNED = re.compile(
 )
 BANNED_ALLOWED = "ni univers ni vibrations"
 
+# 性で形が変わる過去分詞・形容詞(男性形。女性形は -e が付くので当たらない)
+_MASC = (r"(surpris|plaint|rentré|allé|resté|devenu|revenu|venu|parti|passé|sorti|arrivé|tombé|"
+         r"sûr|seul|occupé|assis|débordé|endormi|senti|obligé|indécis|content|fatigué|épuisé|"
+         r"prêt|convaincu|habitué|perdu|certain|lourd|léger|souvenu|arrêté)")
+READER_GENDER = re.compile(r"\bvous\s+(êtes|serez|étiez|soyez|seriez|vous êtes|vous serez|avez été|a rendu)\s+"
+                           r"(\w+\s+)?" + _MASC + r"\b|\bvous\s+n'êtes\s+pas\s+" + _MASC + r"\b", re.IGNORECASE)
+AUTHOR_GENDER = re.compile(r"\b(je suis|j'étais|je me suis|j'ai été|je serai|je reste|m'étais|me suis)\s+"
+                           r"(\w+\s+){0,2}?" + _MASC + r"\b|\btout seul\b", re.IGNORECASE)
+
 LOOSE_SPACE = re.compile(r"(?<=\S) ([;:!?])|« |(?<=\S) »")
 
 
@@ -39,13 +52,21 @@ def is_step_or_quote(line):
     return bool(re.match(r"^\d+\. ", line)) or line.startswith(("- ", ">", "|"))
 
 
+pending = []  # 著者の一人称の性の一致。著者の答え待ち(Vault dba7c10f3f)なので失敗にしない
+
+
 def check():
     findings = []
+    pending.clear()
     for path in sorted(MANUSCRIPT.glob("*.md")):
         for number, raw in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
             line = raw.strip()
             if LOOSE_SPACE.search(line) and not line.startswith(("```", "http")):
                 findings.append((path.name, number, "空白", line[:78]))
+            if READER_GENDER.search(line):
+                findings.append((path.name, number, "性の一致(読者)", line[:78]))
+            if AUTHOR_GENDER.search(line):
+                pending.append((path.name, number, line[:78]))
             if is_step_or_quote(line):
                 continue
             if BANNED.search(line) and BANNED_ALLOWED not in line:
@@ -93,7 +114,9 @@ def main(argv=None):
     if not args.quiet:
         for name, number, kind, text in findings:
             print(f"  {kind}  {name}:{number}  {text}")
-    print(f"{len(findings)} 件" if findings else "0 件 — 命令形・禁止語・約物の空白、いずれも問題なし")
+    print(f"{len(findings)} 件" if findings else "0 件 — 命令形・禁止語・約物の空白・読者の性、いずれも問題なし")
+    if pending:
+        print(f"(著者の一人称の性の一致: {len(pending)} か所 — 著者の答え待ち、失敗にはしない → PLAN.md)")
     return 1 if findings else 0
 
 

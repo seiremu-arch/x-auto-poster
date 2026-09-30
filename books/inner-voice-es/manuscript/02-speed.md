@@ -125,7 +125,7 @@ Con un día fijado, está permitido soltarlo. Lo que está previsto para el vier
 
 Si pasa una semana y no viene nada, se cambian las condiciones en lugar de seguir esperando. No poder decidir casi nunca quiere decir que falta información; lo más frecuente es que solo haya dos opciones. Inventa una tercera, y a veces la respuesta aparece de inmediato.
 
-## Donde uno se atasca
+## Donde es fácil atascarse
 
 **Hacer esperar me parece injusto con la otra persona.**
 

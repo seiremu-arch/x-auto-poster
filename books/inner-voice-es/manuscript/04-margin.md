@@ -144,7 +144,7 @@ El papel no tiene ese problema. Un cuaderno abierto sigue siendo un cuaderno.
 
 No es cuestión de disciplina; es cuestión de disposición. **Lo que se guarda en el mismo lugar se maneja con el mismo reflejo.** La herramienta que tiene que quedarse en calma no va en el lugar ruidoso.
 
-## Donde uno se atasca
+## Donde es fácil atascarse
 
 **No soporto el aburrimiento.**
 
