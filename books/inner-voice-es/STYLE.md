@@ -49,6 +49,7 @@ un adjetivo o participio con género. Los personajes (la amiga del capítulo 1) 
 | vale / ahorita / guay / chévere / chido | (evitar) |
 | coger | tomar / agarrar |
 | zumo / jugo, conducir / manejar | (evitar) |
+| nevera / refrigerador / heladera | (evitar; en los ejemplos de sonido, «el tráfico») |
 | aparcar / estacionar | (evitar) |
 | alquiler | alquiler (se entiende en todas partes; «renta» significa también ingreso) |
 

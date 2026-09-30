@@ -21,10 +21,10 @@ from pathlib import Path
 MANUSCRIPT = Path(__file__).resolve().parent / "manuscript"
 
 # tú の命令形(文頭に来るもの)。tú の命令形は三人称現在と同形なので、同形異義が多い。
-# 「Para」(前置詞)と「Corta」(形容詞「短い」)は区別できないので入れない。
+# 「Para」(前置詞)、「Corta」(形容詞「短い」)、「Di」(dar の点過去「di un paso」)は区別できないので入れない。
 # 主語を省いた三人称(「…no usa X. Usa Y.」)も当たるので、そこは語順で避ける。
 VERBS = (
-    "Escribe|Toma|Pon|Anota|Cuenta|Marca|Copia|Espera|Mira|Di|Haz|Elige|Busca|Guarda|Deja|"
+    "Escribe|Toma|Pon|Anota|Cuenta|Marca|Copia|Espera|Mira|Haz|Elige|Busca|Guarda|Deja|"
     "Prueba|Siéntate|Levántate|Camina|Repite|Divide|Tacha|Rodea|Reescribe|Vuelve|Nombra|Cierra|"
     "Abre|Usa|Lee|Relee|Coloca|Programa|Aleja|Responde|Pregunta|Decide|Recuerda|Olvida|Piensa|"
     "Intenta|Cambia|Inventa|Quita|Apaga|Detente|Respira|Fíjate|Observa|Vuelve"
@@ -41,7 +41,8 @@ BANNED_ALLOWED = "no hay universo ni vibraciones"
 
 REGIONAL = re.compile(
     r"\b(móvil|celular|coche|carro|ordenador|computadora|ahorita|guay|chévere|chido|"
-    r"coger|cogí|zumo|jugo|conducir|manejar|aparcar|estacionar|departamento)\b"
+    r"coger|cogí|zumo|jugo|conducir|manejar|departamento|nevera|refrigerador|heladera|frigorífico)\b"
+    r"|\b(aparc\w*|estacion(ar|ado|ada|ando|amiento)|cog(e|es|en|ió|iendo))\b"   # 活用形も。「estación」(駅)は当てない
     r"|\b[Vv]ale(?=[,.!])"                    # 相づちの「¡Vale!」だけ。「vale la pena」は中立
     r"|\b\w+(áis|éis)\b"                      # vosotros
     r"|\bvos\b|\b(sabés|tenés|podés|querés|sos)\b",  # voseo
@@ -54,8 +55,8 @@ REGIONAL_OK = {"seis", "veintiséis", "dieciséis", "país", "maíz", "jamáis"}
 GENDER = re.compile(
     r"\b(estoy|estaba|estuve|me sentí|me siento|me quedé|quedé|me puse|soy|era|fui|"
     r"estás|estabas|estuviste|te sientes|te sentiste|te quedas|te quedaste|eres)\s+"
-    r"(muy\s+|tan\s+|más\s+|un poco\s+|bastante\s+)?"
-    r"(\w+(ado|ada|ados|adas|ido|ida|idos|idas|oso|osa)|solo|sola|seguro|segura|listo|lista|"
+    r"(muy\s+|tan\s+|más\s+|un poco\s+|bastante\s+|demasiado\s+)?"
+    r"(?!demasiado\b)(\w+(ado|ada|ados|adas|ido|ida|idos|idas|oso|osa)|solo|sola|seguro|segura|listo|lista|"
     r"contento|contenta|cansado|cansada|dormido|dormida|obligado|obligada|pesado|pesada|ligero|ligera)\b",
     re.IGNORECASE,
 )

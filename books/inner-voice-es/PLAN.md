@@ -69,6 +69,9 @@
 - [x] Capítulo 3 Distinguir en el cuerpo
 - [x] Capítulo 4 Hacer espacio
 - [x] Capítulo 5 Escribir para escuchar
-- [ ] Capítulos 6〜7
-- [ ] Cierre / Apéndice
-- [ ] 通しの推敲 / EPUB / 表紙 / KDP登録(`LISTING.md`)
+- [x] Capítulo 6 Decidir en pequeño
+- [x] Capítulo 7 Los días en que no oyes nada
+- [x] Cierre / Apéndice
+- [x] 通しの推敲(五つの検査・章ごとの語数比)/ EPUB / KDP登録シート(`LISTING.md`)
+- [ ] 表紙(五言語で同じデザイン、文字だけスペイン語に)
+- [ ] タイトルの重複確認(Amazon.es / .com.mx / .com)/ KDP登録
