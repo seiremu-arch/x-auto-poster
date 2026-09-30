@@ -51,3 +51,4 @@ python books/inner-voice-fr/check_style.py --fix      # フランス語版の文
 - `inner-voice-en/` — 『The Quietest Voice』(`inner-voice` の英語での書き直し / 執筆済み)
 - `inner-voice-de/` — 『Die leiseste Stimme』(`inner-voice` のドイツ語での書き直し / 執筆済み)
 - `inner-voice-fr/` — 『La voix la plus basse』(`inner-voice` のフランス語での書き直し / 執筆済み)
+- `inner-voice-es/` — 『La voz más baja』(`inner-voice` のスペイン語での書き直し / 執筆中)
