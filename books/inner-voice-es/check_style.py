@@ -81,7 +81,7 @@ def check():
             for match in REGIONAL.finditer(line):
                 if match.group(0).lower() not in REGIONAL_OK:
                     findings.append((path.name, number, "地域語", f"«{match.group(0)}» {line[:60]}"))
-            if not line.startswith(">") and GENDER.search(line):
+            if GENDER.search(line):  # 引用ブロックのノートも著者自身の言葉なので対象にする
                 findings.append((path.name, number, "性の一致", line[:78]))
             if is_step_or_quote(line):
                 continue

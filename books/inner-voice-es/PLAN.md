@@ -65,6 +65,8 @@
 - [x] 企画・構成 / 地域と性の判断
 - [x] Prólogo
 - [x] Capítulo 1 ¿Cuántas voces están hablando?
-- [ ] Capítulos 2〜7
+- [x] Capítulo 2 Distinguir por la velocidad
+- [x] Capítulo 3 Distinguir en el cuerpo
+- [ ] Capítulos 4〜7
 - [ ] Cierre / Apéndice
 - [ ] 通しの推敲 / EPUB / 表紙 / KDP登録(`LISTING.md`)
