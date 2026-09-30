@@ -25,8 +25,9 @@ IMPERATIVE = re.compile(r"(?:^|(?<=[.!?:»] ))\*{0,2}([A-ZÉÈÀ][a-zéèêëà�
 CONDITIONAL = re.compile(r"^\*{0,2}\S+[^.!?]{0,90}, (et|puis)\b")
 
 BANNED = re.compile(
-    r"univers\b|vibration|manifester|loi de l'attraction|moi supérieur|vrai moi|mission d'âme|"
-    r"éveil|garanti|changera votre vie|intuition|votre instinct",
+    # 語の途中には当てない(「réveil」の中の「éveil」、「universel」の中の「univers」)
+    r"\buniverse?\b|\bvibration|\bmanifester|loi de l'attraction|moi supérieur|vrai moi|mission d'âme|"
+    r"\béveil|\bgaranti|changera votre vie|\bintuition|votre instinct",
     re.IGNORECASE,
 )
 BANNED_ALLOWED = "ni univers ni vibrations"

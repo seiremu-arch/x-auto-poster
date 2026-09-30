@@ -42,6 +42,7 @@ python scripts/build_book.py inner-voice --check    # 芯の一文が3か所で�
 ```bash
 python scripts/build_book.py inner-voice-en --check   # 英語以外は語数で数える
 python books/inner-voice-de/check_style.py            # ドイツ語版の文体検査
+python books/inner-voice-fr/check_style.py --fix      # フランス語版の文体検査と不可分空白
 ```
 
 ## 現在の作品
@@ -49,4 +50,4 @@ python books/inner-voice-de/check_style.py            # ドイツ語版の文体
 - `inner-voice/` — 『いちばん小さい声』(内省ワーク型 / 33,075字 / 原稿完成・表紙待ち)
 - `inner-voice-en/` — 『The Quietest Voice』(`inner-voice` の英語での書き直し / 執筆済み)
 - `inner-voice-de/` — 『Die leiseste Stimme』(`inner-voice` のドイツ語での書き直し / 執筆済み)
-- `inner-voice-fr/` — 『La voix la plus basse』(`inner-voice` のフランス語での書き直し / 執筆中)
+- `inner-voice-fr/` — 『La voix la plus basse』(`inner-voice` のフランス語での書き直し / 執筆済み)

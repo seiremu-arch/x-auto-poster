@@ -69,6 +69,9 @@
 - [x] Chapitre 3 Distinguer dans le corps
 - [x] Chapitre 4 Faire de la place
 - [x] Chapitre 5 Écrire pour entendre
-- [ ] Chapitres 6〜7
-- [ ] Conclusion / Annexe
-- [ ] 通しの推敲 / EPUB / 表紙 / KDP登録(`LISTING.md`)
+- [x] Chapitre 6 Décider petit
+- [x] Chapitre 7 Les jours où vous n'entendez rien
+- [x] Conclusion / Annexe
+- [x] 通しの推敲(命令形・禁止語・約物の空白・章ごとの語数比)/ EPUB / KDP登録シート(`LISTING.md`)
+- [ ] 表紙(四言語で同じデザイン、文字だけフランス語に)
+- [ ] タイトルの重複確認(Amazon.fr)/ KDP登録
