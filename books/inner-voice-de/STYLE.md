@@ -12,23 +12,24 @@
 - Nicht belehren, sondern **daneben stehen.** „Probier es" statt „du musst"
 - Wenn ich von Erfahrung schreibe, gehören die Male dazu, die nicht funktioniert haben
 
-### Imperativ nur in den Schritten
+### Imperativ: nur in den Schritten und in Bedingungssätzen
 
-`du` macht es leicht, in Anweisungen zu kippen. Der Imperativ gehört **nur** in die
-numerierten Schritte einer Übung. Außerhalb davon nicht.
+`du` macht es leicht, in Anweisungen zu kippen. Erlaubt ist der Imperativ an zwei Stellen:
+
+1. in den **numerierten Schritten** einer Übung
+2. im **Bedingungssatz** — „Setz die Namen zurück, und es wird ein normales Meeting."
+   Das ist keine Anweisung, sondern die Erklärung einer Folge
+
+Verboten ist die **nackte Anweisung** im laufenden Text und in Überschriften.
+Nicht „Benutz den Körper nur, um …", sondern „Der Körper ist nur dafür da, …".
+Nicht „## Teile die Frage in drei", sondern „## Die Frage, in drei geteilt".
 
 ```bash
-grep -nE "^(Schreib|Setz|Nimm|Mach|Leg|Stell|Geh|Halt|Sag|Zähl|Frag|Prüf|Notier|Markier|Übertrag)e?\b" \
-  books/inner-voice-de/manuscript/*.md
+python books/inner-voice-de/check_style.py
 ```
 
-Das `\b` am Ende ist nötig, sonst trifft das Muster auch „Zählen" und „Sagen" — Substantive
-und Infinitive, die keine Anweisung sind.
-
-Treffer außerhalb der Schritt-Listen sind Fehler. Beim ersten Durchgang war es einer:
-„Zähl sie, und sie fangen von selbst an" am Kapitelende von Kapitel 1, geändert zu
-„Wenn du sie zählst, fangen sie von selbst an". Kapitelenden sind die Stelle, an der
-der Imperativ am leichtesten hereinkommt.
+Das Skript kennt die Verbliste, die Ausnahme für Bedingungssätze und die verbotenen Wörter.
+Es endet mit Exit-Code 1, wenn es etwas findet.
 
 ## Wörter, die nicht vorkommen
 

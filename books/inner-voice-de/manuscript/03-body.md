@@ -61,7 +61,7 @@ Entscheide allein nach dem Körper, und du wirst dein Leben damit verbringen, al
 
 Wofür ist er dann?
 
-**Benutze den Körper, um die Stellen zu finden, an denen er deinen Worten widerspricht.**
+**Der Körper wird benutzt, um die Stellen zu finden, an denen er deinen Worten widerspricht.**
 
 Du sagst *das ist der Job, den ich nehmen sollte*, und deine Kehle geht zu. Du sagst *ich will, dass das weitergeht*, und deine Schultern gehen hoch. **Der Widerspruch** ist die Information. Wo er auftaucht, steckt mit guter Wahrscheinlichkeit die geborgte oder die Sollte-Stimme in dem Satz.
 
@@ -156,7 +156,7 @@ Ein Bad geht. Ein parkendes Auto geht. Der Weg nach Hause allein geht. Ich benut
 
 Das kommt, nachdem es anfängt zu funktionieren. Wenn es ein paar Mal stimmt, willst du deinen Körper wie ein Orakel benutzen.
 
-Der Körper entscheidet nichts. Er beantwortet, ob etwas sicher ist. Wähl weiter, was sich löst, und du endest damit, alles Unbekannte zu vermeiden. **Benutz den Körper nur, um zu finden, wo er deinen Worten widerspricht.** Dahin kommst du so oft zurück, wie du es brauchst.
+Der Körper entscheidet nichts. Er beantwortet, ob etwas sicher ist. Wähl weiter, was sich löst, und du endest damit, alles Unbekannte zu vermeiden. **Der Körper ist nur dafür da, zu finden, wo er deinen Worten widerspricht.** Dahin kommst du so oft zurück, wie du es brauchst.
 
 ## Deute deine Symptome nicht mit diesem Kapitel
 

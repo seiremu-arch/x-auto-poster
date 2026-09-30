@@ -34,7 +34,7 @@ Deshalb halte ich es so:
 
 > Geschwindigkeit ist kein Beweis für Überzeugung. Sie ist ein Beweis für Gewohnheit.
 
-## Stell sie in die Reihenfolge, in der sie gekommen sind
+## Die Reihenfolge, in der sie gekommen sind
 
 In Kapitel 1 haben wir die Lautstärke aus dem Spiel genommen, weil bei einer Auswahl nach Lautstärke jedes Mal die Angst gewinnt.
 
@@ -137,7 +137,7 @@ Hier ist der Test. **Wenn vierundzwanzig Stunden Warten jemandem tatsächlich ei
 
 Auch das ist ein Ergebnis.
 
-Die leiseste Stimme hat zu Dingen, die dir nicht wichtig sind, nichts zu sagen. Dass nichts kam, ist kein Versagen — es ist die Information, dass beide Möglichkeiten in Ordnung sind. Behalt deine erste Antwort. Du hast gerade eine Entscheidung gefunden, die du beiläufig treffen darfst.
+Die leiseste Stimme hat zu Dingen, die dir nicht wichtig sind, nichts zu sagen. Dass nichts kam, ist kein Versagen — es ist die Information, dass beide Möglichkeiten in Ordnung sind. Deine erste Antwort bleibt stehen. Du hast gerade eine Entscheidung gefunden, die du beiläufig treffen darfst.
 
 **Jemand drängt jetzt auf eine Antwort.**
 

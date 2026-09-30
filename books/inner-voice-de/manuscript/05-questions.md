@@ -24,7 +24,7 @@ Was nicht funktionierte, war nicht das Schreiben. Es war **die Frage.**
 
 **Zweitens: sie fragt nach der Zukunft.**
 
-Das ist das Scharnier des Kapitels. Geh zurück zu Kapitel 1, zu den vier Stimmen. Die ängstliche Stimme **redet in der Zukunft.** *Was, wenn. Angenommen. Was passiert, sobald.*
+Das ist das Scharnier des Kapitels. Wir gehen zurück zu Kapitel 1, zu den vier Stimmen. Die ängstliche Stimme **redet in der Zukunft.** *Was, wenn. Angenommen. Was passiert, sobald.*
 
 Die leiseste Stimme redete in der **Gegenwart.** *Die Montagmorgen sind das Schlimmste. Ich rufe ihn nicht wieder an.*
 
@@ -34,7 +34,7 @@ Wenn du also nach der Zukunft fragst, ist die Stimme, die am besten dafür ausge
 
 Ändere die Form der Frage, und eine andere Stimme antwortet. Mehr war es nicht.
 
-## Teile die Frage in drei
+## Die Frage, in drei geteilt
 
 Was ich jetzt benutze, ist eine Teilung in drei.
 
@@ -56,7 +56,7 @@ In der Vergangenheit gefragt, bekommst du einen Bericht über das Ereignis. In d
 
 Das Wort *morgen* tut die Arbeit. In ein Morgen passt nichts über die Richtung deines Lebens. Hinein passt nur Konkretes und Kleines.
 
-## Benutz kein „warum"
+## Kein „warum"
 
 In diesen drei steht nirgends ein *warum*. Das ist Absicht.
 
@@ -172,7 +172,7 @@ Am Anfang war die Hälfte meines Notizbuchs über andere Menschen. Was er gesagt
 
 Ich dachte, ich schreibe über mich. Aber **jedes Satzsubjekt war jemand anderes.**
 
-Dafür gibt es eine Korrektur. **Setz dich als Subjekt zurück und schreib es noch einmal.**
+Dafür gibt es eine Korrektur. **Das Subjekt zurücksetzen und den Satz noch einmal schreiben.**
 
 - „Er redet immer von oben herab mit mir" → „Ich werde still, wenn er so mit mir redet"
 - „Sie nimmt mich nicht ernst" → „Meine Stimme wird kleiner, wenn sie dabei ist"
@@ -197,6 +197,6 @@ Du wirst an dem Tag schreiben wollen, an dem etwas passiert ist — aber **an de
 
 Eine große Frage erreicht nur die großen Stimmen.
 
-Teil sie in drei — Tatsachen, was noch hängt, was in ein Morgen passt. Kein *warum*.
+In drei geteilt: Tatsachen, was noch hängt, was in ein Morgen passt. Kein *warum*.
 
 Das Kleine, das im dritten Teil auftaucht, ist das Material für das nächste Kapitel. **Eine Weggabelung sieht nicht wie eine große Entscheidung aus.**

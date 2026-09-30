@@ -54,7 +54,7 @@ Sie benutzt das Vokabular der Richtigkeit. *Normalerweise. Anständig. Vernünft
 
 Ihr Erkennungszeichen ist, dass sie **zu Schlüssen kommt, von denen niemand etwas hat.** Sie geht nicht in die Richtung, dass du es leichter hast, und nicht in die Richtung, dass die Menschen um dich es leichter haben. Sie zeigt nur auf die richtige Form.
 
-Ihr anderes Merkmal: man kann schwer mit ihr streiten. Sag etwas zurück, und du kommst dir wie der Schlechte vor. Also streitest du besser nicht mit dieser. Zähl sie einfach.
+Ihr anderes Merkmal: man kann schwer mit ihr streiten. Sag etwas zurück, und du kommst dir wie der Schlechte vor. Also streitest du besser nicht mit dieser. Es bleibt beim Zählen.
 
 ### Die geborgte Stimme
 
@@ -142,7 +142,7 @@ An diesem Punkt ist die leiseste Stimme noch im **?**-Stapel vermischt. Sie hera
 
 **Alles sieht nach der ängstlichen Stimme aus.**
 
-Kommt häufig vor — besonders, wenn du müde bist, und kurz vor einer Frist. Das ist in Ordnung. Behalt es als Aufzeichnung: *heute waren acht von zehn Zeilen ängstlich.* Mach dasselbe an einem anderen Tag, und das Verhältnis ändert sich. Die Änderung ist die Information.
+Kommt häufig vor — besonders, wenn du müde bist, und kurz vor einer Frist. Das ist in Ordnung. Es bleibt als Aufzeichnung stehen: *heute waren acht von zehn Zeilen ängstlich.* Mach dasselbe an einem anderen Tag, und das Verhältnis ändert sich. Die Änderung ist die Information.
 
 **Es ist keine einzige leise Zeile dabei.**
 
@@ -152,7 +152,7 @@ Bitte verbuch das nicht als Versagen. Herauszufinden, dass nichts kam, ist das E
 
 **Ich kann nicht sagen, zu welcher der vier eine Zeile gehört.**
 
-Dann entscheidest du es nicht. Markier sie als **?**. Die **?**-Spalte ist nicht „leiseste Stimme", sondern „noch nicht sortiert", und sie darf so groß sein, wie sie will.
+Dann entscheidest du es nicht, sondern gibst ihr ein **?**. Die **?**-Spalte ist nicht „leiseste Stimme", sondern „noch nicht sortiert", und sie darf so groß sein, wie sie will.
 
 Genau sortieren zu wollen macht aus dem Sortieren eine neue Sorge. Das ist nur eine Stimme mehr.
 

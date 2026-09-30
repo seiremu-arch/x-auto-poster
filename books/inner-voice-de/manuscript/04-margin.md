@@ -48,7 +48,7 @@ Damit eine langsame Stimme landen kann, muss der Platz frei sein. In einem Leben
 
 Du musst nicht alle Benachrichtigungen abschalten. Aber wenn du eine Art auswählst, ist klar, welche.
 
-**Schalte das ab, was unangekündigt kommt.**
+**Abgeschaltet wird, was unangekündigt kommt.**
 
 Etwas, das du ansehen gehst (du öffnest die App und liest), und etwas, das zu dir kommt (ein Banner, ein Punkt, ein Summen), besetzen den Platz unterschiedlich, auch bei gleichem Inhalt. Was du geöffnet hast, kommt in einer Zeit, die du gewählt hast. Was zu dir kommt, fällt mitten in deine Zeit hinein.
 
@@ -70,7 +70,7 @@ Die Anordnung ist wichtiger als die Willenskraft. Drei, die bei mir überlebt ha
 
 Manche würden den Morgen wählen. Bei mir hat es nicht funktioniert: morgens ist die *es fängt gleich an*-Stimme zu laut, und sieben Minuten halten sie nicht.
 
-Eine Leitlinie für die Wahl. **Such die Zeit, die du schon nicht benutzt.** Neu herausgeschnittene Zeit hält nicht. Find die Zeit, die schon frei war und die du gefüllt hast — und hör auf, sie zu füllen.
+Eine Leitlinie für die Wahl. **Es geht um die Zeit, die du schon nicht benutzt.** Neu herausgeschnittene Zeit hält nicht. Gemeint ist die Zeit, die schon frei war und die du gefüllt hast — und die du aufhörst zu füllen.
 
 ## Übung 4: Sieben Minuten nichts tun
 
@@ -150,7 +150,7 @@ Es geht nicht um Disziplin; es geht um die Anordnung. **Was am selben Ort liegt,
 
 Nach drei Minuten willst du aufhören. Das passiert fast allen; mir passiert es an manchen Tagen noch.
 
-Hör auf, wenn du musst. Aber vorher **sieh einmal auf die Uhr.** Es sind meistens etwa zwei Minuten gewesen. **Langeweile ruiniert dein Gefühl für Dauer.** Wenn du das einmal gesehen hast, hältst du es nächstes Mal etwas länger aus.
+Du darfst aufhören, wenn du musst. Aber vorher lohnt **ein Blick auf die Uhr.** Es sind meistens etwa zwei Minuten gewesen. **Langeweile ruiniert dein Gefühl für Dauer.** Wenn du das einmal gesehen hast, hältst du es nächstes Mal etwas länger aus.
 
 **Ich schlafe ein.**
 
