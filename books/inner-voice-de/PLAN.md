@@ -72,6 +72,9 @@
 - [x] Kapitel 3 Im Körper unterscheiden
 - [x] Kapitel 4 Raum schaffen
 - [x] Kapitel 5 Schreiben, um zu hören
-- [ ] Kapitel 6〜7
-- [ ] Schluss / Anhang
-- [ ] 通しの推敲 / EPUB / 表紙 / KDP登録(`LISTING.md`)
+- [x] Kapitel 6 Klein entscheiden
+- [x] Kapitel 7 Die Tage, an denen du nichts hörst
+- [x] Schluss / Anhang
+- [x] 通しの推敲(命令形・禁止語・章ごとの語数比)/ EPUB / KDP登録シート(`LISTING.md`)
+- [ ] 表紙(三言語で同じデザイン、文字だけドイツ語に)
+- [ ] タイトルの重複確認(Amazon.de)/ KDP登録

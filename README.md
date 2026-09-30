@@ -75,7 +75,12 @@ python scripts/loop.py status                # Vaultの現在地
 python scripts/build_book.py inner-voice             # 章ごとの字数と進捗
 python scripts/build_book.py inner-voice --markdown  # 通しMarkdown
 python scripts/build_book.py inner-voice --epub      # KDPにアップロードするEPUB
+python scripts/build_book.py inner-voice --check     # 芯の一文が3か所で一致しているか
 ```
+
+同じ本の他言語版は言語ごとに別ディレクトリに置きます(翻訳ではなく書き直し。
+日本語版 `inner-voice` / 英語版 `inner-voice-en` / ドイツ語版 `inner-voice-de`)。
+日本語以外は字数ではなく語数で数えます。
 
 生成物は `books/<slug>/build/`(gitignore)に出ます。詳細は [`books/README.md`](books/README.md)。
 

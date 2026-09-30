@@ -33,8 +33,19 @@ python scripts/build_book.py inner-voice --check    # 芯の一文が3か所で�
 `core_claim` が指すVaultのclaimノート・ `vault/MEMORY.md` の3か所に同じ文で現れるかを見る。
 片方だけ書き換えると落ちる。`Vault Review` ワークフローが同じチェックを実行する。
 
+## 同じ本の他言語版
+
+言語ごとに別のディレクトリを持つ(KDPも言語ごとに別のタイトルとして登録する)。
+翻訳ではなく**書き直し**で、芯の一文・章構成・実践の番号だけを揃える
+(→ Vault `899744d0ff`)。
+
+```bash
+python scripts/build_book.py inner-voice-en --check   # 英語以外は語数で数える
+python books/inner-voice-de/check_style.py            # ドイツ語版の文体検査
+```
+
 ## 現在の作品
 
-- `inner-voice/` — 『いちばん小さい声』(内省ワーク型 / 4万字前後 / 執筆中)
+- `inner-voice/` — 『いちばん小さい声』(内省ワーク型 / 33,075字 / 原稿完成・表紙待ち)
 - `inner-voice-en/` — 『The Quietest Voice』(`inner-voice` の英語での書き直し / 執筆済み)
-- `inner-voice-de/` — 『Die leiseste Stimme』(`inner-voice` のドイツ語での書き直し / 執筆中)
+- `inner-voice-de/` — 『Die leiseste Stimme』(`inner-voice` のドイツ語での書き直し / 執筆済み)
