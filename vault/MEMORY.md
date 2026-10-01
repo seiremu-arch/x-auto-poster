@@ -23,6 +23,8 @@
   (中立スペイン語 → `cb294d65c0`。読者の性を決めない → `0045c354b1`、著者の性は著者が決める → `dba7c10f3f`)。
   イタリア語版 `La voce più bassa` の芯は
   「La tua voce più bassa non parlerà mai più forte. Non resta che abbassare il tuo volume」
+  オランダ語版 `De zachtste stem` の芯は
+  「Je zachtste stem wordt nooit luider. Er zit niets anders op dan zelf stiller te worden」
 
 ## 運用ルール
 

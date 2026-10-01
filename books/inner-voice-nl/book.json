@@ -1,0 +1,23 @@
+{
+  "slug": "inner-voice-nl",
+  "title": "De zachtste stem",
+  "subtitle": "Zeven oefeningen om je eigen stem te onderscheiden van het lawaai in je hoofd",
+  "author": "Kazu A. Suzuki",
+  "language": "nl",
+  "identifier": "urn:uuid:9fe007a4-1dc0-4c43-ba60-0f5dfb3f1357",
+  "core_sentence": "Je zachtste stem wordt nooit luider. Er zit niets anders op dan zelf stiller te worden",
+  "core_claim": "899744d0ff",
+  "target_words": 15000,
+  "chapters": [
+    "00-prologue.md",
+    "01-how-many-voices.md",
+    "02-speed.md",
+    "03-body.md",
+    "04-margin.md",
+    "05-questions.md",
+    "06-small-decisions.md",
+    "07-silent-days.md",
+    "08-epilogue.md",
+    "09-appendix.md"
+  ]
+}
