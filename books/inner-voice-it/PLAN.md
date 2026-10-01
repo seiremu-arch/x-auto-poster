@@ -62,6 +62,8 @@ claim `dd52672aca` は「次の言語でも、章ごとの分量のずれは第5
 - [x] 企画・構成
 - [x] Prologo
 - [x] Capitolo 1 Quante voci stanno parlando
-- [ ] Capitoli 2〜7
+- [x] Capitolo 2 Distinguere dalla velocità
+- [x] Capitolo 3 Distinguere nel corpo
+- [ ] Capitoli 4〜7
 - [ ] Chiusura / Appendice
 - [ ] 通しの推敲 / EPUB / 表紙 / KDP登録(`LISTING.md`)

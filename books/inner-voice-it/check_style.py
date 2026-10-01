@@ -35,18 +35,24 @@ BANNED = re.compile(
 )
 BANNED_ALLOWED = "né universo né vibrazioni"
 
-_GENDERED = (r"(\w+(ato|ata|ati|ate|ito|ita|iti|ite|uto|uta|uti|ute|oso|osa)|solo|sola|sicuro|sicura|"
+# 著者(io)と読者(tu)は単数なので、単数の形だけを見る。「sono cambiate le condizioni」のように
+# 三人称複数の sono に複数の分詞が続くものは当てない
+_GENDERED = (r"(\w+(ato|ata|ito|ita|uto|uta|oso|osa)|solo|sola|sicuro|sicura|"
              r"stanco|stanca|pronto|pronta|contento|contenta|convinto|convinta|rimasto|rimasta|"
              r"preso|presa|messo|messa|chiuso|chiusa|sceso|scesa|morto|morta|fermo|ferma|"
              r"pesante\b(?!x)|leggero|leggera|calmo|calma|tranquillo|tranquilla|obbligato|obbligata)")
 GENDER = re.compile(
-    r"\b(sono|ero|fui|sarò|sarei|mi sono|mi ero|mi sento|mi sentivo|mi sentii|resto|rimango|"
+    r"(?<!ci )\b(sono|ero|fui|sarò|sarei|mi sono|mi ero|mi sento|mi sentivo|mi sentii|resto|rimango|"
     r"sei|eri|sarai|saresti|ti sei|ti eri|ti senti|ti sentivi|resti|rimani)\s+"
     r"((molto|così|più|un po'|troppo|abbastanza|già|appena|mai|anche|ancora|sempre|davvero|proprio)\s+){0,2}"
     + _GENDERED.replace(r"pesante\b(?!x)|", "") + r"\b"
     + r"|\bda (solo|sola)\b",
     re.IGNORECASE,
 )
+
+
+# 書きながら言い直した跡(「… no:」「… meglio:」)。性の一致を避けようとして本文に残したことがある
+DRAFT = re.compile(r"…\s*(no|meglio|anzi|diciamo così|cioè)\s*:", re.IGNORECASE)
 
 
 def is_step_or_quote(line):
@@ -60,6 +66,8 @@ def check():
             line = raw.strip()
             if not line:
                 continue
+            if DRAFT.search(line):
+                findings.append((path.name, number, "言い直しの跡", line[:78]))
             if GENDER.search(line):  # 引用ブロックのノートも著者自身の言葉なので対象
                 findings.append((path.name, number, "性の一致", line[:78]))
             if is_step_or_quote(line):
