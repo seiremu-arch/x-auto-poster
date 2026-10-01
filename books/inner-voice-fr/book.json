@@ -19,5 +19,11 @@
     "07-silent-days.md",
     "08-epilogue.md",
     "09-appendix.md"
-  ]
+  ],
+  "cover": {
+    "title_lines": [
+      "La voix",
+      "la plus basse"
+    ]
+  }
 }

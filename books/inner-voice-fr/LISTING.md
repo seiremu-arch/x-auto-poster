@@ -140,7 +140,13 @@ python scripts/build_book.py inner-voice-fr --epub
 
 ### Couverture
 
-四言語で同じ仕様、文字だけフランス語にする(2560 × 1600 px、RGB、要素3つ、
+```bash
+python scripts/build_cover.py inner-voice-fr
+# → books/inner-voice-fr/build/inner-voice-fr-cover.jpg(幅1600 × 高さ2560、JPEG)
+```
+
+
+四言語で同じ仕様、文字だけフランス語にする(幅1600 × 高さ2560 px(縦長)、RGB、要素3つ、
 余白を大きく、細いセリフ体、光の粒子や後光は使わない)。
 **四言語でデザインを変えない。** サブタイトルが長いので、サムネイルでは**タイトルだけ読めれば可**。
 

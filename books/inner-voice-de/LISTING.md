@@ -137,7 +137,13 @@ python scripts/build_book.py inner-voice-de --epub
 
 ### Cover
 
-日本語版・英語版と同じ仕様で、文字だけドイツ語にする(2560 × 1600 px、RGB、要素3つ、
+```bash
+python scripts/build_cover.py inner-voice-de
+# → books/inner-voice-de/build/inner-voice-de-cover.jpg(幅1600 × 高さ2560、JPEG)
+```
+
+
+日本語版・英語版と同じ仕様で、文字だけドイツ語にする(幅1600 × 高さ2560 px(縦長)、RGB、要素3つ、
 余白を大きく、細いセリフ体、光の粒子や後光は使わない)。
 **三言語でデザインを変えない。** 同じ著者の同じ本だと分かる形にする。
 

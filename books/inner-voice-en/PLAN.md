@@ -66,5 +66,5 @@
 - [x] 巻末(実践一覧・免責・あとがき)
 - [x] 通しの推敲(禁止語・絶対表現・章ごとの語数比・40語超えの文)
 - [x] EPUB(`--epub`)/ KDP登録シート(`LISTING.md`)
-- [ ] 表紙(日本語版と同じ仕様で英文に)
+- [x] 表紙(日本語版と同じ仕様で英文に)(`python scripts/build_cover.py inner-voice-en`)
 - [ ] タイトルの重複確認(Amazon.com)/ KDP登録

@@ -73,5 +73,5 @@
 - [x] Capítulo 7 Los días en que no oyes nada
 - [x] Cierre / Apéndice
 - [x] 通しの推敲(五つの検査・章ごとの語数比)/ EPUB / KDP登録シート(`LISTING.md`)
-- [ ] 表紙(五言語で同じデザイン、文字だけスペイン語に)
+- [x] 表紙(五言語で同じデザイン、文字だけスペイン語に)(`python scripts/build_cover.py inner-voice-es`)
 - [ ] タイトルの重複確認(Amazon.es / .com.mx / .com)/ KDP登録

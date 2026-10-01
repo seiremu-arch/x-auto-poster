@@ -76,5 +76,5 @@
 - [x] Kapitel 7 Die Tage, an denen du nichts hörst
 - [x] Schluss / Anhang
 - [x] 通しの推敲(命令形・禁止語・章ごとの語数比)/ EPUB / KDP登録シート(`LISTING.md`)
-- [ ] 表紙(三言語で同じデザイン、文字だけドイツ語に)
+- [x] 表紙(三言語で同じデザイン、文字だけドイツ語に)(`python scripts/build_cover.py inner-voice-de`)
 - [ ] タイトルの重複確認(Amazon.de)/ KDP登録

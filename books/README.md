@@ -33,6 +33,19 @@ python scripts/build_book.py inner-voice --check    # 芯の一文が3か所で�
 `core_claim` が指すVaultのclaimノート・ `vault/MEMORY.md` の3か所に同じ文で現れるかを見る。
 片方だけ書き換えると落ちる。`Vault Review` ワークフローが同じチェックを実行する。
 
+## 表紙
+
+文字だけで組む(画像生成はしない)。五言語で同じデザインにして、文字だけ差し替える。
+
+```bash
+pip install pillow                                  # 初回だけ
+python scripts/build_cover.py --fetch-fonts         # 初回だけ。npm から Noto Serif / Noto Serif JP(OFL-1.1)
+python scripts/build_cover.py --all --sheet /tmp/sheet.png   # 全言語 + 縦200pxの縮小版を並べた確認用
+```
+
+フォントはリポジトリに入れず `books/.fonts/`(gitignore)に置く。タイトルの改行が不自然なときは
+`book.json` の `cover.title_lines` で固定する(フランス語版は「La voix / la plus basse」に固定している)。
+
 ## 同じ本の他言語版
 
 言語ごとに別のディレクトリを持つ(KDPも言語ごとに別のタイトルとして登録する)。

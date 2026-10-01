@@ -144,7 +144,12 @@ python scripts/build_book.py inner-voice --epub
 
 ### 表紙
 
-`PLAN.md` の仕様どおりに作ったJPEGをアップロードする(2560 × 1600 px、RGB)。
+```bash
+python scripts/build_cover.py inner-voice
+# → books/inner-voice/build/inner-voice-cover.jpg(幅1600 × 高さ2560、JPEG)
+```
+
+`PLAN.md` の仕様どおりに作ったJPEGをアップロードする(幅1600 × 高さ2560 px(縦長)、RGB)。
 KDPの表紙作成ツールを使う場合も、仕様の「使わない意匠」は守る。
 
 ### ISBN

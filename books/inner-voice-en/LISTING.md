@@ -144,7 +144,13 @@ python scripts/build_book.py inner-voice-en --epub
 
 ### Cover
 
-日本語版と同じ仕様で、文字だけ英語にする(2560 × 1600 px、RGB、要素3つ、
+```bash
+python scripts/build_cover.py inner-voice-en
+# → books/inner-voice-en/build/inner-voice-en-cover.jpg(幅1600 × 高さ2560、JPEG)
+```
+
+
+日本語版と同じ仕様で、文字だけ英語にする(幅1600 × 高さ2560 px(縦長)、RGB、要素3つ、
 余白を大きく、細いセリフ体、光の粒子や後光は使わない)。
 **日本語版と別のデザインにしない。** 同じ著者の同じ本だと分かる形にする。
 

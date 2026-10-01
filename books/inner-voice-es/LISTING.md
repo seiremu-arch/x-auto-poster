@@ -139,7 +139,13 @@ python scripts/build_book.py inner-voice-es --epub
 
 ### Portada
 
-五言語で同じ仕様、文字だけスペイン語にする(2560 × 1600 px、RGB、要素3つ、
+```bash
+python scripts/build_cover.py inner-voice-es
+# → books/inner-voice-es/build/inner-voice-es-cover.jpg(幅1600 × 高さ2560、JPEG)
+```
+
+
+五言語で同じ仕様、文字だけスペイン語にする(幅1600 × 高さ2560 px(縦長)、RGB、要素3つ、
 余白を大きく、細いセリフ体、光の粒子や後光は使わない)。
 サブタイトルが長いので、サムネイルでは**タイトルだけ読めれば可**。
 
