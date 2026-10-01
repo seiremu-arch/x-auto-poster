@@ -62,7 +62,8 @@ claim `dd52672aca` の予測(第5章がプラス、第7章がマイナス)を、
 - [x] Hoofdstuk 1 Hoeveel stemmen er praten
 - [x] Hoofdstuk 2 Onderscheiden aan de snelheid
 - [x] Hoofdstuk 3 Onderscheiden in je lichaam
-- [ ] Hoofdstukken 4〜7
+- [x] Hoofdstuk 4 Ruimte maken
+- [ ] Hoofdstukken 5〜7
 - [ ] Slot / Bijlage
 - [ ] 検査 / EPUB / 表紙 / 登録シート(`LISTING.md`)
 - [ ] 章をまたいだ通しの推敲
