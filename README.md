@@ -80,7 +80,7 @@ python scripts/build_book.py inner-voice --check     # 芯の一文が3か所で
 
 同じ本の他言語版は言語ごとに別ディレクトリに置きます(翻訳ではなく書き直し。
 日本語版 `inner-voice` / 英語版 `inner-voice-en` / ドイツ語版 `inner-voice-de` /
-フランス語版 `inner-voice-fr` / スペイン語版 `inner-voice-es`)。
+フランス語版 `inner-voice-fr` / スペイン語版 `inner-voice-es` / イタリア語版 `inner-voice-it`)。
 日本語以外は字数ではなく語数で数えます。
 
 生成物は `books/<slug>/build/`(gitignore)に出ます。詳細は [`books/README.md`](books/README.md)。

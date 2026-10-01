@@ -67,6 +67,8 @@ claim `dd52672aca` は「次の言語でも、章ごとの分量のずれは第5
 - [x] Capitolo 4 Fare spazio
 - [x] Capitolo 5 Scrivere per ascoltare
 - [x] Capitolo 6 Decidere in piccolo
-- [ ] Capitolo 7
-- [ ] Chiusura / Appendice
-- [ ] 通しの推敲 / EPUB / 表紙 / KDP登録(`LISTING.md`)
+- [x] Capitolo 7 I giorni in cui non senti niente
+- [x] Chiusura / Appendice(全10章 14,653 words、目安の102%)
+- [x] 検査 `check_style.py` 0件 / EPUB / 表紙 / 登録シート(`LISTING.md`)
+- [ ] 章をまたいだ通しの推敲(章ごとの検査と読み返しはした。全体を一度に読む推敲はまだ)
+- [ ] KDP登録(手作業。DRM と KDP Select は要判断)
