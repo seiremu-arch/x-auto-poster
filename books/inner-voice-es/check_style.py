@@ -29,7 +29,7 @@ VERBS = (
     "Abre|Usa|Lee|Relee|Coloca|Programa|Aleja|Responde|Pregunta|Decide|Recuerda|Olvida|Piensa|"
     "Intenta|Cambia|Inventa|Quita|Apaga|Detente|Respira|Fíjate|Observa|Vuelve"
 )
-IMPERATIVE = re.compile(rf"(?:^|(?<=[.!?:»] ))\*{{0,2}}({VERBS})\b")
+IMPERATIVE = re.compile(rf"(?:^|(?<=[.!?:»] )|(?<=[.!?:]\*\* ))\*{{0,2}}({VERBS})\b")
 CONDITIONAL = re.compile(rf"^\*{{0,2}}({VERBS})\b[^.!?]{{0,90}}, (y|entonces)\b")
 
 BANNED = re.compile(

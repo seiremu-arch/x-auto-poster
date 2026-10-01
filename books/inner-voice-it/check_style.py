@@ -24,7 +24,7 @@ VERBS = (
     "Leggi|Rileggi|Imposta|Allontana|Rispondi|Chiedi|Decidi|Ricorda|Dimentica|Pensa|Smetti|"
     "Inventa|Togli|Spegni|Fermati|Respira|Osserva|Rimetti|Annota|Fai|Di'"
 )
-IMPERATIVE = re.compile(rf"(?:^|(?<=[.!?:»] ))\*{{0,2}}({VERBS})(?![\w'])")
+IMPERATIVE = re.compile(rf"(?:^|(?<=[.!?:»] )|(?<=[.!?:]\*\* ))\*{{0,2}}({VERBS})(?![\w'])")
 CONDITIONAL = re.compile(rf"^\*{{0,2}}({VERBS})(?![\w'])[^.!?]{{0,90}}, (e|poi)\b")
 ITALIC = re.compile(r"(?<!\*)\*(?!\*)[^*]+\*(?!\*)")
 

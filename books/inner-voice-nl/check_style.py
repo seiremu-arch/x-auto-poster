@@ -33,7 +33,8 @@ SUBJECT = r"(jij|u|ik|we|wij|hij|zij)\b"
 # 「je」も付けない: 「Lees je klachten niet」の je は所有格で、これは命令形。
 # 主語の je で倒置した「Schrijf je het op, dan …」は CONDITIONAL、「Kijk je even?」は疑問文の扱いで外れる。
 # 文頭(行頭 / 文末記号のあと)に来る語幹。後ろに主語が来たら倒置なので除く。
-IMPERATIVE = re.compile(rf"(?:^|(?<=[.!?:] ))\*{{0,2}}({VERBS})\b(?! {SUBJECT})(?!\?)")
+# 「**Ten tweede: …** Denk aan …」のように、太字の閉じのあとに来る文頭も見る
+IMPERATIVE = re.compile(rf"(?:^|(?<=[.!?:] )|(?<=[.!?:]\*\* ))\*{{0,2}}({VERBS})\b(?! {SUBJECT})(?!\?)")
 # 「命令形 ..., en/dan ...」= 条件の言い方。命令ではないので許す。
 CONDITIONAL = re.compile(rf"^\*{{0,2}}({VERBS})\b[^.!?]{{0,90}}, (en|dan)\b")
 ITALIC = re.compile(r"(?<!\*)\*[^*]+\*(?!\*)")   # 斜体は頭の中の声の台詞。命令形でも著者の指示ではない

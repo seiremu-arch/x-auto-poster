@@ -25,7 +25,7 @@ NBSP = " "
 
 # vous の命令形。-ez で終わる語を文頭で拾い、不規則形を足す。副詞などの -ez は除く。
 NOT_VERBS = {"Chez", "Assez", "Nez"}
-IMPERATIVE = re.compile(r"(?:^|(?<=[.!?:»] ))\*{0,2}([A-ZÉÈÀ][a-zéèêëàâîïôûùç]+ez|Dites|Faites|Soyez|Ayez|Sachez)\b")
+IMPERATIVE = re.compile(r"(?:^|(?<=[.!?:»] )|(?<=[.!?:]\*\* ))\*{0,2}([A-ZÉÈÀ][a-zéèêëàâîïôûùç]+ez|Dites|Faites|Soyez|Ayez|Sachez)\b")
 CONDITIONAL = re.compile(r"^\*{0,2}\S+[^.!?]{0,90}, (et|puis)\b")
 
 BANNED = re.compile(

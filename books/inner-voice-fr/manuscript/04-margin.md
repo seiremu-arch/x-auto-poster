@@ -22,7 +22,7 @@ Je ne la recommanderai pas dans ce livre, pour deux raisons.
 
 **D'abord, cela coûte cher.** Le travail passe par là. L'agenda de votre famille aussi. Couper demande de la préparation, et des explications aux autres. Ce qui demande de la préparation ne dure pas. La règle de ce livre, c'est de commencer à peu de frais.
 
-**Ensuite, cela double au retour.** Pensez au quatrième jour, après trois jours sans. J'ai lu comme si je devais rattraper quelque chose. Et pendant ces trois jours, une voix tournait en fond, sans arrêt : *qu'est-ce qui se passe, là, en ce moment.* Ce n'est pas du silence.
+**Ensuite, cela double au retour.** Il suffit de penser au quatrième jour, après trois jours sans. J'ai lu comme si je devais rattraper quelque chose. Et pendant ces trois jours, une voix tournait en fond, sans arrêt : *qu'est-ce qui se passe, là, en ce moment.* Ce n'est pas du silence.
 
 Ce n'est donc pas une question de quantité. C'est une question de **disposition.**
 

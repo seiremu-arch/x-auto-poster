@@ -148,7 +148,7 @@ Wenn „ich mache A" und „ich mache B" beide zusammenziehen, gibt es meistens 
 
 Familie im Nebenzimmer, dünne Wände, der Wunsch, es bei der Arbeit zu machen. Das kommt oft.
 
-Dann **bewegst du nur den Mund, ohne Ton.** Form die Worte mit Lippen und Zunge und ohne Stimme dahinter. Es wirkt schlechter als Sprechen, aber deutlich besser als im Kopf — denn ein Gedanke wird auf halbem Weg unterbrochen, und ein Mund in Bewegung muss den Satz zu Ende bringen.
+Dann **bewegst du nur den Mund, ohne Ton.** Die Worte entstehen mit Lippen und Zunge, ohne Stimme dahinter. Es wirkt schlechter als Sprechen, aber deutlich besser als im Kopf — denn ein Gedanke wird auf halbem Weg unterbrochen, und ein Mund in Bewegung muss den Satz zu Ende bringen.
 
 Ein Bad geht. Ein parkendes Auto geht. Der Weg nach Hause allein geht. Ich benutze die zwölf Minuten vom Bahnhof an den meisten Tagen.
 

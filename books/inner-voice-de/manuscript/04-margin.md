@@ -22,7 +22,7 @@ Das werde ich in diesem Buch nicht empfehlen, aus zwei Gründen.
 
 **Erstens: es ist teuer.** Die Arbeit läuft darüber. Die Termine deiner Familie auch. Es abzuschneiden braucht Vorbereitung, und es braucht Erklärungen gegenüber anderen. Was Vorbereitung braucht, hält nicht. Die Regel in diesem Buch ist, billig anzufangen.
 
-**Zweitens: es verdoppelt sich, wenn du zurückkommst.** Denk an den vierten Tag, nach drei Tagen weg. Ich habe gelesen, als hätte ich etwas aufzuholen. Und während dieser drei Tage lief die ganze Zeit eine Stimme im Hintergrund: *was passiert da draußen gerade.* Das ist nicht leise.
+**Zweitens: es verdoppelt sich, wenn du zurückkommst.** Es geht um den vierten Tag, nach drei Tagen weg. Ich habe gelesen, als hätte ich etwas aufzuholen. Und während dieser drei Tage lief die ganze Zeit eine Stimme im Hintergrund: *was passiert da draußen gerade.* Das ist nicht leise.
 
 Es ist also kein Gespräch über die Menge. Es ist eines über **die Anordnung.**
 

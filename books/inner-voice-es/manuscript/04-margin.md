@@ -22,7 +22,7 @@ No lo voy a recomendar en este libro, por dos razones.
 
 **Primero: sale caro.** El trabajo pasa por ahí. La agenda de tu familia también. Cortarlo exige preparación y explicaciones a los demás. Lo que exige preparación no dura. La regla de este libro es empezar barato.
 
-**Segundo: se duplica al volver.** Piensa en el cuarto día, después de tres días sin. Leí como quien tiene algo que recuperar. Y durante esos tres días, en el fondo sonaba una voz sin parar: *¿qué estará pasando ahora mismo?* Eso no es silencio.
+**Segundo: se duplica al volver.** Basta pensar en el cuarto día, después de tres días sin. Leí como quien tiene algo que recuperar. Y durante esos tres días, en el fondo sonaba una voz sin parar: *¿qué estará pasando ahora mismo?* Eso no es silencio.
 
 Así que no es una cuestión de cantidad. Es una cuestión de **disposición.**
 
@@ -168,7 +168,7 @@ Fallé tres veces con «todos los días», y se sostuvo cuando pasé a «miérco
 
 Siete minutos a solas cuesta cuando hay más gente. Entonces se ponen fuera: el camino de vuelta, ir y volver a la tienda de la esquina, el auto antes de entrar a casa.
 
-**El lugar no necesita estar en silencio.** Recuerda: silencio no es ausencia de ruido, sino ausencia de una entrada más. Aunque haya gente hablando, si nada va dirigido a ti, el asiento sigue libre.
+**El lugar no necesita estar en silencio.** Como ya se vio, silencio no es ausencia de ruido, sino ausencia de una entrada más. Aunque haya gente hablando, si nada va dirigido a ti, el asiento sigue libre.
 
 **Hice silencio y no vino nada.**
 

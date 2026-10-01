@@ -27,7 +27,7 @@ VERBS = (
     "Gib|Steh|Sitz|Atme|Wart|Ruf"
 )
 # 文頭(行頭 / 句点のあと)に来る命令形。`\b` が無いと「Zählen」「Sagen」を拾う。
-IMPERATIVE = re.compile(rf"(?:^|(?<=[.!?:] ))\*{{0,2}}({VERBS})e?\b")
+IMPERATIVE = re.compile(rf"(?:^|(?<=[.!?:] )|(?<=[.!?:]\*\* ))\*{{0,2}}({VERBS})e?\b")
 # 「命令形 ..., und/dann ...」= 条件の言い方。命令ではないので許す。
 CONDITIONAL = re.compile(rf"^\*{{0,2}}({VERBS})e?\b[^.!?]{{0,90}}, (und|dann)\b")
 
