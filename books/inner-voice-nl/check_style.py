@@ -9,7 +9,7 @@
 Amazon.nl はオランダとフランデレンの両方の読者が使うので、片方でしか通じない語を拾う
 (スペイン語版の中立化 `cb294d65c0` と同じ考え方)。
 
-性の一致の検査は無い。オランダ語は形容詞・分詞が人の性で変わらないので、検査するものが無い。
+性の一致の検査は無い。オランダ語は形容詞・分詞が人の性で変わらない。残るのは読者を\n「wie …, hij」で受ける総称の男性形だけなので、それを拾う。
 
     python books/inner-voice-nl/check_style.py
     python books/inner-voice-nl/check_style.py --quiet   # 件数だけ
@@ -28,7 +28,10 @@ VERBS = (
     "Sta|Zit|Adem|Bel|Noteer|Markeer|Omcirkel|Streep|Herhaal|Denk|Luister|Stop|Doe|Splits|Deel|"
     "Verdeel|Noem|Kopieer|Wees|Onthoud|Bedenk|Schrap|Draai|Loop|Wandel|Ga|Leg|Spreek|Stel|Begin"
 )
-SUBJECT = r"(je|jij|u|ik|we|wij|hij|zij)\b"   # 「ze」は付けない: 語幹+ze は目的語(Tel ze op)
+SUBJECT = r"(jij|u|ik|we|wij|hij|zij)\b"
+# 「ze」は付けない: 語幹+ze は目的語(Tel ze op)。
+# 「je」も付けない: 「Lees je klachten niet」の je は所有格で、これは命令形。
+# 主語の je で倒置した「Schrijf je het op, dan …」は CONDITIONAL、「Kijk je even?」は疑問文の扱いで外れる。
 # 文頭(行頭 / 文末記号のあと)に来る語幹。後ろに主語が来たら倒置なので除く。
 IMPERATIVE = re.compile(rf"(?:^|(?<=[.!?:] ))\*{{0,2}}({VERBS})\b(?! {SUBJECT})(?!\?)")
 # 「命令形 ..., en/dan ...」= 条件の言い方。命令ではないので許す。
@@ -49,6 +52,10 @@ REGIONAL = re.compile(
     re.IGNORECASE,
 )
 
+# 読者を「wie …」で受けて hij / zijn / hem で続ける総称の男性形(Vault `0045c354b1` のオランダ語での残り)
+# 「zijn」は動詞(〜である)と同形なので、所有格と分かる形だけ拾う
+GENERIC = re.compile(r"\bWie\b[^.!?]*\b(hij|hem|zijn (eigen|hele|leven|hoofd|lichaam))\b")
+
 # 書きながら言い直した跡(イタリア語版で四度残した。オランダ語でも最初から見る)
 DRAFT = re.compile(r"…\s*(nee|beter gezegd|of eigenlijk|laat ik zeggen|ik bedoel)\s*:", re.IGNORECASE)
 
@@ -68,6 +75,8 @@ def check():
                 findings.append((path.name, number, "引用符", line[:78]))
             elif line.count("“") != line.count("”"):
                 findings.append((path.name, number, "引用符の対", line[:78]))
+            if GENERIC.search(line):
+                findings.append((path.name, number, "総称の hij", line[:78]))
             if DRAFT.search(line):
                 findings.append((path.name, number, "言い直し", line[:78]))
             if is_step_or_quote(line):
@@ -97,7 +106,7 @@ def main(argv=None):
     if not args.quiet:
         for name, number, kind, text in findings:
             print(f"  {kind}  {name}:{number}  {text}")
-    print(f"{len(findings)} 件" if findings else "0 件 — 命令形・禁止語・地域語・引用符・言い直し、いずれも問題なし")
+    print(f"{len(findings)} 件" if findings else "0 件 — 命令形・禁止語・地域語・引用符・総称の hij・言い直し、いずれも問題なし")
     return 1 if findings else 0
 
 

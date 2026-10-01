@@ -38,6 +38,10 @@ Het Nederlands verbuigt bijvoeglijke naamwoorden niet naar het geslacht van een 
 niet “een twijfelaar”, “een beginner” of iets met `-ster`. Personages (de vriendin uit hoofdstuk 1)
 hebben wel een geslacht. → Vault `0045c354b1`(読者)/ `dba7c10f3f`(著者)。
 
+Wat er voor de lezer wel overblijft: de algemene `wie …, hij` (“Wie alleen op het lichaam beslist,
+ontloopt zijn hele leven…”). Die vorm maakt de lezer stilzwijgend mannelijk. Liever: `wie …` zonder
+voornaamwoord erachter, of `je`. `check_style.py` vangt `wie … hij / hem / zijn eigen|hele…`.
+
 ## Woorden die er niet in staan
 
 > universum / trilling(en) / manifesteren / wet van aantrekking / hoger zelf / je ware zelf /
