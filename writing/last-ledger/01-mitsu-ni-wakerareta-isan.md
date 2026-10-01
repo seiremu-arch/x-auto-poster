@@ -1135,3 +1135,14 @@ KDPの入力内容は `book/KDP-Deutsch.md`、方針と対訳表は `TRANSLATION
 両方を直し、日本語版と英語版のEPUBも作り直した。一覧は `TRANSLATION-de.md` の末尾。
 いちばん大きいのは、稟議を否決した月が第5章（5月）と第15章（6月）で食い違っていたこと。
 5月にそろえた。
+
+## 追記 2026-10-01（フランス語版を仕上げた）
+
+フランス語版 *Le Dernier Livre de comptes : Un héritage en trois parts* を全29単位訳した（約40,000語）。
+底本は日本語原文（ドイツ語版のときに直した4か所を含む最新版）。
+`fr_typo.py` でフランス語の組版規則（« » と `: ? ! ;` の前の改行なしスペース）を当ててから、
+`build_epub.py --french` で `book/Le_Dernier_Livre_de_comptes_1_Un_heritage_en_trois_parts.epub` を組む。
+KDPの入力内容は `book/KDP-Francais.md`、方針と対訳表は `TRANSLATION-fr.md`。
+
+遺留分は *réserve héréditaire*、任意同行は *audition libre*、公正証書遺言は *testament authentique*。
+三つともフランス法に同じ名前の制度があるので、説明なしで通じる。
