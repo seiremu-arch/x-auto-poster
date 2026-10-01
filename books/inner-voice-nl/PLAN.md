@@ -66,7 +66,7 @@ claim `dd52672aca` の予測(第5章がプラス、第7章がマイナス)を、
 - [x] Hoofdstuk 5 Schrijven om te luisteren
 - [x] Hoofdstuk 6 Klein beslissen
 - [x] Hoofdstuk 7 De dagen dat je niets hoort
-- [ ] Slot / Bijlage
-- [ ] 検査 / EPUB / 表紙 / 登録シート(`LISTING.md`)
+- [x] Slot / Bijlage(全10章 15,230 words、目安の102%)
+- [x] 検査 `check_style.py` 0件 / EPUB / 表紙 / 登録シート(`LISTING.md`)
 - [ ] 章をまたいだ通しの推敲
 - [ ] KDP登録(手作業。DRM と KDP Select は要判断)

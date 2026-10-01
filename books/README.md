@@ -69,4 +69,4 @@ python books/inner-voice-nl/check_style.py            # オランダ語版の文
 - `inner-voice-fr/` — 『La voix la plus basse』(`inner-voice` のフランス語での書き直し / 執筆済み)
 - `inner-voice-es/` — 『La voz más baja』(`inner-voice` のスペイン語での書き直し / 執筆済み)
 - `inner-voice-it/` — 『La voce più bassa』(`inner-voice` のイタリア語での書き直し / 執筆済み)
-- `inner-voice-nl/` — 『De zachtste stem』(`inner-voice` のオランダ語での書き直し / 執筆中)
+- `inner-voice-nl/` — 『De zachtste stem』(`inner-voice` のオランダ語での書き直し / 執筆済み)
