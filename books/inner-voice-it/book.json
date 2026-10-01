@@ -1,0 +1,23 @@
+{
+  "slug": "inner-voice-it",
+  "title": "La voce più bassa",
+  "subtitle": "Sette esercizi per distinguere la tua voce dal rumore nella tua testa",
+  "author": "Kazu A. Suzuki",
+  "language": "it",
+  "identifier": "urn:uuid:7a3e1c95-4d28-4b6f-a0e7-2c8f19d64b31",
+  "core_sentence": "La tua voce più bassa non parlerà mai più forte. Non resta che abbassare il tuo volume",
+  "core_claim": "899744d0ff",
+  "target_words": 14400,
+  "chapters": [
+    "00-prologue.md",
+    "01-how-many-voices.md",
+    "02-speed.md",
+    "03-body.md",
+    "04-margin.md",
+    "05-questions.md",
+    "06-small-decisions.md",
+    "07-silent-days.md",
+    "08-epilogue.md",
+    "09-appendix.md"
+  ]
+}

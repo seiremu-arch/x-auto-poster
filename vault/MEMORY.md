@@ -20,7 +20,9 @@
   (vous で書く → `e778004e3b`)。
   スペイン語版 `La voz más baja` の芯は
   「Tu voz más baja nunca hablará más fuerte. Solo queda bajar tu propio volumen」
-  (中立スペイン語 → `cb294d65c0`。読者の性を決めない → `0045c354b1`、著者の性は著者が決める → `dba7c10f3f`)
+  (中立スペイン語 → `cb294d65c0`。読者の性を決めない → `0045c354b1`、著者の性は著者が決める → `dba7c10f3f`)。
+  イタリア語版 `La voce più bassa` の芯は
+  「La tua voce più bassa non parlerà mai più forte. Non resta che abbassare il tuo volume」
 
 ## 運用ルール
 

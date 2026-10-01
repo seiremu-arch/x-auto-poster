@@ -66,3 +66,4 @@ python books/inner-voice-es/check_style.py            # スペイン語版の文
 - `inner-voice-de/` — 『Die leiseste Stimme』(`inner-voice` のドイツ語での書き直し / 執筆済み)
 - `inner-voice-fr/` — 『La voix la plus basse』(`inner-voice` のフランス語での書き直し / 執筆済み)
 - `inner-voice-es/` — 『La voz más baja』(`inner-voice` のスペイン語での書き直し / 執筆済み)
+- `inner-voice-it/` — 『La voce più bassa』(`inner-voice` のイタリア語での書き直し / 執筆中)
