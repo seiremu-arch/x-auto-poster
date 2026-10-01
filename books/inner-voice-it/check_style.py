@@ -41,13 +41,13 @@ _GENDERED = (r"(\w+(ato|ata|ito|ita|uto|uta|oso|osa)|solo|sola|sicuro|sicura|"
              r"stanco|stanca|pronto|pronta|contento|contenta|convinto|convinta|rimasto|rimasta|"
              r"preso|presa|messo|messa|chiuso|chiusa|sceso|scesa|morto|morta|fermo|ferma|"
              r"pesante\b(?!x)|leggero|leggera|calmo|calma|tranquillo|tranquilla|obbligato|obbligata|"
-             r"fatto|fatta|zitto|zitta)")
+             r"fatto|fatta|zitto|zitta|accorto|accorta|perso|persa)")
 GENDER = re.compile(
     r"(?<!ci )\b(sono|ero|fui|sarò|sarei|mi sono|mi ero|mi sento|mi sentivo|mi sentii|resto|rimango|"
     r"sei|eri|sarai|saresti|ti sei|ti eri|ti senti|ti sentivi|resti|rimani|di essere|sto|stai|stavo|stavi)\s+"
     r"((molto|così|più|un po'|troppo|abbastanza|già|appena|mai|anche|ancora|sempre|davvero|proprio)\s+){0,2}"
     + _GENDERED.replace(r"pesante\b(?!x)|", "") + r"\b"
-    + r"|\bda (solo|sola)\b|\b(me|te) (stesso|stessa)\b",
+    + r"|\bda (solo|sola)\b|\b(me|te) (stesso|stessa)\b|\b(me|te) ne (fossi|sono|ero|sei|eri) (già |mai )?(\w+(ato|ata|ito|ita|uto|uta)|accort[oa])\b",
     re.IGNORECASE,
 )
 

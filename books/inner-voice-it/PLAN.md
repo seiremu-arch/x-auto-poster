@@ -66,6 +66,7 @@ claim `dd52672aca` は「次の言語でも、章ごとの分量のずれは第5
 - [x] Capitolo 3 Distinguere nel corpo
 - [x] Capitolo 4 Fare spazio
 - [x] Capitolo 5 Scrivere per ascoltare
-- [ ] Capitoli 6〜7
+- [x] Capitolo 6 Decidere in piccolo
+- [ ] Capitolo 7
 - [ ] Chiusura / Appendice
 - [ ] 通しの推敲 / EPUB / 表紙 / KDP登録(`LISTING.md`)
