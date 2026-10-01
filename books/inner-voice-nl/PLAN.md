@@ -64,7 +64,8 @@ claim `dd52672aca` の予測(第5章がプラス、第7章がマイナス)を、
 - [x] Hoofdstuk 3 Onderscheiden in je lichaam
 - [x] Hoofdstuk 4 Ruimte maken
 - [x] Hoofdstuk 5 Schrijven om te luisteren
-- [ ] Hoofdstukken 6〜7
+- [x] Hoofdstuk 6 Klein beslissen
+- [x] Hoofdstuk 7 De dagen dat je niets hoort
 - [ ] Slot / Bijlage
 - [ ] 検査 / EPUB / 表紙 / 登録シート(`LISTING.md`)
 - [ ] 章をまたいだ通しの推敲
