@@ -85,7 +85,7 @@ Hoofdstuk 5 ging over de tijd van een vraag. Een vraag over de toekomst laat de 
 
 En in “witte muur” zit geen goed of slecht. Zonder oordeel heeft de moet-stem geen kier om naar binnen te komen. **Een oefening waarvoor je jezelf onmogelijk een cijfer kunt geven**: dat is wat deze drie regels waard zijn.
 
-Van de zeven is het de enige die ook op vermoeide dagen werkt. Daarom is dit in de periodes waarin de andere zes onmogelijk zijn, de oefening die overblijft.
+Van de zeven is het de enige die ook op vermoeide dagen werkt. Daarom blijft deze over in de periodes waarin de andere zes onmogelijk zijn.
 
 ### Van tevoren vastleggen waar je terugkomt
 
@@ -93,7 +93,7 @@ Deze drie regels werken overal. En iets wat overal werkt, **gebeurt nergens.**
 
 Daarom helpt het om ze aan één plek te koppelen. Vastleggen: *als ik hier ben, drie regels.*
 
-De mijne is staan bij de deuren van de trein, op weg naar huis, aan de kant die opengaat. Als ik daar sta, beginnen de drie regels voordat ik erover nadenk. Zodra de plek vastligt, hoef je er niet meer aan te denken. Alles wat onthouden moet worden, valt als eerste weg van een drukke dag.
+Mijn plek is bij de deuren van de trein, op weg naar huis, aan de kant die opengaat. Als ik daar sta, beginnen de drie regels voordat ik erover nadenk. Zodra de plek vastligt, hoef je er niet meer aan te denken. Alles wat onthouden moet worden, valt als eerste weg van een drukke dag.
 
 Een paar plekken om ze aan te koppelen:
 
@@ -148,7 +148,7 @@ Eén ding kan wel. **De weg terug openhouden.** Het schrift niet weggooien. De d
 
 **Ik krijg het niet over mijn hart om het boek open te slaan.**
 
-Dat is goed. Dit boek doet soms ook dicht zijn werk.
+Dat geeft niet. Dit boek doet soms ook dicht zijn werk.
 
 Wat ik wil meegeven, is niet de inhoud van de hoofdstukken. Het is **de gewoonte om je af te vragen hoeveel er praten.** Die gewoonte blijft als het boek dicht is.
 
@@ -162,7 +162,7 @@ Als dat gebeurt, **stop je met alles.** Alleen oefening 7 blijft. Dertig seconde
 
 **Ik kom terug en er is niets.**
 
-Vaker wel dan niet is de plek waar je terugkomt stil en komt er niets. Zoals hoofdstuk 4 zei, gebeurt het bij mij één of twee keer op de tien.
+Meestal is de plek waar je terugkomt stil en komt er niets. Zoals hoofdstuk 4 zei, gebeurt het bij mij één of twee keer op de tien.
 
 Dat er niets komt, is geen mislukking. **Het resultaat is dat je terug bent.** Of er een stem komt, valt niet onder jouw beheer.
 

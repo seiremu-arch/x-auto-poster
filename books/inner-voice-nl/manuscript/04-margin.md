@@ -22,7 +22,7 @@ Dat raad ik in dit boek niet aan, om twee redenen.
 
 **Ten eerste: het is duur.** Je werk loopt via die telefoon. De afspraken van je familie ook. Afhaken vraagt voorbereiding en uitleg aan anderen. Wat voorbereiding vraagt, houdt geen stand. De regel van dit boek is klein beginnen.
 
-**Ten tweede: bij terugkomst komt alles dubbel terug.** Het gaat om de vierde dag, na drie dagen zonder. Ik las als iemand die iets moest inhalen. En die hele drie dagen hield er op de achtergrond één stem niet op: *wat zou er nu allemaal gebeuren?* Dat is geen stilte.
+**Ten tweede: bij terugkomst komt alles dubbel terug.** Dat merk je op de vierde dag, na drie dagen zonder. Ik las als iemand die iets moest inhalen. En die hele drie dagen hield er op de achtergrond één stem niet op: *wat zou er nu allemaal gebeuren?* Dat is geen stilte.
 
 Het is dus geen kwestie van hoeveelheid. Het is een kwestie van **indeling.**
 
@@ -54,7 +54,7 @@ Wat je zelf gaat bekijken (de app openen en lezen) en wat naar jou toe komt (een
 
 Het ergste aan een onderbreking is dat **de plek bezet wordt door het verwachten, niet door de inhoud.** Het werkt dus ook als er niets binnenkomt.
 
-Wat ik concreet deed, was niet alles uitzetten, maar **het aantal apps dat me mag waarschuwen terugbrengen tot drie.** Bellen, berichten van mijn familie, één kanaal van het werk. De rest lees ik als ik het open.
+Wat ik concreet deed, was niet alles uitzetten, maar **het aantal apps dat me meldingen mag sturen terugbrengen tot drie.** Bellen, berichten van mijn familie, één kanaal van het werk. De rest lees ik als ik het open.
 
 Het is werk voor één keer en het kost ongeveer vijf minuten. Misschien werkt het eerder dan de zeven minuten tussenruimte.
 
@@ -62,7 +62,7 @@ Het is werk voor één keer en het kost ongeveer vijf minuten. Misschien werkt h
 
 De opdracht is eenvoudig. Ergens in de dag **zeven minuten zonder nieuwe invoer.**
 
-De indeling telt meer dan wilskracht. Drie momenten die het bij mij volhielden:
+De indeling telt meer dan wilskracht. Drie momenten die bij mij standhielden:
 
 - **Een stuk van de weg naar huis** — het laatste stuk zonder oordopjes. Lopen geeft je iets te doen, dus het ongemak van niets doen weegt minder
 - **Na het douchen** — je handen zijn al vrij, er hoeft niets opgebouwd te worden
@@ -112,7 +112,7 @@ Vijf is niet genoeg, omdat **de eerste drie minuten meestal luid zijn.**
 
 De eerste keer merk je het al. Het luidste moment is vlak nadat de invoer stopt. Alles wat je vandaag nog moet doen, het onbeantwoorde bericht, wat je gisteren zei: het komt allemaal tegelijk. Wie bij vijf stopt, stopt midden in dat lawaai, en het enige wat je meeneemt is *dit is niets voor mij.*
 
-Tien geeft een uitvlucht. Tien minuten is een duur die je vandaag onmogelijk kunt verklaren. Zeven is moeilijker om over te onderhandelen.
+Tien geeft een uitvlucht. Tien minuten kun je op elke dag “vandaag niet haalbaar” noemen. Zeven is moeilijker om over te onderhandelen.
 
 **Dat de eerste drie minuten luid zijn, hoort bij de methode; het is geen mislukking.** Dat weten beslist bijna in zijn eentje of je doorgaat of niet.
 
@@ -156,7 +156,7 @@ Stoppen mag, als het moet. Maar eerst loont het **even op de klok te kijken.** B
 
 Dan slaap je. Als de slaap wint, was de stilte niet overbodig; dan was slaap nodig. Geen enkele oefening wint van vermoeidheid.
 
-Gebeurt het steeds, dan brengt het tijdstip waarop je naar bed gaat je verder dan deze oefening.
+Gebeurt het steeds, dan helpt het meer om naar je bedtijd te kijken dan naar deze oefening.
 
 **Ik hou het niet vol.**
 
@@ -166,7 +166,7 @@ Met “elke dag” ben ik drie keer mislukt, en met “woensdag en zondag” hie
 
 **Ik heb het huis nooit voor mezelf.**
 
-Zeven minuten zonder iemand zijn lastig als er andere mensen thuis zijn. Dan gaan ze naar buiten: de weg naar huis, heen en terug naar de winkel op de hoek, de auto voordat je naar binnen gaat.
+Zeven minuten zonder iemand is lastig als er andere mensen thuis zijn. Dan gaan ze naar buiten: de weg naar huis, heen en terug naar de winkel op de hoek, de auto voordat je naar binnen gaat.
 
 **De plek hoeft niet stil te zijn.** Stilte was, zoals we zagen, niet de afwezigheid van geluid maar de afwezigheid van nog meer invoer. Ook waar mensen praten blijft de plek vrij, zolang niets tot jou gericht is.
 

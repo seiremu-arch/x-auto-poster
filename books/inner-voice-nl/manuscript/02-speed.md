@@ -49,7 +49,7 @@ Toen ik mijn eigen aantekeningen naast elkaar legde, kwam de volgorde er ongevee
 3. **De geleende stem** — minuten tot uren. Komt nadat er een gezicht in je opkomt
 4. **De zachtste stem** — in de loop van de nacht. Soms dagen
 
-Op de tijden kun je niet vertrouwen. Ze verschillen per persoon, en per hoe moe je die dag bent. Wat bruikbaar is, is **de volgorde.**
+Op de tijden kun je niet vertrouwen. Ze verschillen per persoon, en met hoe moe je die dag bent. Wat bruikbaar is, is **de volgorde.**
 
 Waarom komt de zachtste stem als laatste? Volgens mij is het gewoon **een weg die je niet hebt platgelopen.**
 

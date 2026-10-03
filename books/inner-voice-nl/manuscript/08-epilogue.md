@@ -6,7 +6,7 @@ Het is een jaar geleden dat ik hieraan begon te schrijven.
 
 Eerlijk gezegd: ik ben geen rustig mens geworden.
 
-Als het licht uitgaat, begint het gepraat nog steeds. Ik denk nog steeds aan onbeantwoorde berichten, en iets wat ik tien jaar geleden verkeerd zei, komt nog steeds boven. De angstige stem komt in dezelfde hoeveelheid als een jaar geleden. Hij is niet minder geworden.
+Als het licht uitgaat, begint het gepraat nog steeds. Ik denk nog steeds aan onbeantwoorde berichten, en iets wat ik tien jaar geleden verkeerd zei, komt nog steeds boven. De angstige stem komt even vaak als een jaar geleden. Hij is niet minder geworden.
 
 Eén ding veranderde.
 
@@ -56,7 +56,7 @@ Ook **lot en betekenis** staan er niet in. Ik heb nergens geschreven dat deze st
 
 Van **talent** ben ik ook weggebleven. Als ik had geschreven alsof sommige mensen stil kunnen worden en anderen niet, hadden de mensen bij wie het niet lukt iets gekregen om zichzelf mee te verwijten. Voor zover ik kan zien, is dit geen aanleg. Het is herhaling.
 
-Sommige lezers zullen het boek mager vinden om wat er ontbreekt. Dat is goed. **Niet-controleerbare dingen niet als feit presenteren, was de enige belofte die ik heb gehouden.**
+Sommige lezers zullen het boek mager vinden om wat er ontbreekt. Dat is prima. **Niet-controleerbare dingen niet als feit presenteren, was de enige belofte die ik heb gehouden.**
 
 ## Hoe vaak, in een jaar
 

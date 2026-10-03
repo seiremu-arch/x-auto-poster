@@ -28,7 +28,7 @@ En onderaan de pagina stond één regel in een heel ander register.
 
 Kort. Zacht. Hij kwam één keer en kwam niet terug.
 
-## Er zit meer dan één persoon
+## Daarbinnen zit meer dan één persoon
 
 Wat ik die nacht leerde, is dat wat er in mijn hoofd praat niet één stem is.
 

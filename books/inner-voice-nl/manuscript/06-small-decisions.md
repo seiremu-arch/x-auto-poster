@@ -44,7 +44,7 @@ Als het tijd is om te beslissen, gebruik ik maar één scheidslijn.
 
 > Kan dit worden teruggedraaid?
 
-Niet groot of klein. Hoe ik met een beslissing omga, hangt af van of ze terug te draaien is.
+Niet groot of klein. Hoe ik met een beslissing omga, hangt ervan af of ze terug te draaien is.
 
 **Omkeerbare beslissingen: uitproberen zonder nadenken.**
 
@@ -64,7 +64,7 @@ Grote beslissingen blijken meestal **een ketting van kleine omkeerbare beslissin
 
 De scheidslijn bestaat, maar is niet altijd makkelijk te vinden. Drie ruwe toetsen die ik gebruik.
 
-**Eén: is er geld bewogen?** Een aanbetaling gedaan, annuleringskosten die ingaan, een aankoop gedaan. Als er geld beweegt, is het meestal niet terug te draaien. Wat ook betekent: zolang er geen geld beweegt, kan bijna alles nog.
+**Eén: is er al geld betaald?** Een aanbetaling gedaan, annuleringskosten die ingaan, een aankoop gedaan. Als er geld betaald is, is het meestal niet terug te draaien. Wat ook betekent: zolang er niets betaald is, kan bijna alles nog.
 
 **Twee: heb je het iemand verteld?** Dit is de sterkste toets. In je hoofd beslissen en het hardop zeggen zijn heel verschillende stadia, want op het moment dat je het zegt, beginnen de plannen en gevoelens van anderen te bewegen.
 
@@ -126,7 +126,7 @@ Stappen om te stoppen hebben nog een voordeel. **Je lichaam antwoordt meteen daa
 
 ### Hoe de aantekeningen eruitzagen
 
-Drie maanden van mezelf, overgeschreven.
+Drie maanden uit mijn eigen schrift, overgeschreven.
 
 > do. Tien vacatures gelezen. In mijn vakgebied is er nauwelijks iets
 > za. (niet gedaan. Schrijf ik op)
@@ -137,7 +137,7 @@ Drie maanden van mezelf, overgeschreven.
 
 Bij regel vijf is het antwoord op de oorspronkelijke vraag verschoven. Maar let op: ik heb niet *besloten.* **Wat er gebeurde, is dat bewegen de vraag veranderde.**
 
-De waarde van kleine bewegingen is niet dat er antwoorden verschijnen. Het is dat **de vraag nauwkeuriger wordt.** Drie maanden nadenken in je hoofd laten de vraag precies even groot.
+De waarde van kleine bewegingen is niet dat er antwoorden verschijnen. Het is dat **de vraag nauwkeuriger wordt.** Drie maanden nadenken in je hoofd laten de vraag precies zoals ze was.
 
 ## Wordt snijden een manier om iets te ontlopen?
 
@@ -165,7 +165,7 @@ De wekker tien minuten eerder zetten betekent niets. Maar iemand die dacht in dr
 
 Je koos een omkeerbare stap, dus die draai je terug. Je staat weer waar je begon.
 
-Mislukken telt minder dan **het hebben kunnen uitproberen binnen een omkeerbaar bereik.** Met een onomkeerbare beslissing was het een heel ander verhaal geweest.
+Mislukken telt minder dan **dat je het binnen een omkeerbaar bereik hebt kunnen uitproberen.** Met een onomkeerbare beslissing was het een heel ander verhaal geweest.
 
 **Ik zette één stap en toen niets meer.**
 

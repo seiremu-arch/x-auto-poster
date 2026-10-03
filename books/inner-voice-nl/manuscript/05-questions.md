@@ -1,6 +1,6 @@
 # Hoofdstuk 5: Schrijven om te luisteren
 
-## Ik schreef “wat moet ik doen” en zat er tien minuten
+## Ik schreef “wat moet ik doen” en zat er tien minuten naar te kijken
 
 Ik sloeg het schrift open en schreef één regel bovenaan de pagina.
 
@@ -12,7 +12,7 @@ Niet dat er in die tien minuten niets gebeurde. Het was eerder luid. *Waar maak 
 
 Ik sloeg de pagina dicht en ging koffie zetten.
 
-Na een paar rondes zo besloot ik een tijdje dat schrijven niets voor mij was.
+Na een paar keer zo besloot ik dat schrijven voorlopig niets voor mij was.
 
 Wat niet werkte, was niet het schrijven. Het was **de vraag.**
 
@@ -162,7 +162,7 @@ Teruglezen hoeft niet.
 
 Dat meen ik. Deze oefening is er om dingen uit je hoofd te krijgen, niet om een document te maken. Van tevoren besluiten dat je het nooit terugleest, maakt je eerlijker op de pagina.
 
-De enige dingen die de moeite van het teruglezen waard zijn, zijn **de eerste regel van de vierentwintiguursregel uit hoofdstuk 2** en **de regel aantekening uit hoofdstuk 4.** Die zijn kort en zonder oordeel, dus ze steken niet.
+De enige dingen die de moeite van het teruglezen waard zijn, zijn **de eerste regel van de vierentwintiguursregel uit hoofdstuk 2** en **de aantekening van één regel uit hoofdstuk 4.** Die zijn kort en zonder oordeel, dus ze steken niet.
 
 **Ik kijk op en heb alleen over anderen geschreven.**
 

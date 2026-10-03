@@ -12,7 +12,7 @@ Het probleem begon de volgende ochtend.
 
 Zaterdag, bij het koffiezetten, kwam de zin terug. ’s Middags, bij het opvouwen van de was, kwam hij weer terug. ’s Avonds rekende ik uit hoe de huur eruit zou zien zonder salaris. ’s Nachts stelde ik me voor hoe het over drie jaar zou zijn als ik bleef, en dat werd alleen maar zwaarder.
 
-Op zondag had ik er een hele dag aan besteed. Ik had met niemand gepraat, en toch ging er een discussie door in mijn hoofd. *Je moet weg. Dat is onverantwoordelijk. Iedereen heeft dat. Hou op met zeuren. Maar het slijt je wel uit.*
+Op zondag had ik er een hele dag aan besteed. Ik had met niemand gepraat, en toch ging er een discussie door in mijn hoofd. *Je moet weg. Dat is onverantwoordelijk. Iedereen heeft dat. Hou op met zeuren. Maar het put je wel uit.*
 
 Eén zin was in één nacht een heel gezelschap geworden.
 
@@ -52,7 +52,7 @@ De angstige stem hoef je niet kwijt te raken. Hij heeft een taak, op de uitkijk 
 
 Hij gebruikt de woorden van het juiste. *Normaal gesproken. Zoals het hoort. Redelijke mensen. Op jouw leeftijd. Iedereen.*
 
-Zijn kenmerk is dat hij **uitkomt bij conclusies waar niemand iets aan heeft.** Hij beweegt niet naar een makkelijkere tijd voor jou, en ook niet voor de mensen om je heen. Hij wijst alleen naar de juiste vorm.
+Zijn kenmerk is dat hij **uitkomt bij conclusies waar niemand iets aan heeft.** Hij werkt niet toe naar een makkelijker leven voor jou, en ook niet voor de mensen om je heen. Hij wijst alleen naar de juiste vorm.
 
 Verder is hij moeilijk tegen te spreken. Wie iets terugzegt, voelt zich de slechterik. Met deze stem ga je dus niet in discussie. Je telt hem alleen.
 
@@ -107,7 +107,7 @@ Dat is de eerste stap van wat dit boek **onderscheiden** noemt.
 
 ### Hoe een van de mijne eruitzag
 
-Dit is de pagina die ik twee dagen na dat etentje schreef, onbewerkt. Hij leest slecht. Dat klopt.
+Dit is de pagina die ik twee dagen na dat etentje schreef, onbewerkt. Hij leest slecht. Zo hoort het.
 
 > **Wel of geen ontslag nemen**
 >
@@ -136,13 +136,13 @@ De zachtste stem ziet er vaak zo uit. Hij komt als waarneming, niet als oordeel.
 
 Je hoeft niets te beantwoorden. Naar de aantallen kijken, en dan stoppen.
 
-In dit stadium zit de zachtste stem nog vermengd in de **?**-stapel. Hem eruit halen is het werk van hoofdstuk 2 en 3; vandaag mag het vermengd blijven.
+In dit stadium zit de zachtste stem nog vermengd in de **?**-stapel. Hem eruit halen is het werk van hoofdstuk 2 en 3; vandaag mag hij erin blijven.
 
 ## Waar het vaak vastloopt
 
 **Alles lijkt op de angstige stem.**
 
-Komt vaak voor, vooral op vermoeide dagen en vlak voor een deadline. Dat is goed. Het blijft bewaard als aantekening: *vandaag waren acht van de tien regels angstig.* Op een andere dag dezelfde oefening, en de verhouding verandert. Die verandering is de informatie.
+Komt vaak voor, vooral op vermoeide dagen en vlak voor een deadline. Dat geeft niet. Het blijft bewaard als aantekening: *vandaag waren acht van de tien regels angstig.* Op een andere dag dezelfde oefening, en de verhouding verandert. Die verandering is de informatie.
 
 **Er staat geen enkele zachte regel.**
 

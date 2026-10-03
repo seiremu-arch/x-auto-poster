@@ -4,13 +4,13 @@
 
 Ik weet nog steeds welk huis ik als derde bekeek, het jaar dat ik verhuisde.
 
-Op papier was het perfect. Zeven minuten van het station, veel licht, de huur binnen mijn grens. De eerste twee waren duidelijk niets geweest, dus de makelaar zei “deze is goed, toch?”, en ik was het met hem eens. Achter ons in de gang wachtten nog vijftien andere kijkers.
+Op papier was het perfect. Zeven minuten van het station, veel licht, de huur binnen mijn budget. De eerste twee waren duidelijk niets geweest, dus de makelaar zei “deze is goed, toch?”, en ik was het met hem eens. Achter ons in de gang wachtten nog vijftien andere kijkers.
 
 Drie stappen de gang in vanaf de voordeur gingen mijn schouders omhoog.
 
 Waarom, zou ik niet kunnen zeggen. De muren waren wit. Het rook nergens naar. Mijn schouders kwamen gewoon een paar centimeter richting mijn oren en bleven daar.
 
-Ik zei “mooi huis” en ging naar huis. Mijn hoofd was er tot het eind voor.
+Ik zei “mooi huis” en vertrok. Mijn hoofd was er tot het eind voor.
 
 Drie dagen later tekende ik voor een ander huis. Twaalf minuten van het station, minder licht. In de gang gingen mijn schouders niet omhoog.
 
@@ -24,7 +24,7 @@ Die stem heeft een lastige eigenschap: **de woordenschat is te lenen.** De manie
 
 Maar de hoogte van je schouders kun je niet lenen.
 
-De diepte van je adem ook niet, of de spanning in je keel, of wat er over je borst gaat. Die melden alleen wat er in dit lichaam gebeurt, nu.
+De diepte van je adem ook niet, of de spanning in je keel, of wat er in je borst gebeurt. Die melden alleen wat er in dit lichaam gebeurt, nu.
 
 Daarom het lichaam. **Het lichaam antwoordt voordat de woorden het doen.**
 
@@ -166,7 +166,7 @@ Eén ding wil ik duidelijk zeggen.
 
 **Dit hoofdstuk is niet bedoeld om lichamelijke klachten te duiden.**
 
-Een beklemd gevoel op je borst. Een dichte keel die niet weggaat. Een adem die ondiep blijft. Niet slapen. Een lichaam dat ’s ochtends niet in beweging komt. Dat kan het lichaam zijn dat over zichzelf meldt, geen signaal over een beslissing.
+Een beklemd gevoel op je borst. Een dichte keel die niet weggaat. Een adem die ondiep blijft. Niet slapen. Een lichaam dat ’s ochtends niet in beweging komt. Dat kan het lichaam zijn dat iets over zichzelf meldt, geen signaal over een beslissing.
 
 Meer dan dit kan ik niet schrijven. **Bij twijfel: naar de huisarts.** Dat is geen omweg. Het is belangrijker dan dit boek uitlezen.
 
@@ -178,4 +178,4 @@ Woorden kun je lenen. Een lichaam niet.
 
 Het lichaam weet niet wat juist is; het is er alleen om te vinden waar het het oneens is met wat je zegt.
 
-Daarmee staan beide criteria: **snelheid** en **het lichaam.** Vanaf hier slijpt het boek niet langer aan de criteria, maar bouwt het aan de voorwaarden. Te beginnen met stilte.
+Daarmee staan beide criteria er: **snelheid** en **het lichaam.** Vanaf hier slijpt het boek niet langer aan de criteria, maar bouwt het aan de voorwaarden. Te beginnen met stilte.
