@@ -68,5 +68,5 @@ claim `dd52672aca` の予測(第5章がプラス、第7章がマイナス)を、
 - [x] Hoofdstuk 7 De dagen dat je niets hoort
 - [x] Slot / Bijlage(全10章 15,230 words、目安の102%)
 - [x] 検査 `check_style.py` 0件 / EPUB / 表紙 / 登録シート(`LISTING.md`)
-- [ ] 章をまたいだ通しの推敲
+- [x] 章をまたいだ通しの推敲(2026-10-03。Vault `576bfe3f5d`)
 - [ ] KDP登録(手作業。DRM と KDP Select は要判断)
