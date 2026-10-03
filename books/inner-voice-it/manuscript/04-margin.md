@@ -26,7 +26,7 @@ Non lo consiglierò in questo libro, per due ragioni.
 
 Quindi non è una questione di quantità. È una questione di **disposizione.**
 
-Ciò che serve non è meno ingresso. È **un intervallo fra un ingresso e il successivo.**
+Ciò che serve non sono meno stimoli. È **un intervallo fra uno stimolo e il successivo.**
 
 ## Silenzio è sapere che non arriva nient'altro
 
@@ -34,7 +34,7 @@ Voglio essere preciso su ciò che questo libro chiama silenzio.
 
 **Il silenzio non è l'assenza di rumore.**
 
-Si può trovare silenzio in mezzo al rumore di un bar. Le voci e le stoviglie non ti chiedono niente. Sono sfondo, non ingresso.
+Si può trovare silenzio in mezzo al rumore di un bar. Le voci e le stoviglie non ti chiedono niente. Sono sfondo, non stimolo.
 
 E lo si può perdere in una stanza del tutto muta. Il telefono, a faccia in giù sul tavolo, si illumina una volta. Basta questo. Nessun suono. Ma **appena pensi che potrebbe arrivare qualcos'altro, il tuo posto è occupato.**
 
@@ -42,7 +42,7 @@ Quindi: silenzio è **sapere che non arriva nient'altro.**
 
 E questo ci riporta al capitolo 2. La voce più bassa è lenta. Arriva tardi, una volta, quando tutto il resto ha fatto il suo giro.
 
-Perché una voce lenta possa posarsi, il posto deve essere libero. In una vita in cui arriva un ingresso nuovo ogni due minuti, il posto è sempre occupato. La voce non è sparita. **Non ha dove sedersi.**
+Perché una voce lenta possa posarsi, il posto deve essere libero. In una vita in cui arriva uno stimolo nuovo ogni due minuti, il posto è sempre occupato. La voce non è sparita. **Non ha dove sedersi.**
 
 ## Se si spegne una cosa sola, che sia ciò che arriva senza avvisare
 
@@ -60,7 +60,7 @@ Quello che ho fatto in concreto non è stato spegnere tutto, ma **ridurre a tre 
 
 ## Dove stanno sette minuti nella giornata
 
-Il compito è semplice. Mettere da qualche parte nella giornata **sette minuti senza ingressi nuovi.**
+Il compito è semplice. Mettere da qualche parte nella giornata **sette minuti senza stimoli nuovi.**
 
 La disposizione conta più della volontà. Tre momenti che nel mio caso hanno resistito:
 
@@ -90,7 +90,7 @@ Lasciato in astratto, non regge una settimana vera. Quindi ecco il limite.
 
 **Non permesso**
 
-- **Aggiungere un ingresso nuovo** (guardare uno schermo, mettere musica, leggere, cominciare una conversazione)
+- **Aggiungere uno stimolo nuovo** (guardare uno schermo, mettere musica, leggere, cominciare una conversazione)
 
 È l'unico limite. Non è «svuota la mente», né «concentrati sul respiro». **Pensare è permesso.** L'esercizio è completo anche se la testa resta rumorosa dall'inizio alla fine.
 
@@ -104,13 +104,13 @@ Si riduce solo ciò che entra da fuori.
 4. Quando i sette minuti sono passati, finisci
 5. Scrivi **una riga** nel quaderno. Non ciò che hai pensato. Solo **rumoroso** o **calmo.**
 
-Il passo cinque non è, di proposito, «ciò che ho pensato». Trattenere i pensieri per annotarli equivale ad aggiungere un ingresso. Questo non è un esercizio di scrittura.
+Il passo cinque non è, di proposito, «ciò che ho pensato». Trattenere i pensieri per annotarli equivale ad aggiungere uno stimolo. Questo non è un esercizio di scrittura.
 
 ### Perché sette
 
 Cinque non bastano, perché **i primi tre minuti di solito sono rumorosi.**
 
-Lo vedrai la prima volta. Il momento più rumoroso è subito dopo che l'ingresso si interrompe. Tutto ciò che resta da fare oggi, il messaggio senza risposta, quello che hai detto ieri: arriva tutto insieme. Se ti fermi a cinque, ti fermi in mezzo a quel rumore, e l'unica cosa che porti via è *non fa per me.*
+Lo vedrai la prima volta. Il momento più rumoroso è subito dopo che gli stimoli si interrompono. Tutto ciò che resta da fare oggi, il messaggio senza risposta, quello che hai detto ieri: arriva tutto insieme. Se ti fermi a cinque, ti fermi in mezzo a quel rumore, e l'unica cosa che porti via è *non fa per me.*
 
 Dieci danno una scusa. Dieci minuti sono una durata che si può dichiarare impossibile oggi. Sette sono più difficili da discutere.
 
@@ -168,7 +168,7 @@ Ho fallito tre volte con «tutti i giorni», e ha retto con il passaggio a «mer
 
 Sette minuti senza nessuno sono difficili quando in casa c'è altra gente. Allora si mettono fuori: la strada di ritorno, andata e ritorno al negozio all'angolo, l'auto prima di entrare in casa.
 
-**Il posto non deve essere silenzioso.** Il silenzio, come si è visto, non è assenza di rumore, ma assenza di un ingresso in più. Anche dove la gente parla, se niente è rivolto a te, il posto resta libero.
+**Il posto non deve essere silenzioso.** Il silenzio, come si è visto, non è assenza di rumore, ma assenza di uno stimolo in più. Anche dove la gente parla, se niente è rivolto a te, il posto resta libero.
 
 **Ho fatto silenzio e non è arrivato niente.**
 
@@ -182,7 +182,7 @@ I periodi interi senza niente hanno un capitolo tutto loro: il capitolo 7. Credo
 
 ## Alla fine di questo capitolo
 
-Il silenzio non consisteva nel tagliare le informazioni. Consisteva nel mettere un intervallo fra un ingresso e il successivo.
+Il silenzio non consisteva nel tagliare le informazioni. Consisteva nel mettere un intervallo fra uno stimolo e il successivo.
 
 Sette minuti, due volte a settimana. I primi tre sono rumorosi.
 

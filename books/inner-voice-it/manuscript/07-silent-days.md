@@ -30,7 +30,7 @@ Questa aveva una risposta. Il lunedì della terza settimana era il primo giorno 
 
 Il che vuol dire questo. **La voce non era sparita. Avevo accelerato io.**
 
-Il capitolo 2 diceva che la velocità è il segno dell'abitudine. Quando si ha molto da fare, si percorrono solo le strade battute. E finché si va sulle strade veloci, una voce lenta non fa in tempo ad arrivare.
+Il capitolo 2 diceva che la velocità è la prova dell'abitudine. Quando si ha molto da fare, si percorrono solo le strade battute. E finché si va sulle strade veloci, una voce lenta non fa in tempo ad arrivare.
 
 La parte scomoda è che **dall'interno non ci si accorge di aver accelerato.** Quando vai veloce, la velocità sembra normale. Dentro di te, in quel momento, non c'è niente con cui confrontarla.
 
@@ -45,7 +45,7 @@ Se se ne vedono due, vado quasi certamente veloce. Preoccuparsi in un giorno cos
 
 ## Cercare, e la ricerca riempie la stanza
 
-Nel momento in cui ti accorgi di non sentire niente, la cosa che viene più voglia di fare è **cercarla.**
+Nel momento in cui ti accorgi di non sentire niente, la cosa che viene più voglia di fare è **mettersi a cercare.**
 
 Riscrivere tutto. Aggiungere un esercizio. Cercare di ricordare come facevi alla seconda settimana. Capire che cosa è andato storto.
 
@@ -162,7 +162,7 @@ Se succede, **si smette con tutto.** Si tiene solo l'esercizio 7. Trenta secondi
 
 **Torno al posto e non c'è niente.**
 
-Più spesso che no, il posto in cui si torna è silenzioso e non arriva niente. Come diceva il capitolo 4, per me succede una o due volte su dieci.
+Il più delle volte, il posto in cui si torna è silenzioso e non arriva niente. Come diceva il capitolo 4, per me succede una o due volte su dieci.
 
 Che non arrivi niente non è un fallimento. **Il risultato è essere tornati.** Che una voce si presenti non dipende dalla tua gestione.
 

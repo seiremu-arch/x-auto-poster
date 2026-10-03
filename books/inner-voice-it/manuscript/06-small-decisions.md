@@ -44,11 +44,11 @@ Quando arriva il momento di decidere, uso una sola linea.
 
 > Si può tornare indietro?
 
-Non grande o piccolo. Il modo di trattare una decisione dipende da se si può disfare.
+Non grande o piccolo. Il modo di trattare una decisione dipende dal fatto che si possa disfare o no.
 
 **Decisioni reversibili: si provano senza pensarci.**
 
-Dire di no una volta. Andarci una volta. Mandare una mail. Smettere per una settimana. Per queste, pensare costa più che fare. La risposta trovata dopo tre giorni di riflessione e ciò che si impara al terzo giorno di prova non si equivalgono: la seconda è più precisa.
+Dire di no una volta. Andarci una volta. Mandare una mail. Smettere per una settimana. Per queste, pensare costa più che fare. La risposta trovata dopo tre giorni di riflessione e ciò che si impara al terzo giorno di prova non si equivalgono: il secondo è più preciso.
 
 **Decisioni irreversibili: ci si prende il tempo.**
 
@@ -163,9 +163,9 @@ Puntare la sveglia dieci minuti prima non ha nessun significato. Ma chi credeva 
 
 **Il primo passo è andato male.**
 
-Hai scelto un passo reversibile, quindi lo si disfa. Si torna al punto di partenza.
+Hai scelto un passo reversibile: basta disfarlo. Si torna al punto di partenza.
 
-Il fallimento conta meno del **aver potuto provare dentro un margine reversibile.** Con una decisione irreversibile sarebbe tutt'altro discorso.
+Il fallimento conta meno dell'**aver potuto provare dentro un margine reversibile.** Con una decisione irreversibile sarebbe tutt'altro discorso.
 
 **Ho fatto un passo e poi niente.**
 

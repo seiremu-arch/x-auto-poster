@@ -36,7 +36,7 @@ Per questo ora la metto così.
 
 ## L'ordine in cui arrivano
 
-Nel capitolo 1 abbiamo messo da parte il volume, perché scegliere in base al volume fa vincere l'angoscia ogni volta.
+Nel capitolo 1 abbiamo messo da parte il volume, perché scegliere in base al volume fa vincere l'ansia ogni volta.
 
 Se il volume resta fuori, serve qualcos'altro al suo posto. In questo capitolo è **l'ordine.**
 
@@ -53,7 +53,7 @@ Dei tempi non c'è da fidarsi. Cambiano da persona a persona, e secondo la stanc
 
 Perché la voce più bassa arriva per ultima? Credo che sia semplicemente **un sentiero non battuto.**
 
-Per arrivare in fretta, un pensiero deve essere stato usato molte volte. *Dire di no è maleducato* è un sentiero che ho percorso migliaia di volte. *Che cosa voglio, davvero?* è un sentiero che la maggior parte degli adulti ha appena calpestato dai tempi della scuola. Un sentiero non usato richiede più tempo. Non credo sia più complicato di così.
+Per arrivare in fretta, un pensiero deve essere stato usato molte volte. *Dire di no è maleducato* è un sentiero che ho percorso migliaia di volte. *Che cosa voglio, davvero?* è un sentiero che la maggior parte degli adulti ha calpestato a malapena dai tempi della scuola. Un sentiero non usato richiede più tempo. Non credo sia più complicato di così.
 
 Quindi resta una cosa sola. **Aspettare.**
 
@@ -95,7 +95,7 @@ Tre, presi dal mio quaderno. Sopra, la risposta dei tre secondi; sotto, quella d
 > - Ci sono!
 > - Andare per la prima ora. Avvisare prima che vado via presto
 >
-> **Seguire la persona nuova del gruppo?**
+> **Fare da tutor alla persona appena assunta?**
 > - No: ho già troppo addosso
 > - Sì. Ma chiedere se può essere una volta al mese
 >
@@ -157,12 +157,12 @@ Ma questa distinzione non si può fare con la testa. Appena ti chiedi *è evitam
 
 **Ho già risposto troppo in fretta.**
 
-Si può tornare indietro. «Ieri ti ho risposto troppo in fretta…» basta a recuperare quasi ogni situazione. Una decisione reversibile si recupera meglio di quanto si sopporti. Ci torneremo nel capitolo 6.
+Si può tornare indietro. «Ieri ti ho risposto troppo in fretta…» basta a recuperare quasi ogni situazione. Una decisione reversibile è meglio disfarla che sopportarla. Ci torneremo nel capitolo 6.
 
 ## Alla fine di questo capitolo
 
 La velocità era prova di abitudine, non di convinzione.
 
-Messe in fila per ordine di arrivo, la voce più bassa sta in fondo.
+In fila per ordine di arrivo, la voce più bassa sta in fondo.
 
 Nel prossimo capitolo guarderemo nel corpo **il leggero e il pesante** dell'attesa.

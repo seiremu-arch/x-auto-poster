@@ -77,7 +77,7 @@ Contare, già di per sé, abbassa il rumore. In mezzo alla folla succede lo stes
 
 **Serve un quaderno di carta.**
 
-In un libro digitale non si può scrivere. E gli esercizi di questo libro funzionano anche perché si rilegge ciò che si è scritto. Va bene un quaderno usato a metà. Vanno bene dei fogli spillati. Un'app per le note sul telefono è la scelta peggiore, e il capitolo 4 spiega perché.
+In un libro digitale non si può scrivere. E gli esercizi di questo libro funzionano anche perché si rilegge ciò che si è scritto. Va bene un quaderno usato a metà. Vanno bene dei fogli spillati. Un'app per le note sul telefono non è la scelta migliore, e il capitolo 4 spiega perché.
 
 **I capitoli si leggono in ordine.**
 
@@ -107,7 +107,7 @@ Invece, se ti è mai capitato di avere un pensiero che doveva essere tuo e che p
 
 **Non promette risultati.** Abbassare il proprio volume somiglia più a un'abilità, e la velocità con cui arriva cambia molto da persona a persona. C'è chi cambia in fretta. C'è chi attraversa sei mesi in cui non succede niente. Il mio caso è stato il secondo.
 
-**Non sostituisce un'assistenza medica o psicologica.** Ciò che contiene è un modo, per una persona in salute, di mettere ordine nei propri pensieri. Non è una cura. Se da giorni non dormi, se non riesci a smettere di piangere, se il tuo corpo la mattina non vuole alzarsi, chiudi questo libro e parlane con un professionista. Non è una deviazione. È la strada più breve.
+**Non sostituisce un'assistenza medica o psicologica.** Ciò che contiene è un modo, per una persona in salute, di mettere ordine nei propri pensieri. Non è una cura. Se da giorni non dormi, se non riesci a smettere di piangere, se il tuo corpo la mattina non vuole alzarsi, è il momento di chiudere questo libro e parlarne con il medico di base o con un altro professionista. Non è una deviazione. È la strada più breve.
 
 **Non proverà a fare di te una persona calma.** La calma non è un tratto del carattere. I giorni rumorosi continueranno ad arrivare. Ciò che questo libro vuole darti è **un posto in cui tornare** nei giorni rumorosi.
 

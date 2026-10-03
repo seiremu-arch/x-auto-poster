@@ -152,7 +152,7 @@ Familiari nella stanza accanto, pareti sottili, la voglia di farlo al lavoro. Su
 
 In quel caso, **si muove solo la bocca, senza suono.** Formare le parole con le labbra e la lingua, senza voce dietro. Funziona meno che parlare, ma molto meglio che dirlo dentro, perché un pensiero si interrompe a metà strada, e una bocca in movimento deve finire la frase.
 
-Un bagno va bene. Un'auto va bene. Il tragitto di ritorno, senza nessuno, va bene. Io uso i dodici minuti dalla stazione quasi tutti i giorni.
+Un bagno va bene. Un'auto parcheggiata va bene. Il tragitto di ritorno, senza nessuno, va bene. Io uso i dodici minuti dalla stazione quasi tutti i giorni.
 
 **Comincio a credere troppo al mio corpo.**
 
@@ -160,7 +160,7 @@ Succede quando comincia a funzionare. Dopo averci preso qualche volta, viene vog
 
 Il corpo non decide niente. Dice se qualcosa è sicuro. Continua a scegliere ciò che si allenta, e finirai per evitare tutto ciò che è sconosciuto. **Il corpo serve solo a trovare dove contraddice le tue parole.** Si può tornare a questa frase tutte le volte che serve.
 
-## Non interpretare i tuoi sintomi con questo capitolo
+## I sintomi non si leggono con questo capitolo
 
 Una cosa, chiaramente.
 
@@ -168,7 +168,7 @@ Una cosa, chiaramente.
 
 Un'oppressione al petto. Una sensazione in gola che non passa. Un respiro che resta corto. Non dormire. Un corpo che la mattina non vuole alzarsi. Può trattarsi del corpo che parla di sé stesso, non di un segnale su una decisione.
 
-Non posso scrivere niente di più. **Nel dubbio, rivolgiti a un medico.** Non è la strada lunga. È più importante che finire questo libro.
+Non posso scrivere niente di più. **Nel dubbio, meglio rivolgersi a un medico.** Non è la strada lunga. È più importante che finire questo libro.
 
 E se dopo questo esercizio ti senti peggio, l'esercizio non fa per te. Puoi smettere.
 

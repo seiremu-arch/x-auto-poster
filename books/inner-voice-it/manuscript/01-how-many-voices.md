@@ -88,7 +88,7 @@ Questo è il criterio del capitolo.
 
 Voler scegliere quella giusta non funziona, perché la parte di te che sceglie non è ancora stata identificata nemmeno lei.
 
-Contare, invece, si può fare subito. E contare separa da sé. Una voce con un'etichetta diventa un po' più piccola. L'angoscia riconosciuta come angoscia rimane angoscia, ma ha smesso di essere *la tua conclusione.*
+Contare, invece, si può fare subito. E contare separa da sé. Una voce con un'etichetta diventa un po' più piccola. L'ansia riconosciuta come ansia rimane ansia, ma ha smesso di essere *la tua conclusione.*
 
 Questo è il primo passo di ciò che questo libro chiama **distinguere.**
 
@@ -162,7 +162,7 @@ A volte a metà strada tutto peggiora, perché la scrittura mette davanti ciò c
 
 In quel caso, ci si ferma lì. Si chiude la pagina e si sceglie un altro giorno. Non è un esercizio che funziona meglio se lo si forza.
 
-E se succede di nuovo, parlare con qualcuno è meglio dell'esercizio. Un'amicizia, o una persona professionista. La carta non fa domande di ritorno. Le persone sì.
+E se succede di nuovo, parlare con qualcuno è meglio dell'esercizio. Una persona amica, o un professionista. La carta non fa domande di ritorno. Le persone sì.
 
 ## Alla fine di questo capitolo
 

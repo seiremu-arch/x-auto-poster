@@ -26,7 +26,7 @@ Ciò che non funzionava non era la scrittura. Era **la domanda.**
 
 Qui sta il cardine del capitolo. Torniamo al capitolo 1, alle quattro voci. La voce ansiosa **parla al futuro.** *E se…? Mettiamo che… Che cosa succederà quando…?*
 
-La voce più bassa parlava **al presente.** *Il lunedì mattina è la parte peggiore. Non lo richiamerò.*
+La voce più bassa parlava **al presente.** *Il lunedì mattina è la parte peggiore. Non lo richiamo più.*
 
 Quindi, quando la domanda riguarda il futuro, la voce più attrezzata a rispondere è quella ansiosa. Basta scrivere *che cosa faccio* perché alzi la mano solo lei. È naturale.
 
@@ -142,7 +142,7 @@ Per i giorni in cui quindici minuti non ci sono.
 
 Solo lo scheletro delle tre parti. Funziona meno bene, ma **è meglio di una giornata senza niente.**
 
-Più spesso che no, la faccio prima di dormire. Tre volte a settimana alla buona fanno crescere un quaderno più in fretta di una volta al mese alla perfezione.
+Il più delle volte la faccio prima di dormire. Tre volte a settimana alla buona fanno crescere un quaderno più in fretta di una volta al mese alla perfezione.
 
 ## Dove è facile bloccarsi
 
@@ -189,7 +189,7 @@ Se ancora non viene, si scrive che non è venuta e si chiude la pagina. La terza
 
 No. Richiede quindici minuti, quindi io lo faccio una volta a settimana, in un giorno fisso.
 
-Viene voglia di scrivere il giorno stesso in cui succede qualcosa, ma **scritta quel giorno, la prima parte non sarà fatta di fatti.** Finché c'è calore, gli aggettivi non si fermano. Due giorni dopo va meglio.
+Viene voglia di scrivere il giorno stesso in cui succede qualcosa, ma **se la scrivi quel giorno, nella prima parte non ci saranno fatti.** Finché c'è calore, gli aggettivi non si fermano. Due giorni dopo va meglio.
 
 ## Alla fine di questo capitolo
 

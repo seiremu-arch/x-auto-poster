@@ -14,7 +14,7 @@ Non rispondere sul momento. Dire che si risponderà, con una data («guardo l'ag
 Prima, trenta secondi per sapere com'è di solito lo stato di petto, gola, spalle e respiro. Ogni opzione in una frase breve, **detta ad alta voce.** Aspettare dieci secondi e passare sui quattro punti. Qualche passo, e poi l'altra opzione. Guardare solo quale si è allentata.
 
 **Esercizio 4: Sette minuti senza fare niente (7 min, cap. 4)**
-Telefono fuori portata. Sette minuti senza ingressi nuovi. Camminare, pensare e guardare l'ora sono permessi. Dopo, una riga: **rumoroso** o **calmo.** Che i primi tre minuti siano rumorosi fa parte del metodo.
+Telefono fuori portata. Sette minuti senza stimoli nuovi. Camminare, pensare e guardare l'ora sono permessi. Dopo, una riga: **rumoroso** o **calmo.** Che i primi tre minuti siano rumorosi fa parte del metodo.
 
 **Esercizio 5: La domanda in tre parti (15 min, cap. 5)**
 Dividere la pagina in tre. (1) Che cosa è successo: al passato, solo fatti; cancellare gli aggettivi e portarli nella seconda parte. (2) Che cosa è rimasto impigliato: al presente. (3) Che cosa potrei fare domani: in piccolo. Ogni *perché* diventa *che cosa / dove / da quando*.

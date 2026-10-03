@@ -26,7 +26,7 @@ Non è arrivato. Credo che non arriverà.
 
 La voce ansiosa fa la sentinella, e certi giorni serve. La voce del «dovrei» ricorda la forma del vivere insieme agli altri. E nella voce presa in prestito ci sono i giri di frase di persone di cui non voglio fare a meno. Non chiedo una testa in cui non resti nessuna frase di mia madre.
 
-**Non cancellarle. Solo saperle contare.**
+**Non si tratta di cancellarle. Solo di saperle contare.**
 
 Se sai che nella stanza sono in quattro, quella che parla forte vale un quarto del parere. È tutto il parere solo finché credi che sia una persona sola.
 
@@ -54,7 +54,7 @@ Elenco ciò che ho lasciato fuori. Non per evitarlo: perché non ho le risposte.
 
 Nemmeno **destino e significato** sono qui. Non ho mai scritto che seguire questa voce mette sulla strada giusta. Non è detto. Ho seguito la mia voce più bassa in scelte che poi non hanno funzionato. Ciò che le rende sopportabili non è che fossero giuste: è sapere che la scelta è stata mia.
 
-Anche dal **talento** ho tenuto le distanze. A scrivere come se qualcuno sapesse fare silenzio e qualcun altro no, chi non ci riesce avrebbe ricevuto un motivo in più per darsi la colpa. Per quanto posso vedere, non è una questione di attitudine. È una questione di ripetizioni.
+Anche dal **talento** ho tenuto le distanze. Se avessi scritto come se qualcuno sapesse fare silenzio e qualcun altro no, chi non ci riesce avrebbe ricevuto un motivo in più per darsi la colpa. Per quanto posso vedere, non è una questione di attitudine. È una questione di ripetizioni.
 
 Qualcuno troverà il libro scarno per ciò che manca. Va bene così. **Non presentare come fatti le cose che non si possono verificare è l'unica promessa che ho mantenuto.**
 
