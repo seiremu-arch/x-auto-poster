@@ -9,6 +9,7 @@ Loop Engineering の構成になっている。
 - Vaultの読み書き: `scripts/vault.py`
 - Obsidian層: `vault/graph.canvas`(`loop.py canvas` の生成物) / `vault/vault.base`
 - 設計: [`LOOP-ENGINEERING.md`](LOOP-ENGINEERING.md) / [`vault/README.md`](vault/README.md)
+- Claude Codeの拡張(Remotion / Superpowers / Playwright など): [`CLAUDE-TOOLS.md`](CLAUDE-TOOLS.md)
 
 ## Vaultを触るときの不変条件
 
