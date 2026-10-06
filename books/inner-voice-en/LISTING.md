@@ -1,4 +1,4 @@
-# KDP registration sheet — The Quietest Voice (English edition)
+# KDP registration sheet — Your Quietest Voice (English edition)
 
 Amazon.com向け。**そのまま貼る**ためのもので、ここに「なぜこうしたか」は書かない
 (書き直しの方針は Vault `fcfb3b0ebf`、分量は `bdb7a50e65`、表紙の意匠は `0adde001a2` の追記)。
@@ -20,7 +20,7 @@ English
 ### Book Title
 
 ```
-The Quietest Voice
+Your Quietest Voice
 ```
 
 ### Subtitle
@@ -205,9 +205,11 @@ grep -niE "the universe|vibration|manifest|law of attraction|higher self|your tr
   books/inner-voice-en/manuscript/*.md               # 序章の宣言1件だけがヒットする状態が正
 ```
 
-- [ ] **タイトルの重複。** Amazon.com で "The Quietest Voice" を検索し、同名・近似の本が
+- [ ] **タイトルの重複。** Amazon.com で "Your Quietest Voice" を検索し、同名・近似の本が
       上位にいないか見る。いたら副題で差をつけるか、タイトルを変える(ここが最優先)
   - **2026-10-06 のウェブ検索で同名の本が見つかった。** J.L. Neal『The Quietest Voice: Whispers From the Mind of a Murderer』(The Quietest Voice Series 第1巻、Kindle、2025年5月刊、心理スリラー)。登録は拒まれないが、検索で並ぶ → **題名を変えるかは要判断**(Vault `15227c1bed`)
+  - 2026-10-06 に題を **Your Quietest Voice** に変えた(著者の判断)。新しい題と完全に一致する本はウェブ検索では無かった。
+    ただし「quietest voice」で検索すると、上のスリラー(Kindle と紙)は近くに並び続ける。登録前に画面で新しい題を検索する
 - [ ] 著者名が日本語版と完全に一致しているか(`Kazu A. Suzuki`)
 - [ ] Description をプレビューで見て、改行が意図どおりか
 - [ ] 表紙のサムネイル(縦200px)でタイトルが読めるか

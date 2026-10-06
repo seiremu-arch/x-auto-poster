@@ -1,4 +1,4 @@
-# 企画書 — 英語版『The Quietest Voice』
+# 企画書 — 英語版『Your Quietest Voice』
 
 日本語版 `books/inner-voice/` の**書き直し**であって、翻訳ではない
 (方針と反証条件は Vault `fcfb3b0ebf`)。芯・章構成・実践の番号は揃え、場面と例を差し替える。
@@ -7,7 +7,7 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| Title | The Quietest Voice |
+| Title | Your Quietest Voice(2026-10-06 に The Quietest Voice から変更。同名のスリラーが Amazon.com にあるため。Vault `15227c1bed`) |
 | Subtitle | Seven practices for telling your own voice from the noise in your head |
 | Author | Kazu A. Suzuki(日本語版と同一表記) |
 | 言語 | 英語(Amazon.com を主戦場にする) |
@@ -46,7 +46,7 @@
 
 ## 出す前に確かめること
 
-- **タイトルの重複。** Amazon.com で "The Quietest Voice" を検索し、同名・近似の本が
+- **タイトルの重複。** Amazon.com で "Your Quietest Voice" を検索し、同名・近似の本が
   上位にいないか見る。いたら副題で差をつけるか、タイトルを変える
 - 実践の言い方が命令形になりすぎていないか(日本語版は「〜してみる」の距離を保っている)
 - 免責の文が、米国の読者にも医療行為の否定と読まれない書き方になっているか

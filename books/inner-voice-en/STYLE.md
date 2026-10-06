@@ -1,4 +1,4 @@
-# Style rules — The Quietest Voice
+# Style rules — Your Quietest Voice
 
 日本語版 `books/inner-voice/STYLE.md` と同じ立場を、英語で守るためのもの。
 **読者が自分で確かめられることだけを書く。**

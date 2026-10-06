@@ -15,6 +15,7 @@
 - KDP出版(他言語版) — 翻訳ではなく書き直し(→ `899744d0ff`。`fcfb3b0ebf` を一般化したもの)。
   英語版 `The Quietest Voice` の芯は
   「Your quietest voice never gets louder. So the only way to hear it is to get quieter yourself」。
+  (英語版の題は 2026-10-06 に `Your Quietest Voice` に変えた。同名のスリラーが Amazon.com にあるため → `15227c1bed`)
   ドイツ語版 `Die leiseste Stimme` の芯は
   「Deine leiseste Stimme wird nicht lauter. Also bleibt nur, selbst leiser zu werden」(du で書く → `7586251f89`)。
   フランス語版 `La voix la plus basse` の芯は

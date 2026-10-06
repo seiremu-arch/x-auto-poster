@@ -64,7 +64,7 @@ python books/inner-voice-nl/check_style.py            # オランダ語版の文
 ## 現在の作品
 
 - `inner-voice/` — 『いちばん小さい声』(内省ワーク型 / 33,075字 / 原稿完成・表紙待ち)
-- `inner-voice-en/` — 『The Quietest Voice』(`inner-voice` の英語での書き直し / 執筆済み)
+- `inner-voice-en/` — 『Your Quietest Voice』(`inner-voice` の英語での書き直し / 執筆済み)
 - `inner-voice-de/` — 『Die leiseste Stimme』(`inner-voice` のドイツ語での書き直し / 執筆済み)
 - `inner-voice-fr/` — 『La voix la plus basse』(`inner-voice` のフランス語での書き直し / 執筆済み)
 - `inner-voice-es/` — 『La voz más baja』(`inner-voice` のスペイン語での書き直し / 執筆済み)
