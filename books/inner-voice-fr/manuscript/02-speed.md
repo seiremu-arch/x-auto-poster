@@ -22,7 +22,7 @@ Après avoir noté quelques dizaines de mes propres réponses, j'ai remarqué l'
 
 Elle est rapide parce que j'ai emprunté ce chemin de nombreuses fois. *Refuser, c'est impoli. Quand on vous invite, on y va. Mieux vaut répondre vite.* Aucune de ces phrases n'est née d'une réflexion. Ce sont des chemins battus, et j'ai glissé sur l'un d'eux.
 
-Les réponses rapides ont aussi été récompensées pendant longtemps. Ceux qui répondent vite passent pour fiables ; ceux qui prennent leur temps, pour indécis. Pendant une période, j'ai considéré mes réponses rapides comme l'une de mes rares qualités utiles.
+Les réponses rapides ont aussi été récompensées pendant longtemps. Répondre vite passe pour de la fiabilité ; prendre son temps, pour de l'indécision. Pendant une période, j'ai considéré mes réponses rapides comme l'une de mes rares qualités utiles.
 
 Un comportement récompensé se répète. Un comportement répété s'accélère. Un comportement assez rapide ne vous montre plus qu'aucune réflexion n'a eu lieu. C'est ainsi qu'une réponse en trois secondes se fabrique.
 

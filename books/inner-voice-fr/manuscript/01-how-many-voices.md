@@ -158,7 +158,7 @@ Vouloir classer avec précision transforme le classement en nouvelle source d'in
 
 **Écrire rend le bruit plus fort.**
 
-Il arrive qu'on se sente plus mal en cours de route, parce que l'écriture pose devant vous ce que vous vous étiez arrangé pour ne pas regarder.
+Il arrive qu'on se sente plus mal en cours de route, parce que l'écriture pose devant vous ce que vous aviez pris soin de ne pas regarder.
 
 Dans ce cas, on s'arrête là. On referme la page, et on prend un autre jour. Ce n'est pas un exercice qui marche mieux quand on force.
 

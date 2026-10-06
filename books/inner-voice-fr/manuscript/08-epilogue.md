@@ -56,7 +56,7 @@ Voici ce que j'ai laissé de côté. Pas par évitement — parce que je n'ai pa
 
 **Le talent**, je l'ai laissé de côté aussi. Écrire comme si certains savaient faire silence et d'autres non, c'est donner aux seconds une raison de se le reprocher. Pour autant que je puisse en juger, ce n'est pas un don. Ce sont des répétitions.
 
-Certains lecteurs trouveront le livre mince à cause de ce qui manque. C'est bien ainsi. **Ne pas écrire comme des faits des choses invérifiables, c'est la seule promesse que j'ai tenue.**
+Certaines personnes trouveront le livre mince à cause de ce qui manque. C'est bien ainsi. **Ne pas écrire comme des faits des choses invérifiables, c'est la seule promesse que j'ai tenue.**
 
 ## Combien de fois, en un an
 
@@ -96,4 +96,4 @@ Pendant que vous comptez, la pièce devient un peu plus calme. Et dans ce calme,
 
 Qu'elle vienne ou non, cela dépend du jour.
 
-Plus souvent qu'autrement, elle ne viendra pas. Les soirs où vous avez laissé la place libre restent quand même.
+Le plus souvent, elle ne viendra pas. Les soirs où vous avez laissé la place libre restent quand même.

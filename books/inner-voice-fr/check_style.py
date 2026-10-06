@@ -40,8 +40,8 @@ BANNED_ALLOWED = "ni univers ni vibrations"
 # 性で形が変わる過去分詞・形容詞(男性形。女性形は -e が付くので当たらない)
 _MASC = (r"(surpris|plaint|rentré|allé|resté|devenu|revenu|venu|parti|passé|sorti|arrivé|tombé|"
          r"sûr|seul|occupé|assis|débordé|endormi|senti|obligé|indécis|content|fatigué|épuisé|"
-         r"prêt|convaincu|habitué|perdu|certain|lourd|léger|souvenu|arrêté|servi|tenu|garé|invité|bruyant)")
-READER_GENDER = re.compile(r"\bvous\s+(êtes|serez|étiez|soyez|seriez|vous êtes|vous serez|avez été|a rendu)\s+"
+         r"prêt|convaincu|habitué|perdu|certain|lourd|léger|souvenu|arrêté|servi|tenu|garé|invité|bruyant|arrangé)")
+READER_GENDER = re.compile(r"\bvous\s+(êtes|serez|étiez|soyez|seriez|vous êtes|vous serez|vous étiez|vous seriez|avez été|a rendu)\s+"
                            r"(\w+\s+)?" + _MASC + r"\b|\bvous\s+n'êtes\s+pas\s+" + _MASC + r"\b", re.IGNORECASE)
 AUTHOR_GENDER = re.compile(r"\b(je suis|j'étais|je me suis|j'ai été|je serai|je reste|m'étais|me suis|"
                            r"je ne suis (pas|plus|jamais)|je ne me suis (pas|plus|jamais)|je n'étais (pas|plus)|je n'ai pas été|"

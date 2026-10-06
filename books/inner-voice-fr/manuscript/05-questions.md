@@ -50,7 +50,7 @@ S'en tenir aux faits est plus difficile qu'il n'y paraît. Mes premiers essais �
 
 **Dans la deuxième partie, on interroge au présent.** Pas *qu'est-ce qui m'a fait mal*, mais *qu'est-ce qui accroche encore, maintenant.*
 
-Interrogé au passé, on obtient un compte rendu de l'événement. Interrogé au présent, on obtient ce qui est encore là. Ce n'est souvent pas la même chose. La réunion est terminée, et ce qui reste, c'est *devant six personnes*, pas le chiffre.
+Au passé, la question donne un compte rendu de l'événement. Au présent, elle donne ce qui est encore là. Ce n'est souvent pas la même chose. La réunion est terminée, et ce qui reste, c'est *devant six personnes*, pas le chiffre.
 
 **Dans la troisième partie, on fait petit.** Pas *qu'est-ce que je vais faire de tout ça*, mais *que pourrais-je faire demain.*
 
@@ -190,7 +190,7 @@ Sinon, on écrit que rien n'est venu, et on referme la page. La troisième parti
 
 Non. Cela prend quinze minutes, alors je le fais une fois par semaine, un jour fixe.
 
-On a envie d'écrire le jour même où quelque chose s'est passé — mais **écrit le jour même, la première partie ne sera pas faite de faits.** Tant qu'il reste de la chaleur, les adjectifs ne s'arrêtent pas. Deux jours plus tard, cela marche mieux.
+On a envie d'écrire le jour même où quelque chose s'est passé — mais **si on l'écrit le jour même, la première partie ne contiendra pas de faits.** Tant qu'il reste de la chaleur, les adjectifs ne s'arrêtent pas. Deux jours plus tard, cela marche mieux.
 
 ## À la fin de ce chapitre
 

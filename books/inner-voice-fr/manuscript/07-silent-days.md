@@ -20,7 +20,7 @@ Deux mois plus tard, j'ai rouvert le carnet, et voici la première chose que j'a
 
 > Pourquoi est-ce que je n'entends plus rien
 
-Celui qui vous a dit au chapitre 5 de ne pas utiliser *pourquoi* a écrit *pourquoi* sur la première ligne. Ce qui est revenu, comme prévu, c'étaient des reproches. *Parce que tu ne vas jamais au bout. Parce que ce n'était pas sérieux.*
+La personne qui vous a dit au chapitre 5 de ne pas utiliser *pourquoi* a écrit *pourquoi* sur la première ligne. Ce qui est revenu, comme prévu, c'étaient des reproches. *Parce que tu ne vas jamais au bout. Parce que ce n'était pas sérieux.*
 
 Alors je l'ai réécrite.
 
