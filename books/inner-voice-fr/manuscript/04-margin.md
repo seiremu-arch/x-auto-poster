@@ -128,7 +128,7 @@ Mes trois premières semaines ressemblaient à ceci.
 
 Le calme est apparu dans les sept minutes à la troisième semaine. Avant cela, c'étaient simplement sept minutes bruyantes.
 
-Et j'ai remarqué autre chose. **Les jours bruyants suivaient un schéma.** Les jours où j'avais vu beaucoup de monde, et les jours où il y avait quelque chose à décider, étaient bruyants sans exception. Ce que la note m'a appris, ce n'était donc pas comment progressait mon silence. C'était **quel genre de journée rend ma tête bruyante.**
+Et j'ai remarqué autre chose. **Les jours bruyants suivaient un schéma.** Les jours où j'avais vu beaucoup de monde, et les jours où il y avait quelque chose à décider, étaient bruyants sans exception. Ce que la note m'a appris, ce n'était donc pas comment progressait mon silence. C'était **quel genre de journée fait du bruit dans ma tête.**
 
 C'est plus utile qu'il n'y paraît. Les jours que je sais d'avance bruyants, je ne prends pas de décision importante le soir. Cela seul a réduit mes erreurs.
 

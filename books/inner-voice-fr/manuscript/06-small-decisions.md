@@ -145,7 +145,7 @@ Une chose à surveiller.
 
 **Découper petit fonctionne aussi comme outil d'évitement.**
 
-*Je me prépare encore. Je rassemble d'abord des informations* — et on reste garé juste avant l'unique étape irréversible. Je l'ai fait pendant deux ans. J'ai lu cinq cents offres d'emploi et je n'ai postulé à aucune.
+*Je me prépare encore. Je rassemble d'abord des informations* — et tout reste à l'arrêt juste avant l'unique étape irréversible. Je l'ai fait pendant deux ans. J'ai lu cinq cents offres d'emploi et je n'ai postulé à aucune.
 
 Le repère du chapitre 2 s'applique ici aussi.
 

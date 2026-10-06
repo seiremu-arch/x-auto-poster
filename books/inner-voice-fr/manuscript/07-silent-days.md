@@ -63,7 +63,7 @@ On ne peut pas revenir au passé (cela devient du regret). On ne peut pas reveni
 
 **Trente secondes. Rien à écrire.**
 
-C'est le dernier exercice, et probablement celui que vous utiliserez le plus. Depuis un an, je m'en suis servi plus souvent que des six autres réunis.
+C'est le dernier exercice, et probablement celui que vous utiliserez le plus. Depuis un an, j'y ai eu recours plus souvent qu'aux six autres réunis.
 
 ### Étapes
 
@@ -85,7 +85,7 @@ Le chapitre 5 parlait du temps des questions. Posez une question sur l'avenir, e
 
 Et dans « un mur blanc », il n'y a ni bien ni mal. Comme il n'y a rien à évaluer, il n'y a aucune ouverture par où la voix du « il faut » puisse entrer. **Un exercice sur lequel il est impossible de se noter** — c'est ce que valent ces trois lignes.
 
-Des sept, c'est le seul qui fonctionne dans l'épuisement. C'est pourquoi, dans les périodes où les six autres sont impossibles, c'est celui-là qui reste.
+Des sept, c'est le seul qui fonctionne les jours d'épuisement. C'est pourquoi, dans les périodes où les six autres sont impossibles, c'est celui-là qui reste.
 
 ### Décider d'avance où l'on revient
 
@@ -106,7 +106,7 @@ Quelques possibilités d'ancrage :
 
 ### Ce que j'ai écrit le jour du retour, après deux mois
 
-Voici ce qui s'est passé le jour du retour, au cas où vous vous demanderiez quoi écrire.
+Voici ce qui s'est passé ce jour-là, au cas où vous vous demanderiez quoi écrire.
 
 La première ligne que j'ai écrite était celle-ci.
 

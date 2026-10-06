@@ -4,7 +4,7 @@
 
 Cela fait un an que j'ai commencé à écrire ceci.
 
-Honnêtement : le calme n'est pas devenu mon caractère.
+Honnêtement : je ne suis toujours pas une personne calme.
 
 Ça continue de parler une fois la lumière éteinte. Je pense encore aux messages sans réponse, et une chose mal dite il y a dix ans refait encore surface. La voix anxieuse arrive en même quantité qu'il y a un an. Elle n'a pas diminué.
 
@@ -54,7 +54,7 @@ Voici ce que j'ai laissé de côté. Pas par évitement — parce que je n'ai pa
 
 **Le destin et le sens** ne figurent pas non plus ici. Je n'ai jamais écrit que suivre cette voix vous mettrait sur le bon chemin. Ce n'est pas forcément le cas. J'ai suivi ma voix la plus basse dans des choix qui ont mal tourné. S'ils sont plus faciles à porter, ce n'est pas parce qu'ils étaient justes — c'est parce que je sais que c'est moi qui ai choisi.
 
-**Le talent**, je m'en suis tenu à l'écart aussi. Écrire comme si certains savaient faire silence et d'autres non, c'est donner aux seconds une raison de se le reprocher. Pour autant que je puisse en juger, ce n'est pas un don. Ce sont des répétitions.
+**Le talent**, je l'ai laissé de côté aussi. Écrire comme si certains savaient faire silence et d'autres non, c'est donner aux seconds une raison de se le reprocher. Pour autant que je puisse en juger, ce n'est pas un don. Ce sont des répétitions.
 
 Certains lecteurs trouveront le livre mince à cause de ce qui manque. C'est bien ainsi. **Ne pas écrire comme des faits des choses invérifiables, c'est la seule promesse que j'ai tenue.**
 

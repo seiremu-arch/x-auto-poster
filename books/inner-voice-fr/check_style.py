@@ -40,16 +40,17 @@ BANNED_ALLOWED = "ni univers ni vibrations"
 # 性で形が変わる過去分詞・形容詞(男性形。女性形は -e が付くので当たらない)
 _MASC = (r"(surpris|plaint|rentré|allé|resté|devenu|revenu|venu|parti|passé|sorti|arrivé|tombé|"
          r"sûr|seul|occupé|assis|débordé|endormi|senti|obligé|indécis|content|fatigué|épuisé|"
-         r"prêt|convaincu|habitué|perdu|certain|lourd|léger|souvenu|arrêté)")
+         r"prêt|convaincu|habitué|perdu|certain|lourd|léger|souvenu|arrêté|servi|tenu|garé|invité|bruyant)")
 READER_GENDER = re.compile(r"\bvous\s+(êtes|serez|étiez|soyez|seriez|vous êtes|vous serez|avez été|a rendu)\s+"
                            r"(\w+\s+)?" + _MASC + r"\b|\bvous\s+n'êtes\s+pas\s+" + _MASC + r"\b", re.IGNORECASE)
 AUTHOR_GENDER = re.compile(r"\b(je suis|j'étais|je me suis|j'ai été|je serai|je reste|m'étais|me suis|"
-                           r"je ne suis (pas|plus|jamais)|je ne me suis (pas|plus|jamais)|je n'étais (pas|plus)|je n'ai pas été)\s+"
+                           r"je ne suis (pas|plus|jamais)|je ne me suis (pas|plus|jamais)|je n'étais (pas|plus)|je n'ai pas été|"
+                           r"je m'(en|y) suis|me rend|me rendait)\s+"
                            r"(\w+\s+){0,3}?" + _MASC + r"\b|\btout seul\b|\bLaissé à moi-même\b|"
                            r"\bm'(a|ont|avait|avaient) (blessé|humilié|surpris|vexé|déçu|étonné|touché)\b|"
                            r"\bje ne suis pas (fait|qualifié|devenu)\b|\bje me sentais (\w+\s+)?" + _MASC + r"\b", re.IGNORECASE)
 # 総称の on に性で変わる形が続くもの(「quand on est fatigué」)。読者の性(Vault 0045c354b1)の残り
-GENERIC_ON = re.compile(r"\bon est\s+(\w+\s+)?" + _MASC + r"\b", re.IGNORECASE)
+GENERIC_ON = re.compile(r"\bon (est|reste|restait|était)\s+(\w+\s+)?" + _MASC + r"\b", re.IGNORECASE)
 
 LOOSE_SPACE = re.compile(r"(?<=\S) ([;:!?])|« |(?<=\S) »")
 
@@ -69,9 +70,10 @@ def check():
                 findings.append((path.name, number, "空白", line[:78]))
             if READER_GENDER.search(line):
                 findings.append((path.name, number, "性の一致(読者)", line[:78]))
-            if AUTHOR_GENDER.search(line):  # 著者は中立と決まった(2026-10-06、Vault dba7c10f3f)
+            plain = line.replace("~~", "")  # 抹消線で語が切れて当たらなくなるのを防ぐ
+            if AUTHOR_GENDER.search(plain):  # 著者は中立と決まった(2026-10-06、Vault dba7c10f3f)
                 findings.append((path.name, number, "性の一致(著者)", line[:78]))
-            if GENERIC_ON.search(line):
+            if GENERIC_ON.search(plain):
                 findings.append((path.name, number, "性の一致(総称のon)", line[:78]))
             if is_step_or_quote(line):
                 continue

@@ -105,7 +105,7 @@ Puis on réécrit ce qui reste sous forme de faits.
 
 > À la réunion de mardi, il a dit qu'un chiffre de ma présentation était faux. Sept personnes étaient là. J'ai répondu « je vérifie ». La réunion s'est terminée à l'heure.
 
-Les mots barrés — *horrible*, *honte*, *toujours* — ne sont pas jetés. **Ils passent directement dans la deuxième partie.** Ce qu'on efface dans la première partie est la matière de la deuxième.
+Les mots barrés — *horrible*, *fait honte*, *toujours* — ne sont pas jetés. **Ils passent directement dans la deuxième partie.** Ce qu'on efface dans la première partie est la matière de la deuxième.
 
 *Toujours* est un indice particulièrement utile. **Quand on écrit « toujours » à propos de quelque chose qui s'est produit une fois, il y a généralement une voix empruntée ou un vieux souvenir dedans.** De fait, c'était la première fois qu'il me le disait.
 

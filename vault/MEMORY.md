@@ -22,6 +22,7 @@
   「Votre voix la plus basse ne parlera jamais plus fort. Il ne reste donc qu'à faire silence de votre côté」
   (vous で書く → `e778004e3b`)。
   (フランス語版の著者の一人称は 2026-10-06 に中立と決まり、書き換えた → `dba7c10f3f`)
+  (ただし性に絞った通しの読み返しは未完了。1回目の書き換えで3か所を取りこぼした → `dba7c10f3f` その2)
   スペイン語版 `La voz más baja` の芯は
   「Tu voz más baja nunca hablará más fuerte. Solo queda bajar tu propio volumen」
   (中立スペイン語 → `cb294d65c0`。読者の性を決めない → `0045c354b1`、著者の性は著者が決める → `dba7c10f3f`)。
