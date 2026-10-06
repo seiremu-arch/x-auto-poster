@@ -206,6 +206,7 @@ python books/inner-voice-nl/check_style.py             # 六つの検査(0件が
 ```
 
 - [ ] **タイトルの重複。** Amazon.nl で “De zachtste stem” を検索する(ここが最優先)
+  - 2026-10-06 のウェブ検索では同名の本は見つからなかった(Vault `15227c1bed`)。ストア内検索ではないので、登録前に画面でもう一度見る
 - [ ] 著者名が他の六言語と完全に一致しているか(`Kazu A. Suzuki`)
 - [ ] Beschrijving をプレビューで見て、改行・“ ”・ë が意図どおりか
 - [ ] 価格欄が税込(incl. btw)か

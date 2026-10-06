@@ -207,6 +207,7 @@ grep -niE "the universe|vibration|manifest|law of attraction|higher self|your tr
 
 - [ ] **タイトルの重複。** Amazon.com で "The Quietest Voice" を検索し、同名・近似の本が
       上位にいないか見る。いたら副題で差をつけるか、タイトルを変える(ここが最優先)
+  - **2026-10-06 のウェブ検索で同名の本が見つかった。** J.L. Neal『The Quietest Voice: Whispers From the Mind of a Murderer』(The Quietest Voice Series 第1巻、Kindle、2025年5月刊、心理スリラー)。登録は拒まれないが、検索で並ぶ → **題名を変えるかは要判断**(Vault `15227c1bed`)
 - [ ] 著者名が日本語版と完全に一致しているか(`Kazu A. Suzuki`)
 - [ ] Description をプレビューで見て、改行が意図どおりか
 - [ ] 表紙のサムネイル(縦200px)でタイトルが読めるか
