@@ -1,6 +1,6 @@
 # Chapitre 5 : Écrire pour entendre
 
-## J'ai écrit « que faire » et je suis resté dix minutes
+## J'ai écrit « que faire » et dix minutes ont passé
 
 J'ai ouvert le carnet et j'ai écrit une ligne en haut de la page.
 
@@ -10,7 +10,7 @@ Mon stylo n'a pas bougé pendant dix minutes.
 
 Ce n'est pas qu'il ne se passait rien pendant ces dix minutes. C'était même bruyant. *De quoi je m'inquiète, au juste. Je ne devrais pas perdre de temps là-dessus. C'est une soirée gâchée.* Rien de tout cela n'était le genre de chose qu'on écrit dans un carnet.
 
-J'ai refermé la page et je suis allé faire du café.
+J'ai refermé la page et j'ai préparé un café.
 
 Après quelques essais de ce genre, j'ai conclu pendant un temps que l'écriture n'était pas pour moi.
 
@@ -48,7 +48,7 @@ L'ordre fait une partie du travail.
 
 S'en tenir aux faits est plus difficile qu'il n'y paraît. Mes premiers essais étaient aux deux tiers des impressions. J'ai dû commencer par entourer les adjectifs et les barrer.
 
-**Dans la deuxième partie, on interroge au présent.** Pas *qu'est-ce qui m'a blessé*, mais *qu'est-ce qui accroche encore, maintenant.*
+**Dans la deuxième partie, on interroge au présent.** Pas *qu'est-ce qui m'a fait mal*, mais *qu'est-ce qui accroche encore, maintenant.*
 
 Interrogé au passé, on obtient un compte rendu de l'événement. Interrogé au présent, on obtient ce qui est encore là. Ce n'est souvent pas la même chose. La réunion est terminée, et ce qui reste, c'est *devant six personnes*, pas le chiffre.
 
@@ -85,7 +85,7 @@ Changez le mot, et ce qui revient est une observation au lieu d'un verdict. Comm
 5. **En bas : « Que pourrais-je faire demain. »** Cinq minutes. Seulement ce qui tient dans l'agenda de demain
 6. Si rien ne vient dans la troisième partie, **écrivez-le aussi.** « Rien ne me vient pour demain. »
 
-Diviser le temps en trois sert à ne pas tout dépenser dans la première partie. Laissé à moi-même, j'y passe quatorze minutes. Écrire des faits est l'endroit le plus sûr et le moins productif.
+Diviser le temps en trois sert à ne pas tout dépenser dans la première partie. Sans cette division, j'y passe quatorze minutes. Écrire des faits est l'endroit le plus sûr et le moins productif.
 
 ### S'exercer à la première partie
 
@@ -93,19 +93,19 @@ Voici, sur ma propre page, à quel point s'en tenir aux faits est difficile.
 
 La première chose que j'ai écrite était ceci.
 
-> Réunion horrible. Il m'a humilié devant tout le monde. Il parle toujours comme ça.
+> Réunion horrible. Il m'a fait honte devant tout le monde. Il parle toujours comme ça.
 
 Sur trois lignes, les faits sont *il y a eu une réunion* et *il a dit quelque chose.* Tout le reste est mon verdict.
 
 Entouré et barré :
 
-> Réunion ~~horrible~~. Il m'a ~~humilié~~ ~~devant tout le monde~~. Il parle ~~toujours~~ ~~comme ça~~.
+> Réunion ~~horrible~~. Il m'a ~~fait honte~~ ~~devant tout le monde~~. Il parle ~~toujours~~ ~~comme ça~~.
 
 Puis on réécrit ce qui reste sous forme de faits.
 
 > À la réunion de mardi, il a dit qu'un chiffre de ma présentation était faux. Sept personnes étaient là. J'ai répondu « je vérifie ». La réunion s'est terminée à l'heure.
 
-Les mots barrés — *horrible*, *humilié*, *toujours* — ne sont pas jetés. **Ils passent directement dans la deuxième partie.** Ce qu'on efface dans la première partie est la matière de la deuxième.
+Les mots barrés — *horrible*, *honte*, *toujours* — ne sont pas jetés. **Ils passent directement dans la deuxième partie.** Ce qu'on efface dans la première partie est la matière de la deuxième.
 
 *Toujours* est un indice particulièrement utile. **Quand on écrit « toujours » à propos de quelque chose qui s'est produit une fois, il y a généralement une voix empruntée ou un vieux souvenir dedans.** De fait, c'était la première fois qu'il me le disait.
 
@@ -115,7 +115,7 @@ Le même événement, écrit avec une grande question, puis en trois temps.
 
 > **Le jour où j'ai écrit « que faire »**
 >
-> Que faire. Est-ce que je dois rester dans ce poste. Je crois que je ne suis pas fait pour ça.
+> Que faire. Est-ce que je dois rester dans ce poste. Je crois que ce n'est pas pour moi.
 > Mais partir finira sans doute de la même façon. C'est peut-être pareil partout.
 > Ça ne sert à rien d'y penser.
 

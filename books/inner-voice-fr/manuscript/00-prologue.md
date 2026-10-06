@@ -14,7 +14,7 @@ La plupart des gens répondraient : mes propres pensées. C'est ce que j'aurais
 
 Et puis une nuit, je l'ai écrit. Je ne dormais pas, alors j'ai noté ce qui venait, une vingtaine de lignes, exactement comme ça arrivait.
 
-En relisant le lendemain matin, j'ai été surpris. On n'aurait pas dit qu'une seule personne avait écrit ça.
+Le lendemain matin, la relecture m'a réservé une surprise. On n'aurait pas dit qu'une seule personne avait écrit ça.
 
 *« Les gens vont se moquer de toi. »* — c'était ma mère. Sa tournure exacte, celle qu'elle emploie encore aujourd'hui.
 

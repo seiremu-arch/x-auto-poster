@@ -2,7 +2,7 @@
 
 ## Une phrase, puis plusieurs
 
-Un vendredi soir, je dînais avec une amie et je me suis un peu plaint de mon travail.
+Un vendredi soir, je dînais avec une amie et j'ai un peu râlé à propos de mon travail.
 
 Elle a ri et elle a dit : « Démissionne, tout simplement. »
 
@@ -24,7 +24,7 @@ Cela arrive à la plupart d'entre nous, je crois. Et nous avons un nom pour cet 
 
 Nous rangeons tout ce qui se passe dans la tête sous « mes pensées ».
 
-Rangé ainsi, cela donne : je me contredis depuis hier. J'ai dit que je voulais partir, puis que j'étais irresponsable, puis qu'il fallait arrêter de me plaindre. Donc je suis faible et indécis.
+Rangé ainsi, cela donne : je me contredis depuis hier. J'ai dit que je voulais partir, puis que j'étais irresponsable, puis qu'il fallait arrêter de me plaindre. Donc je manque de caractère et je n'arrive pas à décider.
 
 C'est une erreur de lecture. La contradiction n'est pas une faiblesse. **Elle apparaît parce que vous écoutez plusieurs voix comme si elles étaient celles d'une seule personne.**
 
@@ -142,7 +142,7 @@ Il n'y a rien à répondre. On regarde les chiffres, et on s'arrête.
 
 **Tout ressemble à la voix anxieuse.**
 
-C'est fréquent — surtout quand on est fatigué, et juste avant une échéance. Ce n'est pas grave. On le garde comme une trace : *aujourd'hui, huit lignes sur dix étaient anxieuses.* Refaites le même exercice un autre jour, et la proportion change. Le changement est l'information.
+C'est fréquent — surtout les jours de fatigue, et juste avant une échéance. Ce n'est pas grave. On le garde comme une trace : *aujourd'hui, huit lignes sur dix étaient anxieuses.* Refaites le même exercice un autre jour, et la proportion change. Le changement est l'information.
 
 **Il n'y a pas une seule ligne basse.**
 

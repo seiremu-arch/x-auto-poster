@@ -8,7 +8,7 @@ Un mardi après-midi, un message est arrivé dans un groupe. Un nom que je n'ava
 
 J'ai répondu en trois secondes. « Je viens ! » Avec le point d'exclamation.
 
-Le jeudi soir, à mesure que le vendredi approchait, je me suis senti lourd. Ce n'était pas que je ne voulais pas y aller. Je savais que ce serait bien, une fois sur place. Mais qui, exactement, avait décidé pendant ces trois secondes ?
+Le jeudi soir, à mesure que le vendredi approchait, j'ai ressenti une lourdeur. Ce n'était pas que je ne voulais pas y aller. Je savais que ce serait bien, une fois sur place. Mais qui, exactement, avait décidé pendant ces trois secondes ?
 
 En trois secondes, je n'avais rien pensé du tout. La réponse est pourtant partie avec le visage de ma propre intention.
 
@@ -20,7 +20,7 @@ Vue de l'extérieur, une réponse rapide ressemble à de l'assurance.
 
 Après avoir noté quelques dizaines de mes propres réponses, j'ai remarqué l'inverse. **Plus la réponse était rapide, moins elle avait de chances d'être la mienne.**
 
-Elle est rapide parce que j'ai emprunté ce chemin de nombreuses fois. *Refuser, c'est impoli. Quand on est invité, on y va. Mieux vaut répondre vite.* Aucune de ces phrases n'est née d'une réflexion. Ce sont des chemins battus, et j'ai glissé sur l'un d'eux.
+Elle est rapide parce que j'ai emprunté ce chemin de nombreuses fois. *Refuser, c'est impoli. Quand on vous invite, on y va. Mieux vaut répondre vite.* Aucune de ces phrases n'est née d'une réflexion. Ce sont des chemins battus, et j'ai glissé sur l'un d'eux.
 
 Les réponses rapides ont aussi été récompensées pendant longtemps. Ceux qui répondent vite passent pour fiables ; ceux qui prennent leur temps, pour indécis. Pendant une période, j'ai considéré mes réponses rapides comme l'une de mes rares qualités utiles.
 
@@ -96,7 +96,7 @@ Trois, tirées de mon carnet. En haut, la réponse des trois secondes ; en dess
 > - Y aller pour la première heure. Prévenir que je pars tôt
 >
 > **Accompagner la nouvelle recrue ?**
-> - Non — je suis déjà débordé
+> - Non — j'ai déjà trop de travail
 > - Oui. Mais demander si ça peut être une fois par mois
 >
 > **Choisir un week-end pour aller voir mes parents**

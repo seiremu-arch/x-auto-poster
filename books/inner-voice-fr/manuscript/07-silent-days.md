@@ -28,9 +28,9 @@ Alors je l'ai réécrite.
 
 Celle-là avait une réponse. Le lundi de la troisième semaine était le premier jour d'une semaine où un gros projet avait commencé.
 
-Ce qui veut dire : **la voix n'avait pas disparu. J'étais devenu plus rapide.**
+Ce qui veut dire : **la voix n'avait pas disparu. J'avais accéléré.**
 
-Le chapitre 2 disait que la vitesse est la preuve d'une habitude. Quand on est occupé, on ne prend que les chemins battus. Et tant qu'on est sur les chemins rapides, une voix lente n'arrive pas à temps.
+Le chapitre 2 disait que la vitesse est la preuve d'une habitude. Quand l'agenda est plein, on ne prend que les chemins battus. Et tant qu'on est sur les chemins rapides, une voix lente n'arrive pas à temps.
 
 Le plus gênant, c'est qu'**on ne peut pas remarquer de l'intérieur qu'on a accéléré.** Quand on est rapide, la vitesse paraît normale. Il n'y a rien en soi, à ce moment-là, qui permette la comparaison.
 
@@ -85,7 +85,7 @@ Le chapitre 5 parlait du temps des questions. Posez une question sur l'avenir, e
 
 Et dans « un mur blanc », il n'y a ni bien ni mal. Comme il n'y a rien à évaluer, il n'y a aucune ouverture par où la voix du « il faut » puisse entrer. **Un exercice sur lequel il est impossible de se noter** — c'est ce que valent ces trois lignes.
 
-Des sept, c'est le seul qui fonctionne quand on est épuisé. C'est pourquoi, dans les périodes où les six autres sont impossibles, c'est celui-là qui reste.
+Des sept, c'est le seul qui fonctionne dans l'épuisement. C'est pourquoi, dans les périodes où les six autres sont impossibles, c'est celui-là qui reste.
 
 ### Décider d'avance où l'on revient
 
@@ -104,7 +104,7 @@ Quelques possibilités d'ancrage :
 
 **Plus on va vite, plus l'ancrage compte** — parce que les jours rapides, la décision de faire un exercice n'apparaît même pas. Mieux vaut que cela ne demande aucune décision.
 
-### Ce que j'ai écrit le jour où je suis revenu, après deux mois
+### Ce que j'ai écrit le jour du retour, après deux mois
 
 Voici ce qui s'est passé le jour du retour, au cas où vous vous demanderiez quoi écrire.
 
@@ -112,7 +112,7 @@ La première ligne que j'ai écrite était celle-ci.
 
 > Pas ouvert depuis deux mois.
 
-C'est tout. Aucune raison, aucune réflexion. Je savais qu'essayer d'écrire des raisons déclencherait les reproches, alors j'ai écrit le fait et je me suis arrêté là (la même méthode que la première partie du chapitre 5).
+C'est tout. Aucune raison, aucune réflexion. Je savais qu'essayer d'écrire des raisons déclencherait les reproches, alors j'ai écrit le fait, et rien d'autre (la même méthode que la première partie du chapitre 5).
 
 La deuxième ligne, c'étaient les trois lignes du jour.
 
@@ -174,7 +174,7 @@ Si votre humeur ne revient pas pendant des semaines. Si vous ne dormez pas, nuit
 
 **Alors ce ne sont pas les exercices de ce livre qu'il vous faut, mais quelqu'un de formé.**
 
-Peut-être que vous n'entendez rien, et que ce n'est pas parce que vous allez trop vite. Ce qui revient quand on ralentit, et ce qui demande du repos et un traitement, se ressemblent vus de l'extérieur, et ne sont pas la même chose. Je ne suis pas qualifié pour les distinguer.
+Peut-être que vous n'entendez rien, et que ce n'est pas parce que vous allez trop vite. Ce qui revient quand on ralentit, et ce qui demande du repos et un traitement, se ressemblent vus de l'extérieur, et ne sont pas la même chose. Je n'ai pas les compétences pour les distinguer.
 
 S'il y a un jour où vous refermez ce livre pour aller voir un médecin, ce sera, je crois, le jour où ce livre aura le mieux fonctionné.
 
@@ -182,6 +182,6 @@ S'il y a un jour où vous refermez ce livre pour aller voir un médecin, ce sera
 
 La voix n'est pas partie. Votre vitesse a changé — et de l'intérieur, on ne peut pas le remarquer.
 
-Les jours sans son, on ne cherche donc pas. Trois lignes, et on est revenu au présent.
+Les jours sans son, on ne cherche donc pas. Trois lignes, et c'est le retour au présent.
 
 Cela fait les sept. Il reste à regarder une dernière fois ce que ce livre voulait transmettre, et à s'arrêter.

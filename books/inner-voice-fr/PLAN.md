@@ -74,7 +74,6 @@
 - [x] Conclusion / Annexe
 - [x] 通しの推敲(命令形・禁止語・約物の空白・章ごとの語数比)/ EPUB / KDP登録シート(`LISTING.md`)
 - [x] 表紙(四言語で同じデザイン、文字だけフランス語に)(`python scripts/build_cover.py inner-voice-fr`)
-- [ ] **著者の一人称の性**(→ Vault `dba7c10f3f`)。目視で約21か所が男性形のまま(`check_style.py` が拾えるのはそのうち16か所)。
-      著者の答え(男性形 / 女性形 / 性が出ない言い方)を待っている。
-      `check_style.py` が件数を「確認待ち」として出す
+- [x] **著者の一人称の性**(→ Vault `dba7c10f3f`)。2026-10-06、著者の答えは「中立」。
+      著者側26行(うち3行は同じ台詞「Il m'a humilié」の引用・抹消線・一覧)と、総称の on / 主語の無い seul 9か所を書き換え、`check_style.py` は著者側も失敗として数えるようにした(0件)
 - [ ] タイトルの重複確認(Amazon.fr)/ KDP登録

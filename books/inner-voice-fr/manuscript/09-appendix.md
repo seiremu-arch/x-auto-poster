@@ -50,7 +50,7 @@ Aucune des distinctions de ce livre ne sert à interpréter des symptômes physi
 
 Ce livre a commencé par une vingtaine de lignes écrites une nuit où je ne dormais pas.
 
-Cette nuit-là, je croyais réfléchir à quelque chose tout seul. Relire le lendemain matin et découvrir qu'au moins quatre personnes avaient parlé a été, je m'en souviens, un soulagement considérable. Je n'étais pas en train de peiner sur une décision. J'assistais à un débat.
+Cette nuit-là, je croyais réfléchir à quelque chose en tête-à-tête avec moi-même. Relire le lendemain matin et découvrir qu'au moins quatre personnes avaient parlé a été, je m'en souviens, un soulagement considérable. Je n'étais pas en train de peiner sur une décision. J'assistais à un débat.
 
 Depuis, je ne fais que cela : donner des noms à ce débat, et compter. Rien de plus spécialisé. Ce livre contient la façon de compter, et la façon de faire assez de silence pour pouvoir compter.
 

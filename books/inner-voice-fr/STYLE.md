@@ -27,6 +27,25 @@ Pas « ## Coupez la question en trois », mais « ## La question, coupée en tro
 L'allemand a appris la leçon à ses dépens (14 cas trouvés après coup, → Vault `7586251f89`).
 Ici, on vérifie **dès le premier chapitre**.
 
+## Aucun genre grammatical pour l'auteur ni pour le lecteur
+
+→ Vault `0045c354b1`(読者)/ `dba7c10f3f`(著者。2026-10-06 に中立と決まった)。
+
+| Au lieu de | Écrire |
+| --- | --- |
+| j'ai été surpris | la relecture m'a réservé une surprise |
+| je suis rentré | j'ai repris le chemin de la maison |
+| je me suis plaint | j'ai un peu râlé |
+| je me suis senti lourd | j'ai ressenti une lourdeur |
+| j'étais devenu plus rapide | j'avais accéléré |
+| je suis à peu près sûr | je crois bien |
+| tout seul / seul | sans personne / en tête-à-tête avec moi-même |
+| il m'a humilié | il m'a fait honte |
+| quand on est fatigué | les jours de fatigue |
+
+Les auxiliaires `avoir` et les tournures impersonnelles évitent l'accord. Les personnages (l'amie du chapitre 1)
+ont un genre.
+
 ## Mots absents
 
 Tout ce qui ne peut pas être vérifié. Ni dans le texte, ni sur la couverture, ni dans la description.

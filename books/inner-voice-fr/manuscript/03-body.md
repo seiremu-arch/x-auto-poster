@@ -10,7 +10,7 @@ Trois pas dans le couloir après la porte d'entrée, mes épaules sont montées.
 
 Je n'aurais pas su dire pourquoi. Les murs étaient blancs. Ça ne sentait rien. Mes épaules sont simplement montées de deux centimètres vers mes oreilles, et y sont restées.
 
-J'ai dit « c'est un bel appartement » et je suis rentré. Ma tête était pour, jusqu'au bout.
+J'ai dit « c'est un bel appartement » et j'ai repris le chemin de la maison. Ma tête était pour, jusqu'au bout.
 
 Trois jours plus tard, j'en ai signé un autre. Douze minutes de la gare, moins de lumière. Dans le couloir, mes épaules ne sont pas montées.
 
@@ -134,7 +134,7 @@ La peur, et ce qui fait peur mais vers quoi l'on va, serrent tous deux le corps.
 
 **Je ne sens rien.**
 
-C'est le cas le plus fréquent, et le plus souvent cela veut dire qu'on est fatigué. Après une nuit courte, juste après une échéance, après une journée avec beaucoup de monde, le signal ne vient pas.
+C'est le cas le plus fréquent, et le plus souvent cela veut dire que c'est la fatigue. Après une nuit courte, juste après une échéance, après une journée avec beaucoup de monde, le signal ne vient pas.
 
 Ces jours-là, on laisse l'exercice 3 de côté. Dormir est plus rapide que de se servir de « je n'ai rien senti » comme d'une preuve contre soi. Le lendemain matin, on réessaie, et souvent ça vient sans effort.
 
@@ -152,7 +152,7 @@ De la famille dans la pièce d'à côté, des murs fins, l'envie de le faire au 
 
 Dans ce cas, **on bouge seulement la bouche, sans le son.** Former les mots avec les lèvres et la langue, sans voix derrière. C'est moins efficace que de parler, mais bien meilleur que de le dire dans sa tête — parce qu'une pensée se fait couper en route, alors qu'une bouche en mouvement doit finir la phrase.
 
-Une salle de bains convient. Une voiture garée convient. Le trajet du retour, seul, convient. J'utilise les douze minutes depuis la gare la plupart du temps.
+Une salle de bains convient. Une voiture garée convient. Le trajet du retour, sans personne, convient. J'utilise les douze minutes depuis la gare la plupart du temps.
 
 **Je commence à trop croire mon corps.**
 

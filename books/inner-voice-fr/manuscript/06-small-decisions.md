@@ -14,7 +14,7 @@ Il y a une ligne à ce sujet.
 
 > Refusé le verre de ce soir. Sans donner de raison.
 
-Pas un événement marquant. La semaine suivante, il y a eu d'autres invitations du même genre, et je suis allé à certaines. Je suis à peu près sûr de l'avoir oublié dès le lendemain.
+Pas un événement marquant. La semaine suivante, il y a eu d'autres invitations du même genre, et j'en ai accepté certaines. Je crois bien l'avoir oublié dès le lendemain.
 
 Mais quand je compte à rebours, *ne pas aller là où je n'ai pas envie d'aller* a commencé pour moi ce jour-là. Ma première bifurcation en trois ans avait cette allure.
 
@@ -171,7 +171,7 @@ L'échec compte moins que **le fait d'avoir pu essayer dans une zone réversible
 
 S'arrêter est permis. Le pas suivant peut attendre qu'il arrive.
 
-Si c'est léger pendant l'arrêt, c'est de l'attente. Si c'est lourd, on est passé du côté de l'évitement. La question va au corps (chapitre 3).
+Si c'est léger pendant l'arrêt, c'est de l'attente. Si c'est lourd, c'est devenu de l'évitement. La question va au corps (chapitre 3).
 
 **La grande décision ne se découpe vraiment pas.**
 

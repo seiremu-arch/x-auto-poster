@@ -12,7 +12,8 @@
 
 性の一致(Vault `0045c354b1` / `dba7c10f3f`):
 - 読者に向けた一致(vous êtes allé など)は失敗として数える
-- 著者の一人称の一致(j'ai été surpris など)は、著者の答え待ちなので件数だけ出し、失敗にしない
+- 著者の一人称の一致(j'ai été surpris など)も失敗にする。著者は中立と決まった(2026-10-06)
+- 総称の on に性で変わる形が続くもの(quand on est fatigué)も失敗にする
 """
 
 import argparse
@@ -42,8 +43,13 @@ _MASC = (r"(surpris|plaint|rentré|allé|resté|devenu|revenu|venu|parti|passé|
          r"prêt|convaincu|habitué|perdu|certain|lourd|léger|souvenu|arrêté)")
 READER_GENDER = re.compile(r"\bvous\s+(êtes|serez|étiez|soyez|seriez|vous êtes|vous serez|avez été|a rendu)\s+"
                            r"(\w+\s+)?" + _MASC + r"\b|\bvous\s+n'êtes\s+pas\s+" + _MASC + r"\b", re.IGNORECASE)
-AUTHOR_GENDER = re.compile(r"\b(je suis|j'étais|je me suis|j'ai été|je serai|je reste|m'étais|me suis)\s+"
-                           r"(\w+\s+){0,2}?" + _MASC + r"\b|\btout seul\b", re.IGNORECASE)
+AUTHOR_GENDER = re.compile(r"\b(je suis|j'étais|je me suis|j'ai été|je serai|je reste|m'étais|me suis|"
+                           r"je ne suis (pas|plus|jamais)|je ne me suis (pas|plus|jamais)|je n'étais (pas|plus)|je n'ai pas été)\s+"
+                           r"(\w+\s+){0,3}?" + _MASC + r"\b|\btout seul\b|\bLaissé à moi-même\b|"
+                           r"\bm'(a|ont|avait|avaient) (blessé|humilié|surpris|vexé|déçu|étonné|touché)\b|"
+                           r"\bje ne suis pas (fait|qualifié|devenu)\b|\bje me sentais (\w+\s+)?" + _MASC + r"\b", re.IGNORECASE)
+# 総称の on に性で変わる形が続くもの(「quand on est fatigué」)。読者の性(Vault 0045c354b1)の残り
+GENERIC_ON = re.compile(r"\bon est\s+(\w+\s+)?" + _MASC + r"\b", re.IGNORECASE)
 
 LOOSE_SPACE = re.compile(r"(?<=\S) ([;:!?])|« |(?<=\S) »")
 
@@ -52,12 +58,10 @@ def is_step_or_quote(line):
     return bool(re.match(r"^\d+\. ", line)) or line.startswith(("- ", ">", "|"))
 
 
-pending = []  # 著者の一人称の性の一致。著者の答え待ち(Vault dba7c10f3f)なので失敗にしない
 
 
 def check():
     findings = []
-    pending.clear()
     for path in sorted(MANUSCRIPT.glob("*.md")):
         for number, raw in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
             line = raw.strip()
@@ -65,8 +69,10 @@ def check():
                 findings.append((path.name, number, "空白", line[:78]))
             if READER_GENDER.search(line):
                 findings.append((path.name, number, "性の一致(読者)", line[:78]))
-            if AUTHOR_GENDER.search(line):
-                pending.append((path.name, number, line[:78]))
+            if AUTHOR_GENDER.search(line):  # 著者は中立と決まった(2026-10-06、Vault dba7c10f3f)
+                findings.append((path.name, number, "性の一致(著者)", line[:78]))
+            if GENERIC_ON.search(line):
+                findings.append((path.name, number, "性の一致(総称のon)", line[:78]))
             if is_step_or_quote(line):
                 continue
             if BANNED.search(line) and BANNED_ALLOWED not in line:
@@ -114,9 +120,7 @@ def main(argv=None):
     if not args.quiet:
         for name, number, kind, text in findings:
             print(f"  {kind}  {name}:{number}  {text}")
-    print(f"{len(findings)} 件" if findings else "0 件 — 命令形・禁止語・約物の空白・読者の性、いずれも問題なし")
-    if pending:
-        print(f"(著者の一人称の性の一致: {len(pending)} か所 — 著者の答え待ち、失敗にはしない → PLAN.md)")
+    print(f"{len(findings)} 件" if findings else "0 件 — 命令形・禁止語・約物の空白・読者と著者の性、いずれも問題なし")
     return 1 if findings else 0
 
 

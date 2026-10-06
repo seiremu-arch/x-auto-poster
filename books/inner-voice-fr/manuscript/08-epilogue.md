@@ -4,7 +4,7 @@
 
 Cela fait un an que j'ai commencé à écrire ceci.
 
-Honnêtement : je ne suis pas devenu quelqu'un de calme.
+Honnêtement : le calme n'est pas devenu mon caractère.
 
 Ça continue de parler une fois la lumière éteinte. Je pense encore aux messages sans réponse, et une chose mal dite il y a dix ans refait encore surface. La voix anxieuse arrive en même quantité qu'il y a un an. Elle n'a pas diminué.
 

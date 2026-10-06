@@ -10,7 +10,7 @@ Dans chacun de ces moments, ma main faisait le même geste. Dans la poche, écra
 
 Ce n'était pas une décision. C'était fini avant que je m'en rende compte. Parfois le micro-ondes sonne, et je serais incapable de dire ce que je regardais.
 
-L'étrange, c'est que je ne vivais rien de tout cela comme de *l'ennui.* J'étais plutôt occupé. En deux minutes, j'avais lu trois opinions d'inconnus, vu cinq publicités, et je m'étais souvenu d'un message resté sans réponse.
+L'étrange, c'est que je ne vivais rien de tout cela comme de *l'ennui.* J'avais plutôt la tête pleine. En deux minutes, j'avais lu trois opinions d'inconnus, vu cinq publicités, et un message resté sans réponse m'était revenu en tête.
 
 **Le temps était libre. Moi, je ne l'étais pas.**
 
@@ -128,7 +128,7 @@ Mes trois premières semaines ressemblaient à ceci.
 
 Le calme est apparu dans les sept minutes à la troisième semaine. Avant cela, c'étaient simplement sept minutes bruyantes.
 
-Et j'ai remarqué autre chose. **Les jours bruyants suivaient un schéma.** Les jours où j'avais vu beaucoup de monde, et les jours où il y avait quelque chose à décider, étaient bruyants sans exception. Ce que la note m'a appris, ce n'était donc pas comment progressait mon silence. C'était **quel genre de journée me rend bruyant.**
+Et j'ai remarqué autre chose. **Les jours bruyants suivaient un schéma.** Les jours où j'avais vu beaucoup de monde, et les jours où il y avait quelque chose à décider, étaient bruyants sans exception. Ce que la note m'a appris, ce n'était donc pas comment progressait mon silence. C'était **quel genre de journée rend ma tête bruyante.**
 
 C'est plus utile qu'il n'y paraît. Les jours que je sais d'avance bruyants, je ne prends pas de décision importante le soir. Cela seul a réduit mes erreurs.
 
@@ -162,11 +162,11 @@ Si cela se répète, revoir l'heure du coucher vous mènera plus loin que cet ex
 
 Tous les jours n'est pas nécessaire. **Deux fois par semaine suffisent.**
 
-J'ai échoué trois fois avec « tous les jours », et ça a tenu quand je suis passé à « mercredi et dimanche ». Fixer les jours enlève la culpabilité les autres jours. La culpabilité ajoute une voix ; autant ne pas l'installer.
+J'ai échoué trois fois avec « tous les jours », et ça a tenu quand j'ai choisi « mercredi et dimanche ». Fixer les jours enlève la culpabilité les autres jours. La culpabilité ajoute une voix ; autant ne pas l'installer.
 
 **Je n'ai jamais la maison pour moi.**
 
-Sept minutes seul, c'est difficile quand il y a du monde. On les place alors dehors : le trajet du retour, l'aller-retour à l'épicerie, la voiture sur le parking avant de rentrer.
+Sept minutes sans personne, c'est difficile quand il y a du monde. On les place alors dehors : le trajet du retour, l'aller-retour à l'épicerie, la voiture sur le parking avant de rentrer.
 
 **L'endroit n'a pas besoin d'être silencieux.** Le silence, rappelons-le, ce n'est pas l'absence de bruit, c'est l'absence d'entrée suivante. Même là où les gens parlent, si rien ne vous est adressé, la place reste libre.
 
@@ -174,7 +174,7 @@ Sept minutes seul, c'est difficile quand il y a du monde. On les place alors deh
 
 Si vous attendiez *je libère la place et une voix arrive*, c'est ici que ça casse.
 
-Honnêtement : les jours où quelque chose arrive dans les sept minutes ne sont pas fréquents chez moi. Peut-être un ou deux sur dix. Les huit autres, je reste simplement assis sept minutes.
+Honnêtement : les jours où quelque chose arrive dans les sept minutes ne sont pas fréquents chez moi. Peut-être un ou deux sur dix. Les huit autres, je passe simplement sept minutes là, sans rien.
 
 Je continue parce que la fois où quelque chose se pose vient généralement **après ces huit-là.** C'est le nombre de fois où la place a été libre qui semble compter.
 
