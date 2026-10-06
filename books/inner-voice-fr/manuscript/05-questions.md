@@ -190,7 +190,7 @@ Sinon, on écrit que rien n'est venu, et on referme la page. La troisième parti
 
 Non. Cela prend quinze minutes, alors je le fais une fois par semaine, un jour fixe.
 
-On a envie d'écrire le jour même où quelque chose s'est passé — mais **si on l'écrit le jour même, la première partie ne contiendra pas de faits.** Tant qu'il reste de la chaleur, les adjectifs ne s'arrêtent pas. Deux jours plus tard, cela marche mieux.
+On a envie d'écrire le jour même où quelque chose s'est passé — mais **si on écrit le jour même, la première partie ne sera pas faite que de faits.** Tant qu'il reste de la chaleur, les adjectifs ne s'arrêtent pas. Deux jours plus tard, cela marche mieux.
 
 ## À la fin de ce chapitre
 

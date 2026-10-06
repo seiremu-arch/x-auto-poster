@@ -12,7 +12,7 @@ Il martedì, lo stesso. Il mercoledì, fare l'esercizio era già diventato un pe
 
 Il venerdì ho chiuso il quaderno, e non l'ho riaperto per due mesi.
 
-Credo che succeda a quasi tutti quelli che leggono questo libro. **Non ha la forma di «più continui, più diventa silenzioso».** Per quanto ne so, non ce l'ha.
+Credo che succeda a quasi tutte le persone che leggono questo libro. **Non ha la forma di «più continui, più diventa silenzioso».** Per quanto ne so, non ce l'ha.
 
 ## La voce non se n'è andata. Hai accelerato tu
 

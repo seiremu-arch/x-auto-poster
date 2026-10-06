@@ -24,6 +24,7 @@
   (フランス語版の著者の一人称は 2026-10-06 に中立と決まり、書き換えた → `dba7c10f3f`)
   (ただし性に絞った通しの読み返しは未完了。1回目の書き換えで3か所を取りこぼした → `dba7c10f3f` その2)
   (→ 同日に読み返しを実施。著者側1か所・読者側と総称の4か所を追加で直した → `dba7c10f3f` その3)
+  (数の訂正と、複数の総称代名詞 certains / d'autres を残す判断 → `dba7c10f3f` その4)
   スペイン語版 `La voz más baja` の芯は
   「Tu voz más baja nunca hablará más fuerte. Solo queda bajar tu propio volumen」
   (中立スペイン語 → `cb294d65c0`。読者の性を決めない → `0045c354b1`、著者の性は著者が決める → `dba7c10f3f`)。

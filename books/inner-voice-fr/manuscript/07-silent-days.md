@@ -12,7 +12,7 @@ Le mardi, pareil. Le mercredi, faire l'exercice était devenu une corvée. Le je
 
 Le vendredi, j'ai refermé le carnet, et je ne l'ai pas rouvert pendant deux mois.
 
-Je crois que cela arrive à presque tous ceux qui lisent ce livre. **Cela ne prend pas la forme « continuez, et ça deviendra plus calme ».** Pour autant que je sache, cela ne la prend pas.
+Je crois que cela arrive à presque toutes les personnes qui lisent ce livre. **Cela ne prend pas la forme « continuez, et ça deviendra plus calme ».** Pour autant que je sache, cela ne la prend pas.
 
 ## La voix n'est pas partie. C'est votre vitesse qui a changé
 
