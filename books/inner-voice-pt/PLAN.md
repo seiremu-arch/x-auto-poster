@@ -60,7 +60,9 @@ claim `dd52672aca` の予測(第5章がプラス、第7章がマイナス)を、
 - [x] 企画・構成
 - [x] Prólogo
 - [x] Capítulo 1 Quantas vozes estão falando
-- [ ] Capítulos 2〜7
+- [x] Capítulo 2 Distinguir pela velocidade
+- [x] Capítulo 3 Distinguir no corpo
+- [ ] Capítulos 4〜7
 - [ ] Encerramento / Apêndice
 - [ ] 検査 / EPUB / 表紙 / 登録シート(`LISTING.md`)
 - [ ] 章をまたいだ通しの推敲と、性に絞った読み返し
