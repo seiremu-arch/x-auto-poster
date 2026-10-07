@@ -6,6 +6,7 @@
     python3 writing/last-ledger/build_epub.py --english     # 英語版（manuscript-en/）
     python3 writing/last-ledger/build_epub.py --german      # ドイツ語版（manuscript-de/）
     python3 writing/last-ledger/build_epub.py --french      # フランス語版（manuscript-fr/）
+    python3 writing/last-ledger/build_epub.py --spanish     # スペイン語版（manuscript-es/）
 
 manuscript/*.md を読み、book/ に .epub と統合 .md を出力する。
 著者名などは METADATA を書き換える。
@@ -16,11 +17,13 @@ ROOT = pathlib.Path(__file__).parent
 OUT  = ROOT / "book"
 
 # 縦書き（漢数字）が既定。--horizontal で横書き（算用数字）版、
-# --english で英語版、--german でドイツ語版、--french でフランス語版（いずれも横書き・左開き）を作る。
+# --english で英語版、--german でドイツ語版、--french でフランス語版、
+# --spanish でスペイン語版（いずれも横書き・左開き）を作る。
 ENGLISH  = "--english" in sys.argv
 GERMAN   = "--german" in sys.argv
 FRENCH   = "--french" in sys.argv
-LATIN    = ENGLISH or GERMAN or FRENCH         # 欧文の版（組み方・CSS・斜体の扱いが共通）
+SPANISH  = "--spanish" in sys.argv
+LATIN    = ENGLISH or GERMAN or FRENCH or SPANISH         # 欧文の版（組み方・CSS・斜体の扱いが共通）
 VERTICAL = not LATIN and "--horizontal" not in sys.argv
 if ENGLISH:
     SRC = ROOT / "manuscript-en"
@@ -28,6 +31,8 @@ elif GERMAN:
     SRC = ROOT / "manuscript-de"
 elif FRENCH:
     SRC = ROOT / "manuscript-fr"
+elif SPANISH:
+    SRC = ROOT / "manuscript-es"
 elif VERTICAL:
     SRC = ROOT / "build" / "vertical"
 else:
@@ -83,6 +88,18 @@ elif FRENCH:
     })
     SUFFIX = ""
     BASENAME = "Le_Dernier_Livre_de_comptes_1_Un_heritage_en_trois_parts"
+elif SPANISH:
+    METADATA.update({
+        "title":     "El último libro de cuentas: Una herencia en tres partes",
+        "subtitle":  "Una herencia en tres partes",
+        "series":    "El último libro de cuentas",
+        "language":  "es",
+        "original":  "最後の帳簿　三つに分けられた遺産",
+        "uuid":      "urn:uuid:" + str(uuid.uuid5(uuid.NAMESPACE_URL,
+                      "last-ledger-vol1-una-herencia-en-tres-partes-es")),
+    })
+    SUFFIX = ""
+    BASENAME = "El_ultimo_libro_de_cuentas_1_Una_herencia_en_tres_partes"
 LANG = METADATA["language"]
 
 # 欧文の版の見出し・扉まわりの文言
@@ -109,6 +126,13 @@ LABELS = {
                       "événements sont le fruit de l&#8217;imagination de l&#8217;auteur. Toute "
                       "ressemblance avec des personnes réelles, vivantes ou décédées, ou avec des "
                       "événements réels serait pure coïncidence."},
+    "es": {"prologue": "Prólogo", "epilogue": "Epílogo", "toc": "Índice",
+           "book": "libro", "book_one": "Libro 1", "copyright": "Créditos",
+           "rights": "Todos los derechos reservados.",
+           "original": "Título original:",
+           "fiction": "Esta es una obra de ficción. Los nombres, personajes, empresas, lugares y "
+                      "acontecimientos son producto de la imaginación del autor. Cualquier parecido "
+                      "con personas reales, vivas o muertas, o con hechos reales es pura coincidencia."},
 }.get(LANG)
 
 ORDER = [("prologue", LABELS["prologue"] if LATIN else "プロローグ")] + \
@@ -396,7 +420,8 @@ def build():
     if LATIN:
         words = sum(len((SRC / (s + ".md")).read_text(encoding="utf-8").split())
                     for s, _, _ in chapters)
-        print("Edition:", "English" if ENGLISH else "Deutsch" if GERMAN else "Français",
+        print("Edition:", "English" if ENGLISH else "Deutsch" if GERMAN
+              else "Français" if FRENCH else "Español",
               "(horizontal, left-to-right)")
         print("EPUB:", epub.name, "(%.1f KB)" % (epub.stat().st_size / 1024))
         print("Units:", len(chapters), "/ about", format(words, ","), "words")

@@ -1146,3 +1146,14 @@ KDPの入力内容は `book/KDP-Francais.md`、方針と対訳表は `TRANSLATIO
 
 遺留分は *réserve héréditaire*、任意同行は *audition libre*、公正証書遺言は *testament authentique*。
 三つともフランス法に同じ名前の制度があるので、説明なしで通じる。
+
+## 追記 2026-10-07（スペイン語版を仕上げた）
+
+スペイン語版 *El último libro de cuentas: Una herencia en tres partes* を全29単位訳した（約36,000語）。
+底本は日本語原文。スペインと中南米の両方で読めるよう *vosotros* を使わず、
+付言事項の決め台詞も命令形を避けて「que no le quede ni un yen」にした。
+`check_es.py` で « » と ¿ ¡ の漏れを確かめてから、`build_epub.py --spanish` で
+`book/El_ultimo_libro_de_cuentas_1_Una_herencia_en_tres_partes.epub` を組む。
+KDPの入力内容は `book/KDP-Espanol.md`、方針と対訳表は `TRANSLATION-es.md`。
+
+遺留分は *la legítima*。スペイン・中南米の民法に同じ制度があるので、説明なしで通じる。

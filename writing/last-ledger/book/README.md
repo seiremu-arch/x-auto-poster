@@ -10,6 +10,7 @@ python3 ../build_epub.py --horizontal  # 横書きEPUB + 統合md
 python3 ../build_epub.py --english     # 英語版EPUB + 統合md（../manuscript-en/）
 python3 ../build_epub.py --german      # ドイツ語版EPUB + 統合md（../manuscript-de/）
 python3 ../fr_typo.py && python3 ../build_epub.py --french   # フランス語版EPUB + 統合md（../manuscript-fr/）
+python3 ../check_es.py && python3 ../build_epub.py --spanish # スペイン語版EPUB + 統合md（../manuscript-es/）
 ```
 
 | ファイル | 中身 |
@@ -28,6 +29,9 @@ python3 ../fr_typo.py && python3 ../build_epub.py --french   # フランス語�
 | `KDP-Francais.md` | フランス語版のKDP入力内容（内容紹介・キーワード・カテゴリ・AI開示・定価制度の注意） |
 | `Le_Dernier_Livre_de_comptes_1_Un_heritage_en_trois_parts.epub` | **フランス語版のKDP入稿用**（横書き・左開き） |
 | `Le_Dernier_Livre_de_comptes_1_Un_heritage_en_trois_parts.md` | フランス語版の統合原稿 |
+| `KDP-Espanol.md` | スペイン語版のKDP入力内容（内容紹介・キーワード・カテゴリ・AI開示・定価制度の注意） |
+| `El_ultimo_libro_de_cuentas_1_Una_herencia_en_tres_partes.epub` | **スペイン語版のKDP入稿用**（横書き・左開き） |
+| `El_ultimo_libro_de_cuentas_1_Una_herencia_en_tres_partes.md` | スペイン語版の統合原稿 |
 
 ## 数字の扱い
 
