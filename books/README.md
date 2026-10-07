@@ -71,4 +71,4 @@ python books/inner-voice-pt/check_style.py            # ポルトガル語(ブ�
 - `inner-voice-es/` — 『La voz más baja』(`inner-voice` のスペイン語での書き直し / 執筆済み)
 - `inner-voice-it/` — 『La voce più bassa』(`inner-voice` のイタリア語での書き直し / 執筆済み)
 - `inner-voice-nl/` — 『De zachtste stem』(`inner-voice` のオランダ語での書き直し / 執筆済み)
-- `inner-voice-pt/` — 『A voz mais baixa』(`inner-voice` のポルトガル語(ブラジル)での書き直し / 執筆中)
+- `inner-voice-pt/` — 『A voz mais baixa』(`inner-voice` のポルトガル語(ブラジル)での書き直し / 執筆済み)
