@@ -64,7 +64,8 @@ claim `dd52672aca` の予測(第5章がプラス、第7章がマイナス)を、
 - [x] Capítulo 3 Distinguir no corpo
 - [x] Capítulo 4 Fazer espaço
 - [x] Capítulo 5 Escrever para ouvir
-- [ ] Capítulos 6〜7
+- [x] Capítulo 6 Decidir pequeno
+- [x] Capítulo 7 Os dias em que você não ouve nada
 - [ ] Encerramento / Apêndice
 - [ ] 検査 / EPUB / 表紙 / 登録シート(`LISTING.md`)
 - [ ] 章をまたいだ通しの推敲と、性に絞った読み返し
