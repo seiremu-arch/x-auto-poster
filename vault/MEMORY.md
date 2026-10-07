@@ -32,6 +32,9 @@
   「La tua voce più bassa non parlerà mai più forte. Non resta che abbassare il tuo volume」
   オランダ語版 `De zachtste stem` の芯は
   「Je zachtste stem wordt nooit luider. Er zit niets anders op dan zelf stiller te worden」
+  ポルトガル語(ブラジル)版 `A voz mais baixa` の芯は
+  「A sua voz mais baixa nunca vai falar mais alto. Só resta baixar o seu próprio volume」
+  (ブラジルのポルトガル語で書く → `1a18342985`)
 
 ## 運用ルール
 
@@ -55,5 +58,5 @@
 ## 直近のラン
 
 <!-- loop:last-run -->
-- 2026-10-06 11:40 `capture(manual)` — 新規 1 / 重複 0 / 失敗 0 (`vault/40-runs/2026-10-06-run-b04b44d68b.md`)
+- 2026-10-08 08:21 `capture(manual)` — 新規 1 / 重複 0 / 失敗 0 (`vault/40-runs/2026-10-08-run-475055b4c2.md`)
 <!-- /loop:last-run -->

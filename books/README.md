@@ -59,6 +59,7 @@ python books/inner-voice-fr/check_style.py --fix      # フランス語版の文
 python books/inner-voice-es/check_style.py            # スペイン語版の文体検査(地域語・性の一致・¿¡ も)
 python books/inner-voice-it/check_style.py            # イタリア語版の文体検査(性の一致・書きかけの言い直しも)
 python books/inner-voice-nl/check_style.py            # オランダ語版の文体検査(地域語・引用符・書きかけの言い直しも)
+python books/inner-voice-pt/check_style.py            # ポルトガル語(ブラジル)版の文体検査(ポルトガルの語・性の一致も)
 ```
 
 ## 現在の作品
@@ -70,3 +71,4 @@ python books/inner-voice-nl/check_style.py            # オランダ語版の文
 - `inner-voice-es/` — 『La voz más baja』(`inner-voice` のスペイン語での書き直し / 執筆済み)
 - `inner-voice-it/` — 『La voce più bassa』(`inner-voice` のイタリア語での書き直し / 執筆済み)
 - `inner-voice-nl/` — 『De zachtste stem』(`inner-voice` のオランダ語での書き直し / 執筆済み)
+- `inner-voice-pt/` — 『A voz mais baixa』(`inner-voice` のポルトガル語(ブラジル)での書き直し / 執筆中)

@@ -1,0 +1,23 @@
+{
+  "slug": "inner-voice-pt",
+  "title": "A voz mais baixa",
+  "subtitle": "Sete exercícios para distinguir a sua própria voz do barulho na sua cabeça",
+  "author": "Kazu A. Suzuki",
+  "language": "pt-BR",
+  "identifier": "urn:uuid:5f2ce475-e908-46aa-b298-ad63320e4d3c",
+  "core_sentence": "A sua voz mais baixa nunca vai falar mais alto. Só resta baixar o seu próprio volume",
+  "core_claim": "899744d0ff",
+  "target_words": 14700,
+  "chapters": [
+    "00-prologue.md",
+    "01-how-many-voices.md",
+    "02-speed.md",
+    "03-body.md",
+    "04-margin.md",
+    "05-questions.md",
+    "06-small-decisions.md",
+    "07-silent-days.md",
+    "08-epilogue.md",
+    "09-appendix.md"
+  ]
+}
