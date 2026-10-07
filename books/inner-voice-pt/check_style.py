@@ -51,14 +51,20 @@ REGIONAL = re.compile(
 _GENDERED = (r"(\w+(ado|ada|ido|ida|oso|osa)|sozinho|sozinha|cansado|cansada|certo|certa|seguro|segura|"
              r"pronto|pronta|quieto|quieta|calmo|calma|tranquilo|tranquila|satisfeito|satisfeita|preso|presa|"
              r"convicto|convicta|atento|atenta|surpreso|surpresa|obrigado|obrigada|sujeito|sujeita|"
-             r"exausto|exausta|aberto|aberta|parado|parada|feito|feita|morto|morta|tenso|tensa|leve|pesado|pesada)")
+             r"exausto|exausta|aberto|aberta|parado|parada|feito|feita|morto|morta|tenso|tensa|leve|pesado|pesada|"
+             r"preciso|precisa|exato|exata|honesto|honesta|sincero|sincera|franco|franca)")
 _MODS = r"((muito|tão|mais|meio|um pouco|bem|já|ainda|sempre|realmente|bastante|demais|quase|completamente)\s+){0,2}"
 GENDER = re.compile(
-    r"\b(estou|estava|estive|fiquei|ficava|fico|sou|era|fui|me senti|me sinto|me sentia|continuo|continuava|"
-    r"permaneci|ando|andava|não estou|não estava|não fiquei|não sou|não era|não fui|"
+    # 一人称だけの形。estava / era / ficava / me sentia などは三人称と同形なので、前に eu があるときだけ見る
+    # (主語を省いた「Estava cansado」は拾えない。読み返しで拾う)
+    r"\b(estou|estive|fiquei|fico|sou|fui|me senti|me sinto|continuo|permaneci|ando|não estou|não fiquei|não sou|não fui|"
+    r"eu (não )?(estava|era|ficava|me sentia|continuava|andava)|"
     r"você está|você estava|você fica|você ficou|você ficava|você é|você era|você se sente|você se sentiu|você se sentia|"
     r"você não está|você não fica|você não é)\s+" + _MODS + _GENDERED.replace("leve|", "") + r"\b"
-    r"|\b(eu|você) (mesmo|mesma)\b|\btodos (os|aqueles) que\b|\bobrigad[oa] (por|pela|pelo)\b",
+    r"|\b(eu|você) (mesmo|mesma)\b|\btodos (os|aqueles) que\b|\bobrigad[oa] (por|pela|pelo)\b"
+    # 不定詞・現在分詞を挟む形(「Quero ser preciso」「Sendo honesto」)。第4章で取りこぼした
+    r"|\b(quero|queria|vou|ia|preciso|precisava|tento|tentei|posso|pude) (ser|ficar|estar|me sentir) " + _MODS + _GENDERED + r"\b"
+    r"|\b[Ss]endo (honesto|honesta|sincero|sincera|franco|franca|justo|justa|preciso|precisa|exato|exata)\b",
     re.IGNORECASE,
 )
 
