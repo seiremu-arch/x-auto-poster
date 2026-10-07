@@ -11,6 +11,7 @@ python3 ../build_epub.py --english     # 英語版EPUB + 統合md（../manuscrip
 python3 ../build_epub.py --german      # ドイツ語版EPUB + 統合md（../manuscript-de/）
 python3 ../fr_typo.py && python3 ../build_epub.py --french   # フランス語版EPUB + 統合md（../manuscript-fr/）
 python3 ../check_es.py && python3 ../build_epub.py --spanish # スペイン語版EPUB + 統合md（../manuscript-es/）
+python3 ../check_it.py && python3 ../build_epub.py --italian # イタリア語版EPUB + 統合md（../manuscript-it/）
 ```
 
 | ファイル | 中身 |
@@ -32,6 +33,9 @@ python3 ../check_es.py && python3 ../build_epub.py --spanish # スペイン語�
 | `KDP-Espanol.md` | スペイン語版のKDP入力内容（内容紹介・キーワード・カテゴリ・AI開示・定価制度の注意） |
 | `El_ultimo_libro_de_cuentas_1_Una_herencia_en_tres_partes.epub` | **スペイン語版のKDP入稿用**（横書き・左開き） |
 | `El_ultimo_libro_de_cuentas_1_Una_herencia_en_tres_partes.md` | スペイン語版の統合原稿 |
+| `KDP-Italiano.md` | イタリア語版のKDP入力内容（内容紹介・キーワード・カテゴリ・AI開示・値引き規制の注意） |
+| `L_ultimo_libro_dei_conti_1_Un_eredita_in_tre_parti.epub` | **イタリア語版のKDP入稿用**（横書き・左開き） |
+| `L_ultimo_libro_dei_conti_1_Un_eredita_in_tre_parti.md` | イタリア語版の統合原稿 |
 
 ## 数字の扱い
 

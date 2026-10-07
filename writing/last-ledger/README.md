@@ -12,9 +12,10 @@
 | [`manuscript-de/`](manuscript-de/) | ドイツ語版の本文（*Das letzte Kassenbuch: Ein Erbe in drei Teilen*）。方針と対訳表は [`TRANSLATION-de.md`](TRANSLATION-de.md) |
 | [`manuscript-fr/`](manuscript-fr/) | フランス語版の本文（*Le Dernier Livre de comptes : Un héritage en trois parts*）。方針と対訳表は [`TRANSLATION-fr.md`](TRANSLATION-fr.md) |
 | [`manuscript-es/`](manuscript-es/) | スペイン語版の本文（*El último libro de cuentas: Una herencia en tres partes*）。方針と対訳表は [`TRANSLATION-es.md`](TRANSLATION-es.md) |
-| [`book/`](book/) | **KDP入稿用の生成物。** EPUB（縦書き／横書き／英語／ドイツ語／フランス語／スペイン語）、統合原稿、出版情報（各版） |
+| [`manuscript-it/`](manuscript-it/) | イタリア語版の本文（*L'ultimo libro dei conti: Un'eredità in tre parti*）。方針と対訳表は [`TRANSLATION-it.md`](TRANSLATION-it.md) |
+| [`book/`](book/) | **KDP入稿用の生成物。** EPUB（縦書き／横書き／英語／ドイツ語／フランス語／スペイン語／イタリア語）、統合原稿、出版情報（各版） |
 | `to_kanji.py` | 算用数字 → 漢数字（縦書き用）。`build/vertical/` に出す |
-| `build_epub.py` | EPUB3を組む。既定は縦書き、`--horizontal` で横書き、`--english` で英語版、`--german` でドイツ語版、`--french` でフランス語版、`--spanish` でスペイン語版 |
+| `build_epub.py` | EPUB3を組む。既定は縦書き、`--horizontal` で横書き、`--english` で英語版、`--german` でドイツ語版、`--french` でフランス語版、`--spanish` でスペイン語版、`--italian` でイタリア語版 |
 
 **KDP入稿できる状態。** 全27章＋プロローグ＋エピローグ、78,274字。
 入稿手順と残作業は [`book/KDP-出版情報.md`](book/KDP-出版情報.md) にまとめてある
@@ -30,7 +31,12 @@ python3 writing/last-ledger/fr_typo.py                   # フランス語の組
 python3 writing/last-ledger/build_epub.py --french       # フランス語版EPUB
 python3 writing/last-ledger/check_es.py                  # スペイン語の約物検査（« » ¿ ¡）
 python3 writing/last-ledger/build_epub.py --spanish      # スペイン語版EPUB
+python3 writing/last-ledger/check_it.py                  # イタリア語の約物検査（« »）
+python3 writing/last-ledger/build_epub.py --italian      # イタリア語版EPUB
 ```
+
+**イタリア語版も入稿できる状態。** 全29単位、約34,400語。日本語原文から訳した。
+KDPの入力内容は [`book/KDP-Italiano.md`](book/KDP-Italiano.md)。
 
 **スペイン語版も入稿できる状態。** 全29単位、約36,000語。日本語原文から訳した。
 KDPの入力内容は [`book/KDP-Espanol.md`](book/KDP-Espanol.md)。

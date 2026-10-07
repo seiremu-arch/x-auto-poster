@@ -18,12 +18,13 @@ OUT  = ROOT / "book"
 
 # 縦書き（漢数字）が既定。--horizontal で横書き（算用数字）版、
 # --english で英語版、--german でドイツ語版、--french でフランス語版、
-# --spanish でスペイン語版（いずれも横書き・左開き）を作る。
+# --spanish でスペイン語版、--italian でイタリア語版（いずれも横書き・左開き）を作る。
 ENGLISH  = "--english" in sys.argv
 GERMAN   = "--german" in sys.argv
 FRENCH   = "--french" in sys.argv
 SPANISH  = "--spanish" in sys.argv
-LATIN    = ENGLISH or GERMAN or FRENCH or SPANISH         # 欧文の版（組み方・CSS・斜体の扱いが共通）
+ITALIAN  = "--italian" in sys.argv
+LATIN    = ENGLISH or GERMAN or FRENCH or SPANISH or ITALIAN # 欧文の版（組み方・CSS・斜体の扱いが共通）
 VERTICAL = not LATIN and "--horizontal" not in sys.argv
 if ENGLISH:
     SRC = ROOT / "manuscript-en"
@@ -33,6 +34,8 @@ elif FRENCH:
     SRC = ROOT / "manuscript-fr"
 elif SPANISH:
     SRC = ROOT / "manuscript-es"
+elif ITALIAN:
+    SRC = ROOT / "manuscript-it"
 elif VERTICAL:
     SRC = ROOT / "build" / "vertical"
 else:
@@ -100,6 +103,18 @@ elif SPANISH:
     })
     SUFFIX = ""
     BASENAME = "El_ultimo_libro_de_cuentas_1_Una_herencia_en_tres_partes"
+elif ITALIAN:
+    METADATA.update({
+        "title":     "L'ultimo libro dei conti: Un'eredità in tre parti",
+        "subtitle":  "Un'eredità in tre parti",
+        "series":    "L'ultimo libro dei conti",
+        "language":  "it",
+        "original":  "最後の帳簿　三つに分けられた遺産",
+        "uuid":      "urn:uuid:" + str(uuid.uuid5(uuid.NAMESPACE_URL,
+                      "last-ledger-vol1-un-eredita-in-tre-parti-it")),
+    })
+    SUFFIX = ""
+    BASENAME = "L_ultimo_libro_dei_conti_1_Un_eredita_in_tre_parti"
 LANG = METADATA["language"]
 
 # 欧文の版の見出し・扉まわりの文言
@@ -133,6 +148,14 @@ LABELS = {
            "fiction": "Esta es una obra de ficción. Los nombres, personajes, empresas, lugares y "
                       "acontecimientos son producto de la imaginación del autor. Cualquier parecido "
                       "con personas reales, vivas o muertas, o con hechos reales es pura coincidencia."},
+    "it": {"prologue": "Prologo", "epilogue": "Epilogo", "toc": "Indice",
+           "book": "volume", "book_one": "Volume 1", "copyright": "Crediti",
+           "rights": "Tutti i diritti riservati.",
+           "original": "Titolo originale:",
+           "fiction": "Questa è un&#8217;opera di fantasia. Nomi, personaggi, aziende, luoghi ed "
+                      "eventi sono frutto dell&#8217;immaginazione dell&#8217;autore. Ogni "
+                      "riferimento a persone reali, viventi o defunte, o a fatti realmente accaduti "
+                      "è puramente casuale."},
 }.get(LANG)
 
 ORDER = [("prologue", LABELS["prologue"] if LATIN else "プロローグ")] + \
@@ -421,7 +444,7 @@ def build():
         words = sum(len((SRC / (s + ".md")).read_text(encoding="utf-8").split())
                     for s, _, _ in chapters)
         print("Edition:", "English" if ENGLISH else "Deutsch" if GERMAN
-              else "Français" if FRENCH else "Español",
+              else "Français" if FRENCH else "Español" if SPANISH else "Italiano",
               "(horizontal, left-to-right)")
         print("EPUB:", epub.name, "(%.1f KB)" % (epub.stat().st_size / 1024))
         print("Units:", len(chapters), "/ about", format(words, ","), "words")

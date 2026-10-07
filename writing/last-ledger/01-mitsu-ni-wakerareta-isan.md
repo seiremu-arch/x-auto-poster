@@ -1157,3 +1157,15 @@ KDPの入力内容は `book/KDP-Francais.md`、方針と対訳表は `TRANSLATIO
 KDPの入力内容は `book/KDP-Espanol.md`、方針と対訳表は `TRANSLATION-es.md`。
 
 遺留分は *la legítima*。スペイン・中南米の民法に同じ制度があるので、説明なしで通じる。
+
+## 追記 2026-10-07（イタリア語版を仕上げた）
+
+イタリア語版 *L'ultimo libro dei conti: Un'eredità in tre parti* を全29単位訳した（約34,400語）。
+底本は日本語原文。遠野家には「-san」を残し、姓で呼ぶ相手には signor／signora／avvocata を使う。
+夫婦・きょうだい・親子は tu、それ以外は lei。会話は « » で、内側に空白を入れない。
+`check_it.py` で « » の漏れと空白を確かめてから、`build_epub.py --italian` で
+`book/L_ultimo_libro_dei_conti_1_Un_eredita_in_tre_parti.epub` を組む。
+KDPの入力内容は `book/KDP-Italiano.md`、方針と対訳表は `TRANSLATION-it.md`。
+
+千鶴の最後の二行は «Io non ho fatto niente.» ／ «Ho solo lasciato che succedesse.»。
+「何もしなかっただけ」を直訳すると一行目の繰り返しになるので、二行目は「起きるのに任せただけ」に寄せた。
