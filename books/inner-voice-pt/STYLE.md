@@ -15,7 +15,8 @@
 1. nos **passos numerados** de um exercício
 2. na **frase condicional** — “Coloque os nomes de volta, e vira uma reunião normal.”
 
-Proibido: a **ordem nua** no texto corrido e nos títulos. Com `você`, o imperativo tem a forma do subjuntivo
+Proibido: a **ordem nua** no texto corrido e nos títulos. Exceção: os marcadores de atenção da narração (“E veja o que apareceu…”, “Mas repare:”),
+que não são instruções — as outras edições têm a mesma forma (Vault `81fc698ea9`). Com `você`, o imperativo tem a forma do subjuntivo
 (“Escreva”, “Anote”, “Pare”), diferente do indicativo (“escreve”, “anota”).
 
 ## Português do Brasil

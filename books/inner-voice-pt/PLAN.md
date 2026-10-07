@@ -68,6 +68,6 @@ claim `dd52672aca` の予測(第5章がプラス、第7章がマイナス)を、
 - [x] Capítulo 7 Os dias em que você não ouve nada
 - [x] Encerramento / Apêndice(全10章 14,875 words、目安の101%)
 - [x] 検査 `check_style.py` 0件 / EPUB / 表紙 / 登録シート(`LISTING.md`)
-- [x] 性に絞った読み返し(性の出うる語の全候補を抜き出して一件ずつ見た。Vault `81fc698ea9`)
+- [x] 性に絞った読み返し(性の出うる語の型を抜き出して一件ずつ見た。範囲と見ていないものは Vault `81fc698ea9` の追記)
 - [ ] 章をまたいだ通しの推敲(文章全体の読み返し)
 - [ ] KDP登録(手作業。DRM と KDP Select は要判断)
