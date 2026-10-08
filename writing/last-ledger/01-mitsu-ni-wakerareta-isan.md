@@ -1169,3 +1169,15 @@ KDPの入力内容は `book/KDP-Italiano.md`、方針と対訳表は `TRANSLATIO
 
 千鶴の最後の二行は «Io non ho fatto niente.» ／ «Ho solo lasciato che succedesse.»。
 「何もしなかっただけ」を直訳すると一行目の繰り返しになるので、二行目は「起きるのに任せただけ」に寄せた。
+
+## 追記 2026-10-08（オランダ語版を仕上げた）
+
+オランダ語版 *Het laatste kasboek: Een erfenis in drie delen* を全29単位訳した（約37,800語）。
+底本は日本語原文。台詞はオランダの小説で一般的な一重引用符 ‘ ’ で括り、アポストロフィは半角の ' にして、
+`check_nl.py` で対応を確かめてから `build_epub.py --dutch` で
+`book/Het_laatste_kasboek_1_Een_erfenis_in_drie_delen.epub` を組む。
+KDPの入力内容は `book/KDP-Nederlands.md`、方針と対訳表は `TRANSLATION-nl.md`。
+
+付言事項の一行は、分散の話にそのまま重なる慣用句 *alles op één kaart zetten* を使って
+*Laat wie alles op één kaart heeft gezet geen enkele yen na.* にした。
+本家は *het stamhuis*。遠野家の3人も meneer／mevrouw Tono で呼び、「-san」は残していない。
