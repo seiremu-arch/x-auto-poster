@@ -1181,3 +1181,15 @@ KDPの入力内容は `book/KDP-Nederlands.md`、方針と対訳表は `TRANSLAT
 付言事項の一行は、分散の話にそのまま重なる慣用句 *alles op één kaart zetten* を使って
 *Laat wie alles op één kaart heeft gezet geen enkele yen na.* にした。
 本家は *het stamhuis*。遠野家の3人も meneer／mevrouw Tono で呼び、「-san」は残していない。
+
+## 追記 2026-10-08（ポルトガル語・ブラジル版を仕上げた）
+
+ポルトガル語版 *O último livro-caixa: Uma herança em três partes* を全29単位訳した（約36,800語）。
+底本は日本語原文。ポルトガル語の電子書籍の主な市場が Amazon.com.br なので、ブラジルのポルトガル語で訳した。
+台詞はブラジルの小説で一般的なダッシュ（—）で始め、`check_pt.py` で確かめてから
+`build_epub.py --portuguese` で `book/O_ultimo_livro-caixa_1_Uma_heranca_em_tres_partes.epub` を組む。
+KDPの入力内容は `book/KDP-Portugues.md`、方針と対訳表は `TRANSLATION-pt.md`。
+
+遺言執行者は *testamenteiro*、公正証書遺言は *testamento público*、公証役場は *cartório*。
+どれもブラジル民法の語がそのまま当てはまる。遺留分 *a legítima* も同じ。
+橘はブラジルの慣例に合わせて *doutora Tachibana* と呼ぶ。

@@ -13,6 +13,7 @@ python3 ../fr_typo.py && python3 ../build_epub.py --french   # フランス語�
 python3 ../check_es.py && python3 ../build_epub.py --spanish # スペイン語版EPUB + 統合md（../manuscript-es/）
 python3 ../check_it.py && python3 ../build_epub.py --italian # イタリア語版EPUB + 統合md（../manuscript-it/）
 python3 ../check_nl.py && python3 ../build_epub.py --dutch   # オランダ語版EPUB + 統合md（../manuscript-nl/）
+python3 ../check_pt.py && python3 ../build_epub.py --portuguese # ポルトガル語版EPUB + 統合md（../manuscript-pt/）
 ```
 
 | ファイル | 中身 |
@@ -40,6 +41,9 @@ python3 ../check_nl.py && python3 ../build_epub.py --dutch   # オランダ語�
 | `KDP-Nederlands.md` | オランダ語版のKDP入力内容（内容紹介・キーワード・カテゴリ・AI開示・定価制度の注意） |
 | `Het_laatste_kasboek_1_Een_erfenis_in_drie_delen.epub` | **オランダ語版のKDP入稿用**（横書き・左開き） |
 | `Het_laatste_kasboek_1_Een_erfenis_in_drie_delen.md` | オランダ語版の統合原稿 |
+| `KDP-Portugues.md` | ポルトガル語（ブラジル）版のKDP入力内容（内容紹介・キーワード・カテゴリ・AI開示・KDPセレクトの注意） |
+| `O_ultimo_livro-caixa_1_Uma_heranca_em_tres_partes.epub` | **ポルトガル語版のKDP入稿用**（横書き・左開き） |
+| `O_ultimo_livro-caixa_1_Uma_heranca_em_tres_partes.md` | ポルトガル語版の統合原稿 |
 
 ## 数字の扱い
 

@@ -19,14 +19,16 @@ OUT  = ROOT / "book"
 # 縦書き（漢数字）が既定。--horizontal で横書き（算用数字）版、
 # --english で英語版、--german でドイツ語版、--french でフランス語版、
 # --spanish でスペイン語版、--italian でイタリア語版、
-# --dutch でオランダ語版（いずれも横書き・左開き）を作る。
+# --dutch でオランダ語版、--portuguese でポルトガル語（ブラジル）版
+# （いずれも横書き・左開き）を作る。
 ENGLISH  = "--english" in sys.argv
 GERMAN   = "--german" in sys.argv
 FRENCH   = "--french" in sys.argv
 SPANISH  = "--spanish" in sys.argv
 ITALIAN  = "--italian" in sys.argv
 DUTCH    = "--dutch" in sys.argv
-LATIN    = ENGLISH or GERMAN or FRENCH or SPANISH or ITALIAN or DUTCH # 欧文の版（組み方・CSS・斜体の扱いが共通）
+PORTUGUESE = "--portuguese" in sys.argv
+LATIN    = ENGLISH or GERMAN or FRENCH or SPANISH or ITALIAN or DUTCH or PORTUGUESE # 欧文の版（組み方・CSS・斜体の扱いが共通）
 VERTICAL = not LATIN and "--horizontal" not in sys.argv
 if ENGLISH:
     SRC = ROOT / "manuscript-en"
@@ -40,6 +42,8 @@ elif ITALIAN:
     SRC = ROOT / "manuscript-it"
 elif DUTCH:
     SRC = ROOT / "manuscript-nl"
+elif PORTUGUESE:
+    SRC = ROOT / "manuscript-pt"
 elif VERTICAL:
     SRC = ROOT / "build" / "vertical"
 else:
@@ -131,6 +135,18 @@ elif DUTCH:
     })
     SUFFIX = ""
     BASENAME = "Het_laatste_kasboek_1_Een_erfenis_in_drie_delen"
+elif PORTUGUESE:
+    METADATA.update({
+        "title":     "O último livro-caixa: Uma herança em três partes",
+        "subtitle":  "Uma herança em três partes",
+        "series":    "O último livro-caixa",
+        "language":  "pt-BR",
+        "original":  "最後の帳簿　三つに分けられた遺産",
+        "uuid":      "urn:uuid:" + str(uuid.uuid5(uuid.NAMESPACE_URL,
+                      "last-ledger-vol1-uma-heranca-em-tres-partes-pt-br")),
+    })
+    SUFFIX = ""
+    BASENAME = "O_ultimo_livro-caixa_1_Uma_heranca_em_tres_partes"
 LANG = METADATA["language"]
 
 # 欧文の版の見出し・扉まわりの文言
@@ -180,6 +196,13 @@ LABELS = {
                       "gebeurtenissen zijn verzonnen door de auteur. Elke overeenkomst met "
                       "bestaande personen, levend of overleden, of met werkelijke gebeurtenissen "
                       "berust op toeval."},
+    "pt-BR": {"prologue": "Prólogo", "epilogue": "Epílogo", "toc": "Sumário",
+           "book": "livro", "book_one": "Livro 1", "copyright": "Créditos",
+           "rights": "Todos os direitos reservados.",
+           "original": "Título original:",
+           "fiction": "Esta é uma obra de ficção. Nomes, personagens, empresas, lugares e "
+                      "acontecimentos são produto da imaginação do autor. Qualquer semelhança "
+                      "com pessoas reais, vivas ou mortas, ou com fatos reais é mera coincidência."},
 }.get(LANG)
 
 ORDER = [("prologue", LABELS["prologue"] if LATIN else "プロローグ")] + \
@@ -468,7 +491,7 @@ def build():
         words = sum(len((SRC / (s + ".md")).read_text(encoding="utf-8").split())
                     for s, _, _ in chapters)
         print("Edition:", "English" if ENGLISH else "Deutsch" if GERMAN
-              else "Français" if FRENCH else "Español" if SPANISH else "Italiano" if ITALIAN else "Nederlands",
+              else "Français" if FRENCH else "Español" if SPANISH else "Italiano" if ITALIAN else "Nederlands" if DUTCH else "Português (Brasil)",
               "(horizontal, left-to-right)")
         print("EPUB:", epub.name, "(%.1f KB)" % (epub.stat().st_size / 1024))
         print("Units:", len(chapters), "/ about", format(words, ","), "words")
