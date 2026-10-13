@@ -16,6 +16,10 @@
 一本が二冊目で消えかけて見える。分散が下がったのか、見えなくなったのかを
 区別できないという最終話の主題を、そのまま表紙の差にした。
 
+英語版（en1）は第一巻と同じ種・同じ濃さ・同じばらつきで帯を描く。帯の意匠は
+原書と揃え、字だけをラテン文字の横組みに変える。二つの版が同じ本であることを
+表紙で示すため、帯の並びは一本も動かさない。
+
 出力: book/dist/cover_vol1.jpg など （1600×2560px、KDP推奨の1.6:1）
 """
 
@@ -37,6 +41,17 @@ VOLUMES = {
         "accent_alpha": 215,   # 赤黒い帯の濃さ
         "height_spread": 0.10,  # 帯の高さのばらつき
         "alpha_range": (28, 90),
+        "vertical": True,
+    },
+    "en1": {
+        # 第一巻の英語版。帯の数値はすべて vol1 と同一にする
+        "title": "The Dream\nEditing\nBureau",
+        "subtitle": "Twelve Nights",
+        "seed": 20260902,
+        "accent_alpha": 215,
+        "height_spread": 0.10,
+        "alpha_range": (28, 90),
+        "vertical": False,
     },
     "vol2": {
         "title": "均し",
@@ -45,6 +60,7 @@ VOLUMES = {
         "accent_alpha": 58,     # ほとんど見分けがつかないところまで落とす
         "height_spread": 0.03,  # 高さを揃える
         "alpha_range": (46, 62),
+        "vertical": True,
     },
 }
 
@@ -107,6 +123,29 @@ def draw_vertical(d: ImageDraw.ImageDraw, text: str, x: int, y: int,
     return y
 
 
+def draw_horizontal_title(d: ImageDraw.ImageDraw, meta: dict) -> None:
+    """ラテン文字の題を左寄せの横組みで置く。英語版用。"""
+    lines = meta["title"].split("\n")
+    f_title = ImageFont.truetype(FONT_LATIN, 150)
+    f_sub = ImageFont.truetype(FONT_LATIN, 50)
+
+    x = int(W * 0.105)
+    y = int(H * 0.125)
+    leading = int(f_title.size * 1.14)
+
+    for line in lines:
+        bbox = f_title.getbbox(line)
+        d.text((x - bbox[0], y), line, font=f_title, fill=INK)
+        y += leading
+
+    # 副題は題の下に、細い罫を挟んで置く
+    y += int(H * 0.012)
+    d.rectangle([x, y, x + int(W * 0.17), y + 2], fill=(110, 110, 112))
+    y += int(H * 0.028)
+    bbox = f_sub.getbbox(meta["subtitle"])
+    d.text((x - bbox[0], y), meta["subtitle"], font=f_sub, fill=INK_DIM)
+
+
 def build(vol: str) -> None:
     meta = VOLUMES[vol]
     img = Image.new("RGB", (W, H), BG)
@@ -114,22 +153,23 @@ def build(vol: str) -> None:
 
     d = ImageDraw.Draw(img)
 
-    # 題が短いほど字を大きくして、天地の収まりを揃える
-    title = meta["title"]
-    f_title = ImageFont.truetype(FONT, 172 if len(title) >= 4 else 214)
-    f_sub = ImageFont.truetype(FONT, 58)
+    if not meta["vertical"]:
+        draw_horizontal_title(d, meta)
+    else:
+        # 題が短いほど字を大きくして、天地の収まりを揃える
+        title = meta["title"]
+        f_title = ImageFont.truetype(FONT, 172 if len(title) >= 4 else 214)
+        f_sub = ImageFont.truetype(FONT, 58)
+
+        # 題は右寄せの縦組み
+        draw_vertical(d, title, int(W * 0.755), int(H * 0.115), f_title, INK,
+                      spacing=1.16)
+
+        # 副題は題の左に一段落として置く
+        draw_vertical(d, meta["subtitle"], int(W * 0.575), int(H * 0.135),
+                      f_sub, INK_DIM, spacing=1.35)
+
     f_author = ImageFont.truetype(FONT, 52)
-
-    # 題は右寄せの縦組み
-    title_x = int(W * 0.755)
-    title_y = int(H * 0.115)
-    draw_vertical(d, title, title_x, title_y, f_title, INK, spacing=1.16)
-
-    # 副題は題の左に一段落として置く
-    sub_x = int(W * 0.575)
-    sub_y = int(H * 0.135)
-    draw_vertical(d, meta["subtitle"], sub_x, sub_y, f_sub, INK_DIM,
-                  spacing=1.35)
 
     # 著者名。ラテン文字を縦組みにすると字が寝てしまうので、横組みで置く
     if AUTHOR.isascii():
@@ -150,7 +190,8 @@ def build(vol: str) -> None:
     img.save(out, "JPEG", quality=92, optimize=True)
 
     kb = out.stat().st_size / 1024
-    print(f"[{vol}] 『{title}』 → {out}")
+    shown = meta["title"].replace("\n", " ")
+    print(f"[{vol}] 『{shown}』 → {out}")
     print(f"  {W}×{H}px（比率 {H / W:.2f}:1）／{kb:.0f}KB／著者 {AUTHOR}")
 
 

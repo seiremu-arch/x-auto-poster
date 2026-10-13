@@ -12,6 +12,11 @@
   1. book/ 配下に応募作の複製が置かれていないか
   2. 十六字以上で完全一致する文がどれだけあるか
   3. 応募作固有の固有名詞が本に紛れていないか
+  4. 英語版に、応募作固有の固有名詞のローマ字形が紛れていないか
+
+英語版は日本語の文と一致しようがないので、2は素通りする。そこで4を別に
+置く。固有名詞はローマ字にすると検出をすり抜けるため、英語側だけは
+ローマ字形で当てる。
 
 共有してよいもの（半色、残差、校正官の定型応答など）は、同一世界の
 シリーズとして当然に重なるため、許容一覧に入れて除外する。
@@ -46,6 +51,10 @@ ALLOWED = [
 # 応募作にしか出てこない固有名詞
 PRIZE_ONLY = ["三崎", "深瀬", "境界線、未編集", "歩道橋", "均し計画・第二次同期"]
 
+# 英語版向け。日本語の固有名詞はローマ字にすると上の検査をすり抜ける
+PRIZE_ONLY_EN = ["Misaki", "Fukase", "Unedited", "footbridge",
+                 "Second Synchronisation"]
+
 
 def sentences(text: str) -> set:
     return {s.strip() for s in re.split(r"[。\n]", text) if len(s.strip()) >= MIN_LEN}
@@ -70,6 +79,15 @@ def main() -> None:
         m = re.search(r"## 2\. 内容紹介.*?\n(.*?)\n---", t, re.S)
         if m:
             targets.append((p, m.group(1)))
+
+    # 英語版も読者の目に触れる。本文と、商品ページに貼るDescriptionの節
+    targets_en = [(p, p.read_text(encoding="utf-8"))
+                  for p in sorted(ROOT.glob("en*/stories/*.txt"))]
+    for p in sorted(ROOT.glob("en*/KDP登録情報.md")):
+        t = p.read_text(encoding="utf-8")
+        m = re.search(r"## 2\. Description.*?\n(.*?)\n---", t, re.S)
+        if m:
+            targets_en.append((p, m.group(1)))
 
     problems = 0
 
@@ -100,6 +118,17 @@ def main() -> None:
     print("\n【3】応募作固有の固有名詞")
     for kw in PRIZE_ONLY:
         hits = [p.relative_to(ROOT) for p, t in targets if kw in t]
+        if hits:
+            problems += len(hits)
+            print(f"  × {kw}: {hits}")
+        else:
+            print(f"  ○ {kw}: なし")
+
+    print(f"\n【4】応募作固有の固有名詞（英語版・ローマ字形）"
+          f"／対象 {len(targets_en)}ファイル")
+    for kw in PRIZE_ONLY_EN:
+        hits = [p.relative_to(ROOT) for p, t in targets_en
+                if re.search(rf"\b{re.escape(kw)}\b", t)]
         if hits:
             problems += len(hits)
             print(f"  × {kw}: {hits}")

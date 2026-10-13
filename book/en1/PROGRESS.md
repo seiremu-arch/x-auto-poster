@@ -79,7 +79,10 @@ the award entry has reached the published text, English or Japanese.
 
 ## Remaining work after the twelve stories
 
-- [ ] English KDP listing: title, description, keywords, categories
-- [ ] Cover with English title (the band design carries over; only the type changes)
+- [x] English KDP listing: title, description, keywords, categories —
+      `book/en1/KDP登録情報.md`
+- [x] Cover with English title — `book/dist/cover_en1.jpg`. Same random seed as
+      the Japanese cover, so the bands are identical band for band; only the type
+      changes. Verified by comparing the typeless lower half pixel for pixel.
 - [x] Read the twelve through for terminology drift — mechanised, see Checks
 - [ ] Decide whether Volume II follows
