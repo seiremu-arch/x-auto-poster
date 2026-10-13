@@ -2,7 +2,8 @@
 """英語版PROGRESS.mdの字数・語数を、実際の本文ファイルから同期する。
 
 使い方:
-    python3 book/tools/sync_en_counts.py
+    python3 book/tools/sync_en_counts.py en1
+    python3 book/tools/sync_en_counts.py          # 全巻
 
 表の各行を、ローマ数字（第1列）で本文ファイルと突き合わせ、
   Source  … 対応する vol1 の原文字数（空白を除く）
@@ -12,11 +13,14 @@
 """
 
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PROGRESS = ROOT / "en1" / "PROGRESS.md"
 SECTION_RE = re.compile(r"^(?:[一二三四五六七八九十]+|[IVXLC]+)$")
+
+# 英語版 -> 原書
+PAIRS = {"en1": "vol1", "en2": "vol2"}
 
 
 def numeral(path: Path) -> str:
@@ -39,16 +43,21 @@ def words(path: Path) -> int:
     )
 
 
-def main() -> None:
+def sync(vol: str) -> None:
+    progress = ROOT / vol / "PROGRESS.md"
+    if not progress.exists():
+        print(f"[{vol}] PROGRESS.md がないので飛ばす")
+        return
+
     ja = {}
-    for p in sorted((ROOT / "vol1" / "stories").glob("[0-9][0-9]_*.txt")):
+    for p in sorted((ROOT / PAIRS[vol] / "stories").glob("[0-9][0-9]_*.txt")):
         ja[p.name[:2]] = chars(p)
 
     en = {}
-    for p in sorted((ROOT / "en1" / "stories").glob("[0-9][0-9]_*.txt")):
+    for p in sorted((ROOT / vol / "stories").glob("[0-9][0-9]_*.txt")):
         en[numeral(p)] = (p.name[:2], words(p))
 
-    lines = PROGRESS.read_text(encoding="utf-8").split("\n")
+    lines = progress.read_text(encoding="utf-8").split("\n")
     changed = []
 
     for i, line in enumerate(lines):
@@ -70,16 +79,28 @@ def main() -> None:
             changed.append((num, before, tuple(cells[3:6])))
 
     if changed:
-        PROGRESS.write_text("\n".join(lines), encoding="utf-8")
+        progress.write_text("\n".join(lines), encoding="utf-8")
         for num, before, after in changed:
-            print(f"{num}: {' / '.join(before)} → {' / '.join(after)}")
-    else:
-        print("ずれなし")
+            print(f"[{vol}] {num}: {' / '.join(before)} → {' / '.join(after)}")
+    elif en:
+        print(f"[{vol}] ずれなし")
+
+    if not en:
+        print(f"[{vol}] 訳了 0話")
+        return
 
     total_w = sum(w for _, w in en.values())
     total_c = sum(ja[k] for k, _ in en.values())
-    print(f"訳了 {len(en)}話　原文 {total_c:,}字 → 英文 {total_w:,} words"
+    print(f"[{vol}] 訳了 {len(en)}話　原文 {total_c:,}字 → 英文 {total_w:,} words"
           f"（比 {total_w / total_c:.3f} words/字）")
+
+
+def main() -> None:
+    targets = sys.argv[1:] or list(PAIRS)
+    for vol in targets:
+        if vol not in PAIRS:
+            raise SystemExit(f"不明な巻: {vol}（指定できるのは {', '.join(PAIRS)}）")
+        sync(vol)
 
 
 if __name__ == "__main__":

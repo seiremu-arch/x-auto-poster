@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-STORIES = sorted((ROOT / "en1" / "stories").glob("[0-9][0-9]_*.txt"))
+STORIES = sorted(ROOT.glob("en[0-9]/stories/[0-9][0-9]_*.txt"))
 
 # (説明, 正規表現) ─ 当たったら報告する
 CHECKS = [
@@ -27,8 +27,11 @@ CHECKS = [
     ("残差は residual（residue は不可）", r"\bresidues?\b"),
     ("均し計画は the Levelling Plan（大文字）", r"\blevelling plan\b"),
     ("幸福指数は the Happiness Index（大文字）", r"\bhappiness index\b"),
+    ("校正官の声は no humidity（moisture は不可）", r"no moisture in it"),
+    ("水は paper cup（plastic/paper-cup は不可）", r"\bplastic cup\b|\bpaper-cup\b"),
     ("百分率は per cent（percent は不可）", r"\bpercent\b"),
-    ("英国綴り: -ise/-isation", r"\b\w+iz(e|es|ed|ing|ation|ations)\b"),
+    # size / prize / seize は正しい綴りなので、iz の前を4字以上に絞る
+    ("英国綴り: -ise/-isation", r"\b\w{4,}iz(e|es|ed|ing|ation|ations)\b"),
     ("英国綴り: colour/behaviour/favour など", r"\bcolors?\b|\bbehavior\b|\bfavor(s|ed|ite)?\b|\bhonor\b"),
     ("英国綴り: centre/metre", r"\bcenters?\b|\bmeters?\b(?! of )"),
     ("英国綴り: defence/offence", r"\bdefense\b|\boffense\b"),
@@ -43,6 +46,8 @@ CHECKS = [
 # 例外: 固有名詞・意図した表記
 ALLOWED = {
     r"\bmeters?\b(?! of )": ["parameters"],
+    r"\b\w{4,}iz(e|es|ed|ing|ation|ations)\b": ["capsize", "capsized",
+                                                 "downsize", "oversize"],
 }
 
 
@@ -58,10 +63,12 @@ def main() -> int:
                     word = m.group(0)
                     if any(word.lower() in a for a in ALLOWED.get(pattern, [])):
                         continue
-                    print(f"{path.name}:{i}  {label}  → {word!r}")
+                    rel = path.relative_to(ROOT)
+                    print(f"{rel}:{i}  {label}  → {word!r}")
                     hits += 1
 
     print()
+    print(f"対象 {len(STORIES)}ファイル")
     print(f"要対応 {hits} 件" if hits else "用語ゆれなし")
     return 1 if hits else 0
 

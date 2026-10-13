@@ -44,6 +44,13 @@ VOLUMES = {
         "lang": "en",
         "vertical": False,
     },
+    "en2": {
+        "title": "The Levelling",
+        "subtitle": "The Dream Editing Bureau, Book Two",
+        "uuid": "urn:uuid:8f2c1a64-3d5e-4b90-a7c1-00000000e002",
+        "lang": "en",
+        "vertical": False,
+    },
 }
 
 ROOT = Path(__file__).resolve().parent.parent

@@ -62,6 +62,16 @@ VOLUMES = {
         "alpha_range": (46, 62),
         "vertical": True,
     },
+    "en2": {
+        # 第二巻の英語版。帯の数値はすべて vol2 と同一にする
+        "title": "The\nLevelling",
+        "subtitle": "The Dream Editing Bureau, Book Two",
+        "seed": 20260902,
+        "accent_alpha": 58,
+        "height_spread": 0.03,
+        "alpha_range": (46, 62),
+        "vertical": False,
+    },
 }
 
 W, H = 1600, 2560

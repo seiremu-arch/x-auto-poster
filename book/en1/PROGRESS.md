@@ -11,11 +11,11 @@ using it. Build with `python3 book/tools/build_epub.py en1`.
 
 | # | Japanese | English | Source | Words | State |
 |---|---|---|---|---|---|
-| I | 半色 | Half-Shade | 4,997 | 2,285 | **done** |
+| I | 半色 | Half-Shade | 4,997 | 2,431 | **done** |
 | II | 忘却の順番待ち | The Waiting List for Forgetting | 4,540 | 2,101 | **done** |
 | III | 夢の遺言 | The Bequest | 4,555 | 2,063 | **done** |
 | IV | 夢の翻訳者 | The Translator | 3,915 | 1,712 | **done** |
-| V | 二人称の夢 | The Second-Person Dream | 3,454 | 1,534 | **done** |
+| V | 二人称の夢 | The Second-Person Dream | 3,454 | 1,529 | **done** |
 | VI | 夢税 | Dream Tax | 3,391 | 1,556 | **done** |
 | VII | 涙の代筆 | Grief by Proxy | 4,476 | 2,038 | **done** |
 | VIII | 夢裁判 | The Sentence | 4,577 | 2,064 | **done** |
@@ -24,8 +24,8 @@ using it. Build with `python3 book/tools/build_epub.py en1`.
 | XI | 幸福指数九八 | Happiness Index 98 | 4,218 | 2,026 | **done** |
 | XII | 沈黙の被験者 | The Silent Subject | 4,508 | 2,210 | **done** |
 
-All twelve translated. Japanese 51,721 characters → English 23,782 words, a
-ratio of 0.460 words per character that held within 0.01 across the whole book.
+All twelve translated. Japanese 51,721 characters → English 23,923 words, a
+ratio of 0.463 words per character.
 
 Counts in this table are written by `python3 book/tools/sync_en_counts.py`, not
 by hand. Run it after each story.
@@ -71,6 +71,21 @@ The check is only worth what its patterns are worth, so it was verified by
 feeding it a line of deliberate errors (engineer / half shade / Proof-reader /
 emotional load / residue / percent / realized / color / gray / 〇・〇五) and
 confirming it caught each one.
+
+`python3 book/tools/check_en_structure.py` compares the English against the
+Japanese section by section, by paragraph count. This is the check that matters
+most: the failure a translation actually suffers is not a mistranslated word but
+a dropped paragraph, and reading through does not reliably catch one.
+
+**It found one.** Ten paragraphs were missing from section III of story I — the
+whole afternoon scene with the section chief, including one of the book's
+recurring lines ("What we do here is ventilation, basically") and Kaji's reply,
+"The window. It is that girl's window." The term checker could not see it,
+because nothing that was there was wrong. Restored.
+
+It also found a sentence in story V that is in the English and not in the
+Japanese ("The procedure took forty minutes"). Removed — this is a translation,
+so an invented sentence is a defect even when it reads well.
 
 `python3 book/tools/check_overlap.py` separately confirms that no sentence from
 the award entry has reached the published text, English or Japanese.
