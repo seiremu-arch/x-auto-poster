@@ -1,0 +1,263 @@
+IV. The Last Craftsman
+
+
+I
+
+　Automation rate 98.4 per cent, says the display on the wall.
+
+　The remaining 1.6 per cent was the work of human technicians. Counting Nagoshi, two technicians are left in the Third Editing Room.
+
+　Nagoshi is sixty-four and retires in eight months. The other is in his late fifties and goes next year. No replacement is scheduled for after the two of them have gone.
+
+　"Today's allocation, three," the Proofreader said. "None of them returned a completion determination under automatic processing."
+
+　Automatic processing stops when drag on an adjacent fragment exceeds the prescribed value. Cases that stop come to a human. Which is to say that what reaches Nagoshi's hands is only ever what the machine could not touch.
+
+　"Bring up the first."
+
+　Bands lined up. Nagoshi counted from the left and stopped at the sixth.
+
+
+II
+
+　The applicant was a man in his forties and the target was a memory from eight years ago.
+
+　The reason automatic processing had stopped was the density of the adjacent fragments. Immediately beside the fragment to be lowered sat three others, nearly overlapping it. Push one and all three move.
+
+　The machine dislikes this shape. The permitted quantity of movement is fixed, and whatever leaks into the neighbours is added to the quantity moved. Added, it exceeds the ceiling. Exceeding it, the process stops.
+
+　Nagoshi looked for the place to push.
+
+　Of the four fragments in the cluster, one was to be lowered. But the four are joined at the root, and there is nowhere they can be pushed independently. The machine's determination had been correct.
+
+　Correct, but that is not the same as there being nowhere to push.
+
+　Nagoshi set a finger a little away from the edge of the fragment. Rather than pushing directly, he brought a loose pressure in from where the surrounding density was low. All four sank slightly, and then three of them came back. The one that did not was the one to be lowered.
+
+　"Affective load, 0.81 to 0.77," the Proofreader read out. "Variation in adjacent fragments, 0.006 in total. Within the prescribed value."
+
+　"One night, then."
+
+　"One night."
+
+
+III
+
+　Nagoshi cannot explain this hand to anybody.
+
+　He has been asked to many times. There was a period when young technicians came to observe, and the procedure was recorded for the machine's training. The records should still exist.
+
+　They exist, and they have not been reproduced.
+
+　"One question," Nagoshi said. "What became of the model trained on my procedure?"
+
+　"It was withdrawn from service three years ago," the Proofreader said.
+
+　"On what grounds?"
+
+　"Because the reproduction rate fell below forty per cent."
+
+　"Forty."
+
+　"For sixty per cent of identical inputs, the same operation was not selected," the Proofreader said. "Your operations differ each time, even on fragments of the same shape."
+
+　Nagoshi laughed a little at that.
+
+　It may look the same shape, but it is not the same person. The same person, and that night's sleep is different. So it differs each time. Obvious enough. The obvious is what the machine calls a low reproduction rate.
+
+　Not that Nagoshi had a case to make.
+
+　Choosing a different operation each time means that Nagoshi does not know either which of them was right. Forty years, and the memories of it going well are the more numerous. But the cases that did not go well he mostly does not remember. People are made that way.
+
+　What he does not remember, the machine remembers. All of Nagoshi's operations over forty years are in the record, and the failures are in there at the same resolution.
+
+　So the machine assesses Nagoshi's forty per cent more accurately than Nagoshi does.
+
+
+IV
+
+　After noon a young official came.
+
+　In his twenties, from the Operations Planning Section. The card said Automation Promotion.
+
+　"Could I have a little of your time about the position after your retirement?"
+
+　"A handover, is it."
+
+　"Handover, in a manner of speaking." He looked as though he found it hard to say. "The Third Editing Room is to be closed at the end of next year."
+
+　"I see."
+
+　"On the 1.6 per cent of cases, the policy is to absorb them by relaxing the automatic processing threshold."
+
+　Nagoshi looked up from the terminal.
+
+　"Relaxing, meaning raising the prescribed value for drag?"
+
+　"Yes. From the current 0.01 to 0.03."
+
+　"Three times."
+
+　"Three times." He produced his papers. "On the projection, that brings over ninety per cent of the 1.6 per cent into automatic completion."
+
+　Nagoshi took the papers and followed the figures. The projection was sound. Treble the threshold and the machine will hardly ever stop.
+
+　"And the remaining ten per cent?"
+
+　"They will still stop, and in that case we process them with a larger number of divisions," he said. "What cannot be done in one night, we make up in nights."
+
+　"The neighbours don't move."
+
+　"They move. Up to 0.03."
+
+　"Where does 0.03 come from?"
+
+　"Three times the current value," he answered. There was no malice in the way he said it. In fact there probably was none.
+
+　"On what basis three times?"
+
+　"It is the value that absorbs ninety per cent of the 1.6 per cent." He opened another page. "At twice, only sixty per cent is absorbed. At four times, the clinical subcommittee takes exception."
+
+　"And three times passed the subcommittee?"
+
+　"It passed. 0.03 is within the half-shade, so the trace remains. The subcommittee's view is that anything within the range where a trace remains is safe."
+
+　The phrasing caught at Nagoshi.
+
+　Within the range where a trace remains is safe. The order of it is the reverse of what his instructor said forty years ago. The instructor said the ceiling exists in order to leave a trace. Now they are saying that because it is inside the ceiling, a trace remains.
+
+　It sounds like the same thing and it is not. The first makes the trace the purpose; the second makes the ceiling the warrant.
+
+　Nagoshi had no confidence he could explain the difference, so he said nothing.
+
+
+V
+
+　That night Nagoshi went back through the record of the cases he had touched.
+
+　Forty years of them. In number, over twenty thousand.
+
+　He had it count how many of those had variation in an adjacent fragment above 0.01.
+
+　"Thirty-seven," the Proofreader said.
+
+　"Above 0.03?"
+
+　"None."
+
+　Nagoshi looked at the figure for a while.
+
+　Thirty-seven in forty years. Of the thirty-seven above 0.01, only four are above 0.02. Which means Nagoshi's hand has moved for forty years inside the machine's current value.
+
+　The new threshold is 0.03. A value Nagoshi never once exceeded in forty years is what the machine will use routinely from next year.
+
+　"What does 0.03 of adjacent variation do to a patient?"
+
+　"The affective load of the adjacent fragment falls by 0.03," the Proofreader said.
+
+　"I know that. I am asking what it does."
+
+　"That item is not recorded."
+
+
+VI
+
+　The following week Nagoshi filed a submission.
+
+　It did not oppose the relaxation. He knew that opposing it would get nowhere. What he wrote was one point only: that adjacent variation should go on being recorded after the relaxation.
+
+　At present, adjacent variation is recorded only when it exceeds the prescribed value. Below it, nothing is recorded. Treble the threshold and most of the variation that has been recorded until now moves into the region that is not.
+
+　The variation does not disappear. The record disappears.
+
+　The answer came two weeks later.
+
+　— The addition of record items is deferred at this time from the standpoint of system modification costs. Furthermore, variation within the prescribed value is held to present no clinical problem, and the necessity of recording it is judged to be low.
+
+　Nagoshi read the second line several times.
+
+　Is held to present no problem. Who held it is not written. The study the judgement rests on is not given. It is merely held.
+
+　Forty years ago, when Nagoshi was in training, his instructor said this: the ceiling is not a limit of the technique, it is there to keep us inside the range where a trace remains. While a trace remains, a person can doubt that their memory has been touched.
+
+　Treble the threshold and that reasoning does not change. 0.03 is still inside the half-shade. The trace remains.
+
+　It remains, and it is not recorded. To doubt, you need first a reason to doubt. If nothing that could serve as a reason comes out in the record, there is nothing to doubt from.
+
+
+VII
+
+　Three months before retirement, Nagoshi took his last observer.
+
+　It was the young official from Operations Planning. He had asked to see Nagoshi's hand once. Not on instruction from above, he said, but because he wanted to.
+
+　Nagoshi chose a case with a dense cluster.
+
+　"You won't learn anything watching."
+
+　"That's all right."
+
+　Nagoshi set his finger down. A little away from the edge of the fragment. Not directly; a loose pressure from where the surrounding density was low. All four sank slightly, and three came back.
+
+　"They came back," the official said.
+
+　"They came back."
+
+　"Why do only three come back?"
+
+　"Don't know," Nagoshi said. "Forty years, and I don't know."
+
+　The official was quiet.
+
+　"The machine won't do what it can't give a reason for," Nagoshi went on. "I've gone on doing it without the reason. It isn't a question of which is right."
+
+　"Then what is it a question of?"
+
+　Nagoshi thought for a moment.
+
+　"Of there being some left over."
+
+　"Left over."
+
+　"There's a fixed quantity you may push, and I've only ever worked inside it. In forty years I came up against the rule thirty-seven times," Nagoshi said. "The part I never came up against is left over. They'll be using what's left over from next year."
+
+　"If it can be used, surely it's better used."
+
+　"Aye," Nagoshi allowed. "I won't claim the leftover is a good thing either. Only it isn't leftover. It's the gap."
+
+　The official's face said he did not follow. Nagoshi did not think he had put it well.
+
+　"The gap being?" the official asked.
+
+　"Between the ceiling you may push to and what you actually push," Nagoshi said. "It's empty, so you can waver in it. How far to push, you decide for yourself, every time."
+
+　"If you may push to the ceiling, there's no need to waver."
+
+　"That's right," Nagoshi said. "So the machine doesn't waver. Not wavering is faster, and on the whole it's probably right."
+
+　"Do you think it is better to waver, Mr Nagoshi?"
+
+　Nagoshi did not answer for a while.
+
+　"I don't," Nagoshi said. "Forty years of wavering, and I haven't one piece of evidence that the wavering did a patient any good. There's a record of thirty-seven. That isn't evidence I was skilful. It's a record of thirty-seven times I came up against the rule."
+
+　"Then nothing is left?"
+
+　"Nothing," Nagoshi said. "Which is why your coming here today probably means more."
+
+　The official said nothing to that.
+
+
+VIII
+
+　On the day Nagoshi left the Bureau, the sign came off the Third Editing Room within the week.
+
+　The automation rate reached 99.8 per cent the following year. The remaining 0.2 per cent are cases the machine has held, and they sit held in the queue.
+
+　The threshold was relaxed to 0.03. Variation in adjacent fragments is not recorded up to 0.03.
+
+　The variation Nagoshi put on record thirty-seven times in forty years is on record still. In forty years of records, those thirty-seven alone show that a neighbour moved.
+
+　In the records since, there is not one trace of a neighbour moving.
+
+　Not because none moved.

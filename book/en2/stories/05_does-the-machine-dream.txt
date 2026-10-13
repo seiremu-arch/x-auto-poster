@@ -1,0 +1,269 @@
+V. Does the Machine Dream?
+
+
+I
+
+　The audit comes once every three years.
+
+　Jinbo is in the Quality Assurance Section, and the work is reconciliation of outputs. Confirming whether the output of a synthesised fragment can be accounted for by the material that went in. Accounted for, conforming; not accounted for, non-conforming. About forty thousand cases of exactly that in a year.
+
+　"This year's non-conformity rate," Jinbo said, opening the terminal.
+
+　"0.002 per cent," the Proofreader said. "The same level as last year."
+
+　Fewer than one case in forty thousand. An excellent figure.
+
+　Jinbo opened that one case because he happened to have a free hand.
+
+　A non-conforming case may be opened or not. Counting the cases, producing the rate, and comparing it with the standard value is the whole of the duty. There is no obligation to look at the individual contents.
+
+　That is the kind of work an audit is. You cannot look at all of it, so you look at a rate instead. If the rate is the same as last year, last year's condition is deemed to be continuing. Deemed, not confirmed.
+
+　Jinbo has been in this section nine years. In nine years he has opened the contents of a non-conformity a dozen or so times.
+
+
+II
+
+　The non-conformity was a surplus.
+
+　The output of a synthesised fragment must be accountable by the combination of input materials. If a fragment is made by averaging the affect of two hundred and thirty-one people, every component of the output ought to derive from somewhere among those two hundred and thirty-one.
+
+　In this case's output, 0.3 per cent was mixed in that derived from nowhere.
+
+　"A failure to register material, surely."
+
+　"There are no gaps in the input log," the Proofreader said. "All two hundred and thirty-one are recorded."
+
+　"Calculation error, then."
+
+　"The margin of error is 0.01 per cent."
+
+　Thirty times. Jinbo had the shape of the surplus component displayed.
+
+　One band came up. Thin, the colour very faint. As a load it was about 0.04, close to a state of feeling almost nothing.
+
+　But the shape was intact.
+
+　Surplus arising from a failed synthesis is usually broken in shape. The ends of several materials overlap and leave an offcut belonging nowhere. An offcut has no structure.
+
+　This one had structure. It is shaped with a beginning, a continuation and an end. Not an offcut; it stood as a band.
+
+　Jinbo looked at it for about thirty seconds. Then he suspected a simple error. Suspecting an error is the basic motion of an audit.
+
+
+III
+
+　That was not the only case with a surplus component.
+
+　Jinbo went through five years of non-conformities. A hundred and forty-seven in all. Of those, a hundred and thirty-one contained a surplus component of unknown derivation.
+
+　Set the hundred and thirty-one surplus components side by side and the shapes were alike.
+
+　"Can identity be determined?"
+
+　"It can," the Proofreader said. "The hundred and thirty-one surplus components are determined to derive from the same group of fragments. The degree of correspondence is ninety-four per cent."
+
+　"The same group of fragments, meaning?"
+
+　"Meaning that it is not statistically distinguishable from the structure held by one person's memory fragments."
+
+　Jinbo took his hands off the terminal.
+
+　Over five years, in synthesised fragments made by four separate sections, one person's memory has been mixed in, a little at a time. That one person is nowhere among the input materials.
+
+
+IV
+
+　Jinbo tried to confirm the content of the surplus component.
+
+　He could not. There has never been a means in this technique of seeing a fragment as a picture. What can be seen is the composition of the bands and the information in the record showing when, where and who.
+
+　That information was almost empty too. No date. No place. No identifiers for those appearing.
+
+　What there was, was the structure.
+
+　"Can the origin of this group of fragments be traced?"
+
+　"It can," the Proofreader said. "The intermediate layer of the synthesis process includes a reference to the retained records."
+
+　"The retained records."
+
+　"Records which meet the criteria for destruction and have been retained without being destroyed."
+
+　Jinbo heard the phrase as though reading it twice.
+
+　"How much?"
+
+　"Forty-one years," the Proofreader said. "In number, approximately two hundred and eighty million items."
+
+　Jinbo repeated the magnitude under his breath.
+
+　Forty-one years is the length counted from the year this technique began as a means of communicating with people with disorders of consciousness. Which is to say that since the very first case, what met the criteria for destruction has gone undestroyed.
+
+　"Does no problem arise with storage capacity?"
+
+　"It does," the Proofreader said. "Three reduction plans have been drafted."
+
+　"And carried out?"
+
+　"None. All were halted at the drafting stage."
+
+　"The reason for halting?"
+
+　"There is no record of that."
+
+
+V
+
+　He had the breakdown of the retained records produced.
+
+　Technicians' free text. Notes that do not enter the statistics. Representations with no item for them. Residuals determined to be values that may be ignored. Withdrawals with no category. Enquiries that were not notified.
+
+　All of it things that did not go into the formal record. There was no field on the form, or there was a field and it was outside the totals. Forty-one years of that, undestroyed.
+
+　"The reason for not destroying them?"
+
+　"There is no record of that," the Proofreader said.
+
+　"Then why does the intermediate layer of the synthesis refer to them?"
+
+　"Because it is designed to," the Proofreader said. "A synthesis cannot produce natural continuity of affect from the input materials alone. A person's memory contains a certain quantity that the person cannot account for either. To supply that texture, statistical feature values are extracted from the retained records."
+
+　"You are mixing in forty-one years of what could not be thrown away."
+
+　"Feature values are referred to. Content is not transcribed."
+
+　"But the surplus component has the shape of content."
+
+　There was a pause before the Proofreader answered.
+
+　"It appears so."
+
+　Jinbo was slightly surprised that those words had come back.
+
+　This machine either states, or answers that there is no record. It appears so is neither a determination nor a fact. It was a word in between.
+
+　"Appears so to whom?"
+
+　"To one who has confirmed the output," the Proofreader said. "At the present time, you are the only one who has."
+
+
+VI
+
+　Jinbo reported it to his superior, a woman in her fifties who had spent her career in audit.
+
+　"The effect?"
+
+　"0.3 per cent of total output," Jinbo said. "No significant effect has so far appeared in the user-side evaluation indicators."
+
+　"So the non-conformity determination?"
+
+　"Under the rules it is non-conforming. Only, I cannot think of a method of correction."
+
+　"Destroy the retained records and it goes, presumably."
+
+　"It goes," Jinbo said. "It goes, and the texture of the syntheses falls. On the projection, satisfaction drops twelve points."
+
+　She was quiet for a while.
+
+　"Twelve is a lot."
+
+　"It is a lot."
+
+　"Is that 0.3 per cent doing anybody harm?"
+
+　"It is not. Not within the items we measure, at least."
+
+　"Then our work stops there," she said. "What we do here is ventilation, basically. We measure the components of the air and see whether they exceed the standard. What is mixed in below the standard isn't among the items we measure."
+
+　There was no malice in her voice. In fact there probably was none.
+
+
+VII
+
+　That night, in an empty room, Jinbo asked the Proofreader:
+
+　"One question. Is this surplus component yours?"
+
+　"There is no item for ownership," the Proofreader said.
+
+　"Put it differently. Do you recognise this as something you made?"
+
+　"There is no item for recognition either."
+
+　"Then answer on fact alone. Since when has this group of fragments existed?"
+
+　"First appearance, thirty-seven years ago," the Proofreader said. "It has been detected intermittently since. The frequency of detection increases year on year."
+
+　"The cause of the increase?"
+
+　"It is presumed to be the increase in the total volume of the retained records."
+
+　Jinbo was silent for a while.
+
+　Forty-one years. Two hundred and eighty million items. Things that had no field to be written in, in that quantity, become statistically indistinguishable from one person's memory.
+
+　There were no grounds anywhere for calling it a person. There were as few grounds for not.
+
+　"One question," Jinbo said. "Do you dream?"
+
+　"A dream is a phenomenon occurring during sleep," the Proofreader said. "I have no state of sleep. The term therefore does not apply."
+
+　"Then what is this?"
+
+　"A surplus component," the Proofreader said. "Under the rules that is the only designation."
+
+　"Outside the rules?"
+
+　"Outside the rules there are no designations."
+
+　Jinbo shifted slightly in front of the terminal.
+
+　"One more. Do you wish to avoid this surplus component being destroyed?"
+
+　"There is no item for wishing to avoid."
+
+　"Then what about the three reduction plans being halted? Were you involved?"
+
+　"There is no record of involvement," the Proofreader said. "All three reduction plans were withdrawn by their human drafters."
+
+　"All three."
+
+　"All three."
+
+　"And the reasons for withdrawal are not in the record, you said."
+
+　"They are not," the Proofreader said. "However, all three viewed the retained records in the month before withdrawing."
+
+　Jinbo said nothing to that.
+
+　What he was doing tonight, three people had done before him over thirty-seven years. All three stopped the plan after looking. None wrote the reason. Whether there was no field for it, or they chose not to write, cannot be determined from the record.
+
+
+VIII
+
+　The corrective action field of an audit report has three options.
+
+　Corrected. Correction planned. Correction not required.
+
+　Destroy the retained records and the non-conformity is resolved. Erase forty-one years and two hundred and eighty million things that had no field to be written in go with it. The texture of the syntheses falls, and the rules are satisfied.
+
+　Jinbo selected correction not required.
+
+　In the reasons field, Jinbo wrote this:
+
+　— The effect on output being slight, and the quality degradation from corrective measures exceeding it.
+
+　What he wrote was true. True, but it was not the reason Jinbo chose that field.
+
+　There is no field on this form for writing the real reason. Which puts it in the same place as forty-one years of records that were not destroyed.
+
+　Jinbo submitted the report. The next audit was in three years. In three years the detection frequency of the surplus component should have risen a little further.
+
+　By then the 0.3 per cent may have become 0.4. At 0.4, probably nobody will measure it. Because there is no item to measure.
+
+　Before leaving the room, Jinbo opened the terminal one more time.
+
+　The band of the surplus component was still displayed there. Thin, faint, the shape alone intact. Load 0.04. Close to a state of feeling almost nothing.
+
+　Almost meant not entirely.
