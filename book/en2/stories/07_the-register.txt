@@ -1,0 +1,245 @@
+VII. The Register
+
+
+I
+
+　Preliminary work for a land readjustment begins with reconciling the registers.
+
+　Iwami's job was to set the cadastral map, the survey of the current state and the aerial photographs side by side and pick out the discrepancies. Discrepancies come up often. An unreported extension, a boundary wrongly entered, a subdivision missed at an inheritance. Most are settled in half a day.
+
+　That day, only one would not settle.
+
+　A block in Higashimachi 3-chome. On the register it has been vacant land for twenty-three years. Use: car park. Owner: the city.
+
+　In the aerial photograph from twenty-four years ago there was a building.
+
+　Four storeys, a wide frontage, what looked like a water tank on the roof. That something stood there before it became vacant land is not in itself unusual, but the register has no entry for the loss. Nor any record of its having stood.
+
+　The record begins in the year the site was cleared.
+
+
+II
+
+　Iwami went to the City History Compilation Office's material.
+
+　The account of Higashimachi 3-chome was thin. The post-war readjustment, the laying of the sewers, the changing shopping street. Not one building is named.
+
+　Next he enquired into the property tax records. There it had survived.
+
+　— Higashimachi Hall. Reinforced concrete, four storeys. Built 1977.
+
+　The loss field carried a date twenty-three years back. The cause field: fire.
+
+　"Produce the records concerning the Higashimachi Hall fire," Iwami said.
+
+　"There is one," the Proofreader said. "The fire service's attendance record."
+
+　"The content?"
+
+　"9 November, twenty-three years ago. Higashimachi 3-chome, building fire. Floor area destroyed: total. Dead: nineteen."
+
+　Iwami looked at the figures for a while.
+
+　A fire in which nineteen people died, and not one line of it in the city history.
+
+　Iwami was born and raised in this city. Fourteen years at the city offices. He had no memory of hearing the name Higashimachi Hall.
+
+　He tried asking an older colleague in the section. A senior officer in his fifties who had lived in the city for sixty years.
+
+　"Do you know of Higashimachi Hall?"
+
+　"Can't say I do," the senior officer said. "Higashimachi, that's the car park now, isn't it. Hasn't it always been a car park?"
+
+　"There's a building in the aerial photograph from twenty-four years ago."
+
+　"Is there." He looked slightly surprised. There was nothing in the surprise of a man beginning to remember. "Something stood there, then."
+
+　That ended the conversation. He went back to his work and Iwami went back to his.
+
+　It was not an unnatural exchange. There is no end of people who do not remember the name of a building pulled down twenty-three years ago.
+
+
+III
+
+　He looked at the bound newspaper archive.
+
+　There was no article in either the morning or evening edition of the day. None the next day. He turned a week of them and the characters for Higashimachi did not appear.
+
+　The prefectural library gave the same answer when he enquired. There is no matching article in the database of the local paper of the time either.
+
+　"In what cases is there no press record?" Iwami asked.
+
+　"Three," the Proofreader said. "Where it was not reported. Where it was reported but not preserved. Where it was deleted afterwards."
+
+　"Is the third legally possible?"
+
+　"It is possible under the Regional Recovery Measures Act, and only then."
+
+　Iwami did not know the name of that Act. Fourteen years at the city offices and he had never once handled it.
+
+
+IV
+
+　The Regional Recovery Measures Act was made twenty-six years ago.
+
+　It is a scheme for carrying out blanket affect processing on the residents of a disaster area after a large-scale disaster or accident. Rather than individual applications, the local authority applies by area and the state approves. Those covered are notified in advance and may decline.
+
+　Article 9 of the Act carries a provision for ancillary measures.
+
+　— In order to maintain the effect of the processing, restriction on the public inspection of records relating to the matter, and other measures, may be taken to the extent necessary.
+
+　Restriction on inspection, and other measures.
+
+　"Was this Act applied in the Higashimachi matter?"
+
+　"It was," the Proofreader said. "In November twenty-three years ago this city applied, and approval was given the following month."
+
+　"The number covered?"
+
+　"Three thousand nine hundred and forty-one."
+
+　"Those who declined?"
+
+　"A hundred and seven."
+
+　Iwami brought the city's population to mind. Three thousand nine hundred and forty-one corresponds to a radius of about a kilometre.
+
+
+V
+
+　The content of the processing was on record.
+
+　Target fragments: memories relating to the fire. Objective: load under 0.10. Carried out over four nights. Four half-shades, which works out at a reduction of about 0.20.
+
+　"The mean of the original load?"
+
+　"0.28," the Proofreader said.
+
+　"And after processing?"
+
+　"A mean of 0.08."
+
+　It has not gone. The memory remains. Only, about three thousand eight hundred people have not spoken to anybody for twenty-three years about a fire in which nineteen people died.
+
+　Because there was no reason to. At 0.08, it no longer moves a person. Without an occasion to recall it they do not recall it, and not recalling it, it does not come up.
+
+　At about the same time the account dropped out of the city history and the articles went from the newspaper database. The ancillary measures of Article 9.
+
+　Nobody remembers. Nothing is written. The two are separate procedures, done by separate departments on separate grounds. Together they come to one result.
+
+　Neither procedure contained any provision for examining the combined result.
+
+　"One question," Iwami said. "Was there an intention in doing these two together?"
+
+　"There is no entry on the application," the Proofreader said. "The stated reason for the affect processing is the promotion of the rebuilding of the lives of affected residents. The stated reason for the ancillary measures is to maintain the effect of the processing."
+
+　"Maintain the effect, meaning?"
+
+　"Where a person repeatedly contacts records of the matter after processing, the load may rise again," the Proofreader said. "The inspection restriction on press records is a measure to prevent that rise."
+
+　The reasoning held. If what was brought down over four nights comes back every time a newspaper is read, there is no point in the processing. Not showing them the records is better for those covered.
+
+　That much is reasoning.
+
+　What fell outside the reasoning did so twenty-three years later. The records closed to protect the three thousand nine hundred and forty-one of that time are now closed to everybody. To people who had not been born. To people who moved here since.
+
+　That the restriction has no expiry is written nowhere in the Act. Not being written, it cannot be made to end.
+
+
+VI
+
+　The register of those covered survived, by address.
+
+　Iwami typed in his old family address. Higashimachi 4-chome. The house he grew up in.
+
+　It was on the register.
+
+　Iwami Takeshi, six years old. Same household: father, mother, elder sister. All four covered. No record of declining.
+
+　Iwami tried to remember the fire.
+
+　Nothing came. Memory at six is fragments to begin with. The sandpit at nursery. The stairs at his grandmother's house. The smell of the car at the end of the year. None of them joins to a fire.
+
+　There was one thing that occurred to him.
+
+　Iwami cannot bear the sirens of fire engines. It has been so since childhood, and even now his chest tightens when he hears one. He has never considered the reason. He assumed everybody was like that.
+
+　0.08.
+
+　What that figure amounts to, Iwami learned concretely for the first time.
+
+　He rang his sister. He made out that there was nothing in particular, and partway through brought up Higashimachi.
+
+　"That car park in Higashimachi 3-chome — has it always been a car park?"
+
+　"I wonder," his sister said. "We never went round there much, did we."
+
+　"Have you ever heard about a fire there?"
+
+　"A fire." She was quiet a moment. "No. A big one?"
+
+　"Nineteen people died."
+
+　"Goodness," she said. "So that happened. Mum would remember, wouldn't she."
+
+　Their mother died five years ago. His sister had not forgotten it; it was the flow of the conversation. Iwami let it pass.
+
+　After he put the phone down, Iwami went back over his sister's "Goodness".
+
+　She was surprised. Hear that there was a fire nearby in which nineteen people died, and a person is surprised. His sister was surprised correctly. For someone who had been ten years old and inside that one-kilometre radius, it was the wrong way to be surprised.
+
+
+VII
+
+　There are two ways of correcting a register.
+
+　One is to bring the register into line with the current state. With no record of a building, maintain the entry as vacant land from twenty-three years ago. In the practice of a land readjustment this causes no difficulty.
+
+　The other is to enter Higashimachi Hall retrospectively as a lost building. Name, structure, year built, date of loss. It goes onto the public register. Anybody may inspect it.
+
+　Iwami chose the second.
+
+　In the reasons field of the application, Iwami wrote this:
+
+　— To ensure the accuracy of the register.
+
+　What he wrote was true. The register becomes accurate.
+
+　Only, Iwami's reason for wanting that line back had little to do with accuracy. There is no form at the city offices for filing an application for an unrelated reason.
+
+　"One question," Iwami said. "Does this entry conflict with the Article 9 measures?"
+
+　"It does not," the Proofreader said. "The inspection restriction covers press records and the city history account relating to the matter. Registers relating to property registration are not included."
+
+　"The reason for not including them?"
+
+　"There is no record of that," the Proofreader said. "The application of the time enumerates the media covered. Registers are not in that enumeration."
+
+　"An omission in the drafting, then?"
+
+　"That cannot be determined."
+
+
+VIII
+
+　The entry was completed three weeks later.
+
+　One line was added to the public register for Higashimachi 3-chome.
+
+　— Higashimachi Hall. Reinforced concrete, four storeys. Built 1977. Lost by fire, 9 November, twenty-three years ago.
+
+　The figure of nineteen dead did not go on. A register has no field for people.
+
+　Iwami printed the completion notice and put it in his desk drawer. Not to show anybody. He could not think of anybody to show it to.
+
+　About three thousand eight hundred people still live in this city. How many are still within its boundaries he does not know, but Iwami at least is. So is his sister. Ring his sister and talk about the fire and probably nothing will come. 0.08 is that sort of value.
+
+　Anybody may inspect the register. To inspect it, you need a reason to be looking into that land.
+
+　How many people in future will want to know what happened twenty-three years ago, he does not know. Whoever next does the preliminary work for a readjustment will set the aerial photograph from twenty-four years ago beside the register and will not, this time, find a discrepancy. Because a line has been added.
+
+　The discrepancy is gone, so nobody will look into it.
+
+　Iwami decided to think that this was all right. Decided to think it, which is not the same as having been able to think it.
+
+　Outside the window a siren sounded. It was an ambulance. Nothing happened in Iwami's chest.

@@ -29,6 +29,40 @@ English must repeat it too, word for word.
 | 十一　幸福指数九八 | XI. Happiness Index 98 |
 | 十二　沈黙の被験者 | XII. The Silent Subject |
 
+### Volume II
+
+| Japanese | English |
+|---|---|
+| 均し | The Levelling |
+| 夢編集局 第二集 (subtitle) | The Dream Editing Bureau, Book Two |
+| 一　眠らない都市 | I. The Sleepless City |
+| 二　胎夢 | II. Foundations |
+| 三　共感注射 | III. The Empathy Injection |
+| 四　最後の夢職人 | IV. The Last Craftsman |
+| 五　ＡＩは夢を見るか | V. Does the Machine Dream? |
+| 六　夢の犯罪 | VI. Bodily Harm |
+| 七　消えた現実 | VII. The Register |
+| 八　夢の海 | VIII. The Sea of Dreams |
+
+Notes on the harder ones.
+
+**胎夢 → Foundations.** The Japanese word is the classical one for a dream
+that foretells a child. English has nothing for it that is not either clinical
+or twee. The story's own word is 土台, foundation — "the foundation, not the
+character itself" — and it carries the theme, so the title takes it.
+
+**夢の犯罪 → Bodily Harm.** The charge in the story is 傷害. "Bodily Harm" is
+the legal term and holds the story's irony, which is that no body is harmed.
+
+**消えた現実 → The Register.** A literal "The Vanished Reality" oversells the
+ending. The story turns on one line restored to a public register, and the flat
+bureaucratic noun sits with "The Bequest" and "The Sentence" in Volume I.
+
+**ＡＩは夢を見るか → Does the Machine Dream?** The pivotal line is Jinbo's
+question to the Proofreader, so the title has to echo it. "AI" is avoided in
+the English because the book never uses the term in its own voice; the machine
+is the Proofreader throughout.
+
 Notes on the harder ones.
 
 **夢裁判 → The Sentence.** "Dream Trial" is flat and slightly comic in English.

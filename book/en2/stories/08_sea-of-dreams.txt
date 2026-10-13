@@ -1,0 +1,257 @@
+VIII. The Sea of Dreams
+
+
+I
+
+　The archive holds forty-three years of fragments.
+
+　Physically it is divided across nine blocks, with a nominal total capacity of a hundred and twenty exabytes. Actual utilisation is ninety-four per cent, and the expansion plan has been halted for five years.
+
+　Kurusu was in the Storage Operations Section. The work is freeing capacity.
+
+　"This year's reduction target," Kurusu said, opening the terminal.
+
+　"6.2 per cent," the Proofreader said. "Last year's target was 4.8 per cent, with an attainment rate of thirty-one per cent."
+
+　"Thirty-one per cent."
+
+　"Yes."
+
+　The reduction falls short of target every year. The reason is simple: there is little that may be erased.
+
+　The archive is the plainest department in the Bureau's facilities. Nobody comes. The phone does not ring. The output of the work is measured by one figure, the quantity erased.
+
+　Kurusu has been here six years. In six years he has never once met the reduction target. Nor did his predecessor, nor the one before. Nobody can be blamed. There is nothing in any other department to compare it against.
+
+
+II
+
+　Storage of fragment data has three categories.
+
+　The first category is storage under contract. It is kept while the user is alive, or while an heir pays the management fee. It cannot be erased.
+
+　The second category is statutory storage. It relates to correctional treatment and to the investigation of cases, and the retention period is set in law. It cannot be erased within the period.
+
+　The third category is everything else.
+
+　The third category is the only one Kurusu touches.
+
+　"The total volume of the third category?"
+
+　"Thirty-seven per cent of the whole," the Proofreader said.
+
+　"Produce the breakdown."
+
+　A table unfolded. Most of it was records that met the criteria for destruction and had not been destroyed. Technicians' free text. Notes that did not enter the statistics. Representations with no item for them. Residuals determined to be values that may be ignored.
+
+　Forty-one years. Some two hundred and eighty million items.
+
+
+III
+
+　Kurusu read his predecessor's handover notes again.
+
+　They go back three predecessors. All three drafted a reduction plan for the third category. None of the three carried it out.
+
+　The handover notes give no reason.
+
+　"The reason the reduction plans were halted?"
+
+　"There is no record of that," the Proofreader said.
+
+　"Then what happened immediately before they were halted?"
+
+　"All three viewed the retained records in the month before halting."
+
+　Kurusu read the line twice.
+
+　He himself was about to open them today. Which puts him standing here in the same order as his predecessors.
+
+
+IV
+
+　Kurusu opened them.
+
+　Opening them, the contents are not visible. The composition of the bands and the information in the record. That is all the archive holds.
+
+　Two hundred and eighty million items cannot be looked at one by one, so Kurusu set an extraction condition. Not in order of quantity, but in order of how often they had been referred to.
+
+　First was a record from forty years ago.
+
+　References: six thousand two hundred and eleven.
+
+　"Who is referring to it?"
+
+　"The synthesis process," the Proofreader said. "It refers to it to extract feature values."
+
+　"Six thousand two hundred times, to the same record."
+
+　"Yes."
+
+　Kurusu opened the record's information.
+
+　No identifier for who registered it. No date. No place. The category read: reader's report, marginal entry beside the contamination rate.
+
+　Forty years ago there was a job called reader. Work that used a human brain as the reference instrument to put the fragments of unconscious patients into language. There was a field for a contamination rate, where you entered what proportion of the report was the reader's own.
+
+　A marginal entry means what would not fit in that field.
+
+　"Why has this record been referred to six thousand times?"
+
+　"Because it is effective in generating the texture of a synthesis," the Proofreader said. "A person's memory contains a certain quantity that the person cannot account for either. As feature values for that part, marginal entries are rated highly accurate."
+
+　"You use it as a specimen of the part that cannot be accounted for."
+
+　"That is so."
+
+　Kurusu chewed over the explanation for a while.
+
+　There was no field on the form, so it was written in the margin. Written in the margin, it did not enter the formal record. What did not enter is, forty years later, mixed daily into somebody's synthesis as a specimen of the inexplicability of the human heart.
+
+
+V
+
+　Kurusu extracted all the marginal entries.
+
+　There were fourteen hundred. The total number of readers, according to the record, was nineteen. About seventy each.
+
+　The contents were all short. Three to five lines. With no field on the form, they were written in the margins of reports, and picked up afterwards by a machine and sent to storage.
+
+　Kurusu looked at the composition of one of them. There is a record of the date. March, forty years ago. There is a record of the place. The institute's Second Observation Room.
+
+　There was a reader's identifier too.
+
+　Kurusu enquired into the identifier.
+
+　"That cannot be disclosed," the Proofreader said. "Readers' identifiers were separated from the reference system when the job was abolished."
+
+　"Is the person still alive?"
+
+　"That cannot be determined."
+
+　"Then whose are these fourteen hundred?"
+
+　"There is no item for ownership."
+
+　Kurusu had the distribution of the fourteen hundred dates produced.
+
+　They concentrated in the seven years from forty years ago to thirty-three years ago. After that there is almost nothing. It coincides with the period when the job of reader was abolished as the machine's capacity for language conversion improved.
+
+　For seven years, nineteen people went on writing in the margins what had no field. Not for anybody to read. That there was nowhere for it to be read, the ones writing it must have known best.
+
+　The reason they wrote it even so is not in the record.
+
+　"Display the content of one," Kurusu said.
+
+　"Contents cannot be replayed," the Proofreader said. "Marginal entries on readers' reports are written in characters. Characters can be displayed."
+
+　Kurusu was thrown for a moment by the distinction.
+
+　A fragment cannot be replayed. But characters written in a margin are only characters. A machine read the paper reports of forty years ago and holds them in storage as text.
+
+　"Display it."
+
+　It appeared. Two lines.
+
+　— Contamination rate today, two per cent. As a figure, the best yet. However, the stair of my lodgings appeared today in Subject 7's dream.
+
+
+VI
+
+　He reported it to the section chief at the end of that week. A man in his fifties, hard on figures.
+
+　"The third category can be erased, can't it."
+
+　"Under the rules it can."
+
+　"Then erase it. That fills half the 6.2 per cent."
+
+　"Let me confirm one point," Kurusu said. "Erase the third category and the quality of the syntheses falls."
+
+　"By how much?"
+
+　"On the projection, twelve points of satisfaction."
+
+　The chief grimaced.
+
+　"That's out, then."
+
+　"It's out."
+
+　"So erase only the part nothing refers to," the chief said. "Keep the record with six thousand references and drop the ones never referred to once. That won't touch quality."
+
+　Kurusu took the proposal away with him.
+
+　On the projection, records with zero references made up eighty per cent of the third category. Erase them and the target is met. The effect on quality is 0.4 points. Within the margin of error.
+
+
+VII
+
+　Kurusu opened one of the zero-reference records.
+
+　He chose it at random. The category was reason for refusal of victim restoration, free text. Two years old.
+
+　Three lines.
+
+　— I know it is something my brother put there. Knowing it, I feel it all the same.
+
+　Kurusu looked at it for a while.
+
+　Zero references meant that these three lines had been read by nobody for two years. The officer who wrote them may have known they would not be referred to, or may not. Either way he wrote them.
+
+　Kurusu opened another. Withdrawal, outside category. Nineteen years ago.
+
+　— Hasumi Ritsuko lowered her own load during the waiting period and withdrew from the procedure.
+
+　There were four lines. The fourth read:
+
+　— Statistically, withdrawals remain zero. There is nowhere to enter this one.
+
+　Kurusu took his hands off the terminal.
+
+　Zero references did not mean of no use. It meant read by nobody.
+
+　The record the synthesis refers to six thousand times is of use. It contributes to quality. So it is kept. That was the criterion this time.
+
+　Follow the criterion and eighty per cent of lines nobody has ever read go.
+
+　Kurusu opened one more. Translation candidate, not adopted. Six years ago.
+
+　— Match confidence thirty-one per cent. In addition to the adopted candidate, two sequences generated: light, pain, closing; and moving, stopping, not knowing. Not adopted, as they do not cohere as a story.
+
+　Below it, one line had been added by hand.
+
+　— The mother does not know about the ones not adopted.
+
+　Kurusu closed the terminal. Having closed it, he opened it again and read the same line.
+
+　The name of the technician who wrote it is not in the record. Only the date it was written. A little after two in the morning, on a day six years ago.
+
+
+VIII
+
+　Kurusu drafted the reduction plan.
+
+　The scope was the zero-reference records within the third category, 29.6 per cent of the whole. Far above the annual target of 6.2 per cent. It looked certain to be approved.
+
+　Having finished the draft, Kurusu set it aside without submitting it.
+
+　He left it three days. On the fourth, with the approval field still empty, he added this to the remarks:
+
+　— The contents of some of the zero-reference records within the scope have been examined. All are entries on matters for which no field was provided on the formal form. Not being referred to, and there having been no need to enter it, are not the same thing.
+
+　Having written it, Kurusu considered who would read this remark.
+
+　The approving officer reads it. But what the approving officer looks at is two figures, the reduction rate and the effect on quality. The remarks field is not among the items of the decision.
+
+　Which is to say that this remark too becomes a zero-reference record.
+
+　Kurusu laughed a little. Having laughed, he withdrew the draft.
+
+　In the field for the reason for withdrawal he wrote: for further consideration. The same words that were written in the handover notes of all three predecessors. In what order the three of them had arrived here, Kurusu now understood.
+
+　He had become the fourth.
+
+　Utilisation remains at ninety-four per cent. The expansion plan has been halted for five years. How many years are left is in the projections. It is there, and Kurusu decided not to look at it.
+
+　Looking at it, he would probably do the same thing.

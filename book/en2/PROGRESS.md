@@ -17,9 +17,9 @@ Settle a term there before using it. Build with
 | III | 共感注射 | The Empathy Injection | 4,432 | 1,864 | **done** |
 | IV | 最後の夢職人 | The Last Craftsman | 4,226 | 1,931 | **done** |
 | V | ＡＩは夢を見るか | Does the Machine Dream? | 3,963 | 1,796 | **done** |
-| VI | 夢の犯罪 | — | 3,933 | — | pending |
-| VII | 消えた現実 | — | 3,982 | — | pending |
-| VIII | 夢の海 | The Sea of Dreams | 3,889 | — | pending |
+| VI | 夢の犯罪 | Bodily Harm | 3,933 | 1,785 | **done** |
+| VII | 消えた現実 | The Register | 3,982 | 1,890 | **done** |
+| VIII | 夢の海 | The Sea of Dreams | 3,889 | 1,806 | **done** |
 | IX | 明日の夢 | Tomorrow's Dream | 3,879 | — | pending |
 | X | 最後のバグ | The Last Bug | 3,843 | — | pending |
 | XI | 残差 | Residual | 3,906 | — | pending |
