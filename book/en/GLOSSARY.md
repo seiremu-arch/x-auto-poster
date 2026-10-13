@@ -76,6 +76,17 @@ These appear across most stories. Never vary them.
 | 保持記録 | retained records | what was never given a field |
 | 幸福指数 | the Happiness Index | (XI) |
 | 苦情等申立件数 | complaints and petitions filed | the Index's third sub-indicator |
+| 付与 | application | the act of moving a load, either direction |
+| 上方付与 | upward application | the one legal exception (VIII) |
+| 形成 | formation | building a load where none exists — not permitted (VIII) |
+| 矯正処遇法第百三十四条 | Article 134 of the Correctional Treatment Act | authorises upward application |
+| 更生プログラム | the rehabilitation programme | (VIII) |
+| 目標荷重 | target load | 〇・八〇 in the programme |
+| 悔恨 | remorse | the word the state uses for the difference between two numbers |
+| 計測アーム | the measuring arm | |
+| 満足の範囲 | the satisfaction range | 0.10–0.35, by which consent is deemed to continue (IX) |
+| 看取り | the attended death | not "passing"; the Bureau's word is administrative |
+| 合成素片の寿命 | the lifespan of a synthesised fragment | the set age of death (IX) |
 
 ### Department names
 
@@ -89,6 +100,9 @@ These appear across most stories. Never vary them.
 | 広告課 | the Advertising Section |
 | 統計局 | the Statistics Bureau |
 | 常眠棟 | the Long Sleep wing |
+| 矯正施設 | the correctional facility |
+| 法務官 | the legal officer |
+| 施設長 | the facility director |
 
 ---
 
@@ -127,6 +141,8 @@ reader sees it is the same question.
 | Bequest | "Can it be recorded as made by the person without his having made it." |
 | Translation | "Can it be recorded as translated without translating it." |
 | Consent Dream | "Can it be recorded as reconciled without reconciling it?" |
+| Correctional facility | "Can it be recorded as raised without raising it?" |
+| Long Sleep wing | "Can it be recorded as consented to without her having consented?" |
 
 **The field for the person himself.** Frame: "The field for the person himself
 does not contain ___." The Bequest story establishes the cumulative form, "contains
