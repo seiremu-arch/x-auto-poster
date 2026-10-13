@@ -20,13 +20,12 @@ using it. Build with `python3 book/tools/build_epub.py en1`.
 | VII | 涙の代筆 | Grief by Proxy | 4,476 | 2,038 | **done** |
 | VIII | 夢裁判 | The Sentence | 4,577 | 2,064 | **done** |
 | IX | 目覚めない権利 | The Right Not to Wake | 4,503 | 2,050 | **done** |
-| X | 夢の相続 | Inheritance | 4,587 | — | pending |
-| XI | 幸福指数九八 | Happiness Index 98 | 4,218 | — | pending |
-| XII | 沈黙の被験者 | The Silent Subject | 4,551 | — | pending |
+| X | 夢の相続 | Inheritance | 4,587 | 2,143 | **done** |
+| XI | 幸福指数九八 | Happiness Index 98 | 4,218 | 2,026 | **done** |
+| XII | 沈黙の被験者 | The Silent Subject | 4,508 | 2,210 | **done** |
 
-Japanese total 51,721 characters. Across the five stories translated so far the
-ratio holds at 0.452 words per character, which puts the finished English at
-roughly 23,400 words.
+All twelve translated. Japanese 51,721 characters → English 23,782 words, a
+ratio of 0.460 words per character that held within 0.01 across the whole book.
 
 Counts in this table are written by `python3 book/tools/sync_en_counts.py`, not
 by hand. Run it after each story.
@@ -62,9 +61,25 @@ Consistent with the setting being plainly Japanese.
 
 ---
 
+## Checks
+
+`python3 book/tools/check_en_terms.py` holds the terminology read-through. It
+applies the forbidden variants of every fixed term in `GLOSSARY.md`, plus the
+British-spelling and typographic rules, across all twelve files. Currently clean.
+
+The check is only worth what its patterns are worth, so it was verified by
+feeding it a line of deliberate errors (engineer / half shade / Proof-reader /
+emotional load / residue / percent / realized / color / gray / 〇・〇五) and
+confirming it caught each one.
+
+`python3 book/tools/check_overlap.py` separately confirms that no sentence from
+the award entry has reached the published text, English or Japanese.
+
+---
+
 ## Remaining work after the twelve stories
 
 - [ ] English KDP listing: title, description, keywords, categories
 - [ ] Cover with English title (the band design carries over; only the type changes)
-- [ ] Read the twelve through for terminology drift
+- [x] Read the twelve through for terminology drift — mechanised, see Checks
 - [ ] Decide whether Volume II follows

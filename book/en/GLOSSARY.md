@@ -87,6 +87,13 @@ These appear across most stories. Never vary them.
 | 満足の範囲 | the satisfaction range | 0.10–0.35, by which consent is deemed to continue (IX) |
 | 看取り | the attended death | not "passing"; the Bureau's word is administrative |
 | 合成素片の寿命 | the lifespan of a synthesised fragment | the set age of death (IX) |
+| 識別子 | identifier | the Bureau's per-person number (X) |
+| 無応答 | non-response | a category distinct from refusal (X) |
+| 下位指標 | sub-indicator | the Index has fourteen (XI) |
+| 夜間覚醒率 | the night waking rate | |
+| 悪夢発生率 | the nightmare incidence rate | |
+| 参照器 | reference instrument | the reader's own brain (XII) |
+| 同期 (読み手の) | synchronisation | bidirectional, as Hori learns (XII) |
 
 ### Department names
 
@@ -103,6 +110,9 @@ These appear across most stories. Never vary them.
 | 矯正施設 | the correctional facility |
 | 法務官 | the legal officer |
 | 施設長 | the facility director |
+| 司法書士 | the judicial scrivener |
+| 意識障害者交信研究部門 | Communication Research Division for Persons with Disorders of Consciousness |
+| 利益相反防止規程第九条 | Article 9 of the Conflict of Interest Regulations |
 
 ---
 
@@ -143,6 +153,7 @@ reader sees it is the same question.
 | Consent Dream | "Can it be recorded as reconciled without reconciling it?" |
 | Correctional facility | "Can it be recorded as raised without raising it?" |
 | Long Sleep wing | "Can it be recorded as consented to without her having consented?" |
+| Statistics Bureau | "Can it be recorded as measured without measuring it?" |
 
 **The field for the person himself.** Frame: "The field for the person himself
 does not contain ___." The Bequest story establishes the cumulative form, "contains
