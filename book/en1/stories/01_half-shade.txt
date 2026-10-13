@@ -1,0 +1,294 @@
+I. Half-Shade
+
+
+I
+
+　The Fourth Editing Room at one in the morning was as quiet as the bottom of a tank.
+
+　Kaji turned his chair halfway and looked at the girl on the bed. Suginoto Saya, thirteen. Five electrode pads on her forehead, not seven. The configuration used for minors, which leaves off the two that sit over the temples. A child's skull is still thin, and pads placed there make the readings jump.
+
+　"REM," the Proofreader said. A voice with no gender and no moisture in it. "Sixteen seconds to the intervention window."
+
+　Bands of colour came up on the monitor. Nobody can lift a dream out as a picture, not in this world, not yet. What is displayed is only the bands. One band is one memory fragment; the colour gives the affective load, the width gives the strength of replay.
+
+　In Saya's dream the second band from the left was wrong. Thick, nearly black with red in it, swaying as though pushing the others aside.
+
+　"Affective load, 0.91," the Proofreader read out. "The threshold for protective editing is 0.85. The case meets the criteria."
+
+　Kaji opened the breakdown. The fragment came apart into two. Smoke, and a face.
+
+　It had been a fire, two years ago. Saya's mother had run down the hall away from the front door rather than toward it. The neighbours said she had been looking for her daughter, and the record says the same. Saya was already outside.
+
+　In the dream, the mother turns back once, on the far side of the smoke.
+
+　Protective editing comes down by monthly allocation. Fragments belonging to minors that exceed a load of 0.85 are distributed so that each is processed within the month. Kaji's share was fourteen cases a month, and twelve of them finished in a single night. A child's fragments are thin and move easily under the hand. Two years in a child is softer than thirty years in an adult.
+
+　Pressing something soft is not difficult work. What is difficult is deciding how far to press.
+
+　"Window," the Proofreader said.
+
+　Kaji put his right hand on the console. He put it there and did not press.
+
+
+II
+
+　Saya woke a little after two in the morning. She lay looking at the ceiling for a while.
+
+　Then she said, clearly, "Please don't erase it."
+
+　Kaji stopped peeling off the pads.
+
+　"I won't erase it," he said. "There is no technique for erasing."
+
+　"You're going to make it smaller."
+
+　"I'm going to make it smaller."
+
+　"That's the same thing," Saya said. "If it gets smaller I won't be able to see it."
+
+　Kaji poured water into a paper cup and set it beside the bed. Nine years in this work had taught him one thing. When someone has said something they have decided on, all a technician can do is set down the water.
+
+　"You will still be able to see it," he said. "There will be rain falling, and a road, and someone standing on it. It becomes a scene, and only that."
+
+　"The face?"
+
+　"The face stays."
+
+　"It isn't there in the daytime," Saya said, still looking at the ceiling. "When I try to remember, the outline dissolves in water. The shape of an eye, the corner of a mouth — those come one at a time, but when I put them together it's somebody else."
+
+　Kaji said nothing.
+
+　"The photographs burned," she said. "There's the one in the school register. That isn't my mother. That's an identification photograph."
+
+　"No, it isn't her."
+
+　"Only the dream makes the face."
+
+　It was then that the girl looked at him for the first time. Her eyes were dry. Not the eyes of a child preparing to cry. The eyes of someone who had come to negotiate.
+
+　"I read the regulations," Saya said. "Above 0.85, processed within the month. Consent of the subject is not a requirement. Not a requirement, it said."
+
+　"You could read it?"
+
+　"I looked up what it meant," she said. "My opinion doesn't go anywhere on the form, does it."
+
+　"It doesn't."
+
+　Kaji could have lied. He judged that it would not work on this girl.
+
+　"The smoke is frightening," Saya said. "I think the face is clear because it's frightening. If you make it not frightening, won't the face go thin as well?"
+
+　Kaji could not answer that. He knew the answer. The girl's guess was broadly correct.
+
+　"Can you," Saya asked, "remember your mother's face?"
+
+　"I can."
+
+　"Is it frightening?"
+
+　"No."
+
+　"Then probably," she said, turning her eyes back to the ceiling, "yours is the face of someone who has photographs."
+
+
+III
+
+　Kaji filed the query that morning.
+
+　The answer came before noon. Four lines. Protective editing does not require the consent of the subject. A minor holding a fragment at or above 0.85 shall undergo the procedure within the month. Where a reduction in load cannot be confirmed following the procedure, the fragment enters the queue for automatic re-editing.
+
+　"What happens in the queue?" Kaji asked.
+
+　"Batch processing," the Proofreader said. "No technician is assigned. The load is brought below the threshold over however many nights are required."
+
+　"However many nights."
+
+　"From 0.91 to 0.84, two nights," the Proofreader said. "The batch procedure has no specified floor. In past cases it has gone to around 0.30."
+
+　Kaji ran a finger along the edge of the console.
+
+　0.30. At that value the rain does not stay, and the road does not stay. What stays is the fact that a child was there, filed like a document.
+
+　"If I take the case myself, can I set a floor?"
+
+　"The technician's discretion extends to the design of the reduction and its division," the Proofreader said. "The ceiling is the half-shade. No more than 0.05 may be moved in a single night."
+
+　The half-shade. It was the first thing Kaji had been made to memorise in training.
+
+　Move the affective load by more than 0.05 in one night and the brain can no longer detect the trace of the rewriting itself. While the trace remains, a person can tell himself: this is a dream that was edited. Once the trace is gone, he cannot.
+
+　What the ceiling protects is not the dream of the sleeping person. It is the room left afterwards, on waking, to doubt one's own memory.
+
+　"One question," Kaji said. "Can it be recorded as reduced without reducing it?"
+
+　"The line check is taken independently, by me," the Proofreader said. "It is a separate system from the technician's declaration."
+
+　"I know that."
+
+　"Then why did you ask?"
+
+　Kaji did not answer. He had asked because he wanted to hear, in his own ears, that he knew the answer.
+
+
+IV
+
+　Kaji spent three days on the design.
+
+　Saya's fragment had two parts. Smoke, and a face. They lay beside each other. Of course they did: the same night, the same hallway, one memory.
+
+　Press one of two adjacent fragments and the other is dragged along. This is not a defect of the technique. It is only that the brain binds memory that way. He wanted to lower the smoke and not the face.
+
+　What he built was a division across seven nights.
+
+　Instead of taking 0.05 a night he would take 0.02. He would keep the point of pressure at the edge of the smoke fragment, away from the side where the face lay. If drag appeared he would stop for that night. Seven nights, 0.14 in total. The 0.85 threshold would be crossed on the second night, so the case would not enter the queue.
+
+　By the regulations, the work finishes in one night. A technician who finishes in one night has his case-count assessment go up. A technician who stretches it over seven has it go down.
+
+　At the foot of the design document Kaji wrote one line as his reason. To avoid drag into the adjacent fragment. It was not a lie. It was not all of it either.
+
+　"Approved," the Proofreader said. "One matter will be noted."
+
+　"What matter?"
+
+　"Four comparable division designs have been filed in the past ten years," the Proofreader said. "Of those four, three technicians subsequently surrendered their certification."
+
+　"For what reason?"
+
+　"There is no record of that."
+
+
+V
+
+　On the first night Kaji pressed the edge of the smoke.
+
+　The band shuddered as if objecting, and then went paler by exactly 0.02. The face fragment did not move.
+
+　Second night, 0.02. Third night, 0.02. On the fourth night the face moved for the first time. 0.004. Kaji lifted his finger and ended the session for that night.
+
+　Drag. The force he was applying was leaking into the fragment beside it. 0.004 is a value indistinguishable from measurement error, and no reporting obligation attaches to it. Kaji wrote it in pencil in the margin of the design document and on the following night moved his point of pressure two steps further out, past the edge of the smoke.
+
+　The further out he moved it, the less readily the smoke came down. What he lost in reach he had to make up in nights. Seven was a number arrived at that way.
+
+　On the fifth night Saya spoke after she woke.
+
+　"It got shorter."
+
+　"What did?"
+
+　"The time I'm inside the smoke," the girl said, thinking it through. "Before, it was all smoke. I ran and ran and it was smoke, and then my mother. Now there's a little smoke and then my mother, straight away."
+
+　Kaji listened while he peeled off the pads.
+
+　"And the fear?"
+
+　"It's there," Saya said. "But I don't have to run any more."
+
+　On the sixth night nothing happened. On the seventh Kaji pressed the last 0.02.
+
+　0.14 in total. From 0.91 to 0.77. Well clear of the threshold, and a value at which the rain and the road both stay.
+
+
+VI
+
+　Saya woke at three in the morning.
+
+　"She was there," the girl said.
+
+　"The face?"
+
+　"It was there." Saya smiled a little. In nine years of this work it was a kind of smile Kaji had not seen before. "The turning round was there too. She turned more slowly than before."
+
+　"The smoke?"
+
+　"It was there. But it was far away."
+
+　Kaji poured water into a paper cup. The girl took it in both hands and drank a little.
+
+　"Thank you," Saya said.
+
+　Kaji nodded and opened the record terminal.
+
+　"Suginoto Saya. Total reduction in affective load across seven nights, 0.14," the Proofreader read out. "Line check: the line has not moved."
+
+　"The face fragment?"
+
+　"Total of 0.004. Within measurement error," the Proofreader said. "It was not touched."
+
+　Kaji put a finger on the terminal and stopped.
+
+　"One question."
+
+　"Go ahead."
+
+　"The mother that girl saw tonight. Was she the real one?"
+
+　The Proofreader paused. Not a pause for breath. A pause set at the structural break in the sentence.
+
+　"There is no field for 'real'."
+
+　"Then what about her thanks?"
+
+　"Gratitude is an affect. Affect is load," the Proofreader said. "Whether the Suginoto Saya of seven nights ago would have said the same words cannot be estimated."
+
+　Kaji submitted the line check to the terminal. The line has not moved. The line is recorded as not having moved.
+
+　On the bed, Saya was already asleep. About half the water was left in the paper cup.
+
+　Through the corridor came the sounds of morning. The wheels of a meal cart. Somebody's short greeting. A door opening and closing.
+
+　Kaji did not clear away the cup with the water still in it.
+
+
+VII
+
+　The notice came a month later.
+
+　Suginoto Saya, affective load 0.86. Threshold exceeded. The fragment enters the queue for automatic re-editing.
+
+　Kaji read the figure three times. A fragment he had brought down to 0.77 over seven nights had gone back to 0.86 in a month. It had gone back further than he had pressed.
+
+　"Proofreader."
+
+　"It is a residual." The answer came fast. Fast in the way of an answer prepared before the question. "Several in ten thousand. There are fragments in which the affective load recovers against the applied reduction."
+
+　"The cause of the recovery?"
+
+　"There is no record of that."
+
+　"Is it defective?"
+
+　"It is a value that may be ignored," the Proofreader said. "It does not affect the average."
+
+　Kaji looked at the bands on the monitor. Second from the left. Smoke, and a face. On the face side the load stood at 0.00. Only the smoke had got up again.
+
+　Pushing back, Kaji thought.
+
+　That girl had pushed back seven nights' work in a month. Not deliberately, surely. All she had done was go to look at her mother's face each night. Each time she went the smoke thickened too, and because it thickened the face came clear, and because it came clear she went again.
+
+　It was not the shape of a memory. It was the shape of an intention.
+
+　"I request the assignment," Kaji said. "Division design, a second time."
+
+　"Approval requires the section chief's authorisation."
+
+　"I'll file it."
+
+　"One matter will be noted," the Proofreader said. "This brings comparable division designs to five in the past ten years."
+
+　Kaji turned his chair halfway and looked at the empty bed. Five pads. The configuration used for minors. The two that sit over the temples left off.
+
+　"You said three of the four surrendered their certification."
+
+　"I did."
+
+　"And that there was no record of the reason."
+
+　"There is none," the Proofreader said. "Though all three filed the same query in the month before they surrendered it."
+
+　"Which query?"
+
+　"Can it be recorded as reduced without reducing it."
+
+　Kaji put his right hand on the console. He put it there and did not press.
+
+　Outside the windowless room it was still dark.

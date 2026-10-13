@@ -21,28 +21,40 @@ import zipfile
 from pathlib import Path
 
 AUTHOR = "Kazu A. Suzuki"
-LANG = "ja"
 
 VOLUMES = {
     "vol1": {
         "title": "夢編集局",
         "subtitle": "十二の夜",
         "uuid": "urn:uuid:8f2c1a64-3d5e-4b90-a7c1-000000000001",
+        "lang": "ja",
+        "vertical": True,
     },
     "vol2": {
         "title": "均し",
         "subtitle": "夢編集局 第二集",
         "uuid": "urn:uuid:8f2c1a64-3d5e-4b90-a7c1-000000000002",
+        "lang": "ja",
+        "vertical": True,
+    },
+    "en1": {
+        "title": "The Dream Editing Bureau",
+        "subtitle": "Twelve Nights",
+        "uuid": "urn:uuid:8f2c1a64-3d5e-4b90-a7c1-00000000e001",
+        "lang": "en",
+        "vertical": False,
     },
 }
 
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
 
-SECTION_RE = re.compile(r"^[一二三四五六七八九十]+$")
+SECTION_RE = re.compile(r"^(?:[一二三四五六七八九十]+|[IVXLC]+)$")
 
-STYLE = """@charset "UTF-8";
-html {
+def stylesheet(vertical: bool) -> str:
+    """巻ごとの組み方向に合わせたCSSを返す。"""
+    if vertical:
+        flow = """html {
   -epub-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   line-height: 1.9;
@@ -70,10 +82,43 @@ p {
   text-indent: 0;
   line-height: 1.9;
 }
-p.lead { margin-top: 2em; }
 .front h1 { letter-spacing: 0.5em; }
-.front p { margin: 0 1.2em 0 0; }
-"""
+.front p { margin: 0 1.2em 0 0; }"""
+    else:
+        # 英語版は横組み。段落は字下げで繋ぎ、節の直後だけ字下げを外す
+        flow = """html {
+  line-height: 1.55;
+}
+body {
+  font-family: "Iowan Old Style", "Palatino", Georgia, serif;
+  margin: 0;
+  padding: 0 1.2em;
+  text-align: left;
+}
+h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+  letter-spacing: 0.04em;
+  margin: 2.2em 0 1.6em;
+  page-break-before: always;
+}
+h2 {
+  font-size: 0.95em;
+  font-weight: normal;
+  letter-spacing: 0.22em;
+  text-align: center;
+  margin: 2.4em 0 1.4em;
+}
+p {
+  margin: 0;
+  text-indent: 1.25em;
+}
+h1 + p, h2 + p { text-indent: 0; }
+.front { text-align: center; }
+.front h1 { margin-top: 4em; page-break-before: avoid; }
+.front p { text-indent: 0; margin: 0.8em 0; }"""
+    return '@charset "UTF-8";\n' + flow + '\n'
+
 
 
 def count_chars(text: str) -> int:
@@ -100,12 +145,12 @@ def parse_story(path: Path) -> dict:
     }
 
 
-def story_xhtml(story: dict) -> str:
+def story_xhtml(story: dict, meta: dict) -> str:
     parts = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<html xmlns="http://www.w3.org/1999/xhtml" '
         'xmlns:epub="http://www.idpf.org/2007/ops" '
-        f'xml:lang="{LANG}" lang="{LANG}">',
+        f'xml:lang="{meta["lang"]}" lang="{meta["lang"]}">',
         "<head>",
         f"<title>{html.escape(story['title'])}</title>",
         '<meta charset="UTF-8"/>',
@@ -125,10 +170,12 @@ def story_xhtml(story: dict) -> str:
 
 def front_xhtml(stories: list, meta: dict) -> str:
     total = sum(s["chars"] for s in stories)
+    counted = (f"全{len(stories)}話　約{total:,}字" if meta["lang"] == "ja"
+               else f"{len(stories)} stories")
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<html xmlns="http://www.w3.org/1999/xhtml" '
-        f'xml:lang="{LANG}" lang="{LANG}">',
+        f'xml:lang="{meta["lang"]}" lang="{meta["lang"]}">',
         "<head>",
         f"<title>{html.escape(meta['title'])}</title>",
         '<meta charset="UTF-8"/>',
@@ -138,14 +185,15 @@ def front_xhtml(stories: list, meta: dict) -> str:
         f"<h1>{html.escape(meta['title'])}</h1>",
         f"<p>{html.escape(meta['subtitle'])}</p>",
         f"<p>{html.escape(AUTHOR)}</p>",
-        f"<p>全{len(stories)}話　約{total:,}字</p>",
+        f"<p>{counted}</p>",
         "</body>",
         "</html>",
     ]
     return "\n".join(lines)
 
 
-def nav_xhtml(stories: list) -> str:
+def nav_xhtml(stories: list, meta: dict) -> str:
+    nav_label = "目次" if meta["lang"] == "ja" else "Contents"
     items = "\n".join(
         f'    <li><a href="p{i:02d}.xhtml">{html.escape(s["title"])}</a></li>'
         for i, s in enumerate(stories, start=1)
@@ -153,15 +201,15 @@ def nav_xhtml(stories: list) -> str:
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:epub="http://www.idpf.org/2007/ops"
-      xml:lang="{LANG}" lang="{LANG}">
+      xml:lang="{meta["lang"]}" lang="{meta["lang"]}">
 <head>
-<title>目次</title>
+<title>{nav_label}</title>
 <meta charset="UTF-8"/>
 <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
 <nav epub:type="toc" id="toc">
-<h1>目次</h1>
+<h1>{nav_label}</h1>
 <ol>
 {items}
 </ol>
@@ -187,13 +235,13 @@ def opf(stories: list, meta: dict) -> str:
     nl = "\n    "
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0"
-         unique-identifier="bookid" xml:lang="{LANG}"
+         unique-identifier="bookid" xml:lang="{meta["lang"]}"
          prefix="rendition: http://www.idpf.org/vocab/rendition/#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="bookid">{meta['uuid']}</dc:identifier>
     <dc:title>{html.escape(meta['title'])}</dc:title>
     <dc:creator>{html.escape(AUTHOR)}</dc:creator>
-    <dc:language>{LANG}</dc:language>
+    <dc:language>{meta["lang"]}</dc:language>
     <meta property="rendition:layout">reflowable</meta>
     <meta property="rendition:spread">auto</meta>
     <meta property="ibooks:binding" refines="#bookid">true</meta>
@@ -201,7 +249,7 @@ def opf(stories: list, meta: dict) -> str:
   <manifest>
     {nl.join(manifest)}
   </manifest>
-  <spine page-progression-direction="rtl">
+  <spine page-progression-direction="{'rtl' if meta['vertical'] else 'ltr'}">
     {nl.join(spine)}
   </spine>
 </package>'''
@@ -237,15 +285,15 @@ def build(vol: str) -> None:
             compress_type=zipfile.ZIP_STORED,
         )
         z.writestr("META-INF/container.xml", CONTAINER, zipfile.ZIP_DEFLATED)
-        z.writestr("OEBPS/style.css", STYLE, zipfile.ZIP_DEFLATED)
+        z.writestr("OEBPS/style.css", stylesheet(meta["vertical"]), zipfile.ZIP_DEFLATED)
         z.writestr("OEBPS/content.opf", opf(stories, meta), zipfile.ZIP_DEFLATED)
-        z.writestr("OEBPS/nav.xhtml", nav_xhtml(stories), zipfile.ZIP_DEFLATED)
+        z.writestr("OEBPS/nav.xhtml", nav_xhtml(stories, meta), zipfile.ZIP_DEFLATED)
         z.writestr(
             "OEBPS/front.xhtml", front_xhtml(stories, meta), zipfile.ZIP_DEFLATED
         )
         for i, s in enumerate(stories, start=1):
             z.writestr(
-                f"OEBPS/p{i:02d}.xhtml", story_xhtml(s), zipfile.ZIP_DEFLATED
+                f"OEBPS/p{i:02d}.xhtml", story_xhtml(s, meta), zipfile.ZIP_DEFLATED
             )
 
     total = sum(s["chars"] for s in stories)
@@ -254,7 +302,12 @@ def build(vol: str) -> None:
     for i, s in enumerate(stories, start=1):
         print(f"   {i:2d}. {s['title']}　{s['chars']:,}字")
 
-    # 縦書きで倒れる半角文字の混入を検出する
+    # 縦書きで倒れる半角文字の混入を検出する。横組みの巻には関係がない
+    if not meta["vertical"]:
+        words = sum(len(t.split()) for s in stories for _, t in s["blocks"])
+        print(f"  約 {words:,} words（横組みのため半角検査は省略）")
+        return
+
     warned = False
     for s in stories:
         body = "".join(t for _, t in s["blocks"])
