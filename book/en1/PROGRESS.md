@@ -11,11 +11,11 @@ using it. Build with `python3 book/tools/build_epub.py en1`.
 
 | # | Japanese | English | Source | Words | State |
 |---|---|---|---|---|---|
-| I | 半色 | Half-Shade | 4,981 | 2,292 | **done** |
-| II | 忘却の順番待ち | The Waiting List for Forgetting | 4,540 | 2,107 | **done** |
-| III | 夢の遺言 | The Bequest | 4,555 | 2,163 | **done** |
-| IV | 夢の翻訳者 | The Translator | 3,915 | — | pending |
-| V | 二人称の夢 | The Second-Person Dream | 3,456 | — | pending |
+| I | 半色 | Half-Shade | 4,997 | 2,285 | **done** |
+| II | 忘却の順番待ち | The Waiting List for Forgetting | 4,540 | 2,101 | **done** |
+| III | 夢の遺言 | The Bequest | 4,555 | 2,063 | **done** |
+| IV | 夢の翻訳者 | The Translator | 3,915 | 1,712 | **done** |
+| V | 二人称の夢 | The Second-Person Dream | 3,454 | 1,534 | **done** |
 | VI | 夢税 | Dream Tax | 3,391 | — | pending |
 | VII | 涙の代筆 | Grief by Proxy | 4,450 | — | pending |
 | VIII | 夢裁判 | The Sentence | 4,578 | — | pending |
@@ -24,8 +24,12 @@ using it. Build with `python3 book/tools/build_epub.py en1`.
 | XI | 幸福指数九八 | Happiness Index 98 | 4,218 | — | pending |
 | XII | 沈黙の被験者 | The Silent Subject | 4,551 | — | pending |
 
-Japanese total 51,721 characters. On the ratio set by story I, the finished
-English runs to roughly 24,000 words.
+Japanese total 51,721 characters. Across the five stories translated so far the
+ratio holds at 0.452 words per character, which puts the finished English at
+roughly 23,400 words.
+
+Counts in this table are written by `python3 book/tools/sync_en_counts.py`, not
+by hand. Run it after each story.
 
 ---
 

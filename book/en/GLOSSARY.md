@@ -111,6 +111,34 @@ time they appear, including punctuation.
 | 「本人という項目には、平均も解釈も含まれない」 | "The field for the person himself contains neither averages nor interpretations." |
 | 人が泣いているとき、技師にできることは、水を注ぐことだけだ | When someone is crying, the only thing a technician can do is pour the water. |
 
+### Two lines that vary by section
+
+These two are repeated with the verb or noun swapped for the section's own work.
+The frame stays word for word; only the slot changes.
+
+**The cornered technician's query.** Frame: "Can it be recorded as ___ without
+___ it?" The Editing Room and Scheduling sections use the base form, "reduced /
+reducing". Later sections put their own verb in and say so explicitly, so the
+reader sees it is the same question.
+
+| Section | English |
+|---|---|
+| Editing Room, Scheduling | "Can it be recorded as reduced without reducing it?" |
+| Bequest | "Can it be recorded as made by the person without his having made it." |
+| Translation | "Can it be recorded as translated without translating it." |
+| Consent Dream | "Can it be recorded as reconciled without reconciling it?" |
+
+**The field for the person himself.** Frame: "The field for the person himself
+does not contain ___." The Bequest story establishes the cumulative form, "contains
+neither averages nor interpretations"; each later section adds its own absence and
+the narration notes that the technician has heard the construction before.
+
+| Section | Missing from the field |
+|---|---|
+| Bequest | averages, then interpretations |
+| Translation | intent, then confidence |
+| Consent Dream | interpretations, then the will to meet halfway |
+
 ---
 
 ## 4. Numbers

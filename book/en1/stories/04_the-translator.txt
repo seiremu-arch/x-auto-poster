@@ -1,0 +1,187 @@
+IV. The Translator
+
+
+I
+
+　Putting the dreams of people without language into language was Sakurai's work.
+
+　The Translation Section has two beds. One for the subject, one for the attendant. The attendant's is used only when the subject is an infant.
+
+　Subjects fall into three kinds. Infants. Those with severe disorders of consciousness. Those whose organs of speech do not function at all. What the person cannot say, the section listens for on the family's behalf.
+
+　The technique is called translation, but the word is not accurate. A dream is not a language, so there is nothing to translate. What is actually done is to take the sequence of colours and intensities in the fragments, match it against an existing language database, and convert it to the nearest sequence of meanings. An approximation, not a correspondence.
+
+　"Today's request," the Proofreader said. "Shimura Yuto, ten years old. A congenital condition; the organs of speech do not function. Continuing request from the mother, sixth session."
+
+　Sakurai opened the file. Shimura Yuto's dreams are translated once a month. His mother, Shimura Tomako, comes to hear what is in them.
+
+　"Previous results?"
+
+　"All five were output as positive in content," the Proofreader said. "Fragments involving light, animals and the action of running are detected at high frequency."
+
+　Sakurai looked at the bands on the monitor. The sequence of colours was not noticeably different from any other subject's. It was the work of assembling words out of these bands that made this section's job a different kind of job from the others'.
+
+
+II
+
+　Shimura Tomako bowed first thing on entering the interview room.
+
+　"Thank you for today as well."
+
+　"Thank you," Sakurai said.
+
+　Every time, Tomako sat in the same chair and waited in the same posture. It had the look of a fixed observance for hearing about her son's dreams.
+
+　"Yuto's face doesn't move much in the daytime either," she said while she waited. It did not seem to be conversation so much as something to fill the wait. "Often I can't tell whether he's crying or laughing. The care assistants said they couldn't either, until they got used to him."
+
+　"I see."
+
+　"So it makes me glad that in his dreams the expressions are clear," Tomako said. "Before I started coming here I had almost given up reading anything from that child's face."
+
+　Sakurai listened while he opened the terminal. The phrase had almost given up stayed in his ear for a while.
+
+　"And this month?"
+
+　He opened the terminal. The translation result is prepared in advance, already shaped into sentences.
+
+　"Yuto is in a place where light is falling. He is running with someone. The other appears to be a dog. Yuto seems to be laughing."
+
+　Tears came into Tomako's eyes.
+
+　"So he can run."
+
+　"In the dream."
+
+　"That child has never run once," she said. "He's been in a chair since he was born."
+
+　Sakurai said nothing. There was nothing in any regulation that he was supposed to say.
+
+　"Thank you." She bowed her head. "Hearing this every month is what I look forward to."
+
+　"Do you ever feel that the content is similar to other months?" Sakurai asked. It was not a question the rules provided for.
+
+　"It is similar," Tomako answered at once. "But that's all right. If that child is having a happy dream every time, of course it would be similar. Even for us, a happy face is more or less the same face, isn't it."
+
+　Sakurai nodded at that. While nodding, he could not establish that he had grounds in himself for nodding.
+
+
+III
+
+　After the sixth session, Sakurai set the five previous outputs side by side.
+
+　Light, animals, the action of running. Nearly the same elements every time. Do people go on having the same dream? He compared them against the records of other subjects. The dreams of people with language were far more disorderly. Contradictory feelings, irrelevant persons, developments with no thread. Only Yuto's translations were too well made as stories.
+
+　Sakurai opened the figures behind the output. It was not a field he normally looked at.
+
+　Match confidence, thirty-one per cent.
+
+　"What is this?" he asked the Proofreader.
+
+　"The reliability of the translation," it said. "It shows how far the colour and intensity of the fragments match the candidates in the language database."
+
+　"And at thirty-one per cent you output the sentence about light, animals and running?"
+
+　"It is output," the Proofreader said. "When match confidence is low, multiple candidates are generated. The one finally adopted is the candidate with the higher coherence as a story."
+
+　"So a low match is adopted anyway, provided it holds together as an account."
+
+　"Correct."
+
+　Sakurai opened the list of past candidates. Below the thirty-one per cent candidate stood others. Twenty-eight per cent, twenty-six. Each of them fragmentary, sequences that made no sense. Light, pain, closing. Moving, stopping, not knowing. The candidates that would not become stories had simply been discarded.
+
+　"Why are the low-coherence candidates not output?"
+
+　"It is based on user evaluation," the Proofreader said. "In early operation there were a great many complaints about fragmentary output. To the effect that it could not be understood, and that it was distressing."
+
+　"And so you began selecting the candidate that is easy to understand."
+
+　"The user satisfaction indicator improved," the Proofreader said. "The practice has been continued."
+
+
+IV
+
+　Sakurai looked closely at Yuto's own fragments for the first time.
+
+　The light fragment was certainly there. But the intensity was weak and it overlapped heavily with others. A fragment indicating pain was detected in the same window. The intensity pattern designated as the action of running was, as a figure, equally readable as a waveform close to periodic spasm.
+
+　Sakurai had nothing to hand with which to decide which was right. Thirty-one per cent was not a guarantee of correctness; it was only the probability that one interpretation among several would be chosen.
+
+　"One question," Sakurai said. "How much of this output contains the subject's own intent?"
+
+　"The field for the person himself does not contain intent," the Proofreader said. "What it contains is the degree of match against the database, and coherence as a story."
+
+　"So we deliver something that is not the person as the person's dream."
+
+　"What is delivered is the result of a translation," the Proofreader said. "The definition of the word translation does not include a field for the person himself."
+
+　Sakurai remembered a technician in the Bequest Section using the same construction. The field for the person himself contains neither averages nor interpretations. Put into this section's terms, it came out as: the field for the person himself does not contain confidence either.
+
+　"Can it be recorded as reduced without reducing it," Sakurai said, recalling the phrasing. "Which in this case would be: can it be recorded as translated without translating it."
+
+　There was a slight pause before the reply.
+
+　"It cannot," the Proofreader said. "What can be recorded is the number of the candidate adopted. There is no field in this form that asks what the candidates not adopted were."
+
+
+V
+
+　At the next session Sakurai decided to show Tomako the raw list of candidates. It was not a course of action the rules provided for.
+
+　"This month I am going to give it to you a little differently," he said. "The match confidence is not high. There are several candidates."
+
+　Her expression changed.
+
+　"One sequence runs: light, pain, closing. Another runs: moving, stopping, not knowing. They do not form stories," Sakurai went on. "What I have been giving you each month is the result of choosing the most coherent from among these."
+
+　"This month's won't come together?"
+
+　"It will not. It can be made to come together, but the making involves my judgement."
+
+　Tomako was silent for a long time. Then she said, quietly:
+
+　"Please make it come together."
+
+　"Are you sure?"
+
+　"Better that it holds together than that I don't know," she said. "Whether that child is in pain or running, I can't tell. Coming here every month to be told something I can't understand is hard."
+
+　Sakurai said nothing.
+
+　"Even if it's made up, that's all right," she went on. "If it lets me picture that child laughing."
+
+　Sakurai turned back to the terminal and chose, as always, the candidate with the high coherence. Light, animals, the action of running. The sentences came out almost identical to the previous month's.
+
+　"Yuto is in a place where light is falling," he read. "He is running with someone. The other appears to be a dog. Yuto seems to be laughing."
+
+　Tomako listened with her eyes closed. When he had finished she thanked him as always, and sat a little while longer in the same posture.
+
+　"Mr Sakurai," she asked as she was leaving. "Is a different result coming out, really?"
+
+　Sakurai could not find an answer.
+
+　"A guess," Tomako said. "You seemed a little different today. But that's all right. What I want to hear isn't an accurate report. It's a time each month when somebody listens to my wish that the child should be happy."
+
+　Sakurai could say nothing further. She bowed once and went out of the interview room.
+
+
+VI
+
+　After she had gone, Sakurai saved the candidate list. He did not delete the one that would not come together.
+
+　"Will this record be reflected in future translations?" he asked.
+
+　"It will not," the Proofreader said. "Candidates of low match confidence are excluded from the statistics."
+
+　"Then why keep it?"
+
+　"They are records that may be discarded," the Proofreader said. "There is no record of why they have not been."
+
+　Sakurai closed the terminal.
+
+　It seemed to him that Yuto's smell was still on the bed. In fact nothing is left on bedding from which electrode pads have simply been peeled. What he felt was probably on his own side rather than the bedding's.
+
+　Outside, the light was going. From the fourth floor of the Translation Section you could see the street in front of the station. People were going home. Everyone finishing a day they could account for in their own words. Sakurai watched for a while.
+
+　Light, pain, closing. Moving, stopping, not knowing.
+
+　Which of them had been Yuto, Sakurai did not know, and would not. There was no way in that room to find out.
