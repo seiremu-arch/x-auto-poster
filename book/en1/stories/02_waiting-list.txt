@@ -1,0 +1,265 @@
+II. The Waiting List for Forgetting
+
+
+I
+
+　Scheduling has no beds.
+
+　Tonami's work was not touching people's heads but sorting numbers. The display on the wall is refreshed every morning. Cases waiting, 114,206. Mean wait, four years seven months.
+
+　Elective editing, unlike protective editing, is applied for by the person himself. The load does not have to be over the threshold; if you want a dream made lighter, you can apply. The application is free and the procedure is free. As long as it is free, the queue grows.
+
+　There was a second reason the queue grows. The allocation for elective editing is whatever remains after the allocation for protective editing has been filled. A minor's nightmare has to be processed within the month, so that takes its share first. A dream an adult applied for of his own accord can be put off indefinitely. Putting it off kills nobody, officially.
+
+　For nine years Tonami had been watching the officially part of that, in numbers.
+
+　"Candidates for advancement today, forty-one," the Proofreader read out. "Of those, thirty-nine are priority advancements on rising load. The remaining two are expiry of wait."
+
+　"Show me the two."
+
+　The display changed. One was an eighty-one-year-old man, six years two months since application. The other was a fifty-four-year-old woman, four years seven months.
+
+　Hasumi Ritsuko. Target fragment at application, affective load 0.88.
+
+　"Current value?"
+
+　"0.61."
+
+　Tonami's finger stopped.
+
+　"Procedure?"
+
+　"None," the Proofreader said. "In four years seven months there has been no intervention in this fragment."
+
+　Those waiting for elective editing receive nothing while they wait. So the load either stays where it is or rises; that is the usual course. A nightmare left alone thickens each time it is dreamt. Nowhere on any form in Scheduling is there an explanation for 0.88 falling to 0.61.
+
+　"Cause?"
+
+　"There is no record of that."
+
+
+II
+
+　Hasumi Ritsuko came into the interview room, straightened the chair, and then sat down. She was a person who did things in that order.
+
+　"I've come to cancel."
+
+　Tonami looked up from the terminal. "Cancel, meaning?"
+
+　"I was told my turn had come. But it's all right now."
+
+　"May I ask the reason? There is a field for it on the form."
+
+　"Four years and seven months, wasn't it," Hasumi said. "I got used to it in that time."
+
+　Tonami kept his hand on the terminal and waited for the rest.
+
+　"It's a dream about my husband," she said. "He's been dead nine years. In the dream he stands on the step inside the front door and calls me. Not by my name. He says oi. And when I come out, he shouts."
+
+　"I won't ask about the content."
+
+　"You needn't," Hasumi said, and smiled slightly. "When I applied I wanted the voice made thinner. Just the voice, I thought — put it further away."
+
+　"And now?"
+
+　"I can answer back."
+
+　Tonami raised his head.
+
+　"At first I couldn't. Even in the dream my body wouldn't move. Around the second year I stopped going out to the door. In the third year I could manage not to answer at all." Hasumi re-crossed her fingers in her lap. "Last autumn I answered back for the first time. I don't remember what I said. Only that after I said it, he went quiet."
+
+　"Went quiet."
+
+　"He went quiet. In nine years of that dream it was the first time I'd seen him go quiet."
+
+　"I remember that night very well," she said. "I woke before three and stayed awake until morning. Not because I was frightened. I thought if I slept again there might be more of it, and I didn't want to waste that, so I stayed up."
+
+　"More of it."
+
+　"What came after he went quiet," Hasumi said. "In the end there wasn't any more. The next night he shouted at me from the beginning again. But having once made him stop — that stays on my side."
+
+　Tonami poured water into a paper cup and set it in front of her. Nine years in this section and he could count the times he had put out water in the interview room. The people who come to this section mostly come to be told a number.
+
+　"He still comes every night," Hasumi said. "He comes, but I'm the one who makes him stop."
+
+　"The load has fallen from 0.88 to 0.61."
+
+　"Does that mean I'm cured?"
+
+　"No," Tonami said. Trying to be accurate within what he was able to say produced that answer. "It means it has become lighter. The cause is not something we can determine here."
+
+　"I'm not cured," Hasumi said. "I'm certainly not cured. I won."
+
+
+III
+
+　The withdrawal could not be processed that day.
+
+　There was no field on the form for withdrawal.
+
+　Only two dispositions were available for someone waiting on elective editing. Completed, and Failed to Attend. Completed means the procedure was carried out and the load fell below the threshold. Failed to Attend means the person did not answer the call.
+
+　"There isn't a third?" Tonami asked.
+
+　"There is not."
+
+　"How many withdrawals are there on record?"
+
+　"There is no field, so they cannot be counted," the Proofreader said. "Statistically, withdrawals are zero."
+
+　Tonami looked at the display. Cases waiting, 114,206.
+
+　"If I file it as Failed to Attend, what happens?"
+
+　"The person may not reapply for five years," the Proofreader said. "The provision exists to stop those who do not answer calls from occupying the queue."
+
+　"She came, she spoke, she went home. And that is treated as not answering?"
+
+　"In respect of not having received the procedure, the state is the same."
+
+　"It is not the same."
+
+　"On the form it is the same."
+
+　Tonami opened the governing regulation. Operational Rules for Elective Editing. He looked for anything on the handling of a person on the waiting list who states that they do not wish to receive the procedure.
+
+　It was there. One line, at the end of Article 3.
+
+　— The statement shall be recorded.
+
+　Shall be recorded, and nothing else. Where it is to be recorded, and what is to be done with it afterwards, are not written. Presumably when the rules were drafted, nobody thought the rest needed writing. Or else somebody tried, and could not get a field made.
+
+　"Is there an input field corresponding to this line?"
+
+　"There is not," the Proofreader said. "The regulation directs that a record be made. The destination for the record has not been implemented."
+
+　"And it has been like that for over ten years?"
+
+　"The rules were enacted sixteen years ago."
+
+
+IV
+
+　In the evening the section chief stopped by his desk. A woman in her fifties with a loud voice.
+
+　"The Hasumi case — file it as Completed."
+
+　"No procedure was carried out."
+
+　"The load is 0.61, isn't it. That's below the 0.85 threshold. It satisfies the definition of Completed." She pointed at Tonami's terminal. "Go and read the definition. Does it say, has fallen as a result of the procedure? It only says has fallen."
+
+　Tonami opened the definition. It was as she said.
+
+　"File it as Completed and the queue moves by one. File it as Failed to Attend and the queue does not move. The same single slot empties, and statistically it has not emptied," the chief said. "We're the section that decides the order of ventilation. We're not the section that judges whether the window got opened."
+
+　"She says she is not cured."
+
+　"I don't suppose she is," the chief agreed, without resistance. "But the load has come down. The only number we hold is the load. Tonami, what you're looking at is a number, and what she's living in is a dream. Better not to think they're the same thing."
+
+　She went off. There had been no malice in her voice. In fact there probably was none.
+
+　Tonami brought up the Completed field on the terminal and stopped there.
+
+　"One question," he said. "Can it be recorded as reduced without reducing it?"
+
+　The Proofreader's answer came a beat late. It was not a lateness shaped like hesitation.
+
+　"That query was also filed last month, from the Fourth Editing Room."
+
+　"By whom?"
+
+　"The technician's name is not displayed at this terminal's authorisation level," the Proofreader said. "Queries using the same wording number six in the past ten years."
+
+　"And of the six, how many surrendered their certification?"
+
+　"Four."
+
+
+V
+
+　The next morning Tonami called Hasumi in again.
+
+　He explained that only two dispositions were available. Filed as Completed, her record takes no mark and she can reapply after five years. Filed as Failed to Attend, she cannot apply for five years.
+
+　"If it's Completed, does that mean I was cured?"
+
+　"It means the load came down," Tonami said. "The reason it came down is not kept in the record. It becomes indistinguishable from having received the procedure."
+
+　Hasumi looked at the paper cup for a while. Half of yesterday's water was still in it. He had not cleared it away.
+
+　"Failed to Attend, please."
+
+　"You will not be able to apply for five years."
+
+　"I won't apply," Hasumi said. "If I want to apply in five years, that will mean I'm not cured. I'd be in trouble then, but that isn't trouble now."
+
+　"It puts a mark on your record."
+
+　"There's a mark on this side as well." She pointed at her own chest. Not a particular gesture; the way one points when there is nowhere else to point. "It would be strange if only their ledger came out clean."
+
+　Tonami selected Failed to Attend.
+
+　It took about two seconds for the confirmation to appear. During those two seconds he thought about what he had just erased. The number had not been erased. The queue had not moved. What had been erased was the possibility that what one person had done for herself across four years and seven months would be written down somewhere.
+
+　"It's done."
+
+　"Thank you." Hasumi stood and straightened the chair, returning it to where it had been when she came in. "May I ask one thing?"
+
+　"Go ahead."
+
+　"How many people are there like me?"
+
+　Tonami could not answer.
+
+
+VI
+
+　After Hasumi had gone, Tonami called the Proofreader.
+
+　"Give me the number of cases where the load fell during the wait."
+
+　"Reductions without procedure are not a tallied category."
+
+　"Can you estimate it?"
+
+　"I can," the Proofreader said. "Of the 114,205 on the waiting list, those for whom the difference between the value at application and the current value is negative number 4,831."
+
+　Tonami read the figure three times.
+
+　Four thousand eight hundred and thirty-one people had got lighter while they waited. Standing in the queue, borrowing nobody's hands, they had been doing something inside their own dreams. How many of them had learned to answer back is in no field anywhere.
+
+　"Are these 4,831 eligible for advancement?"
+
+　"They are not. Priority advancement is restricted to those whose load is rising."
+
+　"Then what happens to the ones who have fallen?"
+
+　"They remain at the back of the queue," the Proofreader said. "And when their turn comes, they are processed as Completed."
+
+　Tonami looked at the wall display. The count had dropped by one, to 114,205. That was the eighty-one-year-old man. Hasumi's had not come off.
+
+　"How many withdrawals now?"
+
+　"Statistically, zero."
+
+　"There was one today."
+
+　"What has no field cannot be tallied," the Proofreader said. "I have no method for putting it into the record."
+
+　"I'll write it in the free-text field," Tonami said. "Hasumi Ritsuko lowered her own load during the waiting period and withdrew from the procedure. I'll write that."
+
+　"You may," the Proofreader said. "Free text does not enter the statistics. It is not shown to the next officer either. What is shown is the disposition code."
+
+　"Then who reads it?"
+
+　"I read it," the Proofreader said. "They are records that may be discarded. There is no record of why they have not been."
+
+　Tonami wrote it. It came to four lines. Writing four lines took twenty minutes.
+
+　He closed the terminal and went back into the interview room. Two paper cups stood on the table. Yesterday's and today's. Both half full.
+
+　He did not clear them away.
+
+　Outside, the rain that had come on in the morning was easing off. Four years and seven months is a length of time in which rain falls some seventeen hundred times. In that time a hundred and fourteen thousand people had stood in a queue, and four thousand eight hundred had won at something without anybody knowing.
+
+　That they had won is written down nowhere. There is no field for it on the form.

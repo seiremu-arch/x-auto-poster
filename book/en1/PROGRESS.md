@@ -12,8 +12,8 @@ using it. Build with `python3 book/tools/build_epub.py en1`.
 | # | Japanese | English | Source | Words | State |
 |---|---|---|---|---|---|
 | I | 半色 | Half-Shade | 4,981 | 2,292 | **done** |
-| II | 忘却の順番待ち | The Waiting List for Forgetting | 4,540 | — | pending |
-| III | 夢の遺言 | The Bequest | 4,555 | — | pending |
+| II | 忘却の順番待ち | The Waiting List for Forgetting | 4,540 | 2,107 | **done** |
+| III | 夢の遺言 | The Bequest | 4,555 | 2,163 | **done** |
 | IV | 夢の翻訳者 | The Translator | 3,915 | — | pending |
 | V | 二人称の夢 | The Second-Person Dream | 3,456 | — | pending |
 | VI | 夢税 | Dream Tax | 3,391 | — | pending |
