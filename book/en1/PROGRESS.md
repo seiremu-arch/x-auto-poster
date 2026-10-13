@@ -16,8 +16,8 @@ using it. Build with `python3 book/tools/build_epub.py en1`.
 | III | 夢の遺言 | The Bequest | 4,555 | 2,063 | **done** |
 | IV | 夢の翻訳者 | The Translator | 3,915 | 1,712 | **done** |
 | V | 二人称の夢 | The Second-Person Dream | 3,454 | 1,534 | **done** |
-| VI | 夢税 | Dream Tax | 3,391 | — | pending |
-| VII | 涙の代筆 | Grief by Proxy | 4,450 | — | pending |
+| VI | 夢税 | Dream Tax | 3,391 | 1,556 | **done** |
+| VII | 涙の代筆 | Grief by Proxy | 4,476 | 2,038 | **done** |
 | VIII | 夢裁判 | The Sentence | 4,578 | — | pending |
 | IX | 目覚めない権利 | The Right Not to Wake | 4,499 | — | pending |
 | X | 夢の相続 | Inheritance | 4,587 | — | pending |

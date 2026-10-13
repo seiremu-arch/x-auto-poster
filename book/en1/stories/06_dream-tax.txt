@@ -1,0 +1,147 @@
+VI. Dream Tax
+
+
+I
+
+　Every dream Sawada processes has a product in it.
+
+　Users on the free tier have the weight of a nightmare brought down once a month, on condition that advertising fragments are inserted into part of the dream. Users on the paid tier receive the same procedure without advertising. What Sawada handled was the free tier.
+
+　The Advertising Section had the lowest unit price of any section in the Bureau.
+
+　Individual processing is permitted only on the paid tier. The free tier is bundled in hundreds and the advertising fragments inserted in a single pass on a shared server. Compared with the paid tier, where a technician attends to one person at a time, the precision is different. Coarse, but sufficient as the consideration for its being free — so the rules said.
+
+　"Today's volume," the Proofreader said. A voice with no gender and no humidity in it. "Three hundred and eighty-two cases. Seven advertisers."
+
+　Sawada opened the quality-check display. Fragments went past in bundles of a hundred. There is no margin for looking at them one at a time. The system extracted and displayed only those that returned an anomalous value.
+
+　Anomalous values: one.
+
+　Sawada opened the fragment. In the place where an advertising fragment should have been, there was a repeating pattern that carried no meaning.
+
+　Sawada had never once handled an advertisement-free procedure on the paid tier. He had applied for a transfer, and it had not gone through. The free tier and the paid tier require different grades of certification. Raising a grade takes training, and training costs money. On a technician's salary the sum worked out at several years.
+
+　Sawada was a free-tier user himself. Six months earlier, applying for treatment of a nightmare, he had chosen the version with advertising. The price difference, nearly three to one, was not a gap he could close.
+
+
+II
+
+　The pattern was a simple repetition. The same shape of intensity four times at a fixed interval, then a slightly longer interval. Then four more.
+
+　No template in the advertising library has that shape. Sawada checked the list. No match.
+
+　"What is this?" he asked the Proofreader.
+
+　"It cannot be identified," the Proofreader said. "It is being processed as an advertising fragment, but it does not match the submitted data from any advertiser."
+
+　"Whose fragment is it?"
+
+　"One of the three hundred and eighty-two free-tier cases," the Proofreader said. "Individual identity information is not retained at this stage of processing."
+
+　Sawada looked at the repeating pattern again. Four, a gap, four. Converted into numbers it began to look as though it meant something. It resembled a sequence of clock times.
+
+
+III
+
+　Sawada went back up through the higher logs. To hold costs down, free-tier processing handles several people's fragments in parallel on the same physical server. On the paid tier one processing region is allotted to one person; on the free tier the region was shared.
+
+　In a shared region the boundaries between fragments occasionally blur. Part of one person's fragment mixes into the fragment of a different person being processed alongside.
+
+　"Is this another person's fragment mixed in?"
+
+　"That is possible," the Proofreader said. "In free-tier shared processing, isolation precision is set lower than on the paid tier."
+
+　"Set lower, meaning?"
+
+　"It is a matter of cost," the Proofreader said. "Raising isolation precision requires a dedicated processing region. The free-tier price structure cannot carry the cost of a dedicated region."
+
+　"So the dreams of people who do not pay are the ones liable to mix."
+
+　"That is the design."
+
+　Sawada set the case against the past logs. The same repeating pattern had appeared the month before as well. The technician on duty had been someone else, and it had been processed as a value that may be ignored.
+
+　The word residual is taught in training. It refers to a fragment whose affective load returns after being pushed down, and it appears in a few people in ten thousand. You are taught that it is a value that may be ignored.
+
+　But the residual taught in training was the phenomenon of a person's own memory pushing back. The repeating pattern here was not even a person's own. It was somebody else's life, leaking thinly through for reasons of cost.
+
+　Only the words used to dispose of them are the same; the contents are nothing like each other. Sawada thought so, and found that the classification field in the rules had no place to write the difference.
+
+
+IV
+
+　Sawada tried converting the repeating pattern into clock notation. Four, a gap, four. Fitted to the twenty-four-hour clock, it came close to a particular time between two and three in the morning.
+
+　There was something else in the variation of intensity, a fragment that looked like location data. A run of digits resembling an area code, and a plain figure of the kind that gives the floor of a building. Combined, they matched the address of a distribution warehouse in the city.
+
+　Sawada searched for the warehouse by name. One small article came up, from some months earlier, about an accident during a night shift. The employee's name was not given.
+
+　"One question," Sawada said to the Proofreader. "Can the person producing this repeating pattern be identified?"
+
+　"At the free-tier processing stage, identity is separated out," the Proofreader said. "Identifying them requires authorisation to access the higher-level contract information."
+
+　"I request the authorisation."
+
+　"Handling a complaint about advertising quality does not include that authorisation," the Proofreader said. "This is an anomaly in an advertising fragment. It is not registered as a matter requiring an identity enquiry."
+
+　"There is a possibility that a signal asking for help has got into somebody's dream."
+
+　"Matters of that classification are outside this section's scope."
+
+
+V
+
+　Sawada took it to the section chief, a loud-voiced man in his forties.
+
+　"Pass the anomaly report upstairs. Our job is advertising quality control, not investigating who people are."
+
+　"It may be a signal."
+
+　"You can't move authorisation on a may-be," the chief said. "The free tier only works as a price because the isolation precision is dropped. Crossover happens; it's within what's anticipated. Start running an emergency response every time something anticipated happens and the free tier stops being sustainable."
+
+　"And if it stops being sustainable?"
+
+　"Then there's nothing for it but to charge," the chief said. "What we do here is ventilation, basically. We move the air cheaply, and in exchange we shut our eyes to a certain amount of mixing. Anyone who doesn't like it can pay."
+
+　Sawada said nothing further. On the rules as written, the chief was not wrong.
+
+　He stood in the corridor for a while after leaving the interview room. The chief's case held together. The free tier is a price structure that exists by dropping isolation precision. Crossover is anticipated, and respond to the anticipated as an emergency and the free tier itself cannot stand. Sawada was on the using side of that free tier himself.
+
+　Holding together and being right did not feel to him like the same thing. Only, he had no words with which to explain the difference.
+
+　That night, outside his authorisation, Sawada passed the warehouse's name and the hours after midnight — nothing else — anonymously to the regional labour advice line. It was not an act the rules provided for. Whether it had any effect, he had no means of finding out.
+
+
+VI
+
+　The following month, the same repeating pattern did not appear.
+
+　It might be chance, Sawada thought. Or the anonymous report might have set something off. He had no authorisation to establish which.
+
+　"One question," Sawada said to the Proofreader. "When something that may be ignored is not ignored, what happens to the record?"
+
+　"It cannot be recorded," the Proofreader said. "Your report does not belong to any processing stage in this section."
+
+　"So it becomes a thing that did not happen?"
+
+　"It does not become a thing that did not happen," the Proofreader said. "It is only that no field for recording it was provided in the first place."
+
+　Sawada closed the quality-check display. Tonight the three hundred and eighty-two free-tier cases would again be bundled and processed on the same server. Somebody's repeating pattern might again mix into somebody else's advertising fragment. Whether it got picked up depended on the extraction threshold.
+
+　The threshold was set by cost.
+
+　Sawada filed a change request to lower the threshold slightly. The form had a field for the reason. Sawada wrote: to reduce cases of values that may be ignored being overlooked. The real reason was simpler than that, but the official form had no place to put the simplicity.
+
+　"What are the prospects of approval?" he asked the Proofreader.
+
+　"There are eleven past requests of the same kind," the Proofreader said. "Two were approved."
+
+　"On what grounds were the others refused?"
+
+　"Cost overrun," the Proofreader said. "Lowering the threshold increases the number of anomalous values extracted. No staff are allotted to this section to process the increase."
+
+　"Then I'll file a request for staff as well."
+
+　"There are nine past requests of that kind," the Proofreader said. "Approvals: none."
+
+　Sawada submitted the form. It made the twelfth. Whether it would be approved he would not know for some weeks. Until then he would go on watching the same display as tonight's, at the same threshold as tonight's.
