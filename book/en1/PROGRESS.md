@@ -56,7 +56,7 @@ reader cannot otherwise follow.
 Used sparingly. The Japanese edition cut this from eight occurrences to three, and
 the English keeps the same three.
 
-**Names.** Family name first, no macrons. Suginoto Saya, not Saya Suginoto.
+**Names.** Family name first, no macrons. Sugimoto Saya, not Saya Sugimoto.
 Consistent with the setting being plainly Japanese.
 
 ---

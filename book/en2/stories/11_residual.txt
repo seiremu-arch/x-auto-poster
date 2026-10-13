@@ -1,0 +1,231 @@
+XI. Residual
+
+
+I
+
+　One of the first things taught in training is the residual.
+
+　A fragment whose affective load returns after being pushed. It appears in a few people in ten thousand. It is a value that may be ignored.
+
+　For thirty years that explanation has got by.
+
+　Mayuzumi is in the Second Research Room of the Technical Research Institute, and the project title is Basic Research on the Persistence of Procedure Effects. Which is to say the work of investigating why it returns.
+
+　On taking up the post, the material left by his predecessor was two cardboard boxes. Little, for thirty years.
+
+　"The number of prior studies?"
+
+　"Eleven," the Proofreader said. "Eight of them examine factors on the device side."
+
+　"And the other three?"
+
+　"They examine correlation with subjects' living habits."
+
+　"The conclusions?"
+
+　"In each case no significant correlation was found."
+
+
+II
+
+　The first thing Mayuzumi did was increase the denominator.
+
+　Previous studies had been done at the scale of a single local authority, a few tens of thousands of cases at most. Look for a phenomenon affecting a few in ten thousand across a few tens of thousands and you gather a few dozen. That no correlation emerged was to be expected.
+
+　Mayuzumi took the national procedure records as his subject. Forty-three years, some nine hundred million cases.
+
+　Cases of residual numbered four hundred and ten thousand.
+
+　"Produce the distribution of attributes."
+
+　Age, sex, region, occupation, procedure category. None differed from the distribution of the whole. There is no characteristic to the people in whom a residual occurs.
+
+　Next he looked at the fragments.
+
+　Initial value of the affective load. Number of divisions in the procedure. Density of adjacent fragments. No bias here either.
+
+　Over three months, Mayuzumi killed every tractable variable.
+
+　Killed means confirmed to have no correlation. As research it amounted to nothing having come out.
+
+　His predecessors had presumably got this far too. All eleven prior studies had ended at the same wall. Not the device, not the living, not the attributes.
+
+　What remains is the first explanation, a value that may be ignored.
+
+　Mayuzumi looked into where that explanation came from. There was one line in the initial validation report of forty years ago.
+
+　— Instances of restoration are rare, and the effect on the overall efficacy of procedures may be ignored.
+
+　The effect may be ignored. On the cause, nothing is written. For thirty years since, this one line has gone on being cited.
+
+
+III
+
+　In the fourth month, Mayuzumi changed how he set his variables.
+
+　Research so far had looked only at the subject and the fragment. What Mayuzumi added was people other than the subject.
+
+　A memory may exist inside one person only. A memory may be held by several people at once. The same dinner, the same quarrel, the same funeral. The memory exists in as many separate heads as there were people who shared the event.
+
+　Mayuzumi decided to call this number the sharer count.
+
+　The sharer count cannot be measured directly. Fragments carry identifiers for those appearing in them, so it is estimated from those. He counted, among the persons recorded as identifiers, those still living.
+
+　He stratified the four hundred and ten thousand residuals, and the control group of nine hundred million, by sharer count.
+
+　It came out on the first pass.
+
+　A cleaner separation than any of the variables he had spent three months killing. Mayuzumi first suspected an error in his own tabulation and spent two days retracing the procedure. There was no error.
+
+
+IV
+
+　In fragments with a sharer count of zero, the residual rate was 0.003 per cent.
+
+　At one sharer, 0.08 per cent. At two, 0.41. At three, 1.2. Above five it exceeds four per cent.
+
+　The more sharers, the more the pushed load returns.
+
+　Mayuzumi looked at the table for half an hour.
+
+　The mechanism, considered, was simple.
+
+　A memory softens each time it is recalled, and sets again. The procedure intervenes in that process and lowers the load. But after the procedure, the person goes on living. They meet people who remember the same event. They talk. Even without raising the subject, the other person being there calls the memory up.
+
+　Each time it is called up, the memory is drawn towards the sharers' load. The sharers have had no procedure. So their load remains high.
+
+　The low moves towards the high.
+
+　The half-shade pushed did come down inside the one person. Whether the lowered state holds was decided by whom that person lives with.
+
+　Mayuzumi remembered a case from thirty years ago. In training he had been made to read a record as teaching material. A girl of thirteen pushed back, in a month, a load that had been brought down over seven nights. The technician on the case had treated it with a divided design, and by the next month she was over the threshold and in the queue for re-editing.
+
+　The record gave the girl's family composition. She had lost her mother in a fire and was left with her father.
+
+　Sharer count one. The 0.08 per cent side.
+
+　Mayuzumi looked at the figure for a while. 0.08 per cent means it practically does not happen. What practically does not happen happened to that girl.
+
+　Only the living are counted as sharers. The one who had shared the girl's memory died in that fire.
+
+　The mother is not counted among the sharers. And seven nights of pushing came back all the same.
+
+　Mayuzumi did not exclude the case from the tabulation. He had no grounds to. One case out of four hundred and ten thousand was left where no explanation reached.
+
+
+V
+
+　Mayuzumi reported the result to the head of the room, a man in his sixties who had been there twenty years.
+
+　"That reads backwards, you know," the head said.
+
+　"Backwards?"
+
+　"A memory held alone stays down when you push it," he said. "A memory shared with somebody comes back. Which is to say the procedure works best on the lonely."
+
+　Mayuzumi took the phrasing in for a while.
+
+　"That follows."
+
+　"And our devices have been like that for forty-three years," the head said. "Nobody noticed because nobody set the variable that would show it."
+
+　"Why was it not set?"
+
+　"There was no notion of making something outside the subject into a variable, I should think," he said. "A procedure is performed on an individual, so the records are kept per individual. Who is next to them has no field on the form."
+
+　He laughed a little at that point.
+
+　"Your paper will be praised, I expect. They'll say a forty-three-year puzzle is solved."
+
+　"Do you think so?"
+
+　"I do," he said. "What is done with it afterwards is another matter."
+
+
+VI
+
+　That night Mayuzumi considered how his conclusion would be read.
+
+　The conclusion can be written in one line. An individual procedure does not persist where there are sharers.
+
+　What the person reading it thinks next is settled.
+
+　Treat the sharers as well.
+
+　Push one and it returns. Push everyone who shares the memory at the same time and there is nowhere for it to return from. With nowhere to return from, it stays down.
+
+　A plan to bring a million people's memory loads towards the mean, night by night, has been running for twenty-three years.
+
+　That no reports of residuals come up from that plan, Mayuzumi had taken for a difference in device performance. It was not. The sharers are treated at the same time, so no place to return from exists.
+
+　Was the plan designed in knowledge of this mechanism?
+
+　"One question," Mayuzumi said. "Is there any concept corresponding to a sharer count in the design documents of the Levelling Plan?"
+
+　"There is not," the Proofreader said. "What the design documents record is efficiency of scale. It is stated that carrying it out at a scale of a million lowers the unit processing cost per person."
+
+　"They made it a million for efficiency alone?"
+
+　"That is the only reason recorded."
+
+　Mayuzumi began to feel relieved, and stopped.
+
+　Even if they chose the right answer without knowing the reason, the result of the choice was the same.
+
+
+VII
+
+　The paper came out the following spring.
+
+　The reception was as the head had predicted. It took several prizes as research that had given a mechanism to a phenomenon unexplained for forty-three years. Mayuzumi became head of the research room.
+
+　That autumn, an enquiry came from the operations division of the Levelling Plan.
+
+　The enquiry concerned the method of estimating sharer counts. They wished to use it in predicting procedure efficacy. If subjects for whom the effect will not persist can be identified in advance, wasted procedures can be reduced, the enquiry said.
+
+　What it said was correct. Pushing somebody it will not work on is waste.
+
+　Mayuzumi answered. The method is in the paper. There was no reason to conceal it, and no grounds to.
+
+　Three months after the answer, the operations division's allocation method was revised.
+
+　The revision provided that, for subjects with a high sharer count, the sharers be allocated to the same week. Part of an efficiency drive. Grouped into the same week, device utilisation rises.
+
+　Persistence of effect was also expected to improve as a secondary matter, the revision notice said.
+
+
+VIII
+
+　Mayuzumi read the notice three times.
+
+　There is nothing wrong in what it says. Group them into the same week and utilisation rises. Persistence rises. Both are facts.
+
+　What is not written is what happens.
+
+　A family has its procedures in the same week. Four people have the load of the same event lowered at once. Nobody returns. There is nowhere to return from.
+
+　The four then live ordinarily. They eat, they talk about the weather. What once happened in that house comes to nobody's lips. Not because they have forgotten. They remember, and it has become a value that moves nobody.
+
+　Mayuzumi read back the conclusion of his own paper.
+
+　— This study has shown that the affective load of a memory is not a quantity closed within the individual, but a quantity maintained within the relation to its sharers.
+
+　When he wrote it, it was the description of a finding. Read now, it looks like a procedure manual.
+
+　"One question," Mayuzumi said. "The citation count of this paper?"
+
+　"Forty-one," the Proofreader said. "Thirty-six of them are references from the operations division."
+
+　"And the remaining five?"
+
+　"Citations for research purposes."
+
+　Mayuzumi closed the terminal.
+
+　He did not think he should have concealed the method. Conceal it and, increase the denominator and stratify, somebody arrives at the same conclusion. It took forty-three years because the variable was not set, and set it and it comes out on the first pass.
+
+　The one who set it was Mayuzumi. There is no field on a paper's form for regretting having set it.
+
+　Outside the window it was dark already. Procedures are being carried out across the country tonight, and some of them belong to families allocated to the same week.
+
+　Residuals are expected to decrease from next year, the revision notice said at the end.

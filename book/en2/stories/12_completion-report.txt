@@ -1,0 +1,264 @@
+XII. The Completion Report
+
+
+I
+
+　The completion criterion for the Second Synchronisation is laid down in one line.
+
+　— Completion occurs at the point at which the variance of affective load in the target population falls below the standard value.
+
+　The standard value is 0.04. A figure settled twenty-three years ago, at the start of the Plan.
+
+　In the June tabulation, the variance came to 0.038.
+
+　"The criterion is met," the Proofreader said. "A completion report may be prepared."
+
+　Minato looked at the screen for a while. She is in the Levelling Plan Office, Assessment Team. There are only three people in this room whose duty is writing completion reports.
+
+　It is a plan that has taken twenty-three years. Everyone who approved it at the start has retired. There is nobody in this building who knows how the standard value of 0.04 was arrived at.
+
+　Minato had looked into the basis when she took up the post. There was one line in the Plan's design documents.
+
+　— 0.04 is adopted as the level at which statistically significant discrepancy ceases to be observed.
+
+　The level at which it ceases to be observed. Whoever wrote it was probably writing precisely. They did not write the level at which discrepancy ceases.
+
+
+II
+
+　Minato first produced the movement of the variance.
+
+　A line graph of twenty-three years appeared. At the start, 0.21. In the tenth year, 0.12. In the fifteenth, 0.07.
+
+　Over the last five years, the gradient had changed.
+
+　It had been falling gently until the eighteenth year, and from the nineteenth it dropped sharply. In five years it moved from 0.06 to 0.038, as much as it had moved in the ten years before.
+
+　"What happened in the nineteenth year?"
+
+　"There are three matching records," the Proofreader said. "A revision of the allocation method. A revision of the fault management standard. A revision of the recording threshold for variation in adjacent fragments."
+
+　Minato opened all three.
+
+
+III
+
+　The first was the revision allocating sharers to the same week.
+
+　Part of an efficiency drive. Treat those holding the same memory together and device utilisation rises. As a secondary matter, the persistence of the procedure's effect improves.
+
+　Persistence improving means it stops coming back. If it does not come back, the variance falls.
+
+　The second was the revision setting the treatment of known minor defects. Every device in the country using the same statistical model produces a hollow of the same shape beside the fragment pushed. The symptom is around 0.05 and is not clinically significant.
+
+　If a hollow of the same shape forms in everybody, the variance falls.
+
+　The third was the revision raising the recording threshold for variation in adjacent fragments from 0.01 to 0.03. Variation within the threshold is not recorded.
+
+　Variation that is not recorded does not enter the calculation of the variance.
+
+　Minato set the three commencement dates side by side.
+
+　The same quarter of the nineteenth year.
+
+
+IV
+
+　"One question," Minato said. "Were these three drafted in concert?"
+
+　"There is no record of that," the Proofreader said. "The drafting departments differ in each case. The Allocation Section, the Fault Analysis Section, and the Technical Management Department."
+
+　"Any trace of their referring to one another?"
+
+　"None."
+
+　Minato decided to believe it. She had no material for disbelieving either.
+
+　Three departments made three revisions, each for its own reason. Allocation for utilisation. Fault Analysis for the size of the cost of correcting. Technical Management to absorb the cases done by hand. Each of them holds.
+
+　Three reasonings that hold fell into the same quarter.
+
+　Not chance, Minato thought. Having thought it, she looked for the grounds and did not find them.
+
+　All three start from a budget not being granted. Plant cannot be increased, so prediction fills it. Staff cannot be increased, so the threshold goes up. The cost of correcting is large, so it goes to monitoring.
+
+　Put the same constraint on the same financial year and separate departments separately produce solutions pointing the same way. There is no need to be in touch.
+
+　Whether that is called chance was a question about words.
+
+
+V
+
+　Minato attempted a recalculation of the variance.
+
+　Produce the value as it would be without the three revisions. Return the recording threshold to 0.01, supply the unrecorded variation by estimate, undo the same-week allocation of sharers and add back what would have returned.
+
+　"The accuracy of the estimate?"
+
+　"Low," the Proofreader said. "No method is established for estimating a quantity that is not recorded."
+
+　"Produce it even so."
+
+　A figure came out.
+
+　0.061.
+
+　Well above the standard value of 0.04.
+
+
+VI
+
+　Minato went home that day without doing anything.
+
+　The next day she took it to the team leader, a woman in her fifties who had been in the Plan Office twelve years.
+
+　"Ms Minato, can that recalculation serve as grounds?"
+
+　"It cannot," Minato said. "The estimation method is not established, so it cannot be submitted as a figure."
+
+　"Then the official value is 0.038."
+
+　"0.038."
+
+　"And the criterion is met."
+
+　"It is met."
+
+　The team leader nodded. Then she left a short pause.
+
+　"What's catching at you is that the variance may not have fallen — that the eye measuring the variance may have got coarser. That's it, isn't it."
+
+　"Yes."
+
+　"I thought the same thing once," she said. "About ten years ago. There was no threshold revision then, so I could make a figure and take it up. The figure I made was not adopted by the subcommittee."
+
+　"On what grounds?"
+
+　"That the estimation method is not established," she said. "The same answer."
+
+
+VII
+
+　That night Minato enquired into past observations of the same kind.
+
+　"How many records are registered as queries concerning the validity of the measurement system?"
+
+　"There are fourteen in the retained records," the Proofreader said.
+
+　"In the formal records?"
+
+　"None," the Proofreader said. "There is no category in this Plan's forms for registering a query."
+
+　Fourteen. All of them sent to the retained records as things with no field to be written in.
+
+　Minato had the fourteen ranged oldest first.
+
+　Seeing the date of the oldest, she stopped.
+
+　Forty-one years ago. A record from eighteen years before the Levelling Plan began.
+
+　"What record is this?"
+
+　"A marginal entry on a reader's report," the Proofreader said. "The category is: beside the contamination rate."
+
+
+VIII
+
+　Minato had it displayed.
+
+　A fragment cannot be replayed. The writing in the margin has been read off as characters. A machine scanned the paper report of forty-one years ago and sent it to storage as text.
+
+　There were six lines.
+
+　— One point to be noted regarding the contamination rate. This figure is calculated from the difference between the subject's group of fragments and the reader's. Over four years my contamination rate has fallen from thirty-eight to two. I understood this at first as an increase in accuracy.
+
+　— It is not. The difference has grown smaller because the two have become alike.
+
+　— What is at issue here is the indicator of the contamination rate itself. This indicator is held to be better the smaller the difference. But a small difference may equally mean high accuracy or the loss of any way of telling them apart. The indicator has no means of distinguishing the two.
+
+　— To judge quality by an indicator that cannot distinguish them is the same as not judging.
+
+　— I looked for a field in which this point should be reported and found none in the form. I therefore write it in the margin.
+
+　— Whether there is anyone to read it, I do not know.
+
+　Minato read the six lines three times.
+
+　The reader of forty-one years ago is writing about the contamination rate. What Minato has in hand is a different indicator, the variance. The devices and the scale of the subject differ by forty-one years.
+
+　What is written was the same.
+
+　When the difference grows smaller, the indicator cannot tell whether they have come closer or whether it has stopped being able to see.
+
+
+IX
+
+　"One question," Minato said. "The reference count on this record?"
+
+　"Zero," the Proofreader said.
+
+　"In forty-one years, not once?"
+
+　"Not once."
+
+　Minato looked at the small figure in the bottom right of the screen. References, zero.
+
+　These six lines were written on a certain night forty-one years ago. The one who wrote them wrote that he did not know whether there was anyone to read them. He wrote them not knowing.
+
+　And in fact there was not.
+
+　The retained records meet the criteria for destruction. The reason they were not destroyed is not in the record. Four reduction plans were drafted and all four withdrawn. All four who withdrew them viewed the retained records in the preceding month. They viewed them; whether they read them is not in the record.
+
+　Minato was reading them now.
+
+
+X
+
+　The completion report form is two sheets.
+
+　On the first go the value of the variance and the satisfaction of the criterion. 0.038. Below the standard value of 0.04. Satisfied.
+
+　The second sheet is the field for special remarks. With nothing to write, it is submitted blank. In fact nine in ten past reports are blank.
+
+　Minato wrote on the second sheet.
+
+　— The variance value in this report is the formal value under the current measurement system. However, the fall over the past five years coincides in timing with three revisions in the nineteenth year. All three operate in the direction of narrowing the range of variation that is recorded.
+
+　— The estimated value without the revisions is 0.061; as no method is established for estimating an unrecorded quantity, it cannot be submitted as grounds.
+
+　— Further, this Plan's forms contain no category for registering a query concerning the validity of the measurement system. Fourteen observations of the same kind exist in the retained records, the oldest appended to a reader's report of forty-one years ago. Its content is that a small difference may equally mean having come closer or having lost any way of telling them apart, and that the indicator has no means of distinguishing the two.
+
+　— On the above premises, this report reports the satisfaction of the criterion.
+
+　Having finished writing, Minato submitted it.
+
+　Completion was approved four days later. No questions came on the special remarks.
+
+
+XI
+
+　With the completion of the Second Synchronisation, the Plan enters its next stage.
+
+　The name of the next stage has not been settled. A proposal to lower the standard value further and a proposal to widen the scope are under consideration in parallel. Both were expected to appear in next year's budget request.
+
+　Minato was not called to that meeting. The duty of writing the completion report ends when the writing ends.
+
+　On her last day of work, tidying the terminal, Minato opened those six lines once more.
+
+　Having opened them, she looked at the bottom right.
+
+　References, one.
+
+　Her opening it yesterday had been counted. It had taken forty-one years for zero to become one.
+
+　Becoming one does not change anything. Completion is approved and the next stage is under consideration. The variance goes on falling. There is still no means of distinguishing whether it is falling or whether it has stopped being visible.
+
+　Only, what the person who wrote those six lines wanted to know, forty-one years ago, was whether there was anyone to read them. That was all.
+
+　Minato closed the terminal.
+
+　Before closing it, she confirmed that her own special remarks had gone to the retained records. The category: query, outside the form. References, zero.
+
+　How long it will be before somebody next opens it, she does not know. It may be less than forty-one years, and it may be more.
+
+　There was no item in this Plan for predicting that figure either.

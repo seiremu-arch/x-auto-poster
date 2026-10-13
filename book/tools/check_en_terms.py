@@ -7,6 +7,11 @@
 GLOSSARY.md で固定した語の「やってはいけない変形」と、
 英国綴り・組み方の規則を正規表現で当てる。十二話を通して読む代わりに、
 ずれやすいところだけを機械に見せる。
+
+人名も見る。原文に読み仮名がない姓は訳者が読みを決めることになり、
+決め方を間違えても英文だけ読んでいるかぎり気づけない（杉本を Suginoto と
+読んでいた事例がある）。原文に姓があるのに対応する英語名がない話は、
+読みを決め直したか、落としたかのどちらかなので報告する。
 """
 
 import re
@@ -43,6 +48,39 @@ CHECKS = [
     ("曲がっていない引用符（本文は \" で統一）", r"[“”]"),
 ]
 
+# 原文の姓 -> 英語表記。第二巻は原文の読み仮名、第一巻は通用する読みによる。
+# 「その話に原文の姓が出るなら、英文にもこの綴りが出る」ことだけを見る。
+NAMES = {
+    "vol1": {
+        "01": [("梶", "Kaji"), ("杉本", "Sugimoto")],
+        "02": [("戸並", "Tonami"), ("蓮見", "Hasumi")],
+        "03": [("桐山", "Kiriyama"), ("宮田", "Miyata")],
+        "04": [("桜井", "Sakurai"), ("志村", "Shimura")],
+        "05": [("芦田", "Ashida"), ("望月", "Mochizuki")],
+        "06": [("沢田", "Sawada")],
+        "07": [("桑野", "Kuwano"), ("戸倉", "Tokura")],
+        "08": [("宮下", "Miyashita"), ("岸", "Kishi")],
+        "09": [("有村", "Arimura"), ("木内", "Kiuchi")],
+        "10": [("塚原", "Tsukahara")],
+        "11": [("須賀", "Suga")],
+        "12": [("堀", "Hori")],
+    },
+    "vol2": {
+        "01": [("伴", "Ban")],
+        "02": [("瀬能", "Seno")],
+        "03": [("早瀬", "Hayase"), ("湯浅", "Yuasa")],
+        "04": [("名越", "Nagoshi")],
+        "05": [("神保", "Jinbo")],
+        "06": [("蓼沼", "Tadenuma"), ("桑島", "Kuwashima")],
+        "07": [("岩見", "Iwami")],
+        "08": [("久留須", "Kurusu")],
+        "09": [("硲", "Hazama")],
+        "10": [("荻堂", "Ogido")],
+        "11": [("黛", "Mayuzumi")],
+        "12": [("湊", "Minato")],
+    },
+}
+
 # 例外: 固有名詞・意図した表記
 ALLOWED = {
     r"\bmeters?\b(?! of )": ["parameters"],
@@ -51,8 +89,31 @@ ALLOWED = {
 }
 
 
+def check_names() -> int:
+    """原文に姓があるのに、訳文に対応する英語名がない話を報告する。"""
+    bad = 0
+    for en_vol, ja_vol in (("en1", "vol1"), ("en2", "vol2")):
+        for num, pairs in NAMES[ja_vol].items():
+            en_hits = sorted((ROOT / en_vol / "stories").glob(f"{num}_*.txt"))
+            ja_hits = sorted((ROOT / ja_vol / "stories").glob(f"{num}_*.txt"))
+            if not en_hits or not ja_hits:
+                continue
+            en_text = en_hits[0].read_text(encoding="utf-8")
+            ja_text = ja_hits[0].read_text(encoding="utf-8")
+            for ja_name, en_name in pairs:
+                if ja_name not in ja_text:
+                    print(f"{ja_vol}/{num}: 原文に『{ja_name}』がない"
+                          f"（人名表のほうが古い可能性）")
+                    bad += 1
+                elif en_name not in en_text:
+                    print(f"{en_vol}/{en_hits[0].name}: "
+                          f"『{ja_name}』に対応する {en_name} が訳文にない")
+                    bad += 1
+    return bad
+
+
 def main() -> int:
-    hits = 0
+    hits = check_names()
     for path in STORIES:
         text = path.read_text(encoding="utf-8")
         lines = text.split("\n")

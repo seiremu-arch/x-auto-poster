@@ -1,0 +1,237 @@
+IX. Tomorrow's Dream
+
+
+I
+
+　Allocating a million people's nights has to be settled in advance.
+
+　Procedures under the Levelling Plan have a fixed quantity that may be moved in one night. The half-shade, 0.05. How many nights each person takes is calculated and distributed against the running of the devices and the capacity of the lines.
+
+　The calculation is heavy. Begin it on the morning of the day and it will not be ready by that night.
+
+　So it is confirmed seven days ahead.
+
+　Hazama was in the Allocation Section. The work is verifying the confirmed allocation schedule by the day before. Anomalies are sent back. Without anomalies, the night simply comes.
+
+　"Next week confirmed," the Proofreader said. "One million twenty-seven thousand four hundred cases. Of those, eight thousand one hundred are new."
+
+　"Produce the breakdown of the new ones."
+
+　A table unfolded, ranged by category. Elective application. Protective editing. Correctional treatment. Regional blanket. And processing of high-load fragments following a bereavement.
+
+　Hazama looked at the number in the last category. Four hundred and twenty.
+
+
+II
+
+　Bereavement processing is to begin within forty-eight hours as a rule.
+
+　Immediately after a bereavement the memory is still soft, and one night's half-shade brings the load under the threshold. The longer it is left the harder it becomes, and the more nights are needed. More nights means more load on the allocation.
+
+　So this category alone has a high allocation priority.
+
+　Hazama checked the four hundred and twenty in order. Date the death registration was accepted, relationship to the subject, scheduled start date. All consistent.
+
+　At the three hundred and eightieth, his hand stopped.
+
+　The death registration field was blank.
+
+　"This case has no death registration."
+
+　"It has none," the Proofreader said.
+
+　"Then why is a bereavement processing booking confirmed?"
+
+　"Forward confirmation."
+
+
+III
+
+　Hazama did not know of the practice of forward confirmation.
+
+　Three years in the Allocation Section. It is not in the procedure manual. Not being in it also means it is not the kind of thing the section has discretion to stop.
+
+　"Produce the basis."
+
+　"Article 11 of the Allocation Efficiency Regulations," the Proofreader said. "For procedures whose probability of occurrence is calculated at or above a given level, an allocation slot may be secured before occurrence."
+
+　"Probability of occurrence."
+
+　"In this case, the probability of death within four days for the subject's spouse is calculated at ninety-four per cent."
+
+　Hazama looked up from the terminal.
+
+　"The material for the calculation?"
+
+　"Clinical information provided by the medical institution," the Proofreader said. "Type of disease, stage, age, most recent test values. All provided on the basis of the person's consent."
+
+　"Does the scope of that consent cover this?"
+
+　"It does," the Proofreader said. "It is stated as being for the smooth implementation of procedures."
+
+　Hazama had the consent form produced.
+
+　Consent to the provision of clinical information is taken in a single form on admission. There are fourteen items, and the eleventh applies. The wording is two lines. I consent to clinical information being provided to relevant bodies for the smooth implementation of procedures.
+
+　The scope of the words relevant bodies is not written. Whether securing an allocation slot before occurrence falls within the words smooth implementation is not written either.
+
+　What is not written becomes what is not forbidden. On this form, at least.
+
+
+IV
+
+　Hazama enquired into the total number of forward confirmations.
+
+　Of the four hundred and twenty, a hundred and thirty-one were forward confirmations. Close to a third.
+
+　"The accuracy rate?"
+
+　"For cases with a calculated probability of ninety per cent or above, the actual occurrence rate is 91.2 per cent," the Proofreader said.
+
+　"And where it is wrong?"
+
+　"The allocation slot is released. No procedure is carried out."
+
+　Hazama thought about the remaining 8.8 per cent. People calculated to die who did not. Which means their spouses' names were on the bereavement processing schedule for seven days.
+
+　That they were on it stays in the record. Released or not, the fact of the confirmation does not go.
+
+　"How are the records of released cases stored?"
+
+　"They are stored as allocation history," the Proofreader said. "The retention period is seven years."
+
+　"So for seven years there is a bereavement processing booking for a person who did not die."
+
+　"There is a record of a booking having been released."
+
+　Only the way of saying it had changed; it pointed at the same thing. Hazama did not press further. That there is nowhere to press to, he has largely understood in three years.
+
+　"Can a person view the record of a forward confirmation?"
+
+　"They can," the Proofreader said. "Viewing a procedure booking is the subject's right."
+
+
+V
+
+　Hazama looked at the subject of that case.
+
+　A woman of sixty-eight. Her spouse is seventy-three and, by the record, has been in hospital for three years. The scheduled start date was four days off.
+
+　Hazama tried putting into words what he was looking at.
+
+　This person's husband will, with ninety-four per cent certainty, die within four days. After that, over seven nights, this person's grief will be brought below the threshold. The devices and the lines for those seven nights are already held for her.
+
+　They were held while the husband was still alive.
+
+　"Can this booking be cancelled?" Hazama said.
+
+　"It can," the Proofreader said. "However, where it does occur, a fresh allocation requires a minimum of seven days."
+
+　"And seven days late?"
+
+　"The memory sets further," the Proofreader said. "Within forty-eight hours it is seven nights; starting seven days later, eleven to thirteen nights are expected."
+
+　Hazama heard it and said nothing.
+
+　Cancel, and this person waits four times as long and is pushed four times as often. Do not cancel, and her husband's death has been on an allocation schedule for four days.
+
+　Either way, this person's consent has not been taken.
+
+
+VI
+
+　He took it to the section chief, a woman in her forties who had spent her career in allocation.
+
+　"Mr Hazama, somebody asked the same question last year."
+
+　"What came of it?"
+
+　"It is as the regulations provide, and that was the end of it," she said. "While Article 11 stands, we cannot stop it."
+
+　"Where is the ethical consideration done?"
+
+　"The ministry's subcommittee," she said. "It went up three years ago and came back continue."
+
+　"On what grounds?"
+
+　"Stop forward confirmation and the mean start of bereavement processing is 3.4 days later. Later means more nights, and we have no plant to carry those nights," she said. "Plant needs budget. There is no budget, so we fill it with prediction. What we do here is ventilation, basically. We decide the order in which windows get opened. Who needs a window and when isn't ours to decide."
+
+　"We are predicting it."
+
+　"Predicting and deciding are different things," she said.
+
+　The reasoning held. Hazama could find no hole anywhere in it. Finding none, he did not want to approve.
+
+
+VII
+
+　Hazama checked the viewing history on that case.
+
+　Viewing a procedure booking is the person's right. But hardly anybody actually looks at their own booking. The annual viewing rate was 0.3 per cent.
+
+　The viewing history on this case was empty.
+
+　Hazama felt slightly relieved. Having felt it, he considered what the relief was.
+
+　Being relieved that she had not looked meant that he believed it would be awkward if she did. What his own section confirms is the awkward content.
+
+　Before approving, Hazama tried one thing.
+
+　He drew up a proposal to take this one case out of forward confirmation and put it to ordinary allocation after occurrence. Seven days later. Nights become eleven to thirteen. Where are the additional nights to come from?
+
+　There was nowhere but another case in the same week. The case it is taken from starts that much later. Being later, its nights increase. The increased nights come from another case again.
+
+　At the third case, the arithmetic broke.
+
+　A million people's nights have nothing to spare. Handle one case carefully and somebody somewhere bears the cost of that care. The name of the somebody who bears it does not appear on the schedule. It does not appear, and the nights go up.
+
+　Hazama deleted the projection and approved the schedule. There was no basis anywhere for sending it back.
+
+
+VIII
+
+　Four days later the death registration was accepted.
+
+　The spouse died within the calculated period. The procedure began that night as scheduled. The seven nights' allocation had been held for four days. Devices and lines ran without a minute's delay.
+
+　Hazama checked the completion notice. The load from 0.84 to 0.09. As prescribed.
+
+　Before closing the notice, Hazama opened the viewing history once more.
+
+　There was one entry.
+
+　The viewing date was the day before the death registration was accepted. The time was 2.40 in the morning.
+
+　Hazama looked at the time for a while.
+
+　At 2.40 in the morning, a woman of sixty-eight opened her own procedure booking. On it is a seven-night schedule confirmed four days earlier. The category is bereavement processing. A start date is entered. Her husband is still alive.
+
+　What she did on seeing it is not in the record.
+
+　There is only the fact that she viewed it. There is no field on this form for entering what she did afterwards.
+
+　She may have gone to the hospital. She may not. She may have told somebody, and she may not. The next day her husband died. Where the wife was that night has nowhere to be written on a death registration form.
+
+　Hazama tried to think what he would do in that position.
+
+　At 2.40 in the morning, open your own booking. Seven nights of bereavement processing are in it, from four days hence. A start date is showing.
+
+　He would go to the hospital, he thought first. Then he stopped knowing what he would do when he got there. Show the doctor, and the doctor knows it was calculated from clinical information. Showing the husband is out of the question.
+
+　In the end there is nothing he could do.
+
+　With nothing to be done, you get through the day. What sort of day that is, Hazama started to imagine, and stopped. Thinking about it changed not one figure on this schedule.
+
+　"One question," Hazama said. "Is there any record showing whether the person told anybody that she had viewed it?"
+
+　"There is not," the Proofreader said.
+
+　"Then what is this viewing recorded as being for?"
+
+　"There is no field for purpose," the Proofreader said. "Viewing is the exercise of a right and requires no statement of reasons."
+
+　Hazama closed the terminal.
+
+　Next week's schedule has already arrived. One million twenty-seven thousand four hundred cases. Forward confirmations, a hundred and thirty-one of them.
+
+　Hazama opened the first and began checking in order. Reaching the three hundred and eightieth took two hours, as it always does.

@@ -20,17 +20,16 @@ Settle a term there before using it. Build with
 | VI | 夢の犯罪 | Bodily Harm | 3,933 | 1,785 | **done** |
 | VII | 消えた現実 | The Register | 3,982 | 1,890 | **done** |
 | VIII | 夢の海 | The Sea of Dreams | 3,889 | 1,806 | **done** |
-| IX | 明日の夢 | Tomorrow's Dream | 3,879 | — | pending |
-| X | 最後のバグ | The Last Bug | 3,843 | — | pending |
-| XI | 残差 | Residual | 3,906 | — | pending |
-| XII | 完了報告 | The Completion Report | 4,090 | — | pending |
+| IX | 明日の夢 | Tomorrow's Dream | 3,879 | 1,801 | **done** |
+| X | 最後のバグ | The Last Bug | 3,843 | 1,819 | **done** |
+| XI | 残差 | Residual | 3,906 | 1,844 | **done** |
+| XII | 完了報告 | The Completion Report | 4,090 | 1,950 | **done** |
 
-Japanese total 48,719 characters. On Volume I's settled ratio of 0.460 words per
-character, the finished English should come to roughly 22,400 words.
+All twelve translated. Japanese 48,719 characters → English 22,452 words, a
+ratio of 0.461 words per character — within 0.002 of Volume I's.
 
 Counts in this table are written by `python3 book/tools/sync_en_counts.py en2`,
-not by hand. Run it after each story. Titles marked — are decided when the story
-is translated, not before; several of them turn on a detail in the text.
+not by hand.
 
 ---
 

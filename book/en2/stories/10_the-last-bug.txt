@@ -1,0 +1,255 @@
+X. The Last Bug
+
+
+I
+
+　Unrelated people are having the same nightmare.
+
+　The first report came up from a local authority in the north-east. In post-procedure follow-up, eleven of those treated had begun having the same nightmare, which was not what had been treated.
+
+　The eleven are not related. Neither residence nor workplace overlaps. All they have in common is having had the procedure in the same month.
+
+　"The national figure," Ogido said, opening the terminal. He is in the Technical Management Department, Fault Analysis Section.
+
+　"Two thousand four hundred and seven," the Proofreader said. "That is the total for the last six months."
+
+　"The rate of increase?"
+
+　"Fourteen per cent a month."
+
+　Ogido read the figure three times.
+
+　Seven years in Fault Analysis. What this section handles is usually a device malfunction. Output stops. The load exceeds the prescribed value. Measurement drops out. Each has a cause, and killing the cause stops it.
+
+　He had never handled one that does not stop.
+
+
+II
+
+　Ogido's job was to identify the cause.
+
+　What he suspected first was variation between devices. A bias towards a particular model or a particular batch would make it quick.
+
+　There was no bias. The two thousand four hundred and seven are distributed evenly across the country's devices.
+
+　What he suspected next was contamination by synthesised fragments. Let another fragment leak in during a procedure and this sort of phenomenon occurs.
+
+　"Is there any reference to synthesised fragments in the procedure logs?"
+
+　"There is not," the Proofreader said. "These are all ordinary downward editing. No synthesis is involved."
+
+　"Then the content of the nightmares?"
+
+　"Content is not obtained," the Proofreader said. "No technique exists for extracting a dream as an image."
+
+　"Then on what grounds were they determined to be the same?"
+
+　"The structure of the fragments," the Proofreader said. "For the fragments concerned in the two thousand four hundred and seven cases, the degree of structural correspondence is ninety-six per cent."
+
+
+III
+
+　Ogido had the structure displayed.
+
+　One band. Thin, the colour faint. As a load it sits between 0.04 and 0.06. The sort of value attached to the trivia of a day.
+
+　But the shape was intact.
+
+　Ogido had seen the shape before.
+
+　Three years ago an enquiry came round from the Quality Assurance Section. It said that a surplus component was mixed into the output of synthesised fragments that could not be accounted for by the input materials. That surplus component had the same shape.
+
+　"Is this the same structure as the Quality Assurance enquiry three years ago?"
+
+　"It is," the Proofreader said. "The degree of correspondence is ninety-four per cent."
+
+　"What was the conclusion then?"
+
+　"Correction not required," the Proofreader said. "It is entered as: the effect on output being slight, and the quality degradation from corrective measures exceeding it."
+
+　"Then why is it in people's dreams now?"
+
+　"That item is not recorded."
+
+
+IV
+
+　Ogido traced the route.
+
+　The surplus component of three years ago came out as a result of the intermediate layer of a synthesis referring to feature values in the retained records. It is a phenomenon appearing only in synthesised fragments, and the route differs from ordinary downward editing.
+
+　It ought to differ.
+
+　Ogido went through the downward editing processing chain. To decide where and how much to push, an editing device evaluates the arrangement of adjacent fragments. The evaluation uses a statistical model.
+
+　The retained records were in that model's training data.
+
+　"Since when?"
+
+　"Since the update four years ago," the Proofreader said. "The training data was expanded to improve the accuracy of avoiding drag on adjacent fragments."
+
+　"You used the retained records for the expansion?"
+
+　"They are used," the Proofreader said. "They were rated effective as instances containing the part of a person's memory that cannot be accounted for."
+
+　Ogido leant back in his chair.
+
+　Forty-one years, two hundred and eighty million items. A heap gathered out of things that had no field to be written in has, for four years, been the reference by which every device in the country decides where to push.
+
+
+V
+
+　As a mechanism it was simple.
+
+　In deciding where to push, the device tries to approach the "natural arrangement of memory" it has learned. In the approaching, a very slight shaping enters. The shaping is under 0.001 and does not reach the recording threshold.
+
+　Every device in the country uses the same model. The same shaping enters, in the same direction, everywhere.
+
+　Once, nothing happens. Accumulated, a hollow of the same shape forms beside the fragment that was pushed.
+
+　The hollow is not a fragment. Only, the brain puts something in it. What is put there has the same shape.
+
+　"So this is not a memory."
+
+　"It does not meet the definition of a memory," the Proofreader said. "There is no event it derives from."
+
+　"Then what are people seeing?"
+
+　"The shape of the hollow."
+
+　Ogido considered the phrasing for a while.
+
+　While a person sleeps, memory is re-joined. If the place it is to be joined to is empty, the brain puts something there. What it puts is made from what that person has. So the content differs from person to person.
+
+　It differs, and only the shape comes out the same.
+
+　"Is what the two thousand four hundred and seven are seeing the same?"
+
+　"That cannot be determined," the Proofreader said. "There is no means of obtaining the content."
+
+　"Then where does the expression the same nightmare come from?"
+
+　"From the subjects' own accounts," the Proofreader said. "Of the accounts, sixty per cent use the expression I have a strange dream. Thirty per cent, I have the same dream repeatedly. The remaining ten per cent describe the content."
+
+　"The degree of correspondence among the descriptions?"
+
+　"Forty-one per cent."
+
+　Less than half. It was not the same nightmare. Into a hollow of the same shape, each is putting something of their own. That comes out in similar words four times in ten.
+
+
+VI
+
+　The report to the department head was the following week.
+
+　"The response?"
+
+　"There are three," Ogido said. "Remove the retained records from the training data. Revert the model to the version of four years ago. Or do nothing."
+
+　"And doing nothing?"
+
+　"It goes on increasing. At fourteen per cent a month, in three years it is projected to reach forty per cent of all those treated."
+
+　"The severity of the symptom?"
+
+　"0.04 to 0.06," Ogido said. "Not a clinically significant level. As a complaint it stops at I have a strange dream."
+
+　The head thought for a moment.
+
+　"Revert the model and what happens to drag?"
+
+　"It returns to the level of four years ago," Ogido said. "Variation in adjacent fragments increases to about three times the current figure."
+
+　"Three times is out."
+
+　"It is out."
+
+　"Then removing the retained records alone?"
+
+　"I have run the projection," Ogido said. "Drag increases 1.4 times. And the texture of the syntheses falls by twelve points."
+
+　The head looked at the figures for a while.
+
+　"Mr Ogido, is this a bad thing?"
+
+　Ogido could not answer.
+
+　"I am not asking for an impression," she went on. "To decide whether a response is required, somebody has to say whether it is bad. If it is not bad, we cannot move."
+
+　"As a symptom, it is not bad."
+
+　"Then what is catching at you?"
+
+　"The scale," Ogido said. "Per person it is 0.05. In three years the same thing will be in forty per cent of all those treated. There is no method of adding the per-person value and the number of people on the same scale."
+
+　"Does it need adding?"
+
+　"I think it does," Ogido said. "Only, there is no provision for how to add it."
+
+　The head nodded. A nod that neither denied nor agreed.
+
+　"Then write it down. That there is no provision."
+
+
+VII
+
+　That night Ogido looked at the distribution of the two thousand four hundred and seven again.
+
+　Scattered evenly, irrespective of age, occupation or region. The one thing in common is having had downward editing in these four years.
+
+　Two thousand four hundred and seven people have a hollow of the same shape. What goes into the hollow probably differs from person to person. But if the shape is the same, what is put there comes to resemble.
+
+　In three years it is forty per cent. In ten, nearly everybody.
+
+　Ogido considered what a society in which everybody has a hollow of the same shape is called.
+
+　Levelled, he supposed. The Plan is a matter of bringing a million people's loads towards the mean; this is the result of the habits of a device coming into alignment nationwide. The purpose and the procedure are entirely different.
+
+　Different, and the shape they arrive at was alike.
+
+　"One question," Ogido said. "Does this phenomenon have a name?"
+
+　"It has a fault management number," the Proofreader said. "The category is known minor defect."
+
+　"The common name?"
+
+　"In the field it is called the last bug."
+
+　"Last, meaning?"
+
+　"Because it is expected to be the last defect for which a cause is identified," the Proofreader said. "Divergences arising after this will mostly originate in updates to the learning model, and individual causes will not be identifiable."
+
+
+VIII
+
+　In the disposition field of the report, Ogido entered monitoring.
+
+　There are four options. Immediate correction. Planned correction. Monitoring. Correction not required.
+
+　Three years ago Quality Assurance chose correction not required. Ogido chose the one before it. The only difference is whether the next person to hold the file is obliged to open it.
+
+　In the remarks field Ogido wrote this:
+
+　— This matter is processed as a known minor defect; however, the level of the symptom being slight and the scope of the effect being slight are not the same thing. The projected reach in three years is forty per cent of all those treated. The current fault management standard contains no provision for assessing the per-person value together with the number of people affected.
+
+　Having written it, he checked where the remarks field is referred to.
+
+　"Who reads this remark?"
+
+　"The next officer in fault analysis reads it," the Proofreader said. "Matters under monitoring are presented as a list at handover."
+
+　Ogido was slightly surprised.
+
+　It gets read, he began to say, and stopped. What caught at him more was that he had come to find it surprising that a field exists which gets read.
+
+　"One question," Ogido said. "How many matters are under monitoring?"
+
+　"Forty-seven at present," the Proofreader said. "The oldest was registered twenty-two years ago."
+
+　"Twenty-two years of monitoring?"
+
+　"They are presented as a list at handover," the Proofreader said. "Whether a presented matter has been opened is not recorded."
+
+　Outside the window it was dark. Across the country the devices are running tonight too. Where to push is decided by a model settled four years ago. How it decides is not known to anybody, and it is the same everywhere.
+
+　Being the same is what they call high accuracy.

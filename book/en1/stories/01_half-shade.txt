@@ -5,7 +5,7 @@ I
 
 　The Fourth Editing Room at one in the morning was as quiet as the bottom of a tank.
 
-　Kaji turned his chair halfway and looked at the girl on the bed. Suginoto Saya, thirteen. Five electrode pads on her forehead, not seven. The configuration used for minors, which leaves off the two that sit over the temples. A child's skull is still thin, and pads placed there make the readings jump.
+　Kaji turned his chair halfway and looked at the girl on the bed. Sugimoto Saya, thirteen. Five electrode pads on her forehead, not seven. The configuration used for minors, which leaves off the two that sit over the temples. A child's skull is still thin, and pads placed there make the readings jump.
 
 　"REM," the Proofreader said. A voice with no gender and no humidity in it. "Sixteen seconds to the intervention window."
 
@@ -228,7 +228,7 @@ VI
 
 　Kaji nodded and opened the record terminal.
 
-　"Suginoto Saya. Total reduction in affective load across seven nights, 0.14," the Proofreader read out. "Line check: the line has not moved."
+　"Sugimoto Saya. Total reduction in affective load across seven nights, 0.14," the Proofreader read out. "Line check: the line has not moved."
 
 　"The face fragment?"
 
@@ -248,7 +248,7 @@ VI
 
 　"Then what about her thanks?"
 
-　"Gratitude is an affect. Affect is load," the Proofreader said. "Whether the Suginoto Saya of seven nights ago would have said the same words cannot be estimated."
+　"Gratitude is an affect. Affect is load," the Proofreader said. "Whether the Sugimoto Saya of seven nights ago would have said the same words cannot be estimated."
 
 　Kaji submitted the line check to the terminal. The line has not moved. The line is recorded as not having moved.
 
@@ -263,7 +263,7 @@ VII
 
 　The notice came a month later.
 
-　Suginoto Saya, affective load 0.86. Threshold exceeded. The fragment enters the queue for automatic re-editing.
+　Sugimoto Saya, affective load 0.86. Threshold exceeded. The fragment enters the queue for automatic re-editing.
 
 　Kaji read the figure three times. A fragment he had brought down to 0.77 over seven nights had gone back to 0.86 in a month. It had gone back further than he had pressed.
 

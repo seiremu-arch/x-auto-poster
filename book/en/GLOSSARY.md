@@ -43,6 +43,10 @@ English must repeat it too, word for word.
 | 六　夢の犯罪 | VI. Bodily Harm |
 | 七　消えた現実 | VII. The Register |
 | 八　夢の海 | VIII. The Sea of Dreams |
+| 九　明日の夢 | IX. Tomorrow's Dream |
+| 十　最後のバグ | X. The Last Bug |
+| 十一　残差 | XI. Residual |
+| 十二　完了報告 | XII. The Completion Report |
 
 Notes on the harder ones.
 
