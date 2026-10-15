@@ -4,10 +4,10 @@
 使い方:
     python3 book/tools/check_en_quotes.py
 
-第二巻第八話『The Sea of Dreams』は、保管庫に残った記録として、
-第一巻の各話と第二巻第六話に出てきた文をそのまま引用している。原文では
-同じ文字列なので、訳文でも同じでなければ繋がりが切れる。通しで読んでも
-「似ているが少し違う」は見落とすので、文字列一致で確かめる。
+第二巻第八話（夢の海）は、保管庫に残った記録として、第一巻の各話と
+第二巻第六話に出てきた文をそのまま引用している。原文では同じ文字列なので、
+訳文でも同じでなければ繋がりが切れる。通しで読んでも「似ているが少し違う」は
+見落とすので、文字列一致で確かめる。言語ごとに別々に見る。
 
 日本語側で同じであることも併せて確認する。原文がずれていれば、
 訳文を揃えても意味がない。ただし、地の文と記録の抜粋では中黒と読点が
@@ -25,79 +25,104 @@ def normalise(s: str) -> str:
     return s.replace("\u30fb", "\u3001")
 
 
-# (説明, 日本語の文字列, 英語の文字列, 出現すべきファイル)
+# (説明, 日本語の文字列, {言語: 訳文}, 出現すべきファイル（言語接頭辞なし）)
 QUOTES = [
     (
         "読み手の欄外記載（第一巻XII → 第二巻VIII）",
         "ただし本日、被験者七号の夢に、私の下宿の階段が出た",
-        "However, the stair of my lodgings appeared today in Subject 7's dream.",
-        ["en1/stories/12_silent-subject.txt", "en2/stories/08_sea-of-dreams.txt"],
+        {
+            "en": "However, the stair of my lodgings appeared today "
+                  "in Subject 7's dream.",
+            "de": "Allerdings erschien heute im Traum von Proband sieben "
+                  "die Treppe meiner Pension.",
+        },
+        [("1", "12"), ("2", "08")],
     ),
     (
         "被害回復拒否の自由記述（第二巻VI → 第二巻VIII）",
         "兄が入れたものだと分かっている。分かっていても、思ってしまう",
-        "I know it is something my brother put there. "
-        "Knowing it, I feel it all the same.",
-        ["en2/stories/06_bodily-harm.txt", "en2/stories/08_sea-of-dreams.txt"],
+        {
+            "en": "I know it is something my brother put there. "
+                  "Knowing it, I feel it all the same.",
+            "de": "Ich wei\u00df, dass es etwas ist, das mein Bruder "
+                  "hineingelegt hat. Ich wei\u00df es, und ich empfinde "
+                  "es trotzdem.",
+        },
+        [("2", "06"), ("2", "08")],
     ),
     (
         "辞退の自由記述（第一巻II → 第二巻VIII）",
         "蓮見律子は、待機期間中に自力で荷重を下げ、処置を辞退した",
-        "Hasumi Ritsuko lowered her own load during the waiting period "
-        "and withdrew from the procedure.",
-        ["en1/stories/02_waiting-list.txt", "en2/stories/08_sea-of-dreams.txt"],
+        {
+            "en": "Hasumi Ritsuko lowered her own load during the waiting "
+                  "period and withdrew from the procedure.",
+            "de": "Hasumi Ritsuko hat w\u00e4hrend der Wartezeit ihre Last "
+                  "aus eigener Kraft gesenkt und ist von der Bearbeitung "
+                  "zur\u00fcckgetreten.",
+        },
+        [("1", "02"), ("2", "08")],
     ),
     (
         "翻訳の不採用候補（第一巻IV → 第二巻VIII）",
         "光・痛み・閉じる",
-        "light, pain, closing",
-        ["en1/stories/04_the-translator.txt", "en2/stories/08_sea-of-dreams.txt"],
+        {"en": "light, pain, closing", "de": "Licht, Schmerz, Schlie\u00dfen"},
+        [("1", "04"), ("2", "08")],
     ),
     (
         "翻訳の不採用候補・その二（第一巻IV → 第二巻VIII）",
         "動く・止まる・分からない",
-        "moving, stopping, not knowing",
-        ["en1/stories/04_the-translator.txt", "en2/stories/08_sea-of-dreams.txt"],
+        {"en": "moving, stopping, not knowing",
+         "de": "Bewegen, Anhalten, Nichtwissen"},
+        [("1", "04"), ("2", "08")],
     ),
 ]
+
+LANGS = ["en", "de"]
 
 
 def main() -> int:
     problems = 0
 
-    for label, ja, en, paths in QUOTES:
-        missing = []
-        for rel in paths:
-            p = ROOT / rel
-            if not p.exists():
-                missing.append(f"{rel}（ファイルなし）")
-                continue
-            if en.lower() not in p.read_text(encoding="utf-8").lower():
-                missing.append(rel)
+    for lang in LANGS:
+        if not (ROOT / f"{lang}1").is_dir():
+            continue
+        print(f"【{lang}】")
+        for label, ja, trs, slots in QUOTES:
+            tr = trs[lang]
+            missing = []
+            for vol, num in slots:
+                hits = sorted((ROOT / f"{lang}{vol}" / "stories")
+                              .glob(f"{num}_*.txt"))
+                if not hits:
+                    missing.append(f"{lang}{vol}/{num}（ファイルなし）")
+                    continue
+                if tr.lower() not in hits[0].read_text(
+                        encoding="utf-8").lower():
+                    missing.append(str(hits[0].relative_to(ROOT)))
 
-        if missing:
-            problems += len(missing)
-            print(f"× {label}")
-            print(f"    英文: {en}")
-            for m in missing:
-                print(f"    見つからない: {m}")
-        else:
-            print(f"○ {label}")
+            if missing:
+                problems += len(missing)
+                print(f"  × {label}")
+                print(f"      訳文: {tr}")
+                for m in missing:
+                    print(f"      見つからない: {m}")
+            else:
+                print(f"  ○ {label}")
 
-        # 原文側も同じ文字列であることを確かめる。
-        # 題名が違うので、巻と先頭の番号で対応する原文を引く
-        ja_hits = 0
-        for rel in paths:
-            en_vol, _, name = rel.split("/")
-            ja_vol = {"en1": "vol1", "en2": "vol2"}[en_vol]
-            hits = sorted((ROOT / ja_vol / "stories").glob(f"{name[:2]}_*.txt"))
+    # 原文側も同じ文字列であることを確かめる。訳文を揃える前に原文を見る
+    print("【原文】")
+    for label, ja, _trs, slots in QUOTES:
+        hits_n = 0
+        for vol, num in slots:
+            hits = sorted((ROOT / f"vol{vol}" / "stories").glob(f"{num}_*.txt"))
             if hits and normalise(ja) in normalise(
                     hits[0].read_text(encoding="utf-8")):
-                ja_hits += 1
-        if ja_hits != len(paths):
+                hits_n += 1
+        if hits_n != len(slots):
             problems += 1
-            print(f"    ※ 原文側は {ja_hits}/{len(paths)} ファイルにしかない"
-                  f"（訳文を揃える前に原文を確認すること）")
+            print(f"  × {label}: 原文側は {hits_n}/{len(slots)} ファイルにしかない")
+        else:
+            print(f"  ○ {label}")
 
     print()
     print(f"要対応 {problems} 件" if problems else "引用の不一致なし")
