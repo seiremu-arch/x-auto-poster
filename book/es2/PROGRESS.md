@@ -16,10 +16,10 @@ con el Libro I. Compilar con `python3 book/tools/build_epub.py es2`.
 | I | 眠らない都市 | La ciudad que no duerme | 4.336 | 2.019 | **hecho** |
 | II | 胎夢 | Cimientos | 4.240 | 1.836 | **hecho** |
 | III | 共感注射 | La inyección de empatía | 4.432 | 1.863 | **hecho** |
-| IV | 最後の夢職人 | El último artesano | 4.226 | — | pendiente |
-| V | ＡＩは夢を見るか | ¿Sueña la máquina? | 3.963 | — | pendiente |
-| VI | 夢の犯罪 | Lesiones | 3.933 | — | pendiente |
-| VII | 消えた現実 | El registro | 3.982 | — | pendiente |
+| IV | 最後の夢職人 | El último artesano | 4.226 | 1.913 | **hecho** |
+| V | ＡＩは夢を見るか | ¿Sueña la máquina? | 3.963 | 1.776 | **hecho** |
+| VI | 夢の犯罪 | Lesiones | 3.933 | 1.749 | **hecho** |
+| VII | 消えた現実 | El registro | 3.982 | 1.820 | **hecho** |
 | VIII | 夢の海 | El mar de los sueños | 3.889 | — | pendiente |
 | IX | 明日の夢 | El sueño de mañana | 3.879 | — | pendiente |
 | X | 最後のバグ | El último fallo | 3.843 | — | pendiente |
