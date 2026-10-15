@@ -1,0 +1,263 @@
+IV. Der letzte Handwerker
+
+
+I
+
+　Automatisierungsgrad 98,4 Prozent, steht auf der Anzeige an der Wand.
+
+　Die übrigen 1,6 Prozent waren die Arbeit menschlicher Techniker. Mit Nagoshi sind im Dritten Bearbeitungsraum noch zwei Techniker übrig.
+
+　Nagoshi ist vierundsechzig und geht in acht Monaten in den Ruhestand. Der andere ist Ende fünfzig und geht nächstes Jahr. Für die Zeit, nachdem die beiden gegangen sind, ist kein Ersatz vorgesehen.
+
+　„Heutige Zuteilung, drei“, sagte der Korrektor. „Bei keinem ergab die automatische Bearbeitung eine Abschlussfeststellung.“
+
+　Die automatische Bearbeitung hält an, wenn das Mitziehen an einem benachbarten Fragment den vorgeschriebenen Wert übersteigt. Angehaltene Fälle kommen zu einem Menschen. Das heißt, in Nagoshis Hände gelangt immer nur, was die Maschine nicht berühren konnte.
+
+　„Rufen Sie den ersten auf.“
+
+　Bänder reihten sich. Nagoshi zählte von links und hielt beim sechsten inne.
+
+
+II
+
+　Der Antragsteller war ein Mann in den Vierzigern, und das Ziel eine Erinnerung von vor acht Jahren.
+
+　Der Grund, aus dem die automatische Bearbeitung angehalten hatte, war die Dichte der benachbarten Fragmente. Unmittelbar neben dem zu senkenden Fragment lagen drei weitere, die sich fast überlappten. Drückt man eines, bewegen sich alle drei.
+
+　Die Maschine mag diese Form nicht. Die zulässige Bewegungsmenge ist festgelegt, und was in die Nachbarn übergeht, wird der bewegten Menge zugeschlagen. Zugeschlagen übersteigt es die Obergrenze. Übersteigt es sie, hält der Vorgang an.
+
+　Nagoshi suchte die Stelle zum Drücken.
+
+　Von den vier Fragmenten des Bündels war eines zu senken. Aber die vier sind an der Wurzel verbunden, und es gibt keine Stelle, an der sie sich einzeln drücken ließen. Die Feststellung der Maschine war richtig gewesen.
+
+　Richtig, aber das heißt nicht, dass es keine Stelle zum Drücken gibt.
+
+　Nagoshi setzte einen Finger ein Stück abseits vom Rand des Fragments an. Statt unmittelbar zu drücken, brachte er einen losen Druck von dort ein, wo die umgebende Dichte gering war. Alle vier sanken geringfügig, und dann kamen drei zurück. Das eine, das nicht zurückkam, war das zu senkende.
+
+　„Affektive Last, 0,81 auf 0,77“, las der Korrektor ab. „Veränderung der benachbarten Fragmente, zusammen 0,006. Innerhalb des vorgeschriebenen Werts.“
+
+　„Dann eine Nacht.“
+
+　„Eine Nacht.“
+
+
+III
+
+　Diese Hand kann Nagoshi niemandem erklären.
+
+　Man hat ihn oft darum gebeten. Es gab eine Zeit, in der junge Techniker zum Zusehen kamen, und das Vorgehen wurde für das Training der Maschine aufgezeichnet. Die Aufzeichnungen müssten noch da sein.
+
+　Sie sind da, und sie sind nicht nachgebildet worden.
+
+　„Eine Frage“, sagte Nagoshi. „Was ist aus dem Modell geworden, das auf mein Vorgehen trainiert wurde?“
+
+　„Es wurde vor drei Jahren außer Betrieb genommen“, sagte der Korrektor.
+
+　„Aus welchem Grund?“
+
+　„Weil die Reproduktionsrate unter vierzig Prozent fiel.“
+
+　„Vierzig.“
+
+　„Bei sechzig Prozent gleicher Eingaben wurde nicht derselbe Vorgang gewählt“, sagte der Korrektor. „Ihre Vorgänge unterscheiden sich jedes Mal, auch bei Fragmenten gleicher Form.“
+
+　Nagoshi lachte kurz darüber.
+
+　Es mag die gleiche Form sein, es ist nicht derselbe Mensch. Derselbe Mensch, und der Schlaf jener Nacht ist ein anderer. Also unterscheidet es sich jedes Mal. Selbstverständlich genug. Das Selbstverständliche nennt die Maschine eine niedrige Reproduktionsrate.
+
+　Nicht dass Nagoshi etwas zu seiner Verteidigung hätte.
+
+　Jedes Mal einen anderen Vorgang zu wählen heißt, dass auch Nagoshi nicht weiß, welcher davon richtig war. Vierzig Jahre, und die Erinnerungen daran, dass es gut ging, sind die zahlreicheren. An die Fälle, die nicht gut gingen, erinnert er sich meistens nicht. Menschen sind so gebaut.
+
+　Woran er sich nicht erinnert, erinnert sich die Maschine. Alle Vorgänge Nagoshis über vierzig Jahre stehen in den Aufzeichnungen, und die Fehlschläge stehen darin in derselben Auflösung.
+
+　Also beurteilt die Maschine Nagoshis vierzig Prozent genauer als Nagoshi selbst.
+
+
+IV
+
+　Nach Mittag kam ein junger Beamter.
+
+　In den Zwanzigern, aus der Abteilung Betriebsplanung. Auf der Karte stand: Automatisierungsförderung.
+
+　„Hätten Sie etwas Zeit wegen der Lage nach Ihrem Ausscheiden?“
+
+　„Eine Übergabe also.“
+
+　„Übergabe, gewissermaßen.“ Es schien ihm schwerzufallen. „Der Dritte Bearbeitungsraum wird zum Ende des nächsten Geschäftsjahres geschlossen.“
+
+　„Ich verstehe.“
+
+　„Für die 1,6 Prozent der Fälle ist vorgesehen, sie durch eine Lockerung der Schwelle der automatischen Bearbeitung aufzunehmen.“
+
+　Nagoshi sah vom Gerät auf.
+
+　„Lockerung heißt, den vorgeschriebenen Wert für das Mitziehen anzuheben?“
+
+　„Ja. Von derzeit 0,01 auf 0,03.“
+
+　„Das Dreifache.“
+
+　„Das Dreifache.“ Er legte seine Unterlagen vor. „Nach der Hochrechnung kommen damit über neunzig Prozent der 1,6 Prozent in die automatische Abschlussfeststellung.“
+
+　Nagoshi nahm die Unterlagen und ging die Zahlen durch. Die Hochrechnung war solide. Verdreifacht man die Schwelle, hält die Maschine kaum noch an.
+
+　„Und die übrigen zehn Prozent?“
+
+　„Sie halten weiterhin an, und in dem Fall bearbeiten wir sie mit einer höheren Zahl von Aufteilungen“, sagte er. „Was nicht in einer Nacht geht, holen wir in Nächten nach.“
+
+　„Die Nachbarn bewegen sich nicht.“
+
+　„Sie bewegen sich. Bis 0,03.“
+
+　„Woher kommt die Zahl 0,03?“
+
+　„Das Dreifache des gegenwärtigen Werts“, antwortete er. Es lag keine Bosheit in der Art, wie er es sagte. Tatsächlich ist wohl auch keine da.
+
+　„Auf welcher Grundlage das Dreifache?“
+
+　„Es ist der Wert, der neunzig Prozent der 1,6 Prozent aufnimmt.“ Er schlug eine andere Seite auf. „Beim Doppelten werden nur sechzig Prozent aufgenommen. Beim Vierfachen erhebt der klinische Ausschuss Einwände.“
+
+　„Und das Dreifache hat den Ausschuss passiert?“
+
+　„Es hat ihn passiert. 0,03 liegt innerhalb des Halbtons, also bleibt die Spur. Die Auffassung des Ausschusses ist, dass alles innerhalb des Bereichs, in dem eine Spur bleibt, sicher ist.“
+
+　Die Formulierung blieb bei Nagoshi hängen.
+
+　Innerhalb des Bereichs, in dem eine Spur bleibt, ist es sicher. Die Reihenfolge ist umgekehrt zu dem, was sein Ausbilder vor vierzig Jahren sagte. Der Ausbilder sagte, die Obergrenze bestehe, um eine Spur zu lassen. Jetzt sagt man, weil es innerhalb der Obergrenze liegt, bleibe eine Spur.
+
+　Es klingt nach demselben und ist es nicht. Das Erste macht die Spur zum Zweck, das Zweite die Obergrenze zur Rechtfertigung.
+
+　Nagoshi traute sich nicht zu, den Unterschied zu erklären, also schwieg er.
+
+
+V
+
+　In jener Nacht ging Nagoshi die Aufzeichnungen der von ihm berührten Fälle zurück.
+
+　Vierzig Jahre davon. An Zahl über zwanzigtausend.
+
+　Er ließ zählen, bei wie vielen die Veränderung an einem benachbarten Fragment über 0,01 lag.
+
+　„Siebenunddreißig“, sagte der Korrektor.
+
+　„Und über 0,03?“
+
+　„Keiner.“
+
+　Nagoshi sah die Zahl eine Weile an.
+
+　Siebenunddreißig in vierzig Jahren. Von den siebenunddreißig über 0,01 liegen nur vier über 0,02. Das heißt, Nagoshis Hand hat sich vierzig Jahre innerhalb des gegenwärtigen Werts der Maschine bewegt.
+
+　Die neue Schwelle liegt bei 0,03. Einen Wert, den Nagoshi in vierzig Jahren nicht ein einziges Mal überschritten hat, wird die Maschine ab nächstem Jahr regelmäßig nutzen.
+
+　„Was tun 0,03 benachbarter Veränderung einem Patienten?“
+
+　„Die affektive Last des benachbarten Fragments sinkt um 0,03“, sagte der Korrektor.
+
+　„Das weiß ich. Ich frage, was es tut.“
+
+　„Dieser Punkt wird nicht verzeichnet.“
+
+
+VI
+
+　In der folgenden Woche reichte Nagoshi eine Stellungnahme ein.
+
+　Sie sprach sich nicht gegen die Lockerung aus. Er wusste, dass Widerspruch nichts bringt. Geschrieben hat er einen einzigen Punkt: dass die Veränderung an benachbarten Fragmenten nach der Lockerung weiterhin verzeichnet werden solle.
+
+　Gegenwärtig wird eine benachbarte Veränderung nur verzeichnet, wenn sie den vorgeschriebenen Wert übersteigt. Darunter wird nichts verzeichnet. Verdreifacht man die Schwelle, rückt der größte Teil dessen, was bisher verzeichnet wurde, in den Bereich, in dem es das nicht wird.
+
+　Die Veränderung verschwindet nicht. Die Aufzeichnung verschwindet.
+
+　Die Antwort kam zwei Wochen später.
+
+　— Von der Aufnahme weiterer Aufzeichnungspunkte wird derzeit unter dem Gesichtspunkt der Kosten für Systemänderungen abgesehen. Ferner gilt eine Veränderung innerhalb des vorgeschriebenen Werts als klinisch unbedenklich, weshalb die Notwendigkeit der Verzeichnung als gering beurteilt wird.
+
+　Nagoshi las die zweite Zeile mehrmals.
+
+　Gilt als unbedenklich. Wer es so beurteilt hat, steht nicht da. Die Untersuchung, auf der das Urteil beruht, wird nicht genannt. Es gilt lediglich.
+
+　Vor vierzig Jahren, in Nagoshis Ausbildung, sagte sein Ausbilder: Die Obergrenze ist keine Grenze der Technik, sie ist da, um uns in dem Bereich zu halten, in dem eine Spur bleibt. Solange eine Spur bleibt, kann ein Mensch bezweifeln, dass sein Gedächtnis berührt wurde.
+
+　Verdreifacht man die Schwelle, ändert sich diese Überlegung nicht. 0,03 liegt noch innerhalb des Halbtons. Die Spur bleibt.
+
+　Sie bleibt, und sie wird nicht verzeichnet. Um zu zweifeln, braucht es zuerst einen Grund zum Zweifeln. Kommt in den Aufzeichnungen nichts vor, das als Grund dienen könnte, gibt es nichts, woran zu zweifeln wäre.
+
+
+VII
+
+　Drei Monate vor dem Ruhestand nahm Nagoshi seinen letzten Besucher an.
+
+　Es war der junge Beamte aus der Betriebsplanung. Er hatte darum gebeten, Nagoshis Hand einmal zu sehen. Nicht auf Anweisung von oben, sagte er, sondern weil er es wollte.
+
+　Nagoshi wählte einen Fall mit einem dichten Bündel.
+
+　„Vom Zusehen lernen Sie nichts.“
+
+　„Das ist in Ordnung.“
+
+　Nagoshi setzte den Finger an. Ein Stück abseits vom Rand des Fragments. Nicht unmittelbar, ein loser Druck von dort, wo die umgebende Dichte gering war. Alle vier sanken geringfügig, und drei kamen zurück.
+
+　„Sie sind zurückgekommen“, sagte der Beamte.
+
+　„Sie sind zurückgekommen.“
+
+　„Warum kommen nur drei zurück?“
+
+　„Weiß ich nicht“, sagte Nagoshi. „Vierzig Jahre, und ich weiß es nicht.“
+
+　Der Beamte schwieg.
+
+　„Die Maschine tut nichts, wofür sie keinen Grund angeben kann“, fuhr Nagoshi fort. „Ich habe es ohne den Grund getan. Es ist keine Frage, was richtig ist.“
+
+　„Was ist es dann für eine Frage?“
+
+　Nagoshi überlegte kurz.
+
+　„Eine Frage davon, dass etwas übrig ist.“
+
+　„Übrig.“
+
+　„Es gibt eine festgelegte Menge, die man drücken darf, und ich habe immer nur innerhalb davon gearbeitet. In vierzig Jahren bin ich siebenunddreißigmal an die Vorschrift gestoßen“, sagte Nagoshi. „Der Teil, an den ich nie gestoßen bin, ist übrig. Ab nächstem Jahr werden sie das Übrige nutzen.“
+
+　„Wenn es sich nutzen lässt, ist es doch besser, es zu nutzen.“
+
+　„Schon“, räumte Nagoshi ein. „Ich behaupte auch nicht, das Übrige sei etwas Gutes. Nur ist es nicht übrig. Es ist der Zwischenraum.“
+
+　Das Gesicht des Beamten sagte, dass er nicht folgte. Nagoshi fand auch nicht, dass er es gut gesagt hatte.
+
+　„Der Zwischenraum wozwischen?“, fragte der Beamte.
+
+　„Zwischen der Obergrenze, bis zu der man drücken darf, und dem, was man tatsächlich drückt“, sagte Nagoshi. „Weil er leer ist, kann man darin schwanken. Wie weit man drückt, entscheidet man jedes Mal selbst.“
+
+　„Wenn man bis zur Obergrenze drücken darf, braucht man doch nicht zu schwanken.“
+
+　„Richtig“, sagte Nagoshi. „Deshalb schwankt die Maschine nicht. Nicht zu schwanken ist schneller, und insgesamt ist es vermutlich richtig.“
+
+　„Halten Sie es für besser, zu schwanken, Herr Nagoshi?“
+
+　Nagoshi antwortete eine Weile nicht.
+
+　„Nein“, sagte Nagoshi. „Vierzig Jahre Schwanken, und ich habe keinen einzigen Beleg dafür, dass das Schwanken einem Patienten genützt hätte. Es gibt eine Aufzeichnung über siebenunddreißig. Das ist kein Beleg dafür, dass ich geschickt war. Es ist eine Aufzeichnung über siebenunddreißig Male, an denen ich an die Vorschrift gestoßen bin.“
+
+　„Dann bleibt also nichts?“
+
+　„Nichts“, sagte Nagoshi. „Deshalb bedeutet es vermutlich mehr, dass Sie heute hergekommen sind.“
+
+　Der Beamte sagte dazu nichts.
+
+
+VIII
+
+　An dem Tag, an dem Nagoshi das Amt verließ, kam das Schild des Dritten Bearbeitungsraums noch in derselben Woche ab.
+
+　Der Automatisierungsgrad erreichte im folgenden Jahr 99,8 Prozent. Die übrigen 0,2 Prozent sind Fälle, die die Maschine zurückgestellt hat, und sie liegen zurückgestellt in der Schlange.
+
+　Die Schwelle wurde auf 0,03 gelockert. Veränderungen an benachbarten Fragmenten werden bis 0,03 nicht verzeichnet.
+
+　Die Veränderungen, die Nagoshi in vierzig Jahren siebenunddreißigmal in die Aufzeichnung gebracht hat, stehen noch darin. In vierzig Jahren Aufzeichnungen zeigen allein diese siebenunddreißig, dass sich ein Nachbar bewegt hat.
+
+　In den Aufzeichnungen danach gibt es keine einzige Spur eines bewegten Nachbarn.
+
+　Nicht, weil sich keiner bewegt hätte.

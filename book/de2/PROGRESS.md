@@ -15,10 +15,10 @@ Ausgabe.**
 | # | Japanisch | Deutsch | Quelle | Wörter | Stand |
 |---|---|---|---|---|---|
 | I | 眠らない都市 | Die schlaflose Stadt | 4.336 | 1.889 | **fertig** |
-| II | 胎夢 | Fundamente | 4.240 | — | offen |
-| III | 共感注射 | Die Empathiespritze | 4.432 | — | offen |
-| IV | 最後の夢職人 | Der letzte Handwerker | 4.226 | — | offen |
-| V | ＡＩは夢を見るか | Träumt die Maschine? | 3.963 | — | offen |
+| II | 胎夢 | Fundamente | 4.240 | 1.817 | **fertig** |
+| III | 共感注射 | Die Empathiespritze | 4.432 | 1.784 | **fertig** |
+| IV | 最後の夢職人 | Der letzte Handwerker | 4.226 | 1.877 | **fertig** |
+| V | ＡＩは夢を見るか | Träumt die Maschine? | 3.963 | 1.654 | **fertig** |
 | VI | 夢の犯罪 | Körperverletzung | 3.933 | — | offen |
 | VII | 消えた現実 | Das Register | 3.982 | — | offen |
 | VIII | 夢の海 | Das Meer der Träume | 3.889 | — | offen |
