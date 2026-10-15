@@ -23,11 +23,11 @@ Entscheidungen festschreiben und jede Abweichung verdoppeln.
 | V | 二人称の夢 | Der Traum in der zweiten Person | 3.454 | 1.465 | **fertig** |
 | VI | 夢税 | Traumsteuer | 3.391 | 1.417 | **fertig** |
 | VII | 涙の代筆 | Trauer in Vertretung | 4.476 | 1.908 | **fertig** |
-| VIII | 夢裁判 | Das Strafmaß | 4.577 | — | offen |
-| IX | 目覚めない権利 | Das Recht, nicht zu erwachen | 4.503 | — | offen |
-| X | 夢の相続 | Der Nachlass | 4.587 | — | offen |
-| XI | 幸福指数九八 | Glücksindex 98 | 4.218 | — | offen |
-| XII | 沈黙の被験者 | Der schweigende Proband | 4.508 | — | offen |
+| VIII | 夢裁判 | Das Strafmaß | 4.577 | 1.954 | **fertig** |
+| IX | 目覚めない権利 | Das Recht, nicht zu erwachen | 4.503 | 1.956 | **fertig** |
+| X | 夢の相続 | Der Nachlass | 4.587 | 1.984 | **fertig** |
+| XI | 幸福指数九八 | Glücksindex 98 | 4.218 | 1.898 | **fertig** |
+| XII | 沈黙の被験者 | Der schweigende Proband | 4.508 | 2.023 | **fertig** |
 
 Japanisch insgesamt 51.721 Zeichen. Die Zahlen in dieser Tabelle schreibt
 `python3 book/tools/sync_tr_counts.py de1`, nicht die Hand.
