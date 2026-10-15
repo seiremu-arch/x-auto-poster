@@ -1,0 +1,257 @@
+VIII. El mar de los sueños
+
+
+I
+
+　El Archivo guarda cuarenta y tres años de fragmentos.
+
+　Físicamente está repartido en nueve bloques, con una capacidad total nominal de ciento veinte exabytes. La ocupación real es del noventa y cuatro por ciento, y el plan de ampliación lleva cinco años parado.
+
+　Kurusu pertenecía a la Sección de Gestión del Archivo. El trabajo consiste en liberar capacidad.
+
+　—El objetivo de reducción de este año —dijo Kurusu, y abrió el terminal.
+
+　—6,2 por ciento —dijo el Corrector—. El objetivo del año pasado era del 4,8 por ciento, con un grado de cumplimiento del treinta y uno por ciento.
+
+　—Treinta y uno por ciento.
+
+　—Sí.
+
+　La reducción queda cada año por debajo del objetivo. El motivo es sencillo: hay poco que pueda borrarse.
+
+　El Archivo es la dependencia más gris de todas las instalaciones de la Oficina. No viene nadie. El teléfono no suena. El resultado del trabajo se mide con una sola cifra, la cantidad borrada.
+
+　Kurusu lleva seis años aquí. En seis años no ha alcanzado nunca el objetivo de reducción. Su antecesor tampoco, ni el anterior a aquel. No se puede reprochar a nadie. En ninguna otra sección hay nada con que comparar.
+
+
+II
+
+　La conservación de los datos de fragmentos tiene tres categorías.
+
+　La primera categoría es la conservación por contrato. Se conserva mientras el usuario viva, o mientras los herederos paguen la cuota de mantenimiento. No puede borrarse.
+
+　La segunda es la conservación legal. Afecta a los tratamientos correccionales y a las investigaciones de expedientes, y el plazo de conservación lo fija la ley. Dentro del plazo no puede borrarse.
+
+　La tercera categoría era todo lo demás.
+
+　Lo único que Kurusu toca es esta tercera categoría.
+
+　—El volumen total de la tercera categoría.
+
+　—El treinta y siete por ciento del conjunto —dijo el Corrector.
+
+　—Saque el desglose.
+
+　Se desplegó una tabla. La mayor parte eran registros que cumplían los criterios de destrucción y no se habían destruido. Campos libres de los técnicos. Notas que no entraron en la estadística. Manifestaciones sin campo. Residuos calificados como valores que pueden ignorarse.
+
+　Cuarenta y un años, unos doscientos ochenta millones de asientos.
+
+
+III
+
+　Kurusu releyó las actas de entrega de sus antecesores.
+
+　Se puede remontar hasta tres atrás. Los tres redactaron un plan de reducción de la tercera categoría. Los tres dejaron de ejecutarlo.
+
+　En las actas no constaba el motivo.
+
+　—El motivo de la suspensión de los planes de reducción.
+
+　—No consta en los registros —dijo el Corrector.
+
+　—Entonces, qué ocurrió justo antes de la suspensión.
+
+　—Los tres consultaron los registros conservados el mes anterior a la suspensión.
+
+　Kurusu leyó esa línea dos veces.
+
+　Él también iba a abrirlos hoy. Está, pues, en este punto siguiendo el mismo orden que sus antecesores.
+
+
+IV
+
+　Kurusu abrió.
+
+　Abrirlos no deja ver el contenido. La composición de las bandas, y los datos que figuran en el asiento. Eso es todo lo que tiene el Archivo.
+
+　Como no se pueden ver doscientos ochenta millones de asientos uno a uno, Kurusu puso un criterio de extracción. No por cantidad, sino ordenados por número de consultas.
+
+　El primero era un registro de hace cuarenta años.
+
+　Número de consultas: seis mil doscientas once.
+
+　—Quién lo consulta.
+
+　—El proceso de síntesis —dijo el Corrector—. Lo consulta para extraer rasgos.
+
+　—Seis mil doscientas veces el mismo registro.
+
+　—Sí.
+
+　Kurusu abrió los datos del asiento.
+
+　No hay identificador del registrante. Ni fecha. Ni lugar. En la categoría ponía «informe de lector, anotación al margen del campo de contaminación».
+
+　Hace cuarenta años existía un oficio llamado lector. Consistía en emplear el cerebro humano como comparador para poner en palabras los fragmentos de pacientes sin conciencia. Había un campo llamado tasa de contaminación, donde se hacía constar qué porcentaje del informe correspondía al propio lector.
+
+　Anotación al margen designa lo que no cabía en ese campo.
+
+　—Por qué se consulta seis mil veces este registro.
+
+　—Porque resulta eficaz para generar la textura de las síntesis —dijo el Corrector—. En la memoria de una persona hay siempre una cantidad de materia que ni ella misma sabe explicar. Como rasgo de esa parte, las anotaciones al margen están valoradas como de alta precisión.
+
+　—Se usan como muestra de lo que no tiene explicación, entonces.
+
+　—Así es.
+
+　Kurusu estuvo un rato masticando esa explicación.
+
+　El impreso no tenía campo, y por eso se escribió en el margen. Se escribió en el margen, y por eso no entró en el registro oficial. Lo que no entró, cuarenta años después, se mezcla a diario en alguna síntesis como muestra de lo inexplicable que es el ánimo de una persona.
+
+
+V
+
+　Kurusu extrajo la totalidad de las anotaciones al margen.
+
+　Había mil cuatrocientas. El número total de lectores, según los registros, es diecinueve. Salen unas setenta por persona.
+
+　El contenido era siempre breve. De tres a cinco líneas. Como el impreso no tenía campo, lo escrito en el margen del informe lo recogió después una máquina y lo pasó a conservación.
+
+　Kurusu miró la composición de una de ellas. Hay registro de fecha. Marzo de hace cuarenta años. Hay registro de lugar. Sala de observación número dos del instituto.
+
+　También había identificador del lector.
+
+　Kurusu solicitó ese identificador.
+
+　—No puede revelarse —dijo el Corrector—. Los identificadores de los lectores se desconectaron del sistema de consulta al suprimirse el oficio.
+
+　—¿Esa persona vive todavía?
+
+　—No puede determinarse.
+
+　—Entonces, ¿de quién son estas mil cuatrocientas?
+
+　—No hay campo de titularidad.
+
+　Kurusu hizo sacar la distribución de fechas de las mil cuatrocientas.
+
+　Se concentraban en los siete años que van de hace cuarenta a hace treinta y tres. Después casi no hay. Coincide con la época en que el oficio de lector se suprimió por la mejora de la capacidad de conversión lingüística de las máquinas.
+
+　Durante siete años, diecinueve personas siguieron escribiendo en el margen lo que no tenía campo donde escribirse. No para que nadie lo leyera. Que no había destinatario era lo que mejor sabía quien lo escribía.
+
+　El motivo por el que aun así lo escribieron no consta en los registros.
+
+　—Voy a leer el contenido de una sola —dijo Kurusu.
+
+　—El contenido no puede reproducirse —dijo el Corrector—. Las anotaciones al margen de los informes de lector están consignadas en caracteres. Si son caracteres, pueden mostrarse.
+
+　Kurusu se quedó un momento desconcertado ante esa diferencia.
+
+　Un fragmento no se reproduce. Pero unos caracteres escritos en un margen son solo caracteres. Una máquina leyó los informes de papel de hace cuarenta años y los conserva como texto.
+
+　—Muéstrelo.
+
+　Se mostró. Eran dos líneas.
+
+　— Tasa de contaminación de hoy, dos por ciento. Como cifra, el mejor valor hasta la fecha. Sin embargo, hoy apareció en el sueño del sujeto siete la escalera de mi pensión.
+
+
+VI
+
+　Informó al jefe de sección al final de aquella semana. Un hombre de unos cincuenta, severo con los números.
+
+　—La tercera categoría se puede borrar, ¿no?
+
+　—Reglamentariamente puede borrarse.
+
+　—Pues bórrela. Con eso se cubre la mitad del objetivo del 6,2 por ciento.
+
+　—Permítame confirmar una sola cosa —dijo Kurusu—. Si se borra la tercera categoría, baja la calidad de las síntesis.
+
+　—¿Cuánto?
+
+　—Según el cálculo, doce puntos de satisfacción.
+
+　El jefe de sección torció el gesto.
+
+　—Eso es inviable.
+
+　—Es inviable.
+
+　—Entonces basta con borrar la parte que no se consulta —dijo el jefe—. Conserve los registros que se consultan seis mil veces y tire los que no se han consultado ni una. Eso no afectará a la calidad.
+
+　Kurusu se llevó la propuesta.
+
+　Al calcularlo, los registros con cero consultas suponían el ochenta por ciento de la tercera categoría. Borrándolos se alcanza el objetivo. El efecto sobre la calidad: 0,4 puntos. Dentro del margen de error.
+
+
+VII
+
+　Kurusu probó a abrir un solo registro de los que tienen cero consultas.
+
+　Lo eligió al azar. Categoría: «motivo de rechazo de la reparación del daño, campo libre». De hace dos años.
+
+　Tenía tres líneas.
+
+　— Sé que es algo que mi hermano me metió dentro. Lo sé, y lo siento igual.
+
+　Kurusu se quedó un rato mirándolo.
+
+　Cero consultas significaba que estas tres líneas llevaban dos años sin que nadie las leyera. El funcionario que las escribió quizá sabía que no se consultarían, o quizá no lo sabía. En cualquier caso lo escribió.
+
+　Kurusu abrió otro. «Retirada, fuera de categoría». De hace diecinueve años.
+
+　— Hasumi Ritsuko bajó su propia carga durante el periodo de espera y se retiró del tratamiento.
+
+　Tenía cuatro líneas. La cuarta decía así:
+
+　— Las retiradas siguen siendo cero en la estadística. Este caso no puede imputarse a ninguna parte.
+
+　Kurusu apartó las manos del terminal.
+
+　Cero consultas no significaba que no sirviera de nada. Significaba que nadie lo había leído.
+
+　El registro que la síntesis consulta seis mil veces sirve. Contribuye a la calidad. Por eso se conserva. Ese era el criterio esta vez.
+
+　Siguiendo el criterio, se borra el ochenta por ciento de unas líneas que nadie ha leído nunca.
+
+　Kurusu abrió uno más. «Candidato de traducción, descartado». De hace seis años.
+
+　— Confianza de coincidencia del treinta y uno por ciento. Además del candidato adoptado se generaron dos series: Luz, dolor, cerrar, y Moverse, detenerse, no saber. Descartadas por no mantener coherencia como relato.
+
+　Debajo había una sola línea añadida a mano.
+
+　— La madre no sabe nada de lo que no se adoptó.
+
+　Kurusu cerró el terminal. Después de cerrarlo volvió a abrirlo y leyó otra vez esa línea.
+
+　El nombre del técnico que la escribió no consta en el registro. Solo consta la fecha en que se escribió. Pasadas las dos de la madrugada de un día de hace seis años.
+
+
+VIII
+
+　Kurusu redactó el plan de reducción.
+
+　Objeto: los registros con cero consultas dentro de la tercera categoría, el 29,6 por ciento del conjunto. Supera con mucho el objetivo anual del 6,2 por ciento. Previsiblemente se aprobaría.
+
+　Terminada la redacción, Kurusu la dejó sin presentar.
+
+　La dejó tres días. Al cuarto, con la casilla de aprobación aún en blanco, añadió esto en observaciones:
+
+　— Se ha comprobado el contenido de una parte de los registros con cero consultas incluidos en el objeto. Todos ellos consignan asuntos para los que el impreso oficial no previó campo. Que algo no se consulte y que no hubiera necesidad de consignarlo no son la misma cosa.
+
+　Después de escribirlo, Kurusu pensó en quién leería esta observación.
+
+　El aprobador la lee. Pero lo que el aprobador mira son dos cifras: la tasa de reducción y el efecto sobre la calidad. El campo de observaciones no está entre los puntos de valoración de la aprobación.
+
+　Es decir, que esta observación será también un registro con cero consultas.
+
+　Kurusu se rio un poco. Después de reírse, retiró el plan.
+
+　En el campo de motivo de la retirada escribió «para nuevo examen». Eran las mismas palabras que figuraban en las actas de entrega de sus tres antecesores. Qué orden habían seguido los tres para llegar hasta aquí, Kurusu lo entendía ahora.
+
+　Se convirtió en el cuarto.
+
+　La tasa de ocupación de la capacidad sigue en el noventa y cuatro por ciento. El plan de ampliación lleva cinco años parado. Cuántos años más aguantará, está en los cálculos. Está, pero Kurusu decidió no mirarlo.
+
+　Aunque lo mirara, probablemente haría lo mismo.

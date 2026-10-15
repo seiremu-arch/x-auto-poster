@@ -35,6 +35,8 @@ QUOTES = [
                   "in Subject 7's dream.",
             "de": "Allerdings erschien heute im Traum von Proband sieben "
                   "die Treppe meiner Pension.",
+            "es": "Sin embargo, hoy apareci\u00f3 en el sue\u00f1o del sujeto "
+                  "siete la escalera de mi pensi\u00f3n.",
         },
         [("1", "12"), ("2", "08")],
     ),
@@ -47,6 +49,8 @@ QUOTES = [
             "de": "Ich wei\u00df, dass es etwas ist, das mein Bruder "
                   "hineingelegt hat. Ich wei\u00df es, und ich empfinde "
                   "es trotzdem.",
+            "es": "S\u00e9 que es algo que mi hermano me meti\u00f3 dentro. "
+                  "Lo s\u00e9, y lo siento igual.",
         },
         [("2", "06"), ("2", "08")],
     ),
@@ -59,20 +63,24 @@ QUOTES = [
             "de": "Hasumi Ritsuko hat w\u00e4hrend der Wartezeit ihre Last "
                   "aus eigener Kraft gesenkt und ist von der Bearbeitung "
                   "zur\u00fcckgetreten.",
+            "es": "Hasumi Ritsuko baj\u00f3 su propia carga durante el "
+                  "periodo de espera y se retir\u00f3 del tratamiento.",
         },
         [("1", "02"), ("2", "08")],
     ),
     (
         "翻訳の不採用候補（第一巻IV → 第二巻VIII）",
         "光・痛み・閉じる",
-        {"en": "light, pain, closing", "de": "Licht, Schmerz, Schlie\u00dfen"},
+        {"en": "light, pain, closing", "de": "Licht, Schmerz, Schlie\u00dfen",
+         "es": "Luz, dolor, cerrar"},
         [("1", "04"), ("2", "08")],
     ),
     (
         "翻訳の不採用候補・その二（第一巻IV → 第二巻VIII）",
         "動く・止まる・分からない",
         {"en": "moving, stopping, not knowing",
-         "de": "Bewegen, Anhalten, Nichtwissen"},
+         "de": "Bewegen, Anhalten, Nichtwissen",
+         "es": "Moverse, detenerse, no saber"},
         [("1", "04"), ("2", "08")],
     ),
 ]

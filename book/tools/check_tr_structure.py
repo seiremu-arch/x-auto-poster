@@ -10,6 +10,10 @@
 
 語数の比は見ない。会話の多い話は日本語のほうが短く済むので、比が下がること
 自体は異常ではない。見るのは構造のほうだけにする。
+
+あわせて字下げも見る。本文の行頭は全角空白でなければならない。タブや半角空白が
+混じっても段落数は変わらないので、段落の突き合わせでは見つからない。EPUBにすると
+その行だけ字下げが消えるので、ここで落とす。
 """
 
 import re
@@ -48,6 +52,20 @@ def paragraphs(chunk: list, sec_re: re.Pattern) -> int:
     return n
 
 
+INDENT = "\u3000"  # 本文の行頭はこれ以外にない
+
+
+def bad_indents(lines: list, sec_re: re.Pattern) -> list:
+    """行頭が全角空白でない本文行の行番号を返す。表題と節番号は除く。"""
+    out = []
+    for i, line in enumerate(lines, 1):
+        if i == 1 or not line.strip() or sec_re.fullmatch(line.strip()):
+            continue
+        if not line.startswith(INDENT):
+            out.append(i)
+    return out
+
+
 def blocks(lines: list, sec_re: re.Pattern) -> list:
     """節の区切りで分け、節ごとの段落数を返す。"""
     heads = [i for i, l in enumerate(lines) if sec_re.fullmatch(l.strip())]
@@ -71,9 +89,14 @@ def main() -> int:
                 problems += 1
                 continue
 
+            tr_lines = tr_path.read_text(encoding="utf-8").split("\n")
             ja = blocks(ja_hits[0].read_text(encoding="utf-8").split("\n"), JA_SEC)
-            tr = blocks(tr_path.read_text(encoding="utf-8").split("\n"), TR_SEC)
+            tr = blocks(tr_lines, TR_SEC)
             checked += 1
+
+            for ln in bad_indents(tr_lines, TR_SEC):
+                problems += 1
+                print(f"× {tr_vol}/{tr_path.name}: {ln}行目の行頭が全角空白でない")
 
             if len(ja) != len(tr):
                 print(f"× {tr_vol}/{tr_path.name}: 節の数が違う "
