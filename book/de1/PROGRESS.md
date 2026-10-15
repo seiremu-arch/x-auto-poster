@@ -22,7 +22,7 @@ Entscheidungen festschreiben und jede Abweichung verdoppeln.
 | IV | 夢の翻訳者 | Der Übersetzer | 3.915 | 1.589 | **fertig** |
 | V | 二人称の夢 | Der Traum in der zweiten Person | 3.454 | 1.465 | **fertig** |
 | VI | 夢税 | Traumsteuer | 3.391 | 1.417 | **fertig** |
-| VII | 涙の代筆 | Trauer in Vertretung | 4.476 | — | offen |
+| VII | 涙の代筆 | Trauer in Vertretung | 4.476 | 1.908 | **fertig** |
 | VIII | 夢裁判 | Das Strafmaß | 4.577 | — | offen |
 | IX | 目覚めない権利 | Das Recht, nicht zu erwachen | 4.503 | — | offen |
 | X | 夢の相続 | Der Nachlass | 4.587 | — | offen |
