@@ -17,9 +17,9 @@ Entscheidungen festschreiben und jede Abweichung verdoppeln.
 | # | Japanisch | Deutsch | Quelle | Wörter | Stand |
 |---|---|---|---|---|---|
 | I | 半色 | Halbton | 4.997 | 2.340 | **fertig** |
-| II | 忘却の順番待ち | Die Warteliste für das Vergessen | 4.540 | — | offen |
-| III | 夢の遺言 | Das Vermächtnis | 4.555 | — | offen |
-| IV | 夢の翻訳者 | Der Übersetzer | 3.915 | — | offen |
+| II | 忘却の順番待ち | Die Warteliste für das Vergessen | 4.540 | 2.025 | **fertig** |
+| III | 夢の遺言 | Das Vermächtnis | 4.555 | 2.010 | **fertig** |
+| IV | 夢の翻訳者 | Der Übersetzer | 3.915 | 1.589 | **fertig** |
 | V | 二人称の夢 | Der Traum in der zweiten Person | 3.454 | — | offen |
 | VI | 夢税 | Traumsteuer | 3.391 | — | offen |
 | VII | 涙の代筆 | Trauer in Vertretung | 4.476 | — | offen |

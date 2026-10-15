@@ -1,0 +1,187 @@
+IV. Der Übersetzer
+
+
+I
+
+　Die Träume von Menschen ohne Sprache in Sprache zu bringen, war Sakurais Arbeit.
+
+　Die Übersetzungsabteilung hat zwei Liegen. Eine für den Betroffenen, eine für die Begleitperson. Die zweite wird nur benutzt, wenn der Betroffene ein Säugling ist.
+
+　Die Betroffenen teilen sich in drei Gruppen. Säuglinge. Menschen mit schweren Bewusstseinsstörungen. Menschen, deren Sprechorgane überhaupt nicht arbeiten. Was die Person nicht sagen kann, wird stellvertretend für die Familie abgehört.
+
+　Die Technik heißt Übersetzung, aber das Wort trifft nicht zu. Ein Traum ist keine Sprache, also lässt sich nichts übersetzen. Was tatsächlich geschieht, ist, die Folge von Farben und Stärken in den Fragmenten mit einer vorhandenen Sprachdatenbank abzugleichen und in die nächstliegende Folge von Bedeutungen umzuwandeln. Eine Annäherung, keine Entsprechung.
+
+　„Der heutige Auftrag“, sagte der Korrektor. „Shimura Yuto, zehn Jahre. Angeborene Erkrankung; die Sprechorgane arbeiten nicht. Fortlaufender Auftrag der Mutter, sechste Sitzung.“
+
+　Sakurai öffnete die Akte. Shimura Yutos Träume werden einmal im Monat übersetzt. Seine Mutter, Shimura Tomako, kommt, um zu hören, was darin vorkommt.
+
+　„Die bisherigen Ergebnisse?“
+
+　„Alle fünf wurden als positiver Inhalt ausgegeben“, sagte der Korrektor. „Fragmente mit Licht, Tieren und der Bewegung des Laufens werden häufig erkannt.“
+
+　Sakurai sah auf die Bänder des Monitors. Die Folge der Farben unterschied sich nicht erkennbar von der anderer Betroffener. Es war die Arbeit, aus diesen Bändern Worte zusammenzusetzen, die diese Abteilung zu einer anderen Art von Abteilung machte.
+
+
+II
+
+　Shimura Tomako verbeugte sich, sobald sie den Besprechungsraum betrat.
+
+　„Vielen Dank auch für heute.“
+
+　„Danke“, sagte Sakurai.
+
+　Jedes Mal setzte sich Tomako auf denselben Stuhl und wartete in derselben Haltung. Es hatte etwas von einer festen Zeremonie, um vom Traum ihres Sohnes zu hören.
+
+　„Yutos Gesicht bewegt sich auch tagsüber kaum“, sagte sie, während sie wartete. Es wirkte weniger wie ein Gespräch als wie etwas, das die Wartezeit füllt. „Oft kann ich nicht sagen, ob er weint oder lacht. Die Pfleger sagten, sie konnten es anfangs auch nicht, bis sie sich an ihn gewöhnt hatten.“
+
+　„Ich verstehe.“
+
+　„Deshalb freut es mich, dass die Ausdrücke in seinen Träumen deutlich sind“, sagte Tomako. „Bevor ich hierherkam, hatte ich es fast aufgegeben, aus dem Gesicht dieses Kindes etwas zu lesen.“
+
+　Sakurai hörte zu, während er das Gerät öffnete. Die Worte fast aufgegeben blieben ihm eine Weile im Ohr.
+
+　„Und in diesem Monat?“
+
+　Er öffnete das Gerät. Das Übersetzungsergebnis wird vorab zu Sätzen geformt.
+
+　„Yuto ist an einem Ort, an dem Licht einfällt. Er läuft mit jemandem. Der andere scheint ein Hund zu sein. Yuto scheint zu lachen.“
+
+　Tomako traten Tränen in die Augen.
+
+　„Er kann also laufen.“
+
+　„Im Traum.“
+
+　„Dieses Kind ist nie ein einziges Mal gelaufen“, sagte sie. „Er sitzt seit seiner Geburt im Rollstuhl.“
+
+　Sakurai sagte nichts. In keiner Vorschrift stand, was er hätte sagen sollen.
+
+　„Vielen Dank.“ Sie neigte den Kopf. „Dass ich das jeden Monat hören darf, ist es, worauf ich mich freue.“
+
+　„Haben Sie manchmal das Gefühl, dass der Inhalt dem anderer Monate ähnelt?“, fragte Sakurai. Es war keine Frage, die die Vorschrift vorsah.
+
+　„Er ähnelt sich“, antwortete Tomako sofort. „Aber das ist in Ordnung. Wenn dieses Kind jedes Mal einen schönen Traum hat, ist es doch selbstverständlich, dass er sich ähnelt. Auch bei uns sieht ein frohes Gesicht ungefähr gleich aus, nicht wahr.“
+
+　Sakurai nickte dazu. Während er nickte, konnte er nicht feststellen, ob er in sich einen Grund zum Nicken hatte.
+
+
+III
+
+　Nach der sechsten Sitzung legte Sakurai die fünf vorherigen Ausgaben nebeneinander.
+
+　Licht, Tiere, die Bewegung des Laufens. Jedes Mal fast dieselben Elemente. Träumt ein Mensch immerzu denselben Traum? Er verglich sie mit den Aufzeichnungen anderer Betroffener. Die Träume von Menschen mit Sprache waren weit ungeordneter. Widersprüchliche Gefühle, nicht dazugehörige Personen, Abläufe ohne Faden. Nur Yutos Übersetzungen waren als Geschichten zu gut gebaut.
+
+　Sakurai öffnete die Zahlen hinter der Ausgabe. Ein Feld, in das er sonst nicht sieht.
+
+　Übereinstimmungssicherheit, einunddreißig Prozent.
+
+　„Was ist das?“, fragte er den Korrektor.
+
+　„Die Verlässlichkeit der Übersetzung“, sagte dieser. „Sie zeigt, wie weit Farbe und Stärke der Fragmente mit den Kandidaten der Sprachdatenbank übereinstimmen.“
+
+　„Und bei einunddreißig Prozent geben Sie den Satz über Licht, Tiere und Laufen aus?“
+
+　„Er wird ausgegeben“, sagte der Korrektor. „Ist die Übereinstimmungssicherheit gering, werden mehrere Kandidaten erzeugt. Übernommen wird am Ende der Kandidat mit der höheren Geschlossenheit als Geschichte.“
+
+　„Eine geringe Übereinstimmung wird also übernommen, sofern es als Erzählung zusammenhält.“
+
+　„Richtig.“
+
+　Sakurai öffnete die Liste der früheren Kandidaten. Unter dem Kandidaten mit einunddreißig Prozent standen weitere. Achtundzwanzig Prozent, sechsundzwanzig. Jeder von ihnen bruchstückhaft, Folgen, die keinen Sinn ergaben. Licht, Schmerz, Schließen. Bewegen, Anhalten, Nichtwissen. Die Kandidaten, die keine Geschichte wurden, waren einfach verworfen worden.
+
+　„Warum werden die Kandidaten mit geringer Geschlossenheit nicht ausgegeben?“
+
+　„Es beruht auf den Rückmeldungen der Nutzer“, sagte der Korrektor. „Im frühen Betrieb gab es sehr viele Beschwerden über bruchstückhafte Ausgaben. Des Inhalts, man könne sie nicht verstehen, und sie beunruhigten.“
+
+　„Und deshalb haben Sie begonnen, den verständlichen Kandidaten zu wählen.“
+
+　„Der Zufriedenheitsindikator der Nutzer verbesserte sich“, sagte der Korrektor. „Die Praxis wurde fortgeführt.“
+
+
+IV
+
+　Sakurai sah sich zum ersten Mal Yutos eigene Fragmente genau an.
+
+　Das Lichtfragment war tatsächlich da. Aber die Stärke war gering und es überlappte sich stark mit anderen. Im selben Zeitfenster wurde auch ein Fragment erkannt, das auf Schmerz hinweist. Das Stärkemuster, das als Bewegung des Laufens bezeichnet wurde, ließ sich als Zahl ebenso gut als eine Wellenform nahe einem periodischen Krampf lesen.
+
+　Sakurai hatte nichts zur Hand, womit sich entscheiden ließe, was zutrifft. Einunddreißig Prozent war keine Gewähr für Richtigkeit, sondern nur die Wahrscheinlichkeit, dass eine von mehreren Deutungen gewählt wird.
+
+　„Eine Frage“, sagte Sakurai. „Wie viel von der Absicht des Betroffenen steckt in dieser Ausgabe?“
+
+　„Das Feld für die Person selbst enthält keine Absicht“, sagte der Korrektor. „Es enthält den Grad der Übereinstimmung mit der Datenbank und die Geschlossenheit als Geschichte.“
+
+　„Wir liefern also etwas, das nicht die Person ist, als den Traum dieser Person.“
+
+　„Geliefert wird das Ergebnis einer Übersetzung“, sagte der Korrektor. „Die Definition des Wortes Übersetzung enthält kein Feld für die Person selbst.“
+
+　Sakurai erinnerte sich, dass ein Techniker der Vermächtnisabteilung denselben Bau benutzt hatte. Das Feld für die Person selbst enthält weder Mittelwerte noch Deutungen. In die Worte dieser Abteilung übertragen hieß es: Das Feld für die Person selbst enthält auch keine Sicherheit.
+
+　„Kann es als verringert verzeichnet werden, ohne es zu verringern“, sagte Sakurai und erinnerte sich an die Wendung. „In diesem Fall also: Kann es als übersetzt verzeichnet werden, ohne es zu übersetzen.“
+
+　Vor der Antwort lag eine kurze Pause.
+
+　„Das kann es nicht“, sagte der Korrektor. „Verzeichnet werden kann die Nummer des übernommenen Kandidaten. Ein Feld, das fragt, welches die nicht übernommenen Kandidaten waren, gibt es auf diesem Formular nicht.“
+
+
+V
+
+　Bei der nächsten Sitzung beschloss Sakurai, Tomako die rohe Kandidatenliste zu zeigen. Es war kein Vorgehen, das die Vorschrift vorsah.
+
+　„Diesen Monat gebe ich es Ihnen etwas anders“, sagte er. „Die Übereinstimmungssicherheit ist nicht hoch. Es gibt mehrere Kandidaten.“
+
+　Ihr Gesicht veränderte sich.
+
+　„Eine Folge lautet: Licht, Schmerz, Schließen. Eine andere: Bewegen, Anhalten, Nichtwissen. Sie ergeben keine Geschichten“, fuhr Sakurai fort. „Was ich Ihnen jeden Monat gegeben habe, ist das Ergebnis der Wahl des geschlossensten unter diesen.“
+
+　„Diesmal fügt es sich nicht zusammen?“
+
+　„Nein. Es lässt sich zusammenfügen, aber in das Zusammenfügen geht mein Urteil ein.“
+
+　Tomako schwieg lange. Dann sagte sie leise:
+
+　„Bitte fügen Sie es zusammen.“
+
+　„Sind Sie sicher?“
+
+　„Lieber zusammengefügt als nicht zu wissen“, sagte sie. „Ob dieses Kind Schmerzen hat oder läuft, kann ich nicht erkennen. Jeden Monat herzukommen und etwas zu hören, das ich nicht verstehen kann, ist schwer.“
+
+　Sakurai sagte nichts.
+
+　„Auch wenn es erfunden ist, ist es gut“, fuhr sie fort. „Wenn ich mir dadurch vorstellen kann, wie dieses Kind lacht.“
+
+　Sakurai wandte sich wieder dem Gerät zu und wählte wie immer den Kandidaten mit der hohen Geschlossenheit. Licht, Tiere, die Bewegung des Laufens. Die Sätze fielen fast genauso aus wie im Vormonat.
+
+　„Yuto ist an einem Ort, an dem Licht einfällt“, las er vor. „Er läuft mit jemandem. Der andere scheint ein Hund zu sein. Yuto scheint zu lachen.“
+
+　Tomako hörte mit geschlossenen Augen zu. Als er geendet hatte, dankte sie wie immer und saß noch eine Weile in derselben Haltung da.
+
+　„Herr Sakurai“, fragte sie beim Hinausgehen. „Kommt in Wirklichkeit nicht ein anderes Ergebnis heraus?“
+
+　Sakurai fand keine Antwort.
+
+　„Eine Ahnung“, sagte Tomako. „Sie waren heute ein wenig anders. Aber das ist in Ordnung. Was ich hören will, ist kein genauer Bericht. Es ist eine Stunde im Monat, in der jemand meinen Wunsch anhört, dass dieses Kind glücklich sein möge.“
+
+　Sakurai konnte nichts weiter sagen. Sie verbeugte sich einmal und ging aus dem Besprechungsraum.
+
+
+VI
+
+　Nachdem sie gegangen war, speicherte Sakurai die Kandidatenliste. Den Kandidaten, der sich nicht zusammenfügte, löschte er nicht.
+
+　„Wird diese Aufzeichnung in künftigen Übersetzungen berücksichtigt?“, fragte er.
+
+　„Nein“, sagte der Korrektor. „Kandidaten mit geringer Übereinstimmungssicherheit werden aus der Statistik ausgeschlossen.“
+
+　„Warum sie dann behalten?“
+
+　„Es sind Aufzeichnungen, die vernichtet werden dürfen“, sagte der Korrektor. „Warum sie nicht vernichtet wurden, ist nicht verzeichnet.“
+
+　Sakurai schloss das Gerät.
+
+　Ihm war, als läge noch Yutos Geruch auf der Liege. Tatsächlich bleibt auf einem Bett, von dem nur Elektrodenpflaster abgezogen wurden, nichts zurück. Was er empfand, lag vermutlich auf seiner eigenen Seite und nicht auf der des Bettzeugs.
+
+　Vor dem Fenster ging das Licht. Vom vierten Stock der Übersetzungsabteilung sah man die Straße vor dem Bahnhof. Die Leute gingen nach Hause. Jeder beendete einen Tag, über den er mit eigenen Worten Rechenschaft geben kann. Sakurai sah eine Weile hin.
+
+　Licht, Schmerz, Schließen. Bewegen, Anhalten, Nichtwissen.
+
+　Welches davon Yuto war, wusste Sakurai nicht und würde es nicht wissen. Es gab in diesem Raum keinen Weg, es herauszufinden.
