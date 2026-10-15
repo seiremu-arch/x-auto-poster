@@ -20,12 +20,14 @@ ROOT = Path(__file__).resolve().parent.parent
 SECTION_RE = re.compile(r"^(?:[一二三四五六七八九十]+|[IVXLC]+)$")
 
 # 訳版 -> 原書
-PAIRS = {"en1": "vol1", "en2": "vol2", "de1": "vol1", "de2": "vol2"}
+PAIRS = {"en1": "vol1", "en2": "vol2", "de1": "vol1", "de2": "vol2",
+         "es1": "vol1", "es2": "vol2"}
 
 # 言語ごとの書式。桁区切りと「訳了」の語が違う
 FORMATS = {
     "en": {"sep": ",", "done": "**done**"},
     "de": {"sep": ".", "done": "**fertig**"},
+    "es": {"sep": ".", "done": "**hecho**"},
 }
 
 

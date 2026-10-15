@@ -77,7 +77,7 @@ QUOTES = [
     ),
 ]
 
-LANGS = ["en", "de"]
+LANGS = ["en", "de", "es"]
 
 
 def main() -> int:

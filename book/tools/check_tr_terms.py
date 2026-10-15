@@ -86,7 +86,34 @@ CHECKS_DE = [
     ("行末の空白", r"[ \t]+$"),
 ]
 
-CHECKS = {"en": CHECKS_EN, "de": CHECKS_DE}
+# スペイン語版。会話はレイヤ（—）で組む。引用符で組むと英語からの翻訳書に見える。
+CHECKS_ES = [
+    ("荷重の小数点は読点（0,05）。0.05 は不可",
+     r"\b0\.\d+|\b\d+\.\d{1,2}(?!\d)|\b\d+\.\d{4,}"),
+    ("会話はレイヤ（—）。引用符 \" \u201c \u201e は不可",
+     r"\"|[\u201c\u201d\u201e]"),
+    ("会話のダッシュはレイヤ（—, U+2014）。ハイフンや半角ダッシュは不可",
+     r"^\u3000?[-\u2013]\s*[A-ZÁÉÍÓÚÑ¿¡]"),
+    ("半色は la media tinta（medio color は不可）",
+     r"\bmedio color\b|\bmedia sombra\b|\bsemitono\b"),
+    ("校正官は el Corrector（revisor / corrector de pruebas は不可）",
+     r"\brevisor\w*\b|\bcorrector de pruebas\b"),
+    ("素片は el fragmento（esquirla / astilla は不可）",
+     r"\besquirla\w*\b|\bastilla\w*\b"),
+    ("情動荷重は la carga afectiva（carga emocional は不可）",
+     r"\bcarga emocional\b|\bpeso emocional\b"),
+    ("照合機は el Comparador", r"\bcotejador\b|\bemparejador\b"),
+    ("残差は el residuo（residual は不可）", r"\bresidual\w*\b"),
+    ("均し計画は el Plan de Nivelación",
+     r"\bPlan de Igualación\b|\bPlan de Allanamiento\b"),
+    ("英独が混じっている",
+     r"\bthe\b|\bProofreader\b|\bder Korrektor\b|\bdas Fragment\b"
+     r"|\bHalbton\b|\bper cent\b"),
+    ("漢数字の残り（〇・一二三…）", r"[〇一二三四五六七八九十]"),
+    ("行末の空白", r"[ \t]+$"),
+]
+
+CHECKS = {"en": CHECKS_EN, "de": CHECKS_DE, "es": CHECKS_ES}
 
 # 原文の姓 -> 英語表記。第二巻は原文の読み仮名、第一巻は通用する読みによる。
 # 「その話に原文の姓が出るなら、英文にもこの綴りが出る」ことだけを見る。
