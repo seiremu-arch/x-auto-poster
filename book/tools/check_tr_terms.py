@@ -67,8 +67,11 @@ CHECKS_DE = [
      r"\bLektor\w*\b|\bProofreader\b"),
     ("半色は der Halbton（Halbfarbe / half-shade は不可）",
      r"\bHalbfarbe\w*\b|\bhalf-shade\b"),
-    ("素片は das Fragment（Splitter / Bruchst\u00fcck は不可）",
-     r"\bSplitter\b|\bBruchst\u00fcck\w*\b"),
+    # 素片(技術語)は Fragment。ただし原文には普通名詞の「断片」も出るので、
+    # Bruchstück を一律に禁じると誤検出になる。明らかな誤用だけを拾う。
+    ("素片は das Fragment（Erinnerungsbruchst\u00fcck / Ged\u00e4chtnissplitter は不可）",
+     r"\bErinnerungsbruchst\u00fcck\w*\b|\bGed\u00e4chtnissplitter\w*\b"
+     r"|\bErinnerungssplitter\w*\b"),
     ("情動荷重は die affektive Last（Emotionslast は不可）",
      r"\bEmotionslast\w*\b|\bGef\u00fchlslast\w*\b"),
     ("照合機は der Komparator", r"\bVergleicher\b|\bAbgleicher\b"),
