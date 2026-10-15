@@ -13,9 +13,9 @@ con el Libro I. Compilar con `python3 book/tools/build_epub.py es2`.
 
 | # | Japonés | Español | Origen | Palabras | Estado |
 |---|---|---|---|---|---|
-| I | 眠らない都市 | La ciudad que no duerme | 4.336 | — | pendiente |
-| II | 胎夢 | Cimientos | 4.240 | — | pendiente |
-| III | 共感注射 | La inyección de empatía | 4.432 | — | pendiente |
+| I | 眠らない都市 | La ciudad que no duerme | 4.336 | 2.019 | **hecho** |
+| II | 胎夢 | Cimientos | 4.240 | 1.836 | **hecho** |
+| III | 共感注射 | La inyección de empatía | 4.432 | 1.863 | **hecho** |
 | IV | 最後の夢職人 | El último artesano | 4.226 | — | pendiente |
 | V | ＡＩは夢を見るか | ¿Sueña la máquina? | 3.963 | — | pendiente |
 | VI | 夢の犯罪 | Lesiones | 3.933 | — | pendiente |

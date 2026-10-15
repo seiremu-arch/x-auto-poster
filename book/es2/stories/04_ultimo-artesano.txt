@@ -1,0 +1,263 @@
+IV. El último artesano
+
+
+I
+
+　Grado de automatización, 98,4 por ciento, dice el panel de la pared.
+
+　El 1,6 por ciento restante era trabajo de técnicos humanos. Contando a Nagoshi, quedan dos técnicos en la Tercera Sala de Edición.
+
+　Nagoshi tiene sesenta y cuatro años y se jubila dentro de ocho meses. El otro ronda los sesenta y se va el año que viene. Para después de que se hayan ido no está prevista sustitución.
+
+　—Asignación de hoy, tres —dijo el Corrector—. En ninguno la tramitación automática ha dado resolución de cierre.
+
+　La tramitación automática se detiene cuando el arrastre sobre un fragmento contiguo supera el valor reglamentario. Los casos detenidos pasan a un humano. Es decir, a las manos de Nagoshi solo llega lo que la máquina no ha podido tocar.
+
+　—Saque el primero.
+
+　Se alinearon bandas. Nagoshi contó desde la izquierda y se detuvo en la sexta.
+
+
+II
+
+　El solicitante era un hombre de unos cuarenta y el objetivo un recuerdo de hace ocho años.
+
+　El motivo de que la tramitación automática se hubiera detenido era la densidad de los fragmentos contiguos. Justo al lado del fragmento que debía bajarse había otros tres, casi superpuestos. Si se empuja uno, se mueven los tres.
+
+　A la máquina no le gusta esta forma. La cantidad que puede moverse está fijada, y lo que se filtra a los vecinos se suma a lo movido. Sumado, supera el tope. Superado, el proceso se detiene.
+
+　Nagoshi buscó el punto donde empujar.
+
+　De los cuatro fragmentos del racimo, uno debía bajarse. Pero los cuatro están unidos por la raíz y no hay sitio donde empujarlos por separado. La resolución de la máquina había sido correcta.
+
+　Correcta, pero eso no significa que no haya donde empujar.
+
+　Nagoshi apoyó un dedo algo apartado del borde del fragmento. En vez de empujar directamente, llevó una presión floja desde donde la densidad circundante era baja. Los cuatro se hundieron ligeramente y después tres volvieron. El que no volvió era el que debía bajarse.
+
+　—Carga afectiva, de 0,81 a 0,77 —leyó el Corrector—. Variación en los fragmentos contiguos, 0,006 en total. Dentro del valor reglamentario.
+
+　—Una noche, entonces.
+
+　—Una noche.
+
+
+III
+
+　Esta mano Nagoshi no puede explicársela a nadie.
+
+　Se lo han pedido muchas veces. Hubo una época en que venían técnicos jóvenes a mirar, y el procedimiento se grabó para el entrenamiento de la máquina. Las grabaciones deberían seguir ahí.
+
+　Están, y no se han reproducido.
+
+　—Una pregunta —dijo Nagoshi—. ¿Qué fue del modelo entrenado con mi procedimiento?
+
+　—Se retiró del servicio hace tres años —dijo el Corrector.
+
+　—¿Por qué motivo?
+
+　—Porque la tasa de reproducción cayó por debajo del cuarenta por ciento.
+
+　—Cuarenta.
+
+　—En el sesenta por ciento de entradas idénticas no se eligió la misma operación —dijo el Corrector—. Sus operaciones difieren cada vez, incluso en fragmentos de la misma forma.
+
+　Nagoshi rio un poco.
+
+　Puede ser la misma forma; no es la misma persona. La misma persona, y el sueño de esa noche es otro. Así que difiere cada vez. Bastante evidente. A lo evidente la máquina lo llama tasa de reproducción baja.
+
+　No es que Nagoshi tuviera argumentos.
+
+　Elegir cada vez una operación distinta significa que tampoco Nagoshi sabe cuál era la correcta. Cuarenta años, y los recuerdos de que salió bien son los más numerosos. De los casos que no salieron bien no suele acordarse. Las personas están hechas así.
+
+　De lo que él no se acuerda se acuerda la máquina. Todas las operaciones de Nagoshi en cuarenta años están en los registros, y los fracasos están ahí con la misma resolución.
+
+　Así que la máquina valora el cuarenta por ciento de Nagoshi con más exactitud que el propio Nagoshi.
+
+
+IV
+
+　Pasado el mediodía vino un funcionario joven.
+
+　De veintitantos, de la Sección de Planificación Operativa. En la tarjeta ponía: Impulso de la Automatización.
+
+　—¿Tendría un momento para hablar de la situación tras su jubilación?
+
+　—Un traspaso, entonces.
+
+　—Traspaso, en cierto modo. —Parecía costarle—. La Tercera Sala de Edición se cerrará al final del próximo ejercicio.
+
+　—Ya veo.
+
+　—Para el 1,6 por ciento de casos, la previsión es absorberlos relajando el umbral de la tramitación automática.
+
+　Nagoshi levantó la vista del terminal.
+
+　—Relajar significa subir el valor reglamentario del arrastre.
+
+　—Sí. Del 0,01 actual a 0,03.
+
+　—El triple.
+
+　—El triple. —Sacó sus papeles—. Según la proyección, eso lleva más del noventa por ciento del 1,6 por ciento a la resolución automática de cierre.
+
+　Nagoshi tomó los papeles y siguió las cifras. La proyección era sólida. Triplicando el umbral, la máquina apenas se detendrá.
+
+　—¿Y el diez por ciento restante?
+
+　—Se seguirán deteniendo, y en ese caso los tramitamos con más repartos —dijo él—. Lo que no cabe en una noche lo compensamos con noches.
+
+　—Los vecinos no se mueven.
+
+　—Se mueven. Hasta 0,03.
+
+　—¿De dónde sale la cifra 0,03?
+
+　—Del triple del valor actual —respondió él. No había mala intención en cómo lo dijo. De hecho, probablemente no la hay.
+
+　—¿Sobre qué base el triple?
+
+　—Es el valor que absorbe el noventa por ciento del 1,6 por ciento. —Abrió otra página—. Al doble solo se absorbe el sesenta por ciento. Al cuádruple, la comisión clínica pone objeciones.
+
+　—¿Y el triple pasó la comisión?
+
+　—Pasó. 0,03 está dentro de la media tinta, así que queda rastro. La posición de la comisión es que todo lo que esté dentro del margen en que queda rastro es seguro.
+
+　La formulación se le quedó enganchada a Nagoshi.
+
+　Dentro del margen en que queda rastro es seguro. El orden está invertido respecto a lo que decía su instructor hace cuarenta años. El instructor decía que el tope existe para dejar rastro. Ahora dicen que, por estar dentro del tope, queda rastro.
+
+　Suena a lo mismo y no lo es. Lo primero hace del rastro el fin; lo segundo hace del tope la justificación.
+
+　Nagoshi no se vio capaz de explicar la diferencia, así que calló.
+
+
+V
+
+　Aquella noche Nagoshi repasó los registros de los casos que había tocado.
+
+　Cuarenta años de ellos. En número, más de veinte mil.
+
+　Hizo contar en cuántos la variación de un fragmento contiguo superó 0,01.
+
+　—Treinta y siete —dijo el Corrector.
+
+　—¿Y por encima de 0,03?
+
+　—Ninguno.
+
+　Nagoshi miró la cifra un rato.
+
+　Treinta y siete en cuarenta años. De los treinta y siete por encima de 0,01, solo cuatro pasan de 0,02. Es decir, la mano de Nagoshi lleva cuarenta años moviéndose dentro del valor actual de la máquina.
+
+　El umbral nuevo es 0,03. Un valor que Nagoshi no superó ni una vez en cuarenta años lo usará la máquina de forma rutinaria desde el año que viene.
+
+　—¿Qué le hacen a un paciente 0,03 de variación contigua?
+
+　—La carga afectiva del fragmento contiguo baja 0,03 —dijo el Corrector.
+
+　—Eso lo sé. Pregunto qué le hacen.
+
+　—Ese punto no se registra.
+
+
+VI
+
+　A la semana siguiente Nagoshi presentó un escrito.
+
+　No se oponía a la relajación. Sabía que oponerse no lleva a nada. Lo que escribió fue un solo punto: que la variación en fragmentos contiguos siguiera registrándose tras la relajación.
+
+　Actualmente, la variación contigua solo se registra cuando supera el valor reglamentario. Por debajo no se registra nada. Triplicado el umbral, la mayor parte de lo que hasta ahora se registraba pasa a la zona en que no se registra.
+
+　La variación no desaparece. Desaparece el registro.
+
+　La respuesta llegó dos semanas después.
+
+　— Se aplaza por ahora la incorporación de nuevos puntos de registro, atendiendo al coste de las modificaciones del sistema. Asimismo, se considera que la variación dentro del valor reglamentario no presenta problema clínico, por lo que se juzga baja la necesidad de registrarla.
+
+　Nagoshi leyó la segunda línea varias veces.
+
+　Se considera que no presenta problema. Quién lo consideró así no está escrito. El estudio en que se apoya el juicio no se cita. Simplemente se considera.
+
+　Hace cuarenta años, en la formación de Nagoshi, su instructor dijo esto: el tope no es un límite de la técnica, está para mantenernos dentro del margen en que queda rastro. Mientras queda rastro, una persona puede dudar de que le hayan tocado la memoria.
+
+　Triplicado el umbral, ese razonamiento no cambia. 0,03 sigue dentro de la media tinta. El rastro queda.
+
+　Queda, y no se registra. Para dudar hace falta primero un motivo para dudar. Si en los registros no aparece nada que sirva de motivo, no hay de qué dudar.
+
+
+VII
+
+　Tres meses antes de la jubilación, Nagoshi recibió a su último visitante.
+
+　Era el funcionario joven de Planificación Operativa. Había pedido ver la mano de Nagoshi una vez. No por indicación de arriba, dijo, sino porque quería.
+
+　Nagoshi eligió un caso con un racimo denso.
+
+　—Mirando no va a aprender nada.
+
+　—No importa.
+
+　Nagoshi apoyó el dedo. Algo apartado del borde del fragmento. No directamente, una presión floja desde donde la densidad circundante era baja. Los cuatro se hundieron ligeramente y tres volvieron.
+
+　—Han vuelto —dijo el funcionario.
+
+　—Han vuelto.
+
+　—¿Por qué vuelven solo tres?
+
+　—No lo sé —dijo Nagoshi—. Cuarenta años, y no lo sé.
+
+　El funcionario calló.
+
+　—La máquina no hace nada de lo que no pueda dar razón —continuó Nagoshi—. Yo he seguido haciéndolo sin la razón. No es cuestión de cuál es lo correcto.
+
+　—¿De qué es cuestión entonces?
+
+　Nagoshi lo pensó un momento.
+
+　—De que sobra algo.
+
+　—Sobra.
+
+　—Hay una cantidad fijada que se puede empujar, y yo siempre he trabajado dentro de ella. En cuarenta años toqué la norma treinta y siete veces —dijo Nagoshi—. La parte que no toqué sobra. Desde el año que viene usarán lo que sobra.
+
+　—Si puede usarse, mejor usarlo, ¿no?
+
+　—Ya —concedió Nagoshi—. Tampoco digo que lo que sobra sea bueno. Solo que no sobra. Es el hueco.
+
+　La cara del funcionario decía que no seguía. Tampoco a Nagoshi le pareció haberlo dicho bien.
+
+　—¿El hueco entre qué? —preguntó el funcionario.
+
+　—Entre el tope hasta el que se puede empujar y lo que de hecho se empuja —dijo Nagoshi—. Como está vacío, uno puede vacilar dentro. Hasta dónde empujar lo decide uno mismo, cada vez.
+
+　—Si se puede empujar hasta el tope, no hace falta vacilar.
+
+　—Exacto —dijo Nagoshi—. Por eso la máquina no vacila. No vacilar es más rápido, y en conjunto probablemente sea lo correcto.
+
+　—¿Usted cree que es mejor vacilar, señor Nagoshi?
+
+　Nagoshi no respondió durante un rato.
+
+　—No —dijo Nagoshi—. Cuarenta años vacilando, y no tengo una sola prueba de que la vacilación sirviera de algo a un paciente. Hay un registro de treinta y siete. Eso no es prueba de que fuera hábil. Es un registro de treinta y siete veces que toqué la norma.
+
+　—¿Entonces no queda nada?
+
+　—Nada —dijo Nagoshi—. Por eso que usted haya venido hoy significa probablemente más.
+
+　El funcionario no dijo nada a eso.
+
+
+VIII
+
+　El día en que Nagoshi dejó la Oficina, el rótulo de la Tercera Sala de Edición se retiró esa misma semana.
+
+　El grado de automatización llegó al 99,8 por ciento al ejercicio siguiente. El 0,2 por ciento restante son casos que la máquina ha dejado en suspenso, y en suspenso se acumulan en la cola.
+
+　El umbral se relajó a 0,03. La variación en fragmentos contiguos no se registra hasta 0,03.
+
+　Las variaciones que Nagoshi dejó en el registro treinta y siete veces en cuarenta años siguen ahí. En cuarenta años de registros, solo esas treinta y siete muestran que un vecino se movió.
+
+　En los registros posteriores no hay ni un solo rastro de un vecino que se mueva.
+
+　No porque ninguno se moviera.

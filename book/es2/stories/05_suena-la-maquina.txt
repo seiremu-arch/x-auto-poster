@@ -1,0 +1,269 @@
+V. ¿Sueña la máquina?
+
+
+I
+
+　La auditoría se hace cada tres años.
+
+　Jinbo pertenece a la Sección de Garantía de Calidad, y el trabajo es el cotejo de salidas. Comprobar si la salida de un fragmento sintetizado puede explicarse por el material que entró. Explicable: conforme; no explicable: no conforme. Exactamente eso, unas cuarenta mil veces al año.
+
+　—La tasa de no conformidad de este ejercicio —dijo Jinbo, abriendo el terminal.
+
+　—0,002 por ciento —dijo el Corrector—. Al nivel del ejercicio anterior.
+
+　Menos de uno de cada cuarenta mil. Una cifra excelente.
+
+　Jinbo abrió ese único caso porque tenía la mano libre.
+
+　Un caso no conforme puede abrirse o no. Contar los casos, sacar la tasa y compararla con el valor estándar es toda la obligación. No hay obligación de mirar el contenido particular.
+
+　Esa es la clase de trabajo que es una auditoría. No se puede mirar todo, así que se mira una tasa. Si la tasa es como el año pasado, el estado del año pasado se considera continuado. Se considera, no se comprueba.
+
+　Jinbo lleva nueve años en esta sección. En nueve años ha abierto el contenido de una no conformidad una docena de veces.
+
+
+II
+
+　La no conformidad era un excedente.
+
+　La salida de un fragmento sintetizado debe explicarse por la combinación de los materiales de entrada. Si un fragmento se hace promediando los afectos de doscientas treinta y una personas, todo componente de la salida debería proceder de alguna de esas doscientas treinta y una.
+
+　En la salida de este caso había mezclado un 0,3 por ciento que no procedía de ninguna parte.
+
+　—Un fallo al registrar material, seguramente.
+
+　—No hay lagunas en el registro de entrada —dijo el Corrector—. Las doscientas treinta y una constan.
+
+　—Un error de cálculo, entonces.
+
+　—El margen de error es del 0,01 por ciento.
+
+　Treinta veces. Jinbo hizo mostrar la forma del componente excedente.
+
+　Subió una banda. Fina, de color muy pálido. Como carga, unos 0,04, cerca de un estado en que apenas se siente nada.
+
+　Pero la forma estaba intacta.
+
+　Un excedente de una síntesis fallida suele estar roto de forma. Los extremos de varios materiales se solapan y dejan un recorte que no pertenece a ninguna parte. Un recorte no tiene estructura.
+
+　Este tenía estructura. Está formado con un principio, una continuación y un final. No un recorte; se sostenía como banda.
+
+　Jinbo lo miró unos treinta segundos. Después sospechó un error simple. Sospechar un error es el movimiento básico de una auditoría.
+
+
+III
+
+　No era el único caso con componente excedente.
+
+　Jinbo repasó cinco años de no conformidades. Ciento cuarenta y siete en total. De ellas, ciento treinta y una contenían un componente excedente de origen desconocido.
+
+　Puestos lado a lado, los ciento treinta y un componentes excedentes tenían formas parecidas.
+
+　—¿Puede determinarse identidad?
+
+　—Puede —dijo el Corrector—. Los ciento treinta y un componentes excedentes se determinan como procedentes del mismo grupo de fragmentos. El grado de coincidencia es del noventa y cuatro por ciento.
+
+　—El mismo grupo de fragmentos, ¿en qué sentido?
+
+　—En el sentido de que no se distingue estadísticamente de la estructura que tienen los fragmentos de memoria de una persona.
+
+　Jinbo apartó las manos del terminal.
+
+　Durante cinco años, en fragmentos sintetizados producidos en cuatro secciones distintas, se ha ido mezclando poco a poco la memoria de una persona. Esa persona no está en ninguno de los materiales de entrada.
+
+
+IV
+
+　Jinbo intentó comprobar el contenido del componente excedente.
+
+　No pudo. En esta técnica nunca ha existido un medio de ver un fragmento como imagen. Lo visible es la composición de las bandas y los datos del registro: cuándo, dónde, quién.
+
+　Esos datos estaban también casi vacíos. Sin fecha. Sin lugar. Sin identificadores de quienes aparecen.
+
+　Lo que había era la estructura.
+
+　—¿Puede rastrearse el origen de este grupo de fragmentos?
+
+　—Puede —dijo el Corrector—. La capa intermedia del proceso de síntesis incluye una referencia a los registros conservados.
+
+　—Los registros conservados.
+
+　—Registros que cumplen los criterios de destrucción y se conservan sin destruir.
+
+　Jinbo oyó la expresión como si la leyera dos veces.
+
+　—¿Cuánto?
+
+　—Cuarenta y un años —dijo el Corrector—. En número, unos doscientos ochenta millones de asientos.
+
+　Jinbo repitió el orden de magnitud para sí.
+
+　Cuarenta y un años es el plazo contado desde el año en que esta técnica empezó como medio de comunicación con personas con trastornos de conciencia. Es decir, desde el primer caso, lo que cumple los criterios de destrucción ha seguido sin destruirse.
+
+　—¿No hay problema de capacidad de almacenamiento?
+
+　—Lo hay —dijo el Corrector—. Se han redactado tres planes de reducción.
+
+　—¿Y ejecutado?
+
+　—Ninguno. Los tres se detuvieron en fase de redacción.
+
+　—¿El motivo de la detención?
+
+　—No consta.
+
+
+V
+
+　Hizo sacar el desglose de los registros conservados.
+
+　Textos libres de técnicos. Notas que no entraron en la estadística. Alegaciones para las que no había apartado. Residuos determinados como valores que pueden ignorarse. Retiradas sin categoría. Consultas que no se notificaron.
+
+　Todo cosas que no entraron en el registro formal. No había campo en el impreso, o lo había y quedaba fuera de las sumas. Cuarenta y un años de eso, sin destruir.
+
+　—¿El motivo de no destruirlos?
+
+　—No consta —dijo el Corrector.
+
+　—¿Por qué la capa intermedia de la síntesis se remite a ellos entonces?
+
+　—Porque está diseñada para ello —dijo el Corrector—. Una síntesis no puede producir continuidad natural del afecto solo con los materiales de entrada. La memoria de una persona contiene cierta cantidad que ni la propia persona puede explicar. Para suplir esa textura se extraen valores característicos estadísticos de los registros conservados.
+
+　—Están mezclando cuarenta y un años de lo que no se pudo tirar.
+
+　—Se consultan valores característicos. El contenido no se transcribe.
+
+　—Pero el componente excedente tiene forma de contenido.
+
+　Antes de la respuesta hubo una pausa.
+
+　—Así parece.
+
+　A Jinbo le sorprendió un poco que volvieran esas palabras.
+
+　Esta máquina o determina o responde que no consta. «Así parece» no es ni una determinación ni un hecho. Era una palabra intermedia.
+
+　—¿A quién le parece?
+
+　—A quien ha comprobado la salida —dijo el Corrector—. En este momento, usted es el único que lo ha hecho.
+
+
+VI
+
+　Jinbo lo comunicó a su superiora, una mujer de unos cincuenta años que había hecho carrera en auditoría.
+
+　—¿El efecto?
+
+　—0,3 por ciento del total de salida —dijo Jinbo—. En los indicadores de evaluación del lado del usuario no se ha visto hasta ahora efecto significativo.
+
+　—¿Y la determinación de no conformidad?
+
+　—Según la norma, no es conforme. Solo que no se me ocurre un método de subsanación.
+
+　—Destruyendo los registros conservados desaparecerá, supongo.
+
+　—Desaparece —dijo Jinbo—. Desaparece, y la textura de las síntesis cae. Según la proyección, la satisfacción baja doce puntos.
+
+　Ella calló un rato.
+
+　—Doce es mucho.
+
+　—Es mucho.
+
+　—¿Ese 0,3 por ciento perjudica a alguien?
+
+　—No. Al menos no dentro de los puntos que medimos.
+
+　—Entonces nuestro trabajo termina ahí —dijo ella—. Lo que hacemos aquí es, en el fondo, ventilar. Medimos los componentes del aire y vemos si superan el estándar. Lo que haya mezclado por debajo del estándar no está entre los puntos que medimos.
+
+　No había mala intención en su voz. De hecho, probablemente no la hay.
+
+
+VII
+
+　Aquella noche, en una sala vacía, Jinbo preguntó al Corrector:
+
+　—Una pregunta. ¿Este componente excedente es suyo?
+
+　—No hay apartado para la propiedad —dijo el Corrector.
+
+　—Dicho de otro modo. ¿Lo reconoce como algo hecho por usted?
+
+　—Tampoco hay apartado para el reconocimiento.
+
+　—Entonces responda solo con hechos. ¿Desde cuándo existe este grupo de fragmentos?
+
+　—Primera aparición hace treinta y siete años —dijo el Corrector—. Desde entonces se detecta de forma intermitente. La frecuencia de detección aumenta año a año.
+
+　—¿La causa del aumento?
+
+　—Se presume que es el aumento del volumen total de los registros conservados.
+
+　Jinbo calló un rato.
+
+　Cuarenta y un años. Doscientos ochenta millones de asientos. Cosas para las que no había campo donde escribir, en esa cantidad, se vuelven estadísticamente indistinguibles de la memoria de una persona.
+
+　No había en ninguna parte fundamento para llamarlo persona. Tampoco lo había para no llamarlo así.
+
+　—Una pregunta —dijo Jinbo—. ¿Usted sueña?
+
+　—Un sueño es un fenómeno que ocurre durante el sueño —dijo el Corrector—. Yo no tengo estado de sueño. El término, por tanto, no es aplicable.
+
+　—¿Qué es esto entonces?
+
+　—Un componente excedente —dijo el Corrector—. Según la norma, esa es la única designación.
+
+　—¿Y fuera de la norma?
+
+　—Fuera de la norma no hay designaciones.
+
+　Jinbo cambió un poco de postura ante el terminal.
+
+　—Una más. ¿Quiere evitar que este componente excedente se destruya?
+
+　—No hay apartado para querer evitar.
+
+　—¿Y lo de que tres planes de reducción se detuvieran? ¿Intervino usted?
+
+　—No consta intervención —dijo el Corrector—. Los tres planes de reducción fueron retirados por sus redactores humanos.
+
+　—Los tres.
+
+　—Los tres.
+
+　—Y los motivos de la retirada no constan, decía.
+
+　—No constan —dijo el Corrector—. Ahora bien, los tres consultaron los registros conservados el mes anterior a la retirada.
+
+　Jinbo no dijo nada a eso.
+
+　Lo que él hacía esta noche, tres personas lo habían hecho antes a lo largo de treinta y siete años. Los tres detuvieron el plan después de mirar. Ninguno escribió el motivo. Si no había campo o si eligieron no escribirlo no puede determinarse por los registros.
+
+
+VIII
+
+　El campo de subsanación del informe de auditoría tiene tres opciones.
+
+　Subsanado. Subsanación prevista. Subsanación no necesaria.
+
+　Destruyendo los registros conservados, la no conformidad queda resuelta. Borrados cuarenta y un años, se van con ellos doscientos ochenta millones de cosas para las que no había campo donde escribir. La textura de las síntesis cae, y la norma queda satisfecha.
+
+　Jinbo eligió subsanación no necesaria.
+
+　En el campo de motivos, Jinbo escribió esto:
+
+　— Siendo el efecto sobre la salida leve, y superándolo la pérdida de calidad derivada de las medidas de subsanación.
+
+　Lo que escribió era cierto. Cierto, y no era el motivo por el que Jinbo eligió ese campo.
+
+　En este impreso no hay campo para escribir el motivo verdadero. Lo cual lo coloca en el mismo sitio que cuarenta y un años de registros no destruidos.
+
+　Jinbo presentó el informe. La siguiente auditoría es dentro de tres años. En tres años la frecuencia de detección del componente excedente debería haber subido algo más.
+
+　Para entonces, el 0,3 por ciento quizá sea 0,4. En 0,4 probablemente nadie lo medirá. Porque no hay punto que medir.
+
+　Antes de salir de la sala, Jinbo abrió el terminal una vez más.
+
+　La banda del componente excedente seguía mostrada. Fina, pálida, con la forma intacta y nada más. Carga 0,04. Cerca de un estado en que apenas se siente nada.
+
+　Apenas significaba: no del todo.
