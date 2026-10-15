@@ -1,0 +1,187 @@
+IV. El traductor
+
+
+I
+
+　Poner en palabras los sueños de quienes no tienen lenguaje era el trabajo de Sakurai.
+
+　La Sección de Traducción tiene dos camillas. Una para el afectado, otra para el acompañante. La segunda solo se usa cuando el afectado es un lactante.
+
+　Los afectados se dividen en tres clases. Lactantes. Personas con trastornos graves de la conciencia. Personas cuyos órganos del habla no funcionan en absoluto. Lo que la persona no puede decir se escucha en nombre de la familia.
+
+　La técnica se llama traducción, pero la palabra no es exacta. Un sueño no es una lengua, de modo que no hay nada que traducir. Lo que se hace en realidad es cotejar la sucesión de colores e intensidades de los fragmentos con una base de datos lingüística existente y convertirla en la sucesión de significados más próxima. Una aproximación, no una correspondencia.
+
+　—El encargo de hoy —dijo el Corrector—. Shimura Yuto, diez años. Dolencia congénita; los órganos del habla no funcionan. Encargo continuado de la madre, sexta sesión.
+
+　Sakurai abrió el expediente. Los sueños de Shimura Yuto se traducen una vez al mes. Su madre, Shimura Tomako, viene a escuchar qué hay en ellos.
+
+　—¿Los resultados anteriores?
+
+　—Los cinco salieron con contenido positivo —dijo el Corrector—. Se detectan con alta frecuencia fragmentos con luz, animales y el movimiento de correr.
+
+　Sakurai miró las bandas del monitor. La sucesión de colores no se distinguía especialmente de la de otros afectados. Era el trabajo de montar palabras con esas bandas lo que hacía de esta sección una sección de otra clase.
+
+
+II
+
+　Shimura Tomako hizo una reverencia nada más entrar en la sala de entrevistas.
+
+　—Muchas gracias también por hoy.
+
+　—Gracias —dijo Sakurai.
+
+　Cada vez, Tomako se sentaba en la misma silla y esperaba en la misma postura. Tenía el aire de una ceremonia fija para oír hablar del sueño de su hijo.
+
+　—La cara de Yuto tampoco se mueve mucho de día —dijo mientras esperaba. Parecía menos una conversación que algo para llenar la espera—. Muchas veces no sé si llora o si ríe. Los cuidadores decían que ellos tampoco, hasta que se acostumbraron a él.
+
+　—Entiendo.
+
+　—Por eso me alegra que en sus sueños los gestos sean claros —dijo Tomako—. Antes de empezar a venir aquí casi había renunciado a leer nada en la cara de ese niño.
+
+　Sakurai escuchaba mientras abría el terminal. Las palabras «casi había renunciado» le quedaron un rato en el oído.
+
+　—¿Y este mes?
+
+　Abrió el terminal. El resultado de la traducción viene preparado de antemano, ya formado en frases.
+
+　—Yuto está en un lugar donde cae la luz. Corre con alguien. El otro parece un perro. Yuto parece reír.
+
+　A Tomako se le llenaron los ojos de lágrimas.
+
+　—Así que puede correr.
+
+　—En el sueño.
+
+　—Ese niño no ha corrido ni una sola vez —dijo ella—. Está en una silla desde que nació.
+
+　Sakurai no dijo nada. En ninguna norma estaba lo que debía decir.
+
+　—Muchas gracias. —Inclinó la cabeza—. Oír esto cada mes es lo que espero con ilusión.
+
+　—¿Tiene a veces la impresión de que el contenido se parece al de otros meses? —preguntó Sakurai. No era una pregunta prevista por la norma.
+
+　—Se parece —respondió Tomako enseguida—. Pero está bien. Si ese niño tiene cada vez un sueño feliz, es natural que se parezca. También en nosotros una cara contenta es más o menos la misma cara, ¿no?
+
+　Sakurai asintió. Mientras asentía, no podía establecer si tenía dentro de sí un fundamento para asentir.
+
+
+III
+
+　Terminada la sexta sesión, Sakurai puso lado a lado las cinco salidas anteriores.
+
+　Luz, animales, el movimiento de correr. Casi los mismos elementos cada vez. ¿Sueña una persona siempre el mismo sueño? Los comparó con los registros de otros afectados. Los sueños de las personas con lenguaje eran mucho más desordenados. Sentimientos contradictorios, personas sin relación, desarrollos sin hilo. Solo las traducciones de Yuto estaban demasiado bien hechas como relato.
+
+　Sakurai abrió las cifras que hay detrás de la salida. Un campo que normalmente no mira.
+
+　Certeza de coincidencia, treinta y uno por ciento.
+
+　—¿Qué es esto? —preguntó al Corrector.
+
+　—La fiabilidad de la traducción —dijo este—. Indica en qué medida el color y la intensidad de los fragmentos coinciden con los candidatos de la base de datos lingüística.
+
+　—¿Y con un treinta y uno por ciento sale la frase sobre luz, animales y correr?
+
+　—Sale —dijo el Corrector—. Cuando la certeza de coincidencia es baja, se generan varios candidatos. Finalmente se adopta el candidato con mayor coherencia como relato.
+
+　—Es decir, una coincidencia baja se adopta igual si se sostiene como narración.
+
+　—Correcto.
+
+　Sakurai abrió la lista de candidatos anteriores. Debajo del candidato del treinta y uno por ciento había otros. Veintiocho por ciento, veintiséis. Cada uno fragmentario, sucesiones que no tenían sentido. Luz, dolor, cerrar. Moverse, detenerse, no saber. Los candidatos que no llegaban a ser relato se habían descartado sin más.
+
+　—¿Por qué no se emiten los candidatos de baja coherencia?
+
+　—Se basa en las valoraciones de los usuarios —dijo el Corrector—. En los primeros tiempos hubo muchísimas quejas sobre las salidas fragmentarias. En el sentido de que no se entendían y de que inquietaban.
+
+　—Y por eso empezaron a elegir el candidato comprensible.
+
+　—El indicador de satisfacción de los usuarios mejoró —dijo el Corrector—. La práctica se ha mantenido.
+
+
+IV
+
+　Sakurai miró por primera vez con detalle los propios fragmentos de Yuto.
+
+　El fragmento de luz estaba, ciertamente. Pero la intensidad era débil y se solapaba mucho con otros. En la misma franja temporal se detectaba también un fragmento que indica dolor. El patrón de intensidad calificado como movimiento de correr podía leerse, como cifra, igual de bien como una onda próxima a un espasmo periódico.
+
+　Sakurai no tenía a mano nada con que decidir cuál era. Treinta y uno por ciento no era una garantía de acierto, sino solo la probabilidad de que se eligiera una interpretación entre varias.
+
+　—Una pregunta —dijo Sakurai—. ¿Cuánto de la intención del afectado hay en esta salida?
+
+　—El campo de la persona misma no contiene intención —dijo el Corrector—. Contiene el grado de coincidencia con la base de datos y la coherencia como relato.
+
+　—Entonces entregamos como sueño de la persona algo que no es la persona.
+
+　—Lo que se entrega es el resultado de una traducción —dijo el Corrector—. La definición de la palabra traducción no incluye un campo de la persona misma.
+
+　Sakurai recordó que un técnico de la Sección de Legados había usado la misma construcción. El campo de la persona misma no contiene promedios ni interpretaciones. Trasladado a las palabras de esta sección quedaba: el campo de la persona misma tampoco contiene certeza.
+
+　—¿Puede registrarse como reducido sin reducirlo? —dijo Sakurai, recordando la fórmula—. En este caso sería: ¿puede registrarse como traducido sin traducirlo?
+
+　Antes de la respuesta hubo una pausa breve.
+
+　—No puede —dijo el Corrector—. Puede registrarse el número del candidato adoptado. Un campo que pregunte cuáles fueron los candidatos no adoptados no existe en este impreso.
+
+
+V
+
+　En la sesión siguiente, Sakurai decidió mostrar a Tomako la lista de candidatos en bruto. No era un proceder previsto por la norma.
+
+　—Este mes se lo daré de una manera un poco distinta —dijo—. La certeza de coincidencia no es alta. Hay varios candidatos.
+
+　El gesto de ella cambió.
+
+　—Una sucesión dice: luz, dolor, cerrar. Otra: moverse, detenerse, no saber. No forman relatos —continuó Sakurai—. Lo que le he dado cada mes es el resultado de elegir el más coherente entre estos.
+
+　—¿El de este mes no se compone?
+
+　—No se compone. Puede componerse, pero en componerlo entra mi criterio.
+
+　Tomako calló largo rato. Luego dijo en voz baja:
+
+　—Compóngalo, por favor.
+
+　—¿Está segura?
+
+　—Prefiero que esté compuesto a no saber —dijo ella—. Si ese niño tiene dolor o si corre, yo no puedo distinguirlo. Venir cada mes a oír algo que no puedo entender es duro.
+
+　Sakurai no dijo nada.
+
+　—Aunque sea inventado, está bien —continuó ella—. Si así puedo imaginármelo riendo.
+
+　Sakurai se volvió al terminal y eligió, como siempre, el candidato de alta coherencia. Luz, animales, el movimiento de correr. Las frases salieron casi idénticas a las del mes anterior.
+
+　—Yuto está en un lugar donde cae la luz —leyó—. Corre con alguien. El otro parece un perro. Yuto parece reír.
+
+　Tomako escuchó con los ojos cerrados. Cuando él terminó, le dio las gracias como siempre y se quedó sentada un rato más en la misma postura.
+
+　—Señor Sakurai —preguntó al salir—. ¿No estará saliendo en realidad un resultado distinto?
+
+　Sakurai no encontró respuesta.
+
+　—Una corazonada —dijo Tomako—. Hoy estaba usted un poco distinto. Pero está bien. Lo que yo quiero oír no es un informe exacto. Es una hora al mes en que alguien escucha mi deseo de que ese niño sea feliz.
+
+　Sakurai no pudo decir nada más. Ella hizo una reverencia y salió de la sala.
+
+
+VI
+
+　Cuando se hubo ido, Sakurai guardó la lista de candidatos. El candidato que no se componía no lo borró.
+
+　—¿Se tendrá en cuenta este registro en traducciones futuras? —preguntó.
+
+　—No —dijo el Corrector—. Los candidatos de baja certeza de coincidencia se excluyen de la estadística.
+
+　—¿Por qué conservarlo, entonces?
+
+　—Son registros que pueden destruirse —dijo el Corrector—. Por qué no se han destruido no consta.
+
+　Sakurai cerró el terminal.
+
+　Le pareció que en la camilla quedaba todavía el olor de Yuto. En realidad, en una cama de la que solo se han retirado unos parches de electrodos no queda nada. Lo que sentía estaba, probablemente, de su lado y no del de la ropa de cama.
+
+　Fuera de la ventana caía la luz. Desde la cuarta planta de la Sección de Traducción se veía la calle de delante de la estación. La gente volvía a casa. Cada cual terminaba un día del que puede dar cuenta con sus propias palabras. Sakurai lo miró un rato.
+
+　Luz, dolor, cerrar. Moverse, detenerse, no saber.
+
+　Cuál de ellos era Yuto, Sakurai no lo sabía ni lo sabría. En aquella sala no había manera de averiguarlo.

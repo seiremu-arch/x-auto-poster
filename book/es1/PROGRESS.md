@@ -14,8 +14,8 @@ decide allí antes de usarse. Compilar con `python3 book/tools/build_epub.py es1
 | # | Japonés | Español | Origen | Palabras | Estado |
 |---|---|---|---|---|---|
 | I | 半色 | Media tinta | 4.997 | 2.394 | **hecho** |
-| II | 忘却の順番待ち | La lista de espera del olvido | 4.540 | — | pendiente |
-| III | 夢の遺言 | El legado | 4.555 | — | pendiente |
+| II | 忘却の順番待ち | La lista de espera del olvido | 4.540 | 1.983 | **hecho** |
+| III | 夢の遺言 | El legado | 4.555 | 2.031 | **hecho** |
 | IV | 夢の翻訳者 | El traductor | 3.915 | — | pendiente |
 | V | 二人称の夢 | El sueño en segunda persona | 3.454 | — | pendiente |
 | VI | 夢税 | Impuesto sobre el sueño | 3.391 | — | pendiente |
