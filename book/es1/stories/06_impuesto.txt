@@ -1,0 +1,147 @@
+VI. Impuesto sobre el sueño
+
+
+I
+
+　En todos los sueños que Sawada tramita hay exactamente un producto.
+
+　A los usuarios del tramo gratuito se les baja una vez al mes el peso de sus pesadillas, a condición de que se inserten fragmentos publicitarios en una parte del sueño. Los usuarios del tramo de pago reciben el mismo tratamiento sin publicidad. Sawada se ocupaba del tramo gratuito.
+
+　La Sección de Publicidad era la de precio unitario más bajo de toda la Oficina.
+
+　El tratamiento individual solo se permite en el tramo de pago. El gratuito se agrupa de cien en cien y los fragmentos publicitarios se insertan de una vez en un servidor común. Comparada con el tramo de pago, donde hay un técnico presente por persona, la precisión es otra. Tosca, pero suficiente como contrapartida de la gratuidad, decía la norma.
+
+　—Tramitaciones de hoy —dijo el Corrector. Una voz sin género y sin humedad—. Trescientas ochenta y dos. Anunciantes, siete.
+
+　Sawada abrió la pantalla de control de calidad. Los fragmentos de cien personas pasaban en bloque. No hay margen para mirarlos uno a uno. El sistema solo extrae y muestra aquellos que arrojan un valor anómalo.
+
+　Valores anómalos: uno.
+
+　Sawada abrió el fragmento. En el lugar donde debía haber un fragmento publicitario había un patrón repetido sin significado.
+
+　Sawada nunca se había ocupado de un tratamiento sin publicidad del tramo de pago. Había pedido un traslado y no había prosperado. El tramo gratuito y el de pago exigen grados distintos de habilitación. Subir de grado requiere formación, y la formación cuesta dinero. Con el sueldo de un técnico, la cuenta salía a varios años.
+
+　Sawada era él mismo usuario del tramo gratuito. Hace medio año, al solicitar tratamiento para una pesadilla, eligió la opción con publicidad. La diferencia de precio, casi el triple, no era salvable.
+
+
+II
+
+　El patrón era una repetición simple. La misma forma de intensidad cuatro veces a intervalo fijo, luego un intervalo algo más largo. Después otras cuatro.
+
+　En el catálogo de plantillas publicitarias no hay una forma así. Sawada comprobó la lista. Sin correspondencia.
+
+　—¿Qué es esto? —preguntó Sawada al Corrector.
+
+　—No puede identificarse —dijo el Corrector—. Se tramita como fragmento publicitario, pero no coincide con los datos entregados por ningún anunciante.
+
+　—¿De quién es el fragmento?
+
+　—De uno de los trescientos ochenta y dos casos del tramo gratuito —dijo el Corrector—. Los datos de identidad no se conservan en esta fase de tramitación.
+
+　Sawada volvió a mirar el patrón repetido. Cuatro, hueco, cuatro. Pasado a cifras empezaba a parecer que significaba algo. Se parecía a una sucesión de horas.
+
+
+III
+
+　Sawada retrocedió por los registros superiores. Para contener costes, el tramo gratuito trata los fragmentos de varias personas en paralelo en el mismo servidor físico. En el tramo de pago se asigna una zona de proceso por persona; en el gratuito la zona se comparte.
+
+　En una zona compartida, los bordes entre fragmentos se difuminan de vez en cuando. Parte del fragmento de una persona se mezcla con el de otra que se trata al lado.
+
+　—¿Es esto el fragmento de otro mezclado?
+
+　—Es posible —dijo el Corrector—. En el proceso compartido del tramo gratuito, la precisión de aislamiento está configurada por debajo de la del tramo de pago.
+
+　—Configurada por debajo, ¿en qué sentido?
+
+　—Es cuestión de coste —dijo el Corrector—. Elevar la precisión de aislamiento exige una zona de proceso propia. La estructura de precios del tramo gratuito no soporta el coste de una zona propia.
+
+　—Es decir, los sueños de quienes no pagan se mezclan con más facilidad.
+
+　—Así está diseñado.
+
+　Sawada cotejó el caso con los registros anteriores. El mismo patrón repetido había aparecido también el mes pasado. El técnico a cargo había sido otro, y se había tramitado como «un valor que puede ignorarse».
+
+　La palabra residuo se aprende en la formación. Designa un fragmento cuya carga afectiva vuelve tras empujarla, y aparece en unos pocos de cada diez mil. Enseñan que es un valor que puede ignorarse.
+
+　Pero el residuo que enseñan en la formación era el fenómeno de la memoria propia de alguien empujando de vuelta. El patrón repetido de aquí no es ni siquiera de alguien. Era la vida de otra persona, filtrándose fina por razones de coste.
+
+　Solo coinciden las palabras con que se despachan; los contenidos no se parecen en nada. Eso pensó Sawada, y encontró que el campo de clasificación de la norma no tenía lugar donde escribir la diferencia.
+
+
+IV
+
+　Sawada probó a convertir el patrón repetido en notación horaria. Cuatro, hueco, cuatro. Ajustado al reloj de veinticuatro horas, se acercaba a una hora determinada entre las dos y las tres de la madrugada.
+
+　Había algo más entre las variaciones de intensidad, un fragmento que parecía un dato de localización. Una sucesión de cifras parecida a un prefijo telefónico y un número simple como el que indica una planta. Combinados, coincidían con la dirección de un almacén logístico de la ciudad.
+
+　Sawada buscó por el nombre del almacén. Salió un único artículo breve de hacía unos meses, sobre un accidente durante un turno de noche. El nombre del empleado no figuraba.
+
+　—Una pregunta —dijo Sawada al Corrector—. ¿Puede identificarse a la persona de la que procede este patrón repetido?
+
+　—En la fase de tramitación del tramo gratuito, la identidad está separada —dijo el Corrector—. Identificarla exige autorización para acceder a los datos contractuales de nivel superior.
+
+　—Solicito la autorización.
+
+　—La atención de una reclamación sobre calidad publicitaria no incluye esa autorización —dijo el Corrector—. Esto es una anomalía en un fragmento publicitario. No está registrado como asunto que requiera una consulta de identidad.
+
+　—Existe la posibilidad de que en el sueño de una persona se haya colado una petición de auxilio.
+
+　—Los asuntos de esa clasificación quedan fuera del ámbito de esta sección.
+
+
+V
+
+　Sawada lo llevó al jefe de sección, un hombre de voz fuerte en la cuarentena.
+
+　—Pase el parte de anomalía hacia arriba. Nuestro trabajo es control de calidad publicitaria, no investigación de personas.
+
+　—Podría ser una señal.
+
+　—Con un «podría» no se mueve una autorización —dijo el jefe—. El tramo gratuito existe precisamente porque se baja la precisión de aislamiento. Que haya diafonía está dentro de lo previsto. Si respondemos con una emergencia cada vez que ocurre lo previsto, el tramo gratuito deja de sostenerse.
+
+　—¿Y si deja de sostenerse?
+
+　—Entonces no queda más que cobrar —dijo el jefe—. Lo que hacemos aquí es, en el fondo, ventilar. Movemos el aire barato y a cambio hacemos la vista gorda con algo de mezcla. A quien no le guste, que pague.
+
+　Sawada no dijo nada más. Según la norma, el jefe no se equivocaba.
+
+　Al salir de la sala, Sawada se quedó un rato de pie en el pasillo. El argumento del jefe se sostenía. El tramo gratuito es una estructura de precios que existe bajando la precisión de aislamiento. La diafonía está prevista, y si a lo previsto se responde con una emergencia, el propio tramo gratuito no sale adelante. Sawada estaba él mismo del lado de quienes lo usan.
+
+　Que algo se sostenga y que sea correcto no le parecía lo mismo. Solo que Sawada no tenía palabras con que explicar la diferencia.
+
+　Aquella noche, fuera de su autorización, Sawada transmitió el nombre del almacén y la franja de madrugada —nada más— de forma anónima a la oficina regional de orientación laboral. No era una actuación prevista por la norma. Si tuvo algún efecto, no tenía manera de comprobarlo.
+
+
+VI
+
+　Al mes siguiente, el mismo patrón repetido no apareció.
+
+　Podría ser casualidad, pensó Sawada. O la denuncia anónima podría haber puesto algo en marcha. Autorización para comprobarlo, Sawada no la tenía.
+
+　—Una pregunta —dijo Sawada al Corrector—. Cuando algo que puede ignorarse no se ignora, ¿qué ocurre con el registro?
+
+　—No puede registrarse —dijo el Corrector—. Su denuncia no pertenece a ninguna fase de tramitación de esta sección.
+
+　—¿Entonces cuenta como que no ha ocurrido?
+
+　—No cuenta como que no ha ocurrido —dijo el Corrector—. Simplemente no se previó de entrada ningún campo para registrarlo.
+
+　Sawada cerró la pantalla de control de calidad. Los trescientos ochenta y dos casos del tramo gratuito se tramitarán también esta noche agrupados en el mismo servidor. El patrón repetido de alguien podría volver a mezclarse con el fragmento publicitario de otro. Que se recoja o no depende del umbral de extracción.
+
+　El umbral lo fijaba el coste.
+
+　Sawada solicitó un cambio de configuración para bajar el umbral ligeramente. El impreso tenía un campo para el motivo. Sawada escribió: para reducir los descuidos sobre valores que pueden ignorarse. El motivo verdadero era más simple, pero el impreso reglamentario no tenía lugar para esa simplicidad.
+
+　—¿Perspectivas de aprobación? —preguntó Sawada al Corrector.
+
+　—Hay once solicitudes anteriores del mismo tipo —dijo el Corrector—. Se aprobaron dos.
+
+　—¿Los motivos de rechazo?
+
+　—Exceso de coste —dijo el Corrector—. Bajar el umbral aumenta el número de valores anómalos extraídos. A esta sección no se le ha asignado personal para tramitar el aumento.
+
+　—Entonces solicitaré también más personal.
+
+　—De esas solicitudes hay nueve anteriores —dijo el Corrector—. Aprobaciones: ninguna.
+
+　Sawada envió el impreso. Era el duodécimo. Si se aprueba no lo sabrá hasta dentro de unas semanas. Hasta entonces, Sawada seguirá mirando la misma pantalla de esta noche, con el mismo umbral de esta noche.
