@@ -38,7 +38,10 @@ jobs:
       - name: Review vault
         run: python scripts/loop.py review
 
+      # FTなど英語フィードの見出しを和訳する(Secretが無ければ原文のまま載る)
       - name: Generate site
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/generate_site.py
 
       - name: Commit and push if changed

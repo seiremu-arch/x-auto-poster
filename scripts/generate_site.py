@@ -9,6 +9,8 @@ from pathlib import Path
 
 import feedparser
 
+from translate import translate_articles
+
 ROOT = Path(__file__).resolve().parent.parent
 FEEDS_CONFIG = ROOT / "config" / "feeds.json"
 OUTPUT_HTML = ROOT / "docs" / "index.html"
@@ -19,7 +21,7 @@ MAX_ARTICLES_PER_FEED = 8
 REQUEST_TIMEOUT = 15
 USER_AGENT = "Mozilla/5.0 (compatible; BunkitenNewsBot/1.0; +https://github.com/)"
 
-CATEGORY_LABELS = {"fact": "事実", "opinion": "意見"}
+CATEGORY_LABELS = {"fact": "事実", "opinion": "意見", "world": "海外(和訳)"}
 
 
 def load_feeds():
@@ -61,6 +63,7 @@ def fetch_feed_articles(feed_config):
                     "summary": summary,
                     "published": published,
                     "source": feed_config["name"],
+                    "translate": bool(feed_config.get("translate")),
                 }
             )
     except Exception as exc:  # noqa: BLE001 - a broken feed must not stop the whole run
@@ -70,7 +73,7 @@ def fetch_feed_articles(feed_config):
 
 
 def collect_articles(feeds):
-    by_category = {"fact": [], "opinion": []}
+    by_category = {category: [] for category in CATEGORY_LABELS}
     errors = []
 
     for feed_config in feeds:
@@ -88,11 +91,22 @@ def collect_articles(feeds):
         )
         by_category[category] = articles[:MAX_ARTICLES_PER_CATEGORY]
 
+    # 英語フィード(feeds.json で "translate": true)は表示する分だけ和訳する
+    to_translate = [a for articles in by_category.values() for a in articles if a["translate"]]
+    translate_error = translate_articles(to_translate)
+    if translate_error:
+        errors.append(translate_error)
+
     return by_category, errors
 
 
 def render_article(article):
-    title = html.escape(article["title"])
+    title = html.escape(article.get("title_ja") or article["title"])
+    original = ""
+    if article.get("title_ja"):
+        original = f'\n        <div class="article-original" lang="en">{html.escape(article["title"])}</div>'
+    if article.get("summary_ja"):
+        original += f'\n        <p class="article-summary">{html.escape(article["summary_ja"])}</p>'
     link = html.escape(article["link"])
     source = html.escape(article["source"])
     if article["published"]:
@@ -102,7 +116,7 @@ def render_article(article):
         time_str = ""
     return f"""
       <li class="article">
-        <a class="article-title" href="{link}" target="_blank" rel="noopener noreferrer">{title}</a>
+        <a class="article-title" href="{link}" target="_blank" rel="noopener noreferrer">{title}</a>{original}
         <div class="article-meta">{source}{' ・ ' + time_str if time_str else ''}</div>
       </li>"""
 
@@ -126,7 +140,8 @@ def render_html(by_category, errors):
     date_str = now_jst.strftime("%Y年%m月%d日 %H:%M JST")
     sections = "".join(
         render_section(category, by_category.get(category, []))
-        for category in ("fact", "opinion")
+        for category in CATEGORY_LABELS
+        if category != "world" or by_category.get(category)
     )
     error_note = ""
     if errors:
@@ -220,6 +235,16 @@ def render_html(by_category, errors):
   }}
   .category-fact h2 {{ color: var(--accent-fact); border-color: var(--accent-fact); }}
   .category-opinion h2 {{ color: var(--accent-opinion); border-color: var(--accent-opinion); }}
+  .category-world h2 {{ color: var(--muted); border-color: var(--muted); }}
+  .article-original {{
+    color: var(--muted);
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+  }}
+  .article-summary {{
+    font-size: 0.9rem;
+    margin: 0.4rem 0 0;
+  }}
   .article-list {{
     list-style: none;
     margin: 0;
@@ -271,7 +296,7 @@ def render_html(by_category, errors):
   </main>
   {error_note}
   <footer>
-    <p>本サイトはRSSフィード由来の情報を自動集約したものです。分類はフィード単位の簡易的な分類であり、完全な事実/意見の判定を保証するものではありません。</p>
+    <p>本サイトはRSSフィード由来の情報を自動集約したものです。分類はフィード単位の簡易的な分類であり、完全な事実/意見の判定を保証するものではありません。「海外(和訳)」は見出しとRSS要約をAI(Claude)で機械翻訳したもので、誤訳を含む場合があります。全文はリンク先の原文をご覧ください。</p>
   </footer>
 </body>
 </html>

@@ -1,5 +1,5 @@
 {
-  "_comment": "各フィードは category を 'fact'(事実の速報ニュース) か 'opinion'(コラム・分析・論評) のどちらかに分類します。分類はフィード単位の簡易的なヒューリスティックです。フィードが配信終了・URL変更した場合はこのファイルを編集してください。",
+  "_comment": "各フィードは category を 'fact'(事実の速報ニュース) か 'opinion'(コラム・分析・論評) のどちらかに分類します(英語フィードは 'world' にし、\"translate\": true を付けると見出しと要約をClaude APIで和訳します)。分類はフィード単位の簡易的なヒューリスティックです。フィードが配信終了・URL変更した場合はこのファイルを編集してください。",
   "feeds": [
     {
       "name": "NHKニュース(主要)",
@@ -25,6 +25,12 @@
       "name": "ダイヤモンド・オンライン",
       "url": "https://diamond.jp/list/feed/rss/dol",
       "category": "opinion"
+    },
+    {
+      "name": "Financial Times",
+      "url": "https://www.ft.com/rss/home",
+      "category": "world",
+      "translate": true
     }
   ]
 }
