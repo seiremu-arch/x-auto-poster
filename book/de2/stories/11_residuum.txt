@@ -1,0 +1,231 @@
+XI. Residuum
+
+
+I
+
+　Zu dem, was man in der Ausbildung als Erstes lernt, gehört das Residuum.
+
+　Ein Fragment, dessen affektive Last nach dem Drücken zurückkehrt. Es tritt bei einigen wenigen unter zehntausend auf. Es ist ein Wert, den man ignorieren darf.
+
+　Dreißig Jahre ist man mit dieser Erklärung ausgekommen.
+
+　Mayuzumi gehört zum Zweiten Forschungsraum des Technischen Forschungsinstituts, und der Vorhabentitel lautet: Grundlagenforschung zur Dauerhaftigkeit der Bearbeitungswirkung. Also die Arbeit, zu untersuchen, warum sie zurückkehrt.
+
+　Beim Antritt bestand das Material seines Vorgängers aus zwei Kartons. Wenig für dreißig Jahre.
+
+　„Die Zahl der Vorarbeiten?“
+
+　„Elf“, sagte der Korrektor. „Acht davon untersuchen geräteseitige Ursachen.“
+
+　„Und die übrigen drei?“
+
+　„Sie untersuchen Zusammenhänge mit den Lebensgewohnheiten der Betroffenen.“
+
+　„Die Schlussfolgerungen?“
+
+　„In jedem Fall wurde kein bedeutsamer Zusammenhang gefunden.“
+
+
+II
+
+　Das Erste, was Mayuzumi tat, war, die Grundgesamtheit zu vergrößern.
+
+　Die bisherigen Arbeiten waren im Umfang einer Kommune durchgeführt worden, höchstens einige Zehntausend Fälle. Sucht man in einigen Zehntausend nach einem Vorgang, der einige wenige unter zehntausend betrifft, kommen ein paar Dutzend zusammen. Dass kein Zusammenhang auftrat, war zu erwarten.
+
+　Mayuzumi nahm die landesweiten Bearbeitungsaufzeichnungen zum Gegenstand. Dreiundvierzig Jahre, etwa neunhundert Millionen Fälle.
+
+　Die Fälle von Residuen beliefen sich auf vierhundertzehntausend.
+
+　„Geben Sie mir die Verteilung der Merkmale.“
+
+　Alter, Geschlecht, Region, Beruf, Bearbeitungskategorie. Keines wich von der Verteilung des Ganzen ab. Es gibt kein Merkmal der Menschen, bei denen ein Residuum auftritt.
+
+　Als Nächstes sah er sich die Fragmente an.
+
+　Anfangswert der affektiven Last. Zahl der Aufteilungen der Bearbeitung. Dichte der benachbarten Fragmente. Auch hier keine Häufung.
+
+　Über drei Monate tötete Mayuzumi jede greifbare Variable.
+
+　Töten heißt, bestätigt zu haben, dass kein Zusammenhang besteht. Als Forschung kam es dem gleich, dass nichts herausgekommen ist.
+
+　So weit werden auch seine Vorgänger gelangt sein. Alle elf Vorarbeiten endeten an derselben Wand. Nicht das Gerät, nicht die Lebensführung, nicht die Merkmale.
+
+　Was bleibt, ist die erste Erklärung: ein Wert, den man ignorieren darf.
+
+　Mayuzumi sah nach, woher diese Erklärung kommt. Im ersten Validierungsbericht von vor vierzig Jahren stand eine Zeile.
+
+　— Fälle der Wiederherstellung sind selten, und die Auswirkung auf die Gesamtwirksamkeit der Bearbeitungen darf ignoriert werden.
+
+　Die Auswirkung darf ignoriert werden. Zur Ursache steht nichts. Seit dreißig Jahren wird diese eine Zeile weiter zitiert.
+
+
+III
+
+　Im vierten Monat änderte Mayuzumi die Art, seine Variablen zu setzen.
+
+　Die bisherigen Arbeiten sahen allein auf den Betroffenen und das Fragment. Was Mayuzumi hinzufügte, waren andere Menschen als der Betroffene.
+
+　Eine Erinnerung besteht in einem Menschen allein. Eine Erinnerung wird von mehreren Menschen zugleich gehalten. Dasselbe Abendessen, derselbe Streit, dieselbe Beerdigung. Die Erinnerung besteht in so vielen verschiedenen Köpfen, wie es Menschen gab, die das Ereignis teilten.
+
+　Mayuzumi beschloss, diese Zahl die Teilerzahl zu nennen.
+
+　Die Teilerzahl lässt sich nicht unmittelbar messen. Fragmente tragen Kennungen der darin Auftretenden, also wird sie daraus geschätzt. Er zählte unter den als Kennung verzeichneten Personen die noch Lebenden.
+
+　Er schichtete die vierhundertzehntausend Residuen und die Vergleichsgruppe von neunhundert Millionen nach der Teilerzahl.
+
+　Es kam im ersten Durchgang heraus.
+
+　Eine sauberere Trennung als bei jeder der Variablen, die er drei Monate lang getötet hatte. Mayuzumi verdächtigte zuerst einen Fehler in seiner eigenen Auswertung und ging das Verfahren zwei Tage lang zurück. Es gab keinen Fehler.
+
+
+IV
+
+　Bei Fragmenten mit einer Teilerzahl von null lag die Residuumsquote bei 0,003 Prozent.
+
+　Bei einem Teiler 0,08 Prozent. Bei zwei 0,41. Bei drei 1,2. Über fünf übersteigt sie vier Prozent.
+
+　Je mehr Teiler, desto eher kehrt die gedrückte Last zurück.
+
+　Mayuzumi sah die Tabelle eine halbe Stunde an.
+
+　Der Vorgang war, bedachte man ihn, einfach.
+
+　Eine Erinnerung wird bei jedem Erinnern weich und setzt sich wieder. Die Bearbeitung greift in diesen Ablauf ein und senkt die Last. Aber auch nach der Bearbeitung lebt der Mensch weiter. Er trifft Menschen, die dasselbe Ereignis erinnern. Er spricht mit ihnen. Auch ohne das Thema zu berühren, ruft die bloße Anwesenheit des anderen die Erinnerung auf.
+
+　Mit jedem Aufrufen wird die Erinnerung zur Last der Teiler hingezogen. Die Teiler haben keine Bearbeitung erhalten. Also bleibt ihre Last hoch.
+
+　Das Niedrige bewegt sich zum Hohen.
+
+　Der gedrückte Halbton ist im einzelnen Menschen tatsächlich gesunken. Ob der gesenkte Zustand hält, entschied sich daran, mit wem dieser Mensch lebt.
+
+　Mayuzumi erinnerte sich an einen Fall von vor dreißig Jahren. In der Ausbildung musste er eine Aufzeichnung als Lehrmaterial lesen. Ein Mädchen von dreizehn drückte in einem Monat eine Last zurück, die über sieben Nächte gesenkt worden war. Der zuständige Techniker hatte sie mit einem Aufteilungsentwurf bearbeitet, und im Folgemonat lag sie über der Schwelle und in der Warteschlange der Nachbearbeitung.
+
+　In der Aufzeichnung stand die Familienzusammensetzung des Mädchens. Sie hatte ihre Mutter bei einem Brand verloren und war mit ihrem Vater übrig.
+
+　Teilerzahl eins. Die Seite der 0,08 Prozent.
+
+　Mayuzumi sah die Zahl eine Weile an. 0,08 Prozent heißt, dass es praktisch nicht vorkommt. Was praktisch nicht vorkommt, kam bei diesem Mädchen vor.
+
+　Als Teiler werden allein die Lebenden gezählt. Die, die die Erinnerung des Mädchens mit ihr teilte, ist bei jenem Brand gestorben.
+
+　Die Mutter zählt nicht unter die Teiler. Und sieben Nächte Drücken kamen dennoch zurück.
+
+　Mayuzumi nahm diesen Fall nicht aus der Auswertung heraus. Er hatte keine Grundlage dafür. Ein Fall von vierhundertzehntausend blieb dort, wohin keine Erklärung reicht.
+
+
+V
+
+　Mayuzumi berichtete das Ergebnis dem Leiter des Raums, einem Mann in den Sechzigern, der seit zwanzig Jahren dort ist.
+
+　„Das liest sich auch rückwärts“, sagte der Leiter.
+
+　„Rückwärts?“
+
+　„Eine Erinnerung, die man allein trägt, bleibt gesenkt, wenn man sie drückt“, sagte er. „Eine Erinnerung, die man mit jemandem teilt, kehrt zurück. Das heißt, die Bearbeitung wirkt am besten bei den Einsamen.“
+
+　Mayuzumi nahm die Formulierung eine Weile auf.
+
+　„Das folgt daraus.“
+
+　„Und unsere Geräte sind seit dreiundvierzig Jahren so“, sagte der Leiter. „Niemand hat es bemerkt, weil niemand die Variable gesetzt hat, die es zeigt.“
+
+　„Warum wurde sie nicht gesetzt?“
+
+　„Weil es den Gedanken, etwas außerhalb des Betroffenen zur Variablen zu machen, überhaupt nicht gab“, sagte er. „Eine Bearbeitung wird an einem Einzelnen vollzogen, also werden die Aufzeichnungen je Einzelnem geführt. Wer daneben steht, hat auf dem Formular kein Feld.“
+
+　Da lachte er kurz.
+
+　„Ihre Arbeit wird vermutlich gelobt. Man wird sagen, ein Rätsel von dreiundvierzig Jahren sei gelöst.“
+
+　„Meinen Sie?“
+
+　„Ich meine es“, sagte der Leiter. „Was danach damit gemacht wird, ist eine andere Sache.“
+
+
+VI
+
+　In jener Nacht überlegte Mayuzumi, wie seine Schlussfolgerung gelesen wird.
+
+　Die Schlussfolgerung lässt sich in einer Zeile schreiben. Eine einzelne Bearbeitung hält nicht, wenn es Teiler gibt.
+
+　Was der Leser als Nächstes denkt, steht fest.
+
+　Dann bearbeite man die Teiler mit.
+
+　Drückt man einen, kehrt es zurück. Drückt man alle zugleich, die die Erinnerung teilen, gibt es keinen Ort, aus dem es zurückkehrt. Ohne einen solchen Ort bleibt es gesenkt.
+
+　Ein Plan, die Erinnerungslasten einer Million Menschen Nacht für Nacht zum Mittelwert hin zu bewegen, läuft seit dreiundzwanzig Jahren.
+
+　Dass aus jenem Plan keine Meldungen über Residuen heraufkommen, hatte Mayuzumi für einen Unterschied in der Geräteleistung gehalten. Das war es nicht. Die Teiler werden zugleich bearbeitet, also besteht kein Ort, aus dem es zurückkehren könnte.
+
+　Wurde der Plan in Kenntnis dieses Vorgangs entworfen?
+
+　„Eine Frage“, sagte Mayuzumi. „Gibt es in den Entwurfsunterlagen des Angleichungsplans einen Begriff, der der Teilerzahl entspricht?“
+
+　„Nein“, sagte der Korrektor. „Verzeichnet ist in den Entwurfsunterlagen die Effizienz des Umfangs. Es ist angegeben, dass die Durchführung im Umfang von einer Million die Verarbeitungskosten je Person senkt.“
+
+　„Sie haben eine Million allein der Effizienz wegen gewählt?“
+
+　„Das ist der einzige verzeichnete Grund.“
+
+　Mayuzumi begann, sich erleichtert zu fühlen, und hörte damit auf.
+
+　Auch wenn sie die richtige Antwort ohne den Grund gewählt haben, war das Ergebnis der Wahl dasselbe.
+
+
+VII
+
+　Die Arbeit erschien im folgenden Frühjahr.
+
+　Die Aufnahme war, wie der Leiter vorhergesagt hatte. Sie erhielt mehrere Preise als Forschung, die einem seit dreiundvierzig Jahren ungeklärten Vorgang einen Mechanismus gegeben hat. Mayuzumi wurde Leiter des Forschungsraums.
+
+　Im Herbst desselben Jahres kam eine Anfrage aus der Betriebsabteilung des Angleichungsplans.
+
+　Die Anfrage betraf das Schätzverfahren für Teilerzahlen. Man wolle es zur Vorhersage der Bearbeitungswirksamkeit nutzen. Ließen sich Betroffene, bei denen die Wirkung nicht hält, im Voraus erkennen, könnten unnütze Bearbeitungen verringert werden, stand in der Anfrage.
+
+　Was darin stand, war richtig. Auf jemanden zu drücken, bei dem es nicht wirkt, ist Verschwendung.
+
+　Mayuzumi antwortete. Das Verfahren steht in der Arbeit. Es gab keinen Grund, es zu verbergen, und keine Grundlage dafür.
+
+　Drei Monate nach der Antwort wurde das Zuteilungsverfahren der Betriebsabteilung geändert.
+
+　Die Änderung sah vor, bei Betroffenen mit hoher Teilerzahl die Teiler derselben Woche zuzuteilen. Teil einer Effizienzmaßnahme. In derselben Woche gebündelt steigt die Auslastung der Geräte.
+
+　Auch die Dauerhaftigkeit der Wirkung werde sich nebenbei verbessern, stand in der Änderungsmitteilung.
+
+
+VIII
+
+　Mayuzumi las die Mitteilung dreimal.
+
+　An dem, was darin steht, ist nichts falsch. Bündelt man sie in derselben Woche, steigt die Auslastung. Die Dauerhaftigkeit steigt. Beides sind Tatsachen.
+
+　Nicht geschrieben steht, was geschieht.
+
+　Eine Familie erhält ihre Bearbeitungen in derselben Woche. Vier Menschen bekommen die Last desselben Ereignisses zugleich gesenkt. Niemand kehrt zurück. Es gibt keinen Ort, aus dem zurückzukehren wäre.
+
+　Die vier leben danach gewöhnlich weiter. Sie essen, sie sprechen über das Wetter. Was einst in jenem Haus geschah, kommt auf niemandes Lippen. Nicht, weil sie es vergessen hätten. Sie erinnern es, und es ist zu einem Wert geworden, der niemanden bewegt.
+
+　Mayuzumi las den Schluss seiner eigenen Arbeit noch einmal.
+
+　— Diese Arbeit hat gezeigt, dass die affektive Last einer Erinnerung keine im Einzelnen geschlossene Größe ist, sondern eine Größe, die im Verhältnis zu ihren Teilern erhalten wird.
+
+　Als er es schrieb, war es die Beschreibung eines Befunds. Jetzt gelesen, sieht es aus wie ein Handbuch.
+
+　„Eine Frage“, sagte Mayuzumi. „Die Zahl der Verweise auf diese Arbeit?“
+
+　„Einundvierzig“, sagte der Korrektor. „Sechsunddreißig davon sind Verweise aus der Betriebsabteilung.“
+
+　„Und die übrigen fünf?“
+
+　„Zitate zu Forschungszwecken.“
+
+　Mayuzumi schloss das Gerät.
+
+　Er dachte nicht, dass er das Verfahren hätte verbergen sollen. Verbirgt man es, gelangt jemand, der die Grundgesamtheit vergrößert und schichtet, zu derselben Schlussfolgerung. Es hat dreiundvierzig Jahre gedauert, weil die Variable nicht gesetzt wurde, und setzt man sie, kommt es im ersten Durchgang heraus.
+
+　Gesetzt hat sie Mayuzumi. Ein Feld, um zu bereuen, sie gesetzt zu haben, hat das Formular einer wissenschaftlichen Arbeit nicht.
+
+　Vor dem Fenster war es bereits dunkel. Im ganzen Land werden auch heute Nacht Bearbeitungen durchgeführt, und einige davon gehören Familien, die derselben Woche zugeteilt wurden.
+
+　Die Residuen würden ab dem nächsten Jahr zurückgehen, stand am Ende der Änderungsmitteilung.

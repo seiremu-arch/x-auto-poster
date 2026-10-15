@@ -1,0 +1,255 @@
+X. Der letzte Fehler
+
+
+I
+
+　Nicht miteinander verbundene Menschen haben denselben Albtraum.
+
+　Die erste Meldung kam aus einer Kommune im Nordosten. In der Nachverfolgung nach der Bearbeitung hatten elf der Behandelten begonnen, denselben Albtraum zu haben, der nicht Gegenstand der Bearbeitung gewesen war.
+
+　Die elf sind nicht verwandt. Weder Wohnort noch Arbeitsplatz überschneiden sich. Gemeinsam ist ihnen allein, dass sie im selben Monat die Bearbeitung hatten.
+
+　„Die landesweite Zahl“, sagte Ogido und öffnete das Gerät. Er gehört zur Abteilung Technikverwaltung, Stelle für Störungsanalyse.
+
+　„Zweitausendvierhundertsieben“, sagte der Korrektor. „Das ist die Summe der letzten sechs Monate.“
+
+　„Die Zuwachsrate?“
+
+　„Vierzehn Prozent im Monat.“
+
+　Ogido las die Zahl dreimal.
+
+　Sieben Jahre in der Störungsanalyse. Was diese Stelle bearbeitet, ist gewöhnlich eine Gerätestörung. Die Ausgabe hält an. Die Last übersteigt den vorgeschriebenen Wert. Die Messung fällt aus. Jedes hat eine Ursache, und tötet man die Ursache, hört es auf.
+
+　Eines, das nicht aufhört, hatte er nie bearbeitet.
+
+
+II
+
+　Ogidos Aufgabe war, die Ursache zu bestimmen.
+
+　Zuerst verdächtigte er Unterschiede zwischen den Geräten. Eine Häufung bei einer bestimmten Bauart oder Fertigungsreihe hätte es schnell gemacht.
+
+　Es gab keine Häufung. Die zweitausendvierhundertsieben verteilen sich gleichmäßig über die Geräte des Landes.
+
+　Als Nächstes verdächtigte er eine Verunreinigung durch synthetisierte Fragmente. Sickert während einer Bearbeitung ein anderes Fragment ein, entsteht ein solcher Vorgang.
+
+　„Gibt es in den Bearbeitungsprotokollen Verweise auf synthetisierte Fragmente?“
+
+　„Nein“, sagte der Korrektor. „Dies sind sämtlich gewöhnliche Bearbeitungen nach unten. Eine Synthese ist nicht beteiligt.“
+
+　„Und der Inhalt der Albträume?“
+
+　„Inhalt wird nicht erfasst“, sagte der Korrektor. „Eine Technik, einen Traum als Bild herauszuholen, gibt es nicht.“
+
+　„Auf welcher Grundlage wurde dann festgestellt, dass es derselbe ist?“
+
+　„Die Struktur der Fragmente“, sagte der Korrektor. „Bei den Fragmenten der zweitausendvierhundertsieben Fälle liegt der strukturelle Übereinstimmungsgrad bei sechsundneunzig Prozent.“
+
+
+III
+
+　Ogido ließ sich die Struktur anzeigen.
+
+　Ein Band. Dünn, die Farbe blass. Als Last liegt es zwischen 0,04 und 0,06. Der Wert, der an den Kleinigkeiten eines Tages hängt.
+
+　Aber die Form war unversehrt.
+
+　Ogido kannte die Form.
+
+　Vor drei Jahren kam eine Anfrage aus der Abteilung Qualitätssicherung. Sie besagte, in die Ausgabe synthetisierter Fragmente sei ein Überschussbestandteil gemischt, der sich aus den Eingangsmaterialien nicht erklären lasse. Jener Überschussbestandteil hatte dieselbe Form.
+
+　„Ist das dieselbe Struktur wie bei der Anfrage der Qualitätssicherung vor drei Jahren?“
+
+　„Dieselbe“, sagte der Korrektor. „Der Übereinstimmungsgrad liegt bei vierundneunzig Prozent.“
+
+　„Wie lautete damals die Schlussfolgerung?“
+
+　„Behebung nicht erforderlich“, sagte der Korrektor. „Eingetragen als: Da die Auswirkung auf die Ausgabe geringfügig ist und die Qualitätseinbuße durch Abhilfemaßnahmen sie übersteigt.“
+
+　„Warum ist es dann jetzt in den Träumen von Menschen?“
+
+　„Dieser Punkt wird nicht verzeichnet.“
+
+
+IV
+
+　Ogido verfolgte den Weg zurück.
+
+　Der Überschussbestandteil von vor drei Jahren entstand, weil die Zwischenschicht einer Synthese auf Merkmalswerte in den aufbewahrten Aufzeichnungen verwies. Es ist ein Vorgang, der allein bei synthetisierten Fragmenten auftritt, und der Weg unterscheidet sich von der gewöhnlichen Bearbeitung nach unten.
+
+　Er sollte sich unterscheiden.
+
+　Ogido ging die Verarbeitungskette der Bearbeitung nach unten durch. Um zu entscheiden, wo und wie viel gedrückt wird, bewertet ein Bearbeitungsgerät die Anordnung der benachbarten Fragmente. Die Bewertung benutzt ein statistisches Modell.
+
+　In den Trainingsdaten dieses Modells lagen die aufbewahrten Aufzeichnungen.
+
+　„Seit wann?“
+
+　„Seit der Aktualisierung vor vier Jahren“, sagte der Korrektor. „Die Trainingsdaten wurden erweitert, um die Genauigkeit beim Vermeiden des Mitziehens an benachbarten Fragmenten zu verbessern.“
+
+　„Sie haben die aufbewahrten Aufzeichnungen für die Erweiterung benutzt?“
+
+　„Sie werden benutzt“, sagte der Korrektor. „Sie wurden als wirksam bewertet, als Beispiele, die den Teil der Erinnerung eines Menschen enthalten, der sich nicht erklären lässt.“
+
+　Ogido lehnte sich im Stuhl zurück.
+
+　Einundvierzig Jahre, zweihundertachtzig Millionen Posten. Ein Haufen, aufgeschichtet aus dem, wofür es kein Feld zum Schreiben gab, ist seit vier Jahren die Richtschnur, nach der jedes Gerät im Land entscheidet, wo es drückt.
+
+
+V
+
+　Als Vorgang war es einfach.
+
+　Bei der Entscheidung, wo gedrückt wird, versucht das Gerät sich der gelernten „natürlichen Anordnung der Erinnerung“ anzunähern. Beim Annähern tritt eine sehr geringe Formung ein. Die Formung liegt unter 0,001 und erreicht die Aufzeichnungsschwelle nicht.
+
+　Jedes Gerät im Land benutzt dasselbe Modell. Dieselbe Formung tritt überall in derselben Richtung ein.
+
+　Einmal geschieht nichts. Angehäuft entsteht neben dem gedrückten Fragment eine Mulde derselben Form.
+
+　Die Mulde ist kein Fragment. Nur legt das Gehirn etwas hinein. Was hineingelegt wird, hat dieselbe Form.
+
+　„Also ist dies keine Erinnerung.“
+
+　„Es erfüllt die Begriffsbestimmung einer Erinnerung nicht“, sagte der Korrektor. „Es gibt kein Ereignis, von dem es herrührt.“
+
+　„Was sehen die Menschen dann?“
+
+　„Die Form der Mulde.“
+
+　Ogido überlegte eine Weile über die Formulierung.
+
+　Während ein Mensch schläft, wird Erinnerung neu verbunden. Ist die Stelle, an die sie verbunden werden soll, leer, legt das Gehirn etwas hinein. Was es hineinlegt, wird aus dem gemacht, was dieser Mensch hat. Also unterscheidet sich der Inhalt von Mensch zu Mensch.
+
+　Er unterscheidet sich, und allein die Form fällt gleich aus.
+
+　„Ist das, was die zweitausendvierhundertsieben sehen, dasselbe?“
+
+　„Das lässt sich nicht bestimmen“, sagte der Korrektor. „Es gibt kein Mittel, den Inhalt zu erfassen.“
+
+　„Woher kommt dann der Ausdruck derselbe Albtraum?“
+
+　„Aus den eigenen Angaben der Betroffenen“, sagte der Korrektor. „Sechzig Prozent der Angaben verwenden den Ausdruck: Ich habe einen seltsamen Traum. Dreißig Prozent: Ich habe wiederholt denselben Traum. Die übrigen zehn Prozent beschreiben den Inhalt.“
+
+　„Der Übereinstimmungsgrad der Beschreibungen?“
+
+　„Einundvierzig Prozent.“
+
+　Weniger als die Hälfte. Es war nicht derselbe Albtraum. In eine Mulde derselben Form legt jeder etwas Eigenes. Das kommt in vier von zehn Fällen in ähnlichen Worten heraus.
+
+
+VI
+
+　Der Bericht an die Abteilungsleiterin war in der folgenden Woche.
+
+　„Die Antwort?“
+
+　„Es gibt drei“, sagte Ogido. „Die aufbewahrten Aufzeichnungen aus den Trainingsdaten nehmen. Das Modell auf die Fassung von vor vier Jahren zurücksetzen. Oder nichts tun.“
+
+　„Und nichts tun?“
+
+　„Es nimmt weiter zu. Bei vierzehn Prozent im Monat erreicht es in drei Jahren voraussichtlich vierzig Prozent aller Behandelten.“
+
+　„Die Schwere der Beschwerde?“
+
+　„0,04 bis 0,06“, sagte Ogido. „Keine klinisch bedeutsame Höhe. Als Beschwerde endet es bei: Ich habe einen seltsamen Traum.“
+
+　Sie dachte kurz nach.
+
+　„Setzen wir das Modell zurück, was geschieht mit dem Mitziehen?“
+
+　„Es kehrt auf den Stand von vor vier Jahren zurück“, sagte Ogido. „Die Veränderung an benachbarten Fragmenten steigt auf etwa das Dreifache des gegenwärtigen Werts.“
+
+　„Das Dreifache geht nicht.“
+
+　„Es geht nicht.“
+
+　„Dann allein die aufbewahrten Aufzeichnungen herausnehmen?“
+
+　„Ich habe es hochgerechnet“, sagte Ogido. „Das Mitziehen steigt um das 1,4-Fache. Und die Beschaffenheit der Synthesen fällt um zwölf Punkte.“
+
+　Sie sah die Zahlen eine Weile an.
+
+　„Herr Ogido, ist das etwas Schlechtes?“
+
+　Ogido konnte nicht antworten.
+
+　„Ich frage nicht nach einem Eindruck“, fuhr sie fort. „Um zu entscheiden, ob eine Antwort nötig ist, muss jemand sagen, ob es schlecht ist. Ist es nicht schlecht, können wir uns nicht bewegen.“
+
+　„Als Beschwerde ist es nicht schlecht.“
+
+　„Was hängt Ihnen dann nach?“
+
+　„Der Umfang“, sagte Ogido. „Je Person sind es 0,05. In drei Jahren steckt dasselbe in vierzig Prozent aller Behandelten. Es gibt kein Verfahren, den Wert je Person und die Zahl der Personen auf derselben Skala zu addieren.“
+
+　„Muss man sie addieren?“
+
+　„Ich denke ja“, sagte Ogido. „Nur gibt es keine Vorschrift, wie zu addieren ist.“
+
+　Sie nickte. Ein Nicken, das weder verneinte noch zustimmte.
+
+　„Dann schreiben Sie es auf. Dass es keine Vorschrift gibt.“
+
+
+VII
+
+　In jener Nacht sah Ogido sich die Verteilung der zweitausendvierhundertsieben noch einmal an.
+
+　Gleichmäßig gestreut, ohne Rücksicht auf Alter, Beruf oder Region. Das Einzige, was sie gemeinsam haben, ist eine Bearbeitung nach unten in diesen vier Jahren.
+
+　Zweitausendvierhundertsieben Menschen haben eine Mulde derselben Form. Was in die Mulde kommt, unterscheidet sich vermutlich von Mensch zu Mensch. Aber ist die Form dieselbe, ähnelt sich auch, was hineingelegt wird.
+
+　In drei Jahren sind es vierzig Prozent. In zehn fast alle.
+
+　Ogido überlegte, wie man eine Gesellschaft nennt, in der alle eine Mulde derselben Form haben.
+
+　Angeglichen, nahm er an. Beim Plan geht es darum, die Lasten einer Million Menschen zum Mittelwert hin zu bewegen; hier ist es das Ergebnis davon, dass sich die Eigenheiten eines Geräts landesweit ausgerichtet haben. Zweck und Verfahren sind gänzlich verschieden.
+
+　Verschieden, und die Gestalt, bei der sie ankommen, war ähnlich.
+
+　„Eine Frage“, sagte Ogido. „Hat dieser Vorgang einen Namen?“
+
+　„Er hat eine Störungsnummer“, sagte der Korrektor. „Die Kategorie lautet: bekannter geringfügiger Mangel.“
+
+　„Und die geläufige Bezeichnung?“
+
+　„Im Betrieb heißt er der letzte Fehler.“
+
+　„Der letzte, das heißt?“
+
+　„Weil erwartet wird, dass er der letzte Mangel ist, für den eine Ursache bestimmt wird“, sagte der Korrektor. „Abweichungen, die danach entstehen, werden überwiegend aus Aktualisierungen des Lernmodells herrühren, und einzelne Ursachen werden nicht bestimmbar sein.“
+
+
+VIII
+
+　In das Feld für Abhilfemaßnahmen des Berichts trug Ogido Beobachtung ein.
+
+　Es gibt vier Möglichkeiten. Sofortige Behebung. Behebung geplant. Beobachtung. Behebung nicht erforderlich.
+
+　Vor drei Jahren wählte die Qualitätssicherung Behebung nicht erforderlich. Ogido wählte die eine davor. Der einzige Unterschied ist, ob der nächste Zuständige verpflichtet ist, den Vorgang zu öffnen.
+
+　In das Bemerkungsfeld schrieb Ogido dies:
+
+　— Dieser Vorgang wird als bekannter geringfügiger Mangel bearbeitet; dass die Höhe der Beschwerde geringfügig ist und dass der Umfang der Auswirkung geringfügig ist, ist jedoch nicht dasselbe. Die erwartete Reichweite in drei Jahren beträgt vierzig Prozent aller Behandelten. Der gegenwärtige Maßstab der Störungsverwaltung enthält keine Vorschrift, den Wert je Person gemeinsam mit der Zahl der Betroffenen zu bewerten.
+
+　Nachdem er es geschrieben hatte, prüfte er, wo das Bemerkungsfeld herangezogen wird.
+
+　„Wer liest diese Bemerkung?“
+
+　„Der nächste Zuständige der Störungsanalyse liest sie“, sagte der Korrektor. „Vorgänge unter Beobachtung werden bei der Übergabe in einer Liste vorgelegt.“
+
+　Ogido war leicht überrascht.
+
+　Sie wird gelesen, setzte er an zu sagen, und hielt inne. Mehr hing ihm nach, dass er es überraschend fand, dass es ein Feld gibt, das gelesen wird.
+
+　„Eine Frage“, sagte Ogido. „Wie viele Vorgänge stehen unter Beobachtung?“
+
+　„Gegenwärtig siebenundvierzig“, sagte der Korrektor. „Der älteste wurde vor zweiundzwanzig Jahren eingetragen.“
+
+　„Zweiundzwanzig Jahre Beobachtung?“
+
+　„Sie werden bei der Übergabe in einer Liste vorgelegt“, sagte der Korrektor. „Ob ein vorgelegter Vorgang geöffnet wurde, wird nicht verzeichnet.“
+
+　Vor dem Fenster war es dunkel. Im ganzen Land laufen die Geräte auch heute Nacht. Wo gedrückt wird, entscheidet ein vor vier Jahren festgelegtes Modell. Wie es entscheidet, weiß niemand, und es ist überall dasselbe.
+
+　Dasselbe zu sein nennt man hohe Genauigkeit.

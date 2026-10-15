@@ -1,0 +1,264 @@
+XII. Der Abschlussbericht
+
+
+I
+
+　Die Abschlussvoraussetzung der Zweiten Synchronisation ist in einer Zeile festgelegt.
+
+　— Der Abschluss tritt zu dem Zeitpunkt ein, zu dem die Varianz der affektiven Last in der Zielgruppe den Standardwert unterschreitet.
+
+　Der Standardwert liegt bei 0,04. Eine Zahl, die vor dreiundzwanzig Jahren zu Beginn des Plans festgelegt wurde.
+
+　In der Auswertung im Juni betrug die Varianz 0,038.
+
+　„Die Voraussetzung ist erfüllt“, sagte der Korrektor. „Ein Abschlussbericht kann erstellt werden.“
+
+　Minato sah eine Weile auf den Bildschirm. Sie gehört zur Geschäftsstelle des Angleichungsplans, Bewertungsgruppe. In diesem Raum haben nur drei Menschen die Aufgabe, Abschlussberichte zu schreiben.
+
+　Es ist ein Plan, der dreiundzwanzig Jahre gedauert hat. Alle, die ihn zu Beginn gezeichnet haben, sind im Ruhestand. Niemand in diesem Gebäude weiß, wie der Standardwert von 0,04 zustande kam.
+
+　Minato hatte beim Antritt nach der Grundlage gesucht. In den Entwurfsunterlagen des Plans stand eine Zeile.
+
+　— 0,04 wird als das Niveau gewählt, bei dem keine statistisch bedeutsame Abweichung mehr beobachtet wird.
+
+　Das Niveau, bei dem sie nicht mehr beobachtet wird. Wer es schrieb, schrieb vermutlich genau. Er schrieb nicht: das Niveau, bei dem keine Abweichung mehr besteht.
+
+
+II
+
+　Minato rief zunächst den Verlauf der Varianz auf.
+
+　Eine Kurve über dreiundzwanzig Jahre erschien. Zu Beginn 0,21. Im zehnten Jahr 0,12. Im fünfzehnten 0,07.
+
+　In den letzten fünf Jahren hatte sich die Neigung verändert.
+
+　Bis zum achtzehnten Jahr war sie sanft gefallen, vom neunzehnten an fällt sie steil. In fünf Jahren bewegte sie sich von 0,06 auf 0,038, so viel wie in den zehn Jahren davor.
+
+　„Was geschah im neunzehnten Jahr?“
+
+　„Es gibt drei passende Aufzeichnungen“, sagte der Korrektor. „Eine Änderung des Zuteilungsverfahrens. Eine Änderung des Maßstabs der Störungsverwaltung. Eine Änderung der Aufzeichnungsschwelle für Veränderungen an benachbarten Fragmenten.“
+
+　Minato öffnete alle drei.
+
+
+III
+
+　Die erste war die Änderung, Teiler derselben Woche zuzuteilen.
+
+　Teil einer Effizienzmaßnahme. Bearbeitet man die, die dieselbe Erinnerung halten, gemeinsam, steigt die Auslastung der Geräte. Nebenbei verbessert sich die Dauerhaftigkeit der Bearbeitungswirkung.
+
+　Dass die Dauerhaftigkeit sich verbessert, heißt, dass es nicht mehr zurückkehrt. Kehrt es nicht zurück, fällt die Varianz.
+
+　Die zweite war die Änderung, die die Behandlung bekannter geringfügiger Mängel festlegte. Dadurch, dass jedes Gerät im Land dasselbe statistische Modell benutzt, entsteht neben dem gedrückten Fragment eine Mulde derselben Form. Die Beschwerde liegt bei etwa 0,05 und ist klinisch nicht bedeutsam.
+
+　Entsteht bei allen eine Mulde derselben Form, fällt die Varianz.
+
+　Die dritte war die Änderung, die die Aufzeichnungsschwelle für Veränderungen an benachbarten Fragmenten von 0,01 auf 0,03 anhob. Veränderungen innerhalb der Schwelle werden nicht verzeichnet.
+
+　Nicht verzeichnete Veränderungen gehen nicht in die Berechnung der Varianz ein.
+
+　Minato legte die drei Inkrafttretensdaten nebeneinander.
+
+　Dasselbe Quartal des neunzehnten Jahres.
+
+
+IV
+
+　„Eine Frage“, sagte Minato. „Wurden diese drei abgestimmt entworfen?“
+
+　„Dazu gibt es keine Aufzeichnung“, sagte der Korrektor. „Die verfassenden Stellen sind jeweils verschieden. Die Zuteilungsabteilung, die Stelle für Störungsanalyse und die Abteilung Technikverwaltung.“
+
+　„Eine Spur davon, dass sie aufeinander verwiesen haben?“
+
+　„Keine.“
+
+　Minato beschloss, es zu glauben. Sie hatte auch kein Material, es nicht zu glauben.
+
+　Drei Stellen nahmen drei Änderungen vor, jede aus eigenem Grund. Die Zuteilung wegen der Auslastung. Die Störungsanalyse wegen der Höhe der Behebungskosten. Die Technikverwaltung, um die von Hand bearbeiteten Fälle aufzunehmen. Jede hält.
+
+　Drei Überlegungen, die halten, fielen in dasselbe Quartal.
+
+　Kein Zufall, dachte Minato. Nachdem sie es gedacht hatte, suchte sie die Grundlage und fand sie nicht.
+
+　Alle drei gehen davon aus, dass Haushaltsmittel nicht bewilligt wurden. Anlagen lassen sich nicht vermehren, also füllt Vorhersage die Lücke. Personal lässt sich nicht vermehren, also steigt die Schwelle. Die Kosten der Behebung sind hoch, also geht es in die Beobachtung.
+
+　Legt man im selben Haushaltsjahr dieselbe Beschränkung auf, bringen getrennte Stellen getrennt Lösungen hervor, die in dieselbe Richtung zeigen. Es braucht keine Absprache.
+
+　Ob man das Zufall nennt, war eine Frage der Worte.
+
+
+V
+
+　Minato versuchte eine Neuberechnung der Varianz.
+
+　Den Wert ohne die drei Änderungen ermitteln. Die Aufzeichnungsschwelle auf 0,01 zurücksetzen, die nicht verzeichnete Veränderung durch Schätzung ergänzen, die Zuteilung der Teiler in dieselbe Woche auflösen und das Zurückkehrende hinzurechnen.
+
+　„Die Genauigkeit der Schätzung?“
+
+　„Gering“, sagte der Korrektor. „Es ist kein Verfahren etabliert, eine nicht verzeichnete Menge zu schätzen.“
+
+　„Ermitteln Sie ihn trotzdem.“
+
+　Eine Zahl kam heraus.
+
+　0,061.
+
+　Weit über dem Standardwert von 0,04.
+
+
+VI
+
+　Minato ging an jenem Tag nach Hause, ohne etwas zu tun.
+
+　Am nächsten Tag trug sie es der Gruppenleiterin vor, einer Frau in den Fünfzigern, die seit zwölf Jahren in der Geschäftsstelle ist.
+
+　„Frau Minato, taugt diese Neuberechnung als Grundlage?“
+
+　„Nein“, sagte Minato. „Da das Schätzverfahren nicht etabliert ist, lässt sie sich nicht als Zahl einreichen.“
+
+　„Dann ist der amtliche Wert 0,038.“
+
+　„0,038.“
+
+　„Und die Voraussetzung ist erfüllt.“
+
+　„Sie ist erfüllt.“
+
+　Die Gruppenleiterin nickte. Dann ließ sie eine kurze Pause.
+
+　„Was Ihnen nachhängt, ist, dass die Varianz vielleicht nicht gefallen ist — dass vielleicht das Auge, das die Varianz misst, gröber geworden ist. Nicht wahr.“
+
+　„Ja.“
+
+　„Ich habe einmal dasselbe gedacht“, sagte sie. „Vor etwa zehn Jahren. Damals gab es die Schwellenänderung noch nicht, also konnte ich eine Zahl bilden und sie hinauftragen. Die gebildete Zahl wurde vom Ausschuss nicht übernommen.“
+
+　„Auf welcher Grundlage?“
+
+　„Dass das Schätzverfahren nicht etabliert sei“, sagte sie. „Dieselbe Antwort.“
+
+
+VII
+
+　In jener Nacht fragte Minato nach früheren Hinweisen derselben Art.
+
+　„Wie viele Aufzeichnungen sind als Zweifel an der Gültigkeit des Messsystems eingetragen?“
+
+　„Vierzehn in den aufbewahrten Aufzeichnungen“, sagte der Korrektor.
+
+　„Und in den förmlichen Aufzeichnungen?“
+
+　„Keine“, sagte der Korrektor. „In den Formularen dieses Plans gibt es keine Kategorie, um einen Zweifel einzutragen.“
+
+　Vierzehn. Alle als etwas, wofür es kein Feld zum Schreiben gab, in die aufbewahrten Aufzeichnungen gegangen.
+
+　Minato ließ sich die vierzehn nach Alter geordnet geben.
+
+　Beim Datum des ältesten hielt sie inne.
+
+　Vor einundvierzig Jahren. Eine Aufzeichnung aus einer Zeit achtzehn Jahre vor dem Beginn des Angleichungsplans.
+
+　„Was ist das für eine Aufzeichnung?“
+
+　„Ein Randeintrag auf einem Leserbericht“, sagte der Korrektor. „Die Kategorie lautet: neben der Kontaminationsrate.“
+
+
+VIII
+
+　Minato ließ ihn anzeigen.
+
+　Ein Fragment lässt sich nicht abspielen. Das an den Rand Geschriebene ist als Zeichen ausgelesen worden. Eine Maschine hat den Papierbericht von vor einundvierzig Jahren abgetastet und ihn als Text in die Verwahrung gegeben.
+
+　Es waren sechs Zeilen.
+
+　— Zur Kontaminationsrate sei ein Punkt festgehalten. Diese Zahl wird aus der Differenz zwischen der Fragmentgruppe des Probanden und der des Lesers berechnet. In vier Jahren ist meine Kontaminationsrate von achtunddreißig auf zwei gefallen. Zunächst verstand ich das als Zunahme der Genauigkeit.
+
+　— Das ist es nicht. Die Differenz ist kleiner geworden, weil die beiden einander ähnlich geworden sind.
+
+　— Zur Frage steht hier die Kennzahl der Kontaminationsrate selbst. Diese Kennzahl gilt als umso besser, je kleiner die Differenz ist. Eine kleine Differenz kann aber ebenso hohe Genauigkeit bedeuten wie den Verlust jeder Möglichkeit, beides auseinanderzuhalten. Die Kennzahl hat kein Mittel, die beiden zu unterscheiden.
+
+　— Mit einer Kennzahl, die sie nicht unterscheiden kann, über Güte zu urteilen, ist dasselbe wie nicht zu urteilen.
+
+　— Ich habe ein Feld gesucht, in dem dieser Punkt zu melden wäre, und im Formular keines gefunden. Daher schreibe ich es an den Rand.
+
+　— Ob es jemanden gibt, der es liest, weiß ich nicht.
+
+　Minato las die sechs Zeilen dreimal.
+
+　Der Leser von vor einundvierzig Jahren schreibt über die Kontaminationsrate. Was Minato in der Hand hält, ist eine andere Kennzahl, die Varianz. Geräte und Umfang des Gegenstands unterscheiden sich um einundvierzig Jahre.
+
+　Was geschrieben steht, war dasselbe.
+
+　Wird die Differenz kleiner, kann die Kennzahl nicht unterscheiden, ob sie einander näher gekommen sind oder ob sie aufgehört hat zu sehen.
+
+
+IX
+
+　„Eine Frage“, sagte Minato. „Die Zahl der Verweise auf diese Aufzeichnung?“
+
+　„Null“, sagte der Korrektor.
+
+　„In einundvierzig Jahren nicht ein einziges Mal?“
+
+　„Nicht ein einziges Mal.“
+
+　Minato sah auf die kleine Zahl unten rechts auf dem Bildschirm. Verweise, null.
+
+　Diese sechs Zeilen wurden in einer Nacht vor einundvierzig Jahren geschrieben. Der sie schrieb, schrieb, dass er nicht wisse, ob es jemanden gibt, der sie liest. Er schrieb sie, ohne es zu wissen.
+
+　Und tatsächlich gab es niemanden.
+
+　Die aufbewahrten Aufzeichnungen erfüllen die Kriterien für die Vernichtung. Der Grund, aus dem sie nicht vernichtet wurden, steht nicht in den Aufzeichnungen. Vier Reduktionspläne wurden entworfen und alle vier zurückgezogen. Alle vier, die sie zurückzogen, haben im Monat davor die aufbewahrten Aufzeichnungen eingesehen. Sie haben sie eingesehen; ob sie sie gelesen haben, steht nicht in den Aufzeichnungen.
+
+　Minato las sie jetzt.
+
+
+X
+
+　Das Formular des Abschlussberichts hat zwei Blätter.
+
+　Auf das erste kommen der Wert der Varianz und die Erfüllung der Voraussetzung. 0,038. Unter dem Standardwert von 0,04. Erfüllt.
+
+　Das zweite Blatt ist das Feld für besondere Bemerkungen. Gibt es nichts zu schreiben, wird es leer eingereicht. Tatsächlich sind neun von zehn früheren Berichten leer.
+
+　Minato schrieb auf das zweite Blatt.
+
+　— Der Varianzwert dieses Berichts ist der amtliche Wert nach dem gegenwärtigen Messsystem. Der Rückgang der letzten fünf Jahre fällt jedoch zeitlich mit drei Änderungen im neunzehnten Jahr zusammen. Alle drei wirken in die Richtung, den Bereich der verzeichneten Veränderung zu verengen.
+
+　— Der geschätzte Wert ohne die Änderungen beträgt 0,061; da kein Verfahren zur Schätzung einer nicht verzeichneten Menge etabliert ist, lässt er sich nicht als Grundlage einreichen.
+
+　— Ferner enthalten die Formulare dieses Plans keine Kategorie, um einen Zweifel an der Gültigkeit des Messsystems einzutragen. Vierzehn Hinweise derselben Art bestehen in den aufbewahrten Aufzeichnungen; der älteste ist einem Leserbericht von vor einundvierzig Jahren beigefügt. Sein Inhalt besagt, dass eine kleine Differenz ebenso ein Näherkommen wie den Verlust jeder Möglichkeit bedeuten kann, beides auseinanderzuhalten, und dass die Kennzahl kein Mittel hat, die beiden zu unterscheiden.
+
+　— Auf diesen Grundlagen meldet dieser Bericht die Erfüllung der Voraussetzung.
+
+　Nachdem sie es geschrieben hatte, reichte Minato ein.
+
+　Der Abschluss wurde vier Tage später genehmigt. Zu den besonderen Bemerkungen kamen keine Fragen.
+
+
+XI
+
+　Mit dem Abschluss der Zweiten Synchronisation tritt der Plan in seine nächste Stufe.
+
+　Der Name der nächsten Stufe steht noch nicht fest. Ein Vorschlag, den Standardwert weiter zu senken, und einer, den Umfang zu erweitern, werden nebeneinander geprüft. Beide sollten in der Haushaltsanmeldung des nächsten Jahres erscheinen.
+
+　Minato wurde zu dieser Sitzung nicht gerufen. Die Aufgabe, den Abschlussbericht zu schreiben, endet mit dem Schreiben.
+
+　An ihrem letzten Arbeitstag, beim Aufräumen des Geräts, öffnete Minato jene sechs Zeilen noch einmal.
+
+　Nachdem sie sie geöffnet hatte, sah sie nach unten rechts.
+
+　Verweise, eins.
+
+　Dass sie es gestern geöffnet hatte, war gezählt worden. Es hat einundvierzig Jahre gedauert, bis aus null eins wurde.
+
+　Dass es eins wird, ändert nichts. Der Abschluss ist genehmigt, und die nächste Stufe wird geprüft. Die Varianz fällt weiter. Ein Mittel zu unterscheiden, ob sie fällt oder ob sie aufgehört hat, sichtbar zu sein, gibt es weiterhin nicht.
+
+　Nur war das, was der Mensch, der diese sechs Zeilen schrieb, vor einundvierzig Jahren wissen wollte, ob es jemanden gibt, der sie liest. Mehr nicht.
+
+　Minato schloss das Gerät.
+
+　Bevor sie es schloss, stellte sie fest, dass ihre eigenen besonderen Bemerkungen in die aufbewahrten Aufzeichnungen gegangen waren. Die Kategorie: Zweifel, außerhalb des Formulars. Verweise, null.
+
+　Wie lange es dauert, bis jemand sie als Nächstes öffnet, weiß sie nicht. Es mögen weniger als einundvierzig Jahre sein, und es mögen mehr sein.
+
+　Einen Punkt, diese Zahl vorherzusagen, hatte dieser Plan ebenfalls nicht.
