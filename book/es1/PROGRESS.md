@@ -19,12 +19,12 @@ decide allí antes de usarse. Compilar con `python3 book/tools/build_epub.py es1
 | IV | 夢の翻訳者 | El traductor | 3.915 | 1.670 | **hecho** |
 | V | 二人称の夢 | El sueño en segunda persona | 3.454 | 1.553 | **hecho** |
 | VI | 夢税 | Impuesto sobre el sueño | 3.391 | 1.546 | **hecho** |
-| VII | 涙の代筆 | Duelo por delegación | 4.476 | — | pendiente |
-| VIII | 夢裁判 | La condena | 4.577 | — | pendiente |
-| IX | 目覚めない権利 | El derecho a no despertar | 4.503 | — | pendiente |
-| X | 夢の相続 | La herencia | 4.587 | — | pendiente |
-| XI | 幸福指数九八 | Índice de Felicidad 98 | 4.218 | — | pendiente |
-| XII | 沈黙の被験者 | El sujeto silencioso | 4.508 | — | pendiente |
+| VII | 涙の代筆 | Duelo por delegación | 4.476 | 1.961 | **hecho** |
+| VIII | 夢裁判 | La condena | 4.577 | 2.006 | **hecho** |
+| IX | 目覚めない権利 | El derecho a no despertar | 4.503 | 2.044 | **hecho** |
+| X | 夢の相続 | La herencia | 4.587 | 2.044 | **hecho** |
+| XI | 幸福指数九八 | Índice de Felicidad 98 | 4.218 | 1.982 | **hecho** |
+| XII | 沈黙の被験者 | El sujeto silencioso | 4.508 | 2.215 | **hecho** |
 
 Japonés en total, 51.721 caracteres. Las cifras de esta tabla las escribe
 `python3 book/tools/sync_tr_counts.py es1`, no la mano.
