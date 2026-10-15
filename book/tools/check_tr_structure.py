@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""英語版が原文の構造を取りこぼしていないかを検査する。
+"""訳文が原文の構造を取りこぼしていないかを検査する。
 
 使い方:
-    python3 book/tools/check_en_structure.py
+    python3 book/tools/check_tr_structure.py
 
 原文と訳文を、節ごとの段落数で突き合わせる。翻訳でいちばん起きやすい事故は
 誤訳ではなく「一段落まるごと落とす」ことで、通しで読んでも気づきにくい。
@@ -17,10 +17,10 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PAIRS = {"en1": "vol1", "en2": "vol2"}
+PAIRS = {"en1": "vol1", "en2": "vol2", "de1": "vol1", "de2": "vol2"}
 
 JA_SEC = re.compile(r"^[一二三四五六七八九十]+$")
-EN_SEC = re.compile(r"^[IVXLC]+$")
+TR_SEC = re.compile(r"^[IVXLC]+$")  # 訳文の節番号はどの言語もローマ数字
 
 
 QUOTE = "\u3000\u3000\u3000"  # 書類の表題などの引用に使う三字下げ
@@ -58,33 +58,33 @@ def main() -> int:
     problems = 0
     checked = 0
 
-    for en_vol, ja_vol in PAIRS.items():
-        en_dir = ROOT / en_vol / "stories"
-        if not en_dir.is_dir():
+    for tr_vol, ja_vol in PAIRS.items():
+        tr_dir = ROOT / tr_vol / "stories"
+        if not tr_dir.is_dir():
             continue
-        for en_path in sorted(en_dir.glob("[0-9][0-9]_*.txt")):
-            num = en_path.name[:2]
+        for tr_path in sorted(tr_dir.glob("[0-9][0-9]_*.txt")):
+            num = tr_path.name[:2]
             ja_hits = sorted((ROOT / ja_vol / "stories").glob(f"{num}_*.txt"))
             if not ja_hits:
-                print(f"× {en_vol}/{en_path.name}: 対応する原文が見つからない")
+                print(f"× {tr_vol}/{tr_path.name}: 対応する原文が見つからない")
                 problems += 1
                 continue
 
             ja = blocks(ja_hits[0].read_text(encoding="utf-8").split("\n"), JA_SEC)
-            en = blocks(en_path.read_text(encoding="utf-8").split("\n"), EN_SEC)
+            tr = blocks(tr_path.read_text(encoding="utf-8").split("\n"), TR_SEC)
             checked += 1
 
-            if len(ja) != len(en):
-                print(f"× {en_vol}/{en_path.name}: 節の数が違う "
-                      f"（原文 {len(ja)} / 訳文 {len(en)}）")
+            if len(ja) != len(tr):
+                print(f"× {tr_vol}/{tr_path.name}: 節の数が違う "
+                      f"（原文 {len(ja)} / 訳文 {len(tr)}）")
                 problems += 1
                 continue
 
-            bad = [(i + 1, a, b) for i, (a, b) in enumerate(zip(ja, en)) if a != b]
+            bad = [(i + 1, a, b) for i, (a, b) in enumerate(zip(ja, tr)) if a != b]
             if bad:
                 problems += len(bad)
                 for sec, a, b in bad:
-                    print(f"× {en_vol}/{en_path.name}: 第{sec}節の段落数が違う "
+                    print(f"× {tr_vol}/{tr_path.name}: 第{sec}節の段落数が違う "
                           f"（原文 {a} / 訳文 {b}）")
 
     print()

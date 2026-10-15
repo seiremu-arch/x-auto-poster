@@ -51,6 +51,20 @@ VOLUMES = {
         "lang": "en",
         "vertical": False,
     },
+    "de1": {
+        "title": "Das Traumamt",
+        "subtitle": "Zwölf Nächte",
+        "uuid": "urn:uuid:8f2c1a64-3d5e-4b90-a7c1-00000000d001",
+        "lang": "de",
+        "vertical": False,
+    },
+    "de2": {
+        "title": "Die Angleichung",
+        "subtitle": "Das Traumamt, Band Zwei",
+        "uuid": "urn:uuid:8f2c1a64-3d5e-4b90-a7c1-00000000d002",
+        "lang": "de",
+        "vertical": False,
+    },
 }
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -177,8 +191,11 @@ def story_xhtml(story: dict, meta: dict) -> str:
 
 def front_xhtml(stories: list, meta: dict) -> str:
     total = sum(s["chars"] for s in stories)
-    counted = (f"全{len(stories)}話　約{total:,}字" if meta["lang"] == "ja"
-               else f"{len(stories)} stories")
+    counted = {
+        "ja": f"全{len(stories)}話　約{total:,}字",
+        "en": f"{len(stories)} stories",
+        "de": f"{len(stories)} Erzählungen",
+    }[meta["lang"]]
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<html xmlns="http://www.w3.org/1999/xhtml" '
@@ -200,7 +217,8 @@ def front_xhtml(stories: list, meta: dict) -> str:
 
 
 def nav_xhtml(stories: list, meta: dict) -> str:
-    nav_label = "目次" if meta["lang"] == "ja" else "Contents"
+    nav_label = {"ja": "目次", "en": "Contents",
+                 "de": "Inhalt"}[meta["lang"]]
     items = "\n".join(
         f'    <li><a href="p{i:02d}.xhtml">{html.escape(s["title"])}</a></li>'
         for i, s in enumerate(stories, start=1)

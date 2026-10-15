@@ -72,6 +72,26 @@ VOLUMES = {
         "alpha_range": (46, 62),
         "vertical": False,
     },
+    "de1": {
+        # 第一巻のドイツ語版。帯の数値はすべて vol1 と同一にする
+        "title": "Das\nTraumamt",
+        "subtitle": "Zwölf Nächte",
+        "seed": 20260902,
+        "accent_alpha": 215,
+        "height_spread": 0.10,
+        "alpha_range": (28, 90),
+        "vertical": False,
+    },
+    "de2": {
+        # 第二巻のドイツ語版。帯の数値はすべて vol2 と同一にする
+        "title": "Die\nAngleichung",
+        "subtitle": "Das Traumamt, Band Zwei",
+        "seed": 20260902,
+        "accent_alpha": 58,
+        "height_spread": 0.03,
+        "alpha_range": (46, 62),
+        "vertical": False,
+    },
 }
 
 W, H = 1600, 2560

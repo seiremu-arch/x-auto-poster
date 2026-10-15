@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""英語版PROGRESS.mdの字数・語数を、実際の本文ファイルから同期する。
+"""翻訳版PROGRESS.mdの字数・語数を、実際の本文ファイルから同期する。
 
 使い方:
-    python3 book/tools/sync_en_counts.py en1
-    python3 book/tools/sync_en_counts.py          # 全巻
+    python3 book/tools/sync_tr_counts.py en1
+    python3 book/tools/sync_tr_counts.py          # 全訳版
 
 表の各行を、ローマ数字（第1列）で本文ファイルと突き合わせ、
   Source  … 対応する vol1 の原文字数（空白を除く）
@@ -19,8 +19,19 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SECTION_RE = re.compile(r"^(?:[一二三四五六七八九十]+|[IVXLC]+)$")
 
-# 英語版 -> 原書
-PAIRS = {"en1": "vol1", "en2": "vol2"}
+# 訳版 -> 原書
+PAIRS = {"en1": "vol1", "en2": "vol2", "de1": "vol1", "de2": "vol2"}
+
+# 言語ごとの書式。桁区切りと「訳了」の語が違う
+FORMATS = {
+    "en": {"sep": ",", "done": "**done**"},
+    "de": {"sep": ".", "done": "**fertig**"},
+}
+
+
+def group(n: int, sep: str) -> str:
+    """桁区切りを言語の流儀に合わせる。ドイツ語は 4.997、英語は 4,997。"""
+    return f"{n:,}".replace(",", sep)
 
 
 def numeral(path: Path) -> str:
@@ -71,9 +82,10 @@ def sync(vol: str) -> None:
             continue
         key, w = en[num]
         before = tuple(cells[3:6])
-        cells[3] = f"{ja[key]:,}"
-        cells[4] = f"{w:,}"
-        cells[5] = "**done**"
+        fmt = FORMATS[vol[:2]]
+        cells[3] = group(ja[key], fmt["sep"])
+        cells[4] = group(w, fmt["sep"])
+        cells[5] = fmt["done"]
         if tuple(cells[3:6]) != before:
             lines[i] = "| " + " | ".join(cells) + " |"
             changed.append((num, before, tuple(cells[3:6])))
@@ -91,7 +103,7 @@ def sync(vol: str) -> None:
 
     total_w = sum(w for _, w in en.values())
     total_c = sum(ja[k] for k, _ in en.values())
-    print(f"[{vol}] 訳了 {len(en)}話　原文 {total_c:,}字 → 英文 {total_w:,} words"
+    print(f"[{vol}] 訳了 {len(en)}話　原文 {total_c:,}字 → 訳文 {total_w:,} words"
           f"（比 {total_w / total_c:.3f} words/字）")
 
 

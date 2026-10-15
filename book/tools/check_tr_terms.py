@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""英語版の用語ゆれ・表記ゆれを機械で検査する。
+"""訳文の用語ゆれ・表記ゆれを機械で検査する。
 
 使い方:
-    python3 book/tools/check_en_terms.py
+    python3 book/tools/check_tr_terms.py
 
 GLOSSARY.md で固定した語の「やってはいけない変形」と、
-英国綴り・組み方の規則を正規表現で当てる。十二話を通して読む代わりに、
+言語ごとの綴り・組み方の規則を正規表現で当てる。十二話を通して読む代わりに、
 ずれやすいところだけを機械に見せる。
 
 人名も見る。原文に読み仮名がない姓は訳者が読みを決めることになり、
@@ -19,10 +19,10 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-STORIES = sorted(ROOT.glob("en[0-9]/stories/[0-9][0-9]_*.txt"))
+STORIES = sorted(ROOT.glob("[a-z][a-z][0-9]/stories/[0-9][0-9]_*.txt"))
 
 # (説明, 正規表現) ─ 当たったら報告する
-CHECKS = [
+CHECKS_EN = [
     ("技師は technician（engineer は不可）", r"\bengineers?\b"),
     ("半色は half-shade（ハイフンなし・colour 綴りは不可）", r"\bhalf[ ]shade\b|\bhalf-?colou?r\b"),
     ("校正官は the Proofreader（大文字・ハイフンなし）", r"\bproofreader\b|\bProof[- ]reader\b"),
@@ -47,6 +47,39 @@ CHECKS = [
     ("行末の空白", r"[ \t]+$"),
     ("曲がっていない引用符（本文は \" で統一）", r"[“”]"),
 ]
+
+# ドイツ語版。英語とは守るものが違うので別に持つ。
+#   ・小数点は読点（0,05）。英語の 0.05 が残ると数値の意味が変わる
+#   ・引用符は „ ... “。英語の " が残ると組みが崩れる
+#   ・新正書法（dass / muss）。daß は旧正書法
+#   ・ドイツ式の ß を使う。gross / Strasse はスイス式
+CHECKS_DE = [
+    ("荷重の小数点は読点（0,05）。0.05 は不可",
+     r"\b\d+\.\d+\b"),
+    ("引用符は „ ... “（\" は不可）", r"\""),
+    ("旧正書法 daß（dass にする）", r"\bda\u00df\b"),
+    ("スイス式 ss（ß にする）",
+     r"\bgross\b|\bgr\u00f6sser\b|\bStrasse\b|\bwei\u00df?ss\b|\bhei\u00dfst\b"
+     r"|\bweiss\b|\bheisst\b|\bFuss\b|\bmuss?te\b(?<!musste)"),
+    ("校正官は der Korrektor（Lektor / Proofreader は不可）",
+     r"\bLektor\w*\b|\bProofreader\b"),
+    ("半色は der Halbton（Halbfarbe / half-shade は不可）",
+     r"\bHalbfarbe\w*\b|\bhalf-shade\b"),
+    ("素片は das Fragment（Splitter / Bruchst\u00fcck は不可）",
+     r"\bSplitter\b|\bBruchst\u00fcck\w*\b"),
+    ("情動荷重は die affektive Last（Emotionslast は不可）",
+     r"\bEmotionslast\w*\b|\bGef\u00fchlslast\w*\b"),
+    ("照合機は der Komparator", r"\bVergleicher\b|\bAbgleicher\b"),
+    ("残差は das Residuum（Restwert は不可）", r"\bRestwert\w*\b"),
+    ("均し計画は der Angleichungsplan",
+     r"\bNivellierungsplan\b|\bGl\u00e4ttungsplan\b"),
+    ("英語が混じっている", r"\bthe\b|\bProofreader\b|\bper cent\b|\bfragment\b"),
+    ("百分率は Prozent", r"\bpercent\b"),
+    ("漢数字の残り（〇・一二三…）", r"[〇一二三四五六七八九十]"),
+    ("行末の空白", r"[ \t]+$"),
+]
+
+CHECKS = {"en": CHECKS_EN, "de": CHECKS_DE}
 
 # 原文の姓 -> 英語表記。第二巻は原文の読み仮名、第一巻は通用する読みによる。
 # 「その話に原文の姓が出るなら、英文にもこの綴りが出る」ことだけを見る。
@@ -112,12 +145,37 @@ def check_names() -> int:
     return bad
 
 
-def main() -> int:
-    hits = check_names()
+def check_de_quotes() -> int:
+    """ドイツ語版の引用符が開きと閉じで同数かを見る。
+
+    „ と “ は別の文字なので、片方だけ打ち間違えても文としては読める。
+    行ごとの正規表現では数えられないので、ファイル単位で突き合わせる。
+    """
+    bad = 0
     for path in STORIES:
+        if path.parts[-3][:2] != "de":
+            continue
+        t = path.read_text(encoding="utf-8")
+        op, cl = t.count("\u201e"), t.count("\u201c")
+        if op != cl:
+            print(f"{path.relative_to(ROOT)}: 引用符の数が合わない"
+                  f"（開き „ {op} / 閉じ \u201c {cl}）")
+            bad += 1
+    return bad
+
+
+def main() -> int:
+    hits = check_names() + check_de_quotes()
+    for path in STORIES:
+        lang = path.parts[-3][:2]          # en1/de2 などの先頭2字
+        checks = CHECKS.get(lang)
+        if checks is None:
+            print(f"{path}: 検査の定義がない言語 {lang!r}")
+            hits += 1
+            continue
         text = path.read_text(encoding="utf-8")
         lines = text.split("\n")
-        for label, pattern in CHECKS:
+        for label, pattern in checks:
             rx = re.compile(pattern, re.MULTILINE)
             for i, line in enumerate(lines, start=1):
                 for m in rx.finditer(line):
