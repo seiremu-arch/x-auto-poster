@@ -1,0 +1,255 @@
+X. El último fallo
+
+
+I
+
+　Personas sin relación entre sí están teniendo la misma pesadilla.
+
+　El primer aviso subió desde un municipio del noreste. En el seguimiento posterior al tratamiento, once de los sujetos habían empezado a tener una misma pesadilla que no era objeto del tratamiento.
+
+　Los once no tienen parentesco. Ni domicilio ni centro de trabajo coinciden. Lo único común es haber recibido tratamiento el mismo mes.
+
+　—Los asientos afectados en todo el país —Ogido abrió el terminal. Pertenece al Departamento de Gestión Técnica, Sección de Análisis de Incidencias.
+
+　—Dos mil cuatrocientos siete —dijo el Corrector—. Recuento de los últimos seis meses.
+
+　—La tasa de aumento.
+
+　—Catorce por ciento mensual.
+
+　Ogido leyó esa cifra tres veces.
+
+　Lleva siete años en la Sección de Análisis de Incidencias. Lo que esta sección trata es, por lo general, una avería del aparato. La salida se detiene. La carga supera lo reglamentario. La medición salta. Todo tiene una causa, y suprimida la causa se detiene.
+
+　Nunca hasta ahora había tratado algo que no se detiene.
+
+
+II
+
+　El trabajo de Ogido era determinar la causa.
+
+　Lo primero que sospechó fue la variación entre unidades. Si hubiera un sesgo hacia un modelo o un lote concretos, el asunto sería rápido.
+
+　No había sesgo. Los dos mil cuatrocientos siete asientos se distribuyen por igual entre los aparatos de todo el país.
+
+　Lo siguiente que sospechó fue la contaminación por fragmentos sintetizados. Si en el curso del tratamiento se filtra otro fragmento, se produce un fenómeno así.
+
+　—¿Hay en los registros del tratamiento alguna consulta de fragmentos sintetizados?
+
+　—No hay —dijo el Corrector—. Todos ellos son ediciones a la baja ordinarias. La síntesis no interviene.
+
+　—Entonces, el contenido de la pesadilla.
+
+　—El contenido no se obtiene —dijo el Corrector—. No existe técnica para extraer un sueño como imagen.
+
+　—Entonces, en qué se fundamenta el juicio de que es la misma.
+
+　—En la estructura del fragmento —dijo el Corrector—. El grado de coincidencia estructural de los fragmentos en cuestión de los dos mil cuatrocientos siete asientos es del noventa y seis por ciento.
+
+
+III
+
+　Ogido hizo mostrar esa estructura.
+
+　Una sola banda. Fina, de color tenue. En términos de carga queda entre 0,04 y 0,06. Un valor del orden de lo que acompaña a las pequeñeces de un día cualquiera.
+
+　Solo que la forma estaba limpia.
+
+　Ogido reconocía esa forma.
+
+　Hace tres años llegó una consulta derivada de la Sección de Garantía de Calidad. Decía que en la salida de los fragmentos sintetizados se mezclaba un componente excedente que no se explicaba desde los materiales de entrada. Aquel componente excedente tenía la misma forma que esto.
+
+　—¿Es la misma estructura que la de la consulta de Garantía de Calidad de hace tres años?
+
+　—La misma —dijo el Corrector—. El grado de coincidencia es del noventa y cuatro por ciento.
+
+　—La conclusión de entonces.
+
+　—Corrección innecesaria —dijo el Corrector—. Consta: por ser leve el efecto sobre la salida y superarlo la pérdida de calidad que acarrearía la medida correctora.
+
+　—Entonces, por qué sale ahora en los sueños de las personas.
+
+　—Ese apartado no lo registramos.
+
+
+IV
+
+　Ogido siguió el recorrido.
+
+　El componente excedente de hace tres años salía como resultado de consultar, en la capa intermedia de la síntesis, los rasgos de los registros conservados. Es un fenómeno que aparece solo en los fragmentos sintetizados, y su recorrido es distinto del de la edición a la baja ordinaria.
+
+　Debía ser distinto.
+
+　Ogido repasó el sistema de proceso de la edición a la baja. Para decidir el punto y la cantidad de presión, el aparato evalúa la disposición de los fragmentos contiguos. Para la evaluación usa un modelo estadístico.
+
+　En los datos de entrenamiento de ese modelo había registros conservados.
+
+　—Desde cuándo.
+
+　—Desde la actualización de hace cuatro años —dijo el Corrector—. Para elevar la precisión de la evitación del arrastre sobre fragmentos contiguos se amplió el conjunto de entrenamiento.
+
+　—¿Para la ampliación se usaron los registros conservados?
+
+　—Se usan —dijo el Corrector—. Se valoraron como eficaces, por ser casos que contienen la parte de la memoria de una persona que no tiene explicación.
+
+　Ogido se recostó en el respaldo.
+
+　Cuarenta y un años, doscientos ochenta millones de asientos. Un montón reunido con lo que no tenía campo donde escribirse sirve, desde hace cuatro años, de referencia cuando los aparatos de todo el país deciden dónde presionar.
+
+
+V
+
+　El mecanismo era sencillo.
+
+　Al decidir el punto de presión, el aparato trata de acercarse a la «disposición natural de la memoria» que ha aprendido. En el acercamiento entra un mínimo retoque de forma. El retoque es de 0,001 o menos y no alcanza el umbral de registro.
+
+　El mismo modelo lo usan los aparatos de todo el país. El mismo retoque entra, en todo el país, en la misma dirección.
+
+　Una vez no produce nada. Acumulado, junto al fragmento presionado se forma una hondonada de la misma forma.
+
+　La hondonada no es un fragmento. Solo que el cerebro pone algo dentro. Lo que se pone tiene la misma forma.
+
+　—Es decir, que esto no es memoria.
+
+　—No se ajusta a la definición de memoria —dijo el Corrector—. No hay un suceso del que proceda.
+
+　—Entonces, qué es lo que ven las personas.
+
+　—La forma de la hondonada.
+
+　Ogido estuvo un rato pensando en esa manera de decirlo.
+
+　Mientras duerme, una persona vuelve a enlazar sus recuerdos. Si el sitio donde enlazar está libre, el cerebro pone algo ahí. Lo que pone se hace con lo que esa persona tiene. Por eso el contenido difiere de una persona a otra.
+
+　Difiere, y sin embargo solo la forma resulta la misma.
+
+　—Lo que ven los dos mil cuatrocientos siete, ¿es lo mismo?
+
+　—No puede determinarse —dijo el Corrector—. No hay medio de obtener el contenido.
+
+　—Entonces, de dónde viene la expresión «la misma pesadilla».
+
+　—De las declaraciones de los sujetos —dijo el Corrector—. De las declaraciones, el sesenta por ciento emplea la expresión «tengo sueños raros». El treinta por ciento, «tengo el mismo sueño repetidamente». El diez por ciento restante contiene descripción del contenido.
+
+　—El grado de coincidencia de las descripciones.
+
+　—Cuarenta y uno por ciento.
+
+　No llega a la mitad. No era la misma pesadilla. En una hondonada de la misma forma cada uno pone lo suyo. Eso sale en palabras parecidas cuatro veces de cada diez.
+
+
+VI
+
+　El informe al jefe de departamento fue la semana siguiente.
+
+　—Las medidas.
+
+　—Hay tres —dijo Ogido—. Sacar los registros conservados del conjunto de entrenamiento. Devolver el modelo a la versión de hace cuatro años. O no hacer nada.
+
+　—Si no se hace nada, qué pasa.
+
+　—Seguirá aumentando. Al catorce por ciento mensual, en tres años se prevé que alcance el cuarenta por ciento de todos los sujetos tratados.
+
+　—La gravedad de los síntomas.
+
+　—De 0,04 a 0,06 —dijo Ogido—. Clínicamente no es un nivel que plantee problema. Como queja se queda en «tengo sueños raros».
+
+　El jefe pensó un momento.
+
+　—Si se devuelve el modelo, qué pasa con el arrastre.
+
+　—Vuelve al nivel de hace cuatro años —dijo Ogido—. La variación sobre los fragmentos contiguos aumenta a unas tres veces la actual.
+
+　—El triple es inviable.
+
+　—Es inviable.
+
+　—Entonces, sacar solo los registros conservados.
+
+　—Lo he calculado —dijo Ogido—. El arrastre aumenta 1,4 veces. Y la textura de las síntesis baja doce puntos.
+
+　El jefe se quedó un rato mirando esas cifras.
+
+　—Ogido, dígame una cosa: esto es algo malo, ¿sí o no?
+
+　Ogido no supo responder.
+
+　—No le estoy pidiendo una impresión —siguió el jefe—. Para decidir si procede una medida hay que decir si es malo. Si no es malo, nosotros no podemos movernos.
+
+　—Como síntoma no es malo.
+
+　—Entonces, qué es lo que le atasca.
+
+　—La escala —dijo Ogido—. Por persona son 0,05. En tres años entrará lo mismo en el cuarenta por ciento de todos los sujetos tratados. No hay manera de sumar con la misma medida el valor por persona y el número de personas en que entra.
+
+　—¿Hace falta sumarlos?
+
+　—Creo que sí —dijo Ogido—. Pero no hay norma sobre cómo sumarlos.
+
+　El jefe asintió. Fue un asentimiento que no negaba ni afirmaba.
+
+　—Pues escríbalo. Que no hay norma.
+
+
+VII
+
+　Aquella noche Ogido miró otra vez la distribución de los dos mil cuatrocientos siete asientos.
+
+　Sin relación con la edad, la profesión ni la región, repartidos por igual. Lo único en común es haber recibido una edición a la baja en estos cuatro años.
+
+　Dos mil cuatrocientas siete personas tienen una hondonada de la misma forma. Lo que se pone en la hondonada difiere, probablemente, de una persona a otra. Pero si la forma es la misma, también se parece lo que se pone.
+
+　En tres años será el cuarenta por ciento. En diez, casi todos.
+
+　Ogido pensó en cómo se llama una sociedad en que todos tienen una hondonada de la misma forma.
+
+　Nivelada, se llamará, pensó. El Plan trata de acercar a la media la carga de un millón de personas; esto es el resultado de que la maña de los aparatos haya quedado igualada en todo el país. El propósito y el procedimiento son completamente distintos.
+
+　Distintos, y la forma a la que se llega se parecía.
+
+　—Una pregunta —dijo Ogido—. ¿Este fenómeno tiene nombre?
+
+　—Tiene número de gestión de incidencias —dijo el Corrector—. Categoría: avería leve conocida.
+
+　—El nombre corriente.
+
+　—Sobre el terreno lo llaman el último fallo.
+
+　—El último, en qué sentido.
+
+　—Porque se prevé que sea la última avería cuya causa quede determinada —dijo el Corrector—. Las divergencias que surjan a partir de ahora tendrán en su mayoría origen en actualizaciones del modelo de aprendizaje, y su causa concreta no podrá determinarse.
+
+
+VIII
+
+　En el campo de categoría de medida del informe, Ogido escribió «observación continuada».
+
+　Hay cuatro opciones. Corrección inmediata. Corrección planificada. Observación continuada. Corrección innecesaria.
+
+　La Garantía de Calidad de hace tres años eligió «corrección innecesaria». Ogido eligió la anterior. La diferencia es solo si el siguiente responsable tiene o no la obligación de abrir este asunto.
+
+　En el campo de observaciones, Ogido escribió esto:
+
+　　　El presente asunto se tramita como avería leve conocida, pero que el nivel de los síntomas sea leve y que el alcance del efecto sea leve no son la misma cosa. La previsión a tres años es del cuarenta por ciento de todos los sujetos tratados. En los criterios vigentes de gestión de incidencias no hay norma que valore conjuntamente el valor por persona y el número de personas afectadas.
+
+　Después de escribirlo, comprobó a dónde remite el campo de observaciones.
+
+　—Esta observación, quién la lee.
+
+　—La lee el responsable de análisis de incidencias del siguiente periodo —dijo el Corrector—. Los asuntos en observación continuada se presentan en una relación al traspasar el puesto.
+
+　Ogido se sorprendió un poco.
+
+　«¿Se lee?», estuvo a punto de decir, y lo dejó. Lo que le atascaba, más bien, era haber llegado a encontrar sorprendente que existiera un campo que se lee.
+
+　—Una pregunta —dijo Ogido—. Los asuntos en observación continuada, ¿cuántos hay?
+
+　—Actualmente hay cuarenta y siete en observación continuada —dijo el Corrector—. El más antiguo se registró hace veintidós años.
+
+　—¿Veintidós años observándolo?
+
+　—Se presenta en la relación al traspasar el puesto —dijo el Corrector—. Si el asunto presentado se abrió o no, no lo registramos.
+
+　Fuera de la ventana estaba oscuro. En todo el país, esta noche también funcionan los aparatos. El punto de presión lo decide un modelo fijado hace cuatro años. Cómo lo decide no lo sabe nadie, pero en todo el país es el mismo.
+
+　A que sea el mismo se le llama alta precisión.
