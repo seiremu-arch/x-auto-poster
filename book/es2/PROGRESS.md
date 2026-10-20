@@ -21,7 +21,7 @@ con el Libro I. Compilar con `python3 book/tools/build_epub.py es2`.
 | VI | 夢の犯罪 | Lesiones | 3.933 | 1.749 | **hecho** |
 | VII | 消えた現実 | El registro | 3.982 | 1.820 | **hecho** |
 | VIII | 夢の海 | El mar de los sueños | 3.889 | 1.867 | **hecho** |
-| IX | 明日の夢 | El sueño de mañana | 3.879 | — | pendiente |
+| IX | 明日の夢 | El sueño de mañana | 3.879 | 1.946 | **hecho** |
 | X | 最後のバグ | El último fallo | 3.843 | — | pendiente |
 | XI | 残差 | Residuo | 3.906 | — | pendiente |
 | XII | 完了報告 | El informe de cierre | 4.090 | — | pendiente |
