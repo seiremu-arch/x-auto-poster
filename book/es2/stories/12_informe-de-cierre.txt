@@ -1,0 +1,264 @@
+XII. El informe de cierre
+
+
+I
+
+　El requisito de cierre de la Segunda Sincronización está fijado en una línea.
+
+　— Se tendrá por cerrada en el momento en que la varianza de la carga afectiva en el colectivo objeto quede por debajo del valor de referencia.
+
+　El valor de referencia es 0,04. Una cifra decidida hace veintitrés años, al iniciarse el Plan.
+
+　En el recuento de junio, la varianza quedó en 0,038.
+
+　—Se cumple el requisito —dijo el Corrector—. Puede redactarse el informe de cierre.
+
+　Minato se quedó un rato mirando la pantalla. Pertenece a la Oficina del Plan de Nivelación, equipo de evaluación. Los encargados de redactar el informe de cierre son solo tres en esta sala.
+
+　Es un plan que ha llevado veintitrés años. Quienes lo aprobaron al inicio están todos jubilados. Cómo se decidió el valor de referencia de 0,04 no lo sabe nadie en este edificio.
+
+　Minato, al incorporarse, buscó una vez ese fundamento. En los documentos de diseño del Plan había una sola línea.
+
+　— Se adopta 0,04 como el nivel en que deja de observarse discrepancia estadísticamente significativa.
+
+　El nivel en que deja de observarse. Quien lo escribió lo escribió, probablemente, con rigor. No escribió el nivel en que deja de haber discrepancia.
+
+
+II
+
+　Minato sacó primero la evolución de la varianza.
+
+　Se mostró una línea quebrada de veintitrés años. Al inicio, 0,21. Al décimo año, 0,12. Al decimoquinto, 0,07.
+
+　En los últimos cinco años la pendiente de la línea había cambiado.
+
+　Hasta el decimoctavo año bajaba suavemente; desde el decimonoveno cae de golpe. En cinco años, de 0,06 a 0,038: lo mismo que se había movido en los diez años anteriores.
+
+　—Qué hubo en el decimonoveno año.
+
+　—Hay tres registros que corresponden —dijo el Corrector—. Reforma del régimen de reparto. Reforma de los criterios de gestión de incidencias. Reforma del umbral de registro de la variación en fragmentos contiguos.
+
+　Minato abrió los tres.
+
+
+III
+
+　El primero era la reforma que reparte a los copartícipes en la misma semana.
+
+　Forma parte de la eficiencia. Tratando juntos a quienes tienen el mismo recuerdo sube la tasa de utilización de los aparatos. Secundariamente, mejora también la persistencia del efecto de los tratamientos.
+
+　Que mejore la persistencia quería decir que ya no vuelve. Si no vuelve, la varianza baja.
+
+　El segundo era la reforma que fijó el tratamiento de las averías leves conocidas. Al usar los aparatos de todo el país el mismo modelo estadístico, junto al fragmento presionado se forma una hondonada de la misma forma. El síntoma es del orden de 0,05 y clínicamente no plantea problema.
+
+　Si a todos se les forma una hondonada de la misma forma, la varianza baja.
+
+　El tercero era la reforma que subió de 0,01 a 0,03 el umbral de registro de la variación en fragmentos contiguos. La variación dentro del umbral no se registra.
+
+　La variación que no se registra no entra en el cálculo de la varianza.
+
+　Minato probó a poner una al lado de otra las fechas de entrada en vigor de las tres.
+
+　Eran del mismo trimestre del decimonoveno año.
+
+
+IV
+
+　—Una pregunta —dijo Minato—. ¿Estas tres se redactaron de forma concertada?
+
+　—No consta en los registros —dijo el Corrector—. Los departamentos proponentes son distintos en cada caso. La Sección de Distribución, la Sección de Análisis de Incidencias y el Departamento de Gestión Técnica.
+
+　—Indicios de que se consultaran entre sí.
+
+　—No hay.
+
+　Minato decidió creerlo. Tampoco tenía material para no creerlo.
+
+　Tres departamentos hicieron, cada uno por su motivo, cada uno su reforma. La Distribución, por la tasa de utilización. El Análisis de Incidencias, por la magnitud del coste. La Gestión Técnica, para absorber los asuntos que requieren manos. Todos se sostienen.
+
+　Los tres razonamientos que se sostienen coincidieron en el mismo trimestre.
+
+　No es casualidad, pensó Minato. Después de pensarlo buscó el fundamento y no lo encontró.
+
+　Las tres parten todas de que no se aprobó el presupuesto. Como no se pueden ampliar instalaciones, se rellena con predicción. Como no se puede ampliar la plantilla, se sube el umbral. Como el coste de corregir es grande, se pasa a observación continuada.
+
+　Si en el mismo ejercicio pesa la misma restricción, departamentos distintos sacan por separado soluciones en la misma dirección. No hace falta que se pongan en contacto.
+
+　Llamar a eso casualidad o no era una cuestión de palabras.
+
+
+V
+
+　Minato intentó recalcular la varianza.
+
+　Sacar el valor que habría de no haberse hecho las tres reformas. Devolver el umbral de registro a 0,01, suplir por estimación la variación no registrada, y deshacer el reparto de copartícipes en la misma semana para sumar la parte que volvería.
+
+　—La precisión de la estimación.
+
+　—Baja —dijo el Corrector—. No hay método establecido para estimar una cantidad que no se ha registrado.
+
+　—Sáquelo de todos modos.
+
+　Salió la cifra.
+
+　0,061.
+
+　Superaba con mucho el valor de referencia de 0,04.
+
+
+VI
+
+　Aquel día Minato se fue a casa sin hacer nada.
+
+　Al día siguiente lo consultó con la jefa de equipo. Una mujer de unos cincuenta, doce años en la Oficina del Plan.
+
+　—Minato, ese recálculo, ¿sirve de fundamento?
+
+　—No sirve —dijo Minato—. Como el método de estimación no está establecido, no puede presentarse como cifra.
+
+　—Entonces el valor oficial es 0,038, ¿no?
+
+　—Es 0,038.
+
+　—Y el requisito se cumple.
+
+　—Se cumple.
+
+　La jefa asintió. Después dejó pasar un momento.
+
+　—Lo que a ti te atasca es que no es que la varianza haya bajado, sino que el ojo con que se mide la varianza se ha vuelto más grueso. ¿Es eso?
+
+　—Es eso.
+
+　—Yo también pensé lo mismo una vez —dijo la jefa—. Hará diez años. Entonces todavía no se había reformado el umbral, así que pude hacer la cifra y llevarla. La cifra que hice no se admitió en la comisión.
+
+　—El motivo.
+
+　—Que el método de estimación no está establecido —dijo la jefa—. La misma respuesta.
+
+
+VII
+
+　Aquella noche Minato solicitó las objeciones anteriores de la misma clase.
+
+　—Cuántos registros hay inscritos como objeción relativa a la validez del sistema de medición.
+
+　—En los registros conservados hay catorce —dijo el Corrector.
+
+　—Y en los registros oficiales.
+
+　—No hay —dijo el Corrector—. En los modelos de este Plan no existe categoría para inscribir una objeción.
+
+　Catorce. Todos ellos pasados a los registros conservados como cosas sin campo donde escribirse.
+
+　Minato hizo ordenar esos catorce del más antiguo al más reciente.
+
+　Al ver la fecha del más antiguo, Minato detuvo la mano.
+
+　Hace cuarenta y un años. Un registro de dieciocho años antes de que el Plan de Nivelación empezara.
+
+　—Qué registro es este.
+
+　—Una anotación al margen de un informe de lector —dijo el Corrector—. Categoría: margen del campo de contaminación.
+
+
+VIII
+
+　Minato lo hizo mostrar.
+
+　Un fragmento no se reproduce. Lo escrito en el margen, en cambio, se ha leído como caracteres. Una máquina escaneó el informe de papel de hace cuarenta y un años y lo pasó a conservación en forma de texto.
+
+　Eran seis líneas.
+
+　— Sobre la tasa de contaminación hago constar un punto. Este valor se calcula a partir de la diferencia entre el conjunto de fragmentos del sujeto y el conjunto de fragmentos del lector. En cuatro años, mi tasa de contaminación bajó de treinta y ocho a dos. Al principio lo entendí como que había ganado precisión.
+
+　— No es eso. La diferencia se ha hecho pequeña porque los dos se han ido pareciendo.
+
+　— Lo que aquí se pone en cuestión es el indicador mismo de la tasa de contaminación. Este indicador se tiene por mejor cuanto menor es la diferencia. Pero que la diferencia sea pequeña puede ser lo uno o lo otro: que la precisión sea alta, o que haya dejado de poder distinguirse. Del lado del indicador no hay medio de distinguir esas dos cosas.
+
+　— Juzgar lo bueno y lo malo con un indicador que no distingue equivale a no juzgar.
+
+　— He buscado el campo donde debería informarse de este punto y no lo he encontrado en el modelo del informe. Por eso lo hago constar en el margen.
+
+　— No sé si habrá quien lo lea.
+
+　Minato leyó esas seis líneas tres veces.
+
+　El lector de hace cuarenta y un años escribe sobre la tasa de contaminación. Lo que Minato tiene ahora entre manos es otro indicador, la varianza. El aparato que se usa y la escala del objeto están cuarenta y un años aparte.
+
+　Lo que dice era lo mismo.
+
+　Cuando la diferencia se hace pequeña, si eso es haberse acercado o haber dejado de verse, del lado del indicador no puede distinguirse.
+
+
+IX
+
+　—Una pregunta —dijo Minato—. Cuántas veces se ha consultado este registro.
+
+　—Cero —dijo el Corrector.
+
+　—En cuarenta y un años, ni una vez.
+
+　—Ni una vez.
+
+　Minato miró la cifra pequeña de la esquina inferior derecha de la pantalla. Consultas, cero.
+
+　Estas seis líneas se escribieron una noche de hace cuarenta y un años. Quien las escribió escribe que no sabe si habrá quien las lea. Las escribió sin saberlo.
+
+　Y, en efecto, no lo hubo.
+
+　Los registros conservados cumplen los criterios de destrucción. El motivo de que no se destruyeran no consta. El plan de reducción se redactó cuatro veces y cuatro veces se retiró. Los cuatro que lo retiraron consultaron los registros conservados el mes anterior. Solo consultaron; si los leyeron no consta.
+
+　Minato los estaba leyendo ahora.
+
+
+X
+
+　El modelo del informe de cierre son dos hojas.
+
+　En la primera se consigna el valor de la varianza y el cumplimiento del requisito. 0,038. Por debajo del valor de referencia de 0,04. Cumplido.
+
+　La segunda era el campo de observaciones particulares. Si no hay nada que escribir, se presenta en blanco. De hecho, el noventa por ciento de los informes anteriores está en blanco.
+
+　Minato escribió en la segunda.
+
+　— El valor de varianza del presente informe es el valor oficial conforme al sistema de medición vigente. Sin embargo, el descenso de los últimos cinco años coincide en el tiempo con las tres reformas del decimonoveno año. Las tres actúan en el sentido de estrechar el intervalo de variación que se registra.
+
+　— El valor estimado de no haberse hecho las reformas es 0,061, pero, al no estar establecido un método para estimar la cantidad no registrada, no puede presentarse como fundamento.
+
+　— Se añade que en los modelos de este Plan no existe categoría para inscribir una objeción relativa a la validez del sistema de medición. Hay catorce indicaciones de la misma clase en los registros conservados, y la más antigua va anexa a un informe de lector de hace cuarenta y un años. Su contenido es que una diferencia pequeña puede ser tanto haberse acercado como haber dejado de poder distinguirse, y que del lado del indicador no hay medio de distinguir ambas cosas.
+
+　— El presente informe comunica el cumplimiento del requisito sobre el supuesto de todo lo anterior.
+
+　Terminado de escribir, Minato lo presentó.
+
+　El cierre se aprobó cuatro días después. Sobre las observaciones particulares no llegó ninguna pregunta.
+
+
+XI
+
+　Con el cierre de la Segunda Sincronización, el Plan entra en su siguiente etapa.
+
+　El nombre de la siguiente etapa no está decidido todavía. Se examinan en paralelo una propuesta de bajar más el valor de referencia y otra de ampliar la escala del objeto. Las dos irán previsiblemente en la petición de presupuesto del próximo ejercicio.
+
+　A Minato no lo llamaron a esa reunión. El encargado de redactar el informe de cierre termina su cometido al terminar de escribirlo.
+
+　El último día de servicio, Minato estaba ordenando el terminal y abrió una vez más aquellas seis líneas.
+
+　Después de abrirlas, miró la esquina inferior derecha.
+
+　Consultas, una.
+
+　Está contabilizada la vez que Minato abrió ayer. Han hecho falta cuarenta y un años para que el cero pase a uno.
+
+　Que pase a uno no cambia nada. El cierre está aprobado y se examina la siguiente etapa. La varianza seguirá bajando. El medio de distinguir si está bajando o si ha dejado de verse sigue sin existir.
+
+　Solo que lo que quería saber hace cuarenta y un años quien escribió estas seis líneas era si habría quien las leyera, nada más.
+
+　Minato cerró el terminal.
+
+　Antes de cerrarlo comprobó que sus observaciones particulares habían pasado a los registros conservados. Categoría: objeción, fuera de modelo. Consultas, cero.
+
+　Cuánto tardará alguien en abrirlas no se sabe. Puede que menos de cuarenta y un años, puede que más.
+
+　Un apartado para predecir esa cifra tampoco lo tenía este Plan.

@@ -14,6 +14,11 @@
 あわせて字下げも見る。本文の行頭は全角空白でなければならない。タブや半角空白が
 混じっても段落数は変わらないので、段落の突き合わせでは見つからない。EPUBにすると
 その行だけ字下げが消えるので、ここで落とす。
+
+三字下げの塊の数も、原文と訳文で揃えて見る。書類からの一文を三字下げの塊にするか
+「　――」の行にするかは版面の問題だが、同じ箇所を言語ごとに違う扱いにすると、
+同じ本の中で書類の見え方が変わる。塊が一つなら段落数は同じなので、段落の
+突き合わせでは見つからない。行数は訳すと増えるので、数えるのは塊の数にする。
 """
 
 import re
@@ -66,6 +71,22 @@ def bad_indents(lines: list, sec_re: re.Pattern) -> list:
     return out
 
 
+def quote_runs(lines: list) -> int:
+    """三字下げの塊の数を返す。連続する三字下げの行は一塊と数える。"""
+    n = 0
+    in_quote = False
+    for line in lines:
+        if not line.strip():
+            continue
+        if line.startswith(QUOTE):
+            if not in_quote:
+                n += 1
+            in_quote = True
+        else:
+            in_quote = False
+    return n
+
+
 def blocks(lines: list, sec_re: re.Pattern) -> list:
     """節の区切りで分け、節ごとの段落数を返す。"""
     heads = [i for i, l in enumerate(lines) if sec_re.fullmatch(l.strip())]
@@ -90,9 +111,16 @@ def main() -> int:
                 continue
 
             tr_lines = tr_path.read_text(encoding="utf-8").split("\n")
-            ja = blocks(ja_hits[0].read_text(encoding="utf-8").split("\n"), JA_SEC)
+            ja_lines = ja_hits[0].read_text(encoding="utf-8").split("\n")
+            ja = blocks(ja_lines, JA_SEC)
             tr = blocks(tr_lines, TR_SEC)
             checked += 1
+
+            ja_q, tr_q = quote_runs(ja_lines), quote_runs(tr_lines)
+            if ja_q != tr_q:
+                problems += 1
+                print(f"× {tr_vol}/{tr_path.name}: 三字下げの塊の数が違う "
+                      f"（原文 {ja_q} / 訳文 {tr_q}）")
 
             for ln in bad_indents(tr_lines, TR_SEC):
                 problems += 1

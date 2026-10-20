@@ -230,7 +230,7 @@ VIII
 
 　En el campo de observaciones, Ogido escribió esto:
 
-　　　El presente asunto se tramita como avería leve conocida, pero que el nivel de los síntomas sea leve y que el alcance del efecto sea leve no son la misma cosa. La previsión a tres años es del cuarenta por ciento de todos los sujetos tratados. En los criterios vigentes de gestión de incidencias no hay norma que valore conjuntamente el valor por persona y el número de personas afectadas.
+　— El presente asunto se tramita como avería leve conocida, pero que el nivel de los síntomas sea leve y que el alcance del efecto sea leve no son la misma cosa. La previsión a tres años es del cuarenta por ciento de todos los sujetos tratados. En los criterios vigentes de gestión de incidencias no hay norma que valore conjuntamente el valor por persona y el número de personas afectadas.
 
 　Después de escribirlo, comprobó a dónde remite el campo de observaciones.
 

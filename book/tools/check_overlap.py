@@ -12,11 +12,11 @@
   1. book/ 配下に応募作の複製が置かれていないか
   2. 十六字以上で完全一致する文がどれだけあるか
   3. 応募作固有の固有名詞が本に紛れていないか
-  4. 英語版に、応募作固有の固有名詞のローマ字形が紛れていないか
+  4. 訳書（英・独・西）に、応募作固有の固有名詞が紛れていないか
 
-英語版は日本語の文と一致しようがないので、2は素通りする。そこで4を別に
-置く。固有名詞はローマ字にすると検出をすり抜けるため、英語側だけは
-ローマ字形で当てる。
+訳書は日本語の文と一致しようがないので、2は素通りする。そこで4を別に
+置く。固有名詞はローマ字にすると検出をすり抜けるため、訳書側はローマ字形と
+各言語の訳語で当てる。
 
 共有してよいもの（半色、残差、校正官の定型応答など）は、同一世界の
 シリーズとして当然に重なるため、許容一覧に入れて除外する。
@@ -51,13 +51,27 @@ ALLOWED = [
 # 応募作にしか出てこない固有名詞
 PRIZE_ONLY = ["三崎", "深瀬", "境界線、未編集", "歩道橋", "均し計画・第二次同期"]
 
-# 英語版向け。日本語の固有名詞はローマ字にすると上の検査をすり抜ける。
+# 訳書向け。日本語の固有名詞はローマ字にすると上の検査をすり抜ける。
+# 人名は三言語で同じローマ字形だが、歩道橋と表題は言語ごとに違う。
 #
 # 「第二次同期」は入れない。応募作と第二巻が意図して共有している世界設定で、
 # 第二巻最終話の主題そのものだから、ここで弾くと誤検出になる。応募作に固有な
 # のは中心の像のほう――消えたのに一人だけが覚えている緑色の歩道橋――であって、
-# これは両巻のどちらにも、日本語にも英語にも出てこないし、出してはいけない。
-PRIZE_ONLY_EN = ["Misaki", "Fukase", "footbridge", "The Line, Unedited"]
+# これはどの巻にも、どの言語にも出てこないし、出してはいけない。
+#
+# 歩道橋は複合語だけを挙げる。bridge / Brücke / puente そのものは第五話の
+# 架橋（同意夢）で正しく使う語なので、単独で禁じると誤検出になる。
+NAMES = ["Misaki", "Fukase"]
+PRIZE_ONLY_TR = {
+    "en": NAMES + ["footbridge", "pedestrian bridge", "The Line, Unedited"],
+    "de": NAMES + ["Fu\u00dfg\u00e4ngerbr\u00fccke", "Fu\u00dfg\u00e4ngersteg",
+                   "Die Linie, unbearbeitet"],
+    "es": NAMES + ["pasarela", "puente peatonal", "La l\u00ednea, sin editar"],
+}
+
+# 商品ページに貼る節の見出しは言語で違う
+DESC_HEAD = {"en": "Description", "de": "Beschreibung",
+             "es": "Descripci\u00f3n"}
 
 
 def sentences(text: str) -> set:
@@ -84,14 +98,18 @@ def main() -> None:
         if m:
             targets.append((p, m.group(1)))
 
-    # 英語版も読者の目に触れる。本文と、商品ページに貼るDescriptionの節
-    targets_en = [(p, p.read_text(encoding="utf-8"))
-                  for p in sorted(ROOT.glob("en*/stories/*.txt"))]
-    for p in sorted(ROOT.glob("en*/KDP登録情報.md")):
-        t = p.read_text(encoding="utf-8")
-        m = re.search(r"## 2\. Description.*?\n(.*?)\n---", t, re.S)
-        if m:
-            targets_en.append((p, m.group(1)))
+    # 訳書も読者の目に触れる。本文と、商品ページに貼る紹介文の節
+    targets_tr = {}
+    for lang in PRIZE_ONLY_TR:
+        items = [(p, p.read_text(encoding="utf-8"))
+                 for p in sorted(ROOT.glob(f"{lang}*/stories/*.txt"))]
+        head = DESC_HEAD[lang]
+        for p in sorted(ROOT.glob(f"{lang}*/KDP登録情報.md")):
+            t = p.read_text(encoding="utf-8")
+            m = re.search(rf"## 2\. {head}.*?\n(.*?)\n---", t, re.S)
+            if m:
+                items.append((p, m.group(1)))
+        targets_tr[lang] = items
 
     problems = 0
 
@@ -128,16 +146,20 @@ def main() -> None:
         else:
             print(f"  ○ {kw}: なし")
 
-    print(f"\n【4】応募作固有の固有名詞（英語版・ローマ字形）"
-          f"／対象 {len(targets_en)}ファイル")
-    for kw in PRIZE_ONLY_EN:
-        hits = [p.relative_to(ROOT) for p, t in targets_en
-                if re.search(rf"\b{re.escape(kw)}\b", t)]
-        if hits:
-            problems += len(hits)
-            print(f"  × {kw}: {hits}")
-        else:
-            print(f"  ○ {kw}: なし")
+    total_tr = sum(len(v) for v in targets_tr.values())
+    print(f"\n【4】応募作固有の固有名詞（訳書）／対象 {total_tr}ファイル")
+    for lang, items in targets_tr.items():
+        if not items:
+            print(f"  － {lang}: 対象なし")
+            continue
+        for kw in PRIZE_ONLY_TR[lang]:
+            hits = [p.relative_to(ROOT) for p, t in items
+                    if re.search(rf"\b{re.escape(kw)}\b", t, re.I)]
+            if hits:
+                problems += len(hits)
+                print(f"  × [{lang}] {kw}: {hits}")
+            else:
+                print(f"  ○ [{lang}] {kw}: なし")
 
     print(f"\n要対応 {problems} 件")
     sys.exit(1 if problems else 0)
