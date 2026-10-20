@@ -1,0 +1,231 @@
+XI. Residuo
+
+
+I
+
+　Una de las primeras cosas que se aprenden en la formación es el residuo.
+
+　Fragmentos en los que, aunque se presione, la carga afectiva vuelve. Se dan en unas pocas personas de cada diez mil. Es un valor que puede ignorarse.
+
+　Durante treinta años esa explicación ha bastado.
+
+　Mayuzumi pertenecía a la Segunda Sala del Instituto Técnico, y su proyecto se llamaba «investigación básica sobre la persistencia del efecto de los tratamientos». En suma, el trabajo consiste en averiguar por qué vuelve.
+
+　Al incorporarse, el material dejado por su antecesor eran dos cajas de cartón. Para treinta años es poco.
+
+　—Cuántos trabajos previos hay.
+
+　—Once —dijo el Corrector—. De ellos, ocho examinan factores del lado del aparato.
+
+　—Y los otros tres.
+
+　—Examinan la correlación con los hábitos de vida de los sujetos.
+
+　—Las conclusiones.
+
+　—En todos ellos, no se apreció correlación significativa.
+
+
+II
+
+　Lo primero que hizo Mayuzumi fue aumentar el denominador.
+
+　Las investigaciones anteriores se habían hecho en un municipio, a una escala de unas decenas de miles de asientos a lo sumo. Mirar un fenómeno de unas pocas personas por cada diez mil en unas decenas de miles de asientos reúne solo unas decenas de casos. Que no saliera correlación era lo natural.
+
+　Mayuzumi tomó como objeto los registros de tratamiento de todo el país. Cuarenta y tres años, unos novecientos millones de asientos.
+
+　Los asientos con residuo eran cuatrocientos diez mil.
+
+　—Saque la distribución de los atributos.
+
+　Edad, sexo, región, profesión, categoría del tratamiento. En ninguno difería de la distribución del conjunto. Las personas que producen residuo no tienen rasgo alguno.
+
+　Después miró del lado de los fragmentos.
+
+　Valor inicial de la carga afectiva. Número de particiones del tratamiento. Densidad de los fragmentos contiguos. Tampoco aquí hay sesgo.
+
+　A lo largo de tres meses, Mayuzumi fue suprimiendo todas las variables fáciles.
+
+　Suprimir quiere decir aquí haber comprobado que no hay correlación. Como investigación, equivalía a no haber obtenido nada.
+
+　Sus antecesores llegaron también, probablemente, hasta este punto. Los once trabajos previos acababan todos al chocar con el mismo muro. No es el aparato, no es la vida, no son los atributos.
+
+　Lo que queda es solo aquella primera explicación: un valor que puede ignorarse.
+
+　Mayuzumi buscó de dónde salía esa explicación. En el informe de la verificación inicial, de hace cuarenta años, había una línea.
+
+　　　Los casos de restitución son escasos y su efecto sobre el rendimiento global de los tratamientos puede ignorarse.
+
+　El efecto puede ignorarse. Sobre la causa no hay nada escrito. Durante los treinta años siguientes se ha seguido citando esta línea.
+
+
+III
+
+　Al cuarto mes, Mayuzumi cambió la manera de plantear las variables.
+
+　Las investigaciones anteriores miraban solo al sujeto y al fragmento. Lo que Mayuzumi añadió fueron las personas distintas del sujeto.
+
+　Hay recuerdos que están dentro de una sola persona. Hay recuerdos que varias personas tienen a la vez. La misma cena, la misma riña, el mismo funeral. Ese recuerdo existe en tantas cabezas distintas como personas compartieron el suceso.
+
+　Mayuzumi decidió llamar a este número el número de copartícipes.
+
+　El número de copartícipes no se mide directamente. Los fragmentos llevan los identificadores de quienes aparecen en ellos, y de ahí se estima. De entre las personas cuyo identificador consta, contó las que siguen vivas.
+
+　Estratificó por número de copartícipes los cuatrocientos diez mil residuos y el grupo de control de novecientos millones.
+
+　Salió a la primera.
+
+　Era una separación más limpia que la de cualquiera de las variables que había tardado tres meses en suprimir. Mayuzumi sospechó primero que había un error en su propio recuento y tardó dos días en rehacer el procedimiento. No había error.
+
+
+IV
+
+　En los fragmentos con número de copartícipes cero, la tasa de residuo era del 0,003 por ciento.
+
+　Con uno, el 0,08 por ciento. Con dos, 0,41. Con tres, 1,2. Pasando de cinco, supera el cuatro por ciento.
+
+　Cuantos más copartícipes, más vuelve la carga presionada.
+
+　Mayuzumi estuvo unos treinta minutos mirando esa tabla.
+
+　El mecanismo, pensándolo, era sencillo.
+
+　La memoria se reblandece cada vez que se recuerda, y vuelve a fijarse. El tratamiento interviene en ese proceso y baja la carga. Pero después del tratamiento esa persona sigue viviendo. Se encuentra con quien recuerda el mismo suceso. Habla. Aunque no lo saquen a conversación, basta con que el otro esté ahí para que el recuerdo se invoque.
+
+　Cada vez que se invoca, el recuerdo es atraído hacia la carga del lado de los copartícipes. Los copartícipes no han recibido tratamiento. Por eso su carga sigue alta.
+
+　Hacia lo alto se acerca lo bajo.
+
+　La media tinta aplicada bajó, dentro de una persona, ciertamente. Que el estado bajado se mantenga o no venía decidido por con quién vive esa persona.
+
+　Mayuzumi recordó un caso de hace treinta años. En la formación le hicieron leer un registro como material didáctico. Una muchacha de trece años devolvió en un mes una carga que se le había bajado a lo largo de siete noches. El técnico de entonces la trató con un diseño por particiones, pero al mes siguiente había superado el umbral y entró en la cola de espera para un nuevo tratamiento.
+
+　En aquel registro constaba la composición familiar de la muchacha. Había perdido a su madre en un incendio y se habían quedado los dos, ella y su padre.
+
+　Número de copartícipes, uno. El lado del 0,08 por ciento.
+
+　Mayuzumi se quedó un rato mirando esa cifra. El 0,08 por ciento significaba que no pasa, sin más. Lo que no pasa, a aquella muchacha le pasó.
+
+　Los copartícipes se cuentan solo entre las personas vivas. Aquella con quien la muchacha repartía el recuerdo murió en ese incendio.
+
+　La madre no se cuenta entre los copartícipes. Y aun así, las siete noches aplicadas volvieron.
+
+　Mayuzumi no sacó ese caso del recuento. Porque no había fundamento para sacarlo. Uno de entre cuatrocientos diez mil asientos quedó en un lugar sin explicación.
+
+
+V
+
+　Mayuzumi informó de este resultado al jefe de sala. Un hombre de más de sesenta, veinte años en esta sala.
+
+　—Eso puede leerse al revés —dijo el jefe.
+
+　—Al revés, cómo.
+
+　—Un recuerdo que se carga en soledad, presionado, se queda abajo —dijo el jefe—. Un recuerdo que se reparte con alguien, presionado, vuelve. Es decir, que donde el tratamiento funciona mejor es en las personas solas.
+
+　Mayuzumi tardó un rato en acoger esa manera de decirlo.
+
+　—Así es.
+
+　—Nuestros aparatos han sido así durante cuarenta y tres años —dijo el jefe—. Si nadie se dio cuenta, es porque nadie planteó la variable con que darse cuenta.
+
+　—El motivo de no plantearla.
+
+　—Probablemente no existía siquiera la idea de hacer variable lo que está fuera del sujeto —dijo el jefe—. El tratamiento se aplica a un individuo, así que el registro se toma por individuos. Quién está al lado no tiene campo en el impreso.
+
+　El jefe se rio un poco entonces.
+
+　—A su trabajo lo elogiarán, probablemente. Dirán que ha resuelto el enigma de cuarenta y tres años.
+
+　—¿Usted lo cree?
+
+　—Lo creo —dijo el jefe—. Qué uso se le dé después es otra cuestión.
+
+
+VI
+
+　Aquella noche, Mayuzumi pensó en cómo se leería su conclusión.
+
+　La conclusión se escribe en una línea. Un tratamiento individual no persiste cuando hay copartícipes.
+
+　Lo siguiente que piensa quien lea esto está decidido.
+
+　Basta con tratar también a los copartícipes.
+
+　Presionar a uno y vuelve. Presionando a la vez a todos los que reparten con él el recuerdo, no queda a dónde volver. Si no queda a dónde volver, se queda abajo.
+
+　Un plan que acerca a la media, noche tras noche, la carga de los recuerdos de un millón de personas lleva veintitrés años en marcha.
+
+　Que a aquel plan no le subieran avisos de residuo Mayuzumi lo había atribuido hasta ahora a diferencias de rendimiento de los aparatos. No era eso. Como trata a la vez a los copartícipes, simplemente no existe a dónde volver.
+
+　¿Se diseñó el plan conociendo este mecanismo?
+
+　—Una pregunta —dijo Mayuzumi—. ¿En los documentos de diseño del Plan de Nivelación hay algún concepto equivalente al número de copartícipes?
+
+　—No hay —dijo el Corrector—. Lo que consta en los documentos de diseño es la eficiencia de escala. Consta que, ejecutándolo a escala de un millón de personas, baja el coste unitario de tramitación por persona.
+
+　—¿Se hizo de un millón solo por eficiencia?
+
+　—El motivo que consta es ese y ninguno más.
+
+　Mayuzumi estuvo a punto de sentir alivio y lo dejó.
+
+　Aunque hubieran elegido la respuesta correcta sin conocer el motivo, el resultado de la elección era el mismo.
+
+
+VII
+
+　El artículo salió en la primavera siguiente.
+
+　La valoración fue la que había previsto el jefe. Como investigación que dio mecanismo a un fenómeno inexplicado durante cuarenta y tres años, recibió varios premios. Mayuzumi pasó a ser jefe de la sala.
+
+　En el otoño de aquel mismo año llegó una consulta del departamento de operaciones del Plan de Nivelación.
+
+　La consulta era sobre el método de estimación del número de copartícipes. Querían emplearlo para prever el efecto de los tratamientos. Si pueden identificar de antemano a los sujetos en quienes el efecto no persiste, reducirán tratamientos inútiles, decía el escrito de consulta.
+
+　Lo que decía era exacto. Presionar a quien no le hace efecto es un desperdicio.
+
+　Mayuzumi respondió. El método está escrito en el artículo. No había motivo para ocultarlo, ni fundamento para ello.
+
+　Tres meses después de la respuesta se reformó el régimen de reparto del departamento de operaciones.
+
+　La reforma consistía en que, para los sujetos con número alto de copartícipes, los copartícipes se reparten en la misma semana. Forma parte de la eficiencia. Agrupándolos en la misma semana sube la tasa de utilización de los aparatos.
+
+　También se prevé una mejora secundaria de la persistencia del efecto, decía el aviso de la reforma.
+
+
+VIII
+
+　Mayuzumi leyó ese aviso tres veces.
+
+　En lo que dice no hay error. Agrupándolos en la misma semana sube la utilización. También sube la persistencia. Ambas cosas son hechos.
+
+　Lo que no está escrito era qué va a ocurrir.
+
+　Una familia recibe tratamiento en la misma semana. A cuatro personas se les baja a la vez la carga del mismo suceso. Nadie vuelve. Porque no hay a dónde volver.
+
+　Los cuatro viven después con normalidad. Comen, hablan del tiempo. Qué hubo una vez en esa casa no sube a boca de nadie. Y no sube no porque lo hayan olvidado. Lo recuerdan, pero está en un valor que no mueve a nadie.
+
+　Mayuzumi releyó la parte final de su propio artículo.
+
+　　　El presente trabajo ha mostrado que la carga afectiva de un recuerdo no es una magnitud encerrada dentro del individuo, sino una magnitud que se mantiene dentro de la relación con los copartícipes.
+
+　Cuando lo escribió era la descripción de un hallazgo. Leído ahora, parece un manual de procedimiento.
+
+　—Una pregunta —dijo Mayuzumi—. Cuántas veces se ha consultado este artículo.
+
+　—Cuarenta y una —dijo el Corrector—. De ellas, treinta y seis son consultas del departamento de operaciones.
+
+　—Y las cinco restantes.
+
+　—Citas con fines de investigación.
+
+　Mayuzumi cerró el terminal.
+
+　No pensaba que hubiera debido ocultar el método. Aunque lo ocultara, aumentando el denominador y estratificando, alguien llegaría a la misma conclusión. Si tardó cuarenta y tres años fue porque nadie planteó la variable, y planteándola sale a la primera.
+
+　Quien la planteó fue Mayuzumi. El campo para arrepentirse de haberla planteado no existe en el formato de un artículo.
+
+　Fuera de la ventana estaba ya oscuro. En todo el país esta noche también se practican tratamientos, y algunos de ellos son de familias repartidas en la misma semana.
+
+　El residuo se prevé a la baja desde el próximo ejercicio, decía el final del aviso de la reforma.
