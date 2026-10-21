@@ -15,8 +15,8 @@ Deel II. Compileren met `python3 book/tools/build_epub.py nl1`.
 |---|---|---|---|---|---|
 | I | 半色 | Halftint | 4.997 | 2.585 | **klaar** |
 | II | 忘却の順番待ち | De wachtlijst van de vergetelheid | 4.540 | 2.186 | **klaar** |
-| III | 夢の遺言 | Het testament | — | — | in afwachting |
-| IV | 夢の翻訳者 | De vertaler | — | — | in afwachting |
+| III | 夢の遺言 | Het testament | 4.552 | 2.256 | **klaar** |
+| IV | 夢の翻訳者 | De vertaler | 3.915 | 1.780 | **klaar** |
 | V | 二人称の夢 | De droom in de tweede persoon | — | — | in afwachting |
 | VI | 夢税 | Droombelasting | — | — | in afwachting |
 | VII | 涙の代筆 | Rouw bij volmacht | — | — | in afwachting |
