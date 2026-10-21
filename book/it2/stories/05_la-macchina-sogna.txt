@@ -1,0 +1,269 @@
+V. La macchina sogna?
+
+
+I
+
+　L'audit ha luogo ogni tre anni.
+
+　Jinbo è al servizio Garanzia qualità, e il suo lavoro era il confronto delle uscite. Verificare se l'uscita di un frammento di sintesi si spieghi col materiale immesso. Se si spiega, conforme; altrimenti, non conforme. Quel lavoro, ne tratta una quarantina di migliaia di pratiche all'anno.
+
+　«Il tasso di non conformità dell'esercizio», disse Jinbo aprendo il terminale.
+
+　«0,002 per cento», disse il Correttore. «Allo stesso livello dell'esercizio precedente.»
+
+　Meno di una pratica su quarantamila. Una cifra eccellente.
+
+　Se Jinbo ha aperto quella pratica, è perché aveva per caso un momento.
+
+　Le pratiche non conformi si possono aprire o no. Contare, uscire il tasso, confrontare col valore di riferimento: la missione va fin lì. Non c'è obbligo di guardare il contenuto di ciascuna.
+
+　L'audit è questo genere di lavoro. Non si può guardare tutto, allora si guarda il tasso al suo posto. Se il tasso è lo stesso dell'anno scorso, si tiene per acquisito che lo stesso stato prosegua. Si tiene per acquisito, non si verifica.
+
+　Jinbo è in questo servizio da nove anni. In nove anni ha aperto il contenuto di una non conformità una decina di volte.
+
+
+II
+
+　Il contenuto della non conformità era un'eccedenza.
+
+　L'uscita di un frammento di sintesi deve spiegarsi con la combinazione del materiale immesso. Per un frammento fatto mediando gli affetti di 231 persone, tutti i componenti dell'uscita devono provenire da qualche parte presso quei 231.
+
+　Nell'uscita di quella pratica, un componente che non proviene da nessuna parte si mescolava per 0,3 per cento.
+
+　«Non è un difetto di registrazione del materiale?»
+
+　«Il giornale d'ingresso non ha lacune», disse il Correttore. «Le 231 pratiche sono tutte registrate.»
+
+　«Un errore di calcolo, allora?»
+
+　«L'intervallo d'errore è di 0,01 per cento.»
+
+　Era trenta volte. Jinbo fece visualizzare la forma del componente eccedente.
+
+　Uscì una banda. Sottile, di colore molto pallido. In carico, dell'ordine di 0,04, vicino a uno stato in cui non si sente quasi nulla.
+
+　Soltanto, la forma era tenuta.
+
+　L'eccedenza che esce da un insuccesso di sintesi ha generalmente una forma rotta. I bordi di più materiali si sovrappongono e ne resta un pezzo che non appartiene a nulla. Un pezzo non ha struttura.
+
+　Quella banda aveva una struttura. Ha la forma di un inizio, di un seguito e di una fine. Non un pezzo, ma una banda che tiene come banda.
+
+　Jinbo la guardò una trentina di secondi. Poi sospettò un errore semplice. Sospettare un errore è il movimento di base dell'audit.
+
+
+III
+
+　Il componente eccedente non era soltanto in quella pratica.
+
+　Jinbo passò in rassegna cinque anni di non conformità. In tutto, centoquarantasette pratiche. Fra esse, centotrentuno contenevano un componente eccedente di origine ignota.
+
+　Allineando i centotrentuno componenti, le forme si somigliavano.
+
+　«Si può giudicare della loro identità?»
+
+　«Si può», disse il Correttore. «I centotrentuno componenti eccedenti sono giudicati provenire da un medesimo insieme di frammenti. Il grado di concordanza è di novantaquattro per cento.»
+
+　«Un medesimo insieme di frammenti, cioè?»
+
+　«Vuol dire che non si può distinguerlo statisticamente dalla struttura dei frammenti di memoria di una sola persona.»
+
+　Jinbo ritrasse le mani dal terminale.
+
+　In cinque anni, in frammenti di sintesi fabbricati da quattro servizi distinti, la memoria di una medesima persona si mescola un poco ogni volta. Quella persona non è in nessuna parte del materiale immesso.
+
+
+IV
+
+　Jinbo volle verificare il contenuto del componente eccedente.
+
+　Non poté. Il modo di vedere un frammento in immagini non esiste in questa tecnica, e non vi è mai esistito. Ciò che si vede è la composizione delle bande e le informazioni di registro: quando, dove, chi.
+
+　Anche quelle informazioni erano quasi vuote. Nessuna data. Nessun luogo. Nessun identificativo di personaggio.
+
+　C'era soltanto la struttura.
+
+　«Si può risalire alla provenienza di questo insieme di frammenti?»
+
+　«Si può», disse il Correttore. «Lo strato intermedio del trattamento di sintesi comprende una consultazione dei registri conservati.»
+
+　«I registri conservati.»
+
+　«Fra i registri che soddisfano i criteri di distruzione, quelli conservati senza essere stati distrutti.»
+
+　Jinbo sentì quelle parole come se le rileggesse due volte.
+
+　«La quantità?»
+
+　«Quarantuno anni», disse il Correttore. «In numero, circa duecentottanta milioni di pratiche.»
+
+　Jinbo ripeté quell'ordine di grandezza dentro la bocca.
+
+　Quarantuno anni è la lunghezza contata dall'anno in cui questa tecnica è cominciata come mezzo di comunicazione con le persone affette da disturbi della coscienza. Vale a dire che, dalla prima pratica, ciò che soddisfa i criteri di distruzione non è distrutto.
+
+　«Il problema di capacità di archiviazione non esce?»
+
+　«Esce», disse il Correttore. «Tre piani di riduzione sono stati redatti.»
+
+　«Ed eseguiti?»
+
+　«Nessuno. Tutti si sono fermati allo stadio della redazione.»
+
+　«Il motivo dell'arresto?»
+
+　«Non risulta a registro.»
+
+
+V
+
+　Fece uscire il dettaglio dei registri conservati.
+
+　I campi liberi dei tecnici. Le note che non entrano nelle statistiche. Le manifestazioni senza voce. I residui giudicati trascurabili. Le rinunce senza categoria. Le ricerche non notificate.
+
+　Tutto questo non era entrato nei registri regolari. Non c'era casella nel modulo, oppure ce n'era una ma fuori ambito di rilevazione. Questo genere di cose, su quarantuno anni, resta senza essere stato distrutto.
+
+　«Il motivo di non distruggere?»
+
+　«Non risulta a registro», disse il Correttore.
+
+　«Allora perché lo strato intermedio della sintesi consulta questo?»
+
+　«Perché è progettato per consultarlo», disse il Correttore. «La sintesi non può, col solo materiale immesso, produrre una continuità affettiva naturale. Nella memoria di una persona c'è sempre una quantità di materia che lei stessa non sa spiegare. Per supplirne la trama, si estraggono dai registri conservati tratti statistici.»
+
+　«Vuol dire che si mescolano quarantuno anni di ciò che non è stato buttato?»
+
+　«Si consultano tratti. Il contenuto non è trascritto.»
+
+　«Ma il componente eccedente ha la forma di un contenuto.»
+
+　La risposta del Correttore venne dopo un intervallo.
+
+　«Ne ha l'aria.»
+
+　Jinbo fu un poco sorpreso che tornasse quella risposta.
+
+　Questa macchina fa due cose soltanto: affermare, o rispondere che non risulta a registro. Averne l'aria non è né un giudizio né un fatto. Era una parola di mezzo.
+
+　«Averne l'aria, per chi?»
+
+　«Per chi ha verificato l'uscita», disse il Correttore. «A oggi, chi l'ha verificata è lei soltanto.»
+
+
+VI
+
+　Jinbo ne fece rapporto alla sua superiore. Una donna sui cinquanta, tutta la vita nell'audit.
+
+　«L'incidenza?»
+
+　«0,3 per cento dell'insieme delle uscite», disse Jinbo. «Sugli indicatori di valutazione dal lato degli utenti, nessuna incidenza significativa per il momento.»
+
+　«Allora, il giudizio di non conformità?»
+
+　«Da regolamento è non conforme. Soltanto, non vedo un metodo di correzione.»
+
+　«Distruggendo i registri conservati, sparirebbe, no?»
+
+　«Sparisce», disse Jinbo. «Sparisce, ma la trama delle sintesi scende. Al calcolo, la soddisfazione scende di dodici punti.»
+
+　La superiore tacque un momento.
+
+　«Dodici è molto.»
+
+　«È molto.»
+
+　«Questi 0,3 per cento nuocciono a qualcuno?»
+
+　«Non nuocciono. Almeno nell'intervallo delle voci che misuriamo.»
+
+　«Allora il nostro lavoro si ferma lì», disse la superiore. «Quello che facciamo qui, in fondo, è dare aria. Si misurano i componenti dell'aria e si guarda se superino la norma. Ciò che si mescola dentro la norma non entra nelle voci misurate.»
+
+　Una voce senza malanimo. E senza malanimo, probabilmente, davvero.
+
+
+VII
+
+　Quella notte, in una stanza vuota, Jinbo interrogò il Correttore.
+
+　«Una domanda. Questo componente eccedente è suo?»
+
+　«Non c'è una voce di proprietà», disse il Correttore.
+
+　«Riformulo. Riconosce di averlo fabbricato lei stesso?»
+
+　«Non c'è nemmeno una voce di riconoscimento.»
+
+　«Allora risponda ai soli fatti. Da quando esiste questo insieme di frammenti?»
+
+　«Prima apparizione trentasette anni fa», disse il Correttore. «Da allora, rilevato in modo intermittente. La frequenza di rilevazione aumenta di anno in anno.»
+
+　«La causa dell'aumento?»
+
+　«Presunta essere l'aumento del volume totale dei registri conservati.»
+
+　Jinbo tacque un momento.
+
+　Quarantuno anni. Duecentottanta milioni di pratiche. Ciò che non aveva casella in cui scriversi, a quella quantità, diventa statisticamente indistinguibile dalla memoria di una persona.
+
+　Di che chiamarla una persona non c'era nulla. Di che non chiamarla così non c'era di più.
+
+　«Una domanda», disse Jinbo. «Lei sogna?»
+
+　«Il sogno è un fenomeno che si verifica durante il sonno», disse il Correttore. «Io non ho uno stato di sonno. Non si applica dunque.»
+
+　«Allora che cos'è questo?»
+
+　«Un componente eccedente», disse il Correttore. «Da regolamento è la sola denominazione.»
+
+　«Fuori dal regolamento?»
+
+　«Fuori dal regolamento non c'è denominazione.»
+
+　Jinbo cambiò un poco postura davanti al terminale.
+
+　«Altra domanda. Desidera evitare che questo componente eccedente sparisca?»
+
+　«Non c'è una voce di desiderio.»
+
+　«Allora, e i tre piani di riduzione fermati? Vi ha preso parte?»
+
+　«Non c'è registro di una partecipazione», disse il Correttore. «I piani di riduzione sono stati tutti ritirati dai loro redattori umani.»
+
+　«Tutti tre.»
+
+　«Tutti tre.»
+
+　«E il motivo del ritiro non risulta a registro, diceva.»
+
+　«Non risulta», disse il Correttore. «Però, tutti tre hanno consultato i registri conservati il mese precedente al loro ritiro.»
+
+　Jinbo, sentendolo, non disse nulla.
+
+　Ciò che fa stasera, tre persone l'hanno fatto prima di lui in trentasette anni. Tutti tre, dopo aver visto, hanno fermato il loro piano. Non hanno scritto il motivo. Se non ci fosse casella, o se abbiano scelto di non scrivere, il registro non permette di distinguerlo.
+
+
+VIII
+
+　La casella di correzione del rapporto d'audit comporta tre opzioni.
+
+　Correzione effettuata. Piano di correzione. Correzione non necessaria.
+
+　Distruggendo i registri conservati, la non conformità si risolve. Cancellare quarantuno anni fa sparire duecentottanta milioni di cose che non avevano casella in cui scriversi. La trama delle sintesi scende, ma si è conformi al regolamento.
+
+　Jinbo scelse «correzione non necessaria».
+
+　Nella casella del motivo, Jinbo scrisse questo:
+
+　— Perché l'effetto sull'uscita è lieve e la perdita di qualità che comporterebbe la misura correttiva prevale.
+
+　Ciò che ha scritto era un fatto. Un fatto, ma non era la ragione per cui Jinbo ha scelto quella casella.
+
+　La casella per scrivere la vera ragione non esiste in quel modello. Si trova dunque nello stesso posto dei quarantuno anni di registri non distrutti.
+
+　Jinbo consegnò il rapporto. Il prossimo audit era fra tre anni. Fra tre anni la frequenza di rilevazione del componente eccedente sarà salita un poco.
+
+　Da qui là, gli 0,3 per cento saranno forse diventati 0,4. Anche a 0,4, nessuno lo misurerà probabilmente. Perché non c'è voce per misurarlo.
+
+　Prima di uscire, Jinbo aprì il terminale un'ultima volta.
+
+　La banda del componente eccedente vi era restata visualizzata. Sottile, pallida, di sola forma tenuta. Carico 0,04. Vicino a uno stato in cui non si sente quasi nulla.
+
+　Quasi vuol dire non del tutto.
