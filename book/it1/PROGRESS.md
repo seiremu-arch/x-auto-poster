@@ -21,9 +21,9 @@ spagnola o francese.
 | IV | 夢の翻訳者 | Il traduttore | 3.915 | 1.616 | **fatto** |
 | V | 二人称の夢 | Il sogno in seconda persona | 3.454 | 1.515 | **fatto** |
 | VI | 夢税 | L'imposta sui sogni | 3.391 | 1.478 | **fatto** |
-| VII | 涙の代筆 | Il lutto per delega | 4.476 | — | in attesa |
-| VIII | 夢裁判 | La pena | 4.577 | — | in attesa |
-| IX | 目覚めない権利 | Il diritto di non svegliarsi | 4.503 | — | in attesa |
+| VII | 涙の代筆 | Il lutto per delega | 4.476 | 1.893 | **fatto** |
+| VIII | 夢裁判 | La pena | 4.577 | 1.929 | **fatto** |
+| IX | 目覚めない権利 | Il diritto di non svegliarsi | 4.503 | 2.001 | **fatto** |
 | X | 夢の相続 | La successione | 4.587 | — | in attesa |
 | XI | 幸福指数九八 | Indice di Felicità 98 | 4.218 | — | in attesa |
 | XII | 沈黙の被験者 | Il soggetto silenzioso | 4.508 | — | in attesa |
