@@ -15,8 +15,8 @@ Deel II. Compileren met `python3 book/tools/build_epub.py nl2`.
 |---|---|---|---|---|---|
 | I | 眠らない都市 | De stad die niet slaapt | 4.336 | 2.144 | **klaar** |
 | II | 胎夢 | Fundamenten | 4.240 | 2.080 | **klaar** |
-| III | 共感注射 | De empathie-injectie | — | — | in afwachting |
-| IV | 最後の夢職人 | De laatste ambachtsman | — | — | in afwachting |
+| III | 共感注射 | De empathie-injectie | 4.432 | 2.077 | **klaar** |
+| IV | 最後の夢職人 | De laatste ambachtsman | 4.226 | 2.135 | **klaar** |
 | V | ＡＩは夢を見るか | Droomt de machine? | — | — | in afwachting |
 | VI | 夢の犯罪 | Mishandeling | — | — | in afwachting |
 | VII | 消えた現実 | Het register | — | — | in afwachting |
