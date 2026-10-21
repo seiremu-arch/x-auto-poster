@@ -21,10 +21,10 @@ Deel II. Compileren met `python3 book/tools/build_epub.py nl1`.
 | VI | 夢税 | Droombelasting | 3.391 | 1.660 | **klaar** |
 | VII | 涙の代筆 | Rouw bij volmacht | 4.476 | 2.174 | **klaar** |
 | VIII | 夢裁判 | De boete | 4.577 | 2.189 | **klaar** |
-| IX | 目覚めない権利 | Het recht niet te ontwaken | — | — | in afwachting |
-| X | 夢の相続 | De erfopvolging | — | — | in afwachting |
-| XI | 幸福指数九八 | Geluksindex 98 | — | — | in afwachting |
-| XII | 沈黙の被験者 | De zwijgende proefpersoon | — | — | in afwachting |
+| IX | 目覚めない権利 | Het recht niet te ontwaken | 4.503 | 2.201 | **klaar** |
+| X | 夢の相続 | De erfopvolging | 4.587 | 2.269 | **klaar** |
+| XI | 幸福指数九八 | Geluksindex 98 | 4.218 | 2.164 | **klaar** |
+| XII | 沈黙の被験者 | De zwijgende proefpersoon | 4.508 | 2.324 | **klaar** |
 
 Japans in totaal, 51.718 tekens. De cijfers in deze tabel worden geschreven
 door `python3 book/tools/sync_tr_counts.py nl1`, niet met de hand.
