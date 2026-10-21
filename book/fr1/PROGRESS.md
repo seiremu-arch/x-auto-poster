@@ -20,8 +20,8 @@ allemande ou espagnole.
 | IV | 夢の翻訳者 | Le traducteur | 3 915 | 1 828 | **fait** |
 | V | 二人称の夢 | Le rêve à la deuxième personne | 3 454 | 1 670 | **fait** |
 | VI | 夢税 | L'impôt sur les rêves | 3 391 | 1 607 | **fait** |
-| VII | 涙の代筆 | Le deuil par procuration | 4 476 | — | en attente |
-| VIII | 夢裁判 | La peine | 4 577 | — | en attente |
+| VII | 涙の代筆 | Le deuil par procuration | 4 476 | 2 135 | **fait** |
+| VIII | 夢裁判 | La peine | 4 577 | 2 198 | **fait** |
 | IX | 目覚めない権利 | Le droit de ne pas se réveiller | 4 503 | — | en attente |
 | X | 夢の相続 | La succession | 4 587 | — | en attente |
 | XI | 幸福指数九八 | Indice de Bonheur 98 | 4 218 | — | en attente |
