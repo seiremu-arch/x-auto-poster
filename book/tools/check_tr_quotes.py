@@ -95,6 +95,99 @@ QUOTES = [
 
 LANGS = ["en", "de", "es", "fr"]
 
+# 語彙表の「定型句」。原文が意図して繰り返す文は、訳文でも一字一句同じに
+# 出なければならない。どの語彙表にもそう書いてあるが、守られているかを
+# 見る仕組みがなかった。英語版第一巻で、第一話 "set down the water" に対し
+# 第九話が "pour the water" になっていて、通読でしか見つけられなかった。
+#
+# 上の QUOTES と違い、出現すべきファイルは決め打ちにしない。原文にその文が
+# 出る話を数え、同じ番号の訳文に対応する訳が出るかを見る。話を足しても
+# 表を直さなくて済む。
+#
+# 載せるのは、文脈によらず同じ字面で出る句だけにする。たとえば
+# 「記録にありません」は、校正官の台詞としてはどの言語でも一定だが、
+# 地の文に埋まるときは英独仏で言い回しが変わる（西語の No consta は短いので
+# 両方に出る）。「無視してよい値」も第二巻第八話では複数形になる。これらを
+# 載せると、正しい訳を誤りとして鳴らす検査になるので載せない。四版すべてで
+# 不変であることを確かめた三句だけを置く。残りは人が読んで見るしかない。
+FORMULAE = [
+    (
+        "水を置く",
+        "水を置くことだけだ",
+        {
+            "en": "set down the water",
+            "de": "das Wasser hinstellen",
+            "es": "dejar el agua",
+            "fr": "poser l'eau",
+        },
+    ),
+    (
+        "要は換気",
+        "要は換気",
+        {
+            "en": "is ventilation, basically",
+            "de": "ist im Grunde L\u00fcften",
+            "es": "es, en el fondo, ventilar",
+            "fr": "au fond, c'est a\u00e9rer",
+        },
+    ),
+    (
+        "性別のない、湿度のない声",
+        "性別のない、湿度のない声",
+        {
+            "en": "voice with no gender and no humidity",
+            "de": "Stimme ohne Geschlecht und ohne Feuchtigkeit",
+            "es": "voz sin g\u00e9nero y sin humedad",
+            "fr": "voix sans genre et sans humidit\u00e9",
+        },
+    ),
+]
+
+
+def check_formulae() -> int:
+    """定型句が、原文に出るすべての話で、訳文にも出るかを見る。"""
+    problems = 0
+    print("【定型句】")
+    for label, ja, trs in FORMULAE:
+        slots = []
+        for vol in ("1", "2"):
+            for p in sorted((ROOT / f"vol{vol}" / "stories")
+                            .glob("[0-9][0-9]_*.txt")):
+                if ja in p.read_text(encoding="utf-8"):
+                    slots.append((vol, p.name[:2]))
+        if not slots:
+            problems += 1
+            print(f"  \u00d7 {label}: 原文のどの話にも出ない（表のほうが古い）")
+            continue
+
+        missing = []
+        for lang in LANGS:
+            tr = trs.get(lang)
+            if tr is None:
+                missing.append(f"{lang}（対応文が未登録）")
+                continue
+            for vol, num in slots:
+                d = ROOT / f"{lang}{vol}" / "stories"
+                if not d.is_dir():
+                    continue
+                hits = sorted(d.glob(f"{num}_*.txt"))
+                if not hits:
+                    continue
+                if tr.lower() not in hits[0].read_text(
+                        encoding="utf-8").lower():
+                    missing.append(str(hits[0].relative_to(ROOT)))
+
+        n = len(slots)
+        if missing:
+            problems += len(missing)
+            print(f"  \u00d7 {label}（原文 {n}話）")
+            for m in missing:
+                print(f"      見つからない: {m}")
+        else:
+            print(f"  \u25cb {label}（原文 {n}話）")
+    return problems
+
+
 
 def main() -> int:
     problems = 0
@@ -144,6 +237,8 @@ def main() -> int:
             print(f"  × {label}: 原文側は {hits_n}/{len(slots)} ファイルにしかない")
         else:
             print(f"  ○ {label}")
+
+    problems += check_formulae()
 
     print()
     print(f"要対応 {problems} 件" if problems else "引用の不一致なし")
