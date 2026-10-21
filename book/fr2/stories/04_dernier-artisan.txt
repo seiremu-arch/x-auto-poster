@@ -1,0 +1,263 @@
+IV. Le dernier artisan
+
+
+I
+
+　Taux de traitement automatique 98,4 pour cent, affiche le mur.
+
+　Les 1,6 pour cent restants étaient la charge des techniciens humains. Les techniciens qui restent dans la troisième salle d'édition ne sont que deux, Nagoshi compris.
+
+　Nagoshi a soixante-quatre ans et part à la retraite dans huit mois. L'autre est dans la seconde moitié de la cinquantaine et s'en va l'an prochain. Leur remplacement, après leur départ, n'est pas prévu.
+
+　— Attribution du jour, trois dossiers, dit le Correcteur. Aucun n'a reçu de jugement d'achèvement au traitement automatique.
+
+　Le traitement automatique s'arrête quand l'entraînement sur un fragment contigu dépasse la valeur réglementaire. Les dossiers arrêtés passent à l'humain. C'est-à-dire que ce qui arrive entre les mains de Nagoshi n'est que ce que la machine n'a pas pu toucher.
+
+　— Sortez le premier.
+
+　Les bandes s'alignèrent. Nagoshi compta depuis la gauche et arrêta sa main à la sixième.
+
+
+II
+
+　Le demandeur était un homme de la quarantaine, et l'objet un souvenir de huit ans plus tôt.
+
+　Le traitement automatique s'était arrêté à cause de la densité des fragments contigus. Juste à côté du fragment à abaisser, trois autres fragments se trouvent, dans des positions presque superposées. Pousser l'un fait bouger les trois.
+
+　La machine n'aime pas cette forme. La quantité qu'on peut déplacer est fixée, et ce qui fuit vers le voisin s'ajoute à la quantité déplacée. Ajouté, cela dépasse le plafond. Dépassé, cela s'arrête.
+
+　Nagoshi chercha le point de pression.
+
+　Des quatre fragments agglomérés, celui à abaisser est un seul. Mais les quatre sont reliés à leur base et il n'y a nulle part d'endroit où pousser l'un indépendamment. Le jugement de la machine était juste.
+
+　Juste, mais cela ne voulait pas dire qu'il n'y avait pas d'endroit où pousser.
+
+　Nagoshi posa le doigt à un endroit un peu écarté du bord du fragment. Non pas pousser directement, mais appliquer une pression douce depuis un point de faible densité alentour. Les quatre s'enfoncèrent légèrement, puis trois seulement revinrent. Celui qui ne revint pas était celui à abaisser.
+
+　— Charge affective, de 0,81 à 0,77, énonça le Correcteur. Variation des fragments contigus, 0,006 au total. Dans le règlement.
+
+　— Fini en une nuit, donc.
+
+　— C'est fini.
+
+
+III
+
+　Ce geste, Nagoshi ne peut l'expliquer à personne.
+
+　On lui a demandé de l'expliquer bien des fois. Il y eut une époque où de jeunes techniciens venaient voir, et on a aussi enregistré la procédure pour l'apprentissage de la machine. Les enregistrements doivent subsister.
+
+　Ils subsistent, et ils ne sont pas reproduits.
+
+　— Une question, dit Nagoshi. Le modèle qui a appris mes procédures, où en est-il ?
+
+　— Son exploitation a été arrêtée il y a trois ans, dit le Correcteur.
+
+　— Le motif ?
+
+　— Parce que le taux de reproduction est tombé sous les quatre dixièmes.
+
+　— Quatre dixièmes.
+
+　— Pour une même entrée, la même opération n'était pas choisie dans six cas sur dix, dit le Correcteur. Vos opérations diffèrent chaque fois, même pour des fragments de même forme.
+
+　Nagoshi, en l'entendant, rit un peu.
+
+　Même si la forme a l'air pareille, ce n'est pas la même personne. Même pour la même personne, le sommeil de cette nuit-là est autre. Donc cela diffère chaque fois. C'était l'évidence. L'évidence, la machine l'appelle un faible taux de reproduction.
+
+　Du reste, Nagoshi n'avait pas d'argument à faire valoir.
+
+　Choisir chaque fois une opération différente veut dire que Nagoshi lui-même ne sait pas laquelle était juste. Quarante ans de métier, et les souvenirs de ce qui a bien marché sont les plus nombreux. Mais les dossiers qui n'ont pas marché, en général, il ne s'en souvient pas. Les gens sont faits ainsi.
+
+　Ce dont il ne se souvient pas, la machine s'en souvient. Les quarante ans d'opérations de Nagoshi sont tous au registre, et les échecs y sont avec la même précision.
+
+　Aussi la machine évalue-t-elle plus exactement les quatre dixièmes de Nagoshi.
+
+
+IV
+
+　Dans l'après-midi, un jeune agent vint.
+
+　Dans la vingtaine, du service de planification de l'exploitation. Sa carte portait : chargé de la promotion de l'automatisation.
+
+　— Au sujet de l'après-retraite de Nagoshi, auriez-vous un moment ?
+
+　— C'est pour la transmission ?
+
+　— La transmission, c'est-à-dire… L'agent eut l'air gêné. La troisième salle d'édition va fermer à l'exercice prochain.
+
+　— Je vois.
+
+　— Pour les dossiers des 1,6 pour cent, la politique est de les absorber en relâchant le seuil du traitement automatique.
+
+　Nagoshi leva les yeux du terminal.
+
+　— Relâcher, cela veut dire élever la valeur réglementaire de l'entraînement ?
+
+　— Oui. Le 0,01 actuel passerait à 0,03.
+
+　— Le triple, donc.
+
+　— Le triple. L'agent sortit un dossier. Au calcul, plus de neuf dixièmes des 1,6 pour cent entreraient alors automatiquement dans le jugement d'achèvement.
+
+　Nagoshi prit le dossier et suivit les chiffres. Le calcul était fondé. En triplant le seuil, les dossiers où la machine s'arrête disparaissent presque.
+
+　— Et le dixième restant ?
+
+　— Il continuera de s'arrêter, et dans ce cas on traitera en augmentant le nombre de découpages, dit l'agent. Ce qui ne se fait pas en une nuit, on le comble en nuits.
+
+　— Le voisin ne bouge pas.
+
+　— Il bouge. Jusqu'à 0,03.
+
+　— Ce 0,03, d'où vient ce chiffre ?
+
+　— C'est le triple de la valeur actuelle, répondit l'agent. Une réponse sans malveillance. Et sans doute sans malveillance, en effet.
+
+　— Le fondement du triplement ?
+
+　— C'est la valeur qui permet d'absorber neuf dixièmes des 1,6 pour cent. L'agent ouvrit une autre page. Au double, on n'en absorbe que six dixièmes. Au quadruple, cette fois, la commission clinique fait des difficultés.
+
+　— Le triple est passé en commission ?
+
+　— Il est passé. 0,03 est dans la plage de la demi-teinte, donc la trace demeure. Si la trace demeure, c'est sûr : voilà l'avis de la commission.
+
+　Nagoshi fut arrêté par cette façon de dire.
+
+　Si la trace demeure, c'est sûr. L'ordre est inverse de ce que disait son instructeur il y a quarante ans. L'instructeur disait que le plafond existe pour que la trace demeure. Maintenant, on dit que la trace demeure parce qu'on est dans le plafond.
+
+　Cela a l'air de dire la même chose, et c'est autre. Le premier a la trace pour fin ; le second a le plafond pour fondement.
+
+　Nagoshi ne se sentait pas capable d'expliquer cette différence, aussi se tut-il.
+
+
+V
+
+　Cette nuit-là, Nagoshi remonta les dossiers qu'il avait touchés.
+
+　Il y en a quarante ans. En nombre, cela dépassait vingt mille.
+
+　Il fit compter combien, parmi eux, avaient une variation de fragment contigu supérieure à 0,01.
+
+　— Trente-sept, dit le Correcteur.
+
+　— Et supérieure à 0,03 ?
+
+　— Aucun.
+
+　Nagoshi regarda un moment ce chiffre.
+
+　Trente-sept en quarante ans. Des trente-sept dépassant 0,01, ceux dépassant 0,02 ne sont que quatre. La main de Nagoshi a donc bougé quarante ans à l'intérieur de la valeur actuelle de la machine.
+
+　Le nouveau seuil est 0,03. Une valeur que Nagoshi n'a pas dépassée une seule fois en quarante ans, la machine l'emploiera couramment dès l'exercice prochain.
+
+　— Une variation contiguë de 0,03, qu'est-ce qu'elle fait au patient ?
+
+　— La charge affective du fragment contigu baisse de 0,03, dit le Correcteur.
+
+　— Cela, je le sais. Je demande ce qu'elle fait.
+
+　— Ce poste n'est pas enregistré.
+
+
+VI
+
+　La semaine suivante, Nagoshi déposa un avis.
+
+　Ce n'était pas pour s'opposer au relâchement du seuil. Il savait qu'une opposition ne passerait pas. Il écrivit un seul point : qu'on continue d'enregistrer la variation des fragments contigus après le relâchement.
+
+　Aujourd'hui, la variation contiguë n'est enregistrée que lorsqu'elle dépasse la valeur réglementaire. En dessous, elle ne l'est pas. En triplant le seuil, la plus grande part des variations jusqu'ici enregistrées entre dans le domaine non enregistré.
+
+　Ce n'est pas la variation qui disparaît. C'est le registre.
+
+　La réponse vint deux semaines plus tard.
+
+　— L'ajout de postes d'enregistrement est écarté pour l'heure, au regard des coûts de refonte du système. Il est en outre jugé que les variations dans la valeur réglementaire sont tenues pour cliniquement sans problème et que la nécessité de les enregistrer est faible.
+
+　Nagoshi relut plusieurs fois la deuxième ligne.
+
+　Tenues pour sans problème. Qui en a jugé ainsi n'est pas écrit. L'étude qui fonde le jugement n'est pas indiquée non plus. Seulement, il en est tenu ainsi.
+
+　Il y a quarante ans, quand Nagoshi suivait sa formation, l'instructeur avait dit : le plafond n'est pas une limite de la technique, il est là pour qu'on se tienne dans la plage où la trace demeure. Tant que la trace demeure, on peut douter que sa mémoire ait été touchée.
+
+　En triplant le seuil, ce raisonnement ne change pas. 0,03 est encore dans la plage de la demi-teinte. La trace demeure.
+
+　Elle demeure, et elle n'est pas enregistrée. Pour douter, il faut d'abord une raison de douter. Si ce qui en ferait une ne sort pas au registre, il n'y a pas de quoi douter.
+
+
+VII
+
+　Trois mois avant sa retraite, Nagoshi accueillit son dernier visiteur.
+
+　C'était ce jeune agent de la planification. Il avait demandé à voir une fois le geste de Nagoshi. Non sur consigne d'en haut, mais de son propre souhait.
+
+　Nagoshi choisit un dossier à fragments agglomérés.
+
+　— Même en regardant, vous ne comprendrez pas.
+
+　— Ce n'est pas grave.
+
+　Nagoshi posa le doigt. Un endroit un peu écarté du bord du fragment. Non pas directement, mais une pression douce depuis un point de faible densité alentour. Les quatre s'enfoncent légèrement, trois seulement reviennent.
+
+　— Ils sont revenus, dit l'agent.
+
+　— Ils sont revenus.
+
+　— Pourquoi trois seulement reviennent-ils ?
+
+　— Je ne sais pas, dit Nagoshi. Quarante ans de métier, et je ne sais pas.
+
+　L'agent se tut.
+
+　— La machine ne fait pas ce dont elle ignore la raison, continua Nagoshi. Moi, j'ai travaillé sans en connaître la raison. Ce n'est pas une question de qui a raison.
+
+　— Alors de quoi est-ce la question ?
+
+　Nagoshi réfléchit un peu.
+
+　— De ce qui reste en trop.
+
+　— En trop.
+
+　— La quantité qu'on peut pousser est fixée, et je n'ai jamais bougé qu'à l'intérieur. En quarante ans, trente-sept fois seulement j'ai touché au règlement, dit Nagoshi. Ce que je n'ai pas touché reste en trop. Ce qui reste en trop, on va s'en servir dès l'an prochain.
+
+　— Ce dont on peut se servir, mieux vaut s'en servir…
+
+　— C'est vrai, reconnut Nagoshi. Et je ne dirai pas que ce reste est une bonne chose. Seulement, ce n'est pas du reste : c'est du jeu.
+
+　L'agent prit un air d'incompréhension. Nagoshi ne pensait pas non plus l'avoir bien dit.
+
+　— Du jeu, c'est-à-dire ? demanda l'agent.
+
+　— Entre le plafond qu'on peut pousser et la quantité qu'on pousse en vrai, dit Nagoshi. Comme c'est vide là, on peut hésiter. Jusqu'où pousser, on peut en décider soi-même chaque fois.
+
+　— Si l'on peut pousser jusqu'au plafond, il n'y a pas besoin d'hésiter, non ?
+
+　— C'est cela, dit Nagoshi. Donc la machine n'hésite pas. Ne pas hésiter est plus rapide et, tout compte fait, probablement juste.
+
+　— Vous pensez qu'il vaut mieux hésiter ?
+
+　Nagoshi resta un moment sans répondre.
+
+　— Je ne le pense pas, dit Nagoshi. J'ai hésité quarante ans, et je n'ai pas une seule preuve que cette hésitation ait servi aux patients. Il n'y a qu'un relevé de trente-sept cas. Ce n'est pas la preuve que j'étais adroit, c'est le relevé de trente-sept fois où j'ai touché au règlement.
+
+　— Alors il ne reste rien ?
+
+　— Il ne reste rien, dit Nagoshi. C'est pourquoi le fait que vous soyez venu ici aujourd'hui a probablement plus de sens.
+
+　L'agent, à cela, ne dit rien.
+
+
+VIII
+
+　Le jour où Nagoshi quitta le Bureau, la plaque de la troisième salle d'édition fut retirée dans la semaine.
+
+　Le taux de traitement automatique passa, à l'exercice suivant, à 99,8 pour cent. Les 0,2 pour cent restants sont des dossiers que la machine a mis en suspens, et ils s'empilent en file d'attente, en suspens.
+
+　Le seuil a été relâché à 0,03. La variation des fragments contigus, jusqu'à 0,03, n'est pas enregistrée.
+
+　Les variations que Nagoshi a portées au registre trente-sept fois en quarante ans y sont encore. Dans quarante ans de registres, ces trente-sept seuls indiquent que le voisin a bougé.
+
+　Dans les registres postérieurs, il n'y a pas une seule trace d'un voisin qui bouge.
+
+　Non pas parce qu'il ne bouge pas.

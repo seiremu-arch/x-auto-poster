@@ -14,9 +14,9 @@ le Livre I. Compiler avec `python3 book/tools/build_epub.py fr2`.
 | # | Japonais | Français | Origine | Mots | État |
 |---|---|---|---|---|---|
 | I | 眠らない都市 | La ville qui ne dort pas | 4 336 | 2 179 | **fait** |
-| II | 胎夢 | Fondations | 4 240 | — | en attente |
-| III | 共感注射 | L'injection d'empathie | 4 432 | — | en attente |
-| IV | 最後の夢職人 | Le dernier artisan | 4 226 | — | en attente |
+| II | 胎夢 | Fondations | 4 240 | 2 045 | **fait** |
+| III | 共感注射 | L'injection d'empathie | 4 432 | 2 124 | **fait** |
+| IV | 最後の夢職人 | Le dernier artisan | 4 226 | 2 070 | **fait** |
 | V | ＡＩは夢を見るか | La machine rêve-t-elle ? | 3 963 | — | en attente |
 | VI | 夢の犯罪 | Violences | 3 933 | — | en attente |
 | VII | 消えた現実 | Le registre | 3 982 | — | en attente |
