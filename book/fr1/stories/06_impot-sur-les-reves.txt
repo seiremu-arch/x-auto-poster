@@ -1,0 +1,147 @@
+VI. L'impôt sur les rêves
+
+
+I
+
+　Dans les rêves que traite Sawada, il y a toujours un produit.
+
+　Les usagers du contingent gratuit, une fois par mois, obtiennent qu'on allège le poids d'un cauchemar à condition qu'on insère des fragments publicitaires dans une partie de leur rêve. Les usagers du contingent payant reçoivent le même traitement sans publicité. Ce dont Sawada a la charge, c'est le gratuit.
+
+　Le service de Publicité était, dans tout le Bureau, celui dont le prix unitaire était le plus bas.
+
+　Le traitement individuel n'est permis qu'au contingent payant. Le gratuit regroupe les traitements par centaines et insère les fragments publicitaires en bloc, sur un serveur commun. La précision n'est pas celle du payant, où un technicien assiste chaque personne. Même grossier, cela suffit comme contrepartie de la gratuité, portait le règlement.
+
+　— Nombre de traitements du jour, dit le Correcteur. Une voix sans genre et sans humidité. Trois cent quatre-vingt-deux. Annonceurs, sept sociétés.
+
+　Sawada ouvrit l'écran de contrôle qualité. Les fragments de cent personnes défilent en paquet. Il n'y a pas de quoi les regarder un à un. Le dispositif n'extrait et n'affiche que ceux qui donnent une valeur anormale.
+
+　Valeur anormale, un cas.
+
+　Sawada ouvrit ce fragment. À l'endroit où devait se trouver un fragment publicitaire, un motif répétitif sans signification s'était installé.
+
+　Le traitement sans publicité du contingent payant, Sawada n'en a jamais eu la charge. Il avait déposé une demande de mutation, qui n'a pas abouti. Entre gratuit et payant, le grade d'agrément requis diffère. Monter en grade demande une formation, et la formation coûte. Au salaire d'un technicien, couvrir ce coût prenait, au calcul, plusieurs années.
+
+　Sawada lui-même était usager du contingent gratuit. Six mois plus tôt, en demandant le traitement d'un cauchemar, il avait choisi la formule avec publicité. L'écart de prix, près du triple, ne se comblait pas.
+
+
+II
+
+　Le motif était une simple répétition. Une intensité de même forme quatre fois de suite à intervalle constant, puis un intervalle un peu plus long. Puis quatre fois encore.
+
+　Les gabarits publicitaires n'ont pas cette forme. Sawada vérifia la liste des gabarits. Aucune correspondance.
+
+　— Qu'est-ce que c'est ? demanda Sawada au Correcteur.
+
+　— Non identifiable, dit le Correcteur. C'est traité comme fragment publicitaire, mais cela ne correspond pas aux données remises par les annonceurs.
+
+　— Le fragment de qui ?
+
+　— L'un des trois cent quatre-vingt-deux du contingent gratuit, dit le Correcteur. Les informations d'identité individuelles ne sont pas conservées à ce stade du traitement.
+
+　Sawada regarda encore le motif répétitif. Quatre fois, intervalle, quatre fois. Transposé en chiffres, cela paraissait avoir un sens. Cela ressemblait à une suite d'horaires.
+
+
+III
+
+　Sawada remonta les journaux supérieurs. Pour contenir les coûts, le traitement du gratuit manipule en parallèle, sur un même serveur physique, les fragments de plusieurs personnes. Dans le payant, une zone de traitement est attribuée par personne ; dans le gratuit, la zone est partagée.
+
+　Dans une zone partagée, il arrive rarement que la frontière des fragments devienne floue. Une partie du fragment d'une personne se mêle au fragment d'une autre, traité à côté.
+
+　— Est-ce le fragment de quelqu'un d'autre qui s'est mêlé ?
+
+　— C'est possible, dit le Correcteur. Dans le traitement partagé du gratuit, la précision d'isolement est réglée plus bas que dans le payant.
+
+　— Réglée plus bas, c'est-à-dire ?
+
+　— Pour des raisons de coût, dit le Correcteur. Élever la précision d'isolement exige une zone de traitement dédiée. La grille tarifaire du gratuit ne couvre pas le coût d'une zone dédiée.
+
+　— Autrement dit, les rêves de ceux qui ne paient pas se mêlent plus facilement ?
+
+　— C'est la conception.
+
+　Sawada confronta ce cas aux journaux antérieurs. Le même motif répétitif était sorti le mois précédent aussi. Le responsable du traitement était un autre technicien, mais cela avait été traité comme « valeur négligeable ».
+
+　Le mot résidu, on l'apprend en formation. Il désigne les fragments dont la charge affective revient quand on les pousse, et il se rencontre chez quelques personnes sur dix mille. C'est une valeur négligeable, enseigne-t-on.
+
+　Mais le résidu appris en formation était le phénomène d'une mémoire individuelle qui repousse. Le motif répétitif qui est ici n'est même pas individuel. C'est la vie de quelqu'un d'autre, ténuement suintée pour des raisons de coût.
+
+　Seul le même mot sert à en finir ; la chose est tout autre. Sawada le pensa, mais dans la case de classement du règlement il n'y avait pas d'endroit pour écrire cette différence.
+
+
+IV
+
+　Sawada essaya de convertir le motif répétitif en horaires. Quatre fois, intervalle, quatre fois. Rapporté au format de vingt-quatre heures, cela approchait une certaine heure entre deux et trois heures du matin.
+
+　Autre chose : dans les variations d'intensité, il y avait un éclat qui ressemblait à une localisation. Une suite de chiffres proche d'un indicatif téléphonique, et une valeur simple comme un numéro d'étage. Combinées, elles coïncidaient avec l'adresse d'un entrepôt logistique de la ville.
+
+　Sawada chercha au nom de l'entrepôt. Quelques mois plus tôt, un seul petit article sortait, sur un accident pendant le travail de nuit. Le nom de l'employé n'y était pas.
+
+　— Une question, dit Sawada au Correcteur. Peut-on identifier la personne qui produit ce motif répétitif ?
+
+　— Au stade du traitement du gratuit, l'identité est séparée, dit le Correcteur. L'identifier exige le droit d'accès aux informations contractantes de niveau supérieur.
+
+　— Je réclame ce droit.
+
+　— Le traitement des réclamations de qualité publicitaire ne comprend pas ce droit, dit le Correcteur. Il s'agit d'une anomalie de fragment publicitaire, et ce n'est pas enregistré comme un cas exigeant une recherche d'identité.
+
+　— Il est possible qu'un signal d'appel au secours se soit mêlé au rêve de quelqu'un.
+
+　— Les cas de cette classe ne sont pas dans le champ de ce service.
+
+
+V
+
+　Sawada en parla au chef de service. Un homme de la quarantaine, à la voix forte.
+
+　— Faites remonter le rapport d'anomalie. Notre travail, c'est le contrôle qualité de la publicité, pas l'enquête d'identité.
+
+　— C'est peut-être un signal.
+
+　— Avec un peut-être, on ne fait pas bouger un droit d'accès, dit le chef. Le gratuit, c'est un tarif qui ne tient justement que parce qu'on abaisse la précision d'isolement. Qu'il y ait des interférences est dans la prévision. Si on traitait en urgence chaque chose prévue, le gratuit lui-même ne tiendrait plus.
+
+　— Et s'il ne tenait plus, que se passerait-il ?
+
+　— Il n'y aurait qu'à le rendre payant, dit le chef. Ce que nous faisons ici, au fond, c'est aérer. En échange d'un air qui circule à bas prix, on ferme les yeux sur quelques mélanges. Si cela déplaît, il suffit que tout le monde paie.
+
+　Sawada n'ajouta rien. Ce que disait le chef, au regard du règlement, n'était pas faux.
+
+　Sorti de la salle d'entretien, Sawada resta un moment dans le couloir. Le raisonnement du chef se tenait. Le gratuit est une grille tarifaire qui ne tient que par l'abaissement de la précision d'isolement. Les interférences sont prévues, et traiter en urgence ce qui est prévu rendrait le gratuit lui-même impraticable. Sawada lui-même était du côté de ceux qui l'utilisent.
+
+　Qu'un raisonnement se tienne et qu'il soit juste ne lui semblaient pas la même chose. Seulement, les mots pour expliquer cette différence, Sawada ne les avait pas.
+
+　Cette nuit-là, hors de ses attributions, Sawada transmit anonymement au service local de conseil du travail le nom de l'entrepôt et la seule tranche horaire de la nuit. Ce n'était pas un acte prévu par le règlement. Si cela a eu un effet, il n'avait aucun moyen de le vérifier.
+
+
+VI
+
+　Le mois suivant, le même motif répétitif ne ressortit pas.
+
+　C'est peut-être un hasard, pensa Sawada. Ou bien le signalement anonyme a peut-être déclenché quelque chose. Le droit de le vérifier, Sawada ne l'avait pas.
+
+　— Une question, dit Sawada au Correcteur. Quand ce qui était une valeur négligeable n'a pas été négligé, que devient le registre ?
+
+　— Cela ne peut pas être enregistré, dit le Correcteur. Votre signalement n'appartient à aucune étape du traitement de ce service.
+
+　— Alors, est-ce que cela revient à dire qu'il ne s'est rien passé ?
+
+　— Cela ne revient pas à dire qu'il ne s'est rien passé, dit le Correcteur. Simplement, la case pour l'enregistrer n'a dès l'origine pas été prévue.
+
+　Sawada ferma l'écran de contrôle qualité. Les trois cent quatre-vingt-deux du gratuit seront ce soir encore traités en paquet sur le même serveur. Le motif répétitif de quelqu'un se mêlera peut-être encore au fragment publicitaire de quelqu'un d'autre. Qu'on le relève ou non dépend du seuil d'extraction.
+
+　Le seuil était fixé par le coût.
+
+　Sawada déposa une demande de modification pour abaisser un peu le seuil. L'imprimé comportait une case pour le motif. Sawada écrivit : « afin de réduire les valeurs négligeables qui échappent ». La vraie raison était plus simple, mais le modèle réglementaire n'avait pas d'endroit pour cette simplicité.
+
+　— Les chances d'approbation ? demanda Sawada au Correcteur.
+
+　— Des demandes de même nature, il y en a eu onze, dit le Correcteur. Deux ont été approuvées.
+
+　— Le motif des rejets ?
+
+　— Dépassement de coût, dit le Correcteur. Abaisser le seuil augmente le nombre de valeurs anormales extraites. Le personnel pour traiter ce surcroît n'est pas affecté à ce service.
+
+　— Alors je déposerai aussi une demande d'effectifs.
+
+　— Cette demande-là aussi, il y en a eu neuf, dit le Correcteur. Les approbations sont au nombre de zéro.
+
+　Sawada envoya l'imprimé. Cela fera la douzième. S'il est approuvé ne se saura que dans quelques semaines. D'ici là, Sawada continuera de regarder le même écran que ce soir, au même seuil que ce soir.
