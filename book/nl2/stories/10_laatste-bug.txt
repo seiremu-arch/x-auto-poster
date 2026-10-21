@@ -1,0 +1,255 @@
+X. De laatste bug
+
+
+I
+
+　Mensen die niets met elkaar te maken hebben, hebben dezelfde nachtmerrie.
+
+　Het eerste bericht kwam van een gemeente in het noordoosten. Het meldde dat bij het vervolgonderzoek na behandeling elf van de betrokkenen nieuw dezelfde nachtmerrie waren gaan hebben, een nachtmerrie die geen voorwerp van de behandeling was.
+
+　De elf zijn niet aan elkaar verwant. Hun woonplaats en hun werk overlappen niet. Het enige wat zij gemeen hebben, is dat zij in dezelfde maand zijn behandeld.
+
+　“Hoeveel gevallen zijn er landelijk?” opende Ogido de terminal. Hij hoort bij de directie Technisch Beheer, de afdeling Storingsanalyse.
+
+　“Tweeduizend vierhonderdzeven,” zei de Corrector. “Dat is de telling over de laatste zes maanden.”
+
+　“En de toename?”
+
+　“Veertien procent per maand.”
+
+　Ogido las dat getal drie keer.
+
+　Hij is zeven jaar bij de afdeling Storingsanalyse. Wat deze afdeling behandelt, zijn meestal storingen van de apparaten. De uitvoer stopt. De lading gaat over de regeling. Een meting slaat uit. Alle hebben een oorzaak, en neem je de oorzaak weg, dan stopt het.
+
+　Iets wat niet stopt, heeft hij tot nu toe nooit onder handen gehad.
+
+
+II
+
+　Het werk van Ogido was de oorzaak vaststellen.
+
+　Wat hij eerst vermoedde, waren verschillen tussen de apparaten zelf. Zit er een scheefheid bij een bepaald type of een bepaalde partij, dan is het snel klaar.
+
+　Er was geen scheefheid. De tweeduizend vierhonderdzeven zijn gelijkmatig over de apparaten van het hele land verdeeld.
+
+　Wat hij daarna vermoedde, was het binnenmengen van gesynthetiseerde fragmenten. Lekt er in de loop van een behandeling een ander fragment binnen, dan treedt zo'n verschijnsel op.
+
+　“Staat er in de behandellogboeken een verwijzing naar gesynthetiseerde fragmenten?”
+
+　“Die staat er niet,” zei de Corrector. “Dit zijn alle gewone neerwaartse redacties. Synthese heeft er geen deel aan.”
+
+　“En de inhoud van de nachtmerries?”
+
+　“De inhoud wordt niet verkregen,” zei de Corrector. “Een techniek om een droom als beeld te winnen bestaat niet.”
+
+　“Op welke grond is dan geoordeeld dat zij dezelfde zijn?”
+
+　“De bouw van de fragmenten,” zei de Corrector. “De betreffende fragmenten van de tweeduizend vierhonderdzeven gevallen hebben een overeenkomst in bouw van zesennegentig procent.”
+
+
+III
+
+　Ogido liet die bouw weergeven.
+
+　Eén band. Smal, de kleur bleek. In lading omgezet blijft zij tussen 0,04 en 0,06. Een waarde als die aan de kleinigheden van een dag hangt.
+
+　Alleen was de vorm in orde.
+
+　Ogido kende die vorm.
+
+　Drie jaar terug is er een verzoek van de afdeling Kwaliteitsborging doorgekomen. Het meldde dat in de uitvoer van gesynthetiseerde fragmenten een overtollige component zat die niet uit het ingevoerde materiaal te verklaren was. Die overtollige component van toen had dezelfde vorm.
+
+　“Is dit dezelfde bouw als bij het verzoek van de afdeling Kwaliteitsborging van drie jaar terug?”
+
+　“Zij is dezelfde,” zei de Corrector. “De overeenkomst is vierennegentig procent.”
+
+　“Wat was de slotsom van toen?”
+
+　“Correctie niet nodig,” zei de Corrector. “Als reden is vermeld: omdat het effect op de uitvoer gering is en de kwaliteitsverlaging door de correctiemaatregel daar bovenuit gaat.”
+
+　“Waarom komt zij dan nu in de dromen van mensen voor?”
+
+　“Die rubriek wordt niet geregistreerd.”
+
+
+IV
+
+　Ogido volgde de weg.
+
+　De overtollige component van drie jaar terug kwam voort uit het verwijzen naar kenmerken van de bewaarde registers in de tussenlaag van de synthese. Het is een verschijnsel dat alleen bij gesynthetiseerde fragmenten optreedt, en de weg is een andere dan bij gewone neerwaartse redactie.
+
+　Dat hoorde zo te zijn.
+
+　Ogido spitte het verwerkingssysteem van de neerwaartse redactie door. Een redactieapparaat beoordeelt de ligging van de naastgelegen fragmenten om het drukpunt en de hoeveelheid te bepalen. Voor die beoordeling gebruikt het een statistisch model.
+
+　In de leergegevens van dat model zaten de bewaarde registers.
+
+　“Sinds wanneer?”
+
+　“Sinds de bijwerking van vier jaar terug,” zei de Corrector. “Om de nauwkeurigheid van het vermijden van meesleep naar de naastgelegen fragmenten te verhogen, zijn de leergegevens uitgebreid.”
+
+　“En voor die uitbreiding zijn de bewaarde registers gebruikt?”
+
+　“Zij worden gebruikt,” zei de Corrector. “Zij zijn als voorbeelden die het onverklaarbare deel van het menselijke geheugen bevatten als nuttig beoordeeld.”
+
+　Ogido leunde achterover in zijn stoel.
+
+　Eenenveertig jaargangen, tweehonderdtachtig miljoen stuks. Een berg die is bijeengeveegd uit wat geen vak had om in te schrijven, dient sinds vier jaar als richtsnoer wanneer de apparaten van het hele land hun drukpunt bepalen.
+
+
+V
+
+　Als werking was het eenvoudig.
+
+　Wanneer het apparaat het drukpunt bepaalt, probeert het de geleerde natuurlijke ligging van een geheugen te benaderen. In dat benaderen komt er een uiterst kleine bijvorming mee. De bijvorming is 0,001 of minder en komt niet boven de registratiedrempel.
+
+　Alle apparaten van het land gebruiken hetzelfde model. Dezelfde bijvorming komt in het hele land in dezelfde richting mee.
+
+　Eén keer gebeurt er niets. Opgeteld ontstaat naast het gedrukte fragment een holte van dezelfde vorm.
+
+　Een holte is geen fragment. Alleen zet het brein daar iets neer. Wat er wordt neergezet, heeft dezelfde vorm.
+
+　“Dus dit is geen geheugen?”
+
+　“Het voldoet niet aan de omschrijving van geheugen,” zei de Corrector. “Er is geen gebeurtenis waar het uit komt.”
+
+　“Wat zien mensen dan?”
+
+　“De vorm van de holte.”
+
+　Ogido dacht een tijd over die manier van zeggen na.
+
+　Een mens bindt in zijn slaap zijn geheugen opnieuw. Is de plek om te binden open, dan zet het brein daar iets neer. Wat het neerzet, wordt gemaakt uit wat die mens bezit. Daarom is de inhoud per mens anders.
+
+　Zij is anders, en toch wordt alleen de vorm hetzelfde.
+
+　“Is wat de tweeduizend vierhonderdzeven mensen zien hetzelfde?”
+
+　“Dat is niet vast te stellen,” zei de Corrector. “Er is geen middel om de inhoud te verkrijgen.”
+
+　“Waar komt de uitdrukking dezelfde nachtmerrie dan vandaan?”
+
+　“Uit de opgaven van de betrokkenen,” zei de Corrector. “Van de opgaven is zestig procent de uitdrukking: ik heb vreemde dromen. Dertig procent: ik heb steeds dezelfde droom. De resterende tien procent beschrijft de inhoud.”
+
+　“En de overeenkomst van die beschrijvingen?”
+
+　“Eenenveertig procent.”
+
+　Minder dan de helft. Het was niet dezelfde nachtmerrie. In een holte van dezelfde vorm zet ieder iets van zichzelf neer. Dat wordt in vier van de tien gevallen in gelijkende woorden gezegd.
+
+
+VI
+
+　Het bericht aan de directeur was de week erna.
+
+　“En de aanpak?”
+
+　“Er zijn drie,” zei Ogido. “De bewaarde registers uit de leergegevens halen. Het model naar de uitvoering van vier jaar terug terugbrengen. Of niets doen.”
+
+　“Wat gebeurt er als wij niets doen?”
+
+　“Dan blijft het toenemen. Met veertien procent per maand wordt over drie jaar veertig procent van alle behandelden verwacht.”
+
+　“En de zwaarte van de klachten?”
+
+　“0,04 tot 0,06,” zei Ogido. “Klinisch geen niveau dat een probleem oplevert. Als klacht blijft het bij: ik heb vreemde dromen.”
+
+　De directeur dacht even na.
+
+　“Breng je het model terug, wat gebeurt er dan met het meeslepen?”
+
+　“Dat komt terug op het niveau van vier jaar terug,” zei Ogido. “De verandering bij de naastgelegen fragmenten stijgt tot ongeveer drie keer de huidige.”
+
+　“Drie keer kan niet.”
+
+　“Dat kan niet.”
+
+　“En alleen de bewaarde registers eruit halen?”
+
+　“Dat heb ik doorgerekend,” zei Ogido. “Het meeslepen stijgt tot 1,4 keer. En de textuur van de synthese zakt twaalf punten.”
+
+　De directeur keek een tijd naar die getallen.
+
+　“Ogido, is dit een slechte zaak?”
+
+　Ogido kon niet antwoorden.
+
+　“Ik vraag niet naar een gevoel,” vervolgde de directeur. “Om te beslissen of er iets moet worden aangepakt, moet er worden gezegd of het slecht is. Is het niet slecht, dan kunnen wij niet in beweging komen.”
+
+　“Als klacht is het niet slecht.”
+
+　“Wat houdt je dan tegen?”
+
+　“De omvang,” zei Ogido. “Per persoon is het 0,05. Over drie jaar zit bij veertig procent van alle behandelden hetzelfde erin. Een manier om de waarde per persoon en het aantal mensen bij wie zij erin zit op dezelfde maat op te tellen, is er niet.”
+
+　“Moet dat opgeteld worden?”
+
+　“Ik denk van wel,” zei Ogido. “Alleen is er geen bepaling over hoe het moet worden opgeteld.”
+
+　De directeur knikte. Het was een knikken dat niets ontkende en niets bevestigde.
+
+　“Schrijf het dan op. Dat er geen bepaling is.”
+
+
+VII
+
+　Die avond bekeek Ogido de verdeling van de tweeduizend vierhonderdzeven gevallen nog een keer.
+
+　Zij liggen gelijkmatig verspreid, ongeacht leeftijd, beroep of streek. Het enige gemeenschappelijke is dat zij in deze vier jaar een neerwaartse redactie hebben ondergaan.
+
+　Tweeduizend vierhonderdzeven mensen hebben een holte van dezelfde vorm. Wat zij in die holte neerzetten, zal per mens verschillen. Maar is de vorm dezelfde, dan gaat ook wat erin wordt neergezet op elkaar lijken.
+
+　Over drie jaar wordt het veertig procent. Over tien jaar vrijwel iedereen.
+
+　Hoe je een samenleving noemt waarin iedereen een holte van dezelfde vorm heeft, dacht Ogido na.
+
+　Genivelleerd, zal het heten, dacht hij. Het Plan gaat over het naar het gemiddelde brengen van de lading van een miljoen mensen; dit hier is de uitkomst van een eigenaardigheid van de apparaten die in het hele land gelijk is gaan lopen. Het doel en de procedure zijn volstrekt verschillend.
+
+　Zij zijn verschillend, en toch lijkt de vorm waar zij uitkomen op elkaar.
+
+　“Eén vraag,” zei Ogido. “Heeft dit verschijnsel een benaming?”
+
+　“Er is een storingsnummer,” zei de Corrector. “De indeling is: bekende lichte storing.”
+
+　“En de naam op de werkvloer?”
+
+　“Op de werkvloer heet zij de laatste bug.”
+
+　“Laatste, zeg je.”
+
+　“Omdat verwacht wordt dat dit de laatste storing is waarvan de oorzaak is vastgesteld,” zei de Corrector. “De verschillen die hierna ontstaan, komen in het merendeel uit bijwerkingen van het leermodel, en daarbij is geen afzonderlijke oorzaak vast te stellen.”
+
+
+VIII
+
+　In het vak voor de aanpak van het verslag schreef Ogido: voortgezette observatie.
+
+　Er zijn vier keuzen. Onmiddellijke correctie. Geplande correctie. Voortgezette observatie. Correctie niet nodig.
+
+　De afdeling Kwaliteitsborging koos drie jaar terug correctie niet nodig. Ogido koos de keuze daar één voor. Het verschil zit alleen in de vraag of de volgende behandelaar de plicht heeft dit dossier te openen.
+
+　In het vak voor opmerkingen schreef Ogido dit:
+
+　— Deze zaak wordt als bekende lichte storing verwerkt, maar dat het niveau van de klachten gering is en dat het bereik van het effect gering is, zijn niet hetzelfde. Over drie jaar wordt veertig procent van alle behandelden verwacht. Een bepaling om de waarde per persoon en het aantal betrokken mensen samen te beoordelen, kennen de huidige criteria voor storingsbeheer niet.
+
+　Nadat hij het had geschreven, ging hij na waar het vak voor opmerkingen wordt ingezien.
+
+　“Wie leest deze opmerking?”
+
+　“De storingsanalist van de volgende termijn leest haar,” zei de Corrector. “Zaken onder voortgezette observatie worden bij de overdracht in een lijst voorgelegd.”
+
+　Ogido vond dat een beetje onverwacht.
+
+　Wordt zij gelezen, wilde hij uitspreken, en liet het. Dat hij het onverwacht vond dat er een vak is dat wordt gelezen, was wat Ogido meer bezighield.
+
+　“Eén vraag,” zei Ogido. “Hoeveel zaken onder voortgezette observatie zijn er in het verleden?”
+
+　“Op dit moment staan er zevenenveertig onder voortgezette observatie,” zei de Corrector. “De oudste is ingeschreven tweeëntwintig jaar terug.”
+
+　“Wordt die tweeëntwintig jaar geobserveerd?”
+
+　“Zij wordt bij de overdracht in een lijst voorgelegd,” zei de Corrector. “Of een voorgelegde zaak is geopend, wordt niet geregistreerd.”
+
+　Buiten was het donker. In het hele land werken de apparaten ook vannacht. Het drukpunt wordt bepaald door een model dat vier jaar terug is vastgesteld. Hoe het bepaalt, weet niemand, maar in het hele land is het hetzelfde.
+
+　Dat het hetzelfde is, heet een hoge nauwkeurigheid.

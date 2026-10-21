@@ -1,0 +1,264 @@
+XII. Het eindrapport
+
+
+I
+
+　De sluitvoorwaarde van de Tweede Synchronisatie is in één regel vastgelegd.
+
+　— Er is sluiting op het tijdstip waarop de variantie van de affectieve lading in de doelgroep onder de referentiewaarde zakt.
+
+　De referentiewaarde is 0,04. Een cijfer dat drieëntwintig jaar terug bij de opening van het Plan is bepaald.
+
+　Bij de telling van juni kwam de variantie op 0,038.
+
+　“Aan de voorwaarde is voldaan,” zei de Corrector. “Het eindrapport kan worden opgesteld.”
+
+　Minato keek een tijd naar dat scherm. Hij hoort bij het Bureau van het Nivelleringsplan, ploeg beoordeling. De belasten met het schrijven van het eindrapport zijn maar drie in die kamer.
+
+　Het is een plan dat drieëntwintig jaar heeft gekost. Wie het bij de opening heeft goedgekeurd, is al allemaal met pensioen. Hoe de referentiewaarde van 0,04 is bepaald, weet in dit gebouw niemand.
+
+　Minato heeft bij zijn aantreden eenmaal naar die grond gezocht. In de ontwerpstukken van het Plan stond één regel.
+
+　— Als het niveau waarop een statistisch significante discrepantie niet meer wordt waargenomen, wordt 0,04 aangehouden.
+
+　Het niveau waarop zij niet meer wordt waargenomen. Wie het heeft geschreven, heeft het waarschijnlijk met zorg geschreven. Hij heeft niet geschreven: het niveau waarop de discrepantie ophoudt te bestaan.
+
+
+II
+
+　Minato haalde eerst het verloop van de variantie op.
+
+　Er verscheen een gebroken lijn van drieëntwintig jaar. Bij de opening 0,21. In het tiende jaar 0,12. In het vijftiende 0,07.
+
+　Over de laatste vijf jaar was de helling van de lijn veranderd.
+
+　Tot het achttiende jaar zakte zij zachtjes; vanaf het negentiende valt zij ineens. In vijf jaar van 0,06 naar 0,038: evenveel als wat er in de tien jaar daarvoor was bewogen.
+
+　“Wat is er in het negentiende jaar geweest?”
+
+　“Er zijn drie registraties die daarbij passen,” zei de Corrector. “Wijziging van het verdeelstelsel. Wijziging van de criteria voor storingsbeheer. Wijziging van de registratiedrempel voor de verandering van naastgelegen fragmenten.”
+
+　Minato opende alle drie.
+
+
+III
+
+　De eerste was de wijziging die deelgenoten in dezelfde week verdeelt.
+
+　Zij hoort bij de doelmatigheid. Behandel je wie hetzelfde geheugen hebben gebundeld, dan stijgt het bezettingspercentage van de apparaten. Bijkomstig verbetert ook de duurzaamheid van het effect van de behandelingen.
+
+　Dat de duurzaamheid verbetert, betekende dat het niet meer terugkomt. Komt het niet terug, dan zakt de variantie.
+
+　De tweede was de wijziging die de behandeling van bekende lichte storingen vastlegde. Doordat de apparaten van het hele land hetzelfde statistische model gebruiken, ontstaat naast het gedrukte fragment een holte van dezelfde vorm. De klacht is van de orde van 0,05 en levert klinisch geen probleem op.
+
+　Ontstaat bij iedereen een holte van dezelfde vorm, dan zakt de variantie.
+
+　De derde was de wijziging die de registratiedrempel voor de verandering naar naastgelegen fragmenten van 0,01 naar 0,03 verhoogde. Verandering binnen de drempel wordt niet geregistreerd.
+
+　Niet geregistreerde verandering gaat niet mee in de berekening van de variantie.
+
+　Minato legde de data van inwerkingtreding van de drie naast elkaar.
+
+　Het was hetzelfde kwartaal van het negentiende jaar.
+
+
+IV
+
+　“Eén vraag,” zei Minato. “Zijn deze drie in samenhang ontworpen?”
+
+　“Dat staat niet in de registers,” zei de Corrector. “De voorstellende diensten zijn in elk geval verschillend. De afdeling Verdeling, de afdeling Storingsanalyse en de directie Technisch Beheer.”
+
+　“Sporen dat zij elkaar hebben geraadpleegd?”
+
+　“Die zijn er niet.”
+
+　Minato besloot dat te geloven. Hij had ook niets om het niet te geloven.
+
+　Drie diensten hebben, elk om zijn eigen reden, elk hun eigen wijziging gedaan. De Verdeling om het bezettingspercentage. De Storingsanalyse om de omvang van de kosten. Technisch Beheer om de zaken op te nemen die handen vragen. Alle lopen rond.
+
+　Drie redeneringen die rondlopen, kwamen in hetzelfde kwartaal bij elkaar.
+
+　Het is geen toeval, dacht Minato. Nadat hij het had gedacht, zocht hij de grond ervoor en vond haar niet.
+
+　Alle drie gaan uit van het feit dat het budget niet is toegekend. Omdat de voorzieningen niet kunnen worden uitgebreid, wordt er met voorspelling gevuld. Omdat het personeel niet kan worden uitgebreid, wordt de drempel verhoogd. Omdat de kosten van de correctiemaatregel groot zijn, wordt er overgegaan op voortgezette observatie.
+
+　Weegt in hetzelfde begrotingsjaar dezelfde beperking, dan brengen verschillende diensten afzonderlijk oplossingen in dezelfde richting voort. Zij hoeven geen contact met elkaar te hebben.
+
+　Of je dat toeval noemt of niet, was een kwestie van woorden.
+
+
+V
+
+　Minato probeerde de variantie te herberekenen.
+
+　De waarde geven die zij zonder de drie wijzigingen zou hebben. De registratiedrempel terugzetten op 0,01, de niet geregistreerde verandering met een schatting aanvullen, en de verdeling van deelgenoten in dezelfde week ontbinden om het terugkomende deel bij te tellen.
+
+　“En de nauwkeurigheid van de schatting?”
+
+　“Zij is laag,” zei de Corrector. “Er is geen vaste methode om een niet geregistreerde hoeveelheid te schatten.”
+
+　“Geef haar toch.”
+
+　Het cijfer kwam.
+
+　0,061.
+
+　Het ging ruim boven de referentiewaarde van 0,04.
+
+
+VI
+
+　Die dag ging Minato naar huis zonder iets te doen.
+
+　De dag erop besprak hij het met het hoofd van de ploeg. Een vrouw van over de vijftig, twaalf jaar bij het Bureau van het Plan.
+
+　“Minato, kan die herberekening als grond dienen?”
+
+　“Zij kan dat niet,” zei Minato. “Omdat de schattingsmethode niet vast is, kan zij niet als cijfer worden voorgelegd.”
+
+　“Dan is de officiële waarde toch 0,038?”
+
+　“Zij is 0,038.”
+
+　“En aan de voorwaarde is voldaan.”
+
+　“Daaraan is voldaan.”
+
+　Het hoofd knikte. Toen liet zij een moment vallen.
+
+　“Waar jij op blijft haken, is dat het niet de variantie is die is gezakt, maar het oog waarmee de variantie wordt gemeten dat grover is geworden. Is dat het?”
+
+　“Dat is het.”
+
+　“Ik heb een keer hetzelfde gedacht,” zei het hoofd. “Een tien jaar terug. Toen was de drempel nog niet gewijzigd, dus kon ik het cijfer maken en meenemen. Het cijfer dat ik maakte is in de commissie niet overgenomen.”
+
+　“Om welke reden?”
+
+　“Dat de schattingsmethode niet vast is,” zei het hoofd. “Hetzelfde antwoord.”
+
+
+VII
+
+　Die avond vroeg Minato de eerdere bedenkingen van dezelfde soort op.
+
+　“Hoeveel registraties zijn ingeschreven als bedenking over de deugdelijkheid van het meetstelsel?”
+
+　“In de bewaarde registers zijn er veertien,” zei de Corrector.
+
+　“En in de officiële registraties?”
+
+　“Daar zijn er geen,” zei de Corrector. “In de formulieren van dit Plan bestaat geen categorie om een bedenking in te schrijven.”
+
+　Veertien. Alle naar de bewaarde registers doorgestuurd als dingen zonder een vak om in te schrijven.
+
+　Minato liet die veertien van oud naar nieuw ordenen.
+
+　Toen hij de datum van de oudste zag, hield Minato zijn hand stil.
+
+　Eenenveertig jaar terug. Een registratie van achttien jaar voordat het Nivelleringsplan begon.
+
+　“Wat voor registratie is dit?”
+
+　“Een margeaantekening bij een lezersverslag,” zei de Corrector. “Categorie: marge bij het vak van het contaminatiepercentage.”
+
+
+VIII
+
+　Minato liet haar weergeven.
+
+　Een fragment is niet weer te geven. Wat in de marge is geschreven, is daarentegen als letters uitgelezen. Een machine heeft het papieren verslag van eenenveertig jaar terug gescand en het als tekst in bewaring gebracht.
+
+　Het waren zes regels.
+
+　— Over het contaminatiepercentage teken ik één punt aan. Dit cijfer wordt berekend uit het verschil tussen de fragmentenverzameling van de proefpersoon en die van de lezer. In vier jaar is mijn contaminatiepercentage van achtendertig naar twee gezakt. Eerst heb ik dat opgevat als winst in nauwkeurigheid.
+
+　— Dat is het niet. Het verschil is klein geworden doordat de twee op elkaar zijn gaan lijken.
+
+　— Wat hier in het geding is, is de maatstaf van het contaminatiepercentage zelf. Deze maatstaf wordt beter geacht naarmate het verschil kleiner is. Maar dat een verschil klein is, kan het ene of het andere zijn: dat de nauwkeurigheid hoog is, of dat het niet meer te onderscheiden valt. Aan de kant van de maatstaf is er geen middel om die twee te onderscheiden.
+
+　— Met een maatstaf die niet onderscheidt over goed en slecht oordelen, komt neer op niet oordelen.
+
+　— Ik heb het vak gezocht waar dit punt gemeld moet worden en het niet in het formulier van het verslag gevonden. Daarom teken ik het in de marge aan.
+
+　— Of er iemand zal zijn die het leest, weet ik niet.
+
+　Minato las die zes regels drie keer.
+
+　De lezer van eenenveertig jaar terug schrijft over het contaminatiepercentage. Wat Minato nu onder handen heeft, is een andere maatstaf, de variantie. Het gebruikte apparaat en de schaal van het voorwerp liggen eenenveertig jaar uiteen.
+
+　Wat er staat, was hetzelfde.
+
+　Wanneer een verschil klein wordt, kan de kant van de maatstaf niet onderscheiden of het nader is gekomen of niet meer wordt gezien.
+
+
+IX
+
+　“Eén vraag,” zei Minato. “Hoe vaak is deze registratie geconsulteerd?”
+
+　“Nul,” zei de Corrector.
+
+　“In eenenveertig jaar, niet één keer.”
+
+　“Niet één keer.”
+
+　Minato keek naar het kleine getal rechtsonder op het scherm. Consultaties, nul.
+
+　Die zes regels zijn op een avond van eenenveertig jaar terug geschreven. Wie ze heeft geschreven, schrijft dat hij niet weet of er iemand zal zijn die het leest. Zonder het te weten schreef hij ze.
+
+　En er is inderdaad niemand geweest.
+
+　De bewaarde registers voldoen aan de criteria voor vernietiging. De reden dat zij niet zijn vernietigd staat niet in de registers. Het plan voor vermindering is vier keer ontworpen en vier keer ingetrokken. De vier die het introkken hebben alle in de maand ervoor de bewaarde registers ingezien. Zij hebben alleen ingezien; of zij hebben gelezen staat niet in de registers.
+
+　Minato las ze nu.
+
+
+X
+
+　Het formulier van het eindrapport is van twee bladen.
+
+　Op het eerste worden de waarde van de variantie en het voldoen aan de voorwaarde vermeld. 0,038. Onder de referentiewaarde van 0,04. Voldaan.
+
+　Het tweede was het vak voor de bijzonderheden. Is er niets te schrijven, dan wordt het leeg ingeleverd. In feite zijn negen tienden van de eerdere rapporten leeg.
+
+　Minato schreef op het tweede.
+
+　— De variantiewaarde van dit rapport is de officiële waarde volgens het geldende meetstelsel. De daling van de laatste vijf jaar valt echter in tijd samen met de drie wijzigingen van het negentiende jaar. Alle drie werken in de richting van het versmallen van het bereik van de verandering die wordt geregistreerd.
+
+　— De geschatte waarde zonder de wijzigingen is 0,061, maar omdat er geen vaste methode is om de niet geregistreerde hoeveelheid te schatten, kan zij niet als grond worden voorgelegd.
+
+　— Verder zij vermeld dat de formulieren van dit Plan geen categorie kennen om een bedenking over de deugdelijkheid van het meetstelsel in te schrijven. Van dezelfde soort staan er veertien in de bewaarde registers, en de oudste is bijgevoegd bij een lezersverslag van eenenveertig jaar terug. De inhoud is dat een klein verschil zowel het nader zijn gekomen als het niet meer te onderscheiden vallen kan zijn, en dat er aan de kant van de maatstaf geen middel is om die twee te onderscheiden.
+
+　— Dit rapport meldt het voldoen aan de voorwaarde onder voorbehoud van al het bovenstaande.
+
+　Klaar met schrijven leverde Minato het in.
+
+　De sluiting werd vier dagen later goedgekeurd. Over de bijzonderheden kwam geen vraag.
+
+
+XI
+
+　Met de sluiting van de Tweede Synchronisatie gaat het Plan zijn volgende fase in.
+
+　De naam van de volgende fase is nog niet bepaald. Een voorstel om de referentiewaarde verder te verlagen en een voorstel om de schaal van het voorwerp te vergroten worden naast elkaar bekeken. Beide zullen waarschijnlijk in de budgetaanvraag van het volgende jaar terechtkomen.
+
+　Minato werd niet voor die vergadering geroepen. Wie met het schrijven van het eindrapport is belast, heeft met het afschrijven zijn rol voltooid.
+
+　Op zijn laatste werkdag was Minato zijn terminal aan het opruimen en opende hij die zes regels nog een keer.
+
+　Nadat hij ze had geopend, keek hij rechtsonder.
+
+　Consultaties, één.
+
+　De keer dat Minato ze gisteren heeft geopend, is meegeteld. Er zijn eenenveertig jaar nodig geweest om van nul naar één te gaan.
+
+　Dat het één wordt, verandert niets. De sluiting is goedgekeurd en de volgende fase wordt bekeken. De variantie zal blijven zakken. Het middel om te onderscheiden of zij zakt of niet meer wordt gezien, is er nog altijd niet.
+
+　Alleen was wat wie die zes regels eenenveertig jaar terug schreef wilde weten, of er iemand zou zijn die ze leest, en niets meer.
+
+　Minato sloot de terminal.
+
+　Voordat hij haar sloot, ging hij na of zijn eigen bijzonderheden naar de bewaarde registers waren doorgestuurd. Categorie: bedenking, buiten het formulier. Consultaties, nul.
+
+　Hoe lang het duurt voordat iemand ze opent, is niet te weten. Misschien minder dan eenenveertig jaar, misschien meer.
+
+　Ook een rubriek om dat getal te voorspellen had dit Plan niet.

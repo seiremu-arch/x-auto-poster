@@ -21,10 +21,10 @@ Deel II. Compileren met `python3 book/tools/build_epub.py nl2`.
 | VI | 夢の犯罪 | Mishandeling | 3.933 | 1.931 | **klaar** |
 | VII | 消えた現実 | Het register | 3.982 | 2.032 | **klaar** |
 | VIII | 夢の海 | De zee van dromen | 3.889 | 1.858 | **klaar** |
-| IX | 明日の夢 | De droom van morgen | — | — | in afwachting |
-| X | 最後のバグ | De laatste bug | — | — | in afwachting |
-| XI | 残差 | Residu | — | — | in afwachting |
-| XII | 完了報告 | Het eindrapport | — | — | in afwachting |
+| IX | 明日の夢 | De droom van morgen | 3.879 | 1.973 | **klaar** |
+| X | 最後のバグ | De laatste bug | 3.843 | 1.882 | **klaar** |
+| XI | 残差 | Residu | 3.906 | 1.992 | **klaar** |
+| XII | 完了報告 | Het eindrapport | 4.090 | 2.071 | **klaar** |
 
 Japans in totaal, 48.719 tekens. De cijfers in deze tabel worden geschreven
 door `python3 book/tools/sync_tr_counts.py nl2`, niet met de hand.

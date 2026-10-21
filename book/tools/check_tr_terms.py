@@ -265,6 +265,19 @@ CHECKS_NL = [
      r"\bist\b|\bund\b|\bnicht\b|\bauch\b|\bsich\b|\bwurde\b"
      r"|\bzwischen\b|\büber\b|\bnach\b|\bdem\b|\beine\b"
      r"|\bnur\b|\bschon\b|\bimmer\b"),
+    # 比較は dan。als を使うのはオランダ語で最も有名な誤りで、話し言葉では
+    # 広く使われるが文章では誤りとされる。「zonder meer als」は比較ではない
+    # ので除く。
+    ("比較は dan（groter als → groter dan）",
+     r"(?<!zonder )\b(?:meer|groter|kleiner|hoger|lager|langer|korter"
+     r"|minder|beter|slechter|anders|eerder|verder|vaker) als\b"),
+    # このシリーズの造語はほとんどが het 語。de と書くと、読んでいて
+    # 気づきにくいまま冠詞だけが間違っている文になる。
+    ("冠詞が違う（het 語に de を付けている）",
+     r"\b[Dd]e (?:fragment|geheugen|residu|register|Bureau|Archief|getal"
+     r"|vak|verslag|formulier|percentage|gevoel|effect|punt|[Pp]lan|oog"
+     r"|hoofd|model|apparaat|niveau|bed|water|bekertje|identificatienummer"
+     r"|contaminatiepercentage|referentieapparaat|eindrapport)\b"),
     ("漢数字の残り（〇・一二三…）", r"[〇一二三四五六七八九十]"),
     ("行末の空白", r"[ \t]+$"),
 ]
