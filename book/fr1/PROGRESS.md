@@ -22,7 +22,7 @@ allemande ou espagnole.
 | VI | 夢税 | L'impôt sur les rêves | 3 391 | 1 607 | **fait** |
 | VII | 涙の代筆 | Le deuil par procuration | 4 476 | 2 135 | **fait** |
 | VIII | 夢裁判 | La peine | 4 577 | 2 198 | **fait** |
-| IX | 目覚めない権利 | Le droit de ne pas se réveiller | 4 503 | — | en attente |
+| IX | 目覚めない権利 | Le droit de ne pas se réveiller | 4 503 | 2 211 | **fait** |
 | X | 夢の相続 | La succession | 4 587 | — | en attente |
 | XI | 幸福指数九八 | Indice de Bonheur 98 | 4 218 | — | en attente |
 | XII | 沈黙の被験者 | Le sujet silencieux | 4 508 | — | en attente |

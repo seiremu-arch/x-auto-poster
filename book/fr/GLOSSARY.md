@@ -184,7 +184,7 @@ chaque fois, ponctuation comprise.
 | 「開示できません」 | Cela ne peut être communiqué. |
 | 「本人という項目には、平均も解釈も含まれない」 | La case de la personne même ne contient ni moyennes ni interprétations. |
 | 性別のない、湿度のない声 | une voix sans genre et sans humidité |
-| 人が泣いているとき、技師にできることは、水を注ぐことだけだ | Quand quelqu'un pleure, la seule chose qu'un technicien puisse faire, c'est verser l'eau. |
+| 人が泣いているとき、技師にできることは、水を注ぐことだけだ | Quand quelqu'un pleure, la seule chose qu'un technicien puisse faire, c'est poser l'eau. |
 
 ### L'arête du livre
 

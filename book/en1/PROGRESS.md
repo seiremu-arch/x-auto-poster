@@ -19,7 +19,7 @@ using it. Build with `python3 book/tools/build_epub.py en1`.
 | VI | 夢税 | Dream Tax | 3,391 | 1,556 | **done** |
 | VII | 涙の代筆 | Grief by Proxy | 4,476 | 2,038 | **done** |
 | VIII | 夢裁判 | The Sentence | 4,577 | 2,064 | **done** |
-| IX | 目覚めない権利 | The Right Not to Wake | 4,503 | 2,050 | **done** |
+| IX | 目覚めない権利 | The Right Not to Wake | 4,503 | 2,051 | **done** |
 | X | 夢の相続 | Inheritance | 4,587 | 2,143 | **done** |
 | XI | 幸福指数九八 | Happiness Index 98 | 4,218 | 2,026 | **done** |
 | XII | 沈黙の被験者 | The Silent Subject | 4,508 | 2,210 | **done** |
