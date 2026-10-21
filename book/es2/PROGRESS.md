@@ -23,7 +23,7 @@ con el Libro I. Compilar con `python3 book/tools/build_epub.py es2`.
 | VIII | 夢の海 | El mar de los sueños | 3.889 | 1.867 | **hecho** |
 | IX | 明日の夢 | El sueño de mañana | 3.879 | 1.946 | **hecho** |
 | X | 最後のバグ | El último fallo | 3.843 | 1.922 | **hecho** |
-| XI | 残差 | Residuo | 3.906 | 1.954 | **hecho** |
+| XI | 残差 | Residuo | 3.906 | 1.953 | **hecho** |
 | XII | 完了報告 | El informe de cierre | 4.090 | 2.070 | **hecho** |
 
 Japonés en total, 48.719 caracteres. Las cifras las escribe

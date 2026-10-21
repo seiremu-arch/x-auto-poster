@@ -15,17 +15,17 @@ spagnola o francese.
 
 | # | Giapponese | Italiano | Origine | Parole | Stato |
 |---|---|---|---|---|---|
-| I | 半色 | Mezzatinta | 4.997 | 2.307 | **fatto** |
+| I | 半色 | Mezzatinta | 4.997 | 2.308 | **fatto** |
 | II | 忘却の順番待ち | La lista d'attesa dell'oblio | 4.540 | 1.958 | **fatto** |
-| III | 夢の遺言 | Il testamento | 4.552 | 1.981 | **fatto** |
+| III | 夢の遺言 | Il testamento | 4.552 | 1.982 | **fatto** |
 | IV | 夢の翻訳者 | Il traduttore | 3.915 | 1.616 | **fatto** |
 | V | 二人称の夢 | Il sogno in seconda persona | 3.454 | 1.515 | **fatto** |
 | VI | 夢税 | L'imposta sui sogni | 3.391 | 1.478 | **fatto** |
-| VII | 涙の代筆 | Il lutto per delega | 4.476 | 1.893 | **fatto** |
+| VII | 涙の代筆 | Il lutto per delega | 4.476 | 1.894 | **fatto** |
 | VIII | 夢裁判 | La pena | 4.577 | 1.929 | **fatto** |
 | IX | 目覚めない権利 | Il diritto di non svegliarsi | 4.503 | 2.001 | **fatto** |
 | X | 夢の相続 | La successione | 4.587 | 1.937 | **fatto** |
-| XI | 幸福指数九八 | Indice di Felicità 98 | 4.218 | 1.933 | **fatto** |
+| XI | 幸福指数九八 | Indice di Felicità 98 | 4.218 | 1.934 | **fatto** |
 | XII | 沈黙の被験者 | Il soggetto silenzioso | 4.508 | 2.118 | **fatto** |
 
 Giapponese in totale, 51.718 caratteri. Le cifre di questa tabella le scrive

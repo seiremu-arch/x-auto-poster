@@ -203,6 +203,11 @@ CHECKS_IT = [
      r"|\btambi\u00e9n\b|\bporque\b"),
     # 自分が繰り返す綴り誤り。sceso を scceso と書く癖が第二話・第十話で出た。
     # 伊語に scc という連続はない（西語・仏語にもない）ことを確かめてから入れた。
+    # 「tutti tre」は辞書にはあるが、文芸の標準は e を入れる形。
+    # 伊語版の初稿で15箇所出た。仏語の tous les trois、西語の los tres
+    # から直訳すると e が落ちる。
+    ("数詞の前に e が落ちている（tutti tre → tutti e tre）",
+     r"\b[Tt]utt[ie] (?:tre|due|quattro)\b"),
     ("scc は伊語に現れない連続（sceso を scceso と書いていないか）", r"scc"),
     # rognare は伊語では「ぶつぶつ言う」。削る意味の仏語 rogner に引かれて
     # 第十話で使っていた。削るは limare / rifilare。
