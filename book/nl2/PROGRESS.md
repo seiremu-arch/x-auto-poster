@@ -19,8 +19,8 @@ Deel II. Compileren met `python3 book/tools/build_epub.py nl2`.
 | IV | 最後の夢職人 | De laatste ambachtsman | 4.226 | 2.135 | **klaar** |
 | V | ＡＩは夢を見るか | Droomt de machine? | 3.963 | 1.890 | **klaar** |
 | VI | 夢の犯罪 | Mishandeling | 3.933 | 1.931 | **klaar** |
-| VII | 消えた現実 | Het register | — | — | in afwachting |
-| VIII | 夢の海 | De zee van dromen | — | — | in afwachting |
+| VII | 消えた現実 | Het register | 3.982 | 2.032 | **klaar** |
+| VIII | 夢の海 | De zee van dromen | 3.889 | 1.858 | **klaar** |
 | IX | 明日の夢 | De droom van morgen | — | — | in afwachting |
 | X | 最後のバグ | De laatste bug | — | — | in afwachting |
 | XI | 残差 | Residu | — | — | in afwachting |
