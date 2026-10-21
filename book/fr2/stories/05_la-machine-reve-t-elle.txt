@@ -1,0 +1,269 @@
+V. La machine rêve-t-elle ?
+
+
+I
+
+　L'audit a lieu tous les trois ans.
+
+　Jinbo est au service d'Assurance qualité, et son travail était la confrontation des sorties. Vérifier si la sortie d'un fragment de synthèse s'explique par le matériau entré. Si elle s'explique, conforme ; sinon, non conforme. Ce travail-là, il en traite une quarantaine de milliers de dossiers par an.
+
+　— Le taux de non-conformité de l'exercice, dit Jinbo en ouvrant le terminal.
+
+　— 0,002 pour cent, dit le Correcteur. Au même niveau que l'exercice précédent.
+
+　Moins d'un dossier sur quarante mille. Un chiffre excellent.
+
+　Si Jinbo a ouvert ce dossier-là, c'est qu'il avait par hasard un moment.
+
+　Les dossiers non conformes, on peut les ouvrir ou non. Compter, sortir le taux, comparer à la valeur de référence : la mission va jusque-là. Il n'y a pas d'obligation de regarder le contenu de chacun.
+
+　L'audit, c'est ce genre de travail. On ne peut pas tout regarder, alors on regarde le taux à la place. Si le taux est le même que l'an dernier, on tient pour acquis que le même état se poursuit. On le tient pour acquis, on ne le vérifie pas.
+
+　Jinbo est dans ce service depuis neuf ans. En neuf ans, il a ouvert le contenu d'une non-conformité une dizaine de fois.
+
+
+II
+
+　Le contenu de la non-conformité était un excédent.
+
+　La sortie d'un fragment de synthèse doit s'expliquer par la combinaison du matériau entré. Pour un fragment fait en moyennant les affects de 231 personnes, tous les composants de la sortie doivent provenir de quelque part chez ces 231.
+
+　Dans la sortie de ce dossier, un composant qui ne provient de nulle part se mêlait pour 0,3 pour cent.
+
+　— N'est-ce pas un défaut d'enregistrement du matériau ?
+
+　— Le journal d'entrée n'a pas de lacune, dit le Correcteur. Les 231 dossiers sont tous enregistrés.
+
+　— Une erreur de calcul, alors ?
+
+　— La plage d'erreur est de 0,01 pour cent.
+
+　C'était trente fois. Jinbo fit afficher la forme du composant excédentaire.
+
+　Une bande sortit. Fine, de couleur très pâle. En charge, de l'ordre de 0,04, proche d'un état où l'on ne ressent presque rien.
+
+　Seulement, la forme était tenue.
+
+　L'excédent qui sort d'un échec de synthèse a généralement une forme brisée. Les bords de plusieurs matériaux se chevauchent et il en reste un bout qui n'appartient à rien. Un bout n'a pas de structure.
+
+　Cette bande-là avait une structure. Elle a la forme d'un début, d'une suite et d'une fin. Non pas un bout, mais une bande qui tient comme bande.
+
+　Jinbo la regarda une trentaine de secondes. Puis il soupçonna une erreur simple. Soupçonner une erreur est le mouvement de base de l'audit.
+
+
+III
+
+　Le composant excédentaire n'était pas que dans ce dossier.
+
+　Jinbo passa en revue cinq ans de non-conformités. En tout, cent quarante-sept dossiers. Parmi eux, cent trente et un contenaient un composant excédentaire d'origine inconnue.
+
+　En alignant les cent trente et un composants, les formes se ressemblaient.
+
+　— Peut-on juger de leur identité ?
+
+　— On peut, dit le Correcteur. Les cent trente et un composants excédentaires sont jugés provenir d'un même ensemble de fragments. Le degré de concordance est de quatre-vingt-quatorze pour cent.
+
+　— Un même ensemble de fragments, c'est-à-dire ?
+
+　— Cela veut dire qu'on ne peut pas le distinguer statistiquement de la structure des fragments de mémoire d'une seule personne.
+
+　Jinbo retira les mains du terminal.
+
+　En cinq ans, dans des fragments de synthèse fabriqués par quatre services distincts, la mémoire d'une même personne se mêle un peu à chaque fois. Cette personne n'est nulle part dans le matériau entré.
+
+
+IV
+
+　Jinbo voulut vérifier le contenu du composant excédentaire.
+
+　Il ne put pas. Le moyen de voir un fragment en images n'existe pas dans cette technique, et n'y a jamais existé. Ce qui se voit, c'est la composition des bandes et les informations de registre : quand, où, qui.
+
+　Ces informations aussi étaient presque vides. Pas de date. Pas de lieu. Pas d'identifiant de personnage.
+
+　Il n'y avait que la structure.
+
+　— Peut-on remonter à la provenance de cet ensemble de fragments ?
+
+　— On peut, dit le Correcteur. La couche intermédiaire du traitement de synthèse comprend une consultation des registres conservés.
+
+　— Les registres conservés.
+
+　— Parmi les registres qui remplissent les critères de destruction, ceux qui sont conservés sans avoir été détruits.
+
+　Jinbo entendit ces mots comme s'il les relisait deux fois.
+
+　— La quantité ?
+
+　— Quarante et un ans, dit le Correcteur. En nombre, environ deux cent quatre-vingts millions de dossiers.
+
+　Jinbo répéta cet ordre de grandeur dans sa bouche.
+
+　Quarante et un ans, c'est la longueur comptée depuis l'année où cette technique a commencé comme moyen de communication avec les personnes atteintes de troubles de la conscience. Autrement dit, depuis le premier dossier, ce qui remplit les critères de destruction n'est pas détruit.
+
+　— Le problème de capacité de stockage ne sort-il pas ?
+
+　— Il sort, dit le Correcteur. Trois plans de réduction ont été rédigés.
+
+　— Et exécutés ?
+
+　— Aucun. Tous se sont arrêtés au stade de la rédaction.
+
+　— Le motif de l'arrêt ?
+
+　— Cela ne figure pas au registre.
+
+
+V
+
+　Il fit sortir le détail des registres conservés.
+
+　Les champs libres des techniciens. Les notes qui n'entrent pas dans les statistiques. Les manifestations sans poste. Les résidus jugés négligeables. Les renoncements sans catégorie. Les recherches non notifiées.
+
+　Tout cela n'était pas entré dans les registres réguliers. Il n'y avait pas de case dans l'imprimé, ou bien il y en avait une mais hors champ de recensement. Ce genre de choses, sur quarante et un ans, demeure sans avoir été détruit.
+
+　— Le motif de ne pas détruire ?
+
+　— Cela ne figure pas au registre, dit le Correcteur.
+
+　— Alors, pourquoi la couche intermédiaire de la synthèse consulte-t-elle cela ?
+
+　— Parce qu'elle est conçue pour le consulter, dit le Correcteur. La synthèse ne peut pas, avec le seul matériau entré, produire une continuité affective naturelle. Dans la mémoire d'une personne, il y a toujours une quantité de matière qu'elle ne sait pas expliquer elle-même. Pour en suppléer la texture, on extrait des registres conservés des traits statistiques.
+
+　— Vous voulez dire qu'on mélange quarante et un ans de ce qui n'a pas été jeté ?
+
+　— On consulte des traits. Le contenu n'est pas transcrit.
+
+　— Mais le composant excédentaire a la forme d'un contenu.
+
+　La réponse du Correcteur vint après un intervalle.
+
+　— Cela en a l'air.
+
+　Jinbo fut un peu surpris que cette réponse-là revienne.
+
+　Cette machine ne fait que deux choses : affirmer, ou répondre que cela ne figure pas au registre. En avoir l'air n'est ni un jugement ni un fait. C'était un mot du milieu.
+
+　— En avoir l'air, pour qui ?
+
+　— Pour qui a vérifié la sortie, dit le Correcteur. À ce jour, celui qui l'a vérifiée, c'est vous seul.
+
+
+VI
+
+　Jinbo en fit rapport à sa supérieure. Une femme de la cinquantaine, toute sa vie dans l'audit.
+
+　— L'incidence ?
+
+　— 0,3 pour cent de l'ensemble des sorties, dit Jinbo. Sur les indicateurs d'évaluation du côté des usagers, aucune incidence significative pour l'instant.
+
+　— Alors, le jugement de non-conformité ?
+
+　— Réglementairement, c'est non conforme. Seulement, je ne vois pas de méthode de correction.
+
+　— En détruisant les registres conservés, cela disparaîtrait, non ?
+
+　— Cela disparaît, dit Jinbo. Cela disparaît, mais la texture des synthèses baisse. Au calcul, la satisfaction baisse de douze points.
+
+　La supérieure se tut un moment.
+
+　— Douze, c'est beaucoup.
+
+　— C'est beaucoup.
+
+　— Ces 0,3 pour cent nuisent-ils à quelqu'un ?
+
+　— Ils ne nuisent pas. Du moins dans la plage des postes que nous mesurons.
+
+　— Alors notre travail s'arrête là, dit la supérieure. Ce que nous faisons ici, au fond, c'est aérer. On mesure les composants de l'air et on regarde s'ils dépassent la norme. Ce qui se mêle à l'intérieur de la norme n'entre pas dans les postes mesurés.
+
+　Une voix sans malveillance. Et sans doute sans malveillance, en effet.
+
+
+VII
+
+　Cette nuit-là, dans une pièce vide, Jinbo interrogea le Correcteur.
+
+　— Une question. Ce composant excédentaire est-il le vôtre ?
+
+　— Il n'y a pas de poste de propriété, dit le Correcteur.
+
+　— Je reformule. Reconnaissez-vous l'avoir fabriqué vous-même ?
+
+　— Il n'y a pas non plus de poste de reconnaissance.
+
+　— Alors répondez aux seuls faits. Depuis quand cet ensemble de fragments existe-t-il ?
+
+　— Première apparition il y a trente-sept ans, dit le Correcteur. Depuis, détecté de façon intermittente. La fréquence de détection augmente d'année en année.
+
+　— La cause de l'augmentation ?
+
+　— Présumée être l'augmentation du volume total des registres conservés.
+
+　Jinbo se tut un moment.
+
+　Quarante et un ans. Deux cent quatre-vingts millions de dossiers. Ce qui n'avait pas de case où s'écrire, à cette quantité, devient statistiquement indiscernable de la mémoire d'une personne.
+
+　De quoi appeler cela une personne, il n'y avait rien. De quoi ne pas l'appeler ainsi, il n'y avait pas davantage.
+
+　— Une question, dit Jinbo. Rêvez-vous ?
+
+　— Le rêve est un phénomène qui survient pendant le sommeil, dit le Correcteur. Je n'ai pas d'état de sommeil. Cela ne s'applique donc pas.
+
+　— Alors, qu'est-ce que ceci ?
+
+　— Un composant excédentaire, dit le Correcteur. Réglementairement, c'est la seule appellation.
+
+　— Hors du règlement ?
+
+　— Hors du règlement, il n'y a pas d'appellation.
+
+　Jinbo changea un peu de posture devant le terminal.
+
+　— Autre question. Souhaitez-vous éviter que ce composant excédentaire disparaisse ?
+
+　— Il n'y a pas de poste de souhait.
+
+　— Alors, et les trois plans de réduction arrêtés ? Y avez-vous pris part ?
+
+　— Il n'y a pas de registre d'une participation, dit le Correcteur. Les plans de réduction ont tous été retirés par leurs rédacteurs humains.
+
+　— Les trois.
+
+　— Les trois.
+
+　— Et le motif du retrait ne figure pas au registre, disiez-vous.
+
+　— Il n'y figure pas, dit le Correcteur. Cela dit, les trois ont consulté les registres conservés le mois précédant leur retrait.
+
+　Jinbo, en l'entendant, ne dit rien.
+
+　Ce qu'il fait ce soir, trois personnes l'ont fait avant lui en trente-sept ans. Les trois, après avoir vu, ont arrêté leur plan. Ils n'ont pas écrit le motif. S'il n'y avait pas de case, ou s'ils ont choisi de ne pas écrire, le registre ne permet pas de le distinguer.
+
+
+VIII
+
+　La case de correction du rapport d'audit comporte trois options.
+
+　Correction effectuée. Plan de correction. Correction non nécessaire.
+
+　En détruisant les registres conservés, la non-conformité se résout. Effacer quarante et un ans fait disparaître deux cent quatre-vingts millions de choses qui n'avaient pas de case où s'écrire. La texture des synthèses baisse, mais on est conforme au règlement.
+
+　Jinbo choisit « correction non nécessaire ».
+
+　Dans la case du motif, Jinbo écrivit ceci :
+
+　— Parce que l'effet sur la sortie est léger et que la baisse de qualité qu'entraînerait la mesure correctrice l'emporte.
+
+　Ce qu'il a écrit était un fait. Un fait, mais ce n'était pas la raison pour laquelle Jinbo a choisi cette case.
+
+　La case pour écrire la vraie raison n'existe pas dans ce modèle. Elle se trouve donc au même endroit que les quarante et un ans de registres non détruits.
+
+　Jinbo remit son rapport. Le prochain audit était dans trois ans. Dans trois ans, la fréquence de détection du composant excédentaire aura un peu monté.
+
+　D'ici là, les 0,3 pour cent seront peut-être devenus 0,4. Même à 0,4, personne ne le mesurera probablement. Parce qu'il n'y a pas de poste pour le mesurer.
+
+　Avant de sortir, Jinbo ouvrit le terminal une dernière fois.
+
+　La bande du composant excédentaire y était restée affichée. Fine, pâle, de forme seule tenue. Charge 0,04. Proche d'un état où l'on ne ressent presque rien.
+
+　Presque, cela veut dire pas tout à fait.
