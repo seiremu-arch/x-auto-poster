@@ -113,7 +113,50 @@ CHECKS_ES = [
     ("行末の空白", r"[ \t]+$"),
 ]
 
-CHECKS = {"en": CHECKS_EN, "de": CHECKS_DE, "es": CHECKS_ES}
+# フランス語版。スペイン語と似ているが、数字と句読点の規則が違う。
+#   ・千の位は点ではなく不可分空白（1 027 400）。ここが西独との分かれ目で、
+#     言語をまたいで作業していると最も入りやすい誤り
+#   ・`:` `;` `?` `!` の前と « » の内側に不可分空白（U+00A0）が要る。
+#     入れ忘れても字は読めるが、リーダーで行が変なところで切れる
+#   ・フランス語の数字は点を一切使わないので、桁の間の点は一律に誤り
+CHECKS_FR = [
+    ("小数点は読点（0,05）。仏語は数字の間に点を使わない",
+     r"\d\.\d"),
+    ("千の位の区切りは不可分空白（1 027 400）。区切りがない",
+     r"\d{5,}"),
+    ("千の位の区切りは不可分空白 U+00A0。ふつうの空白は不可",
+     r"\d\u0020\d{3}(?!\d)"),
+    ("`:` `;` `?` `!` の前は不可分空白 U+00A0",
+     r"[^\u00a0\n][;:?!]"),
+    ("« の後ろは不可分空白 U+00A0", r"\u00ab[^\u00a0]"),
+    ("» の前は不可分空白 U+00A0", r"[^\u00a0]\u00bb"),
+    ("会話は長ダッシュ（—）。引用符 \" \u201c \u201e は不可",
+     r"\"|[\u201c\u201d\u201e]"),
+    ("会話のダッシュは長ダッシュ（—, U+2014）。ハイフンや半角ダッシュは不可",
+     r"^\u3000?[-\u2013]\s*[A-ZÀÂÇÉÈÊËÎÏÔÙÛÜ]"),
+    ("半色は la demi-teinte（demi-couleur / demi-ton は不可）",
+     r"\bdemi-couleur\b|\bdemi-ton\b|\bsimiligravure\b"),
+    ("校正官は le Correcteur（relecteur / correcteur d'épreuves は不可）",
+     r"\brelecteur\w*\b|\bcorrecteur d'épreuves\b"),
+    ("素片は le fragment（éclat / esquille は不可）",
+     r"\béclats?\b|\besquille\w*\b"),
+    ("情動荷重は la charge affective（charge émotionnelle は不可）",
+     r"\bcharge émotionnelle\b|\bpoids émotionnel\b"),
+    ("照合機は le Comparateur", r"\bcollationneur\b|\bapparieur\b"),
+    ("残差は le résidu（résiduel は不可）", r"\brésiduel\w*\b"),
+    ("均し計画は le Plan de Nivellement",
+     r"\bPlan d'Égalisation\b|\bPlan d'Aplanissement\b"),
+    ("技師は le technicien（ingénieur は不可）", r"\bingénieur\w*\b"),
+    ("百分率は pour cent（pourcent / % は不可）", r"\bpourcent\w*\b|%"),
+    ("英独西が混じっている",
+     r"\bthe\b|\bProofreader\b|\bder Korrektor\b|\bdas Fragment\b"
+     r"|\bHalbton\b|\bper cent\b|\bel Corrector\b|\bmedia tinta\b"),
+    ("漢数字の残り（〇・一二三…）", r"[〇一二三四五六七八九十]"),
+    ("行末の空白", r"[ \t]+$"),
+]
+
+CHECKS = {"en": CHECKS_EN, "de": CHECKS_DE, "es": CHECKS_ES,
+          "fr": CHECKS_FR}
 
 # 原文の姓 -> 英語表記。第二巻は原文の読み仮名、第一巻は通用する読みによる。
 # 「その話に原文の姓が出るなら、英文にもこの綴りが出る」ことだけを見る。
@@ -157,9 +200,15 @@ ALLOWED = {
 
 
 def check_names() -> int:
-    """原文に姓があるのに、訳文に対応する英語名がない話を報告する。"""
+    """原文に姓があるのに、訳文に対応するローマ字名がない話を報告する。
+
+    ローマ字形は英・独・西・仏で同じなので、四言語すべてを同じ表で見る。
+    英語版だけ見ていたときは、他の三言語が素通りだった。
+    """
     bad = 0
-    for en_vol, ja_vol in (("en1", "vol1"), ("en2", "vol2")):
+    vols = [(f"{lang}{n}", f"vol{n}")
+            for lang in ("en", "de", "es", "fr") for n in (1, 2)]
+    for en_vol, ja_vol in vols:
         for num, pairs in NAMES[ja_vol].items():
             en_hits = sorted((ROOT / en_vol / "stories").glob(f"{num}_*.txt"))
             ja_hits = sorted((ROOT / ja_vol / "stories").glob(f"{num}_*.txt"))

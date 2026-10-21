@@ -27,7 +27,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PAIRS = {"en1": "vol1", "en2": "vol2", "de1": "vol1", "de2": "vol2",
-         "es1": "vol1", "es2": "vol2"}
+         "es1": "vol1", "es2": "vol2",
+         "fr1": "vol1", "fr2": "vol2"}
 
 JA_SEC = re.compile(r"^[一二三四五六七八九十]+$")
 TR_SEC = re.compile(r"^[IVXLC]+$")  # 訳文の節番号はどの言語もローマ数字

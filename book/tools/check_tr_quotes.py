@@ -85,7 +85,7 @@ QUOTES = [
     ),
 ]
 
-LANGS = ["en", "de", "es"]
+LANGS = ["en", "de", "es", "fr"]
 
 
 def main() -> int:
@@ -96,7 +96,12 @@ def main() -> int:
             continue
         print(f"【{lang}】")
         for label, ja, trs, slots in QUOTES:
-            tr = trs[lang]
+            tr = trs.get(lang)
+            if tr is None:
+                # 言語を足した直後。落ちるのではなく、足りないと言う
+                problems += 1
+                print(f"  × {label}: この言語の対応文が未登録")
+                continue
             missing = []
             for vol, num in slots:
                 hits = sorted((ROOT / f"{lang}{vol}" / "stories")
