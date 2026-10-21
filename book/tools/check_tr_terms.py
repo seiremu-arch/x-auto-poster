@@ -155,8 +155,48 @@ CHECKS_FR = [
     ("行末の空白", r"[ \t]+$"),
 ]
 
+# イタリア語版。会話はカポラーリ（« »）で組む。西語・仏語のダッシュではない。
+#   ・約物の前に空白を入れない。仏語とは逆の規則で、両方を並行して書いていると
+#     入りやすい（仏語版の直後に書いたので、特に見る）
+#   ・« » の内側にも空白を入れない
+#   ・千の位は点（1.027.400）。仏語の不可分空白ではなく、西語・独語と同じ
+CHECKS_IT = [
+    # 点は桁区切りに使うので一律に弾けない。桁区切りは必ず3桁ずつ、
+    # 荷重は必ず 0, で始まる。その二つで切り分ける（西語版と同じ）。
+    ("荷重の小数点は読点（0,05）。0.05 は不可",
+     r"\b0\.\d+|\b\d+\.\d{1,2}(?!\d)|\b\d+\.\d{4,}"),
+    ("会話はカポラーリ（« »）。引用符 \" \u201c \u201e は不可",
+     r"\"|[\u201c\u201d\u201e]"),
+    ("会話のダッシュは使わない（伊語はカポラーリ）。西仏の組み方が混じっている",
+     r"^\u3000?[\u2014\u2013-]\s*[A-Z\u00c0-\u00dd]"),
+    ("« の直後に空白を入れない", r"\u00ab[ \u00a0]"),
+    ("» の直前に空白を入れない", r"[ \u00a0]\u00bb"),
+    ("約物の前に空白を入れない（仏語の規則が混じっている）",
+     r"[ \u00a0][;:?!]"),
+    ("半色は la mezzatinta（mezzo colore / semitono は不可）",
+     r"\bmezzo colore\b|\bsemitono\b|\bmezza tinta\b"),
+    ("校正官は il Correttore（revisore / correttore di bozze は不可）",
+     r"\brevisor\w*\b|\bcorrettore di bozze\b"),
+    ("素片は il frammento（scheggia / coccio は不可）",
+     r"\bscheggi\w*\b|\bcocci\w*\b"),
+    ("情動荷重は il carico affettivo（carico emotivo は不可）",
+     r"\bcarico emotivo\b|\bpeso emotivo\b"),
+    ("照合機は il Comparatore", r"\bcollazionatore\b|\babbinatore\b"),
+    ("残差は il residuo（residuale は不可）", r"\bresidual\w*\b"),
+    ("均し計画は il Piano di Livellamento",
+     r"\bPiano di Appianamento\b|\bPiano di Uguagliamento\b"),
+    ("技師は il tecnico（ingegnere は不可）", r"\bingegner\w*\b"),
+    ("百分率は per cento（percento / % は不可）", r"\bpercento\b|%"),
+    ("他言語が混じっている",
+     r"\bthe\b|\bProofreader\b|\bder Korrektor\b|\bel Corrector\b"
+     r"|\ble Correcteur\b|\bHalbton\b|\bhalf-shade\b|\bmedia tinta\b"
+     r"|\bdemi-teinte\b|\bper cent\b"),
+    ("漢数字の残り（〇・一二三…）", r"[〇一二三四五六七八九十]"),
+    ("行末の空白", r"[ \t]+$"),
+]
+
 CHECKS = {"en": CHECKS_EN, "de": CHECKS_DE, "es": CHECKS_ES,
-          "fr": CHECKS_FR}
+          "fr": CHECKS_FR, "it": CHECKS_IT}
 
 # 原文の姓 -> 英語表記。第二巻は原文の読み仮名、第一巻は通用する読みによる。
 # 「その話に原文の姓が出るなら、英文にもこの綴りが出る」ことだけを見る。
@@ -207,7 +247,7 @@ def check_names() -> int:
     """
     bad = 0
     vols = [(f"{lang}{n}", f"vol{n}")
-            for lang in ("en", "de", "es", "fr") for n in (1, 2)]
+            for lang in ("en", "de", "es", "fr", "it") for n in (1, 2)]
     for en_vol, ja_vol in vols:
         for num, pairs in NAMES[ja_vol].items():
             en_hits = sorted((ROOT / en_vol / "stories").glob(f"{num}_*.txt"))

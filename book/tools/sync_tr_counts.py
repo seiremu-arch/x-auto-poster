@@ -22,7 +22,8 @@ SECTION_RE = re.compile(r"^(?:[一二三四五六七八九十]+|[IVXLC]+)$")
 # 訳版 -> 原書
 PAIRS = {"en1": "vol1", "en2": "vol2", "de1": "vol1", "de2": "vol2",
          "es1": "vol1", "es2": "vol2",
-         "fr1": "vol1", "fr2": "vol2"}
+         "fr1": "vol1", "fr2": "vol2",
+         "it1": "vol1", "it2": "vol2"}
 
 # 言語ごとの書式。桁区切りと「訳了」の語が違う
 FORMATS = {
@@ -31,6 +32,8 @@ FORMATS = {
     "es": {"sep": ".", "done": "**hecho**"},
     # フランス語の桁区切りは点ではなく不可分空白。1 027 400 と書く
     "fr": {"sep": "\u00a0", "done": "**fait**"},
+    # イタリア語の桁区切りは点。仏語と違い空白ではない
+    "it": {"sep": ".", "done": "**fatto**"},
 }
 
 

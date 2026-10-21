@@ -132,6 +132,26 @@ VOLUMES = {
         "alpha_range": (46, 62),
         "vertical": False,
     },
+    "it1": {
+        # 第一巻のイタリア語版。帯の数値はすべて vol1 と同一にする
+        "title": "L'Ufficio\ndei Sogni",
+        "subtitle": "Dodici notti",
+        "seed": 20260902,
+        "accent_alpha": 215,
+        "height_spread": 0.10,
+        "alpha_range": (28, 90),
+        "vertical": False,
+    },
+    "it2": {
+        # 第二巻のイタリア語版。帯の数値はすべて vol2 と同一にする
+        "title": "Il\nLivellamento",
+        "subtitle": "L'Ufficio dei Sogni, Libro Due",
+        "seed": 20260902,
+        "accent_alpha": 58,
+        "height_spread": 0.03,
+        "alpha_range": (46, 62),
+        "vertical": False,
+    },
 }
 
 W, H = 1600, 2560

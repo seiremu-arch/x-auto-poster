@@ -39,6 +39,8 @@ QUOTES = [
                   "siete la escalera de mi pensi\u00f3n.",
             "fr": "Cependant, l'escalier de ma pension est apparu "
                   "aujourd'hui dans le rêve du sujet sept.",
+            "it": "Tuttavia, oggi nel sogno del soggetto sette è comparsa "
+                  "la scala della mia pensione.",
         },
         [("1", "12"), ("2", "08")],
     ),
@@ -55,6 +57,8 @@ QUOTES = [
                   "Lo s\u00e9, y lo siento igual.",
             "fr": "Je sais que c'est quelque chose que mon frère y a mis. "
                   "Je le sais, et je le ressens quand même.",
+            "it": "So che è una cosa che mio fratello mi ha messo dentro. "
+                  "Lo so, e lo sento comunque.",
         },
         [("2", "06"), ("2", "08")],
     ),
@@ -71,6 +75,9 @@ QUOTES = [
                   "periodo de espera y se retir\u00f3 del tratamiento.",
             "fr": "Hasumi Ritsuko a abaissé sa propre charge pendant le "
                   "délai d'attente et a renoncé au traitement.",
+            "it": "Hasumi Ritsuko ha abbassato da sé il proprio carico "
+                  "durante il periodo d'attesa e ha rinunciato al "
+                  "trattamento.",
         },
         [("1", "02"), ("2", "08")],
     ),
@@ -79,7 +86,8 @@ QUOTES = [
         "光・痛み・閉じる",
         {"en": "light, pain, closing", "de": "Licht, Schmerz, Schlie\u00dfen",
          "es": "Luz, dolor, cerrar",
-         "fr": "Lumière, douleur, fermer"},
+         "fr": "Lumière, douleur, fermer",
+         "it": "Luce, dolore, chiudere"},
         [("1", "04"), ("2", "08")],
     ),
     (
@@ -88,12 +96,13 @@ QUOTES = [
         {"en": "moving, stopping, not knowing",
          "de": "Bewegen, Anhalten, Nichtwissen",
          "es": "Moverse, detenerse, no saber",
-         "fr": "Bouger, s'arrêter, ne pas savoir"},
+         "fr": "Bouger, s'arrêter, ne pas savoir",
+         "it": "Muoversi, fermarsi, non sapere"},
         [("1", "04"), ("2", "08")],
     ),
 ]
 
-LANGS = ["en", "de", "es", "fr"]
+LANGS = ["en", "de", "es", "fr", "it"]
 
 # 語彙表の「定型句」。原文が意図して繰り返す文は、訳文でも一字一句同じに
 # 出なければならない。どの語彙表にもそう書いてあるが、守られているかを
@@ -119,6 +128,7 @@ FORMULAE = [
             "de": "das Wasser hinstellen",
             "es": "dejar el agua",
             "fr": "poser l'eau",
+            "it": "è posare l'acqua",
         },
     ),
     (
@@ -129,6 +139,7 @@ FORMULAE = [
             "de": "ist im Grunde L\u00fcften",
             "es": "es, en el fondo, ventilar",
             "fr": "au fond, c'est a\u00e9rer",
+            "it": "in fondo, è dare aria",
         },
     ),
     (
@@ -139,6 +150,7 @@ FORMULAE = [
             "de": "Stimme ohne Geschlecht und ohne Feuchtigkeit",
             "es": "voz sin g\u00e9nero y sin humedad",
             "fr": "voix sans genre et sans humidit\u00e9",
+            "it": "voce senza genere e senza umidit\u00e0",
         },
     ),
 ]
