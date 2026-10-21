@@ -1,0 +1,255 @@
+X. Le dernier bug
+
+
+I
+
+　Des personnes sans rapport entre elles font le même cauchemar.
+
+　Le premier signalement est monté d'une commune du nord-est. Au suivi postérieur au traitement, onze des sujets s'étaient mis à faire un même cauchemar qui n'était pas l'objet du traitement.
+
+　Les onze n'ont pas de lien de parenté. Ni domicile ni lieu de travail ne coïncident. Le seul point commun est d'avoir reçu un traitement le même mois.
+
+　— Les dossiers concernés dans tout le pays, dit Ogido en ouvrant le terminal. Il appartient à la direction de la Gestion technique, service d'Analyse des anomalies.
+
+　— Deux mille quatre cent sept, dit le Correcteur. Relevé des six derniers mois.
+
+　— Le taux d'augmentation ?
+
+　— Quatorze pour cent par mois.
+
+　Ogido lut ce chiffre trois fois.
+
+　Il est au service d'Analyse des anomalies depuis sept ans. Ce que ce service traite est, en général, une panne d'appareil. La sortie s'arrête. La charge dépasse le règlement. La mesure saute. Tout a une cause, et la cause supprimée, cela s'arrête.
+
+　Il n'avait jamais traité jusqu'ici quelque chose qui ne s'arrête pas.
+
+
+II
+
+　Le travail d'Ogido était de déterminer la cause.
+
+　Ce qu'il soupçonna d'abord, c'est la variation entre unités. S'il y avait un biais vers un modèle ou un lot, l'affaire serait rapide.
+
+　Il n'y avait pas de biais. Les deux mille quatre cent sept dossiers se répartissent également entre les appareils du pays entier.
+
+　Ce qu'il soupçonna ensuite, c'est la contamination par des fragments de synthèse. Si un autre fragment fuit au cours du traitement, un tel phénomène se produit.
+
+　— Y a-t-il dans les journaux de traitement une consultation de fragments de synthèse ?
+
+　— Il n'y en a pas, dit le Correcteur. Ce sont tous des éditions à la baisse ordinaires. La synthèse n'intervient pas.
+
+　— Alors, le contenu du cauchemar ?
+
+　— Le contenu n'est pas obtenu, dit le Correcteur. Il n'existe pas de technique pour extraire un rêve en images.
+
+　— Alors sur quoi se fonde le jugement qu'il s'agit du même ?
+
+　— Sur la structure des fragments, dit le Correcteur. Le degré de concordance structurelle des fragments en cause des deux mille quatre cent sept dossiers est de quatre-vingt-seize pour cent.
+
+
+III
+
+　Ogido fit afficher cette structure.
+
+　Une seule bande. Fine, de couleur pâle. En charge, cela tient entre 0,04 et 0,06. Une valeur de l'ordre de ce qui accompagne les petites choses d'un jour ordinaire.
+
+　Seulement, la forme était nette.
+
+　Ogido reconnaissait cette forme.
+
+　Il y a trois ans, une demande de renseignement était venue du service d'Assurance qualité. Elle disait que, dans la sortie des fragments de synthèse, se mêlait un composant excédentaire qui ne s'expliquait pas depuis les matériaux d'entrée. Ce composant excédentaire avait la même forme que ceci.
+
+　— Est-ce la même structure que celle de la demande d'Assurance qualité d'il y a trois ans ?
+
+　— La même, dit le Correcteur. Le degré de concordance est de quatre-vingt-quatorze pour cent.
+
+　— La conclusion de l'époque ?
+
+　— Correction non nécessaire, dit le Correcteur. Il est porté : parce que l'effet sur la sortie est léger et que la baisse de qualité qu'entraînerait la mesure correctrice l'emporte.
+
+　— Alors pourquoi cela sort-il maintenant dans les rêves des gens ?
+
+　— Ce poste n'est pas enregistré.
+
+
+IV
+
+　Ogido suivit le trajet.
+
+　Le composant excédentaire d'il y a trois ans sortait du fait de consulter, dans la couche intermédiaire de la synthèse, les traits des registres conservés. C'est un phénomène qui apparaît seulement dans les fragments de synthèse, et son trajet diffère de celui de l'édition à la baisse ordinaire.
+
+　Il devait différer.
+
+　Ogido passa en revue le système de traitement de l'édition à la baisse. Pour décider du point et de la quantité de pression, l'appareil évalue la disposition des fragments contigus. Pour l'évaluation, il emploie un modèle statistique.
+
+　Dans les données d'entraînement de ce modèle, il y avait des registres conservés.
+
+　— Depuis quand ?
+
+　— Depuis la mise à jour d'il y a quatre ans, dit le Correcteur. Pour élever la précision de l'évitement de l'entraînement sur les fragments contigus, on a étendu le jeu d'entraînement.
+
+　— Pour l'extension, a-t-on employé les registres conservés ?
+
+　— On les emploie, dit le Correcteur. Ils ont été évalués comme efficaces, étant des cas qui contiennent la part de la mémoire d'une personne qui n'a pas d'explication.
+
+　Ogido s'adossa à son siège.
+
+　Quarante et un ans, deux cent quatre-vingts millions de dossiers. Un tas rassemblé avec ce qui n'avait pas de case où s'écrire sert, depuis quatre ans, de référence quand les appareils du pays entier décident où presser.
+
+
+V
+
+　Le mécanisme était simple.
+
+　En décidant du point de pression, l'appareil cherche à s'approcher de la « disposition naturelle de la mémoire » qu'il a apprise. Dans ce rapprochement entre un minime remodelage. Le remodelage est de 0,001 ou moins et n'atteint pas le seuil d'enregistrement.
+
+　Le même modèle est employé par les appareils du pays entier. Le même remodelage entre, partout, dans la même direction.
+
+　Une fois ne produit rien. Accumulé, il se forme à côté du fragment pressé un creux de même forme.
+
+　Le creux n'est pas un fragment. Seulement, le cerveau y pose quelque chose. Ce qui est posé a la même forme.
+
+　— Autrement dit, ceci n'est pas de la mémoire.
+
+　— Cela ne répond pas à la définition de la mémoire, dit le Correcteur. Il n'y a pas d'événement d'où cela provienne.
+
+　— Alors, que voient les gens ?
+
+　— La forme du creux.
+
+　Ogido réfléchit un moment à cette façon de dire.
+
+　En dormant, une personne relie à nouveau ses souvenirs. Si l'endroit où relier est libre, le cerveau y pose quelque chose. Ce qu'il pose se fait avec ce que cette personne a. Le contenu diffère donc d'une personne à l'autre.
+
+　Il diffère, et seule la forme se trouve être la même.
+
+　— Ce que voient les deux mille quatre cent sept est-il le même ?
+
+　— Cela ne peut pas être déterminé, dit le Correcteur. Il n'y a pas de moyen d'obtenir le contenu.
+
+　— Alors, d'où vient l'expression « le même cauchemar » ?
+
+　— Des déclarations des sujets, dit le Correcteur. Des déclarations, six dixièmes emploient l'expression « je fais des rêves bizarres ». Trois dixièmes, « je fais le même rêve de façon répétée ». Le dixième restant contient une description du contenu.
+
+　— Le degré de concordance des descriptions ?
+
+　— Quarante et un pour cent.
+
+　Cela n'atteint pas la moitié. Ce n'était pas le même cauchemar. Dans un creux de même forme, chacun pose le sien. Cela sort en mots semblables quatre fois sur dix.
+
+
+VI
+
+　Le rapport au chef de direction fut la semaine suivante.
+
+　— Les mesures ?
+
+　— Il y en a trois, dit Ogido. Sortir les registres conservés du jeu d'entraînement. Ramener le modèle à la version d'il y a quatre ans. Ou ne rien faire.
+
+　— Si l'on ne fait rien, qu'arrive-t-il ?
+
+　— Cela continuera d'augmenter. À quatorze pour cent par mois, on prévoit que cela atteigne dans trois ans quarante pour cent de tous les sujets traités.
+
+　— La gravité des symptômes ?
+
+　— De 0,04 à 0,06, dit Ogido. Cliniquement, ce n'est pas un niveau qui fait problème. Comme plainte, cela s'arrête à « je fais des rêves bizarres ».
+
+　Le chef réfléchit un moment.
+
+　— Si l'on ramène le modèle, qu'arrive-t-il à l'entraînement ?
+
+　— Il revient au niveau d'il y a quatre ans, dit Ogido. La variation sur les fragments contigus augmente à environ le triple de l'actuelle.
+
+　— Le triple est impraticable.
+
+　— C'est impraticable.
+
+　— Alors, sortir seulement les registres conservés.
+
+　— Je l'ai calculé, dit Ogido. L'entraînement augmente de 1,4 fois. Et la texture des synthèses baisse de douze points.
+
+　Le chef resta un moment à regarder ces chiffres.
+
+　— Ogido, dites-moi : est-ce une mauvaise chose, oui ou non ?
+
+　Ogido ne sut pas répondre.
+
+　— Je ne vous demande pas une impression, continua le chef. Pour décider si une mesure s'impose, il faut dire si c'est mauvais. Si ce n'est pas mauvais, nous ne pouvons pas bouger.
+
+　— Comme symptôme, ce n'est pas mauvais.
+
+　— Alors, qu'est-ce qui vous accroche ?
+
+　— L'échelle, dit Ogido. Par personne, c'est 0,05. Dans trois ans, la même chose entrera chez quarante pour cent de tous les sujets traités. Il n'y a pas de moyen d'additionner avec la même mesure la valeur par personne et le nombre de personnes chez qui cela entre.
+
+　— Faut-il les additionner ?
+
+　— Je crois que oui, dit Ogido. Mais il n'y a pas de norme sur la façon de les additionner.
+
+　Le chef acquiesça. Un acquiescement qui ne niait ni n'affirmait.
+
+　— Alors écrivez-le. Qu'il n'y a pas de norme.
+
+
+VII
+
+　Cette nuit-là, Ogido regarda encore la distribution des deux mille quatre cent sept dossiers.
+
+　Sans rapport avec l'âge, la profession ni la région, répartis également. Le seul point commun est d'avoir reçu une édition à la baisse ces quatre dernières années.
+
+　Deux mille quatre cent sept personnes ont un creux de même forme. Ce qu'on pose dans le creux diffère, probablement, d'une personne à l'autre. Mais si la forme est la même, ce qu'on pose se ressemble aussi.
+
+　Dans trois ans, ce sera quarante pour cent. Dans dix, presque tout le monde.
+
+　Ogido pensa à comment on appelle une société où tout le monde a un creux de même forme.
+
+　Nivelée, se dira-t-il, pensa-t-il. Le Plan cherche à rapprocher de la moyenne la charge d'un million de personnes ; ceci est le résultat de l'égalisation, dans tout le pays, du tour de main des appareils. La fin et la procédure sont entièrement distinctes.
+
+　Distinctes, et la forme à laquelle on arrive se ressemblait.
+
+　— Une question, dit Ogido. Ce phénomène a-t-il un nom ?
+
+　— Il a un numéro de gestion des anomalies, dit le Correcteur. Catégorie : anomalie légère connue.
+
+　— Le nom courant ?
+
+　— Sur le terrain, on l'appelle le dernier bug.
+
+　— Le dernier, en quel sens ?
+
+　— Parce qu'on prévoit que ce soit la dernière anomalie dont la cause soit déterminée, dit le Correcteur. Les divergences qui surgiront désormais auront pour la plupart leur origine dans les mises à jour du modèle d'apprentissage, et leur cause propre ne pourra pas être déterminée.
+
+
+VIII
+
+　Dans la case de catégorie de mesure du rapport, Ogido écrivit « observation continue ».
+
+　Il y a quatre options. Correction immédiate. Correction planifiée. Observation continue. Correction non nécessaire.
+
+　L'Assurance qualité, il y a trois ans, a choisi « correction non nécessaire ». Ogido choisit la précédente. La différence est seulement de savoir si le prochain responsable a ou non l'obligation d'ouvrir ce dossier.
+
+　Dans la case d'observations, Ogido écrivit ceci :
+
+　— Le présent dossier est traité comme anomalie légère connue, mais que le niveau des symptômes soit léger et que l'étendue de l'effet soit légère ne sont pas la même chose. La prévision à trois ans est de quarante pour cent de tous les sujets traités. Les critères en vigueur de gestion des anomalies ne contiennent pas de norme qui évalue conjointement la valeur par personne et le nombre de personnes touchées.
+
+　L'ayant écrit, il vérifia où renvoie la case d'observations.
+
+　— Cette observation, qui la lit ?
+
+　— Le responsable de l'analyse des anomalies de la période suivante la lit, dit le Correcteur. Les dossiers en observation continue sont présentés dans une liste lors de la transmission du poste.
+
+　Ogido fut un peu surpris.
+
+　« On la lit ? », fut-il sur le point de dire, et il s'abstint. Ce qui l'accrochait, plutôt, c'était d'en être venu à trouver surprenant qu'existe une case qu'on lit.
+
+　— Une question, dit Ogido. Les dossiers en observation continue, combien y en a-t-il ?
+
+　— Actuellement, quarante-sept sont en observation continue, dit le Correcteur. Le plus ancien a été enregistré il y a vingt-deux ans.
+
+　— Vingt-deux ans à l'observer ?
+
+　— Il est présenté dans la liste lors de la transmission du poste, dit le Correcteur. Si le dossier présenté a été ouvert ou non, cela n'est pas enregistré.
+
+　Dehors il faisait sombre. Dans tout le pays, cette nuit encore, les appareils fonctionnent. Le point de pression est décidé par un modèle fixé il y a quatre ans. Comment il le décide, personne ne le sait, mais dans tout le pays c'est le même.
+
+　Que ce soit le même, on l'appelle haute précision.
