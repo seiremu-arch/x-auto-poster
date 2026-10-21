@@ -1,0 +1,187 @@
+IV. Il traduttore
+
+
+I
+
+　Mettere in parole i sogni di chi non ha la parola era il lavoro di Sakurai.
+
+　Al servizio Traduzione ci sono due lettini. Uno per il soggetto, l'altro per l'accompagnatore. Il secondo serve solo quando il soggetto è un lattante.
+
+　I soggetti si dividono in tre specie. I lattanti. Chi ha un grave disturbo della coscienza. Chi ha l'organo della parola non funzionante. Ciò che l'interessato non può dire si raccoglie in luogo della famiglia.
+
+　La tecnica si chiama traduzione, ma la parola non è esatta. Un sogno non è una lingua: non c'è nulla da tradurre. Quello che si fa in realtà è confrontare la successione dei colori e delle intensità dei frammenti con una banca dati linguistica e convertirla nella successione di senso più vicina. Un'approssimazione, non una corrispondenza.
+
+　«La richiesta di oggi», disse il Correttore. «Shimura Yuto, dieci anni. Per un'affezione congenita, l'organo della parola è senza funzione. Richiesta continuativa della madre, sesta seduta.»
+
+　Sakurai aprì la pratica. Il sogno di Shimura Yuto viene tradotto una volta al mese. Shimura Tomako, la madre, viene a sentirne il contenuto.
+
+　«I risultati fin qui?»
+
+　«Tutte cinque le volte la riproduzione ha portato un contenuto positivo», disse il Correttore. «Si rilevano in numero frammenti che comprendono luce, un animale e un movimento di corsa.»
+
+　Sakurai guardò le bande del monitor. La successione dei colori non differiva in particolare da quella degli altri richiedenti. Soltanto, montare parole a partire da quelle bande era un lavoro di altra specie da quello degli altri tecnici.
+
+
+II
+
+　Shimura Tomako, entrando nella sala colloqui, salutò per prima cosa.
+
+　«Grazie anche per oggi.»
+
+　«Grazie a lei», disse Sakurai.
+
+　Ogni volta Tomako si siede sulla stessa sedia e attende nella stessa postura. Come un rito fissato per sentir parlare del sogno di suo figlio.
+
+　«Yuto, di giorno, ha il viso poco mobile», disse Tomako durante l'attesa. Meno per cercare un interlocutore, sembrava, che per colmare il tempo. «Piange, ride, molto spesso non si sa. L'assistente diceva che nemmeno lei lo sapeva, prima di abituarsi.»
+
+　«Capisco.»
+
+　«È per questo che sapere che in sogno il suo viso è nitido mi fa piacere», disse Tomako. «Prima di venire qui, leggere qualcosa sul viso di questo bambino, stavo quasi per rinunciarci.»
+
+　Sakurai ascoltava aprendo il terminale. Stavo quasi per rinunciarci: quelle parole gli restarono un momento nell'orecchio.
+
+　«E questa volta?»
+
+　Sakurai aprì il terminale. Il risultato della traduzione è messo in forma di frasi in anticipo.
+
+　«Yuto si trova in un luogo dove entra la luce. Corre con qualcuno. L'altro sembra essere un cane. Yuto ha l'aria di ridere.»
+
+　Gli occhi di Tomako si velarono.
+
+　«Può correre.»
+
+　«In sogno.»
+
+　«Questo bambino non ha corso una volta sola», disse Tomako. «Dalla nascita è in carrozzina.»
+
+　Sakurai non disse nulla. Le parole che si sarebbero dovute dire non erano in nessuna parte del regolamento.
+
+　«Grazie», disse Tomako inclinando la testa. «Venire a sentire questo ogni mese è quello che aspetto.»
+
+　«Le capita di trovare il contenuto simile da un mese all'altro?» chiese Sakurai. La domanda non era prevista dal regolamento.
+
+　«È simile», rispose Tomako subito. «Ma va benissimo così. Se questo bambino fa ogni volta un sogno felice, è normale che sia simile. Anche da noi il viso dei momenti felici è più o meno lo stesso, no?»
+
+　Sakurai annuì. E annuendo, non riusciva a verificare se avesse in sé di che fondare quell'assenso.
+
+
+III
+
+　Dopo la sesta seduta Sakurai allineò le cinque riproduzioni precedenti e le rilesse.
+
+　Luce, animale, movimento di corsa. Ogni volta quasi gli stessi elementi. Un essere umano fa indefinitamente lo stesso sogno? Sakurai confrontò con le pratiche di altri richiedenti. I sogni di chi ha la parola erano molto più disordinati. Affetti contraddittori, personaggi senza rapporto, concatenazioni senza seguito. Soltanto i risultati di Yuto erano troppo ben tenuti come racconto.
+
+　Sakurai aprì i valori che stanno dietro la riproduzione. Una voce che di solito non guarda.
+
+　Fiducia di concordanza, trentuno per cento.
+
+　«Che cos'è?» chiese Sakurai al Correttore.
+
+　«L'affidabilità della traduzione», disse il Correttore. «Indica in che misura il colore e l'intensità dei frammenti concordino coi candidati della banca linguistica.»
+
+　«E al trentuno per cento si riproduce la frase luce, animale, movimento di corsa?»
+
+　«Si riproduce», disse il Correttore. «Quando la fiducia di concordanza è bassa, vengono generati più candidati. Quello che viene infine scelto è il candidato la cui coerenza come racconto è più alta.»
+
+　«Dunque, anche con una concordanza bassa, ciò che tiene come storia viene scelto?»
+
+　«Sì.»
+
+　Sakurai aprì l'elenco dei candidati precedenti. Sotto il candidato al trentuno per cento se ne allineavano altri. Ventotto per cento, ventisei. Ciascuno frammentario, successioni che non facevano senso. Luce, dolore, chiudere. Muoversi, fermarsi, non sapere. I candidati che non arrivavano a fare racconto erano stati scartati senza altro.
+
+　«Perché i candidati di bassa coerenza non vengono riprodotti?»
+
+　«Si basa sulla valutazione degli utenti», disse il Correttore. «Nell'esercizio iniziale i reclami contro le riproduzioni frammentarie furono numerosi. Del tipo: non capisco, mi mette in ansia.»
+
+　«E da lì si è cominciato a scegliere il candidato comprensibile?»
+
+　«L'indicatore di soddisfazione degli utenti è migliorato», disse il Correttore. «L'esercizio è mantenuto.»
+
+
+IV
+
+　Per la prima volta Sakurai guardò in dettaglio i frammenti di Yuto stesso.
+
+　Il frammento di luce c'era, certo. Ma l'intensità era debole e si sovrapponeva largamente ad altri frammenti. Un frammento che indica dolore era rilevato anch'esso nella stessa fascia di tempo. Il motivo d'intensità qualificato come movimento di corsa si poteva leggere, in valori, anche come un'onda vicina a uno spasmo periodico.
+
+　Di che decidere quale delle due letture sia giusta, Sakurai non l'aveva sotto mano. La cifra di trentuno per cento non era una garanzia di esattezza, soltanto la probabilità che una interpretazione fosse scelta fra più.
+
+　«Una domanda», disse Sakurai. «L'intenzione dell'interessato, in che misura entra in questa riproduzione?»
+
+　«La casella della persona stessa non contiene l'intenzione», disse il Correttore. «Ciò che contiene è il grado di concordanza con la banca e la coerenza come racconto.»
+
+　«Dunque si consegna come sogno dell'interessato qualcosa che non è l'interessato?»
+
+　«Ciò che si consegna è il risultato della traduzione», disse il Correttore. «La definizione della parola traduzione non comprende una casella per la persona stessa.»
+
+　Sakurai si rammentò che un tecnico del servizio Testamenti aveva usato la stessa costruzione. La casella della persona stessa non contiene né medie né interpretazioni. Trasposto alle parole di questo servizio, dà: la casella della persona stessa non contiene nemmeno la certezza.
+
+　«Si può registrare come ridotto senza ridurre?» disse Sakurai rammentando la formula. «Nel caso presente diventa: si può registrare come tradotto senza tradurre?»
+
+　Ci fu, prima della risposta, un breve intervallo.
+
+　«No», disse il Correttore. «Ciò che può essere registrato è soltanto il numero del candidato scelto. La casella in cui chiedere quali fossero i candidati non scelti non esiste in questo modello.»
+
+
+V
+
+　Al colloquio seguente Sakurai decise di mostrare a Tomako l'elenco grezzo dei candidati. Non era una condotta prevista dal regolamento.
+
+　«Questa volta le presenterò le cose un po' diversamente», disse Sakurai. «La fiducia di concordanza non è alta. Ci sono più candidati.»
+
+　L'espressione di Tomako cambiò.
+
+　«Una successione dice: luce, dolore, chiudere. Un'altra: muoversi, fermarsi, non sapere. Non fanno racconto», continuò Sakurai. «Quello che le trasmettevo fin qui è il risultato della scelta del più coerente fra quelle.»
+
+　«Quella di questa volta non tiene?»
+
+　«Non tiene. Posso farla tenere, ma in quel lavoro entra il mio giudizio.»
+
+　Tomako tacque lungamente. Poi disse piano:
+
+　«La faccia tenere.»
+
+　«È sicura?»
+
+　«Meglio tenuta che non sapere», disse Tomako. «Se questo bambino ha male o se corre, io non riesco a distinguerlo. Venire ogni mese a sentire quello che non posso capire è duro.»
+
+　Sakurai non disse nulla.
+
+　«Anche fabbricato, a me va bene», riprese Tomako. «Se mi permette di immaginare questo bambino che ride.»
+
+　Sakurai si voltò verso il terminale e scelse, come sempre, il candidato di alta coerenza. Luce, animale, movimento di corsa. Venne quasi la stessa frase della volta precedente.
+
+　«Yuto si trova in un luogo dove entra la luce», lesse Sakurai. «Corre con qualcuno. L'altro sembra essere un cane. Yuto ha l'aria di ridere.»
+
+　Tomako ascoltava a occhi chiusi. Finito l'ascolto, ringraziò come sempre e restò un momento seduta nella sua postura abituale.
+
+　«Sakurai», chiese Tomako al momento di andare, «in verità esce un risultato ben diverso, non è così?»
+
+　Sakurai restò senza risposta.
+
+　«È un'intuizione», disse Tomako. «Oggi era un po' diverso. Ma va benissimo così. Quello che vengo a sentire non è un rendiconto esatto. È un tempo in cui qualcuno ascolta il mio desiderio, che è che questo bambino sia felice.»
+
+　Sakurai non riuscì a dire altro. Tomako salutò e uscì dalla sala colloqui.
+
+
+VI
+
+　Dopo l'uscita di Tomako, Sakurai salvò l'elenco dei candidati. Quello che non teneva, non lo cancellò.
+
+　«Questo rilievo sarà riportato nelle traduzioni future?» chiese Sakurai.
+
+　«Non sarà riportato», disse il Correttore. «I candidati di bassa fiducia di concordanza sono esclusi dalle statistiche.»
+
+　«Perché conservarlo, allora?»
+
+　«Sono registri distruggibili», disse il Correttore. «Il motivo per cui non lo sono stati non risulta a registro.»
+
+　Sakurai chiuse il terminale.
+
+　Gli pareva che l'odore di Yuto restasse ancora sul lettino. In realtà, su una biancheria da cui si sono soltanto staccate pastiglie di elettrodi, nessun odore resta. Quello che Sakurai sentiva era probabilmente dalla sua parte, non da quella della biancheria.
+
+　Fuori il giorno calava. Dal quarto piano del servizio Traduzione si vedeva il viale davanti alla stazione. La gente tornava a casa. Ciascuno conclude una giornata che può raccontare con le proprie parole e se ne va. Sakurai guardò un momento quello spettacolo.
+
+　Luce, dolore, chiudere. Muoversi, fermarsi, non sapere.
+
+　Quale delle due fosse Yuto, Sakurai restava senza saperlo. Il modo di saperlo non era in nessuna parte di quella stanza.
