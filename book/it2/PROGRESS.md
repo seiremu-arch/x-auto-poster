@@ -17,10 +17,10 @@ Libro I. Compilare con `python3 book/tools/build_epub.py it2`.
 | II | 胎夢 | Fondazioni | 4.240 | 1.832 | **fatto** |
 | III | 共感注射 | L'iniezione di empatia | 4.432 | 1.817 | **fatto** |
 | IV | 最後の夢職人 | L'ultimo artigiano | 4.226 | 1.871 | **fatto** |
-| V | ＡＩは夢を見るか | La macchina sogna? | 3.963 | — | in attesa |
-| VI | 夢の犯罪 | Lesioni | 3.933 | — | in attesa |
-| VII | 消えた現実 | Il registro | 3.982 | — | in attesa |
-| VIII | 夢の海 | Il mare dei sogni | 3.889 | — | in attesa |
+| V | ＡＩは夢を見るか | La macchina sogna? | 3.963 | 1.720 | **fatto** |
+| VI | 夢の犯罪 | Lesioni | 3.933 | 1.714 | **fatto** |
+| VII | 消えた現実 | Il registro | 3.982 | 1.742 | **fatto** |
+| VIII | 夢の海 | Il mare dei sogni | 3.889 | 1.750 | **fatto** |
 | IX | 明日の夢 | Il sogno di domani | 3.879 | — | in attesa |
 | X | 最後のバグ | L'ultimo bug | 3.843 | — | in attesa |
 | XI | 残差 | Residuo | 3.906 | — | in attesa |

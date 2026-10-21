@@ -197,7 +197,7 @@ CHECKS_IT = [
     ("仏語の機能語が混じっている",
      r"\bc'est\b|\bn'est\b|\bqu'il\b|\bl'on\b|\bdans\b|\bpour\b"
      r"|\bavec\b|\bsans\b|\bmais\b|\bcomme\b|\bselon\b|\bainsi\b"
-     r"|\bencore\b|\btoujours\b|\bcontrec\w+"),
+     r"|\bencore\b|\btoujours\b|\bcontrec\w+|\bgrimace\b"),
     ("西語の機能語が混じっている",
      r"\bdijo\b|\bcuando\b|\bpuede\b|\bsiempre\b|\bentonces\b"
      r"|\btambi\u00e9n\b|\bporque\b"),
