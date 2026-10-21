@@ -14,7 +14,7 @@ Libro I. Compilare con `python3 book/tools/build_epub.py it2`.
 | # | Giapponese | Italiano | Origine | Parole | Stato |
 |---|---|---|---|---|---|
 | I | 眠らない都市 | La città che non dorme | 4.336 | 2.012 | **fatto** |
-| II | 胎夢 | Fondazioni | 4.240 | — | in attesa |
+| II | 胎夢 | Fondazioni | 4.240 | 1.832 | **fatto** |
 | III | 共感注射 | L'iniezione di empatia | 4.432 | — | in attesa |
 | IV | 最後の夢職人 | L'ultimo artigiano | 4.226 | — | in attesa |
 | V | ＡＩは夢を見るか | La macchina sogna? | 3.963 | — | in attesa |
