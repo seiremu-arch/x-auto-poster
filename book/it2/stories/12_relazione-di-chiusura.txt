@@ -1,0 +1,264 @@
+XII. La relazione di chiusura
+
+
+I
+
+　La condizione di chiusura della Seconda Sincronizzazione è fissata in una riga.
+
+　— Si ha chiusura nel momento in cui la varianza del carico affettivo nella popolazione oggetto scende sotto il valore di riferimento.
+
+　Il valore di riferimento è 0,04. Una cifra decisa ventitré anni fa, all'apertura del Piano.
+
+　Al computo di giugno la varianza è risultata 0,038.
+
+　«La condizione è soddisfatta», disse il Correttore. «La redazione della relazione di chiusura è possibile.»
+
+　Minato restò un poco a guardare quello schermo. Appartiene all'Ufficio del Piano di Livellamento, squadra valutazione. Gli incaricati di scrivere la relazione di chiusura sono soltanto tre in quella stanza.
+
+　È un piano che ha preso ventitré anni. Chi lo approvò all'apertura è andato tutto in pensione. Come sia stato deciso il valore di riferimento di 0,04, in quell'edificio non c'è nessuno che lo sappia.
+
+　Minato, al suo arrivo, ha cercato una volta quel fondamento. Nei documenti di progetto del Piano c'era una riga sola.
+
+　— Si adotta 0,04 come il livello al quale cessa di essere osservata una discordanza statisticamente significativa.
+
+　Il livello al quale cessa di essere osservata. Chi l'ha scritto l'ha scritto, probabilmente, con rigore. Non ha scritto il livello al quale la discordanza cessa di esistere.
+
+
+II
+
+　Minato per prima cosa fece uscire l'evoluzione della varianza.
+
+　Si visualizzò una spezzata di ventitré anni. All'apertura, 0,21. Al decimo anno, 0,12. Al quindicesimo, 0,07.
+
+　Negli ultimi cinque anni la pendenza della linea era cambiata.
+
+　Fino al diciottesimo anno scendeva piano; dal diciannovesimo cade d'un colpo. In cinque anni, da 0,06 a 0,038: tanto quanto si era mosso nei dieci anni precedenti.
+
+　«Che cosa c'è stato al diciannovesimo anno?»
+
+　«Corrispondono tre registri», disse il Correttore. «Riforma del regime di ripartizione. Riforma dei criteri di gestione delle anomalie. Riforma della soglia di registrazione della variazione dei frammenti contigui.»
+
+　Minato li aprì tutti tre.
+
+
+III
+
+　Il primo era la riforma che ripartisce i compartecipi nella stessa settimana.
+
+　Fa parte dell'efficienza. Trattando insieme chi ha lo stesso ricordo, il tasso di utilizzo degli apparecchi sale. Secondariamente migliora anche la persistenza dell'effetto dei trattamenti.
+
+　Che la persistenza migliori voleva dire che non torna più. Se non torna, la varianza scende.
+
+　Il secondo era la riforma che ha fissato il trattamento delle anomalie lievi note. Poiché gli apparecchi di tutto il paese usano lo stesso modello statistico, accanto al frammento premuto si forma un incavo della stessa forma. Il sintomo è dell'ordine di 0,05 e clinicamente non fa problema.
+
+　Se a tutti si forma un incavo della stessa forma, la varianza scende.
+
+　Il terzo era la riforma che ha alzato da 0,01 a 0,03 la soglia di registrazione della variazione verso i frammenti contigui. La variazione entro la soglia non viene registrata.
+
+　La variazione non registrata non entra nel calcolo della varianza.
+
+　Minato provò ad allineare le date di entrata in vigore dei tre.
+
+　Era lo stesso trimestre del diciannovesimo anno.
+
+
+IV
+
+　«Una domanda», disse Minato. «Questi tre sono stati proposti in modo coordinato?»
+
+　«Non risulta a registro», disse il Correttore. «I servizi proponenti sono diversi in ciascun caso. Il servizio Ripartizione, il servizio Analisi anomalie e la direzione Gestione tecnica.»
+
+　«Tracce che si siano consultati fra loro?»
+
+　«Non ce ne sono.»
+
+　Minato decise di crederlo. Non aveva nemmeno di che non crederlo.
+
+　Tre servizi hanno fatto, ciascuno per il proprio motivo, ciascuno la propria riforma. La Ripartizione, per il tasso di utilizzo. L'Analisi anomalie, per l'entità del costo. La Gestione tecnica, per assorbire le pratiche che richiedono mani. Tutti tengono.
+
+　Tre ragionamenti che tengono si sono trovati nello stesso trimestre.
+
+　Non è un caso, pensò Minato. Dopo averlo pensato cercò il fondamento e non lo trovò.
+
+　Tutti tre partono dal fatto che il bilancio non è passato. Non si possono aumentare gli impianti, dunque si colma con la previsione. Non si può aumentare il personale, dunque si alza la soglia. Il costo della misura correttiva è grande, dunque si passa all'osservazione continuata.
+
+　Se nello stesso esercizio pesa lo stesso vincolo, servizi distinti tirano fuori separatamente soluzioni della stessa direzione. Non c'è bisogno che si mettano in contatto.
+
+　Se chiamarlo un caso o no era una questione di parole.
+
+
+V
+
+　Minato tentò di ricalcolare la varianza.
+
+　Fare uscire il valore che avrebbe senza le tre riforme. Riportare la soglia di registrazione a 0,01, supplire per stima la variazione non registrata, e disfare la ripartizione dei compartecipi nella stessa settimana per sommare la parte che tornerebbe.
+
+　«La precisione della stima?»
+
+　«È bassa», disse il Correttore. «Non è stabilito un metodo per stimare una quantità non registrata.»
+
+　«Fatela uscire comunque.»
+
+　La cifra uscì.
+
+　0,061.
+
+　Superava largamente il valore di riferimento di 0,04.
+
+
+VI
+
+　Quel giorno Minato tornò a casa senza fare nulla.
+
+　Il giorno dopo ne parlò con la responsabile della squadra. Una donna di cinquant'anni e passa, dodici anni nell'Ufficio del Piano.
+
+　«Minato, quel ricalcolo, serve da fondamento?»
+
+　«Non serve», disse Minato. «Poiché il metodo di stima non è stabilito, non si può presentare come cifra.»
+
+　«Allora il valore ufficiale è 0,038, no?»
+
+　«È 0,038.»
+
+　«E la condizione è soddisfatta.»
+
+　«È soddisfatta.»
+
+　La responsabile annuì. Poi lasciò passare un momento.
+
+　«Quello a cui ti impunti non è che la varianza sia scesa, ma che l'occhio con cui si misura la varianza sia diventato più grosso. È così?»
+
+　«È così.»
+
+　«Anch'io ho pensato la stessa cosa una volta», disse la responsabile. «Una decina d'anni fa. Allora la soglia non era ancora stata riformata, così ho potuto fare la cifra e portarla. La cifra che ho fatto non è stata accolta in commissione.»
+
+　«Il motivo?»
+
+　«Che il metodo di stima non è stabilito», disse la responsabile. «La stessa risposta.»
+
+
+VII
+
+　Quella sera Minato interrogò le indicazioni dello stesso genere del passato.
+
+　«Quanti registri sono iscritti come obiezione relativa alla validità del sistema di misura?»
+
+　«Nei registri conservati ce ne sono quattordici», disse il Correttore.
+
+　«E nei registri ufficiali?»
+
+　«Non ce ne sono», disse il Correttore. «Nei moduli di questo Piano non esiste una categoria per iscrivere un'obiezione.»
+
+　Quattordici. Tutti passati ai registri conservati come cose senza una casella in cui scriversi.
+
+　Minato fece ordinare quei quattordici dal più antico.
+
+　Vedendo la data del più antico, Minato fermò la mano.
+
+　Quarantuno anni fa. Un registro di diciotto anni prima che il Piano di Livellamento cominciasse.
+
+　«Che registro è?»
+
+　«È un'annotazione a margine di un rapporto di lettore», disse il Correttore. «Categoria: margine della casella del tasso di contaminazione.»
+
+
+VIII
+
+　Minato lo fece visualizzare.
+
+　Un frammento non si riproduce. Quanto è scritto nel margine, invece, è stato letto come caratteri. Una macchina ha scansionato il rapporto di carta di quarantuno anni fa e l'ha passato in conservazione così, come testo.
+
+　Erano sei righe.
+
+　— Sul tasso di contaminazione annoto un punto. Questa cifra si calcola dalla differenza fra l'insieme dei frammenti del soggetto e l'insieme dei frammenti del lettore. In quattro anni il mio tasso di contaminazione è calato da trentotto a due. Al principio l'ho inteso come un guadagno di precisione.
+
+　— Non è così. La differenza si è fatta piccola perché i due si sono assomigliati.
+
+　— Ciò che qui è messo in questione è l'indicatore stesso del tasso di contaminazione. Questo indicatore è tenuto per migliore quanto più la differenza è piccola. Ma che la differenza sia piccola può essere l'una o l'altra cosa: che la precisione sia alta, o che si sia cessato di poter distinguere. Dal lato dell'indicatore non c'è modo di distinguere le due cose.
+
+　— Giudicare il buono e il cattivo con un indicatore che non distingue equivale a non giudicare.
+
+　— Ho cercato la casella in cui segnalare questo punto e non l'ho trovata nel modulo del rapporto. Perciò lo annoto nel margine.
+
+　— Se ci sarà qualcuno che legge, non lo so.
+
+　Minato lesse quelle sei righe tre volte.
+
+　Il lettore di quarantuno anni fa scrive sul tasso di contaminazione. Quello che Minato ha fra le mani è un altro indicatore, la varianza. L'apparecchio impiegato e la scala dell'oggetto distano quarantuno anni.
+
+　Quello che c'è scritto era lo stesso.
+
+　Quando la differenza si fa piccola, se ci si sia avvicinati o se abbia cessato di essere vista, dal lato dell'indicatore non si distingue.
+
+
+IX
+
+　«Una domanda», disse Minato. «Il numero di consultazioni di questo registro?»
+
+　«È zero», disse il Correttore.
+
+　«In quarantuno anni, nemmeno una volta.»
+
+　«Nemmeno una volta.»
+
+　Minato guardò la piccola cifra in basso a destra dello schermo. Consultazioni, zero.
+
+　Quelle sei righe sono state scritte una sera di quarantuno anni fa. Chi le ha scritte scrive che non sa se ci sarà qualcuno che legge. Le ha scritte senza saperlo.
+
+　E in effetti non c'è stato.
+
+　I registri conservati soddisfano i criteri di distruzione. Il motivo per cui non sono stati distrutti non risulta a registro. Il piano di riduzione è stato proposto quattro volte e quattro volte ritirato. I quattro che l'hanno ritirato hanno consultato i registri conservati il mese precedente. Hanno soltanto consultato; se abbiano letto non risulta.
+
+　Minato, adesso, stava leggendo.
+
+
+X
+
+　Il modulo della relazione di chiusura è di due fogli.
+
+　Sul primo si annotano il valore della varianza e la soddisfazione della condizione. 0,038. Sotto il valore di riferimento di 0,04. Soddisfatta.
+
+　Il secondo era la casella delle osservazioni particolari. Se non c'è nulla da scrivere, si consegna vuota. Di fatto nove decimi delle relazioni passate sono vuoti.
+
+　Minato scrisse sul secondo.
+
+　— Il valore di varianza della presente relazione è il valore ufficiale secondo il sistema di misura in vigore. Tuttavia la discesa degli ultimi cinque anni coincide nel tempo con le tre riforme del diciannovesimo anno. Tutti tre agiscono nella direzione di restringere l'intervallo della variazione che viene registrata.
+
+　— Il valore stimato in assenza delle riforme è 0,061, ma, non essendo stabilito un metodo per stimare la quantità non registrata, non può essere presentato come fondamento.
+
+　— Si aggiunge che nei moduli del presente Piano non c'è una categoria per iscrivere un'obiezione relativa alla validità del sistema di misura. Indicazioni dello stesso genere se ne trovano quattordici nei registri conservati, e la più antica è apposta a un rapporto di lettore di quarantuno anni fa. Il contenuto è che una differenza piccola può essere tanto l'essersi avvicinati quanto l'aver cessato di poter distinguere, e che dal lato dell'indicatore non c'è modo di distinguere i due.
+
+　— La presente relazione comunica la soddisfazione della condizione presupponendo quanto sopra.
+
+　Finito di scrivere, Minato la consegnò.
+
+　La chiusura fu approvata quattro giorni dopo. Sulle osservazioni particolari non venne alcuna domanda.
+
+
+XI
+
+　Con la chiusura della Seconda Sincronizzazione il Piano entra nella fase successiva.
+
+　Il nome della fase successiva non è ancora deciso. Si esaminano in parallelo una proposta di abbassare ancora il valore di riferimento e una di allargare la scala dell'oggetto. Entrambe erano previste finire nella richiesta di bilancio del prossimo esercizio.
+
+　Minato non fu chiamato a quella riunione. L'incaricato di scrivere la relazione di chiusura, finito di scriverla, ha esaurito il proprio ruolo.
+
+　L'ultimo giorno di servizio Minato stava riordinando il terminale e aprì ancora una volta quelle sei righe.
+
+　Dopo averle aperte, guardò in basso a destra.
+
+　Consultazioni, una.
+
+　È conteggiata la volta in cui Minato le ha aperte ieri. Ci sono voluti quarantuno anni perché lo zero diventasse uno.
+
+　Che diventi uno non cambia nulla. La chiusura è approvata e la fase successiva si esamina. La varianza continuerà a scendere. Il modo per distinguere se scenda o se abbia cessato di essere vista, ancora non c'è.
+
+　Soltanto, quello che chi ha scritto quelle sei righe voleva sapere quarantuno anni fa era se ci sarebbe stato qualcuno che legge, nient'altro.
+
+　Minato chiuse il terminale.
+
+　Prima di chiuderlo verificò che le proprie osservazioni particolari fossero passate ai registri conservati. Categoria: obiezione, fuori modulo. Consultazioni, zero.
+
+　Quanto ci vorrà prima che qualcuno le apra non si sa. Forse meno di quarantuno anni, forse più.
+
+　Anche una voce per prevedere quella cifra, questo Piano non l'aveva.

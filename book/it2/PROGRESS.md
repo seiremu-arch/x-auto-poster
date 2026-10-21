@@ -21,10 +21,10 @@ Libro I. Compilare con `python3 book/tools/build_epub.py it2`.
 | VI | 夢の犯罪 | Lesioni | 3.933 | 1.714 | **fatto** |
 | VII | 消えた現実 | Il registro | 3.982 | 1.742 | **fatto** |
 | VIII | 夢の海 | Il mare dei sogni | 3.889 | 1.750 | **fatto** |
-| IX | 明日の夢 | Il sogno di domani | 3.879 | — | in attesa |
-| X | 最後のバグ | L'ultimo bug | 3.843 | — | in attesa |
-| XI | 残差 | Residuo | 3.906 | — | in attesa |
-| XII | 完了報告 | La relazione di chiusura | 4.090 | — | in attesa |
+| IX | 明日の夢 | Il sogno di domani | 3.879 | 1.825 | **fatto** |
+| X | 最後のバグ | L'ultimo bug | 3.843 | 1.781 | **fatto** |
+| XI | 残差 | Residuo | 3.906 | 1.808 | **fatto** |
+| XII | 完了報告 | La relazione di chiusura | 4.090 | 1.967 | **fatto** |
 
 Giapponese in totale, 48.719 caratteri. Le cifre di questa tabella le scrive
 `python3 book/tools/sync_tr_counts.py it2`, non la mano.
