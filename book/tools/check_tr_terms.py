@@ -201,6 +201,13 @@ CHECKS_IT = [
     ("西語の機能語が混じっている",
      r"\bdijo\b|\bcuando\b|\bpuede\b|\bsiempre\b|\bentonces\b"
      r"|\btambi\u00e9n\b|\bporque\b"),
+    # 自分が繰り返す綴り誤り。sceso を scceso と書く癖が第二話・第十話で出た。
+    # 伊語に scc という連続はない（西語・仏語にもない）ことを確かめてから入れた。
+    ("scc は伊語に現れない連続（sceso を scceso と書いていないか）", r"scc"),
+    # rognare は伊語では「ぶつぶつ言う」。削る意味の仏語 rogner に引かれて
+    # 第十話で使っていた。削るは limare / rifilare。
+    # 検査の本体は re.IGNORECASE を付けないので、文頭の大文字も明示する
+    ("rognare は伊語では別の意味（削るは limare）", r"\b[Rr]ognat?\w*"),
     ("漢数字の残り（〇・一二三…）", r"[〇一二三四五六七八九十]"),
     ("行末の空白", r"[ \t]+$"),
 ]

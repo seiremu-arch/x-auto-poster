@@ -24,7 +24,7 @@ spagnola o francese.
 | VII | 涙の代筆 | Il lutto per delega | 4.476 | 1.893 | **fatto** |
 | VIII | 夢裁判 | La pena | 4.577 | 1.929 | **fatto** |
 | IX | 目覚めない権利 | Il diritto di non svegliarsi | 4.503 | 2.001 | **fatto** |
-| X | 夢の相続 | La successione | 4.587 | — | in attesa |
+| X | 夢の相続 | La successione | 4.587 | 1.937 | **fatto** |
 | XI | 幸福指数九八 | Indice di Felicità 98 | 4.218 | — | in attesa |
 | XII | 沈黙の被験者 | Il soggetto silenzioso | 4.508 | — | in attesa |
 
