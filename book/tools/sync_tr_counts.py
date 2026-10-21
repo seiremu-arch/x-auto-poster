@@ -130,9 +130,14 @@ def check_total(vol: str, progress: Path) -> None:
     want = group(sum(chars(p) for p in ja_all), sep)
     text = progress.read_text(encoding="utf-8")
 
-    # 原文の総字数を述べている行を、桁区切り付きの5桁の数で探す
-    rx = re.compile(r"\d{2}" + re.escape(sep) + r"\d{3}")
-    found = {m.group(0) for line in text.split("\n")
+    # 原文の総字数を述べている行だけを見る。桁区切り付きの5桁の数で探すと、
+    # 桁区切りの書き方の例として本文に置いた 114.206 の末尾（14.206）を拾って
+    # 誤検出する。実際に it1 で鳴ったので、字数を表す語が同じ行にあることを
+    # 条件に加えた。
+    WORD = re.compile(r"characters|Zeichen|caracteres|caract\u00e8res"
+                      r"|caratteri|字")
+    rx = re.compile(r"\b\d{2,3}" + re.escape(sep) + r"\d{3}\b")
+    found = {m.group(0) for line in text.split("\n") if WORD.search(line)
              for m in [rx.search(line)] if m}
     stale = {f for f in found if f != want}
     if stale:
