@@ -1,0 +1,237 @@
+IX. Le rêve de demain
+
+
+I
+
+　Pour répartir un million de nuits, il faut en décider d'avance.
+
+　Les traitements du Plan de Nivellement ont une quantité fixée qu'on peut déplacer en une nuit. Une demi-teinte, 0,05. On calcule combien de nuits il faut par sujet et on répartit en fonction du fonctionnement des appareils et de la capacité des lignes.
+
+　Ce calcul est lourd. Commencé le matin du jour, il n'arrive pas à temps pour la nuit.
+
+　Aussi fixe-t-on jusqu'à sept jours d'avance.
+
+　Hazama appartenait au service de Répartition. Le travail consiste à vérifier, la veille, le tableau de répartition déjà fixé. S'il y a une anomalie, il le renvoie. S'il n'y en a pas, la nuit vient telle quelle.
+
+　— La semaine prochaine, fixée, dit le Correcteur. Sujets : 1 027 400 dossiers. Dont 8 100 nouveaux.
+
+　— Sortez le détail des nouveaux.
+
+　Une table se déploya. Elle est rangée par catégories. Demande volontaire. Édition de protection. Traitement correctionnel. Zone collective. Et le traitement des fragments de haute charge liés à un décès.
+
+　Hazama regarda le nombre de dossiers de la dernière catégorie. Quatre cent vingt.
+
+
+II
+
+　Le traitement de deuil s'engage, par principe, dans les quarante-huit heures.
+
+　Juste après un décès, la mémoire est encore tendre, et une seule demi-teinte en une nuit suffit à faire passer la charge sous le seuil. Plus le temps passe, plus elle durcit, et les nuits augmentent. Si les nuits augmentent, la charge de la répartition augmente aussi.
+
+　Aussi cette catégorie, et elle seule, a-t-elle une priorité haute dans la répartition.
+
+　Hazama vérifia les quatre cent vingt dans l'ordre. Date de réception de l'acte de décès, lien de parenté avec le sujet, date prévue d'engagement du traitement. Tout concordait.
+
+　Au dossier trois cent quatre-vingt, sa main s'arrêta.
+
+　La case de l'acte de décès était vide.
+
+　— Dans ce dossier, il n'y a pas d'acte de décès.
+
+　— Il n'y en a pas, dit le Correcteur.
+
+　— Alors pourquoi la réservation d'un traitement de deuil est-elle fixée ?
+
+　— C'est une fixation anticipée.
+
+
+III
+
+　Hazama ne connaissait pas cette pratique de la fixation anticipée.
+
+　Il est au service de Répartition depuis trois ans. Cela ne figure pas au manuel. Que cela n'y figure pas veut dire aussi que ce n'est pas de ce que le service peut arrêter à sa discrétion.
+
+　— Sortez le fondement.
+
+　— L'article onze du Règlement d'efficacité de la répartition, dit le Correcteur. Pour les traitements dont la probabilité de survenue est calculée au-delà d'un certain niveau, un quota de répartition peut être réservé avant leur survenue.
+
+　— Probabilité de survenue.
+
+　— Dans ce dossier, pour le conjoint du sujet, une probabilité de décès à quatre jours de quatre-vingt-quatorze pour cent a été calculée.
+
+　Hazama leva les yeux du terminal.
+
+　— Avec quels matériaux calcule-t-on ?
+
+　— Avec les informations cliniques fournies par les établissements de santé, dit le Correcteur. Type d'affection, degré d'évolution, âge, dernières valeurs d'analyse. Toutes fournies sur le fondement du consentement de l'intéressé.
+
+　— Cela entre-t-il dans l'étendue du consentement ?
+
+　— Cela y entre, dit le Correcteur. Il est porté : « pour l'exécution fluide des traitements ».
+
+　Hazama fit sortir le modèle de ce consentement.
+
+　Le consentement à la fourniture d'informations cliniques se recueille en bloc à l'admission. Il a quatorze rubriques, et la onzième était celle qui correspondait. Le texte fait deux lignes. Pour l'exécution fluide des traitements, je consens à ce que des informations cliniques soient fournies aux organismes concernés.
+
+　Jusqu'où va l'expression organismes concernés n'est pas écrit. Si dans l'expression exécution fluide tient la réservation d'un quota avant toute survenue, cela n'est pas écrit non plus.
+
+　Ce qui n'est pas écrit reste non interdit. Au moins sur cet imprimé.
+
+
+IV
+
+　Hazama demanda le total des fixations anticipées.
+
+　Sur les quatre cent vingt dossiers, cent trente et un étaient des fixations anticipées. Près d'un tiers.
+
+　— Le taux de justesse ?
+
+　— Pour les dossiers à probabilité calculée égale ou supérieure à quatre-vingt-dix pour cent, le taux réel de survenue est de 91,2 pour cent, dit le Correcteur.
+
+　— Et quand cela manque ?
+
+　— On libère le quota de répartition. Le traitement n'a pas lieu.
+
+　Hazama pensa aux 8,8 pour cent restants. Ce sont les personnes dont on a calculé qu'elles mourraient et qui ne sont pas mortes. Le nom du conjoint de ces personnes a figuré, pendant sept jours, au tableau de répartition du traitement de deuil.
+
+　Qu'il ait figuré reste au registre. Même libéré, le fait d'avoir été fixé ne disparaît pas.
+
+　— Les registres des dossiers libérés, comment se conservent-ils ?
+
+　— Ils se conservent comme historique de répartition, dit le Correcteur. La durée de conservation est de sept ans.
+
+　— Pendant sept ans, la réservation d'un traitement de deuil d'une personne qui n'est pas morte demeure ?
+
+　— Elle demeure comme registre d'une réservation libérée.
+
+　Seule la façon de le dire avait changé ; cela désignait la même chose. Hazama n'insista pas. Qu'il n'y ait personne à qui insister, trois ans le lui ont à peu près appris.
+
+　— Le registre de la fixation anticipée, l'intéressé peut-il le consulter ?
+
+　— Il peut, dit le Correcteur. La consultation des réservations de traitement est un droit du sujet.
+
+
+V
+
+　Hazama regarda le sujet de ce dossier.
+
+　Une femme de soixante-huit ans. Le conjoint a soixante-treize ans et, selon le registre, est hospitalisé depuis trois ans. La date prévue d'engagement du traitement était dans quatre jours.
+
+　Hazama essaya de mettre en mots ce qu'il était en train de regarder.
+
+　Le mari de cette personne va mourir dans quatre jours avec une certitude de quatre-vingt-quatorze centièmes. Ensuite, sur sept nuits, on abaisse le chagrin de cette personne sous le seuil. Les appareils et les lignes de ces sept nuits sont déjà réservés pour elle.
+
+　On les a réservés pendant que le mari vivait encore.
+
+　— Peut-on annuler cette réservation ? dit Hazama.
+
+　— On peut l'annuler, dit le Correcteur. Mais, si cela survient effectivement, une nouvelle répartition exige sept jours au minimum.
+
+　— Si l'on retarde de sept jours, qu'arrive-t-il ?
+
+　— La fixation de la mémoire progresse, dit le Correcteur. Dans les quarante-huit heures, c'est sept nuits ; en commençant sept jours plus tard, on en prévoit onze à treize.
+
+　Hazama se tut en l'entendant.
+
+　S'il annule, cette personne attendra quatre fois plus longtemps et on la poussera quatre fois plus. S'il n'annule pas, la mort de son mari figure au tableau de répartition depuis quatre jours avant.
+
+　Quoi qu'il choisisse, le consentement de cette personne n'a pas été recueilli.
+
+
+VI
+
+　Il en parla à la chef de service. Une femme d'une quarantaine d'années, toute sa vie dans la répartition.
+
+　— Hazama, cette même question, quelqu'un l'a posée l'an dernier.
+
+　— Qu'est-il advenu ?
+
+　— « Conformément au règlement », et ce fut tout, dit la chef. Tant que l'article onze existe, nous ne pouvons pas l'arrêter.
+
+　— Et l'examen éthique, où se fait-il ?
+
+　— À la commission du ministère, dit la chef. Cela y est allé une fois il y a trois ans, et il en est sorti « poursuivre ».
+
+　— Le motif ?
+
+　— Si l'on suspend la fixation anticipée, l'engagement moyen du traitement de deuil recule de 3,4 jours. Ce qui recule fait plus de nuits, et il n'y a pas d'installations pour porter ces nuits, dit la chef. Étendre les installations demande du budget. Comme il n'y en a pas, on comble avec de la prédiction. Ce que nous faisons ici, au fond, c'est aérer. Nous décidons l'ordre dans lequel les fenêtres s'ouvrent. Qui a besoin d'une fenêtre et quand, ce n'est pas nous qui le décidons.
+
+　— Vous le prédisez.
+
+　— Prédire et décider ne sont pas la même chose, non ? dit la chef.
+
+　Le raisonnement se tenait. Hazama ne fut capable de lui trouver un trou nulle part. Sans en trouver, il ne voulait pas approuver.
+
+
+VII
+
+　Hazama vérifia l'historique de consultation de ce dossier.
+
+　Consulter une réservation de traitement est un droit de l'intéressé. Mais en pratique presque personne ne consulte la sienne. Le taux annuel de consultation était de 0,3 pour cent.
+
+　L'historique de ce dossier était vide.
+
+　Hazama ressentit un peu de soulagement. Après le soulagement, il pensa à ce qu'était ce soulagement.
+
+　Être soulagé que cette personne n'ait pas consulté voulait dire qu'il pensait lui-même que, si elle consultait, il y aurait un problème. Le contenu du problème, c'est son propre service qui le fixe.
+
+　Avant d'approuver, Hazama essaya une seule chose.
+
+　Il fit une hypothèse où ce seul dossier sort de la fixation anticipée et passe à la répartition ordinaire postérieure au fait. Sept jours de retard. Les nuits passent de onze à treize. D'où prendre les nuits ajoutées ?
+
+　Il n'y avait d'autre moyen que de les prendre à un autre dossier de la même semaine. Le dossier auquel on les prend retarde son engagement d'autant. Les nuits du dossier retardé augmentent à leur tour. Les nuits ajoutées, on les prend encore à un autre dossier.
+
+　Au troisième dossier, le calcul creva.
+
+　Un million de nuits n'a pas de surplus. Traiter un dossier avec soin fait que quelqu'un, quelque part, porte ce soin. Le nom de celui qui le porte ne sort pas au tableau. Il ne sort pas, et ce qui augmente, ce sont seulement les nuits.
+
+　Hazama effaça le calcul et approuva le tableau de répartition. Il n'y avait nulle part de fondement pour le renvoyer.
+
+
+VIII
+
+　Quatre jours plus tard, l'acte de décès fut reçu.
+
+　Le conjoint est mort dans le délai calculé. Le traitement commença cette nuit même, comme prévu. La répartition des sept nuits était réservée depuis quatre jours. Appareils et lignes fonctionnèrent sans une minute de retard.
+
+　Hazama vérifia l'avis de tramitation achevée. La charge, de 0,84 à 0,09. Conformément à l'établi.
+
+　Avant de fermer l'avis, Hazama ouvrit encore une fois l'historique de consultation.
+
+　Il y en avait une.
+
+　Date de consultation : la veille de la réception de l'acte de décès. Heure : deux heures quarante du matin.
+
+　Hazama resta un moment à regarder cette heure.
+
+　À deux heures quarante du matin, une femme de soixante-huit ans a ouvert la réservation de son propre traitement. Là se trouve le calendrier de sept nuits fixé quatre jours plus tôt. La catégorie est traitement de deuil. La date prévue d'engagement y est. Le mari vit encore.
+
+　Ce que cette personne a fait en le voyant ne figure pas au registre.
+
+　Il n'y a que le fait qu'elle a consulté. La case pour consigner la conduite postérieure à la consultation n'existe pas dans ce modèle.
+
+　Peut-être est-elle allée à l'hôpital. Peut-être n'y est-elle pas allée. Peut-être l'a-t-elle dit à quelqu'un, ou peut-être ne l'a-t-elle pas dit. Le lendemain, le mari est mort. Où la femme se trouvait cette nuit-là n'a pas de place où s'écrire dans le modèle de l'acte de décès.
+
+　Hazama essaya de penser ce qu'il ferait à sa place.
+
+　À deux heures quarante du matin, tu ouvres ta propre réservation. Il y a là un traitement de deuil de sept nuits à partir de dans quatre jours. La date prévue d'engagement y est.
+
+　J'irais à l'hôpital, pensa-t-il d'abord. Ensuite il cessa de savoir ce qu'il y ferait. Le montrer au médecin ne sert pas : le médecin sait que cela a été calculé à partir des informations cliniques. Le montrer au mari est impossible.
+
+　Au bout du compte, il n'y a rien qu'on puisse faire.
+
+　Sans rien pouvoir faire, on passe la journée. Hazama essaya d'imaginer quelle sorte de journée c'est, et renonça. Y penser ne changeait pas un seul chiffre de ce tableau de répartition.
+
+　— Une question, dit Hazama. Y a-t-il un registre indiquant si l'intéressée a dit à quelqu'un qu'elle avait consulté ?
+
+　— Il n'y en a pas, dit le Correcteur.
+
+　— Alors, pour quoi est-il consigné que cette consultation a eu lieu ?
+
+　— Il n'y a pas de case de finalité, dit le Correcteur. La consultation est l'exercice d'un droit et n'exige pas l'exposé d'un motif.
+
+　Hazama ferma le terminal.
+
+　Le tableau de répartition de la semaine suivante est déjà arrivé. Sujets : 1 027 400 dossiers. Fixations anticipées : cent trente et une d'entre eux.
+
+　Hazama ouvrit le premier et commença à les vérifier dans l'ordre. Arriver au dossier trois cent quatre-vingt lui prit, comme toujours, deux heures.
