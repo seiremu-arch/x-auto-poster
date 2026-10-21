@@ -285,19 +285,46 @@ def check_names() -> int:
     return bad
 
 
+QUOTE3 = "\u3000" * 3          # 書類の引用に使う三字下げ
+JA_SEC = re.compile(r"^[一二三四五六七八九十]+$")
+TR_SEC = re.compile(r"^[IVXLC]+$")
+
+
+def paragraphs(lines: list, sec: re.Pattern) -> list:
+    """段落の一覧を返す。三字下げの連続は一塊、節番号と空行は除く。
+
+    check_tr_structure.py と同じ数え方。行番号で突き合わせてはいけない。
+    長い書類の表題は原文で一行、訳文では二行に割れるのが普通で（第十一話は
+    原文203行に対し訳文205行）、行で揃えると以降が全部ずれる。
+    """
+    out = []
+    in_quote = False
+    for line in lines:
+        if not line.strip() or sec.fullmatch(line.strip()):
+            continue
+        if line.startswith(QUOTE3):
+            if not in_quote:
+                out.append(line)
+            in_quote = True
+        else:
+            in_quote = False
+            out.append(line)
+    return out
+
+
 def check_it_quotes() -> int:
-    """伊語版の会話がカポラーリで組まれているかを、原文と行で突き合わせる。
+    """伊語版の会話がカポラーリで組まれているかを、原文と段落で突き合わせる。
 
-    最初は「行頭のダッシュを禁止する」正規表現で書いたが、これは誤検出する。
+    最初は「行頭のダッシュを禁止する」正規表現で書いたが、これは誤検出した。
     書類からの一文は四版すべてが「全角空白＋ダッシュ」で組んでいて、伊語も
-    それに合わせる必要があるからで、実際に第二話の
-    「　— La dichiarazione è registrata.」で鳴った。
+    それに合わせる必要があるからである。
 
-    かわりに段落の対応を使う。原文の行が 　「 で始まるもの（＝その段落が
-    丸ごと発話）だけを見て、対応する伊語の行に « があることを確かめる。
-    地の文に埋まった「」は引用符でもあり強調でもあり、四版の扱いが揃って
-    いない（第一話の「これは編集された夢だ」は四版とも引用符を落として
-    コロンで繋いでいる）ので、そこは見ない。
+    次に行番号で突き合わせたが、これも誤検出した。訳文は書類の表題を二行に
+    割るので、原文と行数が合わない。段落で数えるのが正しい。
+
+    原文の段落が 　「 で始まるもの（丸ごと発話）だけを見て、対応する伊語の
+    段落に « があることを確かめる。地の文に埋まった「」は引用符でも強調でも
+    あり、四版の扱いが揃っていないので見ない。
 
     あわせて « と » の数が合うかも見る。別の文字なので片方だけ打ち間違えても
     文としては読めてしまう。
@@ -310,12 +337,19 @@ def check_it_quotes() -> int:
                              .glob(f"{path.name[:2]}_*.txt"))
             if not ja_hits:
                 continue
-            ja = ja_hits[0].read_text(encoding="utf-8").split("\n")
-            it = path.read_text(encoding="utf-8").split("\n")
-            for i, (jl, il) in enumerate(zip(ja, it), start=1):
-                if jl.startswith("\u3000\u300c") and "\u00ab" not in il:
-                    print(f"{path.relative_to(ROOT)}:{i} "
-                          f"原文は発話行だがカポラーリがない")
+            ja = paragraphs(
+                ja_hits[0].read_text(encoding="utf-8").split("\n"), JA_SEC)
+            it = paragraphs(
+                path.read_text(encoding="utf-8").split("\n"), TR_SEC)
+            if len(ja) != len(it):
+                print(f"{path.relative_to(ROOT)}: 段落数が違うため照合できない"
+                      f"（原文 {len(ja)} / 訳文 {len(it)}）")
+                bad += 1
+                continue
+            for n, (jp, ip) in enumerate(zip(ja, it), start=1):
+                if jp.startswith("\u3000\u300c") and "\u00ab" not in ip:
+                    print(f"{path.relative_to(ROOT)}: 第{n}段落は原文が"
+                          f"発話だがカポラーリがない")
                     bad += 1
             t = path.read_text(encoding="utf-8")
             op, cl = t.count("\u00ab"), t.count("\u00bb")
