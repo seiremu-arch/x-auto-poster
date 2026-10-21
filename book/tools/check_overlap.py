@@ -69,12 +69,14 @@ PRIZE_ONLY_TR = {
     "es": NAMES + ["pasarela", "puente peatonal", "La l\u00ednea, sin editar"],
     "fr": NAMES + ["passerelle", "pont pi\u00e9ton", "La ligne, non \u00e9dit\u00e9e"],
     "it": NAMES + ["passerella", "ponte pedonale", "La linea, non montata"],
+    "nl": NAMES + ["voetgangersbrug", "loopbrug",
+                   "De grenslijn, ongeredigeerd"],
 }
 
 # 商品ページに貼る節の見出しは言語で違う
 DESC_HEAD = {"en": "Description", "de": "Beschreibung",
              "es": "Descripci\u00f3n", "fr": "Description",
-             "it": "Descrizione"}
+             "it": "Descrizione", "nl": "Beschrijving"}
 
 
 def sentences(text: str) -> set:

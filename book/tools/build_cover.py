@@ -152,6 +152,26 @@ VOLUMES = {
         "alpha_range": (46, 62),
         "vertical": False,
     },
+    "nl1": {
+        # 第一巻のオランダ語版。帯の数値はすべて vol1 と同一にする
+        "title": "Het\nDroombureau",
+        "subtitle": "Twaalf nachten",
+        "seed": 20260902,
+        "accent_alpha": 215,
+        "height_spread": 0.10,
+        "alpha_range": (28, 90),
+        "vertical": False,
+    },
+    "nl2": {
+        # 第二巻のオランダ語版。帯の数値はすべて vol2 と同一にする
+        "title": "De\nNivellering",
+        "subtitle": "Het Droombureau, Deel Twee",
+        "seed": 20260902,
+        "accent_alpha": 58,
+        "height_spread": 0.03,
+        "alpha_range": (46, 62),
+        "vertical": False,
+    },
 }
 
 W, H = 1600, 2560

@@ -217,8 +217,60 @@ CHECKS_IT = [
     ("行末の空白", r"[ \t]+$"),
 ]
 
+# オランダ語版。会話は二重引用符（“ ”）で組む。オランダの文芸は
+# 一重引用符（‘ ’）も「 」も使うが、一重にするとアポストロフィ
+# （'s ochtends, z'n）と同じ字になり、開きと閉じの数を機械で数えられない。
+# 数えられることを優先した。
+#   ・約物の前に空白を入れない。仏語とは逆の規則
+#   ・千の位は点（1.027.400）、小数点は読点（0,038）。西語・伊語・独語と同じ
+#   ・複合語はつなげて書く。分けて書くのはオランダ語で「英語病」と呼ばれる誤り
+CHECKS_NL = [
+    # 点は桁区切りに使うので一律に弾けない。切り分け方は西語・伊語と同じ。
+    ("荷重の小数点は読点（0,05）。0.05 は不可",
+     r"\b0\.\d+|\b\d+\.\d{1,2}(?!\d)|\b\d+\.\d{4,}"),
+    ("会話は “ ”。\" „ « » は不可",
+     r"\"|[„«»]"),
+    ("約物の前に空白を入れない（仏語の規則が混じっている）",
+     r"[  ][;:?!]"),
+    ("半色は de halftint（halve tint / halftoon は不可）",
+     r"\bhalve (?:tint|kleur)\b|\bhalftoon\b|\bhalf tint\b"),
+    ("校正官は de Corrector（proeflezer / revisor は不可）",
+     r"\bproeflezer\w*\b|\brevisor\w*\b|\bcorrector van drukproeven\b"),
+    ("素片は het fragment（splinter / scherf は不可）",
+     r"\bsplinter\w*\b|\bscherf\b|\bscherven\b"),
+    ("情動荷重は de affectieve lading（emotionele lading は不可）",
+     r"\bemotionele lading\b|\bemotioneel gewicht\b"),
+    ("照合機は de Vergelijker", r"\bcollationeerder\b|\bmatcher\b"),
+    ("残差は het residu（residueel は不可）", r"\bresidue\w*\b"),
+    ("均し計画は het Nivelleringsplan",
+     r"\bGelijkmakingsplan\b|\bEgalisatieplan\b|\bNivellatieplan\b"),
+    ("技師は de technicus（ingenieur は不可）", r"\bingenieur\w*\b"),
+    ("百分率は procent（percent / % は不可）", r"\bpercent\b|%"),
+    # オランダ語の複合語は一語につなげる。分けて書く誤りは「英語病」
+    # （Engelse ziekte）と呼ばれ、この作品の造語でいちばん起きやすい。
+    ("複合語を分けて書いている（オランダ語はつなげる）",
+     r"\bdroom (?:redactie|bureau|belasting|editie)\b"
+     r"|\bwacht lijst\b|\bgeluks index\b|\breferentie apparaat\b"
+     r"|\bwachtrij voor vergetelheid\b"),
+    ("他言語の用語が混じっている",
+     r"\bthe\b|\bProofreader\b|\bder Korrektor\b|\bel Corrector\b"
+     r"|\ble Correcteur\b|\bil Correttore\b|\bHalbton\b"
+     r"|\bhalf-shade\b|\bmedia tinta\b|\bdemi-teinte\b"
+     r"|\bmezzatinta\b|\bper cent\b"),
+    # 独語はオランダ語と近いので、機能語がそのまま残っても目で気づきにくい。
+    # オランダ語に存在しない綴りだけを挙げる（蘭 is / en / niet / ook /
+    # zich / werd / tussen に対する独 ist / und / nicht / auch / sich /
+    # wurde / zwischen）。蘭語にもある den は入れない。
+    ("独語の機能語が混じっている",
+     r"\bist\b|\bund\b|\bnicht\b|\bauch\b|\bsich\b|\bwurde\b"
+     r"|\bzwischen\b|\büber\b|\bnach\b|\bdem\b|\beine\b"
+     r"|\bnur\b|\bschon\b|\bimmer\b"),
+    ("漢数字の残り（〇・一二三…）", r"[〇一二三四五六七八九十]"),
+    ("行末の空白", r"[ \t]+$"),
+]
+
 CHECKS = {"en": CHECKS_EN, "de": CHECKS_DE, "es": CHECKS_ES,
-          "fr": CHECKS_FR, "it": CHECKS_IT}
+          "fr": CHECKS_FR, "it": CHECKS_IT, "nl": CHECKS_NL}
 
 # 原文の姓 -> 英語表記。第二巻は原文の読み仮名、第一巻は通用する読みによる。
 # 「その話に原文の姓が出るなら、英文にもこの綴りが出る」ことだけを見る。
@@ -269,7 +321,8 @@ def check_names() -> int:
     """
     bad = 0
     vols = [(f"{lang}{n}", f"vol{n}")
-            for lang in ("en", "de", "es", "fr", "it") for n in (1, 2)]
+            for lang in ("en", "de", "es", "fr", "it", "nl")
+            for n in (1, 2)]
     for en_vol, ja_vol in vols:
         for num, pairs in NAMES[ja_vol].items():
             en_hits = sorted((ROOT / en_vol / "stories").glob(f"{num}_*.txt"))
@@ -365,6 +418,46 @@ def check_it_quotes() -> int:
     return bad
 
 
+def check_nl_quotes() -> int:
+    """蘭語版の会話が二重引用符で組まれているかを、原文と段落で突き合わせる。
+
+    数え方は check_it_quotes と同じ。行番号ではなく段落で揃える。
+
+    “ と ” は別の字なので、片方だけ打ち間違えても文としては読める。
+    一重引用符にしなかったのはこのためで、一重だとアポストロフィと同じ字に
+    なって数えられない。
+    """
+    bad = 0
+    for tr_vol, ja_vol in (("nl1", "vol1"), ("nl2", "vol2")):
+        for path in sorted((ROOT / tr_vol / "stories")
+                           .glob("[0-9][0-9]_*.txt")):
+            ja_hits = sorted((ROOT / ja_vol / "stories")
+                             .glob(f"{path.name[:2]}_*.txt"))
+            if not ja_hits:
+                continue
+            ja = paragraphs(
+                ja_hits[0].read_text(encoding="utf-8").split("\n"), JA_SEC)
+            nl = paragraphs(
+                path.read_text(encoding="utf-8").split("\n"), TR_SEC)
+            if len(ja) != len(nl):
+                print(f"{path.relative_to(ROOT)}: 段落数が違うため照合できない"
+                      f"（原文 {len(ja)} / 訳文 {len(nl)}）")
+                bad += 1
+                continue
+            for n, (jp, np_) in enumerate(zip(ja, nl), start=1):
+                if jp.startswith("\u3000\u300c") and "\u201c" not in np_:
+                    print(f"{path.relative_to(ROOT)}: 第{n}段落は原文が"
+                          f"発話だが引用符がない")
+                    bad += 1
+            t = path.read_text(encoding="utf-8")
+            op, cl = t.count("\u201c"), t.count("\u201d")
+            if op != cl:
+                print(f"{path.relative_to(ROOT)}: 引用符の数が合わない"
+                      f"（開き “ {op} / 閉じ ” {cl}）")
+                bad += 1
+    return bad
+
+
 def check_de_quotes() -> int:
     """ドイツ語版の引用符が開きと閉じで同数かを見る。
 
@@ -385,7 +478,8 @@ def check_de_quotes() -> int:
 
 
 def main() -> int:
-    hits = check_names() + check_de_quotes() + check_it_quotes()
+    hits = (check_names() + check_de_quotes()
+            + check_it_quotes() + check_nl_quotes())
     for path in STORIES:
         lang = path.parts[-3][:2]          # en1/de2 などの先頭2字
         checks = CHECKS.get(lang)
