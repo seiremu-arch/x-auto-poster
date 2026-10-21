@@ -13,8 +13,8 @@ Deel II. Compileren met `python3 book/tools/build_epub.py nl2`.
 
 | # | Japans | Nederlands | Origineel | Woorden | Status |
 |---|---|---|---|---|---|
-| I | 眠らない都市 | De stad die niet slaapt | — | — | in afwachting |
-| II | 胎夢 | Fundamenten | — | — | in afwachting |
+| I | 眠らない都市 | De stad die niet slaapt | 4.336 | 2.144 | **klaar** |
+| II | 胎夢 | Fundamenten | 4.240 | 2.080 | **klaar** |
 | III | 共感注射 | De empathie-injectie | — | — | in afwachting |
 | IV | 最後の夢職人 | De laatste ambachtsman | — | — | in afwachting |
 | V | ＡＩは夢を見るか | Droomt de machine? | — | — | in afwachting |
