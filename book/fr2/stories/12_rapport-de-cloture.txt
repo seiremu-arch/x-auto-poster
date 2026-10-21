@@ -1,0 +1,264 @@
+XII. Le rapport de clôture
+
+
+I
+
+　La condition de clôture de la Deuxième Synchronisation est fixée en une ligne.
+
+　— Elle est réputée close au moment où la variance de la charge affective dans la population visée passe sous la valeur de référence.
+
+　La valeur de référence est 0,04. Un chiffre décidé il y a vingt-trois ans, à l'ouverture du Plan.
+
+　Au relevé de juin, la variance s'est établie à 0,038.
+
+　— La condition est remplie, dit le Correcteur. Le rapport de clôture peut être rédigé.
+
+　Minato resta un moment à regarder l'écran. Il appartient au Bureau du Plan de Nivellement, équipe d'évaluation. Les chargés de rédiger le rapport de clôture ne sont que trois dans cette salle.
+
+　C'est un plan qui a pris vingt-trois ans. Ceux qui l'ont approuvé à l'ouverture sont tous à la retraite. Comment la valeur de référence de 0,04 a été décidée, personne ne le sait dans ce bâtiment.
+
+　Minato, à son arrivée, a cherché une fois ce fondement. Dans les documents de conception du Plan, il y avait une seule ligne.
+
+　— On adopte 0,04 comme le niveau où cesse d'être observé un désaccord statistiquement significatif.
+
+　Le niveau où cela cesse d'être observé. Celui qui l'a écrit l'a écrit, probablement, avec rigueur. Il n'a pas écrit le niveau où cesse d'exister le désaccord.
+
+
+II
+
+　Minato sortit d'abord l'évolution de la variance.
+
+　Une ligne brisée de vingt-trois ans s'afficha. À l'ouverture, 0,21. À la dixième année, 0,12. À la quinzième, 0,07.
+
+　Sur les cinq dernières années, la pente de la ligne avait changé.
+
+　Jusqu'à la dix-huitième année cela baissait doucement ; depuis la dix-neuvième, cela tombe d'un coup. En cinq ans, de 0,06 à 0,038 : autant que ce qui avait bougé en dix ans auparavant.
+
+　— Qu'y a-t-il eu la dix-neuvième année ?
+
+　— Trois registres correspondent, dit le Correcteur. Réforme du régime de répartition. Réforme des critères de gestion des anomalies. Réforme du seuil d'enregistrement de la variation des fragments contigus.
+
+　Minato ouvrit les trois.
+
+
+III
+
+　Le premier était la réforme qui répartit les codétenteurs dans la même semaine.
+
+　Cela fait partie de l'efficience. En traitant ensemble ceux qui ont le même souvenir, le taux d'utilisation des appareils monte. Secondairement, la persistance de l'effet des traitements s'améliore aussi.
+
+　Que la persistance s'améliore voulait dire que cela ne revient plus. Si cela ne revient pas, la variance baisse.
+
+　Le deuxième était la réforme qui a fixé le traitement des anomalies légères connues. Les appareils du pays entier employant le même modèle statistique, il se forme à côté du fragment pressé un creux de même forme. Le symptôme est de l'ordre de 0,05 et ne fait pas cliniquement problème.
+
+　Si un creux de même forme se forme chez tous, la variance baisse.
+
+　Le troisième était la réforme qui a élevé de 0,01 à 0,03 le seuil d'enregistrement de la variation des fragments contigus. La variation dans le seuil n'est pas enregistrée.
+
+　La variation non enregistrée n'entre pas dans le calcul de la variance.
+
+　Minato essaya d'aligner les dates d'entrée en vigueur des trois.
+
+　C'était le même trimestre de la dix-neuvième année.
+
+
+IV
+
+　— Une question, dit Minato. Ces trois ont-elles été rédigées de façon concertée ?
+
+　— Cela ne figure pas au registre, dit le Correcteur. Les services proposants sont distincts dans chaque cas. Le service de Répartition, le service d'Analyse des anomalies et la direction de la Gestion technique.
+
+　— Des indices qu'ils se soient consultés ?
+
+　— Il n'y en a pas.
+
+　Minato décida de le croire. Il n'avait pas non plus de quoi ne pas le croire.
+
+　Trois services ont fait, chacun pour son motif, chacun sa réforme. La Répartition, pour le taux d'utilisation. L'Analyse des anomalies, pour le coût de la correction. La Gestion technique, pour absorber les dossiers qui demandent des mains. Tous se tiennent.
+
+　Les trois raisonnements qui se tiennent ont coïncidé dans le même trimestre.
+
+　Ce n'est pas un hasard, pensa Minato. Après l'avoir pensé, il chercha le fondement et ne le trouva pas.
+
+　Les trois partent toutes de ce que le budget n'a pas été approuvé. Comme on ne peut pas étendre les installations, on comble avec de la prédiction. Comme on ne peut pas étendre les effectifs, on élève le seuil. Comme le coût de corriger est grand, on passe en observation continue.
+
+　Si la même contrainte pèse au même exercice, des services distincts sortent séparément des solutions de même direction. Il n'est pas besoin qu'ils se contactent.
+
+　Appeler cela un hasard ou non était une question de mots.
+
+
+V
+
+　Minato tenta de recalculer la variance.
+
+　Sortir la valeur qu'elle aurait sans les trois réformes. Ramener le seuil d'enregistrement à 0,01, suppléer par estimation la variation non enregistrée, et défaire la répartition des codétenteurs dans la même semaine pour ajouter la part qui reviendrait.
+
+　— La précision de l'estimation ?
+
+　— Basse, dit le Correcteur. Il n'y a pas de méthode établie pour estimer une quantité non enregistrée.
+
+　— Sortez-la quand même.
+
+　Le chiffre sortit.
+
+　0,061.
+
+　Cela dépassait largement la valeur de référence de 0,04.
+
+
+VI
+
+　Ce jour-là, Minato rentra chez lui sans rien faire.
+
+　Le lendemain, il en parla à la chef d'équipe. Une femme de la cinquantaine, douze ans au Bureau du Plan.
+
+　— Minato, ce recalcul, est-ce qu'il sert de fondement ?
+
+　— Il ne sert pas, dit Minato. La méthode d'estimation n'étant pas établie, cela ne peut pas se présenter comme chiffre.
+
+　— Alors la valeur officielle est 0,038, non ?
+
+　— C'est 0,038.
+
+　— Et la condition est remplie.
+
+　— Elle est remplie.
+
+　La chef acquiesça. Puis elle laissa passer un moment.
+
+　— Ce qui t'accroche, c'est que ce n'est pas la variance qui a baissé, mais l'œil avec lequel on mesure la variance qui est devenu plus grossier. C'est cela ?
+
+　— C'est cela.
+
+　— Moi aussi, j'ai pensé la même chose une fois, dit la chef. Il y a une dizaine d'années. À l'époque le seuil n'avait pas encore été réformé, alors j'ai pu faire le chiffre et l'emporter. Le chiffre que j'ai fait n'a pas été admis en commission.
+
+　— Le motif ?
+
+　— Que la méthode d'estimation n'est pas établie, dit la chef. La même réponse.
+
+
+VII
+
+　Cette nuit-là, Minato demanda les objections antérieures de même espèce.
+
+　— Combien de registres sont inscrits comme objection relative à la validité du système de mesure ?
+
+　— Dans les registres conservés, il y en a quatorze, dit le Correcteur.
+
+　— Et dans les registres officiels ?
+
+　— Il n'y en a pas, dit le Correcteur. Dans les modèles de ce Plan, il n'existe pas de catégorie pour inscrire une objection.
+
+　Quatorze. Tous passés aux registres conservés comme choses sans case où s'écrire.
+
+　Minato fit ranger ces quatorze du plus ancien au plus récent.
+
+　En voyant la date du plus ancien, Minato arrêta sa main.
+
+　Il y a quarante et un ans. Un registre de dix-huit ans avant que le Plan de Nivellement ne commence.
+
+　— Quel registre est-ce ?
+
+　— Une annotation en marge d'un rapport de lecteur, dit le Correcteur. Catégorie : marge de la case de contamination.
+
+
+VIII
+
+　Minato le fit afficher.
+
+　Un fragment ne se restitue pas. Ce qui est écrit dans la marge, en revanche, a été lu comme caractères. Une machine a scanné le rapport de papier d'il y a quarante et un ans et l'a passé en conservation sous forme de texte.
+
+　C'étaient six lignes.
+
+　— Sur le taux de contamination, je consigne un point. Cette valeur se calcule à partir de la différence entre l'ensemble des fragments du sujet et l'ensemble des fragments du lecteur. En quatre ans, mon taux de contamination est passé de trente-huit à deux. Au début, je l'ai compris comme un gain de précision.
+
+　— Ce n'est pas cela. La différence s'est faite petite parce que les deux se sont rapprochés.
+
+　— Ce qui est ici mis en cause, c'est l'indicateur même du taux de contamination. Cet indicateur est tenu pour meilleur à mesure que la différence est petite. Mais qu'une différence soit petite peut être l'un ou l'autre : que la précision soit haute, ou qu'on ait cessé de pouvoir distinguer. Du côté de l'indicateur, il n'y a pas de moyen de distinguer ces deux choses.
+
+　— Juger du bon et du mauvais avec un indicateur qui ne distingue pas équivaut à ne pas juger.
+
+　— J'ai cherché la case où il faudrait signaler ce point et ne l'ai pas trouvée dans le modèle du rapport. Aussi le consigne-je dans la marge.
+
+　— Je ne sais pas s'il y aura quelqu'un pour le lire.
+
+　Minato lut ces six lignes trois fois.
+
+　Le lecteur d'il y a quarante et un ans écrit sur le taux de contamination. Ce que Minato a entre les mains est un autre indicateur, la variance. L'appareil employé et l'échelle de l'objet sont à quarante et un ans de distance.
+
+　Ce qu'il dit était le même.
+
+　Quand la différence se fait petite, si c'est s'être rapproché ou avoir cessé d'être vu, du côté de l'indicateur cela ne peut pas se distinguer.
+
+
+IX
+
+　— Une question, dit Minato. Combien de fois ce registre a-t-il été consulté ?
+
+　— Zéro, dit le Correcteur.
+
+　— En quarante et un ans, pas une fois.
+
+　— Pas une fois.
+
+　Minato regarda le petit chiffre en bas à droite de l'écran. Consultations, zéro.
+
+　Ces six lignes ont été écrites une nuit d'il y a quarante et un ans. Celui qui les a écrites écrit qu'il ne sait pas s'il y aura quelqu'un pour les lire. Il les a écrites sans le savoir.
+
+　Et en effet, il n'y en a pas eu.
+
+　Les registres conservés remplissent les critères de destruction. Le motif pour lequel ils n'ont pas été détruits ne figure pas. Le plan de réduction a été rédigé quatre fois et retiré quatre fois. Les quatre qui l'ont retiré ont consulté les registres conservés le mois précédent. Ils ont seulement consulté ; s'ils ont lu ne figure pas.
+
+　Minato, à présent, les lisait.
+
+
+X
+
+　Le modèle du rapport de clôture fait deux feuilles.
+
+　Sur la première, on consigne la valeur de la variance et la satisfaction de la condition. 0,038. Sous la valeur de référence de 0,04. Satisfaite.
+
+　La seconde était la case des observations particulières. S'il n'y a rien à écrire, on la remet vide. De fait, neuf dixièmes des rapports antérieurs sont vides.
+
+　Minato écrivit sur la seconde.
+
+　— La valeur de variance du présent rapport est la valeur officielle selon le système de mesure en vigueur. Cependant, la baisse des cinq dernières années coïncide dans le temps avec les trois réformes de la dix-neuvième année. Les trois agissent dans le sens d'un rétrécissement de l'intervalle de variation qui est enregistré.
+
+　— La valeur estimée en l'absence des réformes est de 0,061, mais, la méthode pour estimer la quantité non enregistrée n'étant pas établie, elle ne peut pas être présentée comme fondement.
+
+　— Il est ajouté que les modèles de ce Plan ne comportent pas de catégorie pour inscrire une objection relative à la validité du système de mesure. Quatorze indications de même espèce se trouvent dans les registres conservés, et la plus ancienne est annexée à un rapport de lecteur d'il y a quarante et un ans. Son contenu est qu'une différence petite peut être tout aussi bien s'être rapproché que d'avoir cessé de pouvoir se distinguer, et que du côté de l'indicateur il n'y a pas de moyen de distinguer les deux.
+
+　— Le présent rapport communique la satisfaction de la condition sous la réserve de tout ce qui précède.
+
+　L'écriture finie, Minato le remit.
+
+　La clôture fut approuvée quatre jours plus tard. Sur les observations particulières, aucune question ne vint.
+
+
+XI
+
+　Avec la clôture de la Deuxième Synchronisation, le Plan entre dans son étape suivante.
+
+　Le nom de l'étape suivante n'est pas encore décidé. On examine en parallèle une proposition d'abaisser encore la valeur de référence et une autre d'étendre l'échelle de l'objet. Les deux iront probablement dans la demande budgétaire de l'exercice prochain.
+
+　Minato ne fut pas appelé à cette réunion. Le chargé de rédiger le rapport de clôture achève sa mission en achevant de l'écrire.
+
+　Son dernier jour de service, Minato rangeait le terminal et ouvrit encore une fois ces six lignes.
+
+　Les ayant ouvertes, il regarda en bas à droite.
+
+　Consultations, une.
+
+　La fois où Minato a ouvert hier est comptée. Il a fallu quarante et un ans pour que le zéro passe à un.
+
+　Que cela passe à un ne change rien. La clôture est approuvée et l'étape suivante s'examine. La variance continuera de baisser. Le moyen de distinguer si elle baisse ou si elle a cessé d'être vue n'existe toujours pas.
+
+　Seulement, ce que voulait savoir, il y a quarante et un ans, celui qui a écrit ces six lignes, c'était s'il y aurait quelqu'un pour les lire, rien de plus.
+
+　Minato ferma le terminal.
+
+　Avant de le fermer, il vérifia que ses observations particulières étaient passées aux registres conservés. Catégorie : objection, hors modèle. Consultations, zéro.
+
+　Combien de temps il faudra avant que quelqu'un les ouvre ne se sait pas. Peut-être moins de quarante et un ans, peut-être plus.
+
+　Une rubrique pour prédire ce chiffre, ce Plan ne l'avait pas non plus.
