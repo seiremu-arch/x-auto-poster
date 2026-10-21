@@ -25,8 +25,8 @@ spagnola o francese.
 | VIII | 夢裁判 | La pena | 4.577 | 1.929 | **fatto** |
 | IX | 目覚めない権利 | Il diritto di non svegliarsi | 4.503 | 2.001 | **fatto** |
 | X | 夢の相続 | La successione | 4.587 | 1.937 | **fatto** |
-| XI | 幸福指数九八 | Indice di Felicità 98 | 4.218 | — | in attesa |
-| XII | 沈黙の被験者 | Il soggetto silenzioso | 4.508 | — | in attesa |
+| XI | 幸福指数九八 | Indice di Felicità 98 | 4.218 | 1.933 | **fatto** |
+| XII | 沈黙の被験者 | Il soggetto silenzioso | 4.508 | 2.118 | **fatto** |
 
 Giapponese in totale, 51.718 caratteri. Le cifre di questa tabella le scrive
 `python3 book/tools/sync_tr_counts.py it1`, non la mano.
