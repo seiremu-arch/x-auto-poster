@@ -167,8 +167,6 @@ CHECKS_IT = [
      r"\b0\.\d+|\b\d+\.\d{1,2}(?!\d)|\b\d+\.\d{4,}"),
     ("会話はカポラーリ（« »）。引用符 \" \u201c \u201e は不可",
      r"\"|[\u201c\u201d\u201e]"),
-    ("会話のダッシュは使わない（伊語はカポラーリ）。西仏の組み方が混じっている",
-     r"^\u3000?[\u2014\u2013-]\s*[A-Z\u00c0-\u00dd]"),
     ("« の直後に空白を入れない", r"\u00ab[ \u00a0]"),
     ("» の直前に空白を入れない", r"[ \u00a0]\u00bb"),
     ("約物の前に空白を入れない（仏語の規則が混じっている）",
@@ -280,6 +278,47 @@ def check_names() -> int:
     return bad
 
 
+def check_it_quotes() -> int:
+    """伊語版の会話がカポラーリで組まれているかを、原文と行で突き合わせる。
+
+    最初は「行頭のダッシュを禁止する」正規表現で書いたが、これは誤検出する。
+    書類からの一文は四版すべてが「全角空白＋ダッシュ」で組んでいて、伊語も
+    それに合わせる必要があるからで、実際に第二話の
+    「　— La dichiarazione è registrata.」で鳴った。
+
+    かわりに段落の対応を使う。原文の行が 　「 で始まるもの（＝その段落が
+    丸ごと発話）だけを見て、対応する伊語の行に « があることを確かめる。
+    地の文に埋まった「」は引用符でもあり強調でもあり、四版の扱いが揃って
+    いない（第一話の「これは編集された夢だ」は四版とも引用符を落として
+    コロンで繋いでいる）ので、そこは見ない。
+
+    あわせて « と » の数が合うかも見る。別の文字なので片方だけ打ち間違えても
+    文としては読めてしまう。
+    """
+    bad = 0
+    for tr_vol, ja_vol in (("it1", "vol1"), ("it2", "vol2")):
+        for path in sorted((ROOT / tr_vol / "stories")
+                           .glob("[0-9][0-9]_*.txt")):
+            ja_hits = sorted((ROOT / ja_vol / "stories")
+                             .glob(f"{path.name[:2]}_*.txt"))
+            if not ja_hits:
+                continue
+            ja = ja_hits[0].read_text(encoding="utf-8").split("\n")
+            it = path.read_text(encoding="utf-8").split("\n")
+            for i, (jl, il) in enumerate(zip(ja, it), start=1):
+                if jl.startswith("\u3000\u300c") and "\u00ab" not in il:
+                    print(f"{path.relative_to(ROOT)}:{i} "
+                          f"原文は発話行だがカポラーリがない")
+                    bad += 1
+            t = path.read_text(encoding="utf-8")
+            op, cl = t.count("\u00ab"), t.count("\u00bb")
+            if op != cl:
+                print(f"{path.relative_to(ROOT)}: カポラーリの数が合わない"
+                      f"（開き \u00ab {op} / 閉じ \u00bb {cl}）")
+                bad += 1
+    return bad
+
+
 def check_de_quotes() -> int:
     """ドイツ語版の引用符が開きと閉じで同数かを見る。
 
@@ -300,7 +339,7 @@ def check_de_quotes() -> int:
 
 
 def main() -> int:
-    hits = check_names() + check_de_quotes()
+    hits = check_names() + check_de_quotes() + check_it_quotes()
     for path in STORIES:
         lang = path.parts[-3][:2]          # en1/de2 などの先頭2字
         checks = CHECKS.get(lang)
