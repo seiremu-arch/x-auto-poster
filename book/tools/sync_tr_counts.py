@@ -111,6 +111,31 @@ def sync(vol: str) -> None:
     print(f"[{vol}] 訳了 {len(en)}話　原文 {total_c:,}字 → 訳文 {total_w:,} words"
           f"（比 {total_w / total_c:.3f} words/字）")
 
+    check_total(vol, progress)
+
+
+def check_total(vol: str, progress: Path) -> None:
+    """PROGRESS.md の「原文は全部で N 字」の行が、表の合計と合うかを見る。
+
+    表の各行は同期するが、この合計の一行は言語ごとに文が違うので手書きで
+    残っている。原文を一字直したときに、ここだけ古い数字が残る。実際に
+    第一巻第三話の誤りを直したとき、七か所が 51,721 のまま残っていた。
+    書き換えまではせず、合っていないことだけ言う。
+    """
+    sep = FORMATS[vol[:2]]["sep"]
+    ja_all = sorted((ROOT / PAIRS[vol] / "stories").glob("[0-9][0-9]_*.txt"))
+    want = group(sum(chars(p) for p in ja_all), sep)
+    text = progress.read_text(encoding="utf-8")
+
+    # 原文の総字数を述べている行を、桁区切り付きの5桁の数で探す
+    rx = re.compile(r"\d{2}" + re.escape(sep) + r"\d{3}")
+    found = {m.group(0) for line in text.split("\n")
+             for m in [rx.search(line)] if m}
+    stale = {f for f in found if f != want}
+    if stale:
+        print(f"[{vol}] PROGRESS.md の原文総字数が古い: "
+              f"{', '.join(sorted(stale))} → {want}")
+
 
 def main() -> None:
     targets = sys.argv[1:] or list(PAIRS)

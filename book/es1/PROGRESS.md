@@ -15,7 +15,7 @@ decide allí antes de usarse. Compilar con `python3 book/tools/build_epub.py es1
 |---|---|---|---|---|---|
 | I | 半色 | Media tinta | 4.997 | 2.394 | **hecho** |
 | II | 忘却の順番待ち | La lista de espera del olvido | 4.540 | 1.983 | **hecho** |
-| III | 夢の遺言 | El legado | 4.555 | 2.031 | **hecho** |
+| III | 夢の遺言 | El legado | 4.552 | 2.031 | **hecho** |
 | IV | 夢の翻訳者 | El traductor | 3.915 | 1.670 | **hecho** |
 | V | 二人称の夢 | El sueño en segunda persona | 3.454 | 1.553 | **hecho** |
 | VI | 夢税 | Impuesto sobre el sueño | 3.391 | 1.546 | **hecho** |
@@ -26,7 +26,7 @@ decide allí antes de usarse. Compilar con `python3 book/tools/build_epub.py es1
 | XI | 幸福指数九八 | Índice de Felicidad 98 | 4.218 | 1.982 | **hecho** |
 | XII | 沈黙の被験者 | El sujeto silencioso | 4.508 | 2.215 | **hecho** |
 
-Japonés en total, 51.721 caracteres. Las cifras de esta tabla las escribe
+Japonés en total, 51.718 caracteres. Las cifras de esta tabla las escribe
 `python3 book/tools/sync_tr_counts.py es1`, no la mano.
 
 ---

@@ -18,7 +18,7 @@ Entscheidungen festschreiben und jede Abweichung verdoppeln.
 |---|---|---|---|---|---|
 | I | 半色 | Halbton | 4.997 | 2.340 | **fertig** |
 | II | 忘却の順番待ち | Die Warteliste für das Vergessen | 4.540 | 2.025 | **fertig** |
-| III | 夢の遺言 | Das Vermächtnis | 4.555 | 2.010 | **fertig** |
+| III | 夢の遺言 | Das Vermächtnis | 4.552 | 2.010 | **fertig** |
 | IV | 夢の翻訳者 | Der Übersetzer | 3.915 | 1.589 | **fertig** |
 | V | 二人称の夢 | Der Traum in der zweiten Person | 3.454 | 1.465 | **fertig** |
 | VI | 夢税 | Traumsteuer | 3.391 | 1.417 | **fertig** |
@@ -29,7 +29,7 @@ Entscheidungen festschreiben und jede Abweichung verdoppeln.
 | XI | 幸福指数九八 | Glücksindex 98 | 4.218 | 1.898 | **fertig** |
 | XII | 沈黙の被験者 | Der schweigende Proband | 4.508 | 2.023 | **fertig** |
 
-Japanisch insgesamt 51.721 Zeichen. Die Zahlen in dieser Tabelle schreibt
+Japanisch insgesamt 51.718 Zeichen. Die Zahlen in dieser Tabelle schreibt
 `python3 book/tools/sync_tr_counts.py de1`, nicht die Hand.
 
 Deutsch fällt gegenüber dem Englischen kürzer aus, weil Komposita mehrere

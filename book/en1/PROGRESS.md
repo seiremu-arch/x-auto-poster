@@ -13,7 +13,7 @@ using it. Build with `python3 book/tools/build_epub.py en1`.
 |---|---|---|---|---|---|
 | I | 半色 | Half-Shade | 4,997 | 2,431 | **done** |
 | II | 忘却の順番待ち | The Waiting List for Forgetting | 4,540 | 2,101 | **done** |
-| III | 夢の遺言 | The Bequest | 4,555 | 2,063 | **done** |
+| III | 夢の遺言 | The Bequest | 4,552 | 2,063 | **done** |
 | IV | 夢の翻訳者 | The Translator | 3,915 | 1,712 | **done** |
 | V | 二人称の夢 | The Second-Person Dream | 3,454 | 1,529 | **done** |
 | VI | 夢税 | Dream Tax | 3,391 | 1,556 | **done** |
@@ -24,7 +24,7 @@ using it. Build with `python3 book/tools/build_epub.py en1`.
 | XI | 幸福指数九八 | Happiness Index 98 | 4,218 | 2,026 | **done** |
 | XII | 沈黙の被験者 | The Silent Subject | 4,508 | 2,210 | **done** |
 
-All twelve translated. Japanese 51,721 characters → English 23,923 words, a
+All twelve translated. Japanese 51,718 characters → English 23,923 words, a
 ratio of 0.463 words per character.
 
 Counts in this table are written by `python3 book/tools/sync_en_counts.py`, not
