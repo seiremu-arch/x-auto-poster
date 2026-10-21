@@ -23,8 +23,8 @@ allemande ou espagnole.
 | VII | 涙の代筆 | Le deuil par procuration | 4 476 | 2 135 | **fait** |
 | VIII | 夢裁判 | La peine | 4 577 | 2 198 | **fait** |
 | IX | 目覚めない権利 | Le droit de ne pas se réveiller | 4 503 | 2 211 | **fait** |
-| X | 夢の相続 | La succession | 4 587 | — | en attente |
-| XI | 幸福指数九八 | Indice de Bonheur 98 | 4 218 | — | en attente |
+| X | 夢の相続 | La succession | 4 587 | 2 251 | **fait** |
+| XI | 幸福指数九八 | Indice de Bonheur 98 | 4 218 | 2 160 | **fait** |
 | XII | 沈黙の被験者 | Le sujet silencieux | 4 508 | — | en attente |
 
 Japonais au total, 51 718 caractères. Les chiffres de ce tableau sont écrits par
