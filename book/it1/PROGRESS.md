@@ -15,7 +15,7 @@ spagnola o francese.
 
 | # | Giapponese | Italiano | Origine | Parole | Stato |
 |---|---|---|---|---|---|
-| I | 半色 | Mezzatinta | 4.997 | — | in attesa |
+| I | 半色 | Mezzatinta | 4.997 | 2.307 | **fatto** |
 | II | 忘却の順番待ち | La lista d'attesa dell'oblio | 4.540 | — | in attesa |
 | III | 夢の遺言 | Il testamento | 4.552 | — | in attesa |
 | IV | 夢の翻訳者 | Il traduttore | 3.915 | — | in attesa |

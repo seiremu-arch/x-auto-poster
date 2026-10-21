@@ -187,10 +187,22 @@ CHECKS_IT = [
      r"\bPiano di Appianamento\b|\bPiano di Uguagliamento\b"),
     ("技師は il tecnico（ingegnere は不可）", r"\bingegner\w*\b"),
     ("百分率は per cento（percento / % は不可）", r"\bpercento\b|%"),
-    ("他言語が混じっている",
+    ("他言語の用語が混じっている",
      r"\bthe\b|\bProofreader\b|\bder Korrektor\b|\bel Corrector\b"
      r"|\ble Correcteur\b|\bHalbton\b|\bhalf-shade\b|\bmedia tinta\b"
      r"|\bdemi-teinte\b|\bper cent\b"),
+    # 仏語版の直後に書くので、機能語がそのまま残る。伊語に存在しない綴りだけを
+    # 挙げる（伊 come に対する仏 comme のように、一字違いで別語になるものを狙う）。
+    # 第一話で「tremò come a contrecuore」と書いていたのを手で見つけたため、
+    # 同じ漏れ方を機械で落とす。西語の pero は伊語の「梨の木」と同綴りなので
+    # 入れない。
+    ("仏語の機能語が混じっている",
+     r"\bc'est\b|\bn'est\b|\bqu'il\b|\bl'on\b|\bdans\b|\bpour\b"
+     r"|\bavec\b|\bsans\b|\bmais\b|\bcomme\b|\bselon\b|\bainsi\b"
+     r"|\bencore\b|\btoujours\b|\bcontrec\w+"),
+    ("西語の機能語が混じっている",
+     r"\bdijo\b|\bcuando\b|\bpuede\b|\bsiempre\b|\bentonces\b"
+     r"|\btambi\u00e9n\b|\bporque\b"),
     ("漢数字の残り（〇・一二三…）", r"[〇一二三四五六七八九十]"),
     ("行末の空白", r"[ \t]+$"),
 ]
