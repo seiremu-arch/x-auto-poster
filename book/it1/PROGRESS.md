@@ -17,10 +17,10 @@ spagnola o francese.
 |---|---|---|---|---|---|
 | I | 半色 | Mezzatinta | 4.997 | 2.307 | **fatto** |
 | II | 忘却の順番待ち | La lista d'attesa dell'oblio | 4.540 | 1.958 | **fatto** |
-| III | 夢の遺言 | Il testamento | 4.552 | — | in attesa |
-| IV | 夢の翻訳者 | Il traduttore | 3.915 | — | in attesa |
-| V | 二人称の夢 | Il sogno in seconda persona | 3.454 | — | in attesa |
-| VI | 夢税 | L'imposta sui sogni | 3.391 | — | in attesa |
+| III | 夢の遺言 | Il testamento | 4.552 | 1.981 | **fatto** |
+| IV | 夢の翻訳者 | Il traduttore | 3.915 | 1.616 | **fatto** |
+| V | 二人称の夢 | Il sogno in seconda persona | 3.454 | 1.515 | **fatto** |
+| VI | 夢税 | L'imposta sui sogni | 3.391 | 1.478 | **fatto** |
 | VII | 涙の代筆 | Il lutto per delega | 4.476 | — | in attesa |
 | VIII | 夢裁判 | La pena | 4.577 | — | in attesa |
 | IX | 目覚めない権利 | Il diritto di non svegliarsi | 4.503 | — | in attesa |
