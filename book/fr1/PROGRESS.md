@@ -17,7 +17,7 @@ allemande ou espagnole.
 | I | 半色 | Demi-teinte | 4 997 | 2 647 | **fait** |
 | II | 忘却の順番待ち | La file d'attente de l'oubli | 4 540 | 2 259 | **fait** |
 | III | 夢の遺言 | Le testament | 4 552 | 2 268 | **fait** |
-| IV | 夢の翻訳者 | Le traducteur | 3 915 | — | en attente |
+| IV | 夢の翻訳者 | Le traducteur | 3 915 | 1 828 | **fait** |
 | V | 二人称の夢 | Le rêve à la deuxième personne | 3 454 | — | en attente |
 | VI | 夢税 | L'impôt sur les rêves | 3 391 | — | en attente |
 | VII | 涙の代筆 | Le deuil par procuration | 4 476 | — | en attente |
