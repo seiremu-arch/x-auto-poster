@@ -15,8 +15,8 @@ Libro I. Compilare con `python3 book/tools/build_epub.py it2`.
 |---|---|---|---|---|---|
 | I | 眠らない都市 | La città che non dorme | 4.336 | 2.012 | **fatto** |
 | II | 胎夢 | Fondazioni | 4.240 | 1.832 | **fatto** |
-| III | 共感注射 | L'iniezione di empatia | 4.432 | — | in attesa |
-| IV | 最後の夢職人 | L'ultimo artigiano | 4.226 | — | in attesa |
+| III | 共感注射 | L'iniezione di empatia | 4.432 | 1.817 | **fatto** |
+| IV | 最後の夢職人 | L'ultimo artigiano | 4.226 | 1.871 | **fatto** |
 | V | ＡＩは夢を見るか | La macchina sogna? | 3.963 | — | in attesa |
 | VI | 夢の犯罪 | Lesioni | 3.933 | — | in attesa |
 | VII | 消えた現実 | Il registro | 3.982 | — | in attesa |
