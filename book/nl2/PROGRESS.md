@@ -17,8 +17,8 @@ Deel II. Compileren met `python3 book/tools/build_epub.py nl2`.
 | II | 胎夢 | Fundamenten | 4.240 | 2.080 | **klaar** |
 | III | 共感注射 | De empathie-injectie | 4.432 | 2.077 | **klaar** |
 | IV | 最後の夢職人 | De laatste ambachtsman | 4.226 | 2.135 | **klaar** |
-| V | ＡＩは夢を見るか | Droomt de machine? | — | — | in afwachting |
-| VI | 夢の犯罪 | Mishandeling | — | — | in afwachting |
+| V | ＡＩは夢を見るか | Droomt de machine? | 3.963 | 1.890 | **klaar** |
+| VI | 夢の犯罪 | Mishandeling | 3.933 | 1.931 | **klaar** |
 | VII | 消えた現実 | Het register | — | — | in afwachting |
 | VIII | 夢の海 | De zee van dromen | — | — | in afwachting |
 | IX | 明日の夢 | De droom van morgen | — | — | in afwachting |
