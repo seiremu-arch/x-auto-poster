@@ -25,7 +25,7 @@ allemande ou espagnole.
 | IX | 目覚めない権利 | Le droit de ne pas se réveiller | 4 503 | 2 211 | **fait** |
 | X | 夢の相続 | La succession | 4 587 | 2 251 | **fait** |
 | XI | 幸福指数九八 | Indice de Bonheur 98 | 4 218 | 2 160 | **fait** |
-| XII | 沈黙の被験者 | Le sujet silencieux | 4 508 | — | en attente |
+| XII | 沈黙の被験者 | Le sujet silencieux | 4 508 | 2 366 | **fait** |
 
 Japonais au total, 51 718 caractères. Les chiffres de ce tableau sont écrits par
 `python3 book/tools/sync_tr_counts.py fr1`, non à la main.
