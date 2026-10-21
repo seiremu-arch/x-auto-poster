@@ -37,6 +37,8 @@ QUOTES = [
                   "die Treppe meiner Pension.",
             "es": "Sin embargo, hoy apareci\u00f3 en el sue\u00f1o del sujeto "
                   "siete la escalera de mi pensi\u00f3n.",
+            "fr": "Cependant, l'escalier de ma pension est apparu "
+                  "aujourd'hui dans le rêve du sujet sept.",
         },
         [("1", "12"), ("2", "08")],
     ),
@@ -51,6 +53,8 @@ QUOTES = [
                   "es trotzdem.",
             "es": "S\u00e9 que es algo que mi hermano me meti\u00f3 dentro. "
                   "Lo s\u00e9, y lo siento igual.",
+            "fr": "Je sais que c'est quelque chose que mon frère y a mis. "
+                  "Je le sais, et je le ressens quand même.",
         },
         [("2", "06"), ("2", "08")],
     ),
@@ -65,6 +69,8 @@ QUOTES = [
                   "zur\u00fcckgetreten.",
             "es": "Hasumi Ritsuko baj\u00f3 su propia carga durante el "
                   "periodo de espera y se retir\u00f3 del tratamiento.",
+            "fr": "Hasumi Ritsuko a abaissé sa propre charge pendant le "
+                  "délai d'attente et a renoncé au traitement.",
         },
         [("1", "02"), ("2", "08")],
     ),
@@ -72,7 +78,8 @@ QUOTES = [
         "翻訳の不採用候補（第一巻IV → 第二巻VIII）",
         "光・痛み・閉じる",
         {"en": "light, pain, closing", "de": "Licht, Schmerz, Schlie\u00dfen",
-         "es": "Luz, dolor, cerrar"},
+         "es": "Luz, dolor, cerrar",
+         "fr": "Lumière, douleur, fermer"},
         [("1", "04"), ("2", "08")],
     ),
     (
@@ -80,7 +87,8 @@ QUOTES = [
         "動く・止まる・分からない",
         {"en": "moving, stopping, not knowing",
          "de": "Bewegen, Anhalten, Nichtwissen",
-         "es": "Moverse, detenerse, no saber"},
+         "es": "Moverse, detenerse, no saber",
+         "fr": "Bouger, s'arrêter, ne pas savoir"},
         [("1", "04"), ("2", "08")],
     ),
 ]

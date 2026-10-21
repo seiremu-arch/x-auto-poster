@@ -15,7 +15,7 @@ allemande ou espagnole.
 | # | Japonais | Français | Origine | Mots | État |
 |---|---|---|---|---|---|
 | I | 半色 | Demi-teinte | 4 997 | 2 647 | **fait** |
-| II | 忘却の順番待ち | La file d'attente de l'oubli | 4 540 | — | en attente |
+| II | 忘却の順番待ち | La file d'attente de l'oubli | 4 540 | 2 259 | **fait** |
 | III | 夢の遺言 | Le testament | 4 555 | — | en attente |
 | IV | 夢の翻訳者 | Le traducteur | 3 915 | — | en attente |
 | V | 二人称の夢 | Le rêve à la deuxième personne | 3 454 | — | en attente |
