@@ -17,10 +17,10 @@ Deel II. Compileren met `python3 book/tools/build_epub.py nl1`.
 | II | 忘却の順番待ち | De wachtlijst van de vergetelheid | 4.540 | 2.186 | **klaar** |
 | III | 夢の遺言 | Het testament | 4.552 | 2.256 | **klaar** |
 | IV | 夢の翻訳者 | De vertaler | 3.915 | 1.780 | **klaar** |
-| V | 二人称の夢 | De droom in de tweede persoon | — | — | in afwachting |
-| VI | 夢税 | Droombelasting | — | — | in afwachting |
-| VII | 涙の代筆 | Rouw bij volmacht | — | — | in afwachting |
-| VIII | 夢裁判 | De boete | — | — | in afwachting |
+| V | 二人称の夢 | De droom in de tweede persoon | 3.454 | 1.699 | **klaar** |
+| VI | 夢税 | Droombelasting | 3.391 | 1.660 | **klaar** |
+| VII | 涙の代筆 | Rouw bij volmacht | 4.476 | 2.174 | **klaar** |
+| VIII | 夢裁判 | De boete | 4.577 | 2.189 | **klaar** |
 | IX | 目覚めない権利 | Het recht niet te ontwaken | — | — | in afwachting |
 | X | 夢の相続 | De erfopvolging | — | — | in afwachting |
 | XI | 幸福指数九八 | Geluksindex 98 | — | — | in afwachting |
