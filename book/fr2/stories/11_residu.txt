@@ -1,0 +1,231 @@
+XI. Résidu
+
+
+I
+
+　Une des premières choses qu'on apprend en formation, c'est le résidu.
+
+　Des fragments où, même poussée, la charge affective revient. Cela se rencontre chez quelques personnes sur dix mille. C'est une valeur négligeable.
+
+　Pendant trente ans, cette explication a suffi.
+
+　Mayuzumi appartenait à la deuxième salle de l'Institut technique, et son projet s'appelait « recherche fondamentale sur la persistance de l'effet des traitements ». En somme, le travail consiste à chercher pourquoi cela revient.
+
+　À son arrivée, le matériel laissé par son prédécesseur tenait en deux cartons. Pour trente ans, c'est peu.
+
+　— Combien de travaux antérieurs ?
+
+　— Onze, dit le Correcteur. Dont huit examinent des facteurs du côté de l'appareil.
+
+　— Et les trois autres ?
+
+　— Ils examinent la corrélation avec les habitudes de vie des sujets.
+
+　— Les conclusions ?
+
+　— Dans tous, aucune corrélation significative n'a été constatée.
+
+
+II
+
+　La première chose que fit Mayuzumi fut d'augmenter le denominateur.
+
+　Les recherches antérieures s'étaient faites dans une commune, à une échelle de quelques dizaines de milliers de dossiers au plus. Regarder un phénomène de quelques personnes sur dix mille dans quelques dizaines de milliers de dossiers ne rassemble que quelques dizaines de cas. Qu'aucune corrélation ne sorte était naturel.
+
+　Mayuzumi prit pour objet les registres de traitement du pays entier. Quarante-trois ans, environ neuf cents millions de dossiers.
+
+　Les dossiers avec résidu étaient quatre cent dix mille.
+
+　— Sortez la distribution des attributs.
+
+　Âge, sexe, région, profession, catégorie de traitement. Dans aucun cela ne différait de la distribution de l'ensemble. Les personnes qui produisent du résidu n'ont aucun trait.
+
+　Il regarda ensuite du côté des fragments.
+
+　Valeur initiale de la charge affective. Nombre de découpages du traitement. Densité des fragments contigus. Là non plus, pas de biais.
+
+　Sur trois mois, Mayuzumi supprima toutes les variables faciles.
+
+　Supprimer veut dire ici avoir vérifié qu'il n'y a pas de corrélation. Comme recherche, cela équivalait à n'avoir rien obtenu.
+
+　Ses prédécesseurs sont arrivés aussi, probablement, jusqu'à ce point. Les onze travaux antérieurs finissaient tous en butant contre le même mur. Ce n'est pas l'appareil, ce n'est pas la vie, ce ne sont pas les attributs.
+
+　Ce qui reste, c'est seulement cette première explication : une valeur négligeable.
+
+　Mayuzumi chercha d'où sortait cette explication. Dans le rapport de la vérification initiale, d'il y a quarante ans, il y avait une ligne.
+
+　— Les cas de restitution sont rares et leur effet sur l'efficacité globale des traitements est négligeable.
+
+　L'effet est négligeable. Sur la cause, rien n'est écrit. Pendant les trente années suivantes, on a continué de citer cette ligne.
+
+
+III
+
+　Au quatrième mois, Mayuzumi changea la façon de poser les variables.
+
+　Les recherches antérieures ne regardaient que le sujet et le fragment. Ce que Mayuzumi ajouta, ce sont les personnes autres que le sujet.
+
+　Il y a des souvenirs qui sont dans une seule personne. Il y a des souvenirs que plusieurs personnes ont à la fois. Le même dîner, la même dispute, le même enterrement. Ce souvenir existe dans autant de têtes distinctes que de personnes ayant partagé l'événement.
+
+　Mayuzumi décida d'appeler ce nombre le nombre de codétenteurs.
+
+　Le nombre de codétenteurs ne se mesure pas directement. Les fragments portent les identifiants de ceux qui y paraissent, et on l'estime de là. Parmi les personnes dont l'identifiant figure, il compta celles qui vivent encore.
+
+　Il stratifia par nombre de codétenteurs les quatre cent dix mille résidus et le groupe témoin de neuf cents millions.
+
+　Cela sortit du premier coup.
+
+　C'était une séparation plus nette que celle d'aucune des variables qu'il avait mis trois mois à supprimer. Mayuzumi soupçonna d'abord une erreur dans son propre recensement et mit deux jours à refaire la procédure. Il n'y avait pas d'erreur.
+
+
+IV
+
+　Dans les fragments à nombre de codétenteurs zéro, le taux de résidu était de 0,003 pour cent.
+
+　À un, 0,08 pour cent. À deux, 0,41. À trois, 1,2. Au-delà de cinq, cela dépasse quatre pour cent.
+
+　Plus il y a de codétenteurs, plus la charge poussée revient.
+
+　Mayuzumi resta une trentaine de minutes à regarder cette table.
+
+　Le mécanisme, à y penser, était simple.
+
+　La mémoire se ramollit chaque fois qu'on se souvient, et se fixe de nouveau. Le traitement intervient dans ce processus et abaisse la charge. Mais après le traitement, cette personne continue de vivre. Elle rencontre qui se souvient du même événement. Elle parle. Même sans l'amener en conversation, il suffit que l'autre soit là pour que le souvenir s'invoque.
+
+　Chaque fois qu'il s'invoque, le souvenir est attiré vers la charge du côté des codétenteurs. Les codétenteurs n'ont pas reçu de traitement. Leur charge reste donc haute.
+
+　Vers le haut s'approche le bas.
+
+　La demi-teinte appliquée a baissé, dans une personne, certainement. Que l'état abaissé se maintienne ou non venait décidé par avec qui cette personne vit.
+
+　Mayuzumi se rappela un cas d'il y a trente ans. En formation, on lui avait fait lire un dossier comme matériel pédagogique. Une jeune fille de treize ans avait repoussé en un mois une charge qu'on lui avait abaissée sur sept nuits. Le technicien de l'époque l'avait traitée par une conception en découpage, mais le mois suivant elle avait dépassé le seuil et était entrée dans la file d'attente d'un nouveau traitement.
+
+　Dans ce dossier figurait la composition familiale de la jeune fille. Elle avait perdu sa mère dans un incendie et ils étaient restés deux, elle et son père.
+
+　Nombre de codétenteurs, un. Le côté du 0,08 pour cent.
+
+　Mayuzumi resta un moment à regarder ce chiffre. Le 0,08 pour cent signifiait que cela n'arrive pas, simplement. Ce qui n'arrive pas, à cette jeune fille c'est arrivé.
+
+　Les codétenteurs ne se comptent que parmi les personnes vivantes. Celle avec qui la jeune fille partageait le souvenir est morte dans cet incendie.
+
+　La mère ne se compte pas parmi les codétenteurs. Et pourtant, les sept nuits appliquées sont revenues.
+
+　Mayuzumi ne retira pas ce cas du recensement. Parce qu'il n'y avait pas de fondement pour le retirer. Un dossier sur quatre cent dix mille resta dans un endroit sans explication.
+
+
+V
+
+　Mayuzumi fit rapport de ce résultat au chef de salle. Un homme de plus de soixante ans, vingt ans dans cette salle.
+
+　— Cela peut se lire à l'envers, dit le chef.
+
+　— À l'envers, comment ?
+
+　— Un souvenir qu'on porte seul, poussé, reste en bas, dit le chef. Un souvenir qu'on partage avec quelqu'un, poussé, revient. Autrement dit, là où le traitement marche le mieux, c'est chez les gens seuls.
+
+　Mayuzumi mit un moment à accueillir cette façon de dire.
+
+　— Il en va ainsi.
+
+　— Nos appareils sont ainsi depuis quarante-trois ans, dit le chef. Si personne ne s'en est aperçu, c'est que personne n'a posé la variable avec quoi s'en apercevoir.
+
+　— Le motif de ne pas l'avoir posée ?
+
+　— Probablement que l'idée même de faire variable ce qui est hors du sujet n'existait pas, dit le chef. Le traitement s'applique à un individu, donc le registre se prend par individus. Qui est à côté n'a pas de case sur l'imprimé.
+
+　Le chef rit un peu alors.
+
+　— Votre article sera salué, probablement. On dira que vous avez résolu l'énigme de quarante-trois ans.
+
+　— Vous le croyez ?
+
+　— Je le crois, dit le chef. Quel usage on en fera ensuite est une autre question.
+
+
+VI
+
+　Cette nuit-là, Mayuzumi pensa à la façon dont sa conclusion se lirait.
+
+　La conclusion s'écrit en une ligne. Un traitement individuel ne persiste pas quand il y a des codétenteurs.
+
+　Ce que pense ensuite qui lit cela est décidé.
+
+　Il suffit de traiter aussi les codétenteurs.
+
+　Pousser un seul et cela revient. En poussant à la fois tous ceux qui partagent le souvenir avec lui, il ne reste nulle part où revenir. S'il ne reste nulle part où revenir, cela reste en bas.
+
+　Un plan qui rapproche de la moyenne, nuit après nuit, la charge des souvenirs d'un million de personnes est en marche depuis vingt-trois ans.
+
+　Qu'à ce plan ne montent pas de signalements de résidu, Mayuzumi l'avait attribué jusqu'ici à des différences de performance des appareils. Ce n'était pas cela. Comme il traite à la fois les codétenteurs, il n'existe simplement nulle part où revenir.
+
+　Le plan a-t-il été conçu en connaissant ce mécanisme ?
+
+　— Une question, dit Mayuzumi. Y a-t-il, dans les documents de conception du Plan de Nivellement, un concept équivalent au nombre de codétenteurs ?
+
+　— Il n'y en a pas, dit le Correcteur. Ce qui figure dans les documents de conception, c'est l'efficience d'échelle. Il est porté qu'en l'exécutant à l'échelle d'un million de personnes, le coût unitaire de tramitation par personne baisse.
+
+　— On en a fait un million pour la seule efficience ?
+
+　— Le motif qui figure est celui-là et aucun autre.
+
+　Mayuzumi fut sur le point de se sentir soulagé et s'arrêta.
+
+　Même s'ils avaient choisi la bonne réponse sans en connaître le motif, le résultat du choix était le même.
+
+
+VII
+
+　L'article sortit au printemps suivant.
+
+　L'accueil fut celui que le chef avait prévu. Comme recherche ayant donné un mécanisme à un phénomène inexpliqué pendant quarante-trois ans, il reçut plusieurs prix. Mayuzumi devint chef de la salle.
+
+　À l'automne de la même année, une demande vint du département des opérations du Plan de Nivellement.
+
+　Elle portait sur la méthode d'estimation du nombre de codétenteurs. Ils voulaient l'employer pour prévoir l'effet des traitements. S'ils peuvent identifier d'avance les sujets chez qui l'effet ne persiste pas, ils réduiront des traitements inutiles, disait la demande.
+
+　Ce qu'elle disait était exact. Pousser chez qui cela ne fait pas d'effet est un gâchis.
+
+　Mayuzumi répondit. La méthode est écrite dans l'article. Il n'y avait ni motif de la cacher, ni fondement pour le faire.
+
+　Trois mois après la réponse, le régime de répartition du département des opérations fut réformé.
+
+　La réforme consistait en ceci : pour les sujets à nombre élevé de codétenteurs, les codétenteurs sont répartis dans la même semaine. Cela fait partie de l'efficience. Regroupés dans la même semaine, le taux d'utilisation des appareils monte.
+
+　On prévoit aussi une amélioration secondaire de la persistance de l'effet, disait l'avis de la réforme.
+
+
+VIII
+
+　Mayuzumi lut cet avis trois fois.
+
+　Dans ce qu'il dit, il n'y a pas d'erreur. Regroupés dans la même semaine, l'utilisation monte. La persistance monte aussi. Les deux sont des faits.
+
+　Ce qui n'est pas écrit, c'était ce qui va se produire.
+
+　Une famille reçoit un traitement la même semaine. À quatre personnes on abaisse à la fois la charge du même événement. Personne ne revient. Parce qu'il n'y a nulle part où revenir.
+
+　Les quatre vivent ensuite normalement. Ils mangent, ils parlent du temps. Ce qu'il y a eu une fois dans cette maison ne monte à la bouche de personne. Et cela ne monte pas, non qu'ils l'aient oublié. Ils s'en souviennent, mais cela est à une valeur qui ne meut personne.
+
+　Mayuzumi relut la partie finale de son propre article.
+
+　— Le présent travail a montré que la charge affective d'un souvenir n'est pas une grandeur enfermée dans l'individu, mais une grandeur qui se maintient dans la relation aux codétenteurs.
+
+　Quand il l'a écrit, c'était la description d'une découverte. Lu maintenant, cela a l'air d'un manuel de procédure.
+
+　— Une question, dit Mayuzumi. Combien de fois cet article a-t-il été consulté ?
+
+　— Quarante et une, dit le Correcteur. Dont trente-six sont des consultations du département des opérations.
+
+　— Et les cinq restantes ?
+
+　— Des citations à fins de recherche.
+
+　Mayuzumi ferma le terminal.
+
+　Il ne pensait pas qu'il aurait dû cacher la méthode. Même en la cachant, en augmentant le dénominateur et en stratifiant, quelqu'un arriverait à la même conclusion. S'il a fallu quarante-trois ans, c'est que personne n'avait posé la variable, et en la posant cela sort du premier coup.
+
+　Celui qui l'a posée, c'est Mayuzumi. La case pour regretter de l'avoir posée n'existe pas dans le format d'un article.
+
+　Dehors il faisait déjà sombre. Dans tout le pays, cette nuit encore des traitements se pratiquent, et certains sont ceux de familles réparties dans la même semaine.
+
+　Le résidu est prévu à la baisse dès l'exercice prochain, disait la fin de l'avis de la réforme.
