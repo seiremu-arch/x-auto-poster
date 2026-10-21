@@ -1,0 +1,257 @@
+VIII. La mer des rêves
+
+
+I
+
+　L'Archive détient quarante-trois ans de fragments.
+
+　Physiquement, elle est répartie sur neuf blocs, pour une capacité totale nominale de cent vingt exaoctets. Le taux d'occupation réel est de quatre-vingt-quatorze pour cent, et le plan d'extension est arrêté depuis cinq ans.
+
+　Kurusu appartenait au service de Gestion de l'Archive. Le travail consiste à libérer de la capacité.
+
+　— L'objectif de réduction de cette année, dit Kurusu en ouvrant le terminal.
+
+　— 6,2 pour cent, dit le Correcteur. L'objectif de l'exercice précédent était de 4,8 pour cent, pour un taux de réalisation de trente et un pour cent.
+
+　— Trente et un pour cent.
+
+　— Oui.
+
+　La réduction reste chaque année en dessous de l'objectif. La raison est simple : il y a peu de choses qu'on puisse effacer.
+
+　L'Archive est le poste le plus terne de toutes les installations du Bureau. Personne ne vient. Le téléphone ne sonne pas. Le résultat du travail se mesure à un seul chiffre, la quantité effacée.
+
+　Kurusu est ici depuis six ans. En six ans, il n'a jamais atteint l'objectif de réduction. Son prédécesseur non plus, ni celui d'avant. On ne peut faire reproche à personne. Il n'y a dans aucun autre service de quoi comparer.
+
+
+II
+
+　La conservation des données de fragments a trois catégories.
+
+　La première est la conservation par contrat. Elle dure tant que l'usager vit, ou tant que les héritiers paient les frais de gestion. Elle ne peut pas s'effacer.
+
+　La deuxième est la conservation légale. Elle touche les traitements correctionnels et les enquêtes, et la durée de conservation est fixée par la loi. Dans le délai, cela ne peut pas s'effacer.
+
+　La troisième catégorie, c'était tout le reste.
+
+　La seule chose que Kurusu touche, c'est cette troisième catégorie.
+
+　— Le volume total de la troisième catégorie.
+
+　— Trente-sept pour cent de l'ensemble, dit le Correcteur.
+
+　— Sortez le détail.
+
+　Une table se déploya. La plus grande part était des registres qui remplissaient les critères de destruction et n'avaient pas été détruits. Les champs libres des techniciens. Les notes qui n'entrent pas dans les statistiques. Les manifestations sans case. Les résidus jugés négligeables.
+
+　Quarante et un ans, environ deux cent quatre-vingts millions de dossiers.
+
+
+III
+
+　Kurusu relut les procès-verbaux de transmission de ses prédécesseurs.
+
+　On peut remonter jusqu'à trois en arrière. Les trois ont rédigé un plan de réduction de la troisième catégorie. Les trois ont cessé de l'exécuter.
+
+　Dans les procès-verbaux, le motif ne figurait pas.
+
+　— Le motif de la suspension des plans de réduction.
+
+　— Cela ne figure pas au registre, dit le Correcteur.
+
+　— Alors, que s'est-il passé juste avant la suspension ?
+
+　— Les trois ont consulté les registres conservés le mois précédant la suspension.
+
+　Kurusu lut cette ligne deux fois.
+
+　Lui aussi allait les ouvrir aujourd'hui. Il se tient donc ici dans le même ordre que ses prédécesseurs.
+
+
+IV
+
+　Kurusu ouvrit.
+
+　Les ouvrir ne laisse pas voir le contenu. La composition des bandes, et les informations de registre. C'est tout ce que l'Archive possède.
+
+　Comme on ne peut pas voir deux cent quatre-vingts millions de dossiers un à un, Kurusu posa un critère d'extraction. Non par nombre, mais classés par nombre de consultations.
+
+　Le premier était un registre d'il y a quarante ans.
+
+　Nombre de consultations : six mille deux cent onze.
+
+　— Qui le consulte ?
+
+　— Le traitement de synthèse, dit le Correcteur. Il le consulte pour en extraire des traits.
+
+　— Six mille deux cents fois le même registre.
+
+　— Oui.
+
+　Kurusu ouvrit les informations du registre.
+
+　Pas d'identifiant d'enregistrant. Pas de date. Pas de lieu. Dans la catégorie, il y avait : « rapport de lecteur, annotation en marge de la case de contamination ».
+
+　Il y a quarante ans existait un métier appelé lecteur. Il consistait à employer le cerveau humain comme instrument de référence pour mettre en mots les fragments de patients sans conscience. Il y avait une case appelée taux de contamination, où l'on faisait figurer quelle proportion du rapport revenait au lecteur lui-même.
+
+　Annotation en marge désigne ce qui ne tenait pas dans cette case.
+
+　— Pourquoi ce registre est-il consulté six mille fois ?
+
+　— Parce qu'il est efficace pour engendrer la texture des synthèses, dit le Correcteur. Dans la mémoire d'une personne, il y a toujours une quantité de matière qu'elle ne sait pas expliquer elle-même. Comme trait de cette part, les annotations en marge sont tenues pour de haute précision.
+
+　— On s'en sert comme échantillon de ce qui n'a pas d'explication, donc.
+
+　— Il en va ainsi.
+
+　Kurusu mâcha un moment cette explication.
+
+　L'imprimé n'avait pas de case, et c'est pourquoi on a écrit dans la marge. On a écrit dans la marge, et c'est pourquoi cela n'est pas entré au registre officiel. Ce qui n'y est pas entré se mêle, quarante ans plus tard, chaque jour à quelque synthèse, comme échantillon de l'inexplicable qu'est le cœur d'une personne.
+
+
+V
+
+　Kurusu extrait la totalité des annotations en marge.
+
+　Il y en avait mille quatre cents. Le nombre total de lecteurs, selon les registres, est de dix-neuf. Cela fait environ soixante-dix par personne.
+
+　Le contenu était chaque fois bref. De trois à cinq lignes. L'imprimé n'ayant pas de case, ce qui était écrit en marge du rapport a ensuite été relevé par une machine et passé en conservation.
+
+　Kurusu regarda la composition d'une d'entre elles. Il y a un registre de date. Mars, il y a quarante ans. Il y a un registre de lieu aussi. Salle d'observation numéro deux de l'institut.
+
+　Il y avait aussi l'identifiant du lecteur.
+
+　Kurusu demanda cet identifiant.
+
+　— Cela ne peut être communiqué, dit le Correcteur. Les identifiants des lecteurs ont été détachés du système de consultation lors de la suppression du métier.
+
+　— Cette personne vit-elle encore ?
+
+　— Cela ne peut pas être déterminé.
+
+　— Alors, à qui sont ces mille quatre cents ?
+
+　— Il n'y a pas de poste de propriété.
+
+　Kurusu fit sortir la distribution des dates des mille quatre cents.
+
+　Elles se concentraient sur les sept années allant de quarante à trente-trois ans en arrière. Ensuite, presque rien. Cela coïncide avec l'époque où le métier de lecteur a été supprimé du fait de l'amélioration de la faculté de conversion linguistique des machines.
+
+　Pendant sept ans, dix-neuf personnes ont continué d'écrire en marge ce qui n'avait pas de case où s'écrire. Non pour que quelqu'un le lise. Qu'il n'y eût pas de destinataire, celui qui écrivait le savait mieux que personne.
+
+　La raison pour laquelle ils ont écrit quand même ne figure pas au registre.
+
+　— Je vais lire le contenu d'une seule, dit Kurusu.
+
+　— Le contenu ne peut pas être restitué, dit le Correcteur. Les annotations en marge des rapports de lecteur sont consignées en caractères. Si ce sont des caractères, cela peut s'afficher.
+
+　Kurusu fut un instant désorienté par cette différence.
+
+　Un fragment ne se restitue pas. Mais des caractères écrits dans une marge ne sont que des caractères. Une machine a lu les rapports de papier d'il y a quarante ans et les conserve comme texte.
+
+　— Affichez.
+
+　Cela s'afficha. C'étaient deux lignes.
+
+　— Taux de contamination du jour, deux pour cent. Comme chiffre, le meilleur à ce jour. Cependant, l'escalier de ma pension est apparu aujourd'hui dans le rêve du sujet sept.
+
+
+VI
+
+　Il fit rapport au chef de service à la fin de cette semaine. Un homme de la cinquantaine, sévère avec les chiffres.
+
+　— La troisième catégorie, on peut l'effacer, non ?
+
+　— Réglementairement, on peut.
+
+　— Alors effacez. Avec cela, la moitié de l'objectif de 6,2 pour cent est faite.
+
+　— Permettez-moi de vérifier une seule chose, dit Kurusu. Si l'on efface la troisième catégorie, la qualité des synthèses baisse.
+
+　— De combien ?
+
+　— Au calcul, douze points de satisfaction.
+
+　Le chef grimaça.
+
+　— Cela, c'est impraticable.
+
+　— C'est impraticable.
+
+　— Alors il suffit d'effacer la part qui n'est pas consultée, dit le chef. Conservez les registres consultés six mille fois et jetez ceux qui ne l'ont pas été une seule fois. Cela n'affectera pas la qualité.
+
+　Kurusu remporta la proposition.
+
+　Au calcul, les registres à zéro consultation représentaient quatre-vingts pour cent de la troisième catégorie. En les effaçant, l'objectif est atteint. L'effet sur la qualité : 0,4 point. Dans la marge d'erreur.
+
+
+VII
+
+　Kurusu essaya d'ouvrir un seul registre parmi ceux à zéro consultation.
+
+　Il le choisit au hasard. Catégorie : « motif de refus de la réparation du dommage, champ libre ». D'il y a deux ans.
+
+　Il y avait trois lignes.
+
+　— Je sais que c'est quelque chose que mon frère y a mis. Je le sais, et je le ressens quand même.
+
+　Kurusu resta un moment à le regarder.
+
+　Zéro consultation voulait dire que ces trois lignes étaient restées deux ans sans que personne les lise. L'agent qui les a écrites savait peut-être qu'elles ne seraient pas consultées, ou peut-être ne le savait pas. Dans les deux cas, il les a écrites.
+
+　Kurusu en ouvrit un autre. « Renoncement, hors catégorie ». D'il y a dix-neuf ans.
+
+　— Hasumi Ritsuko a abaissé sa propre charge pendant le délai d'attente et a renoncé au traitement.
+
+　Il y avait quatre lignes. La quatrième disait ceci :
+
+　— Les renoncements restent à zéro dans les statistiques. Ce cas ne peut être imputé nulle part.
+
+　Kurusu retira les mains du terminal.
+
+　Zéro consultation ne voulait pas dire que cela ne servait à rien. Cela voulait dire que personne ne l'avait lu.
+
+　Le registre que la synthèse consulte six mille fois sert. Il contribue à la qualité. C'est pourquoi on le conserve. Tel était le critère cette fois.
+
+　En suivant le critère, on efface quatre-vingts pour cent de lignes que personne n'a jamais lues.
+
+　Kurusu en ouvrit encore un. « Candidat de traduction, non retenu ». D'il y a six ans.
+
+　— Confiance de concordance trente et un pour cent. Outre le candidat retenu, deux séries ont été engendrées : Lumière, douleur, fermer, et Bouger, s'arrêter, ne pas savoir. Non retenues faute de cohérence comme récit.
+
+　En dessous, une seule ligne ajoutée à la main.
+
+　— La mère ne sait rien de ce qui n'a pas été retenu.
+
+　Kurusu ferma le terminal. L'ayant fermé, il le rouvrit et relut cette ligne.
+
+　Le nom du technicien qui l'a écrite ne figure pas au registre. Seule figure la date où elle a été écrite. Passé deux heures du matin, un jour d'il y a six ans.
+
+
+VIII
+
+　Kurusu rédigea le plan de réduction.
+
+　Objet : les registres à zéro consultation dans la troisième catégorie, 29,6 pour cent de l'ensemble. Cela dépasse largement l'objectif annuel de 6,2 pour cent. L'approbation était prévisible.
+
+　La rédaction finie, Kurusu le laissa sans le déposer.
+
+　Il le laissa trois jours. Au quatrième, la case d'approbation encore vide, il ajouta ceci en observations :
+
+　— Le contenu d'une partie des registres à zéro consultation inclus dans l'objet a été vérifié. Tous consignent des matières pour lesquelles l'imprimé officiel n'a pas prévu de case. Qu'une chose ne soit pas consultée et qu'il n'ait pas été nécessaire de la consigner ne sont pas la même chose.
+
+　L'ayant écrit, Kurusu pensa à qui lirait cette observation.
+
+　L'approbateur la lit. Mais ce que l'approbateur regarde, ce sont deux chiffres : le taux de réduction et l'effet sur la qualité. La case d'observations n'est pas parmi les points d'appréciation de l'approbation.
+
+　Autrement dit, cette observation sera elle aussi un registre à zéro consultation.
+
+　Kurusu rit un peu. Après avoir ri, il retira le plan.
+
+　Dans la case du motif du retrait, il écrivit « pour nouvel examen ». C'étaient les mêmes mots que ceux des procès-verbaux de transmission de ses trois prédécesseurs. Dans quel ordre les trois en étaient venus là, Kurusu le comprenait à présent.
+
+　Il devint le quatrième.
+
+　Le taux d'occupation de la capacité reste à quatre-vingt-quatorze pour cent. Le plan d'extension est arrêté depuis cinq ans. Combien d'années cela tiendra encore est dans les calculs. Cela y est, et Kurusu décida de ne pas le regarder.
+
+　Même en le regardant, il ferait probablement la même chose.

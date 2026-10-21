@@ -20,7 +20,7 @@ le Livre I. Compiler avec `python3 book/tools/build_epub.py fr2`.
 | V | ＡＩは夢を見るか | La machine rêve-t-elle ? | 3 963 | 1 962 | **fait** |
 | VI | 夢の犯罪 | Violences | 3 933 | 1 969 | **fait** |
 | VII | 消えた現実 | Le registre | 3 982 | 2 032 | **fait** |
-| VIII | 夢の海 | La mer des rêves | 3 889 | — | en attente |
+| VIII | 夢の海 | La mer des rêves | 3 889 | 2 004 | **fait** |
 | IX | 明日の夢 | Le rêve de demain | 3 879 | — | en attente |
 | X | 最後のバグ | Le dernier bug | 3 843 | — | en attente |
 | XI | 残差 | Résidu | 3 906 | — | en attente |
