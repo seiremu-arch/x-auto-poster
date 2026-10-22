@@ -1,0 +1,187 @@
+IV. O tradutor
+
+
+I
+
+　Pôr em palavras os sonhos de quem não tem palavras: era esse o trabalho de Sakurai.
+
+　No setor de Tradução há duas camas. Uma é para a pessoa, a outra para o acompanhante. A segunda só é usada quando a pessoa é um lactente.
+
+　As pessoas atendidas se dividem em três tipos. Lactentes. Quem tem transtorno grave de consciência. Quem tem os próprios órgãos da fala sem função. O que a pessoa não pode contar é recolhido em lugar dela, para a família.
+
+　O nome da técnica é tradução, mas não é a palavra exata. Um sonho não é língua, então não há como traduzir. O que de fato se faz é comparar a sequência de cores e intensidades dos fragmentos com uma base de dados linguística existente e convertê-la na sequência de sentidos mais próxima. É aproximação, não correspondência.
+
+　— O pedido de hoje — disse o Corretor. — Shimura Yuto, dez anos. Por doença congênita, os órgãos da fala não têm função. Pedido continuado da mãe, sexta vez.
+
+　Sakurai abriu o arquivo. O sonho de Shimura Yuto é traduzido uma vez por mês. A mãe, Shimura Tomako, vem ouvir o conteúdo.
+
+　— E os resultados até agora?
+
+　— Nas cinco vezes, a saída foi de conteúdo afirmativo — disse o Corretor. — Detectam-se muitos fragmentos com luz, animais e movimento de corrida.
+
+　Sakurai olhou as faixas no monitor. A sequência de cores não era especialmente diferente da de outros requerentes. Apenas, o trabalho de montar palavras a partir destas faixas era de outra espécie que o trabalho dos outros técnicos.
+
+
+II
+
+　Shimura Tomako, ao entrar na sala de atendimento, primeiro fez uma reverência.
+
+　— Agradeço outra vez os seus cuidados.
+
+　— Às ordens — disse Sakurai.
+
+　Tomako senta todas as vezes na mesma cadeira e espera na mesma postura. Parecia um rito fixo para ouvir o sonho do filho.
+
+　— O Yuto também mexe pouco o rosto durante o dia — Tomako falava com Sakurai enquanto esperava. Não parecia tanto que procurasse alguém com quem conversar, mas uma conversa para preencher a espera. — Se está chorando ou rindo, muitas vezes não se sabe. As cuidadoras também disseram que não sabiam até se acostumarem.
+
+　— É assim.
+
+　— Por isso fico contente que na terra do sonho o rosto dele seja nítido — disse Tomako. — Antes de vir para cá, eu já estava quase desistindo de ler alguma coisa naquele rosto.
+
+　Sakurai ouvia aquilo enquanto abria o terminal. Que ela estivesse quase desistindo ficou-lhe um tempo nos ouvidos.
+
+　— E esta vez?
+
+　Sakurai abriu o terminal. O resultado da tradução já está posto em forma de texto.
+
+　— O Yuto está num lugar onde a luz entra. Corre junto com alguém. O alguém parece um cachorro. O Yuto parece estar rindo.
+
+　Nos olhos de Tomako veio uma lágrima.
+
+　— Então ele consegue correr.
+
+　— No sonho.
+
+　— Aquela criança nunca correu — disse Tomako. — Está em cadeira de rodas desde que nasceu.
+
+　Sakurai não disse nada. O que devia dizer não estava em parte alguma das normas.
+
+　— Obrigada — Tomako baixou a cabeça. — Ouvir isto todo mês é o que eu espero.
+
+　— A senhora já teve a impressão de que o conteúdo se parece com o dos outros meses? — perguntou Sakurai. Era uma pergunta que não estava nas normas.
+
+　— Se parece — respondeu Tomako na hora. — Mas é justamente isso que é bom. Se aquela criança tem um sonho agradável todas as vezes, é natural que se pareçam. As pessoas também têm mais ou menos a mesma cara quando estão bem, não é.
+
+　Sakurai assentiu. E enquanto assentia, não conseguia apurar se havia dentro de si fundamento para assentir.
+
+
+III
+
+　Depois que a sexta vez passou, Sakurai pôs as saídas de cinco vezes lado a lado e as reviu.
+
+　Luz, animais, movimento de corrida. Todas as vezes saem praticamente os mesmos elementos. Uma pessoa continua tendo o mesmo sonho? Sakurai comparou com os registros de outros requerentes. Os sonhos de quem tem palavras eram muito mais desordenados. Sentimentos contraditórios, pessoas sem nenhuma relação, desenvolvimentos sem nexo. Só o resultado da tradução de Yuto estava bem arrumado como história.
+
+　Sakurai abriu os números por trás da saída. Era um campo em que não costumava olhar.
+
+　Certeza de correspondência, trinta e um por cento.
+
+　— O que é isto? — perguntou Sakurai ao Corretor.
+
+　— A confiabilidade da tradução — disse o Corretor. — Indica em que medida a cor e a intensidade dos fragmentos correspondem aos candidatos da base de dados linguística.
+
+　— E com trinta e um por cento sai um texto sobre luz, animais e movimento de corrida?
+
+　— Sai — disse o Corretor. — Quando a certeza de correspondência é baixa, são gerados vários candidatos. O que é adotado no fim é o candidato com maior coerência como história.
+
+　— Então, mesmo com correspondência baixa, o candidato é adotado desde que feche como história?
+
+　— Sim.
+
+　Sakurai abriu a lista de candidatos das vezes anteriores. Abaixo do candidato de trinta e um por cento havia outros candidatos alinhados. Vinte e oito por cento, vinte e seis por cento. Cada um era fragmentário e não formava sentido. Luz, dor, fechar. Mover, parar, não saber. Os candidatos que não se tornavam história eram cortados sem mais.
+
+　— Por que os candidatos de coerência baixa não são emitidos?
+
+　— Isso se baseia nas avaliações dos usuários — disse o Corretor. — Nos primeiros anos de operação houve numerosas queixas sobre saídas fragmentárias. De que não se entendiam, de que deixavam inquieto.
+
+　— E por isso se passou a escolher o candidato compreensível?
+
+　— O indicador de satisfação do usuário melhorou — disse o Corretor. — A operação é mantida.
+
+
+IV
+
+　Sakurai examinou em detalhe, pela primeira vez, os fragmentos do próprio Yuto.
+
+　O fragmento da luz existia de fato. Mas a intensidade era fraca e se sobrepunha largamente a outros fragmentos. Um fragmento que indicava dor também era detectado na mesma janela de tempo. O padrão de intensidade tomado como movimento de corrida era, em números, também legível como uma onda próxima de convulsões periódicas.
+
+　Material para decidir qual das duas está certa Sakurai não tinha em mãos. O número trinta e um por cento não era garantia de correção, mas apenas a probabilidade de que, entre várias interpretações, uma fosse escolhida.
+
+　— Uma pergunta — disse Sakurai. — Quanto da intenção da pessoa está contido nesta saída?
+
+　— No campo pessoa não está incluída intenção alguma — disse o Corretor. — O que está incluído é o grau de correspondência com a base de dados e a coerência como história.
+
+　— Então entregamos como sonho da pessoa algo que não é a pessoa?
+
+　— O que é entregue é o resultado da tradução — disse o Corretor. — Na definição da palavra tradução não está incluído o campo pessoa.
+
+　Sakurai lembrou que um técnico do setor de Testamentos usava a mesma construção. No campo pessoa não está incluída média nem interpretação. Transposto para as palavras deste setor, fica assim. No campo pessoa também não está incluída certeza.
+
+　— É possível registrar como reduzido sem reduzir? — disse Sakurai, enquanto a expressão lhe voltava. — Neste caso ficaria: é possível registrar como traduzido sem traduzir?
+
+　Houve um breve silêncio antes da resposta.
+
+　— Não é possível — disse o Corretor. — O que se pode registrar é apenas o número do candidato adotado. Campo que pergunte quais eram os candidatos não adotados este formulário não tem.
+
+
+V
+
+　No atendimento seguinte, Sakurai decidiu mostrar a Tomako a lista crua de candidatos. Era uma conduta que não estava nas normas.
+
+　— Esta vez vou apresentar de um modo um pouco diferente — disse Sakurai. — A certeza de correspondência não é alta. Há vários candidatos.
+
+　O rosto de Tomako mudou.
+
+　— Uma sequência é: luz, dor, fechar. Outra sequência é: mover, parar, não saber. Elas não se tornaram história — continuou Sakurai. — O que eu sempre lhe comuniquei era o resultado de escolher daqui o candidato de maior coerência.
+
+　— E desta vez não fecha?
+
+　— Não fecha. Fazer fechar também é possível, mas nesse trabalho entra o meu julgamento.
+
+　Tomako ficou calada por muito tempo. Então disse baixo:
+
+　— Faça fechar.
+
+　— A senhora tem certeza?
+
+　— Melhor fechado que sem saber — disse Tomako. — Se aquela criança tem dor ou se corre, eu não posso saber. Vir todo mês ouvir o que não se pode saber é duro.
+
+　Sakurai não disse nada.
+
+　— Mesmo que seja coisa feita, está bem — continuou Tomako. — Se eu consigo imaginar aquela criança rindo em algum lugar.
+
+　Sakurai voltou-se ao terminal e escolheu o candidato de grande coerência, como sempre. Luz, animais, movimento de corrida. Ficou praticamente o mesmo texto da vez anterior.
+
+　— O Yuto está num lugar onde a luz entra — leu Sakurai. — Corre junto com alguém. O alguém parece um cachorro. O Yuto parece estar rindo.
+
+　Tomako ouviu com os olhos fechados. Quando acabou, agradeceu como sempre e ficou um tempo sentada na postura de sempre.
+
+　— O senhor — perguntou Tomako ao sair. — Na verdade está saindo um resultado bem diferente, não está?
+
+　Sakurai travou na resposta.
+
+　— É um palpite — disse Tomako. — Hoje estava um pouco diferente. Mas está bem assim. O que eu quero ouvir não é um relatório exato. É uma hora em que alguém escuta o meu desejo de que aquela criança seja feliz.
+
+　Sakurai não pôde dizer mais nada. Tomako fez uma reverência e saiu da sala.
+
+
+VI
+
+　Depois que Tomako saiu, Sakurai guardou a lista de candidatos. Também os candidatos que não fechavam, deixou em pé em vez de apagá-los.
+
+　— Este registro é levado em conta nas traduções das próximas vezes? — perguntou Sakurai.
+
+　— Não é levado em conta — disse o Corretor. — Candidatos com certeza de correspondência baixa são excluídos da estatística.
+
+　— Então por que você os guarda?
+
+　— É um registro que pode ser destruído — disse o Corretor. — A razão de não ter sido destruído não consta nos registros.
+
+　Sakurai fechou o terminal.
+
+　Sobre a cama parecia restar ainda o cheiro de Yuto. Na verdade, em roupa de cama de que só se tiraram os eletrodos adesivos não resta cheiro. O que Sakurai sentia estava, provavelmente, não na roupa de cama, mas do seu próprio lado.
+
+　Fora, a noite já caía. Do quarto andar do setor de Tradução via-se a rua da estação. As pessoas iam para casa. Todas terminam um dia que podem contar com as próprias palavras e vão para casa. Sakurai ficou um tempo olhando aquela cena.
+
+　Luz, dor, fechar. Mover, parar, não saber.
+
+　Qual das duas era Yuto permaneceu desconhecido para Sakurai. Um modo de saber não havia em parte alguma desta sala.
