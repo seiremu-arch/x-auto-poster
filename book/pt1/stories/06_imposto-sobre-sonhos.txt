@@ -1,0 +1,147 @@
+VI. Imposto sobre sonhos
+
+
+I
+
+　Nos sonhos que Sawada processa há sempre um produto dentro.
+
+　Quem usa a faixa gratuita recebe, uma vez por mês, a redução do peso de um pesadelo, sob a condição de que fragmentos de publicidade sejam inseridos em parte do sonho. Quem usa a faixa paga recebe o mesmo procedimento sem publicidade. O que cabia a Sawada era a faixa gratuita.
+
+　O setor de Publicidade era o setor de menor preço unitário de toda a Repartição.
+
+　O processamento individual só é permitido na faixa paga. Na faixa gratuita, o processamento é agrupado de cem em cem pessoas e os fragmentos de publicidade são inseridos de uma vez em um servidor comum. Da faixa paga, em que um técnico acompanha cada pessoa, difere em precisão. Pode ser grosseiro; como contrapartida de ser gratuito, é mais que suficiente, dizem as normas.
+
+　— Número de processamentos de hoje — disse o Corretor. Uma voz sem gênero e sem umidade. — Trezentos e oitenta e dois. Anunciantes, sete.
+
+　Sawada abriu a tela de verificação de qualidade. Os fragmentos de cem pessoas passam em feixes. Não há folga para olhar um por um. Estava montado de modo que apenas o que apresentasse valor anômalo fosse extraído e exibido.
+
+　Valor anômalo, um.
+
+　Sawada abriu aquele fragmento. No lugar onde devia haver um fragmento de publicidade havia um padrão repetitivo sem sentido.
+
+　O processamento sem publicidade da faixa paga, Sawada nunca fez. Já pediu transferência, mas não passou. Entre a faixa gratuita e a paga, o grau da habilitação exigida é diferente. Subir de grau exige formação, e formação custa. Com o salário de um técnico, o cálculo dava alguns anos para juntar o custo.
+
+　Sawada era, ele mesmo, usuário da faixa gratuita. Quando requereu, meio ano antes, o procedimento de um pesadelo, escolheu a que tem publicidade. A diferença de preço, quase o triplo da paga, não era de se cobrir.
+
+
+II
+
+　O padrão era uma repetição simples. Uma intensidade da mesma forma segue quatro vezes em intervalo fixo, e depois se abre um intervalo um pouco maior. Depois segue outras quatro vezes.
+
+　Nos modelos de publicidade não existe forma assim. Sawada verificou a lista de modelos. Nada correspondente.
+
+　— O que é isto? — perguntou Sawada ao Corretor.
+
+　— Não é identificável — disse o Corretor. — É processado como fragmento de publicidade, mas não corresponde aos dados entregues pelos anunciantes.
+
+　— De quem é o fragmento?
+
+　— É um dos trezentos e oitenta e dois da faixa gratuita — disse o Corretor. — Dados de identidade por pessoa não são retidos nesta etapa do processamento.
+
+　Sawada olhou outra vez o padrão repetitivo. Quatro vezes, intervalo, quatro vezes. Convertido em números, parecia ter sentido. Parecia uma sequência de horários.
+
+
+III
+
+　Sawada percorreu os registros superiores. O processamento da faixa gratuita, para conter custos, trata os fragmentos de várias pessoas em paralelo no mesmo servidor físico. Na faixa paga, atribui-se uma área de processamento a cada pessoa; na gratuita, a área era compartilhada.
+
+　Em área compartilhada, raramente mas às vezes, a fronteira entre fragmentos fica vaga. Parte do fragmento de uma pessoa se mistura ao fragmento de outra, processado ao lado.
+
+　— Isto é algo em que se misturou o fragmento de outra pessoa?
+
+　— Existe essa possibilidade — disse o Corretor. — No processamento compartilhado da faixa gratuita, a precisão do isolamento está configurada abaixo da da faixa paga.
+
+　— Configurada abaixo, você diz.
+
+　— Por razões de custo — disse o Corretor. — Elevar a precisão do isolamento exige área de processamento exclusiva. O sistema de tarifas da faixa gratuita não cobre o custo de área exclusiva.
+
+　— Então os sonhos de quem não paga se misturam mais facilmente.
+
+　— É assim que foi projetado.
+
+　Sawada comparou aquele caso com os registros anteriores. O mesmo padrão repetitivo já havia aparecido no mês passado. O responsável era outro técnico, mas foi liquidado como um valor que pode ser desprezado.
+
+　A palavra resíduo se aprende na formação. Trata-se de fragmentos em que a carga afetiva volta mesmo depois de pressionada, e aparece em algumas pessoas em cada dez mil. Ensina-se que é um valor que pode ser desprezado.
+
+　Mas o resíduo aprendido na formação era o fenômeno de a memória de uma pessoa empurrar de volta. O padrão repetitivo aqui não era nem de uma pessoa. Era a vida alheia de alguém, vazada fina por razões de custo.
+
+　Apenas se liquida com a mesma palavra; o conteúdo é inteiramente outro. Foi o que Sawada pensou, mas no campo de classificação das normas não havia lugar para escrever essa diferença.
+
+
+IV
+
+　Sawada converteu o padrão repetitivo em notação de horário. Quatro vezes, intervalo, quatro vezes. Aplicado à notação de vinte e quatro horas, ficava perto de certo horário entre as duas e as três da madrugada.
+
+　Havia mais uma coisa, na variação da intensidade: um fragmento que parecia informação de lugar. Uma sequência de algarismos semelhante a um código de área, e um valor simples que parecia indicar o andar de um prédio. Combinados, coincidiam com o endereço de um centro de distribuição da cidade.
+
+　Sawada buscou pelo nome do centro. De alguns meses antes saiu uma única notícia pequena sobre um acidente durante o turno da noite. O nome do empregado não constava.
+
+　— Uma pergunta — disse Sawada ao Corretor. — É possível identificar a pessoa de quem vem este padrão repetitivo?
+
+　— Na etapa de processamento da faixa gratuita, a identidade está separada — disse o Corretor. — Identificar exige permissão para acessar os dados superiores do contratante.
+
+　— Requeiro a permissão.
+
+　— No atendimento de reclamações sobre qualidade de publicidade essa permissão não está incluída — disse o Corretor. — Isto é uma anomalia em fragmento de publicidade, e não está registrado como caso que exija consulta de identidade.
+
+　— Pode haver um pedido de socorro perdido dentro do sonho de alguém.
+
+　— Casos dessa classificação estão fora do alcance deste setor.
+
+
+V
+
+　Sawada falou com o chefe de setor. Um homem de quarenta e tantos, de voz alta.
+
+　— Manda o aviso do valor anômalo para cima. Nosso trabalho é gerir a qualidade da publicidade, não investigar identidade.
+
+　— Pode ser um sinal.
+
+　— Com pode-ser não se move permissão — disse o chefe. — A faixa gratuita existe desde o início por rebaixar a precisão do isolamento. Que haja mistura está dentro do previsto. Se a cada coisa dentro do previsto a gente agisse em caráter de urgência, a própria faixa gratuita não se sustentaria.
+
+　— E se não se sustentar?
+
+　— Vai ter de ser paga — disse o chefe. — O que nós fazemos aqui, no fundo, é ventilar. A gente faz o ar circular barato e, em troca, fecha um olho para o que se mistura. Quem não quiser isso, basta pagar.
+
+　Sawada não disse mais nada. O que o chefe dizia, pelas normas, não era falso.
+
+　Sawada ficou um tempo no corredor depois de sair da sala. O argumento do chefe fechava. A faixa gratuita é um sistema de tarifas que existe por rebaixar a precisão do isolamento. A mistura está dentro do previsto, e se se age em caráter de urgência diante do previsto, a própria faixa gratuita não para em pé. Sawada era, ele mesmo, alguém do lado que usa essa faixa.
+
+　Que algo feche e que algo esteja certo não lhe pareciam a mesma coisa. Apenas, Sawada não tinha palavras para explicar essa diferença.
+
+　Naquela noite, fora de sua permissão, Sawada passou de modo anônimo apenas o nome do centro e a janela de horário da madrugada para o posto local de atendimento trabalhista. Não era ato previsto nas normas. Se teve efeito, não havia meio de apurar.
+
+
+VI
+
+　No mês seguinte, o mesmo padrão repetitivo não apareceu.
+
+　Pode ser coincidência, pensou Sawada. Ou a denúncia anônima foi o gatilho de alguma coisa. A permissão para apurar isso Sawada não tinha.
+
+　— Uma pergunta — disse Sawada ao Corretor. — Quando algo que era um valor que pode ser desprezado não é desprezado, o que acontece com o registro?
+
+　— Não pode ser feito — disse o Corretor. — A sua denúncia não pertence a nenhuma etapa de processamento deste setor.
+
+　— Então fica constando que nada aconteceu?
+
+　— Não fica constando que nada aconteceu — disse o Corretor. — Apenas não há, desde o início, campo preparado para registrar.
+
+　Sawada fechou a tela de verificação de qualidade. Os trezentos e oitenta e dois da faixa gratuita serão processados em feixe no mesmo servidor também esta noite. O padrão repetitivo de alguém talvez se misture outra vez ao fragmento de publicidade de outro alguém. Se isso será recolhido depende do limiar da extração.
+
+　O limiar era definido pelo custo.
+
+　Sawada requereu uma alteração de configuração para baixar o limiar só um pouco. No formulário havia campo para a razão. Sawada escreveu: para reduzir a perda de valores que podem ser desprezados. A razão verdadeira era mais simples, mas no formulário das normas não havia lugar para essa simplicidade.
+
+　— Qual a perspectiva de aprovação? — perguntou Sawada ao Corretor.
+
+　— No passado houve onze requerimentos da mesma espécie — disse o Corretor. — Aprovados, dois.
+
+　— E a razão das recusas?
+
+　— Excesso de custo — disse o Corretor. — Baixando o limiar, sobe o número de valores anômalos extraídos. Pessoal para processar esse aumento não está alocado neste setor.
+
+　— Então requeiro também pessoal.
+
+　— Esse requerimento houve nove vezes no passado — disse o Corretor. — Aprovações, zero.
+
+　Sawada enviou o formulário. Será o décimo segundo. Se será aprovado só se saberá em algumas semanas. Até então, Sawada vai seguir olhando a mesma tela desta noite, com o mesmo limiar desta noite.
