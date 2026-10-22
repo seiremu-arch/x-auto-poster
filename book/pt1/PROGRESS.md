@@ -13,8 +13,8 @@ dois livros. Compilar com `python3 book/tools/build_epub.py pt1`.
 
 | # | Japonês | Português | Original | Palavras | Estado |
 |---|---|---|---|---|---|
-| I | 半色 | Meia-tinta | — | — | aguardando |
-| II | 忘却の順番待ち | A fila do esquecimento | — | — | aguardando |
+| I | 半色 | Meia-tinta | 4.997 | 2.517 | **pronto** |
+| II | 忘却の順番待ち | A fila do esquecimento | 4.540 | 2.162 | **pronto** |
 | III | 夢の遺言 | O testamento | — | — | aguardando |
 | IV | 夢の翻訳者 | O tradutor | — | — | aguardando |
 | V | 二人称の夢 | O sonho em segunda pessoa | — | — | aguardando |
