@@ -15,12 +15,12 @@ dois livros. Compilar com `python3 book/tools/build_epub.py pt1`.
 |---|---|---|---|---|---|
 | I | 半色 | Meia-tinta | 4.997 | 2.517 | **pronto** |
 | II | 忘却の順番待ち | A fila do esquecimento | 4.540 | 2.162 | **pronto** |
-| III | 夢の遺言 | O testamento | — | — | aguardando |
-| IV | 夢の翻訳者 | O tradutor | — | — | aguardando |
-| V | 二人称の夢 | O sonho em segunda pessoa | — | — | aguardando |
-| VI | 夢税 | Imposto sobre sonhos | — | — | aguardando |
-| VII | 涙の代筆 | O luto por procuração | — | — | aguardando |
-| VIII | 夢裁判 | A pena | — | — | aguardando |
+| III | 夢の遺言 | O testamento | 4.552 | 2.164 | **pronto** |
+| IV | 夢の翻訳者 | O tradutor | 3.915 | 1.803 | **pronto** |
+| V | 二人称の夢 | O sonho em segunda pessoa | 3.454 | 1.656 | **pronto** |
+| VI | 夢税 | Imposto sobre sonhos | 3.391 | 1.615 | **pronto** |
+| VII | 涙の代筆 | O luto por procuração | 4.476 | 2.091 | **pronto** |
+| VIII | 夢裁判 | A pena | 4.577 | 2.136 | **pronto** |
 | IX | 目覚めない権利 | O direito de não acordar | — | — | aguardando |
 | X | 夢の相続 | A herança | — | — | aguardando |
 | XI | 幸福指数九八 | Índice de Felicidade 98 | — | — | aguardando |
