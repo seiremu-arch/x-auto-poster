@@ -282,8 +282,67 @@ CHECKS_NL = [
     ("行末の空白", r"[ \t]+$"),
 ]
 
+# ブラジルポルトガル語版。会話は travessão（—、U+2014）で組む。西語・仏語と
+# 同じ組み方で、ブラジル文芸の標準でもある。
+#   ・正書法はブラジル。registo / facto / objecto / actual のような
+#     ポルトガル本国の綴りは不可
+#   ・西語が近い。読んでいて気づきにくい混入なので、別に検査を置く
+#   ・千の位は点（1.027.400）、小数点は読点（0,038）
+CHECKS_PT = [
+    # 点は桁区切りに使うので一律に弾けない。切り分け方は西語・伊語と同じ。
+    ("荷重の小数点は読点（0,05）。0.05 は不可",
+     r"\b0\.\d+|\b\d+\.\d{1,2}(?!\d)|\b\d+\.\d{4,}"),
+    ("会話は travessão（—）。引用符 \" \u201c \u201e \u00ab は不可",
+     r"\"|[\u201c\u201d\u201e\u00ab\u00bb]"),
+    ("会話のダッシュは travessão（—, U+2014）。ハイフンや半角ダッシュは不可",
+     r"^\u3000?[-\u2013]\s*[A-Z\u00c1\u00c9\u00cd\u00d3\u00da\u00c3\u00d5\u00c2\u00ca\u00d4\u00c7]"),
+    ("約物の前に空白を入れない（仏語の規則が混じっている）",
+     r"[ \u00a0][;:?!]"),
+    ("半色は a meia-tinta（meia cor / semitom は不可）",
+     r"\bmeia cor\b|\bsemiton?\w*\b|\bmeio tom\b"),
+    ("校正官は o Corretor（revisor は不可）", r"\brevisor\w*\b"),
+    ("素片は o fragmento（estilha\u00e7o / lasca は不可）",
+     r"\bestilha\u00e7\w*\b|\blasca\w*\b"),
+    ("情動荷重は a carga afetiva（carga emocional は不可）",
+     r"\bcarga emocional\b|\bpeso emocional\b"),
+    ("照合機は o Comparador", r"\bconferidor\b|\bcombinador\b"),
+    ("残差は o res\u00edduo（residual は不可）", r"\bresidual\w*\b"),
+    ("均し計画は o Plano de Nivelamento",
+     r"\bPlano de Igual\w+\b|\bPlano de Equaliza\w+\b"),
+    ("技師は o t\u00e9cnico（engenheiro は不可）", r"\bengenheir\w*\b"),
+    ("百分率は por cento（porcento / % は不可）", r"\bporcento\b|%"),
+    # ポルトガル本国の綴り。ブラジル版なので混ぜない。
+    ("ポルトガル本国の綴りが混じっている（ブラジル正書法で書く）",
+     r"\bregisto\w*\b|\bfacto\b|\bfactos\b|\bobjec\w+|\bprojec\w+"
+     r"|\bac\u00e7\u00e3o\b|\bac\u00e7\u00f5es\b|\bactu\w+|\bcontact\w+"
+     r"|\bdirector\w*\b|\b\u00f3ptim\w+|\bel\u00e9ctric\w+|\bexact\w+"),
+    # 西語はポルトガル語と近く、一語残っても通読では気づきにくい。
+    # ポルトガル語に存在しない綴りだけを挙げる（葡 e / muito / mas /
+    # ent\u00e3o / agora / quando / disse に対する西 y / muy / pero /
+    # entonces / ahora / cuando / dijo）。葡語にもある nunca・antes・porque は
+    # 入れない。as は葡語の冠詞なので as\u00ed だけを見る。
+    ("西語の機能語が混じっている",
+     r"\by\b|\bmuy\b|\bpero\b|\bentonces\b|\bahora\b|\bcuando\b"
+     r"|\bdijo\b|\bhacia\b|\bestaba\b|\bhab\u00eda\b|\btambi\u00e9n\b"
+     r"|\bsiempre\b|\baqu\u00ed\b|\bdespu\u00e9s\b|\bsin\b|\bcon\b"
+     r"|\bdel\b|\bes\b|\bhay\b|\bas\u00ed\b|\bqu\u00e9\b"),
+    ("他言語の用語が混じっている",
+     r"\bthe\b|\bProofreader\b|\bder Korrektor\b|\bel Corrector\b"
+     r"|\ble Correcteur\b|\bil Correttore\b|\bde Corrector\b|\bHalbton\b"
+     r"|\bhalf-shade\b|\bmedia tinta\b|\bdemi-teinte\b|\bmezzatinta\b"
+     r"|\bhalftint\b|\bper cent\b"),
+    # 綴り字記号の落ち。シリーズの用語で起きやすいものだけを挙げる。
+    ("綴り字記号が落ちている（n\u00famero / \u00edndice / t\u00e9cnico など）",
+     r"\bnumero\b|\bnumeros\b|\bindice\b|\bindices\b|\btecnic\w*\b"
+     r"|\bcondomino\w*\b|\bgenero\b|\borgao\w*\b|\bresiduo\b"
+     r"|\bperiodo\b|\bproprio\w*\b|\bultimo\w*\b"),
+    ("漢数字の残り（〇・一二三…）", r"[〇一二三四五六七八九十]"),
+    ("行末の空白", r"[ \t]+$"),
+]
+
 CHECKS = {"en": CHECKS_EN, "de": CHECKS_DE, "es": CHECKS_ES,
-          "fr": CHECKS_FR, "it": CHECKS_IT, "nl": CHECKS_NL}
+          "fr": CHECKS_FR, "it": CHECKS_IT, "nl": CHECKS_NL,
+          "pt": CHECKS_PT}
 
 # 原文の姓 -> 英語表記。第二巻は原文の読み仮名、第一巻は通用する読みによる。
 # 「その話に原文の姓が出るなら、英文にもこの綴りが出る」ことだけを見る。
@@ -334,7 +393,7 @@ def check_names() -> int:
     """
     bad = 0
     vols = [(f"{lang}{n}", f"vol{n}")
-            for lang in ("en", "de", "es", "fr", "it", "nl")
+            for lang in ("en", "de", "es", "fr", "it", "nl", "pt")
             for n in (1, 2)]
     for en_vol, ja_vol in vols:
         for num, pairs in NAMES[ja_vol].items():
@@ -471,6 +530,42 @@ def check_nl_quotes() -> int:
     return bad
 
 
+def check_pt_dashes() -> int:
+    """葡語版の発話段落が travessão で始まっているかを、原文と段落で突き合わせる。
+
+    西語版・仏語版にはこの検査がない。会話も書類からの引用も行頭のダッシュで
+    組むので、ダッシュの有無だけでは区別できないからである。
+
+    段落で突き合わせれば区別できる。原文の段落が 　「 で始まるもの（丸ごと
+    発話）だけを見て、対応する葡語の段落が 　— で始まることを確かめる。
+    書類からの一文は原文で 　―― で始まるので、この検査の対象に入らない。
+    """
+    bad = 0
+    DASH = "\u3000\u2014"
+    for tr_vol, ja_vol in (("pt1", "vol1"), ("pt2", "vol2")):
+        for path in sorted((ROOT / tr_vol / "stories")
+                           .glob("[0-9][0-9]_*.txt")):
+            ja_hits = sorted((ROOT / ja_vol / "stories")
+                             .glob(f"{path.name[:2]}_*.txt"))
+            if not ja_hits:
+                continue
+            ja = paragraphs(
+                ja_hits[0].read_text(encoding="utf-8").split("\n"), JA_SEC)
+            pt = paragraphs(
+                path.read_text(encoding="utf-8").split("\n"), TR_SEC)
+            if len(ja) != len(pt):
+                print(f"{path.relative_to(ROOT)}: 段落数が違うため照合できない"
+                      f"（原文 {len(ja)} / 訳文 {len(pt)}）")
+                bad += 1
+                continue
+            for n, (jp, pp) in enumerate(zip(ja, pt), start=1):
+                if jp.startswith("\u3000\u300c") and not pp.startswith(DASH):
+                    print(f"{path.relative_to(ROOT)}: 第{n}段落は原文が"
+                          f"発話だが travess\u00e3o で始まっていない")
+                    bad += 1
+    return bad
+
+
 def check_de_quotes() -> int:
     """ドイツ語版の引用符が開きと閉じで同数かを見る。
 
@@ -491,8 +586,8 @@ def check_de_quotes() -> int:
 
 
 def main() -> int:
-    hits = (check_names() + check_de_quotes()
-            + check_it_quotes() + check_nl_quotes())
+    hits = (check_names() + check_de_quotes() + check_it_quotes()
+            + check_nl_quotes() + check_pt_dashes())
     for path in STORIES:
         lang = path.parts[-3][:2]          # en1/de2 などの先頭2字
         checks = CHECKS.get(lang)

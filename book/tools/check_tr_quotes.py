@@ -43,6 +43,8 @@ QUOTES = [
                   "la scala della mia pensione.",
             "nl": "Vandaag echter verscheen in de droom van proefpersoon "
                   "zeven de trap van mijn pension.",
+            "pt": "No entanto, hoje apareceu no sonho do sujeito sete "
+                  "a escada da minha pens\u00e3o.",
         },
         [("1", "12"), ("2", "08")],
     ),
@@ -63,6 +65,8 @@ QUOTES = [
                   "Lo so, e lo sento comunque.",
             "nl": "Ik weet dat het iets is wat mijn broer erin heeft gezet. "
                   "Ik weet het, en ik voel het toch.",
+            "pt": "Sei que \u00e9 uma coisa que meu irm\u00e3o colocou ali. "
+                  "Sei disso, e sinto do mesmo jeito.",
         },
         [("2", "06"), ("2", "08")],
     ),
@@ -84,6 +88,9 @@ QUOTES = [
                   "trattamento.",
             "nl": "Hasumi Ritsuko heeft tijdens de wachttijd op eigen kracht "
                   "haar lading verlaagd en heeft de behandeling afgewezen.",
+            "pt": "Hasumi Ritsuko baixou a pr\u00f3pria carga por conta "
+                  "pr\u00f3pria durante o per\u00edodo de espera e recusou "
+                  "o procedimento.",
         },
         [("1", "02"), ("2", "08")],
     ),
@@ -94,7 +101,8 @@ QUOTES = [
          "es": "Luz, dolor, cerrar",
          "fr": "Lumière, douleur, fermer",
          "it": "Luce, dolore, chiudere",
-         "nl": "Licht, pijn, sluiten"},
+         "nl": "Licht, pijn, sluiten",
+         "pt": "Luz, dor, fechar"},
         [("1", "04"), ("2", "08")],
     ),
     (
@@ -105,12 +113,13 @@ QUOTES = [
          "es": "Moverse, detenerse, no saber",
          "fr": "Bouger, s'arrêter, ne pas savoir",
          "it": "Muoversi, fermarsi, non sapere",
-         "nl": "Bewegen, stoppen, niet weten"},
+         "nl": "Bewegen, stoppen, niet weten",
+         "pt": "Mover, parar, n\u00e3o saber"},
         [("1", "04"), ("2", "08")],
     ),
 ]
 
-LANGS = ["en", "de", "es", "fr", "it", "nl"]
+LANGS = ["en", "de", "es", "fr", "it", "nl", "pt"]
 
 # 語彙表の「定型句」。原文が意図して繰り返す文は、訳文でも一字一句同じに
 # 出なければならない。どの語彙表にもそう書いてあるが、守られているかを
@@ -138,6 +147,7 @@ FORMULAE = [
             "fr": "poser l'eau",
             "it": "è posare l'acqua",
             "nl": "is het water neerzetten",
+            "pt": "\u00e9 colocar a \u00e1gua",
         },
     ),
     (
@@ -150,6 +160,7 @@ FORMULAE = [
             "fr": "au fond, c'est a\u00e9rer",
             "it": "in fondo, è dare aria",
             "nl": "in wezen ventileren",
+            "pt": "no fundo, \u00e9 ventilar",
         },
     ),
     (
@@ -162,6 +173,7 @@ FORMULAE = [
             "fr": "voix sans genre et sans humidit\u00e9",
             "it": "voce senza genere e senza umidit\u00e0",
             "nl": "stem zonder geslacht en zonder vochtigheid",
+            "pt": "voz sem g\u00eanero e sem umidade",
         },
     ),
 ]

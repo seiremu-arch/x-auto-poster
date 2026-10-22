@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""14冊のKDP登録情報を1枚にまとめ、同時に食い違いを検査する。
+"""全巻のKDP登録情報を1枚にまとめ、同時に食い違いを検査する。
 
 使い方:
     python3 book/tools/kdp_metadata.py          # 検査して一覧を書き出す
@@ -26,10 +26,12 @@ OUT = ROOT / "KDP-メタデータ一覧.md"
 
 # 登録の順番。第一巻を先に出してシリーズ名を確定させる
 ORDER = ["vol1", "vol2", "en1", "en2", "de1", "de2",
-         "es1", "es2", "fr1", "fr2", "it1", "it2", "nl1", "nl2"]
+         "es1", "es2", "fr1", "fr2", "it1", "it2", "nl1", "nl2",
+         "pt1", "pt2"]
 
 LANG_OF = {"vol": "ja", "en": "en", "de": "de",
-           "es": "es", "fr": "fr", "it": "it", "nl": "nl"}
+           "es": "es", "fr": "fr", "it": "it", "nl": "nl",
+           "pt": "pt"}
 
 # 言語ごとの市場と電子書籍の軽減税率。税率はロイヤリティの計算に効く
 MARKETS = {
@@ -40,6 +42,7 @@ MARKETS = {
     "fr": ("amazon.fr / .ca / .be", "5,5%"),
     "it": ("amazon.it", "4%"),
     "nl": ("amazon.nl / .com.be", "9%（白6%）"),
+    "pt": ("amazon.com.br", "書籍は憲法上の免税（電子書籍も対象）"),
 }
 
 
@@ -107,7 +110,7 @@ def read_book(vol: str) -> dict:
 
 
 def field(book: dict, i: int) -> str:
-    """詳細表のi行目の右側。行の並びは全14冊で同じ（題・副題・シリーズ・巻・著者・言語・ISBN）。"""
+    """詳細表のi行目の右側。行の並びは全巻で同じ（題・副題・シリーズ・巻・著者・言語・ISBN）。"""
     rows = book["detail"]
     return rows[i][1] if i < len(rows) else ""
 
@@ -147,7 +150,7 @@ def check(books: list) -> int:
 
     # シリーズ名は、同じ言語の二巻で巻番号の部分以外が一致していなければならない。
     # ここが一字違うと、Amazonはシリーズページを二つ作る。
-    for lang in ("ja", "en", "de", "es", "fr", "it", "nl"):
+    for lang in ("ja", "en", "de", "es", "fr", "it", "nl", "pt"):
         pair = [b for b in books if b["lang"] == lang]
         if len(pair) != 2:
             continue
@@ -198,7 +201,7 @@ def write(books: list) -> None:
     L = []
     a = L.append
 
-    a("# KDPメタデータ一覧（14冊）")
+    a(f"# KDPメタデータ一覧（{len(books)}冊）")
     a("")
     a("**この表は手で書かない。** 各巻の `KDP登録情報.md` が正本で、")
     a("`python3 book/tools/kdp_metadata.py` が読み直して書き出す。")
@@ -233,14 +236,14 @@ def write(books: list) -> None:
         a(f"| `{b['vol']}` | {b['stories']} | {b['ja_chars']:,}字 | {w} | {r} | "
           f"`{Path(epub).name}` | `{Path(cover).name}` |")
     a("")
-    a("原文の字数は日本語版の原稿から数えた値で、同じ巻の七言語で同じになる。")
+    a("原文の字数は日本語版の原稿から数えた値で、同じ巻ならどの言語でも同じになる。")
     a("訳文の語数は空白区切りの語数。比は words/字。")
     a("")
     a("## 3. 市場と税率")
     a("")
     a("| 言語 | 主な市場 | 電子書籍の付加価値税 |")
     a("|---|---|---|")
-    for lang in ("ja", "en", "de", "es", "fr", "it", "nl"):
+    for lang in ("ja", "en", "de", "es", "fr", "it", "nl", "pt"):
         m, vat = MARKETS[lang]
         a(f"| {lang} | {m} | {vat} |")
     a("")
@@ -257,7 +260,7 @@ def write(books: list) -> None:
     a("")
     a("内容紹介もそのまま入れてある。この節だけで登録画面はうまる。")
     a("貼る前に、内容紹介に応募作の文が紛れていないかを `check_overlap.py` が")
-    a("見ている（七言語・各巻の第2節を対象にしている）。")
+    a("見ている（全言語・各巻の第2節を対象にしている）。")
     a("")
     for i, b in enumerate(books, start=1):
         a(f"### {i}. `{b['vol']}` — {field(b, 0)}")
@@ -293,14 +296,14 @@ def write(books: list) -> None:
     a("   一字でも違うと、Amazonはシリーズページを二つ作る。アポストロフィの")
     a("   形（`'` と `’`）も違いとして数えられる。この道具が検査している。")
     a("2. **ISBNは不要。** KDPが内部管理番号を自動で付ける。自分で買う必要はない。")
-    a("3. **著者名は全14冊で同じ綴り。** `Kazu A. Suzuki`。")
+    a(f"3. **著者名は全{len(books)}冊で同じ綴り。** `Kazu A. Suzuki`。")
     a("   表記が揺れると著者ページが分かれる。")
     a("4. **出版言語は原稿の言語に合わせる。** ここを間違えると、")
     a("   その言語の読者に推薦されない。")
     a("5. **価格は税抜額を確認。** 70%プランが使えるのは")
     a("   2,99 €〜9,99 €（日本は250円〜1,250円）の範囲。")
     a("6. **応募作は一冊も含まない。** 『境界線、未編集』は未発表のままで、")
-    a("   14冊のどこにも入っていない。`check_overlap.py` が七言語で")
+    a(f"   {len(books)}冊のどこにも入っていない。`check_overlap.py` が全言語で")
     a("   機械的に確認している。内容紹介に紛れ込ませないこと。")
     a("")
     a("---")
