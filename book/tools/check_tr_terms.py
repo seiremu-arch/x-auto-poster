@@ -333,7 +333,9 @@ CHECKS_PT = [
      r"|\bhalftint\b|\bper cent\b"),
     # 綴り字記号の落ち。シリーズの用語で起きやすいものだけを挙げる。
     ("綴り字記号が落ちている（n\u00famero / \u00edndice / t\u00e9cnico など）",
-     r"\bnumero\b|\bnumeros\b|\bindice\b|\bindices\b|\btecnic\w*\b"
+     # tecnicamente は無標（強勢が移るので記号が付かない）。tecnic\w* で
+     # 括ると正しい語を誤りとして鳴らすので、名詞・形容詞の形だけを見る。
+     r"\bnumero\b|\bnumeros\b|\bindice\b|\bindices\b|\btecnic[oa]s?\b"
      r"|\bcondomino\w*\b|\bgenero\b|\borgao\w*\b|\bresiduo\b"
      r"|\bperiodo\b|\bproprio\w*\b|\bultimo\w*\b"),
     ("漢数字の残り（〇・一二三…）", r"[〇一二三四五六七八九十]"),
