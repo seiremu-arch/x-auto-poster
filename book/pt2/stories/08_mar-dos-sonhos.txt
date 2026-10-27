@@ -1,0 +1,257 @@
+VIII. O mar dos sonhos
+
+
+I
+
+　O Arquivo tem quarenta e três exercícios de fragmentos.
+
+　Fisicamente está dividido em nove alas, e a capacidade conjunta é, segundo o declarado, de cento e vinte exabytes. A taxa real de uso é de noventa e quatro por cento, e o plano de ampliação está parado há cinco anos.
+
+　Kurusu pertence ao setor de Gestão do Arquivo. O trabalho é liberar capacidade.
+
+　— A meta de redução deste exercício — Kurusu abriu o terminal.
+
+　— 6,2 por cento — disse o Corretor. — A meta do exercício anterior foi de 4,8 por cento, com trinta e um por cento de cumprimento.
+
+　— Trinta e um por cento.
+
+　— Sim.
+
+　A redução fica abaixo da meta todos os anos. A razão é simples: há pouco que se possa apagar.
+
+　O Arquivo é o posto mais sem cor de todas as instalações da Repartição. Não vem ninguém. O telefone não toca. O resultado do trabalho se mede por um único número, a quantidade apagada.
+
+　Kurusu está aqui há seis anos. Em seis anos, nunca cumpriu a meta de redução. O antecessor também não, nem o anterior a ele. Ninguém pode ser cobrado. Porque nos outros setores não existe parâmetro de comparação com que cobrar.
+
+
+II
+
+　A guarda dos dados de fragmentos tem três categorias.
+
+　A primeira categoria é a guarda por contrato. Enquanto o usuário vive, ou enquanto um herdeiro paga a taxa de administração, ela é guardada. Não se apaga.
+
+　A segunda categoria é a guarda legal. Diz respeito a tratamento penal e investigação de casos, e o prazo de guarda é fixado em lei. Dentro do prazo não se apaga.
+
+　A terceira categoria era todo o resto.
+
+　O que Kurusu toca é apenas essa terceira categoria.
+
+　— Qual o volume total da terceira categoria?
+
+　— Trinta e sete por cento do conjunto — disse o Corretor.
+
+　— Mostre o detalhamento.
+
+　Abriu-se uma tabela. A maior parte eram registros que atendem aos critérios de destruição e não foram destruídos. Texto livre de técnicos. Notas que não entraram na estatística. Declarações sem campo. Resíduo julgado como valor que pode ser desprezado.
+
+　Quarenta e um exercícios, cerca de duzentos e oitenta milhões de unidades.
+
+
+III
+
+　Kurusu releu o dossiê de passagem do antecessor.
+
+　Pode-se recuar até três antecessores. Todos os três elaboraram plano de redução da terceira categoria. Todos os três não o executaram.
+
+　No dossiê de passagem não havia razão escrita.
+
+　— A razão da parada dos planos de redução?
+
+　— Não consta nos registros — disse o Corretor.
+
+　— Então o que houve imediatamente antes da parada?
+
+　— Todos os três consultaram os registros retidos no mês anterior à parada.
+
+　Kurusu leu aquela linha duas vezes.
+
+　Ele também está, hoje, a ponto de abri-los. Está, portanto, de pé aqui na mesma ordem que os antecessores.
+
+
+IV
+
+　Kurusu abriu.
+
+　Abrir não deixa ver o conteúdo. A composição das faixas, e as informações de registro. É tudo o que o Arquivo possui.
+
+　Como não se podem ver duzentos e oitenta milhões de unidades uma por uma, Kurusu pôs um critério de extração. Não por quantidade, mas ordenados pelo número de consultas.
+
+　O primeiro era um registro de quarenta anos atrás.
+
+　Número de consultas: seis mil duzentas e onze.
+
+　— Quem consulta?
+
+　— O processamento de síntese — disse o Corretor. — Consulta para extrair características.
+
+　— Seis mil e duzentas vezes o mesmo registro.
+
+　— Sim.
+
+　Kurusu abriu as informações daquele registro.
+
+　Identificador de quem o lançou não há. Data também não. Lugar também não. A categoria constava como: relatório de leitor, anotação à margem do campo da taxa de contaminação.
+
+　Quarenta anos atrás existia o ofício de leitor. É o trabalho de usar o cérebro de uma pessoa como aparelho de referência para pôr em língua os fragmentos de um paciente sem consciência. Havia um campo taxa de contaminação, em que se consignava que parte do relatório era do próprio leitor.
+
+　Anotação à margem significa o que não cabia naquele campo.
+
+　— Por que este registro é consultado seis mil vezes?
+
+　— Porque é útil para produzir a textura da síntese — disse o Corretor. — Na memória de uma pessoa há uma quantidade fixa que ela mesma não pode explicar. Como característica dessa parte, as anotações à margem são avaliadas como de alta precisão.
+
+　— Então é usado como amostra da parte que não se explica?
+
+　— É isso.
+
+　Kurusu mastigou um tempo aquela explicação.
+
+　Porque o formulário não tinha campo, foi escrito na margem. Porque foi escrito na margem, não entrou nos registros oficiais. O que não entrou é, quarenta anos depois, misturado todos os dias em alguma síntese como amostra do inexplicável do coração humano.
+
+
+V
+
+　Kurusu extraiu todas as anotações à margem.
+
+　Eram mil e quatrocentas. O número total de leitores é, segundo os registros, dezenove. Dá cerca de setenta por pessoa.
+
+　O conteúdo era sempre curto. Três a cinco linhas. Como o formulário não tinha campo, o que se escrevia na margem de um relatório foi depois recolhido por máquina e passado à guarda.
+
+　Kurusu olhou a composição de uma delas. Há registro de data. Março, quarenta anos atrás. Há registro de lugar também. A segunda sala de observação do instituto.
+
+　Havia também o identificador do leitor.
+
+　Kurusu consultou aquele identificador.
+
+　— Não pode ser comunicado — disse o Corretor. — Os identificadores dos leitores foram desligados do sistema de consulta com a extinção do ofício.
+
+　— A pessoa ainda está viva?
+
+　— Não é apurável.
+
+　— Então de quem são estas mil e quatrocentas?
+
+　— Não existe o campo propriedade.
+
+　Kurusu mandou dar a distribuição das datas daquelas mil e quatrocentas.
+
+　Estava concentrada nos sete anos de quarenta anos atrás a trinta e três anos atrás. Depois disso, quase nada. Coincide com a época em que o ofício de leitor foi extinto pelo aumento da capacidade da máquina de converter em língua.
+
+　Por sete anos, dezenove pessoas escreveram na margem o que não tinha campo. Não para que alguém lesse. Que não havia destino para ler, quem escrevia devia saber melhor que ninguém.
+
+　E ainda assim escreveram. Essa razão não consta nos registros.
+
+　— Vou ler uma — disse Kurusu.
+
+　— O conteúdo não é reproduzível — disse o Corretor. — As anotações à margem dos relatórios de leitor estão consignadas em letras. Sendo letras, pode ser exibido.
+
+　Kurusu titubeou um instante com aquela distinção.
+
+　Um fragmento não é reproduzível. Mas letras escritas numa margem são letras comuns. Uma máquina leu os relatórios de papel de quarenta anos atrás e os guardou como texto.
+
+　— Exiba.
+
+　Foi exibido. Eram duas linhas.
+
+　— Taxa de contaminação de hoje, dois por cento. Como número, a melhor até agora. No entanto, hoje apareceu no sonho do sujeito sete a escada da minha pensão.
+
+
+VI
+
+　Levou ao chefe de setor no fim daquela semana. Um homem de mais de cinquenta anos, rigoroso com números.
+
+　— A terceira categoria pode ir, não pode?
+
+　— Pelas normas pode.
+
+　— Então apague. Com isso já se preenche metade daqueles 6,2 por cento.
+
+　— Deixe-me conferir um ponto — disse Kurusu. — Apagando a terceira categoria, a qualidade da síntese cai.
+
+　— Quanto?
+
+　— No cálculo, doze pontos de satisfação.
+
+　O chefe fechou o rosto.
+
+　— Isso não dá.
+
+　— Não dá.
+
+　— Então apague só a parte que não é consultada — disse o chefe. — Mantenha os registros que são consultados seis mil vezes e derrube os que nunca foram consultados uma vez. Isso não toca a qualidade.
+
+　Kurusu levou aquela proposta consigo.
+
+　No cálculo, os registros com zero consultas eram oitenta por cento da terceira categoria. Apagando, a meta se cumpre. O efeito na qualidade: 0,4 pontos. Dentro da margem de erro.
+
+
+VII
+
+　Um registro com zero consultas Kurusu abriu.
+
+　Escolheu ao acaso. A categoria era: razão de recusa da recomposição, texto livre. Era de dois anos atrás.
+
+　Havia três linhas.
+
+　— Sei que é uma coisa que meu irmão colocou ali. Sei disso, e sinto do mesmo jeito.
+
+　Kurusu ficou um tempo olhando aquilo.
+
+　Zero consultas significava que aquelas três linhas, em dois anos, não foram lidas por ninguém. O servidor que as escreveu talvez soubesse que não seriam consultadas, e talvez não soubesse. Em qualquer dos casos, escreveu.
+
+　Kurusu abriu outro. Recusa, fora das categorias. Dezenove anos atrás.
+
+　— Hasumi Ritsuko baixou a própria carga por conta própria durante o período de espera e recusou o procedimento.
+
+　Havia quatro linhas. A quarta linha dizia assim:
+
+　— As recusas seguem em zero na estatística. Este caso não pode ser contabilizado em lugar algum.
+
+　Kurusu tirou as mãos do terminal.
+
+　Zero consultas não significava que algo não serve para nada. Significava que ninguém o leu.
+
+　O registro que a síntese consulta seis mil vezes serve. Contribui para a qualidade. Por isso fica. Era esse, desta vez, o critério.
+
+　Seguindo o critério, desaparecem oitenta por cento das linhas que nunca foram lidas.
+
+　Kurusu abriu mais um. Candidato de tradução, não adotado. Seis anos atrás.
+
+　— Certeza de correspondência trinta e um por cento. Além do candidato adotado foram geradas duas sequências: Luz, dor, fechar, e Mover, parar, não saber. Não coerentes como história, portanto não adotadas.
+
+　Abaixo havia uma linha acrescentada à mão.
+
+　— A mãe não sabe o que não foi adotado.
+
+　Kurusu fechou o terminal. Depois de fechar, abriu outra vez e leu aquela mesma linha.
+
+　O nome do técnico que a escreveu não consta nos registros. Só a data em que foi escrita está lá. Era seis anos atrás, pouco depois das duas da madrugada de certo dia.
+
+
+VIII
+
+　Kurusu elaborou o plano de redução.
+
+　O objeto são os registros com zero consultas dentro da terceira categoria, 29,6 por cento do conjunto. Vai muito acima da meta anual de 6,2 por cento. A decisão passaria.
+
+　Depois de terminar de escrever o documento, Kurusu o deixou de lado sem apresentar.
+
+　Deixou três dias. No quarto dia, com o campo da decisão ainda vazio, acrescentou isto nas observações:
+
+　— De parte dos registros com zero consultas abrangidos, o conteúdo foi apurado. Todos são consignações de matérias para as quais o formulário oficial não preparou campo. Não ser consultado e não ter sido necessário consignar não são a mesma coisa.
+
+　Depois de escrever, Kurusu pensou em quem leria esta observação.
+
+　Quem decide lê. Mas o que quem decide olha são dois números: a taxa de redução e o efeito na qualidade. O campo de observações não está entre os pontos sobre os quais se decide.
+
+　Quer dizer que esta observação também se torna um registro com zero consultas.
+
+　Kurusu riu um pouco. Depois de rir, retirou o documento.
+
+　No campo da razão da retirada escreveu: para reexame. Era a mesma palavra que estava nos dossiês de passagem dos seus três antecessores. Em que ordem aqueles três chegaram aqui, Kurusu entendeu agora.
+
+　Tornou-se o quarto.
+
+　A taxa de uso da capacidade continua em noventa e quatro. O plano de ampliação está parado há cinco anos. Quantos anos ainda aguenta está nos cálculos. Está, e Kurusu decidiu não olhar.
+
+　Mesmo olhando, ele provavelmente faz o mesmo.
