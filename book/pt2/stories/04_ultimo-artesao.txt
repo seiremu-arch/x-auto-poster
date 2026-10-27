@@ -1,0 +1,263 @@
+IV. O último artesão
+
+
+I
+
+　Taxa de processamento automático noventa e oito vírgula quatro por cento, aparece no painel da parede.
+
+　Os restantes um vírgula seis por cento cabiam a técnicos humanos. Na terceira sala de edição restam, contando Nagoshi, apenas dois técnicos.
+
+　Nagoshi tem sessenta e quatro anos e se aposenta em oito meses. O outro está no fim dos cinquenta e sai no ano que vem. Reposição depois que os dois saírem não está prevista.
+
+　— Alocação de hoje, três — disse o Corretor. — Em todos os três, o processamento automático não emitiu juízo de conclusão.
+
+　O processamento automático para quando o arraste aos fragmentos vizinhos excede o valor normativo. Os casos que pararam chegam a um humano. Quer dizer que o que chega às mãos de Nagoshi é só aquilo em que a máquina não tocou.
+
+　— Mostre o primeiro.
+
+　Alinharam-se faixas. Nagoshi contou da esquerda e parou a mão na sexta.
+
+
+II
+
+　O requerente era um homem de quarenta e tantos, e o objeto era uma memória de oito anos atrás.
+
+　A razão pela qual o processamento automático parou estava na densidade dos fragmentos vizinhos. Imediatamente ao lado do fragmento que se quer reduzir há três outros fragmentos em posição de quase sobreposição. Pressionando um, os três se movem.
+
+　A máquina não gosta de uma forma assim. Quanto se pode deslocar está fixado, e o que vaza para os vizinhos se soma ao deslocado. Somado, passa do limite superior. Passando, ela para.
+
+　Nagoshi procurou o ponto de pressão.
+
+　Dos quatro fragmentos amontoados, o que se quer reduzir é um. Mas a raiz dos quatro está ligada, e lugar para pressionar um deles de modo independente não há em parte alguma. O juízo da máquina estava correto.
+
+　Estava correto, mas não significava que não havia lugar para pressionar.
+
+　Nagoshi pôs o dedo num ponto um pouco afastado da borda do fragmento. Não pressionar diretamente, mas aplicar pressão solta a partir de onde a densidade em torno é baixa. Os quatro afundaram um pouco no conjunto e depois três voltaram. O que não voltou era aquele que se queria reduzir.
+
+　— Carga afetiva, de 0,81 para 0,77 — leu o Corretor. — Variação dos fragmentos vizinhos, 0,006 no total. Dentro das normas.
+
+　— Então termina em uma noite.
+
+　— Termina.
+
+
+III
+
+　Este gesto de mão Nagoshi não consegue explicar a ninguém.
+
+　Já lhe pediram explicação muitas vezes. Houve época em que técnicos jovens vinham observar, e ele também deixou registrar o seu procedimento para que a máquina aprendesse. Os registros devem existir.
+
+　Existem, e ainda assim não é reproduzido.
+
+　— Uma pergunta — disse Nagoshi. — O que foi feito do modelo que aprendeu o meu procedimento?
+
+　— O uso foi interrompido três anos atrás — disse o Corretor.
+
+　— Por qual razão?
+
+　— Porque a taxa de reprodução caiu abaixo de quatro décimos.
+
+　— Quatro décimos.
+
+　— Diante da mesma entrada, em seis décimos dos casos não se escolhia a mesma operação — disse o Corretor. — As suas operações são, mesmo diante de fragmentos da mesma forma, diferentes todas as vezes.
+
+　Nagoshi riu um pouco ao ouvir aquilo.
+
+　Mesmo parecendo a mesma forma, não é a mesma pessoa. Mesmo sendo a mesma pessoa, o sono daquela noite é outro. Por isso é diferente todas as vezes. Era coisa evidente. A coisa evidente a máquina chama de baixa reprodutibilidade.
+
+　Aliás, Nagoshi também não tinha o que alegar.
+
+　Escolher uma operação diferente todas as vezes significa que nem Nagoshi sabe qual delas estava certa. Quarenta anos de trabalho, e na memória dele as vezes que deram certo são maioria. Mas dos casos que não deram certo, em geral, não se lembra. Um ser humano é feito assim.
+
+　O que ele não lembra, a máquina lembra. Todas as operações dos quarenta anos de Nagoshi estão nos registros, e os fracassos estão lá com a mesma precisão.
+
+　Por isso a máquina avalia os quatro décimos de Nagoshi com mais exatidão do que ele mesmo.
+
+
+IV
+
+　Depois do meio-dia veio um servidor jovem.
+
+　Na casa dos vinte e, segundo ele, do setor de Planejamento Operacional. No cartão estava escrito: encarregado da promoção da automação.
+
+　— O senhor tem um momento, sobre a questão depois da sua aposentadoria?
+
+　— É sobre a passagem do trabalho?
+
+　— Passagem, se o senhor quiser chamar assim — o servidor pareceu achar difícil dizer. — A terceira sala de edição será fechada a partir do próximo exercício.
+
+　— Então é isso.
+
+　— Os casos daquele um vírgula seis por cento nós pretendemos absorver afrouxando o limiar do processamento automático.
+
+　Nagoshi levantou os olhos do terminal.
+
+　— Afrouxar quer dizer elevar o valor normativo do arraste?
+
+　— Sim. O atual 0,01 para 0,03.
+
+　— É o triplo.
+
+　— O triplo — o servidor tirou os documentos. — No cálculo, com isso mais de nove décimos daquele um vírgula seis por cento entram em juízo de conclusão automaticamente.
+
+　Nagoshi recebeu os documentos e seguiu os números. O cálculo era sólido. Triplicando o limiar, casos em que a máquina para praticamente desaparecem.
+
+　— E o décimo restante?
+
+　— Continua parando, mas nesses casos processamos aumentando o número de divisões — disse o servidor. — O que não termina em uma noite se preenche com noites.
+
+　— Os vizinhos não se movem.
+
+　— Movem-se. Até 0,03.
+
+　— E esse 0,03, de onde vem?
+
+　— É o triplo do valor atual — respondeu o servidor. Era um modo de responder sem má intenção. De fato, provavelmente não havia.
+
+　— Com que fundamento o triplo?
+
+　— É o valor em que se absorve nove décimos daquele um vírgula seis por cento — o servidor abriu outra folha. — No dobro só se absorve seis décimos. No quádruplo, aí a comissão clínica faz objeção.
+
+　— E o triplo passou pela comissão?
+
+　— Passou. 0,03 está dentro da meia-tinta, então o vestígio permanece. Permanecendo dentro da faixa em que o vestígio permanece, é seguro: esse é o parecer da comissão.
+
+　Nagoshi ficou preso àquele modo de dizer.
+
+　Permanecendo dentro da faixa em que o vestígio permanece, é seguro. A ordem está invertida em relação ao que o instrutor dizia quarenta anos atrás. O instrutor dizia que o limite superior existe para que o vestígio permaneça. Agora se diz que o vestígio permanece porque está dentro do limite.
+
+　Parece a mesma coisa, e é outra. A primeira tem o vestígio como finalidade; a segunda tem o limite como fundamento.
+
+　Nagoshi não tinha confiança de que conseguiria explicar essa diferença, então ficou calado.
+
+
+V
+
+　Naquela noite, Nagoshi percorreu os registros dos casos que ele mesmo tocou.
+
+　São de quarenta anos. Em número, passavam de vinte mil.
+
+　Mandou contar em quantos deles a variação dos fragmentos vizinhos passou de 0,01.
+
+　— Trinta e sete — disse o Corretor.
+
+　— E dos que passaram de 0,03?
+
+　— Nenhum.
+
+　Nagoshi ficou um tempo olhando aquele número.
+
+　Trinta e sete em quarenta anos. Dos trinta e sete acima de 0,01, apenas quatro passaram de 0,02. A mão de Nagoshi se moveu, portanto, quarenta anos dentro do valor atual da máquina.
+
+　O novo limiar é 0,03. Um valor que Nagoshi não excedeu uma única vez em quarenta anos passa a ser usado diariamente pela máquina a partir do próximo exercício.
+
+　— Uma variação de 0,03 nos vizinhos faz o quê a um paciente?
+
+　— A carga afetiva do fragmento vizinho cai 0,03 — disse o Corretor.
+
+　— Isso eu sei. Eu pergunto o que ela faz.
+
+　— Esse campo não é registrado.
+
+
+VI
+
+　Na semana seguinte, Nagoshi apresentou um parecer.
+
+　Não era um documento contra o afrouxamento do limiar. Ele sabia que ser contra não passaria. O que escreveu foi aquele único ponto: que a variação dos fragmentos vizinhos continue a ser registrada também depois do afrouxamento.
+
+　Hoje, a variação nos vizinhos só é registrada quando excede o valor normativo. Não excedendo, não é registrada. Triplicando o limiar, a maior parte do que até agora era registrado entra na área que não é registrada.
+
+　Não é a variação que desaparece. É o registro que desaparece.
+
+　A resposta veio duas semanas depois.
+
+　— O acréscimo de campos de registro fica, neste momento, dispensado, em vista do custo de adequação do sistema. Ademais, variação dentro do valor normativo é tida como clinicamente sem problema, de modo que a necessidade de registro é julgada baixa.
+
+　Nagoshi leu aquela segunda linha algumas vezes.
+
+　É tida como sem problema. Quem julgou assim não está escrito. A pesquisa em que o juízo se funda também não é indicada. Apenas, é tida.
+
+　Quarenta anos atrás, quando Nagoshi fez a formação, o instrutor disse isto: o limite superior não existe por limite da técnica, existe para que se fique na faixa em que o vestígio permanece. Enquanto o vestígio permanece, uma pessoa pode duvidar se a sua memória foi tocada.
+
+　Triplicando o limiar, aquele raciocínio não muda. 0,03 ainda está dentro da meia-tinta. O vestígio permanece.
+
+　Permanece, mas não é registrado. Para duvidar, primeiro é preciso uma razão para duvidar. Se nos registros não aparece nada que sirva de razão, não há o que duvidar.
+
+
+VII
+
+　Três meses antes da aposentadoria, Nagoshi recebeu o seu último visitante.
+
+　Era aquele servidor jovem do setor de Planejamento Operacional. Pediu para ver o gesto de mão de Nagoshi uma vez. Não era ordem de cima, era desejo próprio.
+
+　Nagoshi escolheu um caso com fragmentos amontoados.
+
+　— Olhando não se entende.
+
+　— Não precisa entender.
+
+　Nagoshi pôs o dedo. Um ponto um pouco afastado da borda do fragmento. Não diretamente, mas pressão solta a partir de onde a densidade em torno é baixa. Os quatro afundaram um pouco e três voltaram.
+
+　— Voltaram — disse o servidor.
+
+　— Voltaram.
+
+　— Por que só três voltam?
+
+　— Não sei — disse Nagoshi. — Faço isto há quarenta anos e não sei.
+
+　O servidor ficou calado.
+
+　— Uma máquina não faz nada de que não saiba a razão — continuou Nagoshi. — Eu fiz quarenta anos sem saber a razão. Não se trata de quem dos dois está certo.
+
+　— Então do que se trata?
+
+　Nagoshi pensou um instante.
+
+　— Do que sobra.
+
+　— Do que sobra.
+
+　— Quanto se pode pressionar está fixado, e eu sempre me movi só do lado de dentro disso. Em quarenta anos toquei a norma só trinta e sete vezes — disse Nagoshi. — O que eu não toquei sobra. É esse sobrar que eles vão usar a partir do ano que vem.
+
+　— O que se pode usar, é melhor —
+
+　— É verdade — admitiu Nagoshi. — Eu também não digo que uma sobra seja coisa boa. Apenas, aquilo não é sobra, é folga.
+
+　O servidor fez cara de não entender. Nagoshi também não achou que tinha dito bem.
+
+　— Folga, o senhor diz — perguntou o servidor.
+
+　— Entre o limite do que se pode pressionar e o que de fato se pressiona — disse Nagoshi. — Porque ali há espaço aberto, pode-se hesitar. Até onde pressionar se decide por si mesmo todas as vezes.
+
+　— Se é permitido pressionar até o limite, então não é preciso hesitar, não é?
+
+　— Exatamente — disse Nagoshi. — Por isso a máquina não hesita. Não hesitar é mais rápido e, somando tudo, provavelmente mais certo.
+
+　— O senhor acha que é melhor hesitar?
+
+　Nagoshi não respondeu por um tempo.
+
+　— Não acho — disse Nagoshi. — Hesitei quarenta anos, e não tenho uma única prova de que essa hesitação tenha sido boa para os pacientes. Há apenas o registro de trinta e sete casos. Aquilo não é prova de que eu era bom, é o registro de que toquei a norma trinta e sete vezes.
+
+　— Então não sobra nada?
+
+　— Nada — disse Nagoshi. — Por isso você ter vindo aqui hoje tem, provavelmente, mais sentido.
+
+　O servidor não disse nada a isso.
+
+
+VIII
+
+　No dia em que Nagoshi saiu da Repartição, a placa da terceira sala de edição foi retirada na mesma semana.
+
+　A taxa de processamento automático chegou, no exercício seguinte, a noventa e nove vírgula oito por cento. Os restantes zero vírgula dois por cento são os casos em que a máquina suspendeu o processamento, e estão empilhados, suspensos, na fila.
+
+　O limiar foi afrouxado para 0,03. A variação dos fragmentos vizinhos não é registrada até 0,03.
+
+　A variação que Nagoshi deixou nos registros só trinta e sete vezes em quarenta anos continua nos registros. Em quarenta anos de registros, são apenas aqueles trinta e sete casos que mostram que um vizinho se moveu.
+
+　Nos registros posteriores não há um único vestígio de que um vizinho se tenha movido.
+
+　Não porque não se movem.
