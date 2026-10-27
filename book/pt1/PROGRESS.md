@@ -21,10 +21,10 @@ dois livros. Compilar com `python3 book/tools/build_epub.py pt1`.
 | VI | 夢税 | Imposto sobre sonhos | 3.391 | 1.615 | **pronto** |
 | VII | 涙の代筆 | O luto por procuração | 4.476 | 2.091 | **pronto** |
 | VIII | 夢裁判 | A pena | 4.577 | 2.136 | **pronto** |
-| IX | 目覚めない権利 | O direito de não acordar | — | — | aguardando |
-| X | 夢の相続 | A herança | — | — | aguardando |
-| XI | 幸福指数九八 | Índice de Felicidade 98 | — | — | aguardando |
-| XII | 沈黙の被験者 | O sujeito silencioso | — | — | aguardando |
+| IX | 目覚めない権利 | O direito de não acordar | 4.503 | 2.141 | **pronto** |
+| X | 夢の相続 | A herança | 4.587 | 2.199 | **pronto** |
+| XI | 幸福指数九八 | Índice de Felicidade 98 | 4.218 | 2.043 | **pronto** |
+| XII | 沈黙の被験者 | O sujeito silencioso | 4.508 | 2.225 | **pronto** |
 
 Japonês no total, 51.718 caracteres. Os números desta tabela são
 escritos por `python3 book/tools/sync_tr_counts.py pt1`, não à mão.
