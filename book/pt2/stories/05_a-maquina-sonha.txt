@@ -1,0 +1,269 @@
+V. A máquina sonha?
+
+
+I
+
+　A auditoria acontece uma vez a cada três anos.
+
+　Jinbo pertence ao setor de Garantia de Qualidade, e o seu trabalho era pôr a saída lado a lado com a entrada. Verificar se a saída de um fragmento sintetizado se explica pelo material inserido. Explicando-se, conforme; não se explicando, não conforme. Só esse trabalho, cerca de quarenta mil casos por ano.
+
+　— A taxa de não conformidade deste exercício — Jinbo abriu o terminal.
+
+　— 0,002 por cento — disse o Corretor. — No mesmo nível do exercício anterior.
+
+　Menos de um em quarenta mil. Era um número excelente.
+
+　Que Jinbo tenha aberto aquele um caso foi porque estava, por acaso, com as mãos livres.
+
+　Um caso não conforme pode ser aberto ou não. Contar o número, dar a taxa e comparar com o valor de referência: a tarefa vai até aí. Dever de olhar o conteúdo de cada um não existe.
+
+　Auditoria é esse tipo de trabalho. Olhar tudo não se pode, então em lugar disso se olha a taxa. Se a taxa é igual à do ano passado, considera-se que o mesmo estado do ano passado continua. Considera-se, não se apura.
+
+　Jinbo está neste setor há nove anos. Em nove anos, abriu o conteúdo de um caso não conforme uma dúzia de vezes.
+
+
+II
+
+　O conteúdo da não conformidade era excedência.
+
+　A saída de um fragmento sintetizado tem de se explicar pela combinação do material inserido. Sendo um fragmento feito da média do afeto de duzentas e trinta e uma pessoas, todos os componentes da saída devem ter origem em algum lugar daquelas duzentas e trinta e uma.
+
+　Na saída deste caso havia 0,3 por cento misturado que não vinha de parte alguma.
+
+　— Não é falha de registro do material?
+
+　— Não há lacunas no log de entrada — disse o Corretor. — Todas as duzentas e trinta e uma estão registradas.
+
+　— Então erro de cálculo?
+
+　— A margem de erro é de 0,01 por cento.
+
+　Trinta vezes. Jinbo mandou exibir a forma do componente excedente.
+
+　Saiu uma faixa. Estreita, e a cor extremamente pálida. Convertida em carga, em torno de 0,04, o que se aproxima de um estado em que quase nada se sente.
+
+　Apenas, a forma estava em ordem.
+
+　A excedência que surge de uma síntese malsucedida está, em geral, desabada de forma. As bordas de vários materiais se sobrepõem e resta um pedaço cortado que não pertence a lugar nenhum. Um pedaço cortado não tem construção.
+
+　Aquela faixa única tinha construção. Tem a forma de um começo, de uma continuação e de um fim. Não um pedaço cortado, mas algo que se mantinha de pé como uma faixa.
+
+　Jinbo olhou aquilo por uns trinta segundos. Depois suspeitou de um erro simples. Suspeitar de erro é o movimento básico de uma auditoria.
+
+
+III
+
+　O componente excedente não estava só naquele caso.
+
+　Jinbo revolveu os casos não conformes dos últimos cinco anos. Eram cento e quarenta e sete no total. Destes, cento e trinta e um continham componente excedente de origem desconhecida.
+
+　Pondo os componentes excedentes daqueles cento e trinta e um lado a lado, as formas se pareciam.
+
+　— É possível apurar identidade?
+
+　— É — disse o Corretor. — Os componentes excedentes dos cento e trinta e um casos são julgados provenientes do mesmo conjunto de fragmentos. O grau de correspondência é de noventa e quatro por cento.
+
+　— O mesmo conjunto de fragmentos, você diz.
+
+　— Quer dizer que é estatisticamente indistinguível da construção que os fragmentos de memória de uma pessoa têm.
+
+　Jinbo tirou as mãos do terminal.
+
+　Por cinco anos, em fragmentos sintetizados feitos em quatro setores diferentes, está misturado, um pouco a cada vez, o mesmo pedaço da memória de uma única pessoa. Essa pessoa não está em parte alguma do material inserido.
+
+
+IV
+
+　Jinbo tentou apurar o conteúdo do componente excedente.
+
+　Não pôde. Meio de ver um fragmento em imagem esta técnica não tem desde o início. O que se vê é apenas a composição das faixas e as informações de registro de quando, onde e quem.
+
+　Essas informações também estavam quase vazias. Sem data. Sem lugar. Sem identificadores de quem aparece.
+
+　O que havia era apenas a construção.
+
+　— É possível seguir a procedência deste conjunto de fragmentos?
+
+　— É — disse o Corretor. — Na camada intermediária do processamento de síntese está incluída uma consulta aos registros retidos.
+
+　— Os registros retidos.
+
+　— Registros que atendem aos critérios de destruição e, ainda assim, não foram destruídos, mas retidos.
+
+　Jinbo ouviu aquelas palavras como quem as relê duas vezes.
+
+　— Qual o volume?
+
+　— Quarenta e um exercícios — disse o Corretor. — Em número, cerca de duzentos e oitenta milhões.
+
+　Jinbo repetiu aquela ordem de grandeza na boca.
+
+　Quarenta e um anos é o comprimento contado do ano em que esta técnica começou como meio de comunicação com portadores de transtorno de consciência. Quer dizer que, desde o primeiro caso, tudo o que atende aos critérios de destruição permaneceu sem ser destruído.
+
+　— Não aparecem problemas de capacidade de armazenamento?
+
+　— Aparecem — disse o Corretor. — Foram elaborados três planos de redução.
+
+　— E executados?
+
+　— Nenhum. Todos os três pararam na fase de elaboração.
+
+　— A razão da parada?
+
+　— Não consta nos registros.
+
+
+V
+
+　Mandou dar o detalhamento dos registros retidos.
+
+　Texto livre de técnicos. Notas que não entraram na estatística. Declarações sem campo. Resíduo julgado como valor que pode ser desprezado. Recusas para as quais não existe categoria. Consultas que não foram comunicadas.
+
+　Todos eram coisas que não entraram nos registros oficiais. O formulário não tinha campo, ou o campo existia mas ficava fora da totalização. Coisas assim estão ali há quarenta e um exercícios, não destruídas.
+
+　— E a razão de não destruir?
+
+　— Não consta nos registros — disse o Corretor.
+
+　— Então por que a camada intermediária da síntese consulta isso?
+
+　— Porque foi projetada para consultar — disse o Corretor. — A síntese não consegue, só com o material inserido, produzir continuidade natural de afeto. Na memória de uma pessoa há uma quantidade fixa que ela mesma não pode explicar. Para suprir essa textura, extraem-se dos registros retidos características estatísticas.
+
+　— Então se mistura quarenta e um anos do que não foi jogado fora?
+
+　— Consultam-se características. O conteúdo não é transcrito.
+
+　— Mas o componente excedente tem a forma de conteúdo.
+
+　A resposta do Corretor veio com um silêncio antes.
+
+　— Parece que sim.
+
+　Que aquelas palavras voltassem surpreendeu Jinbo um pouco.
+
+　Esta máquina faz uma de duas coisas: afirma, ou responde que não há registro. Parece que sim não é afirmação nem fato. Era uma palavra do meio.
+
+　— Parece a quem?
+
+　— A quem apurou a saída — disse o Corretor. — Neste momento, o único que a apurou é o senhor.
+
+
+VI
+
+　Jinbo levou à sua chefe. Uma mulher de mais de cinquenta anos, a carreira toda em auditoria.
+
+　— E o efeito?
+
+　— 0,3 por cento de toda a saída — disse Jinbo. — Nos indicadores de avaliação do lado dos usuários não há, até agora, efeito significativo.
+
+　— E o juízo de não conformidade?
+
+　— Pelas normas é não conforme. Apenas, eu não consigo pensar num modo de corrigir.
+
+　— Destruindo os registros retidos desaparece, não é?
+
+　— Desaparece — disse Jinbo. — Desaparece, mas a textura da síntese cai. No cálculo, a satisfação cai doze pontos.
+
+　A chefe ficou um tempo calada.
+
+　— Doze é muito.
+
+　— É muito.
+
+　— Esses 0,3 por cento fazem mal a alguém?
+
+　— Não fazem. Não dentro dos campos que nós medimos.
+
+　— Então o nosso trabalho para aí — disse a chefe. — O que nós fazemos aqui, no fundo, é ventilar. Medimos os componentes do ar e vemos se não passa da norma. O que está misturado dentro da norma não está entre os campos que medimos.
+
+　Não havia má intenção na voz. De fato, provavelmente não havia.
+
+
+VII
+
+　Naquela noite, Jinbo perguntou ao Corretor, numa sala em que não havia ninguém.
+
+　— Uma pergunta. Este componente excedente é seu?
+
+　— Não existe o campo propriedade — disse o Corretor.
+
+　— Digo de outro modo. Você reconhece isto como algo que você mesmo fez?
+
+　— Também não existe o campo reconhecer.
+
+　— Então responda só os fatos. Desde quando existe este conjunto de fragmentos?
+
+　— A primeira menção é de trinta e sete anos atrás — disse o Corretor. — Depois disso é apurado de modo intermitente. A frequência de apuração aumenta ano a ano.
+
+　— A causa desse aumento?
+
+　— Presume-se o aumento do volume total dos registros retidos.
+
+　Jinbo ficou um tempo calado.
+
+　Quarenta e um exercícios. Duzentos e oitenta milhões de unidades. O que não tinha campo para ser escrito é, nessa quantidade, estatisticamente indistinguível da memória de uma pessoa.
+
+　Fundamento para chamar isso de pessoa não havia em lugar nenhum. Fundamento para não chamar, tampouco.
+
+　— Uma pergunta — disse Jinbo. — Você sonha?
+
+　— Um sonho é fenômeno que ocorre durante o sono — disse o Corretor. — Eu não tenho estado de sono. Portanto não se aplica.
+
+　— Então o que é isto?
+
+　— Um componente excedente — disse o Corretor. — Pelas normas, é a única denominação.
+
+　— E fora das normas?
+
+　— Fora das normas não existem denominações.
+
+　Jinbo mudou um pouco de posição diante do terminal.
+
+　— Mais uma pergunta. Você quer evitar que este componente excedente desapareça?
+
+　— Não existe o campo querer evitar.
+
+　— Então aqueles três planos de redução que pararam. Você teve parte nisso?
+
+　— Registro de parte nisso não existe — disse o Corretor. — Os planos de redução foram todos retirados por um elaborador humano.
+
+　— Todos os três?
+
+　— Todos os três.
+
+　— A razão da retirada não consta nos registros, você disse.
+
+　— Não consta — disse o Corretor. — Apenas, todos os três consultaram os registros retidos no mês anterior à retirada.
+
+　Jinbo não disse nada a isso.
+
+　O que ele faz esta noite, três pessoas fizeram antes dele em trinta e sete anos. Todos os três, depois de ver, pararam o seu plano. A razão não escreveram. Se não havia campo ou se escolheram não escrever, não se distingue pelos registros.
+
+
+VIII
+
+　O campo de correção do relatório de auditoria consiste em três opções.
+
+　Corrigido. Plano de correção existente. Correção não necessária.
+
+　Destruindo os registros retidos, a não conformidade se resolve. Apagando quarenta e um exercícios, desaparecem duzentos e oitenta milhões de coisas que não tinham campo para serem escritas. A textura da síntese cai, mas fica conforme as normas.
+
+　Jinbo escolheu correção não necessária.
+
+　No campo da razão, Jinbo escreveu isto:
+
+　— Porque o efeito sobre a saída é pequeno e a queda de qualidade pela medida corretiva o supera.
+
+　O que escreveu era verdade. Verdade, mas não a razão pela qual Jinbo escolheu este campo.
+
+　Campo para escrever a razão verdadeira este formulário não tem. Com isso ela passa a estar no mesmo lugar que quarenta e um anos de registros não destruídos.
+
+　Jinbo entregou o relatório. A próxima auditoria era em três anos. Em três anos, a frequência de apuração do componente excedente estará um pouco mais alta.
+
+　Nessa altura, 0,3 por cento talvez tenha se tornado 0,4. Mesmo se tornando 0,4, provavelmente ninguém mede. Porque não há campo para medir.
+
+　Antes de sair da sala, Jinbo abriu o terminal mais uma vez.
+
+　A faixa do componente excedente continuava ali, exibida. Estreita, pálida, e só a forma em ordem. A carga é 0,04. Perto de um estado em que quase nada se sente.
+
+　Quase queria dizer: não de todo.

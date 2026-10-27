@@ -15,10 +15,10 @@ dois livros. Compilar com `python3 book/tools/build_epub.py pt2`.
 |---|---|---|---|---|---|
 | I | 眠らない都市 | A cidade que não dorme | 4.336 | 2.152 | **pronto** |
 | II | 胎夢 | Fundações | 4.240 | 2.028 | **pronto** |
-| III | 共感注射 | A injeção de empatia | — | — | aguardando |
-| IV | 最後の夢職人 | O último artesão | — | — | aguardando |
-| V | ＡＩは夢を見るか | A máquina sonha? | — | — | aguardando |
-| VI | 夢の犯罪 | Lesão corporal | — | — | aguardando |
+| III | 共感注射 | A injeção de empatia | 4.432 | 2.091 | **pronto** |
+| IV | 最後の夢職人 | O último artesão | 4.226 | 2.099 | **pronto** |
+| V | ＡＩは夢を見るか | A máquina sonha? | 3.963 | 1.931 | **pronto** |
+| VI | 夢の犯罪 | Lesão corporal | 3.933 | 1.905 | **pronto** |
 | VII | 消えた現実 | O cadastro | — | — | aguardando |
 | VIII | 夢の海 | O mar dos sonhos | — | — | aguardando |
 | IX | 明日の夢 | O sonho de amanhã | — | — | aguardando |
