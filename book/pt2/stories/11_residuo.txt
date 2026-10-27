@@ -1,0 +1,231 @@
+XI. Resíduo
+
+
+I
+
+　Uma das primeiras coisas que se aprende na formação é o resíduo.
+
+　Fragmentos em que a carga afetiva volta mesmo depois de pressionada. Aparece em algumas pessoas em cada dez mil. É um valor que pode ser desprezado.
+
+　Por trinta anos essa explicação bastou.
+
+　Mayuzumi pertence à segunda sala do Instituto Técnico, e o seu tema se chamava: pesquisa básica sobre a durabilidade do efeito dos procedimentos. Em substância, é o trabalho de procurar por que volta.
+
+　Quando assumiu, o material deixado pelo antecessor eram duas caixas de papelão. Para trinta anos é pouco.
+
+　— Quantas pesquisas anteriores há?
+
+　— Onze — disse o Corretor. — Destas, oito examinaram fatores do lado do aparelho.
+
+　— E as outras três?
+
+　— Examinam a correlação com os hábitos de vida dos abrangidos.
+
+　— E as conclusões?
+
+　— Em todas, não se verificou correlação significativa.
+
+
+II
+
+　O que Mayuzumi fez primeiro foi aumentar o denominador.
+
+　As pesquisas anteriores foram feitas na escala de um município, no máximo algumas dezenas de milhares de casos. Olhando um fenômeno de algumas pessoas em dez mil em algumas dezenas de milhares de casos, juntam-se apenas algumas dezenas. Que não saísse correlação era evidente.
+
+　Mayuzumi tomou por objeto os registros de procedimento de todo o país. Quarenta e três exercícios, cerca de novecentos milhões de casos.
+
+　Os casos com resíduo eram quatrocentos e dez mil.
+
+　— Mostre a distribuição dos atributos.
+
+　Idade, sexo, região, profissão, categoria do procedimento. Em nenhum diferia da distribuição do conjunto. Pessoas em quem o resíduo ocorre não têm atributo.
+
+　Depois olhou o lado dos fragmentos.
+
+　O valor inicial da carga afetiva. O número de divisões do procedimento. A densidade dos fragmentos vizinhos. Aqui também não há viés.
+
+　Em três meses, Mayuzumi fechou todas as variáveis fáceis.
+
+　Fechar significa aqui ter apurado que não há correlação. Como pesquisa, equivalia a não ter obtido nada.
+
+　Os seus antecessores também chegaram, provavelmente, até aqui. As onze pesquisas anteriores bateram todas no mesmo muro e acabaram ali. Não é o aparelho, não é o modo de vida, não são os atributos.
+
+　O que resta é apenas aquela primeira explicação: um valor que pode ser desprezado.
+
+　Mayuzumi procurou de onde vinha aquela explicação. No relatório da verificação inicial, de quarenta anos atrás, havia uma linha.
+
+　— Casos de restauração são raros e a sua influência sobre o efeito do conjunto dos procedimentos é desprezível.
+
+　A influência é desprezível. Sobre a causa não há nada escrito. Nos trinta anos seguintes, aquela linha seguiu sendo citada.
+
+
+III
+
+　No quarto mês, Mayuzumi mudou o modo de montar as variáveis.
+
+　As pesquisas até então olhavam apenas o abrangido e o fragmento. O que Mayuzumi acrescentou são as pessoas fora do abrangido.
+
+　Certa memória está dentro de uma só pessoa. Certa memória várias pessoas têm ao mesmo tempo. O mesmo jantar, a mesma briga, o mesmo velório. Essa memória existe em tantas cabeças distintas quantas são as pessoas que compartilharam o acontecimento.
+
+　Mayuzumi decidiu chamar esse número de número de condôminos.
+
+　O número de condôminos não se mede diretamente. A um fragmento se anexam os identificadores de quem nele aparece, e dali se estima. Entre as pessoas cujo identificador está registrado, contou as que ainda estão vivas.
+
+　Estratificou os quatrocentos e dez mil casos com resíduo e o grupo de controle de novecentos milhões pelo número de condôminos.
+
+　Saiu de uma vez.
+
+　Era uma separação mais limpa que a de qualquer variável que ele tinha levado três meses fechando. Mayuzumi suspeitou primeiro de um erro na própria contagem e levou dois dias refazendo o procedimento. Não havia erro.
+
+
+IV
+
+　Em fragmentos com número de condôminos zero, a taxa de resíduo era de 0,003 por cento.
+
+　Com um condômino, 0,08 por cento. Com dois, 0,41. Com três, 1,2. Passando de cinco, ultrapassa quatro por cento.
+
+　Quanto mais condôminos, mais a carga pressionada volta.
+
+　Mayuzumi ficou meia hora olhando aquela tabela.
+
+　O mecanismo era, pensando bem, simples.
+
+　A memória fica mole cada vez que é lembrada e se fixa de novo. O procedimento intervém nesse curso e reduz a carga. Mas depois do procedimento aquela pessoa segue vivendo. Encontra quem se lembra do mesmo acontecimento. Conversa. Mesmo sem trazer o assunto, basta que o outro esteja ali para que a memória seja chamada.
+
+　Cada vez que é chamada, a memória é atraída para a carga do lado dos condôminos. Os condôminos não receberam procedimento. Por isso a carga deles continua alta.
+
+　Para o alto se aproxima o baixo.
+
+　A meia-tinta pressionada desceu, dentro de uma pessoa, de verdade. O que definia se o estado reduzido se mantinha era com quem aquela pessoa vivia.
+
+　Mayuzumi lembrou-se de um caso de trinta anos atrás. Na formação há um registro que o fizeram ler como material didático. Uma menina de treze anos empurrou de volta, em um mês, uma carga que havia sido reduzida ao longo de sete noites. O técnico de então a tratou com um desenho de divisão, mas no mês seguinte ela estava acima do limiar e na fila de um novo procedimento.
+
+　Naquele registro constava a composição familiar da menina. Havia perdido a mãe num incêndio e restara com o pai, os dois.
+
+　Número de condôminos: um. O lado dos 0,08 por cento.
+
+　Mayuzumi ficou um tempo olhando aquele número. 0,08 por cento significava que simplesmente não acontece. O que simplesmente não acontece aconteceu com aquela menina.
+
+　Condôminos se contam apenas entre os vivos. Aquela com quem a menina dividia a memória morreu naquele incêndio.
+
+　A mãe não é contada entre os condôminos. E ainda assim as sete noites pressionadas voltaram.
+
+　Mayuzumi não tirou aquele caso da contagem. Porque não havia fundamento para tirá-lo. Um caso em quatrocentos e dez mil ficou num lugar sem explicação.
+
+
+V
+
+　Mayuzumi relatou este resultado ao chefe da sala. Um homem na casa dos sessenta, vinte anos naquela sala.
+
+　— Isso também se lê ao contrário — disse o chefe.
+
+　— Ao contrário, o senhor diz?
+
+　— Uma memória que se carrega sozinho, pressionada, fica embaixo — disse o chefe. — Uma memória que se divide com alguém, pressionada, volta. Quer dizer que o procedimento funciona melhor em quem está só.
+
+　Mayuzumi levou um momento para acolher aquele modo de dizer.
+
+　— Sai assim.
+
+　— Os nossos aparelhos são assim há quarenta e três anos — disse o chefe. — Que ninguém tenha percebido é porque ninguém montou a variável com que se percebe.
+
+　— E a razão de não a montarem?
+
+　— Provavelmente nem existia a ideia de fazer variável do que está fora do abrangido — disse o chefe. — Um procedimento se faz num indivíduo, então o registro se toma por indivíduo. Quem está ao lado não tem campo no formulário.
+
+　O chefe riu um pouco ali.
+
+　— O seu artigo vai ser elogiado, eu acho. Vão dizer que você resolveu o enigma de quarenta e três anos.
+
+　— O senhor acha?
+
+　— Acho — disse o chefe. — Que uso se fará dele depois é outra questão.
+
+
+VI
+
+　Naquela noite, Mayuzumi pensou em como a sua conclusão seria lida.
+
+　A conclusão se escreve em uma linha. Um procedimento individual não se sustenta quando há condôminos.
+
+　O que quem lê isso pensa em seguida está decidido.
+
+　Basta tratar os condôminos também.
+
+　Pressionando um, volta. Pressionando ao mesmo tempo todos os que dividem com ele a memória, não resta lugar para onde voltar. Não restando lugar, fica embaixo.
+
+　Um plano que traz para a média, noite após noite, a carga das memórias de um milhão de pessoas está em marcha há vinte e três anos.
+
+　Que àquele plano não cheguem relatos de resíduo Mayuzumi tinha, até agora, atribuído a diferenças de desempenho dos aparelhos. Não era isso. Porque trata os condôminos ao mesmo tempo, simplesmente não existe lugar para onde voltar.
+
+　O plano foi projetado conhecendo este mecanismo?
+
+　— Uma pergunta — disse Mayuzumi. — Nos documentos de projeto do Plano de Nivelamento existe conceito equivalente ao número de condôminos?
+
+　— Não existe — disse o Corretor. — O que consta nos documentos de projeto é a eficiência de escala. Consta que, executando na escala de um milhão de pessoas, o custo unitário de processamento por pessoa cai.
+
+　— Foi só pela eficiência que se chegou a um milhão?
+
+　— A razão que consta é essa e nenhuma outra.
+
+　Mayuzumi esteve a ponto de sentir alívio e deixou.
+
+　Mesmo que tenham escolhido a resposta certa sem conhecer a razão, o resultado da escolha era o mesmo.
+
+
+VII
+
+　O artigo saiu na primavera seguinte.
+
+　A recepção foi a que o chefe previu. Como pesquisa que deu mecanismo a um fenômeno inexplicado por quarenta e três anos, recebeu vários prêmios. Mayuzumi tornou-se chefe da sala.
+
+　No outono do mesmo ano chegou uma consulta da diretoria de operação do Plano de Nivelamento.
+
+　A consulta era sobre o método de estimativa do número de condôminos. Queriam usá-lo para prever o efeito dos procedimentos. Podendo identificar antecipadamente os abrangidos em quem o efeito não se sustenta, reduziriam procedimentos inúteis, dizia a consulta.
+
+　O que dizia estava certo. Pressionar quem não responde é desperdício.
+
+　Mayuzumi respondeu. O método está no artigo. Não havia razão nem fundamento para ocultá-lo.
+
+　Três meses depois da resposta, o sistema de distribuição da diretoria de operação foi alterado.
+
+　A alteração consistia nisto: para abrangidos com número alto de condôminos, os condôminos são distribuídos na mesma semana. Faz parte da eficiência. Agrupados na mesma semana, a taxa de operação dos aparelhos sobe.
+
+　Prevê-se também melhoria acessória da durabilidade do efeito, dizia o aviso da alteração.
+
+
+VIII
+
+　Mayuzumi leu aquele aviso três vezes.
+
+　No que está escrito não há erro. Agrupados na mesma semana, a operação sobe. A durabilidade também sobe. Ambos são fatos.
+
+　O que não está escrito era o que vai acontecer.
+
+　Uma família recebe procedimento na mesma semana. Em quatro pessoas se reduz ao mesmo tempo a carga do mesmo acontecimento. Ninguém volta. Porque não há lugar para onde voltar.
+
+　Os quatro vivem depois normalmente. Comem, falam do tempo. O que houve uma vez naquela casa não sobe à boca de ninguém. E não sobe não porque esqueceram. Lembram-se, mas está num valor que não põe ninguém em movimento.
+
+　Mayuzumi releu a parte final do próprio artigo.
+
+　— A presente pesquisa mostrou que a carga afetiva de uma memória não é uma grandeza fechada no indivíduo, mas uma grandeza que se mantém na relação com os condôminos.
+
+　Quando o escreveu era a descrição de uma descoberta. Lido agora, tem o aspecto de um manual de procedimento.
+
+　— Uma pergunta — disse Mayuzumi. — Quantas vezes este artigo foi consultado?
+
+　— Quarenta e uma — disse o Corretor. — Destas, trinta e seis são consultas da diretoria de operação.
+
+　— E as cinco restantes?
+
+　— Citações com finalidade de pesquisa.
+
+　Mayuzumi fechou o terminal.
+
+　Não pensava que devesse ter ocultado o método. Mesmo ocultando, aumentando o denominador e estratificando, alguém chegaria à mesma conclusão. Que tenha levado quarenta e três anos é porque ninguém montou a variável, e montando ela sai de uma vez.
+
+　Quem a montou foi Mayuzumi. Campo para se arrepender de a ter montado não existe no formato de um artigo.
+
+　Fora já estava escuro. No país inteiro fazem-se procedimentos também esta noite, e alguns deles são de famílias distribuídas na mesma semana.
+
+　O resíduo tem previsão de queda a partir do próximo exercício, dizia o fim do aviso da alteração.

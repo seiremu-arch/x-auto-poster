@@ -23,8 +23,8 @@ dois livros. Compilar com `python3 book/tools/build_epub.py pt2`.
 | VIII | 夢の海 | O mar dos sonhos | 3.889 | 1.836 | **pronto** |
 | IX | 明日の夢 | O sonho de amanhã | 3.879 | 1.938 | **pronto** |
 | X | 最後のバグ | O último bug | 3.843 | 1.927 | **pronto** |
-| XI | 残差 | Resíduo | — | — | aguardando |
-| XII | 完了報告 | O relatório final | — | — | aguardando |
+| XI | 残差 | Resíduo | 3.906 | 1.890 | **pronto** |
+| XII | 完了報告 | O relatório final | 4.090 | 2.017 | **pronto** |
 
 Japonês no total, 48.719 caracteres. Os números desta tabela são
 escritos por `python3 book/tools/sync_tr_counts.py pt2`, não à mão.

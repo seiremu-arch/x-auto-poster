@@ -1,4 +1,4 @@
-# KDPメタデータ一覧（14冊）
+# KDPメタデータ一覧（16冊）
 
 **この表は手で書かない。** 各巻の `KDP登録情報.md` が正本で、
 `python3 book/tools/kdp_metadata.py` が読み直して書き出す。
@@ -27,6 +27,8 @@
 | 12 | `it2` | Il Livellamento | L'Ufficio dei Sogni, Libro Due | L'Ufficio dei Sogni（Libro 2） | 2 | Italiano | 3,99 €（イタリア） |
 | 13 | `nl1` | Het Droombureau | Twaalf nachten | Het Droombureau（Deel 1） | 1 | Nederlands | 3,99 €（オランダ） |
 | 14 | `nl2` | De Nivellering | Het Droombureau, Deel Twee | Het Droombureau（Deel 2） | 2 | Nederlands | 3,99 €（オランダ） |
+| 15 | `pt1` | A Repartição dos Sonhos | Doze noites | A Repartição dos Sonhos（Livro 1） | 1 | Português | R$ 9,90（ブラジル） |
+| 16 | `pt2` | O Nivelamento | A Repartição dos Sonhos, Livro Dois | A Repartição dos Sonhos（Livro 2） | 2 | Português | R$ 9,90（ブラジル） |
 
 ## 2. 分量と原稿
 
@@ -46,8 +48,10 @@
 | `it2` | 12 | 48,719字 | 21,853 words | 0.449 | `Il Livellamento.epub` | `cover_it2.jpg` |
 | `nl1` | 12 | 51,718字 | 25,487 words | 0.493 | `Het Droombureau.epub` | `cover_nl1.jpg` |
 | `nl2` | 12 | 48,719字 | 24,065 words | 0.494 | `De Nivellering.epub` | `cover_nl2.jpg` |
+| `pt1` | 12 | 51,718字 | 24,752 words | 0.479 | `A Repartição dos Sonhos.epub` | `cover_pt1.jpg` |
+| `pt2` | 12 | 48,719字 | 23,750 words | 0.487 | `O Nivelamento.epub` | `cover_pt2.jpg` |
 
-原文の字数は日本語版の原稿から数えた値で、同じ巻の七言語で同じになる。
+原文の字数は日本語版の原稿から数えた値で、同じ巻ならどの言語でも同じになる。
 訳文の語数は空白区切りの語数。比は words/字。
 
 ## 3. 市場と税率
@@ -61,6 +65,7 @@
 | fr | amazon.fr / .ca / .be | 5,5% |
 | it | amazon.it | 4% |
 | nl | amazon.nl / .com.be | 9%（白6%） |
+| pt | amazon.com.br | 書籍は憲法上の免税（電子書籍も対象） |
 
 ロイヤリティは**税抜額**に対してかかる。同じ 3,99 € でも、
 西・伊（4%）と蘭（9%）では手取りが違う。登録画面で自動換算させたあと、
@@ -75,7 +80,7 @@
 
 内容紹介もそのまま入れてある。この節だけで登録画面はうまる。
 貼る前に、内容紹介に応募作の文が紛れていないかを `check_overlap.py` が
-見ている（七言語・各巻の第2節を対象にしている）。
+見ている（全言語・各巻の第2節を対象にしている）。
 
 ### 1. `vol1` — 夢編集局
 
@@ -987,6 +992,136 @@ Ongeveer 24.000 woorden.
 2. Literatuur en fictie → Sciencefiction en fantasy → Sciencefiction → Dystopisch
 3. Literatuur en fictie → Literaire fictie
 
+### 15. `pt1` — A Repartição dos Sonhos
+
+- **題** A Repartição dos Sonhos
+- **副題** Doze noites
+- **シリーズ** A Repartição dos Sonhos（Livro 1）
+- **言語** Português　**価格** R$ 9,90（ブラジル）　**ロイヤリティ** 70%プラン　**KDPセレクト** 登録する
+
+<details><summary>内容紹介（そのまま貼り付け可）</summary>
+
+Os sonhos não se apagam. Só se podem tornar mais leves.
+
+Enquanto você dorme, o cérebro amolece uma lembrança, religa-a e a deixa fixar-se de novo. A edição de sonhos é o ofício que acompanha esses poucos segundos e altera, só um pouco, a mão que religa.
+
+Não há como fazer outra coisa além de reduzir o peso de uma lembrança. Em uma noite, 0,05 no máximo. No ofício, chamam isso de meia-tinta.
+
+O limite não existe por insuficiência da técnica. Afinando uma lembrança depressa demais, o vestígio da reescrita vai junto com ela. Enquanto o vestígio permanece, a pessoa pode dizer a si mesma: este é um sonho editado. O que o limite protege não é o sonho de quem dorme. É a margem que sobra depois, ao acordar, para duvidar da própria memória.
+
+Doze contos ligados, num país onde essa técnica entrou até o último canto da vida comum.
+
+- Uma menina de treze anos que pede que deixem o seu pesadelo em paz — Meia-tinta
+- Uma mulher que espera quatro anos e sete meses e recusa o procedimento no dia da sua vez — A fila do esquecimento
+- Uma viúva que recebe o pedido de desculpas que o marido nunca conseguiu dizer, sintetizado dos seus diários, e uma filha que chama aquilo de falsificação — O testamento
+- Uma mãe a quem se lê todo mês uma história clara e consoladora, traduzida dos sonhos de um filho sem palavras — O tradutor
+- Um técnico que eleva o remorso de um homicida de 0,07 a 0,81 ao longo de quinze noites — A pena
+- Um trabalho onde o procedimento do luto é obrigatório em quarenta e oito horas, e um homem que não se conforma — O luto por procuração
+
+Não há vilões. Há apenas pessoas que fazem o seu trabalho corretamente, conforme as normas, e um campo que as normas nunca previram.
+
+Cada conto se sustenta sozinho. Quanto mais se avança, mais claro fica o que este país vem chamando de felicidade.
+
+SUMÁRIO
+I. Meia-tinta
+II. A fila do esquecimento
+III. O testamento
+IV. O tradutor
+V. O sonho em segunda pessoa
+VI. Imposto sobre sonhos
+VII. O luto por procuração
+VIII. A pena
+IX. O direito de não acordar
+X. A herança
+XI. Índice de Felicidade 98
+XII. O sujeito silencioso
+
+Cerca de 24.800 palavras.
+
+---
+
+</details>
+
+キーワード（7つ、この順）
+
+1. `ficção científica literária`
+2. `distopia futuro próximo`
+3. `contos interligados`
+4. `memória e identidade`
+5. `ficção científica contemplativa contos`
+6. `distopia burocrática romance`
+7. `ficção científica japonesa em português`
+
+カテゴリー（最大3つ、この順）
+
+1. Literatura e Ficção → Ficção científica → Antologias e contos
+2. Literatura e Ficção → Ficção literária
+3. Literatura e Ficção → Ficção científica → Distopia
+
+### 16. `pt2` — O Nivelamento
+
+- **題** O Nivelamento
+- **副題** A Repartição dos Sonhos, Livro Dois
+- **シリーズ** A Repartição dos Sonhos（Livro 2）
+- **言語** Português　**価格** R$ 9,90（ブラジル）　**ロイヤリティ** 70%プラン　**KDPセレクト** 登録する
+
+<details><summary>内容紹介（そのまま貼り付け可）</summary>
+
+O Nivelamento. É o nome de um plano estatal que traz para a média, noite após noite, o peso das lembranças de um milhão de pessoas.
+
+Enquanto você dorme, o cérebro amolece uma lembrança, religa-a e a deixa fixar-se de novo. A edição de sonhos intervém nesses poucos segundos e reduz o peso: em uma noite se pode deslocar 0,05 no máximo. No ofício, chamam isso de meia-tinta.
+
+Se o Livro I, A Repartição dos Sonhos, tratava de um técnico e de um requerente sentados frente a frente, estes doze contos vêm depois: quando a técnica se tornou primeiro um setor da economia, depois um sistema, e por fim algo do tamanho de um país.
+
+- Uma sociedade em que três horas de sono bastam, e uma empresa que nos quarenta minutos restantes vende os sentimentos dos outros — A cidade que não dorme
+- Uma intervenção antes do nascimento que forma segurança, confiança e curiosidade num feto. Aquilo sobre o que ela agia não eram as crianças — Fundações
+- A tristeza transferida a um autor já foi retirada dos parentes no instante da colheita — A injeção de empatia
+- Taxa de processamento automático de 98,4 por cento, e o último artesão que carrega o 1,6 restante — O último artesão
+- Um homem a quem, por sete noites e sem o seu consentimento, tornaram as coisas mais pesadas, e que recusa que as recoloquem no lugar — Lesão corporal
+- Um incêndio com dezenove mortos de que ninguém se lembra e que não está escrito em lugar nenhum — O cadastro
+
+Não há vilões. Há apenas pessoas que, nos seus setores, fazem o seu trabalho corretamente. A Distribuição muda algo pela taxa de operação; a Análise de Falhas, pelo tamanho do custo da correção; a Gestão Técnica, por falta de pessoal. Não há vestígio de que tenham conversado entre si.
+
+O que se produziu quando os três raciocínios caíram no mesmo trimestre se esclarece no último conto, O relatório final.
+
+Cada conto se sustenta sozinho. O Livro I não é necessário.
+
+SUMÁRIO
+I. A cidade que não dorme
+II. Fundações
+III. A injeção de empatia
+IV. O último artesão
+V. A máquina sonha?
+VI. Lesão corporal
+VII. O cadastro
+VIII. O mar dos sonhos
+IX. O sonho de amanhã
+X. O último bug
+XI. Resíduo
+XII. O relatório final
+
+Cerca de 23.800 palavras.
+
+---
+
+</details>
+
+キーワード（7つ、この順）
+
+1. `ficção científica literária`
+2. `distopia futuro próximo`
+3. `contos interligados`
+4. `distopia burocrática romance`
+5. `memória e identidade`
+6. `ficção científica contemplativa contos`
+7. `ficção científica japonesa em português`
+
+カテゴリー（最大3つ、この順）
+
+1. Literatura e Ficção → Ficção científica → Antologias e contos
+2. Literatura e Ficção → Ficção científica → Distopia
+3. Literatura e Ficção → Ficção literária
+
 ---
 
 ## 5. つまずきやすいところ
@@ -995,14 +1130,14 @@ Ongeveer 24.000 woorden.
    一字でも違うと、Amazonはシリーズページを二つ作る。アポストロフィの
    形（`'` と `’`）も違いとして数えられる。この道具が検査している。
 2. **ISBNは不要。** KDPが内部管理番号を自動で付ける。自分で買う必要はない。
-3. **著者名は全14冊で同じ綴り。** `Kazu A. Suzuki`。
+3. **著者名は全16冊で同じ綴り。** `Kazu A. Suzuki`。
    表記が揺れると著者ページが分かれる。
 4. **出版言語は原稿の言語に合わせる。** ここを間違えると、
    その言語の読者に推薦されない。
 5. **価格は税抜額を確認。** 70%プランが使えるのは
    2,99 €〜9,99 €（日本は250円〜1,250円）の範囲。
 6. **応募作は一冊も含まない。** 『境界線、未編集』は未発表のままで、
-   14冊のどこにも入っていない。`check_overlap.py` が七言語で
+   16冊のどこにも入っていない。`check_overlap.py` が全言語で
    機械的に確認している。内容紹介に紛れ込ませないこと。
 
 ---

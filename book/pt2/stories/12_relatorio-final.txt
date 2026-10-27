@@ -1,0 +1,264 @@
+XII. O relatório final
+
+
+I
+
+　A condição de encerramento da Segunda Sincronização está fixada em uma linha.
+
+　— Tem-se o encerramento no momento em que a variância da carga afetiva no grupo objeto cai abaixo do valor de referência.
+
+　O valor de referência é 0,04. Um número decidido vinte e três anos atrás, na abertura do Plano.
+
+　Na totalização de junho, a variância ficou em 0,038.
+
+　— A condição está atendida — disse o Corretor. — O relatório final pode ser elaborado.
+
+　Minato ficou um tempo olhando aquela tela. Pertence ao Escritório do Plano de Nivelamento, equipe de avaliação. Os encarregados de escrever o relatório final são apenas três naquela sala.
+
+　É um plano que levou vinte e três anos. Quem o aprovou na abertura já se aposentou, todos. Como o valor de referência de 0,04 foi decidido, ninguém neste prédio sabe.
+
+　Minato, ao assumir, procurou uma vez aquele fundamento. Nos documentos de projeto do Plano havia uma única linha.
+
+　— Adota-se 0,04 como o nível em que deixa de ser observada discordância estatisticamente significativa.
+
+　O nível em que deixa de ser observada. Quem escreveu escreveu, provavelmente, com rigor. Não escreveu o nível em que a discordância deixa de existir.
+
+
+II
+
+　Minato trouxe primeiro a evolução da variância.
+
+　Apareceu uma linha quebrada de vinte e três anos. Na abertura, 0,21. No décimo ano, 0,12. No décimo quinto, 0,07.
+
+　Nos últimos cinco anos, a inclinação da linha tinha mudado.
+
+　Até o décimo oitavo ano descia devagar; a partir do décimo nono cai de uma vez. Em cinco anos, de 0,06 a 0,038: tanto quanto se moveu nos dez anos anteriores.
+
+　— O que houve no décimo nono ano?
+
+　— Três registros correspondem — disse o Corretor. — Alteração do sistema de distribuição. Alteração dos critérios de gestão de falhas. Alteração do limiar de registro da variação dos fragmentos vizinhos.
+
+　Minato abriu os três.
+
+
+III
+
+　A primeira era a alteração que distribui os condôminos na mesma semana.
+
+　Faz parte da eficiência. Tratando juntos os que têm a mesma memória, a taxa de operação dos aparelhos sobe. De modo acessório, melhora também a durabilidade do efeito dos procedimentos.
+
+　Que a durabilidade melhore significava que não volta mais. Não voltando, a variância cai.
+
+　A segunda era a alteração que fixou o tratamento das falhas leves conhecidas. Como os aparelhos de todo o país usam o mesmo modelo estatístico, forma-se ao lado do fragmento pressionado uma cavidade da mesma forma. O sintoma é da ordem de 0,05 e clinicamente não cria problema.
+
+　Formando-se em todos uma cavidade da mesma forma, a variância cai.
+
+　A terceira era a alteração que elevou de 0,01 para 0,03 o limiar de registro da variação para os fragmentos vizinhos. Variação dentro do limiar não é registrada.
+
+　Variação não registrada não entra no cálculo da variância.
+
+　Minato pôs lado a lado as datas de vigência das três.
+
+　Era o mesmo trimestre do décimo nono ano.
+
+
+IV
+
+　— Uma pergunta — disse Minato. — Estas três foram elaboradas de modo articulado?
+
+　— Não consta nos registros — disse o Corretor. — Os setores proponentes são distintos em cada caso. O setor de Distribuição, o setor de Análise de Falhas e a diretoria de Gestão Técnica.
+
+　— Vestígios de que tenham se consultado?
+
+　— Não há.
+
+　Minato decidiu acreditar. Também não tinha com que não acreditar.
+
+　Três setores fizeram, cada um pela sua razão, cada um a sua alteração. A Distribuição, pela taxa de operação. A Análise de Falhas, pelo tamanho do custo. A Gestão Técnica, para absorver os casos que pedem mãos. Todas fecham.
+
+　Três raciocínios que fecham se encontraram no mesmo trimestre.
+
+　Não é coincidência, pensou Minato. Depois de pensar, procurou o fundamento e não o encontrou.
+
+　Todas as três partem do fato de que o orçamento não foi aprovado. Como não se podem ampliar as instalações, preenche-se com previsão. Como não se pode ampliar o pessoal, eleva-se o limiar. Como o custo da medida corretiva é grande, passa-se à observação continuada.
+
+　Pesando a mesma restrição no mesmo exercício, setores distintos produzem separadamente soluções no mesmo sentido. Não é preciso que se contatem.
+
+　Chamar isso de coincidência ou não era questão de palavras.
+
+
+V
+
+　Minato tentou recalcular a variância.
+
+　Dar o valor que ela teria sem as três alterações. Devolver o limiar de registro a 0,01, suprir por estimativa a variação não registrada, e desfazer a distribuição de condôminos na mesma semana para somar a parte que voltaria.
+
+　— E a precisão da estimativa?
+
+　— É baixa — disse o Corretor. — Não há método estabelecido para estimar uma quantidade não registrada.
+
+　— Dê de todo modo.
+
+　O número saiu.
+
+　0,061.
+
+　Passava largamente do valor de referência de 0,04.
+
+
+VI
+
+　Naquele dia, Minato foi para casa sem fazer nada.
+
+　No dia seguinte conversou com a chefe da equipe. Uma mulher de mais de cinquenta anos, doze anos no Escritório do Plano.
+
+　— Minato, aquele recálculo serve de fundamento?
+
+　— Não serve — disse Minato. — Como o método de estimativa não está estabelecido, não se pode apresentar como número.
+
+　— Então o valor oficial é 0,038, não é?
+
+　— É 0,038.
+
+　— E a condição está atendida.
+
+　— Está atendida.
+
+　A chefe assentiu. Depois deixou cair um momento.
+
+　— O que te prende é que não é a variância que caiu, mas o olho com que se mede a variância que ficou mais grosso. É isso?
+
+　— É isso.
+
+　— Eu também pensei a mesma coisa uma vez — disse a chefe. — Uns dez anos atrás. Naquele tempo o limiar ainda não tinha sido alterado, então eu consegui fazer o número e levar. O número que eu fiz não foi acolhido na comissão.
+
+　— Por qual razão?
+
+　— Que o método de estimativa não está estabelecido — disse a chefe. — A mesma resposta.
+
+
+VII
+
+　Naquela noite, Minato consultou as objeções anteriores da mesma espécie.
+
+　— Quantos registros estão lançados como objeção relativa à adequação do sistema de medição?
+
+　— Nos registros retidos há quatorze — disse o Corretor.
+
+　— E nos registros oficiais?
+
+　— Não há — disse o Corretor. — Nos formulários deste Plano não existe categoria para lançar uma objeção.
+
+　Quatorze. Todos encaminhados aos registros retidos como coisas sem campo em que se escrever.
+
+　Minato mandou ordenar aqueles quatorze do mais antigo.
+
+　Ao ver a data do mais antigo, Minato parou a mão.
+
+　Quarenta e um anos atrás. Um registro de dezoito anos antes de o Plano de Nivelamento começar.
+
+　— Que registro é este?
+
+　— Uma anotação à margem de um relatório de leitor — disse o Corretor. — Categoria: margem do campo da taxa de contaminação.
+
+
+VIII
+
+　Minato mandou exibi-la.
+
+　Um fragmento não é reproduzível. O que está escrito na margem, em troca, foi lido como letras. Uma máquina digitalizou o relatório de papel de quarenta e um anos atrás e o passou à guarda como texto.
+
+　Eram seis linhas.
+
+　— Sobre a taxa de contaminação, consigno um ponto. Este número é calculado pela diferença entre o conjunto de fragmentos do sujeito e o do leitor. Em quatro anos, a minha taxa de contaminação caiu de trinta e oito para dois. No começo eu entendi isso como ganho de precisão.
+
+　— Não é isso. A diferença ficou pequena porque os dois passaram a se parecer.
+
+　— O que aqui se põe em questão é o próprio indicador da taxa de contaminação. Este indicador é tido por melhor quanto menor a diferença. Mas que a diferença seja pequena pode ser uma coisa ou outra: que a precisão seja alta, ou que se tenha deixado de distinguir. Do lado do indicador não há meio de distinguir essas duas coisas.
+
+　— Julgar bom e ruim com um indicador que não distingue equivale a não julgar.
+
+　— Procurei o campo em que este ponto deveria ser comunicado e não o encontrei no formulário do relatório. Por isso o consigno na margem.
+
+　— Se haverá alguém que leia, eu não sei.
+
+　Minato leu aquelas seis linhas três vezes.
+
+　O leitor de quarenta e um anos atrás escreve sobre a taxa de contaminação. O que Minato tem agora em mãos é outro indicador, a variância. O aparelho usado e a escala do objeto distam quarenta e um anos.
+
+　O que está escrito era o mesmo.
+
+　Quando uma diferença fica pequena, se ela se aproximou ou se deixou de ser vista, o lado do indicador não distingue.
+
+
+IX
+
+　— Uma pergunta — disse Minato. — Quantas vezes este registro foi consultado?
+
+　— Zero — disse o Corretor.
+
+　— Em quarenta e um anos, nenhuma vez.
+
+　— Nenhuma vez.
+
+　Minato olhou o pequeno número no canto inferior direito da tela. Consultas, zero.
+
+　Aquelas seis linhas foram escritas numa noite de quarenta e um anos atrás. Quem as escreveu escreve que não sabe se haverá alguém que as leia. Sem saber, escreveu.
+
+　E de fato não houve.
+
+　Os registros retidos atendem aos critérios de destruição. A razão de não terem sido destruídos não consta nos registros. O plano de redução foi elaborado quatro vezes e quatro vezes retirado. Os quatro que o retiraram consultaram, todos, os registros retidos no mês anterior. Apenas consultaram; se leram não consta nos registros.
+
+　Minato, agora, as lia.
+
+
+X
+
+　O formulário do relatório final é de duas folhas.
+
+　Na primeira se consignam o valor da variância e o atendimento da condição. 0,038. Abaixo do valor de referência de 0,04. Atendida.
+
+　A segunda era o campo das observações especiais. Não havendo nada a escrever, entrega-se em branco. De fato, nove décimos dos relatórios anteriores estão em branco.
+
+　Minato escreveu na segunda.
+
+　— O valor de variância deste relatório é o valor oficial segundo o sistema de medição em vigor. Contudo, a queda dos últimos cinco anos coincide no tempo com as três alterações do décimo nono ano. Todas as três atuam no sentido de estreitar o intervalo da variação que é registrada.
+
+　— O valor estimado na ausência das alterações é de 0,061, mas, não estando estabelecido método para estimar a quantidade não registrada, ele não pode ser apresentado como fundamento.
+
+　— Consigne-se ainda que os formulários deste Plano não possuem categoria para lançar objeção relativa à adequação do sistema de medição. Da mesma espécie há quatorze nos registros retidos, e a mais antiga está anexada a um relatório de leitor de quarenta e um anos atrás. O seu conteúdo é que uma diferença pequena pode ser tanto o ter-se aproximado quanto o ter-se deixado de distinguir, e que do lado do indicador não há meio de distinguir as duas.
+
+　— O presente relatório comunica o atendimento da condição sob a reserva de tudo o que precede.
+
+　Terminado de escrever, Minato o entregou.
+
+　O encerramento foi aprovado quatro dias depois. Sobre as observações especiais não veio pergunta.
+
+
+XI
+
+　Com o encerramento da Segunda Sincronização, o Plano entra na sua etapa seguinte.
+
+　O nome da etapa seguinte ainda não foi decidido. Examinam-se em paralelo uma proposta de reduzir mais o valor de referência e uma proposta de ampliar a escala do objeto. Ambas devem entrar no pedido de orçamento do próximo exercício.
+
+　Minato não foi chamado àquela reunião. Quem é encarregado de escrever o relatório final cumpre o seu papel ao terminar de escrevê-lo.
+
+　No seu último dia de trabalho, Minato estava arrumando o terminal e abriu mais uma vez aquelas seis linhas.
+
+　Depois de abri-las, olhou o canto inferior direito.
+
+　Consultas, uma.
+
+　A vez em que Minato as abriu ontem está contabilizada. Foram necessários quarenta e um anos para que o zero virasse um.
+
+　Que vire um não muda nada. O encerramento está aprovado e a etapa seguinte se examina. A variância vai continuar caindo. O meio de distinguir se cai ou se deixou de ser vista continua não existindo.
+
+　Apenas, o que quem escreveu aquelas seis linhas quis saber quarenta e um anos atrás era se haveria alguém que as lesse, e nada mais.
+
+　Minato fechou o terminal.
+
+　Antes de fechá-lo, verificou se as suas próprias observações especiais tinham sido encaminhadas aos registros retidos. Categoria: objeção, fora do formulário. Consultas, zero.
+
+　Quanto tempo levará até que alguém as abra não se sabe. Talvez menos de quarenta e um anos, talvez mais.
+
+　Campo para prever esse número este Plano também não tinha.
