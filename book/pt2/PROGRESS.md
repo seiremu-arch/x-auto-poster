@@ -13,8 +13,8 @@ dois livros. Compilar com `python3 book/tools/build_epub.py pt2`.
 
 | # | Japonês | Português | Original | Palavras | Estado |
 |---|---|---|---|---|---|
-| I | 眠らない都市 | A cidade que não dorme | — | — | aguardando |
-| II | 胎夢 | Fundações | — | — | aguardando |
+| I | 眠らない都市 | A cidade que não dorme | 4.336 | 2.152 | **pronto** |
+| II | 胎夢 | Fundações | 4.240 | 2.028 | **pronto** |
 | III | 共感注射 | A injeção de empatia | — | — | aguardando |
 | IV | 最後の夢職人 | O último artesão | — | — | aguardando |
 | V | ＡＩは夢を見るか | A máquina sonha? | — | — | aguardando |
