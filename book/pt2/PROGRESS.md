@@ -19,10 +19,10 @@ dois livros. Compilar com `python3 book/tools/build_epub.py pt2`.
 | IV | 最後の夢職人 | O último artesão | 4.226 | 2.099 | **pronto** |
 | V | ＡＩは夢を見るか | A máquina sonha? | 3.963 | 1.931 | **pronto** |
 | VI | 夢の犯罪 | Lesão corporal | 3.933 | 1.905 | **pronto** |
-| VII | 消えた現実 | O cadastro | — | — | aguardando |
-| VIII | 夢の海 | O mar dos sonhos | — | — | aguardando |
-| IX | 明日の夢 | O sonho de amanhã | — | — | aguardando |
-| X | 最後のバグ | O último bug | — | — | aguardando |
+| VII | 消えた現実 | O cadastro | 3.982 | 1.936 | **pronto** |
+| VIII | 夢の海 | O mar dos sonhos | 3.889 | 1.836 | **pronto** |
+| IX | 明日の夢 | O sonho de amanhã | 3.879 | 1.938 | **pronto** |
+| X | 最後のバグ | O último bug | 3.843 | 1.927 | **pronto** |
 | XI | 残差 | Resíduo | — | — | aguardando |
 | XII | 完了報告 | O relatório final | — | — | aguardando |
 

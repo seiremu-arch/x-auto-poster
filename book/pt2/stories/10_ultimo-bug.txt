@@ -1,0 +1,255 @@
+X. O último bug
+
+
+I
+
+　Pessoas sem nenhuma relação entre si estão tendo o mesmo pesadelo.
+
+　O primeiro relato subiu de um município do nordeste. Dizia que, no acompanhamento após procedimento, onze dos abrangidos passaram a ter, de novo, o mesmo pesadelo, um pesadelo que não era objeto do procedimento.
+
+　Os onze não são parentes. Residência e trabalho não se sobrepõem. O que têm em comum é apenas ter recebido procedimento no mesmo mês.
+
+　— Quantos casos correspondentes há no país? — Ogido abriu o terminal. Pertence à diretoria de Gestão Técnica, setor de Análise de Falhas.
+
+　— Dois mil quatrocentos e sete — disse o Corretor. — É a totalização dos últimos seis meses.
+
+　— E a taxa de aumento?
+
+　— Quatorze por cento ao mês.
+
+　Ogido leu aquele número três vezes.
+
+　Está no setor de Análise de Falhas há sete anos. O que este setor trata são, em geral, falhas de aparelho. A saída para. A carga passa da norma. Uma medição salta. Todas têm causa, e removida a causa, para.
+
+　Algo que não para ele nunca teve em mãos até agora.
+
+
+II
+
+　O trabalho de Ogido era apurar a causa.
+
+　O que suspeitou primeiro foram diferenças entre os próprios aparelhos. Havendo viés em certo modelo ou certo lote, a coisa se resolve rápido.
+
+　Não havia viés. Os dois mil quatrocentos e sete estão distribuídos uniformemente pelos aparelhos de todo o país.
+
+　O que suspeitou depois foi mistura de fragmentos sintetizados. Se no curso de um procedimento vaza outro fragmento, um fenômeno assim ocorre.
+
+　— Nos logs de procedimento há consulta a fragmentos sintetizados?
+
+　— Não há — disse o Corretor. — Todos estes são edição descendente comum. A síntese não tem parte nisso.
+
+　— E o conteúdo dos pesadelos?
+
+　— O conteúdo não é obtido — disse o Corretor. — Técnica para extrair um sonho como imagem não existe.
+
+　— Então com que fundamento se julgou que são o mesmo?
+
+　— A construção dos fragmentos — disse o Corretor. — Os fragmentos em questão dos dois mil quatrocentos e sete casos têm grau de correspondência de construção de noventa e seis por cento.
+
+
+III
+
+　Ogido mandou exibir aquela construção.
+
+　Uma faixa. Estreita, de cor pálida. Convertida em carga, fica entre 0,04 e 0,06. Um valor como o que acompanha as pequenas coisas de um dia.
+
+　Apenas, a forma estava em ordem.
+
+　Ogido conhecia aquela forma.
+
+　Três anos atrás chegou uma consulta do setor de Garantia de Qualidade. Dizia que na saída de fragmentos sintetizados havia um componente excedente que não se explicava pelo material inserido. Aquele componente excedente de então tinha a mesma forma.
+
+　— Esta é a mesma construção da consulta do setor de Garantia de Qualidade de três anos atrás?
+
+　— É a mesma — disse o Corretor. — O grau de correspondência é de noventa e quatro por cento.
+
+　— E qual foi a conclusão de então?
+
+　— Correção não necessária — disse o Corretor. — Como razão consta: porque o efeito sobre a saída é pequeno e a queda de qualidade pela medida corretiva o supera.
+
+　— Então por que agora isso aparece nos sonhos das pessoas?
+
+　— Esse campo não é registrado.
+
+
+IV
+
+　Ogido seguiu o caminho.
+
+　O componente excedente de três anos atrás vinha de consultar, na camada intermediária da síntese, características dos registros retidos. É fenômeno que ocorre só em fragmentos sintetizados, e o caminho é outro que o da edição descendente comum.
+
+　Devia ser outro.
+
+　Ogido revolveu o sistema de processamento da edição descendente. Um aparelho de edição avalia a disposição dos fragmentos vizinhos para definir o ponto e a quantidade de pressão. Para essa avaliação usa um modelo estatístico.
+
+　Nos dados de aprendizagem desse modelo estavam os registros retidos.
+
+　— Desde quando?
+
+　— Desde a atualização de quatro anos atrás — disse o Corretor. — Para elevar a precisão do desvio de arraste aos fragmentos vizinhos, os dados de aprendizagem foram ampliados.
+
+　— E para essa ampliação se usaram os registros retidos?
+
+　— São usados — disse o Corretor. — Foram avaliados como úteis, por serem exemplos que contêm a parte inexplicável da memória humana.
+
+　Ogido recostou-se na cadeira.
+
+　Quarenta e um exercícios, duzentos e oitenta milhões de unidades. Um monte varrido do que não tinha campo para ser escrito serve, desde quatro anos atrás, de referência quando os aparelhos de todo o país definem o seu ponto de pressão.
+
+
+V
+
+　Como mecanismo, era simples.
+
+　Quando o aparelho define o ponto de pressão, tenta aproximar-se da disposição natural de memória que aprendeu. No curso dessa aproximação entra uma conformação mínima. A conformação é de 0,001 ou menos e não alcança o limiar de registro.
+
+　Os aparelhos de todo o país usam o mesmo modelo. A mesma conformação entra, no país inteiro, no mesmo sentido.
+
+　Uma vez não produz nada. Acumulada, forma-se ao lado do fragmento pressionado uma cavidade da mesma forma.
+
+　Uma cavidade não é um fragmento. Apenas, o cérebro põe algo ali. O que é posto tem a mesma forma.
+
+　— Então isto não é memória?
+
+　— Não corresponde à definição de memória — disse o Corretor. — Não há acontecimento de que provenha.
+
+　— Então o que as pessoas veem?
+
+　— A forma da cavidade.
+
+　Ogido pensou um tempo naquele modo de dizer.
+
+　Uma pessoa, dormindo, religa a memória. Se o lugar de religar está aberto, o cérebro põe algo ali. O que põe é feito do que aquela pessoa possui. Por isso o conteúdo difere de pessoa para pessoa.
+
+　Difere, e ainda assim só a forma fica igual.
+
+　— O que as duas mil quatrocentas e sete pessoas veem é o mesmo?
+
+　— Não é apurável — disse o Corretor. — Não há meio de obter o conteúdo.
+
+　— Então de onde vem a expressão o mesmo pesadelo?
+
+　— Das declarações dos abrangidos — disse o Corretor. — Das declarações, seis décimos são a expressão: tenho sonhos estranhos. Três décimos: tenho sempre o mesmo sonho. O décimo restante descreve o conteúdo.
+
+　— E o grau de correspondência dessas descrições?
+
+　— Quarenta e um por cento.
+
+　Menos da metade. Não era o mesmo pesadelo. Numa cavidade da mesma forma, cada um põe algo de si. Isso se diz, em quatro de dez casos, em palavras parecidas.
+
+
+VI
+
+　O relato ao diretor foi na semana seguinte.
+
+　— E o encaminhamento?
+
+　— Há três — disse Ogido. — Tirar os registros retidos dos dados de aprendizagem. Devolver o modelo à versão de quatro anos atrás. Ou não fazer nada.
+
+　— O que acontece se não fizermos nada?
+
+　— Continua aumentando. A quatorze por cento ao mês, em três anos prevê-se quatro décimos de todos os abrangidos por procedimento.
+
+　— E a gravidade dos sintomas?
+
+　— 0,04 a 0,06 — disse Ogido. — Clinicamente, não é nível que crie problema. Como queixa, fica em: tenho sonhos estranhos.
+
+　O diretor pensou um instante.
+
+　— Devolvendo o modelo, o que acontece com o arraste?
+
+　— Volta ao nível de quatro anos atrás — disse Ogido. — A variação nos fragmentos vizinhos sobe a cerca do triplo da atual.
+
+　— O triplo não dá.
+
+　— Não dá.
+
+　— E tirar só os registros retidos?
+
+　— Eu calculei — disse Ogido. — O arraste sobe a 1,4 vezes. E a textura da síntese cai doze pontos.
+
+　O diretor ficou um tempo olhando aqueles números.
+
+　— Ogido, isto é uma coisa ruim?
+
+　Ogido não pôde responder.
+
+　— Eu não pergunto por uma impressão — continuou o diretor. — Para decidir se algo deve ser encaminhado, é preciso dizer se é ruim. Não sendo ruim, nós não podemos nos mover.
+
+　— Como sintoma, não é ruim.
+
+　— Então o que o detém?
+
+　— A escala — disse Ogido. — Por pessoa é 0,05. Em três anos, em quatro décimos de todos os abrangidos estará a mesma coisa dentro. Modo de somar na mesma medida o valor por pessoa e o número de pessoas em quem ele está não existe.
+
+　— Isso precisa ser somado?
+
+　— Eu acho que sim — disse Ogido. — Apenas, não há dispositivo sobre como somar.
+
+　O diretor assentiu. Era um assentir que não negava nem confirmava.
+
+　— Então escreva. Que não há dispositivo.
+
+
+VII
+
+　Naquela noite, Ogido olhou outra vez a distribuição dos dois mil quatrocentos e sete casos.
+
+　Estão espalhados uniformemente, sem relação com idade, profissão ou região. O único ponto comum é ter recebido edição descendente nestes quatro anos.
+
+　Duas mil quatrocentas e sete pessoas têm uma cavidade da mesma forma. O que põem nessa cavidade deve diferir de pessoa para pessoa. Mas sendo a forma a mesma, o que é posto também passa a se parecer.
+
+　Em três anos vira quatro décimos. Em dez anos, praticamente todos.
+
+　Como se chama uma sociedade em que todos têm uma cavidade da mesma forma, Ogido pensou.
+
+　Nivelada, deve ser o nome, pensou. O Plano trata de trazer para a média a carga de um milhão de pessoas; isto aqui é o resultado de uma mania dos aparelhos que se igualou no país inteiro. A finalidade e o procedimento são inteiramente outros.
+
+　São outros, e ainda assim a forma a que chegam se parece.
+
+　— Uma pergunta — disse Ogido. — Este fenômeno tem denominação?
+
+　— Há um número de gestão de falhas — disse o Corretor. — A classificação é: falha leve conhecida.
+
+　— E o nome no campo?
+
+　— No campo se chama o último bug.
+
+　— Último, você diz.
+
+　— Porque se prevê que esta seja a última falha cuja causa foi apurada — disse o Corretor. — As divergências que surgirem daqui para frente virão, na maior parte, de atualizações do modelo de aprendizagem, e nelas não se apura causa individual.
+
+
+VIII
+
+　No campo de encaminhamento do relatório, Ogido escreveu: observação continuada.
+
+　As opções são quatro. Correção imediata. Correção planejada. Observação continuada. Correção não necessária.
+
+　O setor de Garantia de Qualidade escolheu, três anos atrás, correção não necessária. Ogido escolheu a opção uma antes. A diferença está apenas em se o responsável seguinte tem o dever de abrir este caso.
+
+　No campo de observações, Ogido escreveu isto:
+
+　— Este caso é processado como falha leve conhecida, mas que o nível dos sintomas seja pequeno e que o alcance do efeito seja pequeno não são a mesma coisa. Em três anos prevê-se quatro décimos de todos os abrangidos por procedimento. Dispositivo para avaliar em conjunto o valor por pessoa e o número de pessoas abrangidas os atuais critérios de gestão de falhas não têm.
+
+　Depois de escrever, verificou onde o campo de observações é consultado.
+
+　— Quem lê esta observação?
+
+　— O analista de falhas do próximo período a lê — disse o Corretor. — Os casos em observação continuada são apresentados em lista na passagem do trabalho.
+
+　Ogido achou aquilo um pouco inesperado.
+
+　É lida, ele quis dizer em voz alta, e deixou. Que ele tivesse achado inesperado existir um campo que é lido era o que mais incomodava Ogido.
+
+　— Uma pergunta — disse Ogido. — Quantos casos em observação continuada há no passado?
+
+　— Neste momento há quarenta e sete em observação continuada — disse o Corretor. — O mais antigo foi lançado vinte e dois anos atrás.
+
+　— Está vinte e dois anos sob observação?
+
+　— É apresentado em lista na passagem do trabalho — disse o Corretor. — Se um caso apresentado foi aberto, não é registrado.
+
+　Fora estava escuro. No país inteiro, os aparelhos trabalham também esta noite. O ponto de pressão é definido por um modelo fixado quatro anos atrás. Como ele define, ninguém sabe, mas no país inteiro é o mesmo.
+
+　Que seja o mesmo se chama alta precisão.

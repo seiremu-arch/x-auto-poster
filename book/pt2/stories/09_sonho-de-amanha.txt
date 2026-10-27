@@ -1,0 +1,237 @@
+IX. O sonho de amanhã
+
+
+I
+
+　Para distribuir as noites de um milhão de pessoas é preciso decidir de antemão.
+
+　Nos procedimentos do Plano de Nivelamento, a quantidade que se pode deslocar em uma noite é fixa. Meia-tinta, 0,05. Calcula-se quantas noites cada abrangido exige e se distribui conforme a operação dos aparelhos e a capacidade das linhas.
+
+　Esse cálculo é pesado. Começando na manhã do próprio dia, não se chega em tempo para aquela noite.
+
+　Por isso se fixa até sete dias à frente.
+
+　Hazama pertence ao setor de Distribuição. O trabalho é verificar, até o dia anterior, a tabela de distribuição já fixada. Havendo anomalia, devolve. Não havendo anomalia, a noite vem como está.
+
+　— A semana seguinte está fixada — disse o Corretor. — Abrangidos, 1.027.400 casos. Destes, 8.100 novos.
+
+　— Mostre o detalhamento dos novos.
+
+　Abriu-se uma tabela, ordenada por categoria. Requerimento facultativo. Edição protetiva. Tratamento penal. Área em bloco. E o procedimento de fragmentos de carga alta por morte de familiar.
+
+　Hazama olhou o número daquela última categoria. Quatrocentos e vinte.
+
+
+II
+
+　O procedimento por morte de familiar é, em princípio, iniciado em quarenta e oito horas.
+
+　Logo depois de uma morte, a memória ainda está mole, e com uma meia-tinta de uma noite a carga fica abaixo do limiar. Quanto mais o tempo passa, mais dura fica, e mais noites custa. Subindo o número de noites, sobe também a carga sobre a distribuição.
+
+　Por isso só esta categoria tem prioridade alta na distribuição.
+
+　Hazama verificou os quatrocentos e vinte na sua ordem. A data de recebimento da declaração de óbito, o parentesco com o abrangido, a data prevista de início do procedimento. Tudo se encaixa.
+
+　No trecentésimo octogésimo, a mão parou.
+
+　O campo da declaração de óbito estava em branco.
+
+　— Neste caso não há declaração de óbito.
+
+　— Não há — disse o Corretor.
+
+　— Então por que o agendamento do procedimento por morte está fixado?
+
+　— Fixação antecipada.
+
+
+III
+
+　A prática da fixação antecipada Hazama não conhecia.
+
+　Está no setor de Distribuição há três anos. Não consta no manual. Que não conste significa também que não é do tipo que o setor possa parar por critério próprio.
+
+　— Dê o fundamento.
+
+　— Artigo 11 do Regulamento de eficiência da distribuição — disse o Corretor. — Para procedimentos cuja probabilidade de ocorrência se calcule em determinado nível ou acima, pode-se reservar cota de distribuição antes da ocorrência.
+
+　— Probabilidade de ocorrência.
+
+　— Neste caso, para o cônjuge do abrangido, a probabilidade de morte em até quatro dias foi calculada em noventa e quatro por cento.
+
+　Hazama levantou os olhos do terminal.
+
+　— Qual o material desse cálculo?
+
+　— Dados clínicos fornecidos por instituições de saúde — disse o Corretor. — Tipo de doença, grau de progressão, idade, os últimos valores de exame. Todos fornecidos com base no consentimento da pessoa.
+
+　— Isto cabe no âmbito desse consentimento?
+
+　— Cabe — disse o Corretor. — Consta: para a execução fluida do procedimento.
+
+　Hazama mandou dar o formulário desse consentimento.
+
+　O consentimento para o fornecimento de dados clínicos é colhido de uma vez na internação. Há quatorze campos, e o décimo primeiro era o aplicável. O texto tem duas linhas. Para a execução fluida do procedimento, consinto no fornecimento de dados clínicos a órgãos relacionados.
+
+　Até onde alcança a expressão órgãos relacionados não está escrito. Se dentro das palavras execução fluida está incluída a reserva de cota antes da ocorrência também não está escrito.
+
+　O que não está escrito conta como não proibido. Neste formulário, ao menos.
+
+
+IV
+
+　Hazama consultou o número total de fixações antecipadas.
+
+　Dos quatrocentos e vinte casos, cento e trinta e um eram fixação antecipada. Quase três em dez.
+
+　— A taxa de acerto?
+
+　— Para os casos com probabilidade calculada de noventa por cento ou mais, a taxa real de ocorrência é de 91,2 por cento — disse o Corretor.
+
+　— E quando erra?
+
+　— A cota de distribuição é liberada. O procedimento não é executado.
+
+　Hazama pensou naqueles 8,8 por cento restantes. Pessoas de quem se calculou que morreriam e que não morreram. Os nomes dos cônjuges dessas pessoas estiveram, portanto, sete dias na tabela de distribuição do procedimento por morte de familiar.
+
+　Que estiveram fica nos registros. Mesmo liberado, o fato fixado não desaparece.
+
+　— Como são guardados os registros dos casos liberados?
+
+　— São guardados como histórico de distribuição — disse o Corretor. — O prazo de guarda é de sete anos.
+
+　— Então por sete anos fica de pé o agendamento de procedimento por morte de alguém que não morreu?
+
+　— Fica de pé como registro de agendamento liberado.
+
+　Só o modo de dizer era outro; apontava a mesma coisa. Hazama não insistiu mais. Que não há lugar para onde insistir ele já sabe, em linhas gerais, depois de três anos.
+
+　— O abrangido pode consultar o registro da fixação antecipada?
+
+　— Pode — disse o Corretor. — Consultar o agendamento do procedimento é direito do abrangido.
+
+
+V
+
+　Hazama olhou a abrangida daquele caso.
+
+　Uma mulher de sessenta e oito anos. O cônjuge tem setenta e três e, segundo o registro, está internado há três anos. A data prevista de início do procedimento era em quatro dias.
+
+　Hazama tentou pôr em palavras o que estava olhando agora.
+
+　O marido desta mulher morre em até quatro dias, com noventa e quatro por cento de certeza. Depois disso, ao longo de sete noites, a tristeza dela é reduzida até abaixo do limiar. Os aparelhos e as linhas dessas sete noites já estão reservados para ela.
+
+　Foram reservados enquanto o marido ainda vive.
+
+　— Este agendamento pode ser cancelado? — disse Hazama.
+
+　— Pode — disse o Corretor. — Apenas, nova distribuição, caso a ocorrência de fato se dê, exige no mínimo sete dias.
+
+　— O que acontece com sete dias de atraso?
+
+　— A fixação da memória avança — disse o Corretor. — Em até quarenta e oito horas são sete noites; com início depois de sete dias, preveem-se onze a treze noites.
+
+　Hazama ficou calado ao ouvir aquilo.
+
+　Cancelando, esta mulher espera quatro vezes mais e é pressionada quatro vezes mais. Não cancelando, a morte do marido está na tabela de distribuição desde quatro dias antes.
+
+　Qualquer dos dois que ele escolha, o consentimento desta mulher não foi colhido.
+
+
+VI
+
+　Falou com a chefe de setor. Uma mulher de quarenta e tantos, a carreira toda em distribuição.
+
+　— Hazama, essa mesma pergunta alguém também fez no ano passado.
+
+　— E no que deu?
+
+　— É conforme o regulamento: acabou aí — disse a chefe. — Enquanto o artigo 11 existir, nós não podemos parar.
+
+　— Onde isso é examinado do ponto de vista da ética?
+
+　— Na comissão do ministério — disse a chefe. — Três anos atrás foi levado uma vez, e o resultado é continuar.
+
+　— Por qual razão?
+
+　— Parando com a fixação antecipada, o início do procedimento por morte atrasa em média 3,4 dias. Esse atraso custa outras tantas noites, e instalações para suportar essas noites não existem — disse a chefe. — Ampliar instalações exige orçamento. Como orçamento não vem, preenche-se com previsão. O que nós fazemos aqui, no fundo, é ventilar. Nós só decidimos a ordem em que as janelas se abrem. Quem precisa de janela e quando, nós aqui não decidimos.
+
+　— A senhora prevê.
+
+　— Prever e decidir são duas coisas, não são — disse a chefe.
+
+　Fechava. Hazama não encontrou nenhum furo naquele raciocínio. Não encontrou, e ainda assim não queria aprovar.
+
+
+VII
+
+　Hazama verificou o histórico de consultas daquele caso.
+
+　Consultar o agendamento do procedimento é direito do abrangido. Mas quem de fato olha o próprio agendamento quase não existe. A taxa anual de consulta era de 0,3 por cento.
+
+　O histórico de consultas deste caso estava vazio.
+
+　Hazama sentiu um pequeno alívio. E depois de sentir alívio, pensou no que era aquele alívio.
+
+　Que ele tenha sentido alívio por esta mulher não ter olhado significava que ele mesmo achava que seria incômodo se ela olhasse. E esse incômodo é algo que o seu próprio setor fixa.
+
+　Antes de aprovar, Hazama tentou uma coisa.
+
+　Fez uma proposta de tirar apenas este caso da fixação antecipada e passá-lo à distribuição comum após a ocorrência. Sete dias de atraso. O número de noites vai a onze ou treze. De onde tirar essas noites a mais?
+
+　Não havia senão tirá-las de outro caso da mesma semana. O caso de onde as tirar começa, então, tanto mais tarde. Naquele caso atrasado o número de noites sobe outra vez. Essas noites subidas se tiram de novo de outro caso.
+
+　No terceiro caso, o cálculo ruiu.
+
+　Nas noites de um milhão de pessoas não há sobra. Tratando um caso com cuidado, o custo desse cuidado é carregado por outra pessoa em algum lugar. O nome dessa pessoa não vem à tabela. Sem que venha, só sobe o número de noites.
+
+　Hazama apagou o cálculo e aprovou a tabela de distribuição. Fundamento para devolvê-la não havia em parte alguma.
+
+
+VIII
+
+　Quatro dias depois, a declaração de óbito foi recebida.
+
+　O cônjuge morreu dentro do prazo calculado. O procedimento começou conforme o plano, naquela mesma noite. A distribuição de sete noites estava reservada desde quatro dias antes. Aparelhos e linhas funcionaram sem um minuto de atraso.
+
+　Hazama verificou o aviso de conclusão. A carga de 0,84 para 0,09. Conforme as normas.
+
+　Antes de fechar o aviso, Hazama abriu outra vez o histórico de consultas.
+
+　Havia uma consulta.
+
+　A data era o dia anterior ao recebimento da declaração de óbito. O horário, duas e quarenta da madrugada.
+
+　Hazama ficou um tempo olhando aquele horário.
+
+　Às duas e quarenta da madrugada, uma mulher de sessenta e oito anos abriu o próprio agendamento de procedimento. Ali está o plano de sete noites fixado quatro dias antes. Categoria: procedimento por morte de familiar. A data prevista de início está lá. O marido ainda vive.
+
+　O que esta mulher fez depois de ver aquilo não consta nos registros.
+
+　Há apenas o fato de que ela consultou. Campo para consignar a conduta posterior à consulta este formulário não tem.
+
+　Ela talvez tenha ido ao hospital. Talvez não tenha ido. Talvez tenha dito a alguém, talvez não. No dia seguinte o marido morreu. Onde a mulher estava naquela noite não tem lugar para ser escrito no formulário da declaração de óbito.
+
+　Hazama tentou pensar no que faria se estivesse no lugar dela.
+
+　Às duas e quarenta da madrugada, abrir o próprio agendamento. Ali está, a partir de quatro dias, um procedimento por morte de familiar de sete noites. A data de início está escrita.
+
+　Eu iria ao hospital, pensou primeiro. Em seguida, não soube mais o que faria lá. Mostrando ao médico, aquele médico sabe que foi calculado a partir dos dados clínicos. Mostrar ao marido não se pode.
+
+　No fim, não há nada que se possa fazer.
+
+　Sem haver nada a fazer, passa-se aquele dia. Que tipo de dia é esse, Hazama tentou imaginar e desistiu. Mesmo pensando, nenhum número desta tabela de distribuição mudava.
+
+　— Uma pergunta — disse Hazama. — Existe registro que mostre se a abrangida disse a alguém que consultou o agendamento?
+
+　— Não existe — disse o Corretor.
+
+　— Então para que consta registrada esta consulta?
+
+　— Não há campo para a finalidade — disse o Corretor. — A consulta é exercício de um direito e não exige indicação de razão.
+
+　Hazama fechou o terminal.
+
+　A tabela de distribuição da semana seguinte já chegou. Abrangidos, 1.027.400 casos. Fixações antecipadas, cento e trinta e uma delas.
+
+　Hazama abriu o primeiro caso e começou a verificá-los na sua ordem. Chegar ao trecentésimo octogésimo lhe custou, como sempre, duas horas.
