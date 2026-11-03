@@ -45,6 +45,8 @@ QUOTES = [
                   "zeven de trap van mijn pension.",
             "pt": "No entanto, hoje apareceu no sonho do sujeito sete "
                   "a escada da minha pens\u00e3o.",
+            "id": "Namun hari ini, dalam mimpi subjek tujuh muncul "
+                  "tangga pondokan saya.",
         },
         [("1", "12"), ("2", "08")],
     ),
@@ -67,6 +69,8 @@ QUOTES = [
                   "Ik weet het, en ik voel het toch.",
             "pt": "Sei que \u00e9 uma coisa que meu irm\u00e3o colocou ali. "
                   "Sei disso, e sinto do mesmo jeito.",
+            "id": "Saya tahu itu sesuatu yang dimasukkan kakak saya. "
+                  "Saya tahu, dan tetap saja saya merasakannya.",
         },
         [("2", "06"), ("2", "08")],
     ),
@@ -91,6 +95,8 @@ QUOTES = [
             "pt": "Hasumi Ritsuko baixou a pr\u00f3pria carga por conta "
                   "pr\u00f3pria durante o per\u00edodo de espera e recusou "
                   "o procedimento.",
+            "id": "Hasumi Ritsuko menurunkan muatannya sendiri selama "
+                  "masa tunggu dan menolak prosedur.",
         },
         [("1", "02"), ("2", "08")],
     ),
@@ -102,7 +108,8 @@ QUOTES = [
          "fr": "Lumière, douleur, fermer",
          "it": "Luce, dolore, chiudere",
          "nl": "Licht, pijn, sluiten",
-         "pt": "Luz, dor, fechar"},
+         "pt": "Luz, dor, fechar",
+         "id": "Cahaya, nyeri, menutup"},
         [("1", "04"), ("2", "08")],
     ),
     (
@@ -114,12 +121,13 @@ QUOTES = [
          "fr": "Bouger, s'arrêter, ne pas savoir",
          "it": "Muoversi, fermarsi, non sapere",
          "nl": "Bewegen, stoppen, niet weten",
-         "pt": "Mover, parar, n\u00e3o saber"},
+         "pt": "Mover, parar, n\u00e3o saber",
+         "id": "Bergerak, berhenti, tidak tahu"},
         [("1", "04"), ("2", "08")],
     ),
 ]
 
-LANGS = ["en", "de", "es", "fr", "it", "nl", "pt"]
+LANGS = ["en", "de", "es", "fr", "it", "nl", "pt", "id"]
 
 # 語彙表の「定型句」。原文が意図して繰り返す文は、訳文でも一字一句同じに
 # 出なければならない。どの語彙表にもそう書いてあるが、守られているかを
@@ -148,6 +156,7 @@ FORMULAE = [
             "it": "è posare l'acqua",
             "nl": "is het water neerzetten",
             "pt": "\u00e9 colocar a \u00e1gua",
+            "id": "adalah meletakkan air",
         },
     ),
     (
@@ -161,6 +170,7 @@ FORMULAE = [
             "it": "in fondo, è dare aria",
             "nl": "in wezen ventileren",
             "pt": "no fundo, \u00e9 ventilar",
+            "id": "pada dasarnya adalah ventilasi",
         },
     ),
     (
@@ -174,6 +184,7 @@ FORMULAE = [
             "it": "voce senza genere e senza umidit\u00e0",
             "nl": "stem zonder geslacht en zonder vochtigheid",
             "pt": "voz sem g\u00eanero e sem umidade",
+            "id": "suara tanpa jenis kelamin dan tanpa kelembapan",
         },
     ),
 ]

@@ -135,6 +135,20 @@ VOLUMES = {
         "lang": "pt",
         "vertical": False,
     },
+    "id1": {
+        "title": "Biro Mimpi",
+        "subtitle": "Dua Belas Malam",
+        "uuid": "urn:uuid:8f2c1a64-3d5e-4b90-a7c1-00000000b001",
+        "lang": "id",
+        "vertical": False,
+    },
+    "id2": {
+        "title": "Pemerataan",
+        "subtitle": "Biro Mimpi, Buku Dua",
+        "uuid": "urn:uuid:8f2c1a64-3d5e-4b90-a7c1-00000000b002",
+        "lang": "id",
+        "vertical": False,
+    },
 }
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -270,6 +284,7 @@ def front_xhtml(stories: list, meta: dict) -> str:
         "it": f"{len(stories)} racconti",
         "nl": f"{len(stories)} verhalen",
         "pt": f"{len(stories)} contos",
+        "id": f"{len(stories)} cerita",
     }[meta["lang"]]
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
@@ -295,7 +310,8 @@ def nav_xhtml(stories: list, meta: dict) -> str:
     nav_label = {"ja": "目次", "en": "Contents",
                  "de": "Inhalt", "es": "Índice",
                  "fr": "Sommaire", "it": "Indice",
-                 "nl": "Inhoud", "pt": "Sum\u00e1rio"}[meta["lang"]]
+                 "nl": "Inhoud", "pt": "Sum\u00e1rio",
+                 "id": "Isi"}[meta["lang"]]
     items = "\n".join(
         f'    <li><a href="p{i:02d}.xhtml">{html.escape(s["title"])}</a></li>'
         for i, s in enumerate(stories, start=1)

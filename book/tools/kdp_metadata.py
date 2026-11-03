@@ -27,11 +27,11 @@ OUT = ROOT / "KDP-メタデータ一覧.md"
 # 登録の順番。第一巻を先に出してシリーズ名を確定させる
 ORDER = ["vol1", "vol2", "en1", "en2", "de1", "de2",
          "es1", "es2", "fr1", "fr2", "it1", "it2", "nl1", "nl2",
-         "pt1", "pt2"]
+         "pt1", "pt2", "id1", "id2"]
 
 LANG_OF = {"vol": "ja", "en": "en", "de": "de",
            "es": "es", "fr": "fr", "it": "it", "nl": "nl",
-           "pt": "pt"}
+           "pt": "pt", "id": "id"}
 
 # 言語ごとの市場と電子書籍の軽減税率。税率はロイヤリティの計算に効く
 MARKETS = {
@@ -43,6 +43,8 @@ MARKETS = {
     "it": ("amazon.it", "4%"),
     "nl": ("amazon.nl / .com.be", "9%（白6%）"),
     "pt": ("amazon.com.br", "書籍は憲法上の免税（電子書籍も対象）"),
+    # インドネシアにはAmazonのストアがない。販売は amazon.com から行う
+    "id": ("amazon.com（現地ストアなし）", "購入者の市場の税率による"),
 }
 
 
@@ -150,7 +152,7 @@ def check(books: list) -> int:
 
     # シリーズ名は、同じ言語の二巻で巻番号の部分以外が一致していなければならない。
     # ここが一字違うと、Amazonはシリーズページを二つ作る。
-    for lang in ("ja", "en", "de", "es", "fr", "it", "nl", "pt"):
+    for lang in ("ja", "en", "de", "es", "fr", "it", "nl", "pt", "id"):
         pair = [b for b in books if b["lang"] == lang]
         if len(pair) != 2:
             continue
@@ -243,7 +245,7 @@ def write(books: list) -> None:
     a("")
     a("| 言語 | 主な市場 | 電子書籍の付加価値税 |")
     a("|---|---|---|")
-    for lang in ("ja", "en", "de", "es", "fr", "it", "nl", "pt"):
+    for lang in ("ja", "en", "de", "es", "fr", "it", "nl", "pt", "id"):
         m, vat = MARKETS[lang]
         a(f"| {lang} | {m} | {vat} |")
     a("")

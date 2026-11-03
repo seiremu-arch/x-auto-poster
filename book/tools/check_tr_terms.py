@@ -342,9 +342,71 @@ CHECKS_PT = [
     ("行末の空白", r"[ \t]+$"),
 ]
 
+# インドネシア語版。会話は二重引用符（“ ”）で組む。蘭語版と同じ理由で、
+# 開きと閉じの数を機械で数えられるようにするため。インドネシア語は
+# アポストロフィをほとんど使わないので衝突もない。
+#   ・正書法は現行のインドネシア式（1972年以降）。tj / dj / oe は不可
+#   ・マレー語が近い。isteri / fikir / kerana のような綴りは不可
+#   ・di- は受動の接頭辞なら続けて、前置詞なら離して書く。両方向に検査する
+#   ・千の位は点（1.027.400）、小数点は読点（0,038）
+CHECKS_ID = [
+    # 点は桁区切りに使うので一律に弾けない。切り分け方は西語・伊語と同じ。
+    ("荷重の小数点は読点（0,05）。0.05 は不可",
+     r"\b0\.\d+|\b\d+\.\d{1,2}(?!\d)|\b\d+\.\d{4,}"),
+    ("会話は “ ”。\" „ « » は不可",
+     r"\"|[\u201e\u00ab\u00bb]"),
+    ("約物の前に空白を入れない（仏語の規則が混じっている）",
+     r"[ \u00a0][;:?!]"),
+    ("半色は separuh warna（setengah warna / nada tengah は不可）",
+     r"\bsetengah warna\b|\bnada tengah\b|\bsemiton\w*\b"),
+    ("校正官は Korektor（Pemeriksa / Peninjau は不可）",
+     r"\bPemeriksa\b|\bPeninjau\b"),
+    ("素片は fragmen（serpihan / pecahan は不可）",
+     r"\bserpihan\b|\bpecahan\b"),
+    ("情動荷重は muatan afektif（muatan emosional は不可）",
+     r"\bmuatan emosional\b|\bbeban emosi\w*\b"),
+    ("照合機は Pembanding（Pencocok / Penyelaras は不可）",
+     r"\bPencocok\b|\bPenyelaras\b"),
+    ("残差は residu（residual は不可）", r"\bresidual\w*\b"),
+    ("均し計画は Rencana Pemerataan",
+     r"\bRencana Penyamaan\b|\bRencana Penyetaraan\b"),
+    ("技師は teknisi（insinyur は不可）", r"\binsinyur\w*\b"),
+    ("百分率は persen（perseratus / % は不可）", r"\bperseratus\b|%"),
+    # 1972年の綴り改定前の形。tj / dj / oe の二重字は現行の正書法にない。
+    ("改定前の綴りが混じっている（tj / dj / oe / jang）",
+     r"\b(?:tj|dj)\w+|\boentoe\w*\b|\bjang\b|\bsoedah\b"),
+    # マレー語はインドネシア語と近く、一語残っても通読では気づきにくい。
+    # 両語で形が違うものだけを挙げる（尼 istri / pikir / paham / karena /
+    # aktivitas / kualitas / universitas / realitas / informasi に対する
+    # 馬 isteri / fikir / faham / kerana / aktiviti / kualiti / universiti /
+    # realiti / maklumat）。両語に共通する boleh・tetapi は入れない。
+    ("マレー語の綴りが混じっている",
+     r"\bisteri\b|\bfikir\w*\b|\bfaham\w*\b|\bkerana\b"
+     r"|\baktiviti\b|\bkualiti\b|\buniversiti\b|\brealiti\b"
+     r"|\bmaklumat\b|\bsetiausaha\b"),
+    # di- の分かち書き。インドネシア語で最も多い誤りで、受動の接頭辞なら
+    # 続けて、場所の前置詞なら離して書く。どちらの向きも機械で拾える。
+    # proses は「di proses pengadilan」のように名詞にもなるので入れない。
+    ("受動の di- は動詞に続けて書く（di catat → dicatat）",
+     r"\bdi (?:buat|catat|lakukan|gunakan|berikan|tulis|baca|kurangi"
+     r"|naikkan|turunkan|periksa|simpan|hapus|tekan|ambil|pilih|sebut"
+     r"|anggap|tetapkan|laporkan|setujui|tolak|terima)\b"),
+    ("場所の di は離して書く（didalam → di dalam）",
+     r"\bdi(?:dalam|luar|atas|bawah|sana|sini|situ|antara|mana|samping"
+     r"|depan|belakang|tengah)\b"),
+    ("他言語の用語が混じっている",
+     r"\bthe\b|\bProofreader\b|\bder Korrektor\b|\bel Corrector\b"
+     r"|\ble Correcteur\b|\bil Correttore\b|\bde Corrector\b"
+     r"|\bo Corretor\b|\bHalbton\b|\bhalf-shade\b|\bmedia tinta\b"
+     r"|\bdemi-teinte\b|\bmezzatinta\b|\bhalftint\b|\bmeia-tinta\b"
+     r"|\bper cent\b"),
+    ("漢数字の残り（〇・一二三…）", r"[〇一二三四五六七八九十]"),
+    ("行末の空白", r"[ \t]+$"),
+]
+
 CHECKS = {"en": CHECKS_EN, "de": CHECKS_DE, "es": CHECKS_ES,
           "fr": CHECKS_FR, "it": CHECKS_IT, "nl": CHECKS_NL,
-          "pt": CHECKS_PT}
+          "pt": CHECKS_PT, "id": CHECKS_ID}
 
 # 原文の姓 -> 英語表記。第二巻は原文の読み仮名、第一巻は通用する読みによる。
 # 「その話に原文の姓が出るなら、英文にもこの綴りが出る」ことだけを見る。
@@ -395,7 +457,7 @@ def check_names() -> int:
     """
     bad = 0
     vols = [(f"{lang}{n}", f"vol{n}")
-            for lang in ("en", "de", "es", "fr", "it", "nl", "pt")
+            for lang in ("en", "de", "es", "fr", "it", "nl", "pt", "id")
             for n in (1, 2)]
     for en_vol, ja_vol in vols:
         for num, pairs in NAMES[ja_vol].items():
@@ -568,6 +630,45 @@ def check_pt_dashes() -> int:
     return bad
 
 
+def check_id_quotes() -> int:
+    """尼語版の会話が二重引用符で組まれているかを、原文と段落で突き合わせる。
+
+    数え方は check_nl_quotes と同じ。インドネシア語はアポストロフィを
+    ほとんど使わないので、蘭語で二重引用符を選んだ理由（一重だと
+    アポストロフィと同じ字になる）はそのまま当てはまらないが、
+    インドネシアの文芸書の標準が二重引用符なので揃えてある。
+    """
+    bad = 0
+    for tr_vol, ja_vol in (("id1", "vol1"), ("id2", "vol2")):
+        for path in sorted((ROOT / tr_vol / "stories")
+                           .glob("[0-9][0-9]_*.txt")):
+            ja_hits = sorted((ROOT / ja_vol / "stories")
+                             .glob(f"{path.name[:2]}_*.txt"))
+            if not ja_hits:
+                continue
+            ja = paragraphs(
+                ja_hits[0].read_text(encoding="utf-8").split("\n"), JA_SEC)
+            idn = paragraphs(
+                path.read_text(encoding="utf-8").split("\n"), TR_SEC)
+            if len(ja) != len(idn):
+                print(f"{path.relative_to(ROOT)}: 段落数が違うため照合できない"
+                      f"（原文 {len(ja)} / 訳文 {len(idn)}）")
+                bad += 1
+                continue
+            for n, (jp, ip) in enumerate(zip(ja, idn), start=1):
+                if jp.startswith("\u3000\u300c") and "\u201c" not in ip:
+                    print(f"{path.relative_to(ROOT)}: 第{n}段落は原文が"
+                          f"発話だが引用符がない")
+                    bad += 1
+            t = path.read_text(encoding="utf-8")
+            op, cl = t.count("\u201c"), t.count("\u201d")
+            if op != cl:
+                print(f"{path.relative_to(ROOT)}: 引用符の数が合わない"
+                      f"（開き “ {op} / 閉じ ” {cl}）")
+                bad += 1
+    return bad
+
+
 def check_de_quotes() -> int:
     """ドイツ語版の引用符が開きと閉じで同数かを見る。
 
@@ -589,7 +690,7 @@ def check_de_quotes() -> int:
 
 def main() -> int:
     hits = (check_names() + check_de_quotes() + check_it_quotes()
-            + check_nl_quotes() + check_pt_dashes())
+            + check_nl_quotes() + check_pt_dashes() + check_id_quotes())
     for path in STORIES:
         lang = path.parts[-3][:2]          # en1/de2 などの先頭2字
         checks = CHECKS.get(lang)
