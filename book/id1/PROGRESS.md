@@ -13,8 +13,8 @@ oleh kedua buku. Kompilasi dengan `python3 book/tools/build_epub.py id1`.
 
 | # | Jepang | Indonesia | Asli | Kata | Status |
 |---|---|---|---|---|---|
-| I | 半色 | Separuh Warna | — | — | menunggu |
-| II | 忘却の順番待ち | Daftar Tunggu Pelupaan | — | — | menunggu |
+| I | 半色 | Separuh Warna | 4.997 | 1.993 | **selesai** |
+| II | 忘却の順番待ち | Daftar Tunggu Pelupaan | 4.540 | 1.753 | **selesai** |
 | III | 夢の遺言 | Wasiat | — | — | menunggu |
 | IV | 夢の翻訳者 | Penerjemah | — | — | menunggu |
 | V | 二人称の夢 | Mimpi Orang Kedua | — | — | menunggu |
