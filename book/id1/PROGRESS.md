@@ -15,7 +15,7 @@ oleh kedua buku. Kompilasi dengan `python3 book/tools/build_epub.py id1`.
 |---|---|---|---|---|---|
 | I | 半色 | Separuh Warna | 4.997 | 1.993 | **selesai** |
 | II | 忘却の順番待ち | Daftar Tunggu Pelupaan | 4.540 | 1.753 | **selesai** |
-| III | 夢の遺言 | Wasiat | — | — | menunggu |
+| III | 夢の遺言 | Wasiat | 4.552 | 1.835 | **selesai** |
 | IV | 夢の翻訳者 | Penerjemah | — | — | menunggu |
 | V | 二人称の夢 | Mimpi Orang Kedua | — | — | menunggu |
 | VI | 夢税 | Pajak Mimpi | — | — | menunggu |
