@@ -380,19 +380,24 @@ CHECKS_ID = [
     # aktivitas / kualitas / universitas / realitas / informasi に対する
     # 馬 isteri / fikir / faham / kerana / aktiviti / kualiti / universiti /
     # realiti / maklumat）。両語に共通する boleh・tetapi は入れない。
+    # 接頭辞が付くと \b が効かない（berfikir は \bfikir に当たらない）。
+    # 尼語の正しい形は pikir / paham / karena / aktivitas / kualitas /
+    # universitas / realitas / informasi で、どれもこの綴りを含まないので、
+    # 語境界を外して部分一致で探す。
     ("マレー語の綴りが混じっている",
-     r"\bisteri\b|\bfikir\w*\b|\bfaham\w*\b|\bkerana\b"
-     r"|\baktiviti\b|\bkualiti\b|\buniversiti\b|\brealiti\b"
-     r"|\bmaklumat\b|\bsetiausaha\b"),
+     r"fikir|faham|isteri|kerana|aktiviti|kualiti|universiti|realiti"
+     r"|maklumat|setiausaha"),
     # di- の分かち書き。インドネシア語で最も多い誤りで、受動の接頭辞なら
     # 続けて、場所の前置詞なら離して書く。どちらの向きも機械で拾える。
     # proses は「di proses pengadilan」のように名詞にもなるので入れない。
     ("受動の di- は動詞に続けて書く（di catat → dicatat）",
-     r"\bdi (?:buat|catat|lakukan|gunakan|berikan|tulis|baca|kurangi"
+     r"\b[Dd]i (?:buat|catat|lakukan|gunakan|berikan|tulis|baca|kurangi"
      r"|naikkan|turunkan|periksa|simpan|hapus|tekan|ambil|pilih|sebut"
-     r"|anggap|tetapkan|laporkan|setujui|tolak|terima)\b"),
+     r"|sebutkan|anggap|tetapkan|laporkan|setujui|tolak|terima|maksud"
+     r"|ajukan|serahkan|bagikan|hitung|ukur|pindahkan|hilangkan|izinkan"
+     r"|putuskan|tugaskan|catatkan|bacakan)\b"),
     ("場所の di は離して書く（didalam → di dalam）",
-     r"\bdi(?:dalam|luar|atas|bawah|sana|sini|situ|antara|mana|samping"
+     r"\b[Dd]i(?:dalam|luar|atas|bawah|sana|sini|situ|antara|mana|samping"
      r"|depan|belakang|tengah)\b"),
     ("他言語の用語が混じっている",
      r"\bthe\b|\bProofreader\b|\bder Korrektor\b|\bel Corrector\b"
