@@ -13,18 +13,18 @@ oleh kedua buku. Kompilasi dengan `python3 book/tools/build_epub.py id2`.
 
 | # | Jepang | Indonesia | Asli | Kata | Status |
 |---|---|---|---|---|---|
-| I | 眠らない都市 | Kota yang Tidak Tidur | — | — | menunggu |
-| II | 胎夢 | Fondasi | — | — | menunggu |
-| III | 共感注射 | Suntikan Empati | — | — | menunggu |
-| IV | 最後の夢職人 | Perajin Terakhir | — | — | menunggu |
-| V | ＡＩは夢を見るか | Apakah Mesin Bermimpi? | — | — | menunggu |
-| VI | 夢の犯罪 | Penganiayaan | — | — | menunggu |
-| VII | 消えた現実 | Buku Induk | — | — | menunggu |
-| VIII | 夢の海 | Laut Mimpi | — | — | menunggu |
-| IX | 明日の夢 | Mimpi Besok | — | — | menunggu |
-| X | 最後のバグ | Bug Terakhir | — | — | menunggu |
-| XI | 残差 | Residu | — | — | menunggu |
-| XII | 完了報告 | Laporan Penyelesaian | — | — | menunggu |
+| I | 眠らない都市 | Kota yang Tidak Tidur | 4.336 | 1.858 | **selesai** |
+| II | 胎夢 | Fondasi | 4.240 | 1.843 | **selesai** |
+| III | 共感注射 | Suntikan Empati | 4.432 | 1.770 | **selesai** |
+| IV | 最後の夢職人 | Perajin Terakhir | 4.226 | 1.784 | **selesai** |
+| V | ＡＩは夢を見るか | Apakah Mesin Bermimpi? | 3.963 | 1.604 | **selesai** |
+| VI | 夢の犯罪 | Penganiayaan | 3.933 | 1.575 | **selesai** |
+| VII | 消えた現実 | Buku Induk | 3.982 | 1.759 | **selesai** |
+| VIII | 夢の海 | Laut Mimpi | 3.889 | 1.593 | **selesai** |
+| IX | 明日の夢 | Mimpi Besok | 3.879 | 1.655 | **selesai** |
+| X | 最後のバグ | Bug Terakhir | 3.843 | 1.598 | **selesai** |
+| XI | 残差 | Residu | 3.906 | 1.683 | **selesai** |
+| XII | 完了報告 | Laporan Penyelesaian | 4.090 | 1.706 | **selesai** |
 
 Bahasa Jepang seluruhnya 48.719 karakter. Angka dalam tabel ini ditulis oleh
 `python3 book/tools/sync_tr_counts.py id2`, bukan oleh tangan.

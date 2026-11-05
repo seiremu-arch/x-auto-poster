@@ -1,0 +1,264 @@
+XII. Laporan Penyelesaian
+
+
+I
+
+　Syarat penyelesaian Sinkronisasi Kedua ditetapkan dalam satu baris.
+
+　— Saat varians muatan afektif pada kelompok sasarannya turun di bawah nilai acuannya dijadikan penyelesaiannya.
+
+　Nilai acuannya 0,04. Itu angka yang ditetapkan dua puluh tiga tahun lalu, pada saat rencananya dimulai.
+
+　Pada perhitungan bulan Juni, variansnya menjadi 0,038.
+
+　“Ia memenuhi syaratnya,” kata Korektor. “Penyusunan laporan penyelesaiannya dapat dilakukan.”
+
+　Minato memandang layar itu beberapa lama. Dia bernaung di ruang Rencana Pemerataan, kelompok penilaian. Penanggung jawab yang menulis laporan penyelesaiannya hanya tiga orang di kamar ini.
+
+　Ini rencana yang memerlukan dua puluh tiga tahun. Mereka yang mengesahkannya pada saat dimulainya sudah pensiun semuanya. Manusia yang mengetahui bagaimana nilai acuan 0,04 itu ditetapkan pun tidak ada di bangunan ini.
+
+　Minato pada saat menjabat pernah memeriksa dasarnya. Pada dokumen rancangan rencananya, ada satu baris saja.
+
+　— Sebagai taraf ketika ketidaksesuaian yang berarti secara statistik tidak lagi teramati, 0,04 diambil.
+
+　Taraf ketika ia tidak lagi teramati. Orang yang menuliskannya, barangkali, menuliskannya dengan ketat. Dia tidak menulis taraf ketika ketidaksesuaiannya tidak ada lagi.
+
+
+II
+
+　Minato lebih dahulu mengeluarkan perjalanan variansnya.
+
+　Garis berpatahan sebanyak dua puluh tiga tahun ditampilkan. Pada saat dimulainya 0,21. Pada tahun kesepuluh 0,12. Pada tahun kelima belas 0,07.
+
+　Pada lima tahun yang terakhir, kemiringan garisnya berubah.
+
+　Sampai tahun kedelapan belas ia turun perlahan, tetapi dari tahun kesembilan belas ia jatuh dengan mendadak. Dalam lima tahun, dari 0,06 ke 0,038, ia bergerak sebanyak sepuluh tahun sebelum itu.
+
+　“Pada tahun kesembilan belas, apa yang terjadi?”
+
+　“Ada tiga catatan yang bersesuaian,” kata Korektor. “Perubahan cara pembagiannya. Perubahan acuan pengelolaan gangguannya. Perubahan ambang pencatatan perubahan fragmen yang bersebelahan.”
+
+　Minato membuka ketiganya.
+
+
+III
+
+　Yang pertama adalah perubahan yang membagikan pemilik bersamanya pada pekan yang sama.
+
+　Itu bagian dari pengefisienannya. Kalau mereka yang punya ingatan yang sama diproses sekaligus, tingkat jalannya alatnya naik. Secara samping, kelestarian dampak prosedurnya pun meningkat.
+
+　Bahwa kelestariannya meningkat bermakna bahwa ia jadi tidak kembali. Kalau ia tidak kembali, variansnya turun.
+
+　Yang kedua adalah perubahan yang menetapkan penanganan gangguan ringan yang diketahui. Dengan alat di seluruh negeri memakai model statistik yang sama, di sebelah fragmen yang ditekan terbentuk cekungan dengan bentuk yang sama. Gejalanya sekitar 0,05, dan secara klinis ia tidak menjadi masalah.
+
+　Kalau cekungan dengan bentuk yang sama terbentuk pada semua orang, variansnya turun.
+
+　Yang ketiga adalah perubahan yang menaikkan ambang pencatatan perubahan ke fragmen yang bersebelahan dari 0,01 ke 0,03. Perubahan di dalam ambangnya tidak dicatat.
+
+　Perubahan yang tidak dicatat tidak masuk ke hitungan variansnya.
+
+　Minato mencoba menjajarkan tanggal pelaksanaan ketiganya.
+
+　Ia triwulan yang sama pada tahun kesembilan belas.
+
+
+IV
+
+　“Satu hal saya tanyakan,” kata Minato. “Apakah ketiganya dirancang secara terhubung?”
+
+　“Tidak ada di dalam catatan,” kata Korektor. “Bagian perancangnya masing-masing berbeda. Bagian Pembagian, bagian Analisis Gangguan, dan direktorat Pengelolaan Teknis.”
+
+　“Tanda bahwa mereka saling merujuk?”
+
+　“Tidak ada.”
+
+　Minato memutuskan untuk memercayainya. Bahan untuk tidak memercayainya pun tidak ada.
+
+　Tiga bagian, dengan alasan masing-masing, melakukan perubahan masing-masing. Bagian Pembagian untuk tingkat jalannya. Bagian Analisis Gangguan karena besarnya ganti ruginya. Direktorat Pengelolaan Teknis untuk menyerap perkara yang ditangani tangan manusia. Semuanya berurut dengan benar.
+
+　Ketiga urutan yang berurut itu bertemu pada triwulan yang sama.
+
+　Ia bukan kebetulan, pikir Minato. Setelah memikirkannya, dia mencari dasarnya, dan tidak menemukannya.
+
+　Ketiganya menjadikan tidak lolosnya anggarannya sebagai titik tolaknya. Karena sarananya tidak dapat ditambah ia ditimbun dengan ramalannya. Karena tenaganya tidak dapat ditambah ambangnya dinaikkan. Karena ganti rugi pembetulannya besar ia dijadikan pengamatan berjalan.
+
+　Kalau kekangan yang sama dikenakan pada tahun anggaran yang sama, bagian yang berbeda-beda, masing-masing, mengeluarkan pemecahan dengan arah yang sama. Keperluan untuk saling berhubungan tidak ada.
+
+　Apakah itu disebut kebetulan atau tidak adalah masalah kata.
+
+
+V
+
+　Minato mencoba menghitung ulang variansnya.
+
+　Dia mengeluarkan nilainya pada hal ketiga perubahan itu tidak ada. Dia mengembalikan ambang pencatatannya ke 0,01, melengkapi perubahan yang tidak dicatat dengan dugaannya, dan melepaskan pembagian pemilik bersama pada pekan yang sama lalu menambahkan bagian yang kembalinya.
+
+　“Ketepatan dugaannya?”
+
+　“Rendah,” kata Korektor. “Cara untuk menduga jumlah yang tidak tercatat belum mantap.”
+
+　“Walaupun begitu, keluarkan.”
+
+　Angkanya keluar.
+
+　0,061.
+
+　Ia jauh melampaui nilai acuan 0,04-nya.
+
+
+VI
+
+　Hari itu Minato pulang tanpa melakukan apa pun.
+
+　Hari berikutnya, dia berunding dengan kepala kelompoknya. Perempuan lima puluhan, orang yang sudah dua belas tahun di ruang rencananya.
+
+　“Pak Minato, apakah hitungan ulang itu dapat menjadi dasarnya?”
+
+　“Ia tidak dapat,” kata Minato. “Karena cara dugaannya belum mantap, ia tidak dapat diajukan sebagai angka.”
+
+　“Kalau begitu, nilai resminya 0,038, bukan?”
+
+　“Ia 0,038.”
+
+　“Syaratnya terpenuhi.”
+
+　“Ia terpenuhi.”
+
+　Kepala kelompoknya mengangguk. Lalu dia memberi sedikit kelonggaran.
+
+　“Yang tersangkut pada Anda adalah bahwa bukan variansnya yang turun, melainkan mata yang mengukur variansnya yang menjadi kasar, bukan?”
+
+　“Benar.”
+
+　“Saya pun pernah memikirkan hal yang sama,” kata kepala kelompoknya. “Sekitar sepuluh tahun lalu. Waktu itu, karena perubahan ambangnya belum ada, saya dapat membuat angkanya dan membawanya. Angka yang saya buat tidak dipakai panitianya.”
+
+　“Alasannya?”
+
+　“Cara dugaannya belum mantap, katanya,” kata kepala kelompoknya. “Jawaban yang sama.”
+
+
+VII
+
+　Malam itu, Minato menelusuri tunjukan sejenis pada masa lalu.
+
+　“Berapa catatan yang terdaftar sebagai keberatan mengenai kepatutan sistem pengukurannya?”
+
+　“Pada catatan tersimpannya ada empat belas,” kata Korektor.
+
+　“Pada catatan yang resmi?”
+
+　“Tidak ada,” kata Korektor. “Golongan untuk mendaftarkan keberatan tidak ada pada formulir rencana ini.”
+
+　Empat belas. Semuanya dialihkan ke catatan tersimpannya sebagai hal yang tidak punya kolom untuk dituliskan.
+
+　Minato menyuruh menjajarkan keempat belasnya menurut urutan yang paling lama.
+
+　Setelah melihat tanggal yang paling lama, Minato menghentikan tangannya.
+
+　Empat puluh satu tahun lalu. Itu catatan dari delapan belas tahun sebelum Rencana Pemerataan dimulai.
+
+　“Ini catatan tentang apa?”
+
+　“Catatan di luar kolom pada laporan pembacanya,” kata Korektor. “Golongannya, di luar kolom tingkat kontaminasi.”
+
+
+VIII
+
+　Minato menampilkannya.
+
+　Fragmen tidak dapat diputar. Tulisan pada ruang kosongnya terbaca sebagai huruf. Lembar laporan kertas dari empat puluh satu tahun lalu dipindai mesinnya, dan dialihkan ke penyimpanannya dengan tetap sebagai teks.
+
+　Ada enam baris.
+
+　— Mengenai tingkat kontaminasi, saya catat satu hal. Nilai ini dihitung dari selisih himpunan fragmen subjeknya dan himpunan fragmen pembacanya. Dalam empat tahun, tingkat kontaminasi saya turun dari tiga puluh delapan ke dua. Mula-mula, saya memahaminya sebagai ketepatan yang meningkat.
+
+　— Ia bukan demikian. Bahwa selisihnya menjadi kecil adalah karena keduanya menjadi serupa.
+
+　— Yang menjadi masalah di sini adalah tolok ukur tingkat kontaminasi itu sendiri. Tolok ukur ini dianggap semakin baik bila selisihnya semakin kecil. Namun selisih yang kecil dapat berarti ketepatan yang tinggi, dan dapat juga berarti bahwa keduanya menjadi tidak dapat dibedakan. Pada sisi tolok ukurnya, tidak ada sarana untuk membedakan keduanya.
+
+　— Menetapkan baik buruknya dengan tolok ukur yang tidak dapat membedakannya sama dengan tidak menetapkannya.
+
+　— Saya mencari kolom untuk melaporkan hal ini, tetapi ia tidak tampak pada formulir laporannya. Karena itu saya mencatatnya pada ruang kosongnya.
+
+　— Apakah ada yang membacanya, tidak saya ketahui.
+
+　Minato membaca keenam baris itu tiga kali.
+
+　Pembaca dari empat puluh satu tahun lalu menulis mengenai tingkat kontaminasi. Yang Minato pikul sekarang adalah varians, tolok ukur yang lain. Alat yang dipakainya, maupun skala sasarannya, berbeda sebanyak empat puluh satu tahun.
+
+　Apa yang tertulis sama.
+
+　Ketika selisihnya menjadi kecil, apakah ia mendekat atau ia menjadi tidak kelihatan, sisi tolok ukurnya tidak dapat membedakannya.
+
+
+IX
+
+　“Satu hal saya tanyakan,” kata Minato. “Jumlah perujukan catatan ini?”
+
+　“Nol,” kata Korektor.
+
+　“Dalam empat puluh satu tahun, sekali pun tidak?”
+
+　“Sekali pun tidak.”
+
+　Minato memandang angka kecil yang keluar di kanan bawah layarnya. Jumlah perujukan, nol.
+
+　Keenam baris ini dituliskan pada suatu malam empat puluh satu tahun lalu. Orang yang menuliskannya menulis bahwa dia tidak mengetahui apakah ada yang membacanya. Dengan tetap tidak mengetahuinya, dia menuliskannya.
+
+　Dan pada kenyataannya, tidak ada.
+
+　Catatan tersimpannya memenuhi acuan pemusnahannya. Alasan ia tidak dimusnahkan tidak ada di dalam catatan. Rencana pengurangannya dirancang empat kali, dan keempat kalinya ditarik kembali. Keempat orang yang menariknya, semuanya, menilik catatan tersimpannya pada bulan sebelumnya. Mereka hanya menilikinya, dan apakah mereka membacanya tidak ada di dalam catatan.
+
+　Minato sekarang, membacanya.
+
+
+X
+
+　Formulir laporan penyelesaiannya dua lembar.
+
+　Pada lembar pertama dicatat nilai variansnya dan terpenuhinya syaratnya. 0,038. Ia turun di bawah nilai acuan 0,04. Terpenuhi.
+
+　Lembar kedua adalah kolom catatan khususnya. Kalau tidak ada yang hendak dituliskan, ia diajukan dengan kolom kosong. Pada kenyataannya, sembilan puluh persen laporan yang lalu kolomnya kosong.
+
+　Minato menulis pada lembar keduanya.
+
+　— Nilai varians pada laporan ini adalah nilai resmi berdasarkan sistem pengukuran yang sekarang. Namun penurunan pada lima tahun terakhir bertepatan waktunya dengan ketiga perubahan pada tahun kesembilan belas. Ketiganya, semuanya, bekerja ke arah yang mempersempit rentang perubahan yang dicatat.
+
+　— Nilai dugaan pada hal perubahannya tidak ada adalah 0,061, tetapi karena cara untuk menduga jumlah yang tidak tercatat belum mantap, ia tidak dapat diajukan sebagai dasarnya.
+
+　— Selain itu, golongan untuk mendaftarkan keberatan mengenai kepatutan sistem pengukurannya tidak ada pada formulir rencana ini. Tunjukan sejenis ada empat belas pada catatan tersimpannya, dan yang paling lama dilekatkan pada laporan pembaca empat puluh satu tahun lalu. Isinya adalah bahwa selisih yang kecil dapat berarti telah mendekat dan dapat juga berarti telah menjadi tidak dapat dibedakan, tetapi pada sisi tolok ukurnya tidak ada sarana untuk membedakan keduanya.
+
+　— Laporan ini, dengan hal di atas sebagai pangkalnya, melaporkan terpenuhinya syaratnya.
+
+　Setelah selesai menulis, Minato mengajukannya.
+
+　Penyelesaiannya disetujui empat hari kemudian. Mengenai catatan khususnya, pertanyaan tidak datang.
+
+
+XI
+
+　Dengan selesainya Sinkronisasi Kedua, rencananya masuk ke tahap berikutnya.
+
+　Nama tahap berikutnya belum ditetapkan. Usulan untuk menurunkan nilai acuannya lebih jauh dan usulan untuk melebarkan skala sasarannya sedang dikaji secara sejajar. Keduanya diperkirakan tercantum pada permintaan anggaran tahun depan.
+
+　Minato tidak dipanggil ke rapat itu. Penanggung jawab yang menulis laporan penyelesaiannya, kalau dia selesai menulisnya, perannya berakhir.
+
+　Pada hari kerja terakhirnya, Minato sedang merapikan terminalnya dan membuka keenam baris itu sekali lagi.
+
+　Setelah membukanya, dia memandang kanan bawahnya.
+
+　Jumlah perujukan, satu.
+
+　Bagian yang Minato buka kemarin terhitung di situ. Perlu empat puluh satu tahun, dan nol menjadi satu.
+
+　Setelah ia menjadi satu pun, bukan berarti sesuatu berubah. Penyelesaiannya disetujui, dan tahap berikutnya sedang dikaji. Variansnya terus turun. Sarana untuk membedakan apakah ia turun atau ia menjadi tidak kelihatan, sampai sekarang pun tidak ada.
+
+　Hanya saja, apa yang orang yang menuliskan keenam baris ini ingin ketahui empat puluh satu tahun lalu adalah apakah ada yang membacanya, hanya itu.
+
+　Minato menutup terminalnya.
+
+　Sebelum menutupnya, dia memastikan bahwa catatan khususnya sendiri telah dialihkan ke catatan tersimpannya. Golongannya, keberatan, di luar formulir. Jumlah perujukan, nol.
+
+　Sampai seseorang berikutnya membukanya, berapa lama diperlukan tidak dapat diketahui. Mungkin lebih pendek daripada empat puluh satu tahun, dan mungkin lebih panjang.
+
+　Kolom untuk meramalkan angka itu pun tidak ada pada rencana ini.
