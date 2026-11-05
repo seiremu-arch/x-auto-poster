@@ -1,4 +1,4 @@
-# KDPメタデータ一覧（16冊）
+# KDPメタデータ一覧（18冊）
 
 **この表は手で書かない。** 各巻の `KDP登録情報.md` が正本で、
 `python3 book/tools/kdp_metadata.py` が読み直して書き出す。
@@ -29,6 +29,8 @@
 | 14 | `nl2` | De Nivellering | Het Droombureau, Deel Twee | Het Droombureau（Deel 2） | 2 | Nederlands | 3,99 €（オランダ） |
 | 15 | `pt1` | A Repartição dos Sonhos | Doze noites | A Repartição dos Sonhos（Livro 1） | 1 | Português | R$ 9,90（ブラジル） |
 | 16 | `pt2` | O Nivelamento | A Repartição dos Sonhos, Livro Dois | A Repartição dos Sonhos（Livro 2） | 2 | Português | R$ 9,90（ブラジル） |
+| 17 | `id1` | Biro Mimpi | Dua Belas Malam | Biro Mimpi（Buku 1） | 1 | Bahasa Indonesia（**登録画面で選べるか要確認。下記**） | USD 4.99（amazon.com） |
+| 18 | `id2` | Pemerataan | Biro Mimpi, Buku Dua | Biro Mimpi（Buku 2） | 2 | Bahasa Indonesia（**登録画面で選べるか要確認。下記**） | USD 4.99（amazon.com） |
 
 ## 2. 分量と原稿
 
@@ -50,6 +52,8 @@
 | `nl2` | 12 | 48,719字 | 24,065 words | 0.494 | `De Nivellering.epub` | `cover_nl2.jpg` |
 | `pt1` | 12 | 51,718字 | 24,752 words | 0.479 | `A Repartição dos Sonhos.epub` | `cover_pt1.jpg` |
 | `pt2` | 12 | 48,719字 | 23,750 words | 0.487 | `O Nivelamento.epub` | `cover_pt2.jpg` |
+| `id1` | 12 | 51,718字 | 20,964 words | 0.405 | `Biro Mimpi.epub` | `cover_id1.jpg` |
+| `id2` | 12 | 48,719字 | 20,428 words | 0.419 | `Pemerataan.epub` | `cover_id2.jpg` |
 
 原文の字数は日本語版の原稿から数えた値で、同じ巻ならどの言語でも同じになる。
 訳文の語数は空白区切りの語数。比は words/字。
@@ -66,6 +70,7 @@
 | it | amazon.it | 4% |
 | nl | amazon.nl / .com.be | 9%（白6%） |
 | pt | amazon.com.br | 書籍は憲法上の免税（電子書籍も対象） |
+| id | amazon.com（現地ストアなし） | 購入者の市場の税率による |
 
 ロイヤリティは**税抜額**に対してかかる。同じ 3,99 € でも、
 西・伊（4%）と蘭（9%）では手取りが違う。登録画面で自動換算させたあと、
@@ -1122,6 +1127,136 @@ Cerca de 23.800 palavras.
 2. Literatura e Ficção → Ficção científica → Distopia
 3. Literatura e Ficção → Ficção literária
 
+### 17. `id1` — Biro Mimpi
+
+- **題** Biro Mimpi
+- **副題** Dua Belas Malam
+- **シリーズ** Biro Mimpi（Buku 1）
+- **言語** Bahasa Indonesia（**登録画面で選べるか要確認。下記**）　**価格** USD 4.99（amazon.com）　**ロイヤリティ** 70%プラン　**KDPセレクト** 言語の可否が決まるまで保留
+
+<details><summary>内容紹介（そのまま貼り付け可）</summary>
+
+Mimpi tidak terhapus. Ia hanya dapat dibuat lebih ringan.
+
+Selagi Anda tidur, otak melunakkan sebuah ingatan, menyambungnya ulang, dan membiarkannya mengeras kembali. Penyuntingan mimpi adalah pekerjaan yang mendampingi beberapa detik itu dan mengubah, sedikit saja, tangan yang menyambungnya.
+
+Tidak ada jalan lain selain menurunkan berat sebuah ingatan. Dalam satu malam, 0,05 paling banyak. Di lapangan, itu disebut separuh warna.
+
+Batas atasnya ada bukan karena tekniknya kurang. Kalau sebuah ingatan ditipiskan terlalu cepat, jejak penulisan ulangnya pergi bersamanya. Selama jejaknya tinggal, orang dapat berkata kepada dirinya sendiri: ini mimpi yang disunting. Yang dilindungi batas atasnya bukan mimpi orang yang tidur. Ia adalah kelonggaran yang tersisa sesudahnya, setelah terbangun, untuk meragukan ingatannya sendiri.
+
+Dua belas cerita yang bertalian, di sebuah negeri tempat teknik itu masuk sampai ke sudut terakhir kehidupan sehari-hari.
+
+- Seorang anak perempuan tiga belas tahun yang meminta agar mimpi buruknya dibiarkan saja — Separuh Warna
+- Seorang perempuan yang menunggu empat tahun tujuh bulan, lalu menolak prosedurnya pada hari gilirannya tiba — Daftar Tunggu Pelupaan
+- Seorang janda yang menerima permintaan maaf yang tidak pernah dapat diucapkan suaminya, disintesiskan dari buku hariannya, dan seorang anak yang menyebut itu barang palsu — Wasiat
+- Seorang ibu yang setiap bulan dibacakan cerita yang jernih dan melegakan, diterjemahkan dari mimpi anaknya yang tidak punya kata-kata — Penerjemah
+- Seorang teknisi yang menaikkan penyesalan seorang pembunuh dari 0,07 ke 0,81 selama lima belas malam — Hukuman
+- Sebuah tempat kerja tempat prosedur dukanya diwajibkan dalam empat puluh delapan jam, dan seorang lelaki yang tidak menerimanya — Duka yang Diwakilkan
+
+Tidak ada tokoh jahat. Yang ada hanya orang yang mengerjakan pekerjaannya dengan benar, sesuai ketentuannya, dan sebuah wilayah yang tidak pernah diperkirakan ketentuannya.
+
+Setiap cerita berdiri sendiri. Semakin maju, semakin jelas apa yang selama ini disebut kebahagiaan oleh negeri ini.
+
+ISI
+I. Separuh Warna
+II. Daftar Tunggu Pelupaan
+III. Wasiat
+IV. Penerjemah
+V. Mimpi Orang Kedua
+VI. Pajak Mimpi
+VII. Duka yang Diwakilkan
+VIII. Hukuman
+IX. Hak untuk Tidak Terbangun
+X. Warisan
+XI. Indeks Kebahagiaan 98
+XII. Subjek yang Membisu
+
+Sekitar 21.000 kata.
+
+---
+
+</details>
+
+キーワード（7つ、この順）
+
+1. `fiksi ilmiah sastra`
+2. `distopia masa depan dekat`
+3. `kumpulan cerita bertalian`
+4. `ingatan dan jati diri`
+5. `fiksi ilmiah renungan cerpen`
+6. `distopia birokrasi novel`
+7. `fiksi ilmiah jepang bahasa indonesia`
+
+カテゴリー（最大3つ、この順）
+
+1. Books → Literature & Fiction → Science Fiction → Anthologies & Short Stories
+2. Books → Literature & Fiction → Literary Fiction
+3. Books → Literature & Fiction → Science Fiction → Dystopian
+
+### 18. `id2` — Pemerataan
+
+- **題** Pemerataan
+- **副題** Biro Mimpi, Buku Dua
+- **シリーズ** Biro Mimpi（Buku 2）
+- **言語** Bahasa Indonesia（**登録画面で選べるか要確認。下記**）　**価格** USD 4.99（amazon.com）　**ロイヤリティ** 70%プラン　**KDPセレクト** 言語の可否が決まるまで保留
+
+<details><summary>内容紹介（そのまま貼り付け可）</summary>
+
+Pemerataan. Itu nama sebuah rencana negara yang mendekatkan berat ingatan sejuta orang kepada rata-ratanya, malam demi malam.
+
+Selagi Anda tidur, otak melunakkan sebuah ingatan, menyambungnya ulang, dan membiarkannya mengeras kembali. Penyuntingan mimpi menyela beberapa detik itu dan menurunkan beratnya: dalam satu malam yang dapat digerakkan 0,05 paling banyak. Di lapangan, itu disebut separuh warna.
+
+Kalau Buku I, Biro Mimpi, adalah soal seorang teknisi dan seorang pemohon yang duduk berhadapan, dua belas cerita ini datang sesudahnya: ketika tekniknya menjadi, pertama sebuah bidang usaha, lalu sebuah sistem, dan akhirnya sesuatu seukuran negeri.
+
+- Sebuah masyarakat tempat tidur tiga jam sudah cukup, dan sebuah perusahaan yang pada empat puluh menit sisanya menjual perasaan orang lain — Kota yang Tidak Tidur
+- Sebuah penyelaan sebelum kelahiran yang membentuk rasa aman, kepercayaan, dan rasa ingin tahu pada janin. Yang dikenainya bukan anak-anaknya — Fondasi
+- Kesedihan yang dipindahkan kepada seorang pelaku sudah ditarik dari keluarganya pada saat ia dipungut — Suntikan Empati
+- Tingkat pemrosesan otomatis 98,4 persen, dan perajin terakhir yang memikul 1,6 yang sisa — Perajin Terakhir
+- Seorang lelaki yang selama tujuh malam dan tanpa persetujuannya dibuat memikul yang lebih berat, dan yang menolak agar ia dikembalikan ke tempatnya — Penganiayaan
+- Sebuah kebakaran dengan sembilan belas orang mati yang tidak diingat siapa pun dan tidak tertulis di mana pun — Buku Induk
+
+Tidak ada tokoh jahat. Yang ada hanya orang yang, di bagiannya masing-masing, mengerjakan pekerjaannya dengan benar. Bagian Pembagian mengubah sesuatu karena tingkat jalannya alatnya; bagian Analisis Gangguan karena besarnya ganti rugi pembetulannya; direktorat Pengelolaan Teknis karena kurangnya tenaga. Tidak ada tanda bahwa mereka saling berbicara.
+
+Apa yang terjadi ketika ketiga jalan pikiran itu jatuh pada triwulan yang sama menjadi jelas pada cerita terakhir, Laporan Penyelesaian.
+
+Setiap cerita berdiri sendiri. Buku I tidak diperlukan.
+
+ISI
+I. Kota yang Tidak Tidur
+II. Fondasi
+III. Suntikan Empati
+IV. Perajin Terakhir
+V. Apakah Mesin Bermimpi?
+VI. Penganiayaan
+VII. Buku Induk
+VIII. Laut Mimpi
+IX. Mimpi Besok
+X. Bug Terakhir
+XI. Residu
+XII. Laporan Penyelesaian
+
+Sekitar 20.400 kata.
+
+---
+
+</details>
+
+キーワード（7つ、この順）
+
+1. `fiksi ilmiah sastra`
+2. `distopia birokrasi`
+3. `kumpulan cerita bertalian`
+4. `pengawasan dan sistem`
+5. `fiksi ilmiah renungan cerpen`
+6. `ingatan dan negara`
+7. `fiksi ilmiah jepang bahasa indonesia`
+
+カテゴリー（最大3つ、この順）
+
+1. Books → Literature & Fiction → Science Fiction → Anthologies & Short Stories
+2. Books → Literature & Fiction → Science Fiction → Dystopian
+3. Books → Literature & Fiction → Literary Fiction
+
 ---
 
 ## 5. つまずきやすいところ
@@ -1130,14 +1265,14 @@ Cerca de 23.800 palavras.
    一字でも違うと、Amazonはシリーズページを二つ作る。アポストロフィの
    形（`'` と `’`）も違いとして数えられる。この道具が検査している。
 2. **ISBNは不要。** KDPが内部管理番号を自動で付ける。自分で買う必要はない。
-3. **著者名は全16冊で同じ綴り。** `Kazu A. Suzuki`。
+3. **著者名は全18冊で同じ綴り。** `Kazu A. Suzuki`。
    表記が揺れると著者ページが分かれる。
 4. **出版言語は原稿の言語に合わせる。** ここを間違えると、
    その言語の読者に推薦されない。
 5. **価格は税抜額を確認。** 70%プランが使えるのは
    2,99 €〜9,99 €（日本は250円〜1,250円）の範囲。
 6. **応募作は一冊も含まない。** 『境界線、未編集』は未発表のままで、
-   16冊のどこにも入っていない。`check_overlap.py` が全言語で
+   18冊のどこにも入っていない。`check_overlap.py` が全言語で
    機械的に確認している。内容紹介に紛れ込ませないこと。
 
 ---
