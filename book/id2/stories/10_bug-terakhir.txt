@@ -1,0 +1,255 @@
+X. Bug Terakhir
+
+
+I
+
+　Mimpi buruk yang sama, dimimpikan manusia yang tidak ada hubungannya.
+
+　Laporan yang pertama datang dari satu pemerintahan daerah di Tohoku. Isinya adalah bahwa pada penelusuran lanjutan setelah prosedurnya, sebelas orang dari sasarannya jadi memimpikan mimpi buruk yang satu dan sama yang bukan sasaran prosedurnya.
+
+　Pada sebelas orang itu tidak ada hubungan darahnya. Tempat tinggalnya maupun tempat kerjanya tidak bertindih. Yang sama pada mereka hanya bahwa mereka menerima prosedurnya pada bulan yang sama.
+
+　“Jumlah perkara yang bersesuaian di seluruh negeri?” Ogido membuka terminalnya. Dia bernaung di direktorat Pengelolaan Teknis, bagian Analisis Gangguan.
+
+　“2.407 perkara,” kata Korektor. “Itu perhitungan enam bulan terakhir.”
+
+　“Tingkat pertambahannya?”
+
+　“Empat belas persen per bulan.”
+
+　Ogido membaca angka itu tiga kali.
+
+　Sudah tujuh tahun sejak dia datang ke bagian Analisis Gangguan. Yang ditangani bagian ini umumnya gangguan alatnya. Keluarannya berhenti. Muatannya melewati ketentuannya. Pengukurannya melompat. Semuanya punya sebab, dan kalau sebabnya ditumpas ia berhenti.
+
+　Menangani yang tidak berhenti, sampai sekarang belum pernah.
+
+
+II
+
+　Pekerjaan Ogido adalah mengenali sebabnya.
+
+　Yang lebih dahulu dia ragukan adalah perbedaan satuan alatnya. Kalau ada kecondongan pada jenis tertentu atau pada kumpulan produksi tertentu, ceritanya cepat.
+
+　Kecondongannya tidak ada. 2.407 perkaranya tersebar merata pada alat di seluruh negeri.
+
+　Berikutnya yang dia ragukan adalah percampuran fragmen sintesisnya. Kalau fragmen lain merembes masuk dalam proses prosedurnya, gejala seperti ini terjadi.
+
+　“Pada catatan prosedurnya, apakah ada perujukan fragmen sintesisnya?”
+
+　“Tidak ada,” kata Korektor. “Semuanya penyuntingan ke bawah yang biasa. Sintesisnya tidak terlibat.”
+
+　“Lalu, isi mimpi buruknya?”
+
+　“Isinya tidak kami peroleh,” kata Korektor. “Teknik untuk mengeluarkan mimpi sebagai gambar bergerak tidak ada.”
+
+　“Lalu, apa dasarnya menetapkan ia sama?”
+
+　“Susunan fragmennya,” kata Korektor. “Pada 2.407 perkaranya, derajat kecocokan susunan fragmen yang dimaksud sembilan puluh enam persen.”
+
+
+III
+
+　Ogido menampilkan susunan itu.
+
+　Satu pita. Tipis, dan warnanya pudar. Kalau dijadikan muatan ia tertampung di antara 0,04 dan 0,06. Itu nilai yang kurang lebih sama dengan yang melekat pada hal kecil sehari-hari.
+
+　Hanya saja, bentuknya rapi.
+
+　Ogido merasa pernah melihat bentuk itu.
+
+　Tiga tahun lalu, ada penelusuran yang dialihkan dari bagian Penjaminan Mutu. Isinya adalah bahwa pada keluaran fragmen sintesisnya tercampur komponen berlebih yang tidak dapat dijelaskan dari bahan masukannya. Bentuknya sama dengan komponen berlebih waktu itu.
+
+　“Apakah ia susunan yang sama dengan penelusuran bagian Penjaminan Mutu tiga tahun lalu?”
+
+　“Ia sama,” kata Korektor. “Derajat kecocokannya sembilan puluh empat persen.”
+
+　“Kesimpulannya waktu itu?”
+
+　“Pembetulan tidak perlu,” kata Korektor. “Tercantum bahwa dampaknya pada keluarannya ringan, dan penurunan mutu akibat tindakan pembetulannya melampauinya.”
+
+　“Lalu, mengapa sekarang ia muncul pada mimpi orang?”
+
+　“Kolom itu tidak kami catat.”
+
+
+IV
+
+　Ogido melacak jalurnya.
+
+　Komponen berlebih tiga tahun lalu keluar sebagai akibat perujukan besaran ciri catatan tersimpannya pada lapisan tengah sintesisnya. Itu gejala yang muncul hanya pada fragmen sintesis, dan jalurnya berbeda dari penyuntingan ke bawah yang biasa.
+
+　Ia seharusnya berbeda.
+
+　Ogido menyisir sistem pemrosesan penyuntingan ke bawahnya. Alat penyuntingnya, untuk menetapkan kedudukan dan jumlah tekanannya, menilai letak fragmen yang bersebelahan. Untuk penilaiannya ia memakai model statistik.
+
+　Pada data pembelajaran model itu, catatan tersimpannya masuk.
+
+　“Sejak kapan?”
+
+　“Sejak pembaruan empat tahun lalu,” kata Korektor. “Untuk meningkatkan ketepatan penghindaran seretan ke fragmen yang bersebelahan, data pembelajarannya diperluas.”
+
+　“Apakah pada perluasannya catatan tersimpannya dipakai?”
+
+　“Ia dipakai,” kata Korektor. “Sebagai contoh yang mengandung bagian ingatan orang yang tidak dapat dijelaskan, ia dinilai berdaya guna.”
+
+　Ogido bersandar ke punggung kursinya.
+
+　Sebanyak empat puluh satu tahun, 280 juta perkara. Gunungan yang mengumpulkan apa yang kolomnya tidak ada untuk dituliskan, sejak empat tahun lalu, dijadikan acuan ketika alat di seluruh negeri menetapkan kedudukan tekanannya.
+
+
+V
+
+　Sebagai mekanismenya, ia sederhana.
+
+　Alatnya, ketika menetapkan kedudukan tekanannya, berusaha mendekatkannya kepada “letak ingatan yang wajar” yang telah dia pelajari. Dalam proses mendekatkannya, masuk perapian yang amat sedikit. Perapiannya 0,001 atau kurang, dan ia tidak terkena ambang pencatatannya.
+
+　Model yang sama dipakai alat di seluruh negeri. Perapian yang sama masuk ke arah yang sama di seluruh negeri.
+
+　Dengan satu kali tidak terjadi apa pun. Kalau ia bertumpuk, di sebelah fragmen yang ditekan terbentuk cekungan dengan bentuk yang sama.
+
+　Cekungan bukan fragmen. Hanya saja, otaknya meletakkan sesuatu di situ. Apa yang diletakkan berbentuk sama.
+
+　“Jadi, apakah ini bukan ingatan?”
+
+　“Ia tidak bersesuaian dengan definisi ingatan,” kata Korektor. “Kejadian yang menjadi asalnya tidak ada.”
+
+　“Lalu, orang melihat apa?”
+
+　“Bentuk cekungannya.”
+
+　Ogido memikirkan cara mengatakan itu beberapa lama.
+
+　Orang, sepanjang dia tidur, menyambung ulang ingatannya. Kalau tempat tujuan penyambungannya terbuka, otaknya meletakkan sesuatu di situ. Apa yang diletakkan dibuat dari apa yang orang itu punya. Karena itu isinya berbeda menurut orangnya.
+
+　Walaupun ia berbeda, hanya bentuknya yang menjadi sama.
+
+　“Apakah apa yang dilihat 2.407 orang itu sama?”
+
+　“Tidak dapat ditetapkan,” kata Korektor. “Sarana untuk memperoleh isinya tidak ada.”
+
+　“Lalu, ungkapan mimpi buruk yang sama datang dari mana?”
+
+　“Laporan sasarannya,” kata Korektor. “Dari laporannya, ungkapan saya memimpikan mimpi yang aneh enam puluh persen. Saya memimpikan mimpi yang sama berulang kali, tiga puluh persen. Sepuluh persen sisanya memuat uraian isinya.”
+
+　“Derajat kecocokan uraiannya?”
+
+　“Empat puluh satu persen.”
+
+　Tidak sampai separuhnya. Ia bukan mimpi buruk yang sama. Pada cekungan dengan bentuk yang sama, masing-masing meletakkan miliknya sendiri. Itu menjadi kata-kata yang serupa dengan peluang empat puluh persen.
+
+
+VI
+
+　Laporan kepada kepala direktoratnya pada pekan berikutnya.
+
+　“Penanganannya?”
+
+　“Ada tiga,” kata Ogido. “Mengeluarkan catatan tersimpannya dari data pembelajarannya. Mengembalikan modelnya ke versi empat tahun lalu. Atau, tidak melakukan apa pun.”
+
+　“Kalau tidak melakukan apa pun, bagaimana jadinya?”
+
+　“Ia terus bertambah. Dengan empat belas persen per bulan, tiga tahun kemudian ia diperkirakan mencapai empat puluh persen seluruh sasaran prosedurnya.”
+
+　“Berat gejalanya?”
+
+　“0,04 sampai 0,06,” kata Ogido. “Secara klinis, ia bukan taraf yang menjadi masalah. Sebagai keluhannya, ia berhenti pada saya memimpikan mimpi yang aneh.”
+
+　Kepala direktoratnya berpikir sebentar.
+
+　“Kalau modelnya dikembalikan, bagaimana seretannya?”
+
+　“Ia kembali ke taraf empat tahun lalu,” kata Ogido. “Perubahan ke fragmen yang bersebelahan bertambah sekitar tiga kali yang sekarang.”
+
+　“Tiga kali itu tidak mungkin, ya.”
+
+　“Tidak mungkin.”
+
+　“Kalau begitu, mengeluarkan catatan tersimpannya saja?”
+
+　“Saya sudah menghitungnya,” kata Ogido. “Seretannya bertambah menjadi 1,4 kali. Selain itu, rasa sintesisnya turun dua belas poin.”
+
+　Kepala direktoratnya memandang angka itu beberapa lama.
+
+　“Pak Ogido, ini, apakah ia sesuatu yang buruk?”
+
+　Ogido tidak dapat menjawab.
+
+　“Yang saya tanyakan bukan pendapat,” kepala direktoratnya melanjutkan. “Untuk menetapkan perlu tidaknya penanganannya, kita harus mengatakan apakah ia buruk atau tidak. Kalau ia tidak buruk, bagian kita tidak dapat bergerak.”
+
+　“Sebagai gejalanya, ia tidak buruk.”
+
+　“Kalau begitu, apa yang tersangkut pada Anda?”
+
+　“Skalanya,” kata Ogido. “Per orang ia 0,05. Tiga tahun kemudian, hal yang sama masuk pada empat puluh persen seluruh sasaran prosedurnya. Cara untuk menjumlahkan nilai per orangnya dan jumlah orang yang terkenanya dengan tolok ukur yang sama tidak ada.”
+
+　“Apakah ia perlu dijumlahkan?”
+
+　“Saya kira ia perlu,” kata Ogido. “Hanya saja, ketentuan cara menjumlahkannya tidak ada.”
+
+　Kepala direktoratnya mengangguk. Cara mengangguk yang tidak menyangkal dan tidak membenarkan.
+
+　“Kalau begitu, tuliskan saja. Bahwa ketentuannya tidak ada.”
+
+
+VII
+
+　Malam itu, Ogido melihat sebaran 2.407 perkaranya sekali lagi.
+
+　Tanpa hubungan dengan usianya, pekerjaannya, maupun daerahnya, ia berserak merata. Yang sama pada mereka hanya bahwa mereka menerima penyuntingan ke bawah dalam empat tahun ini.
+
+　2.407 orang punya cekungan dengan bentuk yang sama. Apa yang diletakkan pada cekungannya, barangkali, berbeda menurut orangnya. Tetapi kalau bentuknya sama, apa yang diletakkan pun menjadi serupa.
+
+　Tiga tahun kemudian ia menjadi empat puluh persen. Sepuluh tahun kemudian, ia menjadi hampir semuanya.
+
+　Masyarakat yang semua orangnya punya cekungan dengan bentuk yang sama, disebut apa, Ogido memikirkannya.
+
+　Ia disebut telah diratakan, pikirnya. Yang rencananya adalah cerita mendekatkan muatan sejuta orang ke rata-ratanya, dan yang ini adalah akibat kebiasaan alatnya menjadi seragam di seluruh negeri. Tujuannya maupun tata caranya sama sekali berbeda.
+
+　Walaupun berbeda, bentuk tempat tujuan keduanya serupa.
+
+　“Satu hal saya tanyakan,” kata Ogido. “Apakah gejala ini punya nama?”
+
+　“Ia punya nomor pengelolaan gangguan,” kata Korektor. “Golongannya adalah gangguan ringan yang diketahui.”
+
+　“Sebutan umumnya?”
+
+　“Di lapangan ia disebut bug terakhir.”
+
+　“Terakhir, maksudnya?”
+
+　“Karena sebagai gangguan yang sebabnya dikenali, ia diperkirakan menjadi yang terakhir,” kata Korektor. “Perbedaan yang timbul setelah ini sebagian besar akan berasal dari pembaruan model pembelajarannya, dan sebabnya satu per satu tidak dapat dikenali.”
+
+
+VIII
+
+　Pada golongan penanganan lembar laporannya, Ogido mencantumkan “pengamatan berjalan”.
+
+　Pilihannya ada empat. Pembetulan segera. Pembetulan terencana. Pengamatan berjalan. Pembetulan tidak perlu.
+
+　Bagian Penjaminan Mutu tiga tahun lalu memilih “pembetulan tidak perlu”. Ogido memilih satu langkah sebelumnya. Perbedaannya hanya apakah penanggung jawab berikutnya berkewajiban membuka perkara ini atau tidak.
+
+　Pada kolom keterangannya, Ogido menulis begini.
+
+　— Perkara ini diproses sebagai gangguan ringan yang diketahui, tetapi bahwa taraf gejalanya ringan dan bahwa rentang dampaknya ringan adalah dua hal yang berbeda. Perkiraan pencapaiannya tiga tahun kemudian adalah empat puluh persen seluruh sasaran prosedurnya. Ketentuan untuk menilai nilai per orangnya bersama jumlah orang yang menjadi sasarannya tidak ada pada acuan pengelolaan gangguan yang sekarang.
+
+　Setelah menuliskannya, dia memastikan tempat tujuan perujukan kolom keterangannya.
+
+　“Keterangan ini, siapa yang membacanya?”
+
+　“Penanggung jawab analisis gangguan masa berikutnya membacanya,” kata Korektor. “Perkara dengan pengamatan berjalan disajikan dalam satu daftar pada saat penyerahan tugasnya.”
+
+　Ogido sedikit merasa itu di luar dugaan.
+
+　Jadi ia dibaca, hampir dia keluarkan dari mulutnya, lalu dia berhenti. Bahwa dirinya telah menjadi orang yang merasa adanya kolom yang dibaca itu di luar dugaan, itulah yang lebih tersangkut pada Ogido.
+
+　“Satu hal saya tanyakan,” kata Ogido. “Berapa banyak perkara dengan pengamatan berjalan pada masa lalu?”
+
+　“Saat ini, empat puluh tujuh perkara sedang dalam pengamatan berjalan,” kata Korektor. “Yang paling lama adalah pendaftaran dua puluh dua tahun lalu.”
+
+　“Dua puluh dua tahun diamati?”
+
+　“Ia disajikan dalam satu daftar pada saat penyerahan tugasnya,” kata Korektor. “Apakah perkara yang disajikan itu dibuka atau tidak, tidak kami catat.”
+
+　Di luar jendela gelap. Di seluruh negeri, malam ini pun alatnya bergerak. Kedudukan tekanannya ditetapkan model yang ditetapkan empat tahun lalu. Cara ia menetapkannya tidak diketahui siapa pun, tetapi ia sama di seluruh negeri.
+
+　Bahwa ia sama, itu disebut ketepatan yang tinggi.
