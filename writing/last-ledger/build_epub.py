@@ -19,7 +19,7 @@ OUT  = ROOT / "book"
 # 縦書き（漢数字）が既定。--horizontal で横書き（算用数字）版、
 # --english で英語版、--german でドイツ語版、--french でフランス語版、
 # --spanish でスペイン語版、--italian でイタリア語版、
-# --dutch でオランダ語版、--portuguese でポルトガル語（ブラジル）版
+# --dutch でオランダ語版、--portuguese でポルトガル語（ブラジル）版、--indonesian でインドネシア語版
 # （いずれも横書き・左開き）を作る。
 ENGLISH  = "--english" in sys.argv
 GERMAN   = "--german" in sys.argv
@@ -28,7 +28,9 @@ SPANISH  = "--spanish" in sys.argv
 ITALIAN  = "--italian" in sys.argv
 DUTCH    = "--dutch" in sys.argv
 PORTUGUESE = "--portuguese" in sys.argv
-LATIN    = ENGLISH or GERMAN or FRENCH or SPANISH or ITALIAN or DUTCH or PORTUGUESE # 欧文の版（組み方・CSS・斜体の扱いが共通）
+INDONESIAN = "--indonesian" in sys.argv
+LATIN    = (ENGLISH or GERMAN or FRENCH or SPANISH or ITALIAN or DUTCH or PORTUGUESE
+            or INDONESIAN) # 欧文の版（組み方・CSS・斜体の扱いが共通）
 VERTICAL = not LATIN and "--horizontal" not in sys.argv
 if ENGLISH:
     SRC = ROOT / "manuscript-en"
@@ -44,6 +46,8 @@ elif DUTCH:
     SRC = ROOT / "manuscript-nl"
 elif PORTUGUESE:
     SRC = ROOT / "manuscript-pt"
+elif INDONESIAN:
+    SRC = ROOT / "manuscript-id"
 elif VERTICAL:
     SRC = ROOT / "build" / "vertical"
 else:
@@ -147,6 +151,18 @@ elif PORTUGUESE:
     })
     SUFFIX = ""
     BASENAME = "O_ultimo_livro-caixa_1_Uma_heranca_em_tres_partes"
+elif INDONESIAN:
+    METADATA.update({
+        "title":     "Buku Kas Terakhir: Warisan dalam Tiga Bagian",
+        "subtitle":  "Warisan dalam Tiga Bagian",
+        "series":    "Buku Kas Terakhir",
+        "language":  "id",
+        "original":  "最後の帳簿　三つに分けられた遺産",
+        "uuid":      "urn:uuid:" + str(uuid.uuid5(uuid.NAMESPACE_URL,
+                      "last-ledger-vol1-warisan-dalam-tiga-bagian-id")),
+    })
+    SUFFIX = ""
+    BASENAME = "Buku_Kas_Terakhir_1_Warisan_dalam_Tiga_Bagian"
 LANG = METADATA["language"]
 
 # 欧文の版の見出し・扉まわりの文言
@@ -203,6 +219,13 @@ LABELS = {
            "fiction": "Esta é uma obra de ficção. Nomes, personagens, empresas, lugares e "
                       "acontecimentos são produto da imaginação do autor. Qualquer semelhança "
                       "com pessoas reais, vivas ou mortas, ou com fatos reais é mera coincidência."},
+    "id": {"prologue": "Prolog", "epilogue": "Epilog", "toc": "Daftar Isi",
+           "book": "buku", "book_one": "Buku 1", "copyright": "Hak Cipta",
+           "rights": "Hak cipta dilindungi undang-undang.",
+           "original": "Judul asli:",
+           "fiction": "Ini adalah karya fiksi. Nama, tokoh, perusahaan, tempat, dan peristiwa "
+                      "merupakan hasil imajinasi pengarang. Kemiripan dengan orang yang masih hidup "
+                      "maupun yang sudah meninggal, atau dengan peristiwa nyata, hanyalah kebetulan."},
 }.get(LANG)
 
 ORDER = [("prologue", LABELS["prologue"] if LATIN else "プロローグ")] + \
@@ -491,7 +514,8 @@ def build():
         words = sum(len((SRC / (s + ".md")).read_text(encoding="utf-8").split())
                     for s, _, _ in chapters)
         print("Edition:", "English" if ENGLISH else "Deutsch" if GERMAN
-              else "Français" if FRENCH else "Español" if SPANISH else "Italiano" if ITALIAN else "Nederlands" if DUTCH else "Português (Brasil)",
+              else "Français" if FRENCH else "Español" if SPANISH else "Italiano" if ITALIAN else "Nederlands" if DUTCH else "Português (Brasil)" if PORTUGUESE
+              else "Bahasa Indonesia",
               "(horizontal, left-to-right)")
         print("EPUB:", epub.name, "(%.1f KB)" % (epub.stat().st_size / 1024))
         print("Units:", len(chapters), "/ about", format(words, ","), "words")

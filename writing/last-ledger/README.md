@@ -15,11 +15,12 @@
 | [`manuscript-it/`](manuscript-it/) | イタリア語版の本文（*L'ultimo libro dei conti: Un'eredità in tre parti*）。方針と対訳表は [`TRANSLATION-it.md`](TRANSLATION-it.md) |
 | [`manuscript-nl/`](manuscript-nl/) | オランダ語版の本文（*Het laatste kasboek: Een erfenis in drie delen*）。方針と対訳表は [`TRANSLATION-nl.md`](TRANSLATION-nl.md) |
 | [`manuscript-pt/`](manuscript-pt/) | ポルトガル語（ブラジル）版の本文（*O último livro-caixa: Uma herança em três partes*）。方針と対訳表は [`TRANSLATION-pt.md`](TRANSLATION-pt.md) |
-| [`book/`](book/) | **KDP入稿用の生成物。** EPUB（縦書き／横書き／英語／ドイツ語／フランス語／スペイン語／イタリア語／オランダ語／ポルトガル語）、統合原稿、出版情報（各版） |
+| [`manuscript-id/`](manuscript-id/) | インドネシア語版の本文（*Buku Kas Terakhir: Warisan dalam Tiga Bagian*）。方針と対訳表は [`TRANSLATION-id.md`](TRANSLATION-id.md) |
+| [`book/`](book/) | **KDP入稿用の生成物。** EPUB（縦書き／横書き／英語／ドイツ語／フランス語／スペイン語／イタリア語／オランダ語／ポルトガル語／インドネシア語）、統合原稿、出版情報（各版） |
 | `to_kanji.py` | 算用数字 → 漢数字（縦書き用）。`build/vertical/` に出す |
-| `build_epub.py` | EPUB3を組む。既定は縦書き、`--horizontal` で横書き、`--english` で英語版、`--german` でドイツ語版、`--french` でフランス語版、`--spanish` でスペイン語版、`--italian` でイタリア語版、`--dutch` でオランダ語版、`--portuguese` でポルトガル語（ブラジル）版 |
+| `build_epub.py` | EPUB3を組む。既定は縦書き、`--horizontal` で横書き、`--english` で英語版、`--german` でドイツ語版、`--french` でフランス語版、`--spanish` でスペイン語版、`--italian` でイタリア語版、`--dutch` でオランダ語版、`--portuguese` でポルトガル語（ブラジル）版、`--indonesian` でインドネシア語版 |
 
-**KDP入稿できる状態。** 全27章＋プロローグ＋エピローグ、78,274字。
+**KDP入稿できる状態。** 全27章＋プロローグ＋エピローグ、78,271字。
 入稿手順と残作業は [`book/KDP-出版情報.md`](book/KDP-出版情報.md) にまとめてある
 （残るのは表紙と価格の2つ）。
 
@@ -39,7 +40,12 @@ python3 writing/last-ledger/check_nl.py                  # オランダ語の約
 python3 writing/last-ledger/build_epub.py --dutch        # オランダ語版EPUB
 python3 writing/last-ledger/check_pt.py                  # ポルトガル語の約物検査（台詞の — と “ ”）
 python3 writing/last-ledger/build_epub.py --portuguese   # ポルトガル語（ブラジル）版EPUB
+python3 writing/last-ledger/check_id.py                  # インドネシア語の約物検査（“ ”）
+python3 writing/last-ledger/build_epub.py --indonesian   # インドネシア語版EPUB
 ```
+
+**インドネシア語版も組み上がっている。** 全29単位、約31,000語。日本語原文から訳した。
+KDPがインドネシア語を受け付けるかは未確認（[`book/KDP-Indonesia.md`](book/KDP-Indonesia.md) の 0. を参照）。
 
 **ポルトガル語（ブラジル）版も入稿できる状態。** 全29単位、約36,800語。日本語原文から訳した。
 KDPの入力内容は [`book/KDP-Portugues.md`](book/KDP-Portugues.md)。

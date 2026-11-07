@@ -1193,3 +1193,19 @@ KDPの入力内容は `book/KDP-Portugues.md`、方針と対訳表は `TRANSLATI
 遺言執行者は *testamenteiro*、公正証書遺言は *testamento público*、公証役場は *cartório*。
 どれもブラジル民法の語がそのまま当てはまる。遺留分 *a legítima* も同じ。
 橘はブラジルの慣例に合わせて *doutora Tachibana* と呼ぶ。
+
+## 追記 2026-11-07（インドネシア語版を仕上げた／第9章の呼び方を直した）
+
+インドネシア語版 *Buku Kas Terakhir: Warisan dalam Tiga Bagian* を全29単位訳した（約31,000語）。
+底本は日本語原文。台詞はインドネシアの小説で一般的な二重引用符 “ ” で括り、`check_id.py` で確かめてから
+`build_epub.py --indonesian` で `book/Buku_Kas_Terakhir_1_Warisan_dalam_Tiga_Bagian.epub` を組む。
+入稿情報は `book/KDP-Indonesia.md`、方針と対訳表は `TRANSLATION-id.md`。
+KDPがインドネシア語の電子書籍を受け付けるかは、作業環境からKDPのヘルプを開けず未確認。
+出版前に確かめる手順を `book/KDP-Indonesia.md` の冒頭に置いた。
+
+遺留分は *bagian mutlak*、固定資産評価証明書は *surat keterangan NJOP*。どちらもインドネシアの制度の語がそのまま当てはまる。
+
+訳している途中で、第9章の亮介の台詞「お姉ちゃん、それ書いて意味あんの」の誤りに気づいた。
+亮介は兄なので、妹の千鶴を「お姉ちゃん」とは呼ばない。「千鶴、それ書いて意味あんの」に直し、
+縦書き・横書きのEPUBを組み直した（本文は78,271字）。英・独・仏・西・伊の各版はもともと名前で訳しており、
+蘭・葡の各版は年上か年下かを言わない呼び方なので、どれも直さなくてよい。

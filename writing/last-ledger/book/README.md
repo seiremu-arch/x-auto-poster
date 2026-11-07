@@ -14,6 +14,7 @@ python3 ../check_es.py && python3 ../build_epub.py --spanish # スペイン語�
 python3 ../check_it.py && python3 ../build_epub.py --italian # イタリア語版EPUB + 統合md（../manuscript-it/）
 python3 ../check_nl.py && python3 ../build_epub.py --dutch   # オランダ語版EPUB + 統合md（../manuscript-nl/）
 python3 ../check_pt.py && python3 ../build_epub.py --portuguese # ポルトガル語版EPUB + 統合md（../manuscript-pt/）
+python3 ../check_id.py && python3 ../build_epub.py --indonesian # インドネシア語版EPUB + 統合md（../manuscript-id/）
 ```
 
 | ファイル | 中身 |
@@ -44,6 +45,9 @@ python3 ../check_pt.py && python3 ../build_epub.py --portuguese # ポルトガ�
 | `KDP-Portugues.md` | ポルトガル語（ブラジル）版のKDP入力内容（内容紹介・キーワード・カテゴリ・AI開示・KDPセレクトの注意） |
 | `O_ultimo_livro-caixa_1_Uma_heranca_em_tres_partes.epub` | **ポルトガル語版のKDP入稿用**（横書き・左開き） |
 | `O_ultimo_livro-caixa_1_Uma_heranca_em_tres_partes.md` | ポルトガル語版の統合原稿 |
+| `KDP-Indonesia.md` | インドネシア語版の入稿情報（KDPの対応言語の確認、内容紹介・キーワード・カテゴリ・AI開示） |
+| `Buku_Kas_Terakhir_1_Warisan_dalam_Tiga_Bagian.epub` | **インドネシア語版の入稿用**（横書き・左開き） |
+| `Buku_Kas_Terakhir_1_Warisan_dalam_Tiga_Bagian.md` | インドネシア語版の統合原稿 |
 
 ## 数字の扱い
 
