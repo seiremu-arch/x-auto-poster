@@ -201,7 +201,8 @@ def capture_thought(text, tags, dry_run):
         {
             "id": note_id,
             "type": "capture",
-            "title": plain_text(text, 60),
+            # タイトルは1行目だけ。複数行のメモでもfrontmatterのtitleが1行に収まるように
+            "title": plain_text(text.strip().splitlines()[0], 60),
             "status": "inbox",
             "source": "manual",
             "captured_at": vault.iso(now),
